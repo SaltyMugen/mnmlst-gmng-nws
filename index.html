@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
+<meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
 
 <script>
     (function() {
@@ -32,20 +33,33 @@
     --hot-bg: #1971c2; --catchup-bg: #339af0; --icon-color: #55524e; --rumour: #f77f00;
 }
 
+/* FIX 1: Smooth transition for background and color across the whole site */
 body { 
-    background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
-    max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
+    background: var(--bg); 
+    color: var(--ink); 
+    font-family: 'DM Sans', sans-serif; 
+    max-width: 850px; 
+    margin: 0 auto; 
+    padding: 100px 20px 40px; 
     transition: background 0.3s ease, color 0.3s ease; 
 }
 
-/* ── RESTORED HEADER ── */
+/* ── FIXED HEADER ── */
 header { 
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between; 
     padding: 12px 5%; background: var(--header-bg); backdrop-filter: blur(12px);
-    border-bottom: 1px solid transparent; transition: border-color 0.3s ease, padding 0.3s ease;
+    border-bottom: 1px solid transparent; 
+    /* FIX 1 & 2: Smooth transition for header background and the scroll border */
+    transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
 }
-header.scrolled { border-color: var(--sub); padding: 6px 5%; }
+
+/* FIX 2: This class is applied via JS when the user scrolls */
+header.scrolled { 
+    border-bottom-color: var(--sub); 
+    padding: 8px 5%; 
+}
+
 .header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
 
 h1 { 
@@ -58,7 +72,7 @@ h1 span {
     color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
 }
 
-/* ── FEED & LOGO FIX ── */
+/* ── FEED ── */
 #feed { list-style: none; }
 .item { 
     display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
@@ -70,12 +84,13 @@ h1 span {
 .item:hover { background: var(--hover-bg); }
 .item:hover .item-body a { color: var(--hover-ink); }
 
-/* Logo: Color on Hover */
+/* Logo: Restore Grayscale to Color hover effect */
 .item-logo { 
     width: 24px; height: 24px; object-fit: cover; opacity: 0.3; 
-    filter: grayscale(100%); transition: filter 0.3s, opacity 0.3s; border-radius: 2px; 
+    filter: grayscale(100%); transition: filter 0.3s ease, opacity 0.3s ease; 
+    border-radius: 2px; 
 }
-.item:hover .item-logo { filter: grayscale(0%); opacity: 0.8; }
+.item:hover .item-logo { filter: grayscale(0%); opacity: 1; }
 
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
@@ -87,7 +102,7 @@ h1 span {
 .badge-new { background: #d63b2f; }
 .badge-hot { background: var(--hot-bg); }
 
-/* ── RESTORED CONTROLS ── */
+/* ── CONTROLS ── */
 .controls { display: flex; align-items: center; gap: 15px; }
 .icon-btn { background: none; border: none; cursor: pointer; color: var(--icon-color); display: flex; align-items: center; justify-content: center; transition: color 0.2s, opacity 0.2s; opacity: 0.8; }
 .icon-btn:hover { color: var(--ink); opacity: 1; }
@@ -113,7 +128,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 </head>
 <body>
 
-<div id="splash">
+<div id="splash" aria-hidden="true">
   <div class="splash-title">OniMugen</div>
   <div class="splash-track"><div class="splash-fill" id="s-fill"></div></div>
 </div>
@@ -124,7 +139,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
       <div class="controls">
         <div class="expand-container">
             <button class="icon-btn" onclick="toggleControl('search')" title="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
-            <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search gaming news..." oninput="applyFilters()"></div>
+            <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()"></div>
         </div>
         <div class="expand-container">
             <button class="icon-btn" onclick="toggleControl('filter')" title="Filter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg></button>
@@ -147,9 +162,20 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 <footer><div class="footer-text">&copy; 2026 OniMugen Gaming Feed.</div></footer>
 
 <script>
+const CUTOFF_MS = 48 * 60 * 60 * 1000;
 const CACHE_KEY = "onimugen_v1_gaming";
 let allArticles = [];
 let currentFilter = 'all';
+
+// FIX 2: Dynamic Header Separator on Scroll
+window.onscroll = function() {
+    const header = document.getElementById("main-header");
+    if (window.pageYOffset > 20) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+};
 
 function toggleTheme() {
     const d = document.documentElement;
