@@ -272,13 +272,21 @@ function setFilter(t, el) {
 
 function applyFilters() {
     const q = document.getElementById('search-input').value.toLowerCase();
+    
+    // We target the 'item-container' (the <li>)
     document.querySelectorAll('.item-container').forEach(item => {
-        const art = item.querySelector('article');
+        // We find the article inside it which holds the data-title
+        const art = item.querySelector('.item');
+        if (!art) return;
+
         const title = art.getAttribute('data-title').toLowerCase();
         const matchSearch = title.includes(q);
-        let   matchTab    = true;
+        
+        let matchTab = true;
         if (currentFilter === 'new') matchTab = art.getAttribute('data-new') === 'true';
         if (currentFilter === 'hot') matchTab = art.getAttribute('data-hot') === 'true';
+        
+        // Hide or show the <li> container
         item.classList.toggle('hidden', !(matchSearch && matchTab));
     });
 }
