@@ -14,6 +14,10 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<noscript>
+  <style>.noscript-msg { padding: 40px; text-align: center; font-family: sans-serif; }</style>
+  <div class="noscript-msg">JavaScript is required to load the news feed. Please enable it in your browser.</div>
+</noscript>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 [data-theme="day"] { 
@@ -32,7 +36,7 @@
 [data-theme="night"] .item-logo {
     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.1));
     opacity: 0.8;
-    background: rgba(255, 255, 255, 0.03); /* Adds a very faint backlight */
+    background: rgba(255, 255, 255, 0.03);
 }
 
 [data-theme="night"] .item:hover .item-logo {
@@ -112,157 +116,307 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 </style>
 </head>
 <body>
-<div id="splash" aria-hidden="true">
-  <div class="splash-title">OniMugen</div>
-  <div class="splash-track"><div class="splash-fill" id="s-fill"></div></div>
+<div id="splash" role="status" aria-live="polite" aria-label="Loading OniMugen Gaming">
+  <div class="splash-title" aria-hidden="true">OniMugen</div>
+  <div class="splash-track" aria-hidden="true"><div class="splash-fill" id="s-fill"></div></div>
 </div>
 <header id="main-header">
   <div class="header-inner">
       <h1>OniMugen<span>Gaming</span></h1>
       <div class="controls">
         <div class="expand-container">
-            <button class="icon-btn" onclick="toggleControl('search')" title="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
-            <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()"></div>
+            <button class="icon-btn" onclick="toggleControl('search')" title="Search" aria-label="Toggle search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+            <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()" aria-label="Search news"></div>
         </div>
         <div class="expand-container">
-            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg></button>
+            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter" aria-label="Toggle filter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+            </button>
             <div id="filter-wrap" class="expandable">
-                <div class="filter-options">
-                    <span class="filter-opt active" onclick="setFilter('all', this)">ALL</span>
-                    <span class="filter-opt" onclick="setFilter('new', this)">NEW</span>
-                    <span class="filter-opt" onclick="setFilter('hot', this)">HOT</span>
+                <div class="filter-options" role="group" aria-label="Filter articles">
+                    <span class="filter-opt active" onclick="setFilter('all', this)" role="button" tabindex="0" aria-pressed="true">ALL</span>
+                    <span class="filter-opt" onclick="setFilter('new', this)" role="button" tabindex="0" aria-pressed="false">NEW</span>
+                    <span class="filter-opt" onclick="setFilter('hot', this)" role="button" tabindex="0" aria-pressed="false">HOT</span>
                 </div>
             </div>
         </div>
-        <button class="icon-btn" onclick="hardRefresh()" title="Refresh"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"></path><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg></button>
-        <button class="icon-btn" onclick="toggleTheme()" title="Theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+        <button class="icon-btn" onclick="hardRefresh()" title="Refresh" aria-label="Refresh feed">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 4v6h-6"></path><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+        </button>
+        <button class="icon-btn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle light/dark theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
       </div>
   </div>
 </header>
-<main><ul id="feed"></ul></main>
+<main><ul id="feed" aria-live="polite" aria-label="Gaming news feed"></ul></main>
 <footer><div class="footer-text">&copy; 2026 OniMugen. All content belongs to the respective creators and publishers.</div></footer>
 <script>
-const CUTOFF_MS = 48 * 60 * 60 * 1000;
-const CACHE_KEY = "onimugen_v1_gaming";
-let allArticles = [];
+// ─── Constants ────────────────────────────────────────────────────
+const NEW_THRESHOLD_MS  = 15 * 60 * 1000;   // 15 minutes
+const CUTOFF_MS         = 48 * 60 * 60 * 1000; // 48 hours (used for future age-gating)
+const REFRESH_INTERVAL  = 5 * 60 * 1000;    // 5 minutes
+const CACHE_KEY         = "onimugen_v1_gaming";
+
+// ─── State ────────────────────────────────────────────────────────
+let allArticles   = [];   // master copy of current articles
 let currentFilter = 'all';
-window.onscroll = function() {
-    const header = document.getElementById("main-header");
-    if (window.pageYOffset > 20) {
-        header.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
+let lastDataHash  = null; // hash to detect real content changes
+
+// ─── Utilities ────────────────────────────────────────────────────
+
+/** Simple hash so we detect content changes, not just length changes. */
+function hashArticles(articles) {
+    return articles.map(a => a.link + a.date).join('|');
+}
+
+/** Safely escape a string for insertion as text content (prevents XSS). */
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.appendChild(document.createTextNode(String(str)));
+    return div.innerHTML;
+}
+
+/** Return a URL-safe domain string from a full URL (prevents JS injection). */
+function safeDomain(url) {
+    try {
+        return new URL(url).hostname;
+    } catch (_) {
+        return '';
     }
-};
+}
+
+function formatTime(ts) {
+    const d = Date.now() - ts;
+    if (d < 3600000)  return Math.floor(d / 60000)   + 'm';
+    if (d < 86400000) return Math.floor(d / 3600000)  + 'h';
+    return Math.floor(d / 86400000) + 'd';
+}
+
+// ─── Theme ────────────────────────────────────────────────────────
 function toggleTheme() {
-    const d = document.documentElement;
+    const d    = document.documentElement;
     const next = d.getAttribute('data-theme') === 'day' ? 'night' : 'day';
     d.setAttribute('data-theme', next);
     localStorage.setItem('om-theme', next);
 }
+
+// ─── Controls ─────────────────────────────────────────────────────
 function toggleControl(type) {
-    const s = document.getElementById('search-wrap'), f = document.getElementById('filter-wrap');
-    if (type === 'search') { f.classList.remove('active'); s.classList.toggle('active'); if (s.classList.contains('active')) document.getElementById('search-input').focus(); }
-    else { s.classList.remove('active'); f.classList.toggle('active'); }
+    const s = document.getElementById('search-wrap');
+    const f = document.getElementById('filter-wrap');
+    if (type === 'search') {
+        f.classList.remove('active');
+        s.classList.toggle('active');
+        if (s.classList.contains('active')) document.getElementById('search-input').focus();
+    } else {
+        s.classList.remove('active');
+        f.classList.toggle('active');
+    }
 }
+
 function setFilter(t, el) {
-    document.querySelectorAll('.filter-opt').forEach(opt => opt.classList.remove('active'));
-    el.classList.add('active'); currentFilter = t; applyFilters();
+    document.querySelectorAll('.filter-opt').forEach(opt => {
+        opt.classList.remove('active');
+        opt.setAttribute('aria-pressed', 'false');
+    });
+    el.classList.add('active');
+    el.setAttribute('aria-pressed', 'true');
+    currentFilter = t;
+    applyFilters();
 }
+
 function applyFilters() {
     const q = document.getElementById('search-input').value.toLowerCase();
     document.querySelectorAll('.item').forEach(item => {
-        const title = item.getAttribute('data-title').toLowerCase();
-        const matchesSearch = title.includes(q);
-        let matchesTab = true;
-        if (currentFilter === 'new') matchesTab = item.getAttribute('data-new') === 'true';
-        if (currentFilter === 'hot') matchesTab = item.getAttribute('data-hot') === 'true';
-        item.classList.toggle('hidden', !(matchesSearch && matchesTab));
+        const title       = item.getAttribute('data-title').toLowerCase();
+        const matchSearch = title.includes(q);
+        let   matchTab    = true;
+        if (currentFilter === 'new') matchTab = item.getAttribute('data-new') === 'true';
+        if (currentFilter === 'hot') matchTab = item.getAttribute('data-hot') === 'true';
+        item.classList.toggle('hidden', !(matchSearch && matchTab));
     });
 }
-function formatTime(ts) {
-    const d = Date.now() - ts;
-    if (d < 3600000) return Math.floor(d/60000) + 'm';
-    if (d < 86400000) return Math.floor(d/3600000) + 'h';
-    return Math.floor(d/86400000) + 'd';
-}
+
+// ─── Scroll ───────────────────────────────────────────────────────
+window.addEventListener('scroll', () => {
+    document.getElementById('main-header')
+        .classList.toggle('scrolled', window.pageYOffset > 20);
+});
+
+// ─── Keyboard: filter buttons ─────────────────────────────────────
+document.addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('filter-opt')) {
+        e.preventDefault();
+        e.target.click();
+    }
+});
+
+// ─── Render ───────────────────────────────────────────────────────
 function render(articles) {
-    const feed = document.getElementById("feed"); feed.innerHTML = "";
-    const titleGroups = {};
+    allArticles = articles; // keep master copy in sync
+
+    const feed = document.getElementById('feed');
+    feed.innerHTML = '';
+
+    // Build hot-detection map: a title slug appearing in >1 article is "hot"
+    // Use normalised URL hostname + title slug to avoid false positives.
+    const slugCount = {};
     articles.forEach(a => {
-        const slug = a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-        if (!titleGroups[slug]) titleGroups[slug] = [];
-        titleGroups[slug].push(a.date);
+        // Combine domain + first 40 chars of normalised title for a more precise key
+        const domain = safeDomain(a.link);
+        const slug   = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
+        slugCount[slug] = (slugCount[slug] || 0) + 1;
     });
-    articles.sort((a,b) => b.date - a.date).forEach((a, i) => {
-        const now = Date.now();
-        const isNew = (Date.now() - a.date) < 900000;
-        const slug = a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-        const isHot = titleGroups[slug].length > 1;
-        const li = document.createElement("li");
-        li.className = "item";
-        li.setAttribute('data-title', a.title);
-        li.setAttribute('data-new', isNew);
-        li.setAttribute('data-hot', isHot);
-        li.innerHTML = `
-            <span class="item-date">${formatTime(a.date)}</span>
-            <div class="item-body">
-                <a href="${a.link}" target="_blank" rel="noopener">
-                    ${a.title}
-                    ${isNew ? '<span class="badge badge-new">New</span>' : ''}
-                    ${a.link.includes('reddit.com') ? '<span class="badge badge-rumour">Rumour</span>' : ''}
-                    ${a.link.includes('playstation.com') ? '<span class="badge badge-ps">Playstation</span>' : ''}
-                    ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
-                </a>
-            </div>
-            <span><img class="item-logo" src="https://www.google.com/s2/favicons?domain=${a.domain}&sz=32"></span>
-        `;
-        feed.appendChild(li);
-        setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
-    });
+
+    articles
+        .slice() // don't mutate original
+        .sort((a, b) => b.date - a.date)
+        .forEach((a, i) => {
+            const isNew    = (Date.now() - a.date) < NEW_THRESHOLD_MS;
+            const domain   = safeDomain(a.link);
+            const slug     = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
+            const isHot    = slugCount[slug] > 1;
+            const isReddit = a.link.includes('reddit.com');
+            const isPS     = a.link.includes('playstation.com');
+
+            const li = document.createElement('li');
+            li.className = 'item';
+            // Store escaped title for filtering
+            li.setAttribute('data-title', a.title);
+            li.setAttribute('data-new', isNew);
+            li.setAttribute('data-hot', isHot);
+
+            // ── Date cell ──
+            const dateSpan = document.createElement('span');
+            dateSpan.className = 'item-date';
+            dateSpan.textContent = formatTime(a.date);
+
+            // ── Body cell ──
+            const body = document.createElement('div');
+            body.className = 'item-body';
+
+            const link = document.createElement('a');
+            link.href   = a.link;
+            link.target = '_blank';
+            link.rel    = 'noopener noreferrer'; // FIX: added noreferrer
+            link.textContent = a.title; // FIX: textContent prevents XSS
+
+            if (isNew)    link.appendChild(makeBadge('New',      'badge-new'));
+            if (isReddit) link.appendChild(makeBadge('Rumour',   'badge-rumour'));
+            if (isPS)     link.appendChild(makeBadge('PlayStation', 'badge-ps'));
+            if (isHot)    link.appendChild(makeBadge('Hot',      'badge-hot'));
+
+            body.appendChild(link);
+
+            // ── Logo cell ──
+            const logoWrap = document.createElement('span');
+            logoWrap.setAttribute('aria-hidden', 'true');
+            const img = document.createElement('img');
+            img.className = 'item-logo';
+            img.alt = ''; // decorative
+            // safeDomain ensures only clean hostname is used in the favicon URL
+            if (domain) {
+                img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=32`;
+            }
+            logoWrap.appendChild(img);
+
+            li.appendChild(dateSpan);
+            li.appendChild(body);
+            li.appendChild(logoWrap);
+            feed.appendChild(li);
+
+            // Staggered reveal (cap delay at first 30 items)
+            setTimeout(() => li.classList.add('show'), i < 30 ? i * 15 : 0);
+        });
 }
+
+function makeBadge(text, cls) {
+    const b = document.createElement('span');
+    b.className = `badge ${cls}`;
+    b.textContent = text;
+    return b;
+}
+
+// ─── Data fetching ────────────────────────────────────────────────
+async function fetchFresh() {
+    const r    = await fetch('./data_gaming.json?t=' + Date.now());
+    if (!r.ok) throw new Error('Network response was not ok');
+    return r.json();
+}
+
 async function init() {
+    // Paint from cache immediately if available
     const cached = localStorage.getItem(CACHE_KEY);
     if (cached) {
-        render(JSON.parse(cached));
-        document.getElementById("splash").classList.add("fade");
+        try {
+            const cachedData = JSON.parse(cached);
+            allArticles  = cachedData;
+            lastDataHash = hashArticles(cachedData);
+            render(cachedData);
+        } catch (_) {
+            localStorage.removeItem(CACHE_KEY); // corrupted cache
+        }
+        document.getElementById('splash').classList.add('fade');
     }
+
     try {
-        const r = await fetch('./data_gaming.json?t=' + Date.now());
-        const freshData = await r.json();
+        const freshData = await fetchFresh();
         if (freshData && freshData.length > 0) {
-            render(freshData);
-            localStorage.setItem(CACHE_KEY, JSON.stringify(freshData));
+            const freshHash = hashArticles(freshData);
+            // FIX: compare content hash, not just length
+            if (freshHash !== lastDataHash) {
+                lastDataHash = freshHash;
+                allArticles  = freshData;
+                render(freshData);
+                localStorage.setItem(CACHE_KEY, JSON.stringify(freshData));
+            }
         }
     } catch (e) {
-        console.warn("Fetch failed");
+        console.warn('Fetch failed:', e.message);
     } finally {
-        document.getElementById("s-fill").style.width = "100%";
-        setTimeout(() => document.getElementById("splash").classList.add("fade"), 300);
+        document.getElementById('s-fill').style.width = '100%';
+        setTimeout(() => {
+            const splash = document.getElementById('splash');
+            splash.classList.add('fade');
+            // FIX: restore aria visibility after fade
+            splash.setAttribute('aria-hidden', 'true');
+        }, 300);
     }
 }
+
 function hardRefresh() {
     localStorage.removeItem(CACHE_KEY);
-    init(); 
+    lastDataHash = null;
+    init();
 }
-window.onload = init;
 
-setInterval(async () => {
+// ─── Silent background refresh ────────────────────────────────────
+async function silentRefresh() {
     try {
-        const r = await fetch('./data_gaming.json?t=' + Date.now());
-        const freshData = await r.json();
-        
-        
-        const currentCount = document.querySelectorAll('.item').length;
-        if (freshData.length !== currentCount) {
-            console.log("New news found! Updating feed...");
+        const freshData = await fetchFresh();
+        if (!freshData || freshData.length === 0) return;
+        const freshHash = hashArticles(freshData);
+        // FIX: compare by content hash, not article count
+        if (freshHash !== lastDataHash) {
+            console.log('New content detected — updating feed.');
+            lastDataHash = freshHash;
+            allArticles  = freshData;
             render(freshData);
             localStorage.setItem(CACHE_KEY, JSON.stringify(freshData));
         }
     } catch (e) {
-        console.log("Silent update check failed.");
+        console.log('Silent refresh failed silently.');
     }
-}, 300000); 
+}
+
+// ─── Boot ─────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+    setInterval(silentRefresh, REFRESH_INTERVAL);
+});
 </script>
 </body>
 </html>
