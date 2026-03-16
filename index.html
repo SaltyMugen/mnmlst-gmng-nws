@@ -93,6 +93,7 @@ h1 span {
 .badge-new { background: #d63b2f; }
 .badge-hot { background: var(--hot-bg); }
 .badge-rumour { background: var(--rumour); }
+.badge-ps { background: #006FCD; } 
 
 /* ── CONTROLS ── */
 .controls { display: flex; align-items: center; gap: 15px; }
@@ -234,6 +235,7 @@ function render(articles) {
                     ${a.title}
                     ${isNew ? '<span class="badge badge-new">New</span>' : ''}
                     ${a.link.includes('reddit.com') ? '<span class="badge badge-rumour">Rumour</span>' : ''}
+                    ${a.link.includes('playstation.com') ? '<span class="badge badge-ps">Playstation</span>' : ''}
                     ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
                 </a>
             </div>
