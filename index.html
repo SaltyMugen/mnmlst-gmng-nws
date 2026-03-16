@@ -30,12 +30,16 @@
 }
 
 [data-theme="night"] .item-logo {
-    filter: grayscale(1) brightness(1.2);
-    opacity: 0.5;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.1));
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.03); /* Adds a very faint backlight */
+    padding: 2px;
 }
+
 [data-theme="night"] .item:hover .item-logo {
-    filter: none;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
     opacity: 1;
+    background: rgba(255, 255, 255, 0.08);
 }
 
 body { 
