@@ -242,6 +242,7 @@ function render(articles) {
                     ${a.title}
                     ${isNew ? '<span class="badge badge-new">New</span>' : ''}
                     ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
+                    ${a.link.includes('reddit.com') ? '<span class="badge badge-rumour">Rumour</span>' : ''}
                 </a>
             </div>
             <span><img class="item-logo" src="https://www.google.com/s2/favicons?domain=${a.domain}&sz=32"></span>
