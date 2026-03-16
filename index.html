@@ -6,6 +6,7 @@
 
 <title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
 <meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
+<meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen">
 
 <script>
     (function() {
@@ -24,23 +25,19 @@
     --bg: #fafaf8; --ink: #1a1916; --dim: #9a9690; --sub: #e4e1db; 
     --new-hl: rgba(214, 59, 47, 0.04); --hot-hl: rgba(0, 86, 179, 0.04); --hover-bg: #f1f0ec;
     --hover-ink: #0056b3; --header-bg: rgba(250, 250, 248, 0.95);
-    --hot-bg: #007bff; --catchup-bg: #0056b3; --icon-color: #9a9690; --rumour: #f77f00;
+    --hot-bg: #007bff; --icon-color: #9a9690; --rumour: #f77f00;
 }
 [data-theme="night"] { 
     --bg: #111110; --ink: #dedad4; --dim: #55524e; --sub: #252422; 
     --new-hl: rgba(214, 59, 47, 0.1); --hot-hl: rgba(51, 154, 240, 0.08); --hover-bg: #1a1a19;
     --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
-    --hot-bg: #1971c2; --catchup-bg: #339af0; --icon-color: #55524e; --rumour: #f77f00;
+    --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
 }
 
-/* FIX 1: Smooth transition for background and color across the whole site */
+/* FIX: Smooth background and color transitions for theme switching */
 body { 
-    background: var(--bg); 
-    color: var(--ink); 
-    font-family: 'DM Sans', sans-serif; 
-    max-width: 850px; 
-    margin: 0 auto; 
-    padding: 100px 20px 40px; 
+    background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
+    max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
     transition: background 0.3s ease, color 0.3s ease; 
 }
 
@@ -50,16 +47,11 @@ header {
     display: flex; align-items: center; justify-content: space-between; 
     padding: 12px 5%; background: var(--header-bg); backdrop-filter: blur(12px);
     border-bottom: 1px solid transparent; 
-    /* FIX 1 & 2: Smooth transition for header background and the scroll border */
+    /* FIX: Smooth transition for header and separator */
     transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
 }
-
-/* FIX 2: This class is applied via JS when the user scrolls */
-header.scrolled { 
-    border-bottom-color: var(--sub); 
-    padding: 8px 5%; 
-}
-
+/* FIX: Separator appears on scroll */
+header.scrolled { border-color: var(--sub); padding: 8px 5%; }
 .header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
 
 h1 { 
@@ -76,7 +68,7 @@ h1 span {
 #feed { list-style: none; }
 .item { 
     display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
-    padding: 2px 8px; margin-bottom: 1px; border-radius: 3px;
+    padding: 0 8px; margin-bottom: 1px; border-radius: 3px;
     opacity: 0; transform: translateY(5px); transition: 0.2s ease, background 0.3s ease; 
 }
 .item.show { opacity: 1; transform: none; }
@@ -84,13 +76,12 @@ h1 span {
 .item:hover { background: var(--hover-bg); }
 .item:hover .item-body a { color: var(--hover-ink); }
 
-/* Logo: Restore Grayscale to Color hover effect */
+/* FIX: Logo color restoration on hover */
 .item-logo { 
     width: 24px; height: 24px; object-fit: cover; opacity: 0.3; 
-    filter: grayscale(100%); transition: filter 0.3s ease, opacity 0.3s ease; 
-    border-radius: 2px; 
+    filter: grayscale(100%); transition: filter 0.3s ease, opacity 0.3s ease; border-radius: 2px; 
 }
-.item:hover .item-logo { filter: grayscale(0%); opacity: 1; }
+.item:hover .item-logo { filter: grayscale(0%); opacity: 0.8; }
 
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
@@ -101,6 +92,7 @@ h1 span {
 .badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
 .badge-new { background: #d63b2f; }
 .badge-hot { background: var(--hot-bg); }
+.badge-rumour { background: var(--rumour); }
 
 /* ── CONTROLS ── */
 .controls { display: flex; align-items: center; gap: 15px; }
@@ -167,7 +159,7 @@ const CACHE_KEY = "onimugen_v1_gaming";
 let allArticles = [];
 let currentFilter = 'all';
 
-// FIX 2: Dynamic Header Separator on Scroll
+// FIX: Scroll Separator Logic
 window.onscroll = function() {
     const header = document.getElementById("main-header");
     if (window.pageYOffset > 20) {
@@ -241,8 +233,8 @@ function render(articles) {
                 <a href="${a.link}" target="_blank" rel="noopener">
                     ${a.title}
                     ${isNew ? '<span class="badge badge-new">New</span>' : ''}
-                    ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
                     ${a.link.includes('reddit.com') ? '<span class="badge badge-rumour">Rumour</span>' : ''}
+                    ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
                 </a>
             </div>
             <span><img class="item-logo" src="https://www.google.com/s2/favicons?domain=${a.domain}&sz=32"></span>
