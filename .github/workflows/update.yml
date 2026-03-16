@@ -1,10 +1,12 @@
 name: Robot Update
 
 on:
-  schedule:
-    # Runs every 14 minutes
-    - cron: '*/14 * * * *'
-  workflow_dispatch: # Keep this so you can still run it manually!
+  # This keeps the door open for Cron-job.org
+  workflow_dispatch: 
+  
+  # Delete or comment out the 'schedule' lines below
+  # schedule:
+  #   - cron: '*/5 * * * *'
 
 jobs:
   build:
