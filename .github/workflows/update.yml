@@ -1,27 +1,35 @@
 name: Robot Update
+
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes
-  workflow_dispatch:        # Adds a manual "Run" button
-
-permissions:
-  contents: write           # Gives the robot permission to save the JSON file
+    # Runs every 5 minutes to nudge the server more often
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allows you to run it manually
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      # Updated to v5 to fix the Node.js warning
+      - name: Checkout Repo
+        uses: actions/checkout@v5 
+
+      # Updated to v5 to fix the Node.js warning
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
-      - run: pip install -r requirements.txt
-      - run: python fetch_news.py
-      - name: Commit data
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install feedparser requests
+
+      - name: Run News Robot
+        run: python fetch_news.py
+
+      - name: Commit and Push
         run: |
-          git config --global user.name "OniBot"
-          git config --global user.email "bot@onimugen.com"
+          git config --global user.name "Robot"
+          git config --global user.email "robot@onimugen.com"
           git add data_gaming.json
-          git commit -m "Update Gaming Data" || exit 0
+          git commit -m "Robot: Fresh news batch" || exit 0
           git push
