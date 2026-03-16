@@ -138,6 +138,138 @@ const CACHE_KEY = "onimugen_v1_gaming";
 let allArticles = [];
 let currentFilter = 'all';
 
-const init = () => {
+const formatTime = (ts) => {
+    const diff = Date.now() - ts;
+    if (diff < 3600000) return Math.floor(diff/60000) + 'm';
+    if (diff < 86400000) return Math.floor(diff/3600000) + 'h';
+    return Math.floor(diff/86400000) + 'd';
+};
+
+const render = (articles) => {
+    const feed = document.getElementById("feed");
+    feed.innerHTML = "";
+    const titleMap = {};
+    articles.forEach(a => {
+        const slug = a.title.toLowerCase().trim().replace(/\s+/g, '-').substring(0, 40);
+        titleMap[slug] = (titleMap[slug] || 0) + 1;
+    });
+    articles.sort((a,b) => b.date - a.date).forEach((a, i) => {
+        const isNew = (Date.now() - a.date) < 1800000;
+        const slug = a.title.toLowerCase().trim().replace(/\s+/g, '-').substring(0, 50);
+        const isHot = titleMap[slug] > 1;
+        const li = document.createElement("li");
+        li.className = "item";
+        li.dataset.title = a.title;
+        li.dataset.new = isNew;
+        li.dataset.hot = isHot;
+        li.innerHTML = `
+            <span class="item-date">${formatTime(a.date)}</span>
+            <div class="item-body">
+                <a href="${a.link}" target="_blank" rel="noopener">
+                    ${a.title}
+                    ${isNew ? '<span class="badge badge-new">New</span>' : ''}
+                    ${a.link.includes('reddit.com') ? '<span class="badge badge-rumour">Rumour</span>' : ''}
+                    ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
+                </a>
+            </div>
+            <span><img class="item-logo" src="https://www.google.com/s2/favicons?domain=${a.domain}&sz=32" alt="icon"></span>
+        `;
+        feed.appendChild(li);
+        setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
+    });
+};
+
+const applyFilters = () => {
+    const query = document.getElementById('search-input').value.toLowerCase();
+    let count = 0;
+    document.querySelectorAll('.item').forEach(item => {
+        const title = item.dataset.title.toLowerCase();
+        const matchesSearch = title.includes(query);
+        let matchesTab = true;
+        if (currentFilter === 'new') matchesTab = item.dataset.new === 'true';
+        if (currentFilter === 'hot') matchesTab = item.dataset.hot === 'true';
+        const isVisible = matchesSearch && matchesTab;
+        item.classList.toggle('hidden', !isVisible);
+        if (isVisible) count++;
+    });
+    const msgEl = document.getElementById('status-msg');
+    msgEl.innerText = count === 0 ? "No results match your criteria." : "";
+    msgEl.style.display = count === 0 ? "block" : "none";
+};
+
+const toggleTheme = () => {
+    const d = document.documentElement;
+    const next = d.getAttribute('data-theme') === 'day' ? 'night' : 'day';
+    d.setAttribute('data-theme', next);
+    localStorage.setItem('om-theme', next);
+};
+
+const toggleControl = (type) => {
+    const s = document.getElementById('search-wrap'), f = document.getElementById('filter-wrap');
+    if (type === 'search') { f.classList.remove('active'); s.classList.toggle('active'); if (s.classList.contains('active')) document.getElementById('search-input').focus(); }
+    else { s.classList.remove('active'); f.classList.toggle('active'); }
+};
+
+const hardRefresh = () => {
+    localStorage.removeItem(CACHE_KEY);
+    location.reload();
+};
+
+const init = async () => {
     document.getElementById('ctrl-theme').addEventListener('click', toggleTheme);
     document.getElementById('ctrl-refresh').addEventListener('click', hardRefresh);
+    document.getElementById('ctrl-search').addEventListener('click', () => toggleControl('search'));
+    document.getElementById('ctrl-filter').addEventListener('click', () => toggleControl('filter'));
+    document.getElementById('search-input').addEventListener('input', applyFilters);
+    document.querySelectorAll('.filter-opt').forEach(el => {
+        el.addEventListener('click', (e) => {
+            document.querySelectorAll('.filter-opt').forEach(opt => opt.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.dataset.filter;
+            applyFilters();
+        });
+    });
+
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) {
+        allArticles = JSON.parse(cached);
+        render(allArticles);
+    }
+    try {
+        const res = await fetch('./data_gaming.json?t=' + Date.now());
+        if (!res.ok) throw new Error();
+        allArticles = await res.json();
+        render(allArticles);
+        localStorage.setItem(CACHE_KEY, JSON.stringify(allArticles));
+    } catch (e) {
+        if (!cached) {
+            document.getElementById('status-msg').innerText = "Failed to load news.";
+            document.getElementById('status-msg').style.display = "block";
+        }
+    } finally {
+        document.getElementById("s-fill").style.width = "100%";
+        setTimeout(() => document.getElementById("splash").classList.add("fade"), 300);
+    }
+};
+
+window.addEventListener('scroll', () => {
+    document.getElementById("main-header").classList.toggle("scrolled", window.pageYOffset > 20);
+});
+
+setInterval(async () => {
+    if (document.visibilityState !== 'visible') return;
+    try {
+        const res = await fetch('./data_gaming.json?t=' + Date.now());
+        const fresh = await res.json();
+        if (fresh[0]?.date > (allArticles[0]?.date || 0)) {
+            allArticles = fresh;
+            render(allArticles);
+            localStorage.setItem(CACHE_KEY, JSON.stringify(allArticles));
+        }
+    } catch (e) {}
+}, 600000);
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
