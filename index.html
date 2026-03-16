@@ -68,6 +68,18 @@ h1 span {
     display: block; font-family: 'DM Sans'; font-size: 10px; letter-spacing: 2.5px; 
     color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
 }
+
+
+.badge-jp {
+    background: #000;
+    color: #fff;
+}
+
+
+[data-theme="night"] .badge-jp {
+    background: #dedad4; 
+    color: #111110;       
+}
 #feed { list-style: none; }
 .item { 
     display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
@@ -100,7 +112,19 @@ h1 span {
     text-transform: lowercase;
     color: #1a1916;
     flex-shrink: 0;
+    
+    /* Matching your .item-logo behavior */
+    opacity: 0.3; 
+    filter: grayscale(100%);
+    transition: all 0.2s ease;
 }
+
+/* Brighten and colorize on hover, exactly like the logos */
+.item:hover .icon-placeholder {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
 [data-theme="night"] .icon-placeholder { color: #fff; }
 
 .item[data-new="true"] { background: var(--new-hl); }
@@ -319,7 +343,10 @@ function render(articles) {
             if (isReddit) link.appendChild(makeBadge('Rumour',   'badge-rumour'));
             if (isPS)     link.appendChild(makeBadge('PlayStation', 'badge-ps'));
             if (isHot)    link.appendChild(makeBadge('Hot',      'badge-hot'));
-
+            if (a.isTranslated) {
+                link.appendChild(makeBadge('Japanese', 'badge-jp'));
+            }
+            
             body.appendChild(link);
 
             // ── Logo cell with Placeholder logic ──
