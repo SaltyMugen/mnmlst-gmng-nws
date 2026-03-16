@@ -1,0 +1,27 @@
+name: Robot Update
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Runs every 10 minutes
+  workflow_dispatch:        # Adds a manual "Run" button
+
+permissions:
+  contents: write           # Gives the robot permission to save the JSON file
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: pip install -r requirements.txt
+      - run: python fetch_news.py
+      - name: Commit data
+        run: |
+          git config --global user.name "OniBot"
+          git config --global user.email "bot@onimugen.com"
+          git add data_gaming.json
+          git commit -m "Update Gaming Data" || exit 0
+          git push
