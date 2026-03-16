@@ -1,2 +1,3 @@
 feedparser
 pip install deep-translator requests
+python-dateutil>=2.8
