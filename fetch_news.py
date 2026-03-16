@@ -83,22 +83,6 @@ SOURCES = [
     # --- INDIE ---
     {"name": "IndieDB",           "rss": "https://www.indiedb.com/rss/news",                                        "domain": "indiedb.com"},
 
-    # --- ESPORTS ---
-    {"name": "Esports Insider",   "rss": "https://esportsinsider.com/feed",                                         "domain": "esportsinsider.com"},
-    {"name": "Dot Esports",       "rss": "https://dotesports.com/feed",                                             "domain": "dotesports.com"},
-
-    # --- DEALS ---
-    {"name": "IsThereAnyDeal",    "rss": "https://isthereanydeal.com/rss/news/",                                    "domain": "isthereanydeal.com"},
-
-    # --- COMMUNITY ---
-    {"name": "ResetEra Gaming",   "rss": "https://www.resetera.com/forums/gaming-forum.7/index.rss",                "domain": "resetera.com"},
-
-    # --- HARDWARE ---
-    {"name": "GamingOnLinux",     "rss": "https://www.gamingonlinux.com/article_rss.php",                           "domain": "gamingonlinux.com"},
-    {"name": "VideoCardz",        "rss": "https://videocardz.com/feed",                                             "domain": "videocardz.com"},
-    {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/digitalfoundry",                           "domain": "eurogamer.net"},
-    {"name": "TouchArcade",       "rss": "https://toucharcade.com/feed/",                                           "domain": "toucharcade.com"},
-
     # --- JP SOURCES ---
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
@@ -115,9 +99,68 @@ SOURCES = [
 ]
 
 KEYWORDS = [
-    "game", "gaming", "nintendo", "xbox", "playstation", "gpu", "steam",
-    "deck", "ps5", "sony", "ubisoft", "activision", "blizzard", "leak",
-    "console", "switch",
+"game", "gaming", "videogame", "video game", "gameplay", "gamer", "gaming industry",
+"game developer", "game studio", "game publisher", "indie game", "game release",
+"game launch", "game update", "patch notes", "dlc", "expansion", "season pass",
+"live service", "battle pass", "microtransactions", "early access", "beta", "alpha build",
+"mod", "modding",
+
+"nintendo", "switch", "switch oled", "switch 2",
+"playstation", "ps5", "ps4", "psvr", "psvr2", "sony interactive entertainment",
+"xbox", "xbox series x", "xbox series s", "xbox game pass", "microsoft gaming",
+"steam", "steam deck", "valve",
+"console", "handheld console", "portable console", "pc gaming",
+
+"gpu", "graphics card", "gaming pc", "gaming laptop",
+"amd", "nvidia", "rtx", "radeon", "dlss", "fsr", "ray tracing", "frame generation",
+
+"activision", "blizzard", "activision blizzard",
+"electronic arts", "ea",
+"ubisoft",
+"take two", "take-two", "take two interactive",
+"rockstar", "rockstar games",
+"square enix",
+"capcom",
+"bandai namco",
+"sega",
+"konami",
+"cd projekt", "cd projekt red",
+"bethesda",
+"zenimax",
+"epic games",
+"riot games",
+"valve corporation",
+"paradox interactive",
+"embracer group",
+"fromsoftware",
+"larian studios",
+
+"unreal engine", "unity engine", "cryengine", "game engine", "game development", "dev kit", "sdk",
+
+"xbox game pass", "playstation plus", "ps plus",
+"epic games store", "steam sale", "gog", "gog galaxy", "nintendo eshop", "subscription gaming",
+
+"e3", "summer game fest", "gamescom", "tokyo game show", "tgs",
+"game awards", "state of play", "nintendo direct", "xbox showcase", "playstation showcase", "blizzcon",
+
+"call of duty", "battlefield", "halo", "forza",
+"minecraft", "fortnite",
+"grand theft auto", "gta",
+"elder scrolls", "fallout",
+"final fantasy", "dragon quest", "persona",
+"monster hunter",
+"zelda", "mario", "pokemon", "metroid",
+"dark souls", "elden ring", "bloodborne",
+"cyberpunk", "witcher",
+"assassin's creed", "far cry", "rainbow six",
+"destiny", "overwatch", "diablo",
+"league of legends", "valorant", "dota", "counter strike",
+
+"mobile game", "ios game", "android game", "gacha", "app store game", "play store game",
+
+"publisher", "studio acquisition", "game director", "creative director",
+"open world", "multiplayer", "single player", "co-op", "esports",
+
 ]
 
 _CJK_RE = re.compile(r"[\u3000-\u9fff\uff00-\uffef]")
