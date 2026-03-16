@@ -1,10 +1,7 @@
 name: Robot Update
 
 on:
-  # This keeps the door open for Cron-job.org
   workflow_dispatch: 
-  
-  # Delete or comment out the 'schedule' lines below
   # schedule:
   #   - cron: '*/5 * * * *'
 
@@ -12,18 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Updated to v5 to fix the Node.js warning
       - name: Checkout Repo
         uses: actions/checkout@v5 
 
-      # Updated to v5 to fix the Node.js warning
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
-        run: pip install feedparser requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests deep-translator
 
       - name: Run News Robot
         run: python fetch_news.py
@@ -33,5 +30,5 @@ jobs:
           git config --global user.name "Robot"
           git config --global user.email "robot@onimugen.com"
           git add data_gaming.json
-          git commit -m "Robot: Fresh news batch" || exit 0
+          git commit -m "Robot: Fresh news batch [$(date)]" || exit 0
           git push
