@@ -32,24 +32,24 @@ translator = GoogleTranslator(source="ja", target="en")
  
 SOURCES = [
     # --- BIG OUTLETS ---
-    {"name": "IGN",              "rss": "https://feeds.feedburner.com/ign/all",                                 "domain": "ign.com"},
-    {"name": "GameSpot",         "rss": "https://www.gamespot.com/feeds/news/",                                 "domain": "gamespot.com"},
+    {"name": "IGN",              "rss": "https://www.ign.com/rss/articles/feed",                                "domain": "ign.com"},
+    {"name": "GameSpot",         "rss": "https://www.gamespot.com/feeds/mashup/",                               "domain": "gamespot.com"},
     {"name": "PC Gamer",         "rss": "https://www.pcgamer.com/rss/",                                         "domain": "pcgamer.com"},
     {"name": "Eurogamer",        "rss": "https://www.eurogamer.net/feed",                                       "domain": "eurogamer.net"},
     {"name": "Kotaku",           "rss": "https://kotaku.com/rss",                                               "domain": "kotaku.com"},
     {"name": "Polygon",          "rss": "https://www.polygon.com/rss/gaming/index.xml",                         "domain": "polygon.com"},
     {"name": "VGC",              "rss": "https://www.videogameschronicle.com/feed/",                            "domain": "videogameschronicle.com"},
-    {"name": "Rock Paper Shotgun","rss": "https://www.rockpapershotgun.com/feed",                               "domain": "rockpapershotgun.com"},
+    {"name": "Rock Paper Shotgun","rss": "https://feeds.feedburner.com/RockPaperShotgun",                       "domain": "rockpapershotgun.com"},
     {"name": "VG247",            "rss": "https://www.vg247.com/feed",                                           "domain": "vg247.com"},
     {"name": "Destructoid",      "rss": "https://www.destructoid.com/feed/",                                    "domain": "destructoid.com"},
     {"name": "TheGamer",         "rss": "https://www.thegamer.com/feed/",                                       "domain": "thegamer.com"},
     {"name": "Gematsu",          "rss": "https://www.gematsu.com/feed",                                         "domain": "gematsu.com"},
-    {"name": "The Verge",        "rss": "https://www.theverge.com/games/rss/index.xml",                         "domain": "theverge.com", "filter": True},
+    {"name": "The Verge",        "rss": "https://www.theverge.com/rss/index.xml",                         "domain": "theverge.com", "filter": True},
  
     # --- OFFICIAL PLATFORMS ---
     {"name": "PlayStation Blog", "rss": "https://blog.playstation.com/feed/",                                   "domain": "blog.playstation.com"},
     {"name": "Xbox Wire",        "rss": "https://news.xbox.com/en-us/feed/",                                    "domain": "news.xbox.com"},
-    {"name": "Nintendo News",    "rss": "https://www.nintendo.com/us/whatsnew/rss/",                            "domain": "nintendo.com"},
+    {"name": "Nintendo News",    "rss": "https://www.nintendo.com/en-gb/news.xml",                            "domain": "nintendo.com"},
  
     # --- NEWS MACHINES ---
     {"name": "Game Rant",        "rss": "https://gamerant.com/feed/",                                           "domain": "gamerant.com"},
@@ -62,10 +62,31 @@ SOURCES = [
     {"name": "DualShockers",     "rss": "https://www.dualshockers.com/feed/",                                   "domain": "dualshockers.com"},
     {"name": "Siliconera",       "rss": "https://www.siliconera.com/feed/",                                     "domain": "siliconera.com"},
     {"name": "RPG Site",         "rss": "https://www.rpgsite.net/rss",                                          "domain": "rpgsite.net"},
-    # Reddit requires OAuth — skipping plain RSS which returns 403/redirects.
-    # To re-enable: use PRAW with Reddit API credentials.
-    # {"name": "Reddit Leaks", "rss": "...", "domain": "reddit.com", "isReddit": True},
- 
+
+    {"name": "Reddit Leaks", "rss": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss?sort=new", "domain": "reddit.com", "isReddit": True},
+# --- INDUSTRY ---
+{"name": "GamesIndustry.biz", "rss": "https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss", "domain": "gamesindustry.biz"},
+
+# --- PLATFORM FANSITES (Hookshot Media) ---
+{"name": "Nintendo Life", "rss": "https://www.nintendolife.com/feeds/latest", "domain": "nintendolife.com"},
+{"name": "Push Square", "rss": "https://www.pushsquare.com/feeds/latest", "domain": "pushsquare.com"},
+{"name": "Pure Xbox", "rss": "https://www.purexbox.com/feeds/latest", "domain": "purexbox.com"},
+
+# --- PC / PLATFORM ---
+{"name": "Steam News", "rss": "https://store.steampowered.com/feeds/news.xml", "domain": "store.steampowered.com"},
+
+# --- INDIE / PC FOCUS ---
+{"name": "IndieDB", "rss": "https://www.indiedb.com/rss/news", "domain": "indiedb.com"},
+
+# --- ESPORTS / STREAMING ---
+{"name": "Esports Insider", "rss": "https://esportsinsider.com/feed", "domain": "esportsinsider.com"},
+{"name": "Dot Esports", "rss": "https://dotesports.com/feed", "domain": "dotesports.com"},
+
+# --- DEALS / SALES (OPTIONAL BUT USEFUL) ---
+{"name": "IsThereAnyDeal", "rss": "https://isthereanydeal.com/rss/news/", "domain": "isthereanydeal.com"},
+
+# --- COMMUNITY / DISCUSSION ---
+{"name": "ResetEra Gaming", "rss": "https://www.resetera.com/forums/gaming-forum.7/index.rss", "domain": "resetera.com"},
     # --- HARDWARE ---
     {"name": "GamingOnLinux",    "rss": "https://www.gamingonlinux.com/article_rss.php",                        "domain": "gamingonlinux.com"},
     {"name": "VideoCardz",       "rss": "https://videocardz.com/feed",                                          "domain": "videocardz.com"},
@@ -73,20 +94,17 @@ SOURCES = [
     {"name": "TouchArcade",      "rss": "https://toucharcade.com/feed/",                                        "domain": "toucharcade.com"},
  
     # --- JP SOURCES (with Translation) ---
-    # automaton-media.com/en/ is already English — no translation needed.
+
     {"name": "Automaton Media",  "rss": "https://automaton-media.com/en/feed/",                                 "domain": "automaton-media.com"},
     {"name": "Famitsu",          "rss": "https://www.famitsu.com/rss/famitsu.rdf",                              "domain": "famitsu.com",          "translate": True},
-    {"name": "4Gamer.net",       "rss": "https://www.4gamer.net/rss/index.xml",                                 "domain": "4gamer.net",            "translate": True},
     {"name": "Dengeki Online",   "rss": "https://dengekionline.com/index.xml",                                  "domain": "dengekionline.com",     "translate": True},
-    {"name": "Nikkei Asia",      "rss": "https://info.asia.nikkei.com/rss",                                     "domain": "asia.nikkei.com"},
-    {"name": "GameBusiness.jp",  "rss": "https://www.gamebusiness.jp/rss20/index.rdf",                          "domain": "gamebusiness.jp",       "translate": True},
-    {"name": "GameBiz",          "rss": "https://gamebiz.jp/news/feed/rss",                                     "domain": "gamebiz.jp",            "translate": True},
+    {"name": "GameBusiness.jp",  "rss": "https://www.gamebusiness.jp/rss/index.rdf",                          "domain": "gamebusiness.jp",       "translate": True},
+    {"name": "GameBiz",          "rss": "https://gamebiz.jp/feed.rss",                                     "domain": "gamebiz.jp",            "translate": True},
     {"name": "Denfaminicogamer", "rss": "https://news.denfaminicogamer.jp/feed",                                 "domain": "news.denfaminicogamer.jp", "translate": True},
     {"name": "Game Spark",       "rss": "https://www.gamespark.jp/rss20/index.rdf",                             "domain": "gamespark.jp",          "translate": True},
     {"name": "Inside Games",     "rss": "https://www.inside-games.jp/rss20/index.rdf",                          "domain": "inside-games.jp",       "translate": True},
-    {"name": "Gamer.ne.jp",      "rss": "https://www.gamer.ne.jp/rss/",                                         "domain": "gamer.ne.jp",           "translate": True},
+    {"name": "Gamer.ne.jp",      "rss": "https://www.gamer.ne.jp/feed/news.rdf",                                         "domain": "gamer.ne.jp",           "translate": True},
     {"name": "IGN Japan",        "rss": "https://jp.ign.com/feed.xml",                                          "domain": "jp.ign.com",            "translate": True},
-    # automaton-media.com (JP) — separate feed from the EN version above.
     {"name": "Automaton Media JP","rss": "https://automaton-media.com/feed/",                                   "domain": "automaton-media.com",   "translate": True},
 ]
  
