@@ -8,9 +8,10 @@ import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.utils import parsedate_to_datetime
-from datetime import timezone, timedelta
+from datetime import timezone, timedelta, datetime
 
 import requests
+from dateutil import parser as dateutil_parser
 from deep_translator import GoogleTranslator
 
 # --- LOGGING ---
@@ -31,6 +32,8 @@ HEADERS = {
 }
 
 translator = GoogleTranslator(source="ja", target="en")
+
+JST = timezone(timedelta(hours=9))
 
 SOURCES = [
     # --- BIG OUTLETS ---
@@ -64,13 +67,12 @@ SOURCES = [
     {"name": "DualShockers",      "rss": "https://www.dualshockers.com/feed/",                                      "domain": "dualshockers.com"},
     {"name": "Siliconera",        "rss": "https://www.siliconera.com/feed/",                                        "domain": "siliconera.com"},
     {"name": "RPG Site",          "rss": "https://www.rpgsite.net/rss",                                             "domain": "rpgsite.net"},
-    # Reddit requires OAuth for reliable access — plain RSS returns 403 or login redirects.
     {"name": "Reddit Leaks",      "rss": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss?sort=new",        "domain": "reddit.com", "isReddit": True},
 
     # --- INDUSTRY ---
     {"name": "GamesIndustry.biz", "rss": "https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss",           "domain": "gamesindustry.biz"},
 
-    # --- PLATFORM FANSITES (Hookshot Media) ---
+    # --- PLATFORM FANSITES ---
     {"name": "Nintendo Life",     "rss": "https://www.nintendolife.com/feeds/latest",                               "domain": "nintendolife.com"},
     {"name": "Push Square",       "rss": "https://www.pushsquare.com/feeds/latest",                                 "domain": "pushsquare.com"},
     {"name": "Pure Xbox",         "rss": "https://www.purexbox.com/feeds/latest",                                   "domain": "purexbox.com"},
@@ -80,9 +82,8 @@ SOURCES = [
 
     # --- INDIE ---
     {"name": "IndieDB",           "rss": "https://www.indiedb.com/rss/news",                                        "domain": "indiedb.com"},
-   
     # --- JP SOURCES ---
-    # automaton-media.com/en/ is English — no translation or JST correction needed.
+    # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
     {"name": "Famitsu",           "rss": "https://www.famitsu.com/rss/fcom_all.rdf",                                "domain": "famitsu.com",              "translate": True, "tz_jst": True},
     {"name": "Dengeki Online",    "rss": "https://dengekionline.com/index.xml",                                     "domain": "dengekionline.com",         "translate": True, "tz_jst": True},
@@ -93,7 +94,6 @@ SOURCES = [
     {"name": "Inside Games",      "rss": "https://www.inside-games.jp/rss20/index.rdf",                             "domain": "inside-games.jp",           "translate": True, "tz_jst": True},
     {"name": "Gamer.ne.jp",       "rss": "https://www.gamer.ne.jp/feed/news.rdf",                                   "domain": "gamer.ne.jp",               "translate": True, "tz_jst": True},
     {"name": "IGN Japan",         "rss": "https://jp.ign.com/feed.xml",                                             "domain": "jp.ign.com",                "translate": True, "tz_jst": True},
-    # JP feed for Automaton — separate from the EN feed above.
     {"name": "Automaton Media JP","rss": "https://automaton-media.com/feed/",                                       "domain": "automaton-media.com",       "translate": True, "tz_jst": True},
 ]
 
@@ -112,35 +112,51 @@ def _is_cjk(text: str) -> bool:
 
 def _parse_timestamp(entry: feedparser.FeedParserDict, assume_jst: bool, now_ms: int) -> int:
     """
-    Extract a UTC millisecond timestamp from a feed entry.
+    Extract a correct UTC millisecond timestamp from a feed entry.
 
-    feedparser exposes `published_parsed` as a UTC time_struct — but ONLY when
-    the source timestamp includes an explicit timezone offset. Many Japanese
-    RDF/RSS feeds emit bare local datetimes with no offset (e.g. "2024-03-01T10:00:00"),
-    causing feedparser to treat them as UTC and return a value 9 hours behind
-    actual publication time.
+    JP RDF feeds typically use Dublin Core dc:date in ISO 8601 format
+    (e.g. "2024-03-16T10:00:00+09:00"). feedparser maps this to entry.published
+    but may fail to populate published_parsed if it can't parse the format.
 
     Resolution order:
-    1. Parse `published` (raw string) with email.utils.parsedate_to_datetime,
-       which correctly handles explicit offsets like +0900 or "JST".
-    2. If that yields no tz info and assume_jst is True, use published_parsed
-       and subtract the 9-hour JST offset feedparser wrongly added.
-    3. Fall back to now_ms if no date is present at all.
+    1. Try entry.published (raw string) with dateutil.parser — handles both
+       RFC 2822 (pubDate) and ISO 8601 (dc:date), with or without tz offset.
+       If a tz offset is present (+09:00), it is used directly and is correct.
+       If no tz offset is present AND assume_jst is True, we interpret as JST.
+    2. Fall back to feedparser's published_parsed struct via calendar.timegm,
+       applying the same JST correction if assume_jst and no offset detected.
+    3. Fall back to now_ms if no date info exists at all.
     """
-    raw = getattr(entry, "published", None) or entry.get("published", "")
+    # Collect all possible raw date strings feedparser might store
+    raw = (
+        entry.get("published")
+        or entry.get("updated")
+        or entry.get("dc_date")       # Dublin Core dc:date direct key
+        or entry.get("date")
+        or ""
+    )
+
     if raw:
         try:
-            dt = parsedate_to_datetime(raw)
+            dt = dateutil_parser.parse(raw)
             if dt.tzinfo is not None:
+                # Has explicit timezone — trust it completely (handles +09:00 correctly)
                 return int(dt.timestamp() * 1000)
+            elif assume_jst:
+                # No timezone in the string — assume JST
+                dt_jst = dt.replace(tzinfo=JST)
+                return int(dt_jst.timestamp() * 1000)
+            else:
+                # No tz, not a JP source — treat as UTC
+                return int(dt.replace(tzinfo=timezone.utc).timestamp() * 1000)
         except Exception:
             pass
 
+    # Fallback: feedparser's pre-parsed struct (always treated as UTC by feedparser)
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         ts_utc = int(calendar.timegm(entry.published_parsed) * 1000)
         if assume_jst:
-            # Feed omitted timezone — assume JST (UTC+9) and correct for the
-            # 9-hour offset feedparser added by treating the bare datetime as UTC.
+            # feedparser wrongly assumed UTC on a bare JST datetime — correct it
             ts_utc -= 9 * 60 * 60 * 1000
         return ts_utc
 
@@ -224,11 +240,6 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
 
 
 def _deduplicate(articles: list[dict]) -> list[dict]:
-    """
-    Deduplicate by URL (primary) and by normalised title (catches syndicated
-    stories and amp/tracking-param variants). Keeps the earliest-dated entry
-    per group so the original publish time is preserved.
-    """
     by_url: dict[str, dict] = {}
     for a in articles:
         url = a["link"]
