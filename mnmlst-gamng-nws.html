@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
+<meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
+<meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+
+<style>
+/* ── RESET & THEMES ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+[data-theme="day"] { 
+    --bg: #fafaf8; --ink: #1a1916; --dim: #9a9690; --sub: #e4e1db; 
+    --new-hl: rgba(214, 59, 47, 0.04); --hot-hl: rgba(0, 86, 179, 0.04); --hover-bg: #f1f0ec;
+    --hover-ink: #0056b3; --header-bg: rgba(250, 250, 248, 0.95);
+    --hot-bg: #007bff; --catchup-bg: #0056b3; --icon-color: #9a9690; --rumour: #f77f00;
+}
+[data-theme="night"] { 
+    --bg: #111110; --ink: #dedad4; --dim: #55524e; --sub: #252422; 
+    --new-hl: rgba(214, 59, 47, 0.1); --hot-hl: rgba(51, 154, 240, 0.08); --hover-bg: #1a1a19;
+    --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
+    --hot-bg: #1971c2; --catchup-bg: #339af0; --icon-color: #55524e; --rumour: #f77f00;
+}
+
+body { background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; transition: background 0.3s; }
+
+/* ── FIXED HEADER ── */
+header { 
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between; 
+    padding: 12px 5%; background: var(--header-bg); backdrop-filter: blur(12px);
+    border-bottom: 1px solid transparent; transition: border-color 0.3s ease;
+}
+header.scrolled { border-color: var(--sub); padding: 6px 5%; }
+.header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
+
+h1 { 
+    font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px);; line-height: 0.8; 
+    background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
+}
+h1 span { 
+    display: block; font-family: 'DM Sans'; font-size: 10px; letter-spacing: 2.5px; 
+    color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
+}
+
+/* ── FEED COMPACTNESS ── */
+#feed { list-style: none; }
+.item { 
+    display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
+    padding: 0 8px; margin-bottom: 1px; border-radius: 3px;
+    opacity: 0; transform: translateY(5px); transition: 0.2s ease; 
+}
+.item.show { opacity: 1; transform: none; }
+.item.hidden { display: none; }
+.item:hover { background: var(--hover-bg); }
+.item:hover .item-body a { color: var(--hover-ink); }
+.item:hover .item-logo { filter: grayscale(0%); opacity: 0.8; }
+
+/* Dynamic Highlights */
+.item[data-new="true"] { background: var(--new-hl); }
+.item[data-hot="true"] { background: var(--hot-hl); }
+
+.item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
+.item-body a { color: var(--ink); text-decoration: none; font-size: 14px; line-height: 1.2; transition: color 0.15s; font-weight: 400; }
+
+.badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
+.badge-new { background: #d63b2f; }
+.badge-hot { background: var(--hot-bg); }
+.badge-rumour { background: var(--rumour); }
+
+.item-logo { width: 24px; height: 24px; object-fit: cover; opacity: 0.3; filter: grayscale(100%); transition: 0.3s; border-radius: 2px; }
+
+.controls { display: flex; align-items: center; gap: 15px; }
+.icon-btn { background: none; border: none; cursor: pointer; color: var(--icon-color); display: flex; align-items: center; justify-content: center; transition: color 0.2s, opacity 0.2s; opacity: 0.8; }
+.icon-btn:hover { color: var(--ink); opacity: 1; }
+.icon-btn svg { width: 17px; height: 17px; pointer-events: none; }
+.expand-container { display: flex; align-items: center; }
+.expandable { max-width: 0; overflow: hidden; transition: max-width 0.4s cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; display: flex; align-items: center; }
+.expandable.active { max-width: 200px; margin-left: 10px; }
+#search-input { background: transparent; border: none; border-bottom: 1px solid var(--sub); color: var(--ink); font-family: 'DM Sans'; font-size: 13px; outline: none; padding: 2px 0; width: 140px; }
+.filter-options { display: flex; gap: 12px; font-size: 10px; font-weight: 700; letter-spacing: 1px; color: var(--dim); }
+.filter-opt { cursor: pointer; transition: 0.2s; }
+.filter-opt.active { color: var(--ink); border-bottom: 1px solid var(--ink); }
+#splash { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--bg); transition: opacity 0.5s; }
+#splash.fade { opacity: 0; pointer-events: none; }
+.splash-title { font-family: 'Micro 5'; font-size: 60px; }
+.splash-track { width: 200px; height: 1px; background: var(--sub); margin: 30px 0; overflow: hidden; }
+.splash-fill { height: 100%; background: var(--ink); width: 0%; transition: width 0.3s; }
+footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; text-align: center; }
+.footer-text { font-size: 10px; color: var(--dim); }
+</style>
+</head>
+<body>
+
+<div id="splash" aria-hidden="true">
+  <div class="splash-title">OniMugen</div>
+  <div class="splash-track"><div class="splash-fill" id="s-fill"></div></div>
+  <div id="s-count" style="font-size: 11px; color: var(--dim); margin-top: 10px;"></div>
+</div>
+
+<header id="main-header">
+  <div class="header-inner">
+      <h1>OniMugen<span>Gaming</span></h1>
+      <div class="controls">
+        <div class="expand-container">
+            <button class="icon-btn" onclick="toggleControl('search')" title="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+            <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search gaming news..." oninput="applyFilters()"></div>
+        </div>
+        <div class="expand-container">
+            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg></button>
+            <div id="filter-wrap" class="expandable">
+                <div class="filter-options">
+                    <span class="filter-opt active" onclick="setFilter('all', this)">ALL</span>
+                    <span class="filter-opt" onclick="setFilter('new', this)">NEW</span>
+                    <span class="filter-opt" onclick="setFilter('hot', this)">HOT</span>
+                </div>
+            </div>
+        </div>
+        <button class="icon-btn" onclick="hardRefresh()" title="Refresh & Clear Cache"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"></path><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg></button>
+        <button id="theme-toggle" class="icon-btn" onclick="toggleTheme()" title="Theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+      </div>
+  </div>
+</header>
+
+<main><ul id="feed"></ul></main>
+
+<footer><div class="footer-text">&copy; 2026 OniMugen Gaming Feed.</div></footer>
+
+<script>
+    const CUTOFF_MS = 48 * 60 * 60 * 1000;
+const CACHE_KEY = "onimugen_v1_gaming";
+
+let allArticles = [];
+let currentFilter = 'all';
+
+// ── UI CONTROLS (Your original logic) ──
+function toggleControl(type) {
+    const s = document.getElementById('search-wrap'), f = document.getElementById('filter-wrap');
+    if (type === 'search') { f.classList.remove('active'); s.classList.toggle('active'); if (s.classList.contains('active')) document.getElementById('search-input').focus(); }
+    else { s.classList.remove('active'); f.classList.toggle('active'); }
+}
+
+function setFilter(t, el) {
+    document.querySelectorAll('.filter-opt').forEach(opt => opt.classList.remove('active'));
+    el.classList.add('active'); currentFilter = t; applyFilters();
+}
+
+function applyFilters() {
+    const q = document.getElementById('search-input').value.toLowerCase();
+    document.querySelectorAll('.item').forEach(item => {
+        const title = item.getAttribute('data-title').toLowerCase();
+        const matchesSearch = title.includes(q);
+        let matchesTab = true;
+        if (currentFilter === 'new') matchesTab = item.getAttribute('data-new') === 'true';
+        if (currentFilter === 'hot') matchesTab = item.getAttribute('data-hot') === 'true';
+        item.classList.toggle('hidden', !(matchesSearch && matchesTab));
+    });
+}
+
+function formatTime(ts) {
+    const d = Date.now() - ts;
+    if (d < 3600000) return Math.floor(d/60000) + 'm';
+    if (d < 86400000) return Math.floor(d/3600000) + 'h';
+    return Math.floor(d/86400000) + 'd';
+}
+
+// ── RENDERING (Keeping your exact design) ──
+function render(articles) {
+    const feed = document.getElementById("feed"); feed.innerHTML = "";
+    const titleGroups = {};
+    
+    // Grouping for "HOT" badge logic
+    articles.forEach(a => {
+        const slug = a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
+        if (!titleGroups[slug]) titleGroups[slug] = [];
+        titleGroups[slug].push(a.date);
+    });
+
+    articles.sort((a,b) => b.date - a.date).forEach((a, i) => {
+        const now = Date.now();
+        const isNew = (now - a.date) < 1800000; // 30 mins
+        const slug = a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
+        const isHot = titleGroups[slug].length > 1;
+
+        const li = document.createElement("li");
+        li.className = "item";
+        li.setAttribute('data-title', a.title);
+        li.setAttribute('data-new', isNew);
+        li.setAttribute('data-hot', isHot);
+        
+        li.innerHTML = `
+            <span class="item-date">${formatTime(a.date)}</span>
+            <div class="item-body">
+                <a href="${a.link}" target="_blank" rel="noopener">
+                    ${a.title}
+                    ${isNew ? '<span class="badge badge-new">New</span>' : ''}
+                    ${a.isReddit ? '<span class="badge badge-rumour">Rumour</span>' : ''}
+                    ${isHot ? '<span class="badge badge-hot">Hot</span>' : ''}
+                </a>
+            </div>
+            <span><img class="item-logo" src="https://www.google.com/s2/favicons?domain=${a.domain}&sz=32" alt="${a.sourceName}"></span>
+        `;
+        feed.appendChild(li);
+        setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
+    });
+}
+
+// ── THE ROBOT FETCH (The new efficient way) ──
+async function init() {
+    // 1. Theme setup
+    const theme = localStorage.getItem('om-theme') || 'day';
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    // 2. Load from Cache (Instant load for user)
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) {
+        allArticles = JSON.parse(cached).filter(a => a.date > (Date.now() - CUTOFF_MS));
+        if (allArticles.length > 0) {
+            render(allArticles);
+            document.getElementById("splash").classList.add("fade");
+        }
+    }
+
+    // 3. Fetch fresh data from your GitHub Robot
+    try {
+        // Adding ?t= forces the browser to get the newest file from GitHub
+        const r = await fetch('./data_gaming.json?t=' + Date.now());
+        const freshData = await r.json();
+        
+        if (freshData && freshData.length > 0) {
+            allArticles = freshData.filter(a => a.date > (Date.now() - CUTOFF_MS));
+            render(allArticles);
+            localStorage.setItem(CACHE_KEY, JSON.stringify(allArticles));
+        }
+    } catch (e) {
+        console.warn("Robot data not found yet or offline.");
+    } finally {
+        // Finish splash animation
+        document.getElementById("s-fill").style.width = "100%";
+        setTimeout(() => {
+            document.getElementById("splash").classList.add("fade");
+        }, 300);
+    }
+}
+
+// Manual Refresh Button logic
+function hardRefresh() {
+    localStorage.removeItem(CACHE_KEY);
+    init(); 
+}
+
+window.onload = init;
+</script>
+</body>
+</html>
