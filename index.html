@@ -28,14 +28,16 @@
     --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
     --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
 }
+
 [data-theme="night"] .item-logo {
-    filter: brightness(0) invert(1) contrast(10);
-    opacity: 0.7;
+    filter: grayscale(1) brightness(1.2);
+    opacity: 0.5;
 }
 [data-theme="night"] .item:hover .item-logo {
     filter: none;
     opacity: 1;
 }
+
 body { 
     background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
     max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
@@ -69,11 +71,14 @@ h1 span {
 .item.hidden { display: none; }
 .item:hover { background: var(--hover-bg); }
 .item:hover .item-body a { color: var(--hover-ink); }
+
 .item-logo { 
-    width: 24px; height: 24px; object-fit: contain; opacity: 0.3; 
-    filter: grayscale(100%); transition: all 0.3s ease; border-radius: 2px; 
+    width: 20px; height: 20px; object-fit: contain; opacity: 0.3; 
+    filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
+    background: transparent; 
 }
-.item:hover .item-logo { filter: grayscale(0%); opacity: 0.8; }
+.item:hover .item-logo { filter: grayscale(0%); opacity: 1; }
+
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
 .item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
