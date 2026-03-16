@@ -3,23 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
 <meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
 <meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen">
-
 <script>
     (function() {
         const savedTheme = localStorage.getItem('om-theme') || 'day';
         document.documentElement.setAttribute('data-theme', savedTheme);
     })();
 </script>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
-
 <style>
-/* ── RESET & THEMES ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 [data-theme="day"] { 
     --bg: #fafaf8; --ink: #1a1916; --dim: #9a9690; --sub: #e4e1db; 
@@ -33,27 +28,27 @@
     --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
     --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
 }
-
-/* FIX: Smooth background and color transitions for theme switching */
+[data-theme="night"] .item-logo {
+    filter: brightness(0) invert(1);
+    opacity: 0.6;
+}
+[data-theme="night"] .item:hover .item-logo {
+    opacity: 1;
+}
 body { 
     background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
     max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
     transition: background 0.3s ease, color 0.3s ease; 
 }
-
-/* ── FIXED HEADER ── */
 header { 
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between; 
     padding: 12px 5%; background: var(--header-bg); backdrop-filter: blur(12px);
     border-bottom: 1px solid transparent; 
-    /* FIX: Smooth transition for header and separator */
     transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
 }
-/* FIX: Separator appears on scroll */
 header.scrolled { border-color: var(--sub); padding: 8px 5%; }
 .header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
-
 h1 { 
     font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px); line-height: 0.8; 
     background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
@@ -63,8 +58,6 @@ h1 span {
     display: block; font-family: 'DM Sans'; font-size: 10px; letter-spacing: 2.5px; 
     color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
 }
-
-/* ── FEED ── */
 #feed { list-style: none; }
 .item { 
     display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
@@ -75,32 +68,24 @@ h1 span {
 .item.hidden { display: none; }
 .item:hover { background: var(--hover-bg); }
 .item:hover .item-body a { color: var(--hover-ink); }
-
-/* FIX: Logo color restoration on hover */
 .item-logo { 
     width: 24px; height: 24px; object-fit: cover; opacity: 0.3; 
     filter: grayscale(100%); transition: filter 0.3s ease, opacity 0.3s ease; border-radius: 2px; 
 }
 .item:hover .item-logo { filter: grayscale(0%); opacity: 0.8; }
-
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
-
 .item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
 .item-body a { color: var(--ink); text-decoration: none; font-size: 14px; line-height: 1.2; transition: color 0.15s; font-weight: 400; }
-
 .badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
 .badge-new { background: #d63b2f; }
 .badge-hot { background: var(--hot-bg); }
 .badge-rumour { background: var(--rumour); }
 .badge-ps { background: #006FCD; } 
-
-/* ── CONTROLS ── */
 .controls { display: flex; align-items: center; gap: 15px; }
 .icon-btn { background: none; border: none; cursor: pointer; color: var(--icon-color); display: flex; align-items: center; justify-content: center; transition: color 0.2s, opacity 0.2s; opacity: 0.8; }
 .icon-btn:hover { color: var(--ink); opacity: 1; }
 .icon-btn svg { width: 17px; height: 17px; pointer-events: none; }
-
 .expand-container { display: flex; align-items: center; }
 .expandable { max-width: 0; overflow: hidden; transition: max-width 0.4s cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; display: flex; align-items: center; }
 .expandable.active { max-width: 200px; margin-left: 10px; }
@@ -108,8 +93,6 @@ h1 span {
 .filter-options { display: flex; gap: 12px; font-size: 10px; font-weight: 700; letter-spacing: 1px; color: var(--dim); }
 .filter-opt { cursor: pointer; transition: 0.2s; }
 .filter-opt.active { color: var(--ink); border-bottom: 1px solid var(--ink); }
-
-/* ── SPLASH ── */
 #splash { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--bg); transition: opacity 0.5s; }
 #splash.fade { opacity: 0; pointer-events: none; }
 .splash-title { font-family: 'Micro 5'; font-size: 60px; }
@@ -120,12 +103,10 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 </style>
 </head>
 <body>
-
 <div id="splash" aria-hidden="true">
   <div class="splash-title">OniMugen</div>
   <div class="splash-track"><div class="splash-fill" id="s-fill"></div></div>
 </div>
-
 <header id="main-header">
   <div class="header-inner">
       <h1>OniMugen<span>Gaming</span></h1>
@@ -149,18 +130,13 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
       </div>
   </div>
 </header>
-
 <main><ul id="feed"></ul></main>
-
 <footer><div class="footer-text">&copy; 2026 OniMugen Gaming Feed.</div></footer>
-
 <script>
 const CUTOFF_MS = 48 * 60 * 60 * 1000;
 const CACHE_KEY = "onimugen_v1_gaming";
 let allArticles = [];
 let currentFilter = 'all';
-
-// FIX: Scroll Separator Logic
 window.onscroll = function() {
     const header = document.getElementById("main-header");
     if (window.pageYOffset > 20) {
@@ -169,25 +145,21 @@ window.onscroll = function() {
         header.classList.remove("scrolled");
     }
 };
-
 function toggleTheme() {
     const d = document.documentElement;
     const next = d.getAttribute('data-theme') === 'day' ? 'night' : 'day';
     d.setAttribute('data-theme', next);
     localStorage.setItem('om-theme', next);
 }
-
 function toggleControl(type) {
     const s = document.getElementById('search-wrap'), f = document.getElementById('filter-wrap');
     if (type === 'search') { f.classList.remove('active'); s.classList.toggle('active'); if (s.classList.contains('active')) document.getElementById('search-input').focus(); }
     else { s.classList.remove('active'); f.classList.toggle('active'); }
 }
-
 function setFilter(t, el) {
     document.querySelectorAll('.filter-opt').forEach(opt => opt.classList.remove('active'));
     el.classList.add('active'); currentFilter = t; applyFilters();
 }
-
 function applyFilters() {
     const q = document.getElementById('search-input').value.toLowerCase();
     document.querySelectorAll('.item').forEach(item => {
@@ -199,14 +171,12 @@ function applyFilters() {
         item.classList.toggle('hidden', !(matchesSearch && matchesTab));
     });
 }
-
 function formatTime(ts) {
     const d = Date.now() - ts;
     if (d < 3600000) return Math.floor(d/60000) + 'm';
     if (d < 86400000) return Math.floor(d/3600000) + 'h';
     return Math.floor(d/86400000) + 'd';
 }
-
 function render(articles) {
     const feed = document.getElementById("feed"); feed.innerHTML = "";
     const titleGroups = {};
@@ -215,19 +185,16 @@ function render(articles) {
         if (!titleGroups[slug]) titleGroups[slug] = [];
         titleGroups[slug].push(a.date);
     });
-
     articles.sort((a,b) => b.date - a.date).forEach((a, i) => {
         const now = Date.now();
         const isNew = (now - a.date) < 1800000;
         const slug = a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
         const isHot = titleGroups[slug].length > 1;
-
         const li = document.createElement("li");
         li.className = "item";
         li.setAttribute('data-title', a.title);
         li.setAttribute('data-new', isNew);
         li.setAttribute('data-hot', isHot);
-        
         li.innerHTML = `
             <span class="item-date">${formatTime(a.date)}</span>
             <div class="item-body">
@@ -245,14 +212,12 @@ function render(articles) {
         setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
     });
 }
-
 async function init() {
     const cached = localStorage.getItem(CACHE_KEY);
     if (cached) {
         render(JSON.parse(cached));
         document.getElementById("splash").classList.add("fade");
     }
-
     try {
         const r = await fetch('./data_gaming.json?t=' + Date.now());
         const freshData = await r.json();
@@ -267,12 +232,10 @@ async function init() {
         setTimeout(() => document.getElementById("splash").classList.add("fade"), 300);
     }
 }
-
 function hardRefresh() {
     localStorage.removeItem(CACHE_KEY);
     init(); 
 }
-
 window.onload = init;
 </script>
 </body>
