@@ -248,7 +248,12 @@ async function init() {
         }, 300);
     }
 }
-
+function toggleTheme() {
+    const d = document.documentElement;
+    const next = d.getAttribute('data-theme') === 'day' ? 'night' : 'day';
+    d.setAttribute('data-theme', next);
+    localStorage.setItem('om-theme', next);
+}
 // Manual Refresh Button logic
 function hardRefresh() {
     localStorage.removeItem(CACHE_KEY);
@@ -256,6 +261,7 @@ function hardRefresh() {
 }
 
 window.onload = init;
+    
 </script>
 </body>
 </html>
