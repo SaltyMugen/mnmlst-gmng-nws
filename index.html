@@ -33,18 +33,6 @@
     --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
 }
 
-[data-theme="night"] .item-logo {
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.1));
-    opacity: 0.8;
-    background: rgba(255, 255, 255, 0.03);
-}
-
-[data-theme="night"] .item:hover .item-logo {
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
-    opacity: 1;
-    background: rgba(255, 255, 255, 0.08);
-}
-
 body { 
     background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
     max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
@@ -69,16 +57,14 @@ h1 span {
     color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
 }
 
-
 .badge-jp {
     background: #000;
     color: #fff;
 }
 
-
 [data-theme="night"] .badge-jp {
     background: #dedad4; 
-    color: #111110;       
+    color: #111110;        
 }
 #feed { list-style: none; }
 .item { 
@@ -91,17 +77,31 @@ h1 span {
 .item:hover { background: var(--hover-bg); }
 .item:hover .item-body a { color: var(--hover-ink); }
 
-.item-logo { 
+/* --- SOURCE LOGO & PLACEHOLDER CSS --- */
+.item-logo, .icon-placeholder { 
     width: 20px; height: 20px; object-fit: contain; opacity: 0.3; 
     filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
     background: transparent; 
 }
-.item-logo.hidden { display: none; }
-.item:hover .item-logo { filter: grayscale(0%); opacity: 1; }
+
+.item:hover .item-logo,
+.item:hover .icon-placeholder { filter: grayscale(0%); opacity: 1; }
+
+[data-theme="night"] .item-logo,
+[data-theme="night"] .icon-placeholder {
+    filter: grayscale(100%) drop-shadow(0 0 5px rgba(255, 255, 255, 0.05));
+    opacity: 0.4;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+[data-theme="night"] .item:hover .item-logo,
+[data-theme="night"] .item:hover .icon-placeholder {
+    filter: grayscale(0%) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.08);
+}
 
 .icon-placeholder {
-    width: 20px;
-    height: 20px;
     background-color: #ffb347;
     border-radius: 50%;
     display: flex;
@@ -112,20 +112,11 @@ h1 span {
     text-transform: lowercase;
     color: #1a1916;
     flex-shrink: 0;
-    
-    /* Matching your .item-logo behavior */
-    opacity: 0.3; 
-    filter: grayscale(100%);
-    transition: all 0.2s ease;
 }
-
-/* Brighten and colorize on hover, exactly like the logos */
-.item:hover .icon-placeholder {
-    filter: grayscale(0%);
-    opacity: 1;
-}
-
 [data-theme="night"] .icon-placeholder { color: #fff; }
+
+.item-logo.hidden { display: none; }
+/* --- END SOURCE LOGO CSS --- */
 
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
@@ -208,19 +199,16 @@ let lastDataHash  = null; // hash to detect real content changes
 
 // ─── Utilities ────────────────────────────────────────────────────
 
-/** Simple hash so we detect content changes, not just length changes. */
 function hashArticles(articles) {
     return articles.map(a => a.link + a.date).join('|');
 }
 
-/** Safely escape a string for insertion as text content (prevents XSS). */
 function escapeHtml(str) {
     const div = document.createElement('div');
     div.appendChild(document.createTextNode(String(str)));
     return div.innerHTML;
 }
 
-/** Return a URL-safe domain string from a full URL (prevents JS injection). */
 function safeDomain(url) {
     try {
         return new URL(url).hostname;
@@ -297,7 +285,7 @@ document.addEventListener('keydown', e => {
 
 // ─── Render ───────────────────────────────────────────────────────
 function render(articles) {
-    allArticles = articles; // keep master copy in sync
+    allArticles = articles; 
 
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
@@ -344,12 +332,11 @@ function render(articles) {
             if (isPS)     link.appendChild(makeBadge('PlayStation', 'badge-ps'));
             if (isHot)    link.appendChild(makeBadge('Hot',      'badge-hot'));
             if (a.isTranslated) {
-                link.appendChild(makeBadge('Japanese', 'badge-jp'));
+                link.appendChild(makeBadge('JP-EN', 'badge-jp'));
             }
             
             body.appendChild(link);
 
-            // ── Logo cell with Placeholder logic ──
             const logoWrap = document.createElement('span');
             logoWrap.setAttribute('aria-hidden', 'true');
             logoWrap.style.display = 'flex';
