@@ -85,7 +85,8 @@ SOURCES = [
 
     # --- JP SOURCES ---
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
-    
+    # --- JP SOURCES ---
+    {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net", "translate": True, "tz_jst": True},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
     {"name": "Famitsu",           "rss": "https://www.famitsu.com/rss/fcom_all.rdf",                                "domain": "famitsu.com",              "translate": True, "tz_jst": True},
     {"name": "Dengeki Online",    "rss": "https://dengekionline.com/index.xml",                                     "domain": "dengekionline.com",         "translate": True, "tz_jst": True},
