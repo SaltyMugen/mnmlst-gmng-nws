@@ -1,5 +1,6 @@
 import calendar
 import feedparser
+import html
 import json
 import logging
 import os
@@ -7,7 +8,6 @@ import re
 import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from email.utils import parsedate_to_datetime
 from datetime import timezone, timedelta, datetime
 
 import requests
@@ -82,6 +82,23 @@ SOURCES = [
 
     # --- INDIE ---
     {"name": "IndieDB",           "rss": "https://www.indiedb.com/rss/news",                                        "domain": "indiedb.com"},
+
+    # --- ESPORTS ---
+    {"name": "Esports Insider",   "rss": "https://esportsinsider.com/feed",                                         "domain": "esportsinsider.com"},
+    {"name": "Dot Esports",       "rss": "https://dotesports.com/feed",                                             "domain": "dotesports.com"},
+
+    # --- DEALS ---
+    {"name": "IsThereAnyDeal",    "rss": "https://isthereanydeal.com/rss/news/",                                    "domain": "isthereanydeal.com"},
+
+    # --- COMMUNITY ---
+    {"name": "ResetEra Gaming",   "rss": "https://www.resetera.com/forums/gaming-forum.7/index.rss",                "domain": "resetera.com"},
+
+    # --- HARDWARE ---
+    {"name": "GamingOnLinux",     "rss": "https://www.gamingonlinux.com/article_rss.php",                           "domain": "gamingonlinux.com"},
+    {"name": "VideoCardz",        "rss": "https://videocardz.com/feed",                                             "domain": "videocardz.com"},
+    {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/digitalfoundry",                           "domain": "eurogamer.net"},
+    {"name": "TouchArcade",       "rss": "https://toucharcade.com/feed/",                                           "domain": "toucharcade.com"},
+
     # --- JP SOURCES ---
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
@@ -119,19 +136,18 @@ def _parse_timestamp(entry: feedparser.FeedParserDict, assume_jst: bool, now_ms:
     but may fail to populate published_parsed if it can't parse the format.
 
     Resolution order:
-    1. Try entry.published (raw string) with dateutil.parser — handles both
+    1. Try all raw date string fields with dateutil.parser — handles both
        RFC 2822 (pubDate) and ISO 8601 (dc:date), with or without tz offset.
        If a tz offset is present (+09:00), it is used directly and is correct.
        If no tz offset is present AND assume_jst is True, we interpret as JST.
     2. Fall back to feedparser's published_parsed struct via calendar.timegm,
-       applying the same JST correction if assume_jst and no offset detected.
+       applying JST correction if assume_jst and no offset was detected.
     3. Fall back to now_ms if no date info exists at all.
     """
-    # Collect all possible raw date strings feedparser might store
     raw = (
         entry.get("published")
         or entry.get("updated")
-        or entry.get("dc_date")       # Dublin Core dc:date direct key
+        or entry.get("dc_date")
         or entry.get("date")
         or ""
     )
@@ -140,10 +156,10 @@ def _parse_timestamp(entry: feedparser.FeedParserDict, assume_jst: bool, now_ms:
         try:
             dt = dateutil_parser.parse(raw)
             if dt.tzinfo is not None:
-                # Has explicit timezone — trust it completely (handles +09:00 correctly)
+                # Explicit timezone present — trust it completely
                 return int(dt.timestamp() * 1000)
             elif assume_jst:
-                # No timezone in the string — assume JST
+                # No timezone in string — assume JST
                 dt_jst = dt.replace(tzinfo=JST)
                 return int(dt_jst.timestamp() * 1000)
             else:
@@ -152,7 +168,7 @@ def _parse_timestamp(entry: feedparser.FeedParserDict, assume_jst: bool, now_ms:
         except Exception:
             pass
 
-    # Fallback: feedparser's pre-parsed struct (always treated as UTC by feedparser)
+    # Fallback: feedparser's pre-parsed struct (feedparser treats as UTC)
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         ts_utc = int(calendar.timegm(entry.published_parsed) * 1000)
         if assume_jst:
@@ -213,7 +229,8 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
         if ts < cutoff_ms:
             continue
 
-        title = entry.title
+        # Decode HTML entities (e.g. &#8217; → ', &#8211; → –, &amp; → &)
+        title = html.unescape(entry.title)
 
         if src.get("filter") and not any(k in title.lower() for k in KEYWORDS):
             continue
@@ -240,6 +257,11 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
 
 
 def _deduplicate(articles: list[dict]) -> list[dict]:
+    """
+    Deduplicate by URL (primary) and by normalised title (catches syndicated
+    stories and amp/tracking-param variants). Keeps the earliest-dated entry
+    per group so the original publish time is preserved.
+    """
     by_url: dict[str, dict] = {}
     for a in articles:
         url = a["link"]
