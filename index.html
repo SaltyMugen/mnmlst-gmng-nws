@@ -84,7 +84,24 @@ h1 span {
     filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
     background: transparent; 
 }
+.item-logo.hidden { display: none; }
 .item:hover .item-logo { filter: grayscale(0%); opacity: 1; }
+
+.icon-placeholder {
+    width: 20px;
+    height: 20px;
+    background-color: #ffb347;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #1a1916;
+    flex-shrink: 0;
+}
+[data-theme="night"] .icon-placeholder { color: #fff; }
 
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
@@ -190,7 +207,7 @@ function safeDomain(url) {
 
 function formatTime(ts) {
     const d = Date.now() - ts;
-    if (d < 3600000)  return Math.floor(d / 60000)   + 'm';
+    if (d < 3600000)  return Math.floor(d / 60000)    + 'm';
     if (d < 86400000) return Math.floor(d / 3600000)  + 'h';
     return Math.floor(d / 86400000) + 'd';
 }
@@ -261,18 +278,15 @@ function render(articles) {
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
 
-    // Build hot-detection map: a title slug appearing in >1 article is "hot"
-    // Use normalised URL hostname + title slug to avoid false positives.
     const slugCount = {};
     articles.forEach(a => {
-        // Combine domain + first 40 chars of normalised title for a more precise key
         const domain = safeDomain(a.link);
         const slug   = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
         slugCount[slug] = (slugCount[slug] || 0) + 1;
     });
 
     articles
-        .slice() // don't mutate original
+        .slice() 
         .sort((a, b) => b.date - a.date)
         .forEach((a, i) => {
             const isNew    = (Date.now() - a.date) < NEW_THRESHOLD_MS;
@@ -284,25 +298,22 @@ function render(articles) {
 
             const li = document.createElement('li');
             li.className = 'item';
-            // Store escaped title for filtering
             li.setAttribute('data-title', a.title);
             li.setAttribute('data-new', isNew);
             li.setAttribute('data-hot', isHot);
 
-            // ── Date cell ──
             const dateSpan = document.createElement('span');
             dateSpan.className = 'item-date';
             dateSpan.textContent = formatTime(a.date);
 
-            // ── Body cell ──
             const body = document.createElement('div');
             body.className = 'item-body';
 
             const link = document.createElement('a');
             link.href   = a.link;
             link.target = '_blank';
-            link.rel    = 'noopener noreferrer'; // FIX: added noreferrer
-            link.textContent = a.title; // FIX: textContent prevents XSS
+            link.rel    = 'noopener noreferrer';
+            link.textContent = a.title;
 
             if (isNew)    link.appendChild(makeBadge('New',      'badge-new'));
             if (isReddit) link.appendChild(makeBadge('Rumour',   'badge-rumour'));
@@ -311,24 +322,49 @@ function render(articles) {
 
             body.appendChild(link);
 
-            // ── Logo cell ──
+            // ── Logo cell with Placeholder logic ──
             const logoWrap = document.createElement('span');
             logoWrap.setAttribute('aria-hidden', 'true');
+            logoWrap.style.display = 'flex';
+            logoWrap.style.alignItems = 'center';
+            logoWrap.style.justifyContent = 'center';
+
+            const firstLetter = a.sourceName ? a.sourceName.charAt(0).toLowerCase() : '?';
+
             const img = document.createElement('img');
             img.className = 'item-logo';
-            img.alt = ''; // decorative
-            // safeDomain ensures only clean hostname is used in the favicon URL
+            img.alt = '';
+            
+            const placeholder = document.createElement('div');
+            placeholder.className = 'icon-placeholder';
+            placeholder.textContent = firstLetter;
+            placeholder.style.display = 'none';
+
             if (domain) {
-                img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=32`;
+                img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
+                img.onload = function() {
+                    if (this.naturalHeight <= 16) {
+                        this.classList.add('hidden');
+                        placeholder.style.display = 'flex';
+                    }
+                };
+                img.onerror = function() {
+                    this.classList.add('hidden');
+                    placeholder.style.display = 'flex';
+                };
+            } else {
+                img.classList.add('hidden');
+                placeholder.style.display = 'flex';
             }
+
             logoWrap.appendChild(img);
+            logoWrap.appendChild(placeholder);
 
             li.appendChild(dateSpan);
             li.appendChild(body);
             li.appendChild(logoWrap);
             feed.appendChild(li);
 
-            // Staggered reveal (cap delay at first 30 items)
             setTimeout(() => li.classList.add('show'), i < 30 ? i * 15 : 0);
         });
 }
@@ -348,7 +384,6 @@ async function fetchFresh() {
 }
 
 async function init() {
-    // Paint from cache immediately if available
     const cached = localStorage.getItem(CACHE_KEY);
     if (cached) {
         try {
@@ -357,7 +392,7 @@ async function init() {
             lastDataHash = hashArticles(cachedData);
             render(cachedData);
         } catch (_) {
-            localStorage.removeItem(CACHE_KEY); // corrupted cache
+            localStorage.removeItem(CACHE_KEY);
         }
         document.getElementById('splash').classList.add('fade');
     }
@@ -366,7 +401,6 @@ async function init() {
         const freshData = await fetchFresh();
         if (freshData && freshData.length > 0) {
             const freshHash = hashArticles(freshData);
-            // FIX: compare content hash, not just length
             if (freshHash !== lastDataHash) {
                 lastDataHash = freshHash;
                 allArticles  = freshData;
@@ -381,7 +415,6 @@ async function init() {
         setTimeout(() => {
             const splash = document.getElementById('splash');
             splash.classList.add('fade');
-            // FIX: restore aria visibility after fade
             splash.setAttribute('aria-hidden', 'true');
         }, 300);
     }
@@ -393,15 +426,12 @@ function hardRefresh() {
     init();
 }
 
-// ─── Silent background refresh ────────────────────────────────────
 async function silentRefresh() {
     try {
         const freshData = await fetchFresh();
         if (!freshData || freshData.length === 0) return;
         const freshHash = hashArticles(freshData);
-        // FIX: compare by content hash, not article count
         if (freshHash !== lastDataHash) {
-            console.log('New content detected — updating feed.');
             lastDataHash = freshHash;
             allArticles  = freshData;
             render(freshData);
@@ -412,7 +442,6 @@ async function silentRefresh() {
     }
 }
 
-// ─── Boot ─────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
     init();
     setInterval(silentRefresh, REFRESH_INTERVAL);
