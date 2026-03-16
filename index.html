@@ -247,6 +247,23 @@ function hardRefresh() {
     init(); 
 }
 window.onload = init;
+
+setInterval(async () => {
+    try {
+        const r = await fetch('./data_gaming.json?t=' + Date.now());
+        const freshData = await r.json();
+        
+        
+        const currentCount = document.querySelectorAll('.item').length;
+        if (freshData.length !== currentCount) {
+            console.log("New news found! Updating feed...");
+            render(freshData);
+            localStorage.setItem(CACHE_KEY, JSON.stringify(freshData));
+        }
+    } catch (e) {
+        console.log("Silent update check failed.");
+    }
+}, 300000); 
 </script>
 </body>
 </html>
