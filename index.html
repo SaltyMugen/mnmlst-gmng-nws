@@ -1,177 +1,157 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="day">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
-    
-    <meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
-    <meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen">
-    <meta property="og:title" content="OniMugen | Gaming News Aggregator">
-    <meta property="og:description" content="The fastest way to stay updated on gaming news and industry leaks.">
-    <meta property="og:type" content="website">
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "NewsMediaOrganization",
-      "name": "OniMugen",
-      "url": "https://onimugen.com",
-      "description": "Real-time gaming news and leak aggregator."
-    }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
+<meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
+<meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen">
+<script>
+    (function() {
+        const savedTheme = localStorage.getItem('om-theme') || 'day';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<noscript>
+  <style>.noscript-msg { padding: 40px; text-align: center; font-family: sans-serif; }</style>
+  <div class="noscript-msg">JavaScript is required to load the news feed. Please enable it in your browser.</div>
+</noscript>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+[data-theme="day"] { 
+    --bg: #fafaf8; --ink: #1a1916; --dim: #9a9690; --sub: #e4e1db; 
+    --new-hl: rgba(214, 59, 47, 0.04); --hot-hl: rgba(0, 86, 179, 0.04); --hover-bg: #f1f0ec;
+    --hover-ink: #0056b3; --header-bg: rgba(250, 250, 248, 0.95);
+    --hot-bg: #007bff; --icon-color: #9a9690; --rumour: #f77f00;
+}
+[data-theme="night"] { 
+    --bg: #111110; --ink: #dedad4; --dim: #55524e; --sub: #252422; 
+    --new-hl: rgba(214, 59, 47, 0.1); --hot-hl: rgba(51, 154, 240, 0.08); --hover-bg: #1a1a19;
+    --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
+    --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
+}
 
-    <script>
-        (function() {
-            const savedTheme = localStorage.getItem('om-theme') || 'day';
-            document.documentElement.setAttribute('data-theme', savedTheme);
-        })();
-    </script>
+body { 
+    background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
+    max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
+    transition: background 0.3s ease, color 0.3s ease; 
+}
+header { 
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between; 
+    padding: 12px 5%; background: var(--header-bg); backdrop-filter: blur(12px);
+    border-bottom: 1px solid transparent; 
+    transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
+}
+header.scrolled { border-color: var(--sub); padding: 8px 5%; }
+.header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
+h1 { 
+    font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px); line-height: 0.8; 
+    background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
+}
+h1 span { 
+    display: block; font-family: 'DM Sans'; font-size: 10px; letter-spacing: 2.5px; 
+    color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
-    
-    <noscript>
-      <style>.noscript-msg { padding: 40px; text-align: center; font-family: sans-serif; }</style>
-      <div class="noscript-msg">JavaScript is required to load the news feed. Please enable it in your browser.</div>
-    </noscript>
+.badge-jp {
+    background: #000;
+    color: #fff;
+}
 
-    <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    [data-theme="day"] { 
-        --bg: #fafaf8; --ink: #1a1916; --dim: #9a9690; --sub: #e4e1db; 
-        --new-hl: rgba(214, 59, 47, 0.04); --hot-hl: rgba(0, 86, 179, 0.04); --hover-bg: #f1f0ec;
-        --hover-ink: #0056b3; --header-bg: rgba(250, 250, 248, 0.95);
-        --hot-bg: #007bff; --icon-color: #9a9690; --rumour: #f77f00;
-    }
-    [data-theme="night"] { 
-        --bg: #111110; --ink: #dedad4; --dim: #55524e; --sub: #252422; 
-        --new-hl: rgba(214, 59, 47, 0.1); --hot-hl: rgba(51, 154, 240, 0.08); --hover-bg: #1a1a19;
-        --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
-        --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
-    }
+[data-theme="night"] .badge-jp {
+    background: #dedad4; 
+    color: #111110;        
+}
+#feed { list-style: none; }
+.item { 
+    display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
+    padding: 0 8px; margin-bottom: 1px; border-radius: 3px;
+    opacity: 0; transform: translateY(5px); transition: 0.2s ease, background 0.3s ease; 
+}
+.item.show { opacity: 1; transform: none; border-bottom: 1px solid var(--sub);}
+.item.hidden { display: none; }
+.item:hover { background: var(--hover-bg); }
+.item:hover .item-body a { color: var(--hover-ink); }
 
-    body { 
-        background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
-        max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
-        transition: background 0.3s ease, color 0.3s ease; 
-    }
-    header { 
-        position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-        display: flex; align-items: center; justify-content: space-between; 
-        padding: 12px 5%; background: var(--header-bg); backdrop-filter: blur(12px);
-        border-bottom: 1px solid transparent; 
-        transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
-    }
-    header.scrolled { border-color: var(--sub); padding: 8px 5%; }
-    .header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
-    h1 { 
-        font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px); line-height: 0.8; 
-        background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
-        -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
-    }
-    h1 span { 
-        display: block; font-family: 'DM Sans'; font-size: 10px; letter-spacing: 2.5px; 
-        color: var(--dim); text-transform: uppercase; -webkit-text-fill-color: var(--dim); margin-top: 2px;
-    }
+/* --- SOURCE LOGO & PLACEHOLDER CSS --- */
+.item-logo, .icon-placeholder { 
+    width: 20px; height: 20px; object-fit: contain; opacity: 0.3; 
+    filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
+    background: transparent; 
+}
 
-    .badge-jp { background: #000; color: #fff; }
-    [data-theme="night"] .badge-jp { background: #dedad4; color: #111110; }
-    
-    #feed { list-style: none; }
-    .item { 
-        display: grid; grid-template-columns: 35px 1fr 24px; gap: 12px; align-items: center; 
-        padding: 0 8px; margin-bottom: 1px; border-radius: 3px;
-        opacity: 0; transform: translateY(5px); transition: 0.2s ease, background 0.3s ease; 
-    }
-    .item.show { opacity: 1; transform: none; border-bottom: 1px solid var(--sub);}
-    .item.hidden { display: none; }
-    .item:hover { background: var(--hover-bg); }
-    .item:hover .item-body a { color: var(--hover-ink); }
+.item:hover .item-logo,
+.item:hover .icon-placeholder { filter: grayscale(0%); opacity: 1; }
 
-    .item-logo, .icon-placeholder { 
-        width: 20px; height: 20px; object-fit: contain; opacity: 0.3; 
-        filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
-        background: transparent; 
-    }
+[data-theme="night"] .item-logo,
+[data-theme="night"] .icon-placeholder {
+    filter: grayscale(100%) invert(1) brightness(0.7) drop-shadow(0 0 5px rgba(255, 255, 255, 0.05));
+    opacity: 0.5;
+    background: rgba(255, 255, 255, 0.03);
+}
 
-    .item:hover .item-logo,
-    .item:hover .icon-placeholder { filter: grayscale(0%); opacity: 1; }
+[data-theme="night"] .item:hover .item-logo,
+[data-theme="night"] .item:hover .icon-placeholder {
+    filter: grayscale(0%) invert(0%) brightness(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.08);
+}
 
-    [data-theme="night"] .item-logo,
-    [data-theme="night"] .icon-placeholder {
-        filter: grayscale(100%) invert(1) brightness(0.7) drop-shadow(0 0 5px rgba(255, 255, 255, 0.05));
-        opacity: 0.5;
-        background: rgba(255, 255, 255, 0.03);
-    }
+.icon-placeholder {
+    background-color: #ffb347;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #1a1916;
+    flex-shrink: 0;
+}
+[data-theme="night"] .icon-placeholder { color: #fff; }
 
-    [data-theme="night"] .item:hover .item-logo,
-    [data-theme="night"] .item:hover .icon-placeholder {
-        filter: grayscale(0%) invert(0%) brightness(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
-        opacity: 1;
-        background: rgba(255, 255, 255, 0.08);
-    }
+.item-logo.hidden { display: none; }
+/* --- END SOURCE LOGO CSS --- */
 
-    .icon-placeholder {
-        background-color: #ffb347;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 11px;
-        font-weight: bold;
-        text-transform: lowercase;
-        color: #1a1916;
-        flex-shrink: 0;
-    }
-    [data-theme="night"] .icon-placeholder { color: #fff; }
-
-    .item-logo.hidden { display: none; }
-
-    .item[data-new="true"] { background: var(--new-hl); }
-    .item[data-hot="true"] { background: var(--hot-hl); }
-    .item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
-    
-    /* SEO-Friendly Heading Styles */
-    .item-body { display: inline; font-size: 16px; font-weight: 400; }
-    .item-body a { color: var(--ink); text-decoration: none; line-height: 1.2; transition: color 0.15s; }
-    
-    .badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
-    .badge-new { background: #d63b2f; }
-    .badge-hot { background: var(--hot-bg); }
-    .badge-rumour { background: var(--rumour); }
-    .badge-ps { background: #006FCD; } 
-
-    .controls { display: flex; align-items: center; gap: 15px; }
-    .icon-btn { background: none; border: none; cursor: pointer; color: var(--icon-color); display: flex; align-items: center; justify-content: center; transition: color 0.2s, opacity 0.2s; opacity: 0.8; }
-    .icon-btn:hover { color: var(--ink); opacity: 1; }
-    .icon-btn svg { width: 17px; height: 17px; pointer-events: none; }
-    .expand-container { display: flex; align-items: center; }
-    .expandable { max-width: 0; overflow: hidden; transition: max-width 0.4s cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; display: flex; align-items: center; }
-    .expandable.active { max-width: 200px; margin-left: 10px; }
-    #search-input { background: transparent; border: none; border-bottom: 1px solid var(--sub); color: var(--ink); font-family: 'DM Sans'; font-size: 13px; outline: none; padding: 2px 0; width: 140px; }
-    .filter-options { display: flex; gap: 12px; font-size: 10px; font-weight: 700; letter-spacing: 1px; color: var(--dim); }
-    .filter-opt { cursor: pointer; transition: 0.2s; }
-    .filter-opt.active { color: var(--ink); border-bottom: 1px solid var(--ink); }
-
-    #splash { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--bg); transition: opacity 0.5s; }
-    #splash.fade { opacity: 0; pointer-events: none; }
-    .splash-title { font-family: 'Micro 5'; font-size: 60px; }
-    .splash-track { width: 200px; height: 1px; background: var(--sub); margin: 30px 0; overflow: hidden; }
-    .splash-fill { height: 100%; background: var(--ink); width: 0%; transition: width 0.3s; }
-    footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; text-align: center; }
-    .footer-text { font-size: 10px; color: var(--dim); }
-    </style>
+.item[data-new="true"] { background: var(--new-hl); }
+.item[data-hot="true"] { background: var(--hot-hl); }
+.item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
+.item-body a { color: var(--ink); text-decoration: none; font-size: 16px; line-height: 1.2; transition: color 0.15s; font-weight: 400; }
+.badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
+.badge-new { background: #d63b2f; }
+.badge-hot { background: var(--hot-bg); }
+.badge-rumour { background: var(--rumour); }
+.badge-ps { background: #006FCD; } 
+.controls { display: flex; align-items: center; gap: 15px; }
+.icon-btn { background: none; border: none; cursor: pointer; color: var(--icon-color); display: flex; align-items: center; justify-content: center; transition: color 0.2s, opacity 0.2s; opacity: 0.8; }
+.icon-btn:hover { color: var(--ink); opacity: 1; }
+.icon-btn svg { width: 17px; height: 17px; pointer-events: none; }
+.expand-container { display: flex; align-items: center; }
+.expandable { max-width: 0; overflow: hidden; transition: max-width 0.4s cubic-bezier(0.4, 0, 0.2, 1); white-space: nowrap; display: flex; align-items: center; }
+.expandable.active { max-width: 200px; margin-left: 10px; }
+#search-input { background: transparent; border: none; border-bottom: 1px solid var(--sub); color: var(--ink); font-family: 'DM Sans'; font-size: 13px; outline: none; padding: 2px 0; width: 140px; }
+.filter-options { display: flex; gap: 12px; font-size: 10px; font-weight: 700; letter-spacing: 1px; color: var(--dim); }
+.filter-opt { cursor: pointer; transition: 0.2s; }
+.filter-opt.active { color: var(--ink); border-bottom: 1px solid var(--ink); }
+#splash { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--bg); transition: opacity 0.5s; }
+#splash.fade { opacity: 0; pointer-events: none; }
+.splash-title { font-family: 'Micro 5'; font-size: 60px; }
+.splash-track { width: 200px; height: 1px; background: var(--sub); margin: 30px 0; overflow: hidden; }
+.splash-fill { height: 100%; background: var(--ink); width: 0%; transition: width 0.3s; }
+footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; text-align: center; }
+.footer-text { font-size: 10px; color: var(--dim); }
+</style>
 </head>
 <body>
-
 <div id="splash" role="status" aria-live="polite" aria-label="Loading OniMugen Gaming">
   <div class="splash-title" aria-hidden="true">OniMugen</div>
   <div class="splash-track" aria-hidden="true"><div class="splash-fill" id="s-fill"></div></div>
 </div>
-
 <header id="main-header">
   <div class="header-inner">
       <h1>OniMugen<span>Gaming</span></h1>
@@ -203,31 +183,38 @@
       </div>
   </div>
 </header>
-
-<main>
-    <ul id="feed" aria-live="polite" aria-label="Gaming news feed"></ul>
-</main>
-
+<main><ul id="feed" aria-live="polite" aria-label="Gaming news feed"></ul></main>
 <footer><div class="footer-text">&copy; 2026 OniMugen. All content belongs to the respective creators and publishers.</div></footer>
-
 <script>
 // ─── Constants ────────────────────────────────────────────────────
-const NEW_THRESHOLD_MS  = 15 * 60 * 1000;   
-const REFRESH_INTERVAL  = 5 * 60 * 1000;    
+const NEW_THRESHOLD_MS  = 15 * 60 * 1000;   // 15 minutes
+const CUTOFF_MS         = 48 * 60 * 60 * 1000; // 48 hours (used for future age-gating)
+const REFRESH_INTERVAL  = 5 * 60 * 1000;    // 5 minutes
 const CACHE_KEY         = "onimugen_v1_gaming";
 
 // ─── State ────────────────────────────────────────────────────────
-let allArticles   = []; 
+let allArticles   = [];   // master copy of current articles
 let currentFilter = 'all';
-let lastDataHash  = null; 
+let lastDataHash  = null; // hash to detect real content changes
 
 // ─── Utilities ────────────────────────────────────────────────────
+
 function hashArticles(articles) {
     return articles.map(a => a.link + a.date).join('|');
 }
 
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.appendChild(document.createTextNode(String(str)));
+    return div.innerHTML;
+}
+
 function safeDomain(url) {
-    try { return new URL(url).hostname; } catch (_) { return ''; }
+    try {
+        return new URL(url).hostname;
+    } catch (_) {
+        return '';
+    }
 }
 
 function formatTime(ts) {
@@ -272,45 +259,41 @@ function setFilter(t, el) {
 
 function applyFilters() {
     const q = document.getElementById('search-input').value.toLowerCase();
-    
-    // We target the 'item-container' (the <li>)
-    document.querySelectorAll('.item-container').forEach(item => {
-        // We find the article inside it which holds the data-title
-        const art = item.querySelector('.item');
-        if (!art) return;
-
-        const title = art.getAttribute('data-title').toLowerCase();
+    document.querySelectorAll('.item').forEach(item => {
+        const title       = item.getAttribute('data-title').toLowerCase();
         const matchSearch = title.includes(q);
-        
-        let matchTab = true;
-        if (currentFilter === 'new') matchTab = art.getAttribute('data-new') === 'true';
-        if (currentFilter === 'hot') matchTab = art.getAttribute('data-hot') === 'true';
-        
-        // Hide or show the <li> container
+        let   matchTab    = true;
+        if (currentFilter === 'new') matchTab = item.getAttribute('data-new') === 'true';
+        if (currentFilter === 'hot') matchTab = item.getAttribute('data-hot') === 'true';
         item.classList.toggle('hidden', !(matchSearch && matchTab));
     });
 }
 
 // ─── Scroll ───────────────────────────────────────────────────────
 window.addEventListener('scroll', () => {
-    document.getElementById('main-header').classList.toggle('scrolled', window.pageYOffset > 20);
+    document.getElementById('main-header')
+        .classList.toggle('scrolled', window.pageYOffset > 20);
+});
+
+// ─── Keyboard: filter buttons ─────────────────────────────────────
+document.addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('filter-opt')) {
+        e.preventDefault();
+        e.target.click();
+    }
 });
 
 // ─── Render ───────────────────────────────────────────────────────
 function render(articles) {
     allArticles = articles; 
+
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
-
-    // Dynamic SEO Title Update
-    if (articles.length > 0) {
-        document.title = `OniMugen | ${articles[0].title}`;
-    }
 
     const slugCount = {};
     articles.forEach(a => {
         const domain = safeDomain(a.link);
-        const slug = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
+        const slug   = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
         slugCount[slug] = (slugCount[slug] || 0) + 1;
     });
 
@@ -326,21 +309,16 @@ function render(articles) {
             const isPS     = a.link.includes('playstation.com');
 
             const li = document.createElement('li');
-            li.className = 'item-container';
-            
-            // SEO: Using <article> for each news entry
-            const art = document.createElement('article');
-            art.className = 'item';
-            art.setAttribute('data-title', a.title);
-            art.setAttribute('data-new', isNew);
-            art.setAttribute('data-hot', isHot);
+            li.className = 'item';
+            li.setAttribute('data-title', a.title);
+            li.setAttribute('data-new', isNew);
+            li.setAttribute('data-hot', isHot);
 
             const dateSpan = document.createElement('span');
             dateSpan.className = 'item-date';
             dateSpan.textContent = formatTime(a.date);
 
-            // SEO: Using <h2> for titles
-            const body = document.createElement('h2');
+            const body = document.createElement('div');
             body.className = 'item-body';
 
             const link = document.createElement('a');
@@ -353,7 +331,9 @@ function render(articles) {
             if (isReddit) link.appendChild(makeBadge('Rumour',   'badge-rumour'));
             if (isPS)     link.appendChild(makeBadge('PlayStation', 'badge-ps'));
             if (isHot)    link.appendChild(makeBadge('Hot',      'badge-hot'));
-            if (a.isTranslated) link.appendChild(makeBadge('JP-EN', 'badge-jp'));
+            if (a.isTranslated) {
+                link.appendChild(makeBadge('JP-EN', 'badge-jp'));
+            }
             
             body.appendChild(link);
 
@@ -367,7 +347,7 @@ function render(articles) {
 
             const img = document.createElement('img');
             img.className = 'item-logo';
-            img.alt = `${a.sourceName || 'Source'} icon`;
+            img.alt = '';
             
             const placeholder = document.createElement('div');
             placeholder.className = 'icon-placeholder';
@@ -394,13 +374,12 @@ function render(articles) {
             logoWrap.appendChild(img);
             logoWrap.appendChild(placeholder);
 
-            art.appendChild(dateSpan);
-            art.appendChild(body);
-            art.appendChild(logoWrap);
-            li.appendChild(art);
+            li.appendChild(dateSpan);
+            li.appendChild(body);
+            li.appendChild(logoWrap);
             feed.appendChild(li);
 
-            setTimeout(() => art.classList.add('show'), i < 30 ? i * 15 : 0);
+            setTimeout(() => li.classList.add('show'), i < 30 ? i * 15 : 0);
         });
 }
 
@@ -413,7 +392,7 @@ function makeBadge(text, cls) {
 
 // ─── Data fetching ────────────────────────────────────────────────
 async function fetchFresh() {
-    const r = await fetch('./data_gaming.json?t=' + Date.now());
+    const r    = await fetch('./data_gaming.json?t=' + Date.now());
     if (!r.ok) throw new Error('Network response was not ok');
     return r.json();
 }
@@ -473,7 +452,7 @@ async function silentRefresh() {
             localStorage.setItem(CACHE_KEY, JSON.stringify(freshData));
         }
     } catch (e) {
-        console.log('Silent refresh failed.');
+        console.log('Silent refresh failed silently.');
     }
 }
 
