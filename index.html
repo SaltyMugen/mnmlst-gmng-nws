@@ -89,14 +89,14 @@ h1 span {
 
 [data-theme="night"] .item-logo,
 [data-theme="night"] .icon-placeholder {
-    filter: grayscale(100%) drop-shadow(0 0 5px rgba(255, 255, 255, 0.05));
-    opacity: 0.4;
+    filter: grayscale(100%) invert(1) brightness(0.7) drop-shadow(0 0 5px rgba(255, 255, 255, 0.05));
+    opacity: 0.5;
     background: rgba(255, 255, 255, 0.03);
 }
 
 [data-theme="night"] .item:hover .item-logo,
 [data-theme="night"] .item:hover .icon-placeholder {
-    filter: grayscale(0%) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    filter: grayscale(0%) invert(0%) brightness(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
     opacity: 1;
     background: rgba(255, 255, 255, 0.08);
 }
