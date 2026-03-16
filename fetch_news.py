@@ -85,12 +85,13 @@ SOURCES = [
 
     # --- JP SOURCES ---
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
+    {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net"},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
     {"name": "Famitsu",           "rss": "https://www.famitsu.com/rss/fcom_all.rdf",                                "domain": "famitsu.com",              "translate": True, "tz_jst": True},
     {"name": "Dengeki Online",    "rss": "https://dengekionline.com/index.xml",                                     "domain": "dengekionline.com",         "translate": True, "tz_jst": True},
     {"name": "GameBusiness.jp",   "rss": "https://www.gamebusiness.jp/rss/index.rdf",                               "domain": "gamebusiness.jp",           "translate": True, "tz_jst": True},
     {"name": "GameBiz",           "rss": "https://gamebiz.jp/feed.rss",                                             "domain": "gamebiz.jp",                "translate": True, "tz_jst": True},
-    {"name": "Denfaminicogamer",  "rss": "https://news.denfaminicogamer.jp/feed",                                    "domain": "news.denfaminicogamer.jp",  "translate": True, "tz_jst": True},
+    {"name": "Denfaminicogamer",  "rss": "https://news.denfaminicogamer.jp/feed",                                   "domain": "news.denfaminicogamer.jp",  "translate": True, "tz_jst": True},
     {"name": "Game Spark",        "rss": "https://www.gamespark.jp/rss20/index.rdf",                                "domain": "gamespark.jp",              "translate": True, "tz_jst": True},
     {"name": "Inside Games",      "rss": "https://www.inside-games.jp/rss20/index.rdf",                             "domain": "inside-games.jp",           "translate": True, "tz_jst": True},
     {"name": "Gamer.ne.jp",       "rss": "https://www.gamer.ne.jp/feed/news.rdf",                                   "domain": "gamer.ne.jp",               "translate": True, "tz_jst": True},
