@@ -147,6 +147,41 @@ h1 span {
 .splash-fill { height: 100%; background: var(--ink); width: 0%; transition: width 0.3s; }
 footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; text-align: center; }
 .footer-text { font-size: 10px; color: var(--dim); }
+
+/* --- GROUPED SOURCES DRAWER --- */
+.item-sources { 
+    display: none; grid-column: 1 / -1; 
+    padding: 4px 0 8px 47px; 
+}
+.item-sources.open { display: block; }
+.source-row { 
+    display: flex; align-items: center; gap: 8px; 
+    padding: 4px 0; border-bottom: 1px solid var(--sub); 
+}
+.source-row:last-child { border-bottom: none; }
+.source-row a { color: var(--ink); text-decoration: none; font-size: 13px; line-height: 1.3; transition: color 0.15s; flex: 1; }
+.source-row a:hover { color: var(--hover-ink); }
+.source-row-date { font-size: 10px; color: var(--dim); font-weight: 500; white-space: nowrap; }
+.source-row-logo, .source-row-placeholder {
+    width: 14px; height: 14px; object-fit: contain; border-radius: 2px; flex-shrink: 0;
+    filter: grayscale(100%); opacity: 0.5;
+}
+.source-row-placeholder {
+    background-color: #ffb347; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 8px; font-weight: bold; text-transform: lowercase; color: #1a1916;
+}
+[data-theme="night"] .source-row-placeholder { color: #fff; }
+.source-row-logo.hidden { display: none; }
+.sources-count {
+    font-size: 10px; font-weight: 700; color: var(--dim); 
+    white-space: nowrap; cursor: pointer; user-select: none;
+    display: flex; align-items: center; gap: 3px;
+}
+.sources-count:hover { color: var(--ink); }
+.sources-chevron { transition: transform 0.2s ease; display: inline-block; }
+.sources-chevron.open { transform: rotate(180deg); }
+/* --- END GROUPED SOURCES DRAWER --- */
 </style>
 </head>
 <body>
@@ -303,14 +338,18 @@ function render(articles) {
         .slice() 
         .sort((a, b) => b.date - a.date)
         .forEach((a, i) => {
+            // Hide non-lead group members — they appear in the lead's drawer instead
+            if (a.groupMember) return;
+
             const isNew    = (Date.now() - a.date) < NEW_THRESHOLD_MS;
             const domain   = safeDomain(a.link);
             const slug     = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-            const isHot    = slugCount[slug] > 1;
+            const isHot    = (a.hotScore != null) ? a.hotScore >= 2.0 : slugCount[slug] > 1;
             const isReddit    = a.link.includes('reddit.com');
             const isPS        = a.link.includes('playstation.com');
             const isNintendo  = a.link.includes('nintendo.com');
-            const isXbox      = a.link.includes('news.xbox.com');
+            const isXbox      = a.link.includes('.xbox.com');
+            const hasGroup    = a.groupMembers && a.groupMembers.length > 0;
 
             const li = document.createElement('li');
             li.className = 'item';
@@ -340,8 +379,23 @@ function render(articles) {
             if (a.isTranslated) {
                 link.appendChild(makeBadge('JP-EN', 'badge-jp'));
             }
-            
+
             body.appendChild(link);
+
+            // ── Sources count + chevron (grouped articles only) ──
+            if (hasGroup) {
+                const totalSources = a.groupMembers.length + 1;
+                const countEl = document.createElement('span');
+                countEl.className = 'sources-count';
+                countEl.innerHTML = `${totalSources} sources <span class="sources-chevron">&#9662;</span>`;
+                countEl.addEventListener('click', () => {
+                    const drawer = li.querySelector('.item-sources');
+                    const chevron = countEl.querySelector('.sources-chevron');
+                    const isOpen = drawer.classList.toggle('open');
+                    chevron.classList.toggle('open', isOpen);
+                });
+                body.appendChild(countEl);
+            }
 
             const logoWrap = document.createElement('span');
             logoWrap.setAttribute('aria-hidden', 'true');
@@ -383,6 +437,64 @@ function render(articles) {
             li.appendChild(dateSpan);
             li.appendChild(body);
             li.appendChild(logoWrap);
+
+            // ── Sources drawer (grouped articles only) ──
+            if (hasGroup) {
+                const drawer = document.createElement('div');
+                drawer.className = 'item-sources';
+
+                const allMembers = [
+                    { title: a.title, link: a.link, sourceName: a.sourceName, domain: domain, date: a.date },
+                    ...a.groupMembers
+                ].sort((x, y) => x.date - y.date);
+
+                allMembers.forEach(m => {
+                    const row = document.createElement('div');
+                    row.className = 'source-row';
+
+                    const mDomain = safeDomain(m.link);
+                    const mLetter = m.sourceName ? m.sourceName.charAt(0).toLowerCase() : '?';
+
+                    const mImg = document.createElement('img');
+                    mImg.className = 'source-row-logo';
+                    mImg.alt = '';
+
+                    const mPlaceholder = document.createElement('div');
+                    mPlaceholder.className = 'source-row-placeholder';
+                    mPlaceholder.textContent = mLetter;
+                    mPlaceholder.style.display = 'none';
+
+                    if (mDomain) {
+                        mImg.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(mDomain)}&sz=64`;
+                        mImg.onload = function() {
+                            if (this.naturalHeight <= 16) { this.classList.add('hidden'); mPlaceholder.style.display = 'flex'; }
+                        };
+                        mImg.onerror = function() { this.classList.add('hidden'); mPlaceholder.style.display = 'flex'; };
+                    } else {
+                        mImg.classList.add('hidden');
+                        mPlaceholder.style.display = 'flex';
+                    }
+
+                    const mLink = document.createElement('a');
+                    mLink.href = m.link;
+                    mLink.target = '_blank';
+                    mLink.rel = 'noopener noreferrer';
+                    mLink.textContent = m.sourceName;
+
+                    const mDate = document.createElement('span');
+                    mDate.className = 'source-row-date';
+                    mDate.textContent = formatTime(m.date);
+
+                    row.appendChild(mImg);
+                    row.appendChild(mPlaceholder);
+                    row.appendChild(mLink);
+                    row.appendChild(mDate);
+                    drawer.appendChild(row);
+                });
+
+                li.appendChild(drawer);
+            }
+
             feed.appendChild(li);
 
             setTimeout(() => li.classList.add('show'), i < 30 ? i * 15 : 0);
