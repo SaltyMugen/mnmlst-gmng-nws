@@ -83,30 +83,22 @@ SOURCES = [
     # --- INDIE ---
     {"name": "IndieDB",           "rss": "https://www.indiedb.com/rss/news",                                        "domain": "indiedb.com"},
 
+    # --- ADDITIONAL GENERAL ---
+    {"name": "Game Informer",     "rss": "https://www.gameinformer.com/rss.xml",                                    "domain": "gameinformer.com"},
+    {"name": "Shacknews",         "rss": "https://www.shacknews.com/feed/all",                                      "domain": "shacknews.com"},
+    {"name": "Giant Bomb",        "rss": "https://www.giantbomb.com/feeds/mashup/",                                 "domain": "giantbomb.com"},
+    {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/df",                                       "domain": "eurogamer.net/digitalfoundry"},
+    {"name": "Noisy Pixel",       "rss": "https://noisypixel.net/feed/",                                            "domain": "noisypixel.net"},
+    {"name": "TweakTown",         "rss": "https://www.tweaktown.com/rss/index.xml",                                 "domain": "tweaktown.com"},
+
     # --- NEWSLETTERS ---
-    [
-    {"name": "GameDiscoverCo", "rss": "https://newsletter.gamediscover.co/feed",                                    "domain": "newsletter.gamediscover.co"},
-    {"name": "Game File", "rss": "https://www.gamefile.news/feed",                                                  "domain": "gamefile.news"},
-    {"name": "GamesIndustry.biz", "rss": "https://www.gamesindustry.biz/rss/news",                                  "domain": "gamesindustry.biz"},
-    {"name": "Hit Points", "rss": "https://newsletter.hitpoints.co/feed", "domain":                                 "newsletter.hitpoints.co"},
-    {"name": "Knowledge", "rss": "https://www.knowledge.me/feed",                                                   "domain": "knowledge.me"},
+    {"name": "GameDiscoverCo",    "rss": "https://newsletter.gamediscover.co/feed",                                 "domain": "newsletter.gamediscover.co"},
+    {"name": "Game File",         "rss": "https://www.gamefile.news/feed",                                          "domain": "gamefile.news"},
+    {"name": "Hit Points",        "rss": "https://newsletter.hitpoints.co/feed",                                    "domain": "newsletter.hitpoints.co"},
+    {"name": "Knowledge",         "rss": "https://www.knowledge.me/feed",                                           "domain": "knowledge.me"},
 
-        # --- ADDITIONAL GENERAL ---
-    {"name": "Game Informer",     "rss": "https://www.gameinformer.com/rss.xml",                  "domain": "gameinformer.com"},
-    {"name": "Shacknews",         "rss": "https://www.shacknews.com/feed/all",                    "domain": "shacknews.com"},
-    {"name": "Giant Bomb",        "rss": "https://www.giantbomb.com/feeds/mashup/",               "domain": "giantbomb.com"},
-    {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/df",                     "domain": "eurogamer.net/digitalfoundry"},
-    
-    # --- MOBILE & SPECIALISTS ---
-    {"name": "Noisy Pixel",       "rss": "https://noisypixel.net/feed/",                          "domain": "noisypixel.net"},
-    {"name": "TweakTown",         "rss": "https://www.tweaktown.com/rss/index.xml",               "domain": "tweaktown.com"},
-
-    # --- NEWSLETTERS (FLATTENED) ---
-    {"name": "GameDiscoverCo",    "rss": "https://newsletter.gamediscover.co/feed",               "domain": "newsletter.gamediscover.co"},
-    {"name": "Game File",         "rss": "https://www.gamefile.news/feed",                        "domain": "gamefile.news"},
-    {"name": "Hit Points",        "rss": "https://newsletter.hitpoints.co/feed",                  "domain": "newsletter.hitpoints.co"},
-    {"name": "Knowledge",         "rss": "https://www.knowledge.me/feed",                         "domain": "knowledge.me"},
-    
+    # --- JP SOURCES ---
+    # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
     # --- JP SOURCES ---
     {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net", "translate": True, "tz_jst": True},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
@@ -121,7 +113,7 @@ SOURCES = [
     {"name": "IGN Japan",         "rss": "https://jp.ign.com/feed.xml",                                             "domain": "jp.ign.com",                "translate": True, "tz_jst": True},
     {"name": "Automaton Media JP","rss": "https://automaton-media.com/feed/",                                       "domain": "automaton-media.com",       "translate": True, "tz_jst": True},
 ]
-]
+
 KEYWORDS = [
 "game", "gaming", "videogame", "video game", "gameplay", "gamer", "gaming industry",
 "game developer", "game studio", "game publisher", "indie game", "game release",
@@ -194,7 +186,9 @@ def _is_cjk(text: str) -> bool:
     return bool(_CJK_RE.search(text))
     
 def _fix_mojibake(text: str) -> str:
-
+    """
+    Fix UTF-8 mojibake such as 'ã‚²ãƒ¼ãƒ ' → 'ゲーム'
+    """
     try:
         return text.encode("latin1").decode("utf-8")
     except Exception:
@@ -358,96 +352,6 @@ def _deduplicate(articles: list[dict]) -> list[dict]:
     return list(by_title.values())
 
 
-def _compute_hot_scores(articles: list[dict]) -> None:
-    """
-    Compute a hotScore for each article and write it in-place.
-    Also assigns groupId and groupMembers for stories covered by multiple sources.
-
-    Logic:
-    - Extract which KEYWORDS appear in each article's title (normalised, lowercase).
-    - Group articles that share >= 2 keyword matches AND were published within 24 h
-      of each other -- these are considered the same story covered by multiple sources.
-    - For each group, score = number_of_sources / max(hours_since_earliest, 0.5).
-    - Every article in a group receives that group's score.
-    - Articles that belong to no group get hotScore 0.0.
-    - The earliest article in each group is the lead; it receives a groupMembers list
-      containing all other articles in the group. Non-lead group members are marked
-      groupMember: true so the frontend can hide them from the main feed.
-    """
-    now_ms = int(time.time() * 1000)
-    _24h_ms = 24 * 60 * 60 * 1000
-
-    # Build keyword set per article (multi-word keywords checked as substrings)
-    kw_lower = [k.lower() for k in KEYWORDS]
-
-    def _title_keywords(title: str) -> frozenset:
-        t = title.lower()
-        return frozenset(k for k in kw_lower if k in t)
-
-    kw_sets = [_title_keywords(a["title"]) for a in articles]
-
-    # Initialise all scores to 0.0, no group info
-    for a in articles:
-        a["hotScore"]     = 0.0
-        a["groupId"]      = None
-        a["groupMember"]  = False
-        a["groupMembers"] = []
-
-    n = len(articles)
-    assigned = set()  # indices already placed in a group
-
-    for i in range(n):
-        if i in assigned or not kw_sets[i]:
-            continue
-        group_indices = [i]
-        for j in range(n):
-            if j == i or j in assigned:
-                continue
-            if articles[j]["domain"] == articles[i]["domain"]:
-                continue
-            if abs(articles[i]["date"] - articles[j]["date"]) > _24h_ms:
-                continue
-            shared = kw_sets[i] & kw_sets[j]
-            if len(shared) >= 2:
-                group_indices.append(j)
-
-        if len(group_indices) < 2:
-            continue
-
-        # Mark all indices in this group as assigned
-        for k in group_indices:
-            assigned.add(k)
-
-        earliest_ms = min(articles[k]["date"] for k in group_indices)
-        hours_old   = max((now_ms - earliest_ms) / 3_600_000, 0.5)
-        score       = round(len(group_indices) / hours_old, 2)
-
-        # Lead = earliest article in the group
-        lead_idx = min(group_indices, key=lambda k: articles[k]["date"])
-        group_id = articles[lead_idx]["link"]  # unique stable identifier
-
-        for k in group_indices:
-            articles[k]["hotScore"] = score
-            articles[k]["groupId"]  = group_id
-
-        # Build groupMembers list on the lead (all others in the group)
-        articles[lead_idx]["groupMembers"] = [
-            {
-                "title":      articles[k]["title"],
-                "link":       articles[k]["link"],
-                "sourceName": articles[k]["sourceName"],
-                "domain":     articles[k]["domain"],
-                "date":       articles[k]["date"],
-            }
-            for k in group_indices if k != lead_idx
-        ]
-
-        # Mark non-lead members so the frontend can suppress them
-        for k in group_indices:
-            if k != lead_idx:
-                articles[k]["groupMember"] = True
-
-
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
     cutoff_ms = now_ms - (48 * 60 * 60 * 1000)
@@ -466,7 +370,6 @@ def fetch_all() -> None:
                 log.error("[%s] Unexpected error: %s", source_name, exc)
 
     unique = _deduplicate(all_articles)
-    _compute_hot_scores(unique)
     sorted_data = sorted(unique, key=lambda x: x["date"], reverse=True)
 
     dir_name = os.path.dirname(os.path.abspath(DATA_FILE)) or "."
