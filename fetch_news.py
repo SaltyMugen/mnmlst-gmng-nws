@@ -121,7 +121,7 @@ SOURCES = [
     {"name": "IGN Japan",         "rss": "https://jp.ign.com/feed.xml",                                             "domain": "jp.ign.com",                "translate": True, "tz_jst": True},
     {"name": "Automaton Media JP","rss": "https://automaton-media.com/feed/",                                       "domain": "automaton-media.com",       "translate": True, "tz_jst": True},
 ]
-
+]
 KEYWORDS = [
 "game", "gaming", "videogame", "video game", "gameplay", "gamer", "gaming industry",
 "game developer", "game studio", "game publisher", "indie game", "game release",
