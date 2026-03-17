@@ -382,21 +382,6 @@ function render(articles) {
 
             body.appendChild(link);
 
-            // ── Sources count + chevron (grouped articles only) ──
-            if (hasGroup) {
-                const totalSources = a.groupMembers.length + 1;
-                const countEl = document.createElement('span');
-                countEl.className = 'sources-count';
-                countEl.innerHTML = `${totalSources} sources <span class="sources-chevron">&#9662;</span>`;
-                countEl.addEventListener('click', () => {
-                    const drawer = li.querySelector('.item-sources');
-                    const chevron = countEl.querySelector('.sources-chevron');
-                    const isOpen = drawer.classList.toggle('open');
-                    chevron.classList.toggle('open', isOpen);
-                });
-                body.appendChild(countEl);
-            }
-
             const logoWrap = document.createElement('span');
             logoWrap.setAttribute('aria-hidden', 'true');
             logoWrap.style.display = 'flex';
@@ -404,10 +389,11 @@ function render(articles) {
             logoWrap.style.justifyContent = 'center';
 
             if (hasGroup) {
-                // Grouped article: show "Sources" label instead of favicon
+                // Grouped article: show count + chevron instead of favicon
+                const totalSources = a.groupMembers.length + 1;
                 const sourcesLabel = document.createElement('span');
-                sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;';
-                sourcesLabel.textContent = 'Sources';
+                sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
+                sourcesLabel.innerHTML = `${totalSources} <span class="sources-chevron">&#9662;</span>`;
                 sourcesLabel.addEventListener('click', () => {
                     const drawer = li.querySelector('.item-sources');
                     const chevron = li.querySelector('.sources-chevron');
