@@ -341,15 +341,18 @@ def _deduplicate(articles: list[dict]) -> list[dict]:
 def _compute_hot_scores(articles: list[dict]) -> None:
     """
     Compute a hotScore for each article and write it in-place.
+    Also assigns groupId and groupMembers for stories covered by multiple sources.
 
     Logic:
     - Extract which KEYWORDS appear in each article's title (normalised, lowercase).
     - Group articles that share >= 2 keyword matches AND were published within 24 h
-      of each other — these are considered the same story covered by multiple sources.
-    - For each group, score = number_of_sources × recency_weight,
-      where recency_weight = 1 / max(hours_since_earliest_in_group, 0.5).
+      of each other -- these are considered the same story covered by multiple sources.
+    - For each group, score = number_of_sources / max(hours_since_earliest, 0.5).
     - Every article in a group receives that group's score.
     - Articles that belong to no group get hotScore 0.0.
+    - The earliest article in each group is the lead; it receives a groupMembers list
+      containing all other articles in the group. Non-lead group members are marked
+      groupMember: true so the frontend can hide them from the main feed.
     """
     now_ms = int(time.time() * 1000)
     _24h_ms = 24 * 60 * 60 * 1000
@@ -363,18 +366,22 @@ def _compute_hot_scores(articles: list[dict]) -> None:
 
     kw_sets = [_title_keywords(a["title"]) for a in articles]
 
-    # Initialise all scores to 0.0
+    # Initialise all scores to 0.0, no group info
     for a in articles:
-        a["hotScore"] = 0.0
+        a["hotScore"]     = 0.0
+        a["groupId"]      = None
+        a["groupMember"]  = False
+        a["groupMembers"] = []
 
     n = len(articles)
-    # For each article, find peers: different source, within 24 h, >= 2 shared keywords
+    assigned = set()  # indices already placed in a group
+
     for i in range(n):
-        if not kw_sets[i]:
+        if i in assigned or not kw_sets[i]:
             continue
         group_indices = [i]
         for j in range(n):
-            if j == i:
+            if j == i or j in assigned:
                 continue
             if articles[j]["domain"] == articles[i]["domain"]:
                 continue
@@ -387,13 +394,38 @@ def _compute_hot_scores(articles: list[dict]) -> None:
         if len(group_indices) < 2:
             continue
 
+        # Mark all indices in this group as assigned
+        for k in group_indices:
+            assigned.add(k)
+
         earliest_ms = min(articles[k]["date"] for k in group_indices)
         hours_old   = max((now_ms - earliest_ms) / 3_600_000, 0.5)
         score       = round(len(group_indices) / hours_old, 2)
 
+        # Lead = earliest article in the group
+        lead_idx = min(group_indices, key=lambda k: articles[k]["date"])
+        group_id = articles[lead_idx]["link"]  # unique stable identifier
+
         for k in group_indices:
-            if score > articles[k]["hotScore"]:
-                articles[k]["hotScore"] = score
+            articles[k]["hotScore"] = score
+            articles[k]["groupId"]  = group_id
+
+        # Build groupMembers list on the lead (all others in the group)
+        articles[lead_idx]["groupMembers"] = [
+            {
+                "title":      articles[k]["title"],
+                "link":       articles[k]["link"],
+                "sourceName": articles[k]["sourceName"],
+                "domain":     articles[k]["domain"],
+                "date":       articles[k]["date"],
+            }
+            for k in group_indices if k != lead_idx
+        ]
+
+        # Mark non-lead members so the frontend can suppress them
+        for k in group_indices:
+            if k != lead_idx:
+                articles[k]["groupMember"] = True
 
 
 def fetch_all() -> None:
