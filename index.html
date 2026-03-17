@@ -49,7 +49,7 @@ header.scrolled { border-color: var(--sub); padding: 8px 5%; }
 .header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
 h1 { 
     font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px); line-height: 0.8; 
-    background: linear-gradient(to top, "#432371","#714674","#9F6976","#CC8B79","#FAAE7B"); 
+    background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
 }
 h1 span { 
@@ -79,7 +79,7 @@ h1 span {
 
 /* --- SOURCE LOGO & PLACEHOLDER CSS --- */
 .item-logo, .icon-placeholder { 
-    width: 20px; height: 20px; object-fit: contain; opacity: 0.3; 
+    width: 25px; height: 25px; object-fit: contain; opacity: 0.3; 
     filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
     background: transparent; 
 }
@@ -102,12 +102,13 @@ h1 span {
 }
 
 .icon-placeholder {
-    background-color: #ffb347;
+    background-color:nome;
     border-radius: 50%;
+    border-color: #f9df3a;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 11px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: lowercase;
     color: #1a1916;
@@ -179,6 +180,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
     display: flex; align-items: center; gap: 3px;
 }
 .sources-count:hover { color: var(--ink); }
+.item.has-group { grid-template-columns: 35px 1fr auto; }
 .sources-chevron { transition: transform 0.2s ease; display: inline-block; }
 .sources-chevron.open { transform: rotate(180deg); }
 /* --- END GROUPED SOURCES DRAWER --- */
@@ -191,7 +193,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 </div>
 <header id="main-header">
   <div class="header-inner">
-      <h1>OniMugen+<span>Beta 0.5.1</span></h1>
+      <h1>OniMugen+<span>Beta 0.5.2</span></h1>
       <div class="controls">
         <div class="expand-container">
             <button class="icon-btn" onclick="toggleControl('search')" title="Search" aria-label="Toggle search">
@@ -353,6 +355,7 @@ function render(articles) {
 
             const li = document.createElement('li');
             li.className = 'item';
+            if (hasGroup) li.classList.add('has-group');
             li.setAttribute('data-title', a.title);
             li.setAttribute('data-new', isNew);
             li.setAttribute('data-hot', isHot);
@@ -392,8 +395,8 @@ function render(articles) {
                 // Grouped article: show count + chevron instead of favicon
                 const totalSources = a.groupMembers.length + 1;
                 const sourcesLabel = document.createElement('span');
-                sourcesLabel.style.cssText = 'font-size:13px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
-                sourcesLabel.innerHTML = `Sources: ${totalSources} <span class="sources-chevron">&#9662;</span>`;
+                sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
+                sourcesLabel.innerHTML = `${totalSources} Sources <span class="sources-chevron">&#9662;</span>`;
                 sourcesLabel.addEventListener('click', () => {
                     const drawer = li.querySelector('.item-sources');
                     const chevron = li.querySelector('.sources-chevron');
