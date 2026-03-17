@@ -217,6 +217,11 @@ function safeDomain(url) {
     }
 }
 
+function sanitiseLink(url) {
+    // Dexerto redirects clicks through editors.dexerto.com — strip that subdomain
+    return url.replace(/^(https?:\/\/)editors\./, '$1');
+}
+
 function formatTime(ts) {
     const d = Date.now() - ts;
     if (d < 3600000)  return Math.floor(d / 60000)    + 'm';
@@ -322,7 +327,7 @@ function render(articles) {
             body.className = 'item-body';
 
             const link = document.createElement('a');
-            link.href   = a.link;
+            link.href   = sanitiseLink(a.link);
             link.target = '_blank';
             link.rel    = 'noopener noreferrer';
             link.textContent = a.title;
