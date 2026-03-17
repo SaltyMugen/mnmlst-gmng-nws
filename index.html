@@ -393,7 +393,7 @@ function render(articles) {
                 const totalSources = a.groupMembers.length + 1;
                 const sourcesLabel = document.createElement('span');
                 sourcesLabel.style.cssText = 'font-size:13px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
-                sourcesLabel.innerHTML = `Sources: ${totalSources}`; <span class="sources-chevron">&#9662;</span>`;
+                sourcesLabel.innerHTML = `Sources: ${totalSources} <span class="sources-chevron">&#9662;</span>`;
                 sourcesLabel.addEventListener('click', () => {
                     const drawer = li.querySelector('.item-sources');
                     const chevron = li.querySelector('.sources-chevron');
