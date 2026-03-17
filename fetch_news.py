@@ -7,21 +7,41 @@ import os
 import re
 import tempfile
 import time
-import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timezone, timedelta, datetime
+
+import requests
 from dateutil import parser as dateutil_parser
 from deep_translator import GoogleTranslator
 
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 def fetch_url(url):
-    response = requests.get(url)
+    """
+    Fetches URL content and forces UTF-8 encoding to handle Japanese 
+    and special characters correctly.
+    """
+    try:
+        response = requests.get(url, timeout=15)
+        response.encoding = 'utf-8' 
+        return response.text
+    except Exception as e:
+        logging.error(f"Error fetching {url}: {e}")
+        return None
 
-    response.encoding = 'utf-8' 
-    return response.text
+def save_data(articles, filename='data_gaming.json'):
+    """
+    Saves the article list to a JSON file with proper encoding 
+    to ensure Japanese text remains readable.
+    """
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
 
-def save_data(articles):
-    with open('data_gaming.json', 'w', encoding='utf-8') as f:
-        json.dump(articles, f, ensure_ascii=False, indent=4)
+            json.dump(articles, f, ensure_ascii=False, indent=4)
+        logging.info(f"Successfully saved {len(articles)} articles to {filename}")
+    except Exception as e:
+        logging.error(f"Error saving JSON: {e}")
 
 # --- LOGGING ---
 logging.basicConfig(
