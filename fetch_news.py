@@ -83,8 +83,30 @@ SOURCES = [
     # --- INDIE ---
     {"name": "IndieDB",           "rss": "https://www.indiedb.com/rss/news",                                        "domain": "indiedb.com"},
 
-    # --- JP SOURCES ---
-    # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
+    # --- NEWSLETTERS ---
+    [
+    {"name": "GameDiscoverCo", "rss": "https://newsletter.gamediscover.co/feed",                                    "domain": "newsletter.gamediscover.co"},
+    {"name": "Game File", "rss": "https://www.gamefile.news/feed",                                                  "domain": "gamefile.news"},
+    {"name": "GamesIndustry.biz", "rss": "https://www.gamesindustry.biz/rss/news",                                  "domain": "gamesindustry.biz"},
+    {"name": "Hit Points", "rss": "https://newsletter.hitpoints.co/feed", "domain":                                 "newsletter.hitpoints.co"},
+    {"name": "Knowledge", "rss": "https://www.knowledge.me/feed",                                                   "domain": "knowledge.me"},
+
+        # --- ADDITIONAL GENERAL ---
+    {"name": "Game Informer",     "rss": "https://www.gameinformer.com/rss.xml",                  "domain": "gameinformer.com"},
+    {"name": "Shacknews",         "rss": "https://www.shacknews.com/feed/all",                    "domain": "shacknews.com"},
+    {"name": "Giant Bomb",        "rss": "https://www.giantbomb.com/feeds/mashup/",               "domain": "giantbomb.com"},
+    {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/df",                     "domain": "eurogamer.net/digitalfoundry"},
+    
+    # --- MOBILE & SPECIALISTS ---
+    {"name": "Noisy Pixel",       "rss": "https://noisypixel.net/feed/",                          "domain": "noisypixel.net"},
+    {"name": "TweakTown",         "rss": "https://www.tweaktown.com/rss/index.xml",               "domain": "tweaktown.com"},
+
+    # --- NEWSLETTERS (FLATTENED) ---
+    {"name": "GameDiscoverCo",    "rss": "https://newsletter.gamediscover.co/feed",               "domain": "newsletter.gamediscover.co"},
+    {"name": "Game File",         "rss": "https://www.gamefile.news/feed",                        "domain": "gamefile.news"},
+    {"name": "Hit Points",        "rss": "https://newsletter.hitpoints.co/feed",                  "domain": "newsletter.hitpoints.co"},
+    {"name": "Knowledge",         "rss": "https://www.knowledge.me/feed",                         "domain": "knowledge.me"},
+    
     # --- JP SOURCES ---
     {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net", "translate": True, "tz_jst": True},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
@@ -172,9 +194,7 @@ def _is_cjk(text: str) -> bool:
     return bool(_CJK_RE.search(text))
     
 def _fix_mojibake(text: str) -> str:
-    """
-    Fix UTF-8 mojibake such as 'ã‚²ãƒ¼ãƒ ' → 'ゲーム'
-    """
+
     try:
         return text.encode("latin1").decode("utf-8")
     except Exception:
