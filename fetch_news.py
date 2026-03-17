@@ -42,7 +42,7 @@ SOURCES = [
     {"name": "PC Gamer",          "rss": "https://www.pcgamer.com/rss/",                                            "domain": "pcgamer.com"},
     {"name": "Eurogamer",         "rss": "https://www.eurogamer.net/feed",                                          "domain": "eurogamer.net"},
     {"name": "Kotaku",            "rss": "https://kotaku.com/rss",                                                  "domain": "kotaku.com"},
-    {"name": "Polygon",           "rss": "https://www.polygon.com/rss/index.xml",                                  "domain": "polygon.com"},
+    {"name": "Polygon",           "rss": "https://www.polygon.com/rss/gaming/index.xml",                            "domain": "polygon.com"},
     {"name": "VGC",               "rss": "https://www.videogameschronicle.com/feed/",                               "domain": "videogameschronicle.com"},
     {"name": "Rock Paper Shotgun","rss": "https://feeds.feedburner.com/RockPaperShotgun",                           "domain": "rockpapershotgun.com"},
     {"name": "VG247",             "rss": "https://www.vg247.com/feed",                                              "domain": "vg247.com"},
@@ -338,6 +338,64 @@ def _deduplicate(articles: list[dict]) -> list[dict]:
     return list(by_title.values())
 
 
+def _compute_hot_scores(articles: list[dict]) -> None:
+    """
+    Compute a hotScore for each article and write it in-place.
+
+    Logic:
+    - Extract which KEYWORDS appear in each article's title (normalised, lowercase).
+    - Group articles that share >= 2 keyword matches AND were published within 24 h
+      of each other — these are considered the same story covered by multiple sources.
+    - For each group, score = number_of_sources × recency_weight,
+      where recency_weight = 1 / max(hours_since_earliest_in_group, 0.5).
+    - Every article in a group receives that group's score.
+    - Articles that belong to no group get hotScore 0.0.
+    """
+    now_ms = int(time.time() * 1000)
+    _24h_ms = 24 * 60 * 60 * 1000
+
+    # Build keyword set per article (multi-word keywords checked as substrings)
+    kw_lower = [k.lower() for k in KEYWORDS]
+
+    def _title_keywords(title: str) -> frozenset:
+        t = title.lower()
+        return frozenset(k for k in kw_lower if k in t)
+
+    kw_sets = [_title_keywords(a["title"]) for a in articles]
+
+    # Initialise all scores to 0.0
+    for a in articles:
+        a["hotScore"] = 0.0
+
+    n = len(articles)
+    # For each article, find peers: different source, within 24 h, >= 2 shared keywords
+    for i in range(n):
+        if not kw_sets[i]:
+            continue
+        group_indices = [i]
+        for j in range(n):
+            if j == i:
+                continue
+            if articles[j]["domain"] == articles[i]["domain"]:
+                continue
+            if abs(articles[i]["date"] - articles[j]["date"]) > _24h_ms:
+                continue
+            shared = kw_sets[i] & kw_sets[j]
+            if len(shared) >= 2:
+                group_indices.append(j)
+
+        if len(group_indices) < 2:
+            continue
+
+        earliest_ms = min(articles[k]["date"] for k in group_indices)
+        hours_old   = max((now_ms - earliest_ms) / 3_600_000, 0.5)
+        score       = round(len(group_indices) / hours_old, 2)
+
+        for k in group_indices:
+            if score > articles[k]["hotScore"]:
+                articles[k]["hotScore"] = score
+
+
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
     cutoff_ms = now_ms - (48 * 60 * 60 * 1000)
@@ -356,6 +414,7 @@ def fetch_all() -> None:
                 log.error("[%s] Unexpected error: %s", source_name, exc)
 
     unique = _deduplicate(all_articles)
+    _compute_hot_scores(unique)
     sorted_data = sorted(unique, key=lambda x: x["date"], reverse=True)
 
     dir_name = os.path.dirname(os.path.abspath(DATA_FILE)) or "."
