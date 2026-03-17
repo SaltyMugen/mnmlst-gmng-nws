@@ -49,7 +49,7 @@ header.scrolled { border-color: var(--sub); padding: 8px 5%; }
 .header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
 h1 { 
     font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px); line-height: 0.8; 
-    background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
+    background: linear-gradient(to top, "#432371","#714674","#9F6976","#CC8B79","#FAAE7B"); 
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
 }
 h1 span { 
@@ -191,7 +191,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 </div>
 <header id="main-header">
   <div class="header-inner">
-      <h1>OniMugen+<span>Alpha 0.5.1</span></h1>
+      <h1>OniMugen+<span>Beta 0.5.1</span></h1>
       <div class="controls">
         <div class="expand-container">
             <button class="icon-btn" onclick="toggleControl('search')" title="Search" aria-label="Toggle search">
@@ -392,8 +392,8 @@ function render(articles) {
                 // Grouped article: show count + chevron instead of favicon
                 const totalSources = a.groupMembers.length + 1;
                 const sourcesLabel = document.createElement('span');
-                sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
-                sourcesLabel.innerHTML = `${totalSources} <span class="sources-chevron">&#9662;</span>`;
+                sourcesLabel.style.cssText = 'font-size:13px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
+                sourcesLabel.innerHTML = `Sources: ${totalSources}`; <span class="sources-chevron">&#9662;</span>`;
                 sourcesLabel.addEventListener('click', () => {
                     const drawer = li.querySelector('.item-sources');
                     const chevron = li.querySelector('.sources-chevron');
