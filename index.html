@@ -22,15 +22,15 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 [data-theme="day"] { 
     --bg: #fafaf8; --ink: #1a1916; --dim: #9a9690; --sub: #e4e1db; 
-    --new-hl: rgba(214, 59, 47, 0.04); --hot-hl: rgba(0, 86, 179, 0.04); --hover-bg: #f1f0ec;
+    --new-hl: rgba(0, 149, 255, 0.05); --hot-hl: rgba(214, 59, 47, 0.05); --hover-bg: #f1f0ec;
     --hover-ink: #0056b3; --header-bg: rgba(250, 250, 248, 0.95);
-    --hot-bg: #007bff; --icon-color: #9a9690; --rumour: #f77f00;
+    --hot-bg: #d63b2f; --icon-color: #9a9690; --rumour: #f77f00;
 }
 [data-theme="night"] { 
     --bg: #111110; --ink: #dedad4; --dim: #55524e; --sub: #252422; 
-    --new-hl: rgba(214, 59, 47, 0.1); --hot-hl: rgba(51, 154, 240, 0.08); --hover-bg: #1a1a19;
+    --new-hl: rgba(0, 149, 255, 0.1); --hot-hl: rgba(214, 59, 47, 0.1); --hover-bg: #1a1a19;
     --hover-ink: #4dabf7; --header-bg: rgba(17, 17, 16, 0.95);
-    --hot-bg: #1971c2; --icon-color: #55524e; --rumour: #f77f00;
+    --hot-bg: #d63b2f; --icon-color: #55524e; --rumour: #f77f00;
 }
 
 body { 
@@ -123,10 +123,12 @@ h1 span {
 .item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
 .item-body a { color: var(--ink); text-decoration: none; font-size: 16px; line-height: 1.2; transition: color 0.15s; font-weight: 400; }
 .badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
-.badge-new { background: #d63b2f; }
+.badge-new { background: #0095ff; }
 .badge-hot { background: var(--hot-bg); }
 .badge-rumour { background: var(--rumour); }
-.badge-ps { background: #006FCD; } 
+.badge-ps { background: #006FCD; }
+.badge-nintendo { background: #e4000f; }
+.badge-xbox { background: #0e7a0d; }
 .controls { display: flex; align-items: center; gap: 15px; }
 .icon-btn { background: none; border: none; cursor: pointer; color: var(--icon-color); display: flex; align-items: center; justify-content: center; transition: color 0.2s, opacity 0.2s; opacity: 0.8; }
 .icon-btn:hover { color: var(--ink); opacity: 1; }
@@ -304,9 +306,11 @@ function render(articles) {
             const isNew    = (Date.now() - a.date) < NEW_THRESHOLD_MS;
             const domain   = safeDomain(a.link);
             const slug     = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-            const isHot    = (a.hotScore != null) ? a.hotScore >= 2.0 : slugCount[slug] > 1;
-            const isReddit = a.link.includes('reddit.com');
-            const isPS     = a.link.includes('playstation.com');
+            const isHot    = slugCount[slug] > 1;
+            const isReddit    = a.link.includes('reddit.com');
+            const isPS        = a.link.includes('playstation.com');
+            const isNintendo  = a.link.includes('nintendo.com');
+            const isXbox      = a.link.includes('xbox.com');
 
             const li = document.createElement('li');
             li.className = 'item';
@@ -327,10 +331,12 @@ function render(articles) {
             link.rel    = 'noopener noreferrer';
             link.textContent = a.title;
 
-            if (isNew)    link.appendChild(makeBadge('New',      'badge-new'));
-            if (isReddit) link.appendChild(makeBadge('Rumour',   'badge-rumour'));
-            if (isPS)     link.appendChild(makeBadge('PlayStation', 'badge-ps'));
-            if (isHot)    link.appendChild(makeBadge('Hot',      'badge-hot'));
+            if (isNew)      link.appendChild(makeBadge('New',        'badge-new'));
+            if (isReddit)   link.appendChild(makeBadge('Rumour',     'badge-rumour'));
+            if (isPS)       link.appendChild(makeBadge('PlayStation','badge-ps'));
+            if (isNintendo) link.appendChild(makeBadge('Nintendo',   'badge-nintendo'));
+            if (isXbox)     link.appendChild(makeBadge('Xbox',       'badge-xbox'));
+            if (isHot)      link.appendChild(makeBadge('Hot',        'badge-hot'));
             if (a.isTranslated) {
                 link.appendChild(makeBadge('JP-EN', 'badge-jp'));
             }
