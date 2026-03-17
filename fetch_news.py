@@ -85,7 +85,6 @@ SOURCES = [
 
     # --- ADDITIONAL GENERAL ---
     {"name": "Game Informer",     "rss": "https://www.gameinformer.com/rss.xml",                                    "domain": "gameinformer.com"},
-    {"name": "Shacknews",         "rss": "https://www.shacknews.com/feed/all",                                      "domain": "shacknews.com"},
     {"name": "Giant Bomb",        "rss": "https://www.giantbomb.com/feeds/mashup/",                                 "domain": "giantbomb.com"},
     {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/df",                                       "domain": "eurogamer.net/digitalfoundry"},
     {"name": "Noisy Pixel",       "rss": "https://noisypixel.net/feed/",                                            "domain": "noisypixel.net"},
