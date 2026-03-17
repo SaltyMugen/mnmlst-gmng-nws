@@ -42,7 +42,7 @@ SOURCES = [
     {"name": "PC Gamer",          "rss": "https://www.pcgamer.com/rss/",                                            "domain": "pcgamer.com"},
     {"name": "Eurogamer",         "rss": "https://www.eurogamer.net/feed",                                          "domain": "eurogamer.net"},
     {"name": "Kotaku",            "rss": "https://kotaku.com/rss",                                                  "domain": "kotaku.com"},
-    {"name": "Polygon",           "rss": "https://www.polygon.com/rss/gaming/index.xml",                            "domain": "polygon.com"},
+    {"name": "Polygon",           "rss": "https://www.polygon.com/rss/index.xml",                                  "domain": "polygon.com"},
     {"name": "VGC",               "rss": "https://www.videogameschronicle.com/feed/",                               "domain": "videogameschronicle.com"},
     {"name": "Rock Paper Shotgun","rss": "https://feeds.feedburner.com/RockPaperShotgun",                           "domain": "rockpapershotgun.com"},
     {"name": "VG247",             "rss": "https://www.vg247.com/feed",                                              "domain": "vg247.com"},
