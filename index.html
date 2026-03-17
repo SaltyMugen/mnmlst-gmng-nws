@@ -121,7 +121,7 @@ h1 span {
 .item[data-new="true"] { background: var(--new-hl); }
 .item[data-hot="true"] { background: var(--hot-hl); }
 .item-date { font-size: 10px; color: var(--dim); font-weight: 500; text-align: left; }
-.item-body a { color: var(--ink); text-decoration: none; font-size: 16px; line-height: 1.2; transition: color 0.15s; font-weight: 400; }
+.item-body a { color: var(--ink); text-decoration: none; font-size: 17px; line-height: 1.2; transition: color 0.15s; font-weight: 400; }
 .badge { font-size: 8px; font-weight: 800; color: #fff; padding: 1px 3px; border-radius: 2px; text-transform: uppercase; margin-left: 4px; vertical-align: middle; display: inline-block; }
 .badge-new { background: #0095ff; }
 .badge-hot { background: var(--hot-bg); }
@@ -164,7 +164,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 .source-row-date { font-size: 10px; color: var(--dim); font-weight: 500; white-space: nowrap; }
 .source-row-logo, .source-row-placeholder {
     width: 14px; height: 14px; object-fit: contain; border-radius: 2px; flex-shrink: 0;
-    filter: grayscale(100%); opacity: 0.5;
+    filter: grayscale(0%); opacity: 1;
 }
 .source-row-placeholder {
     background-color: #ffb347; border-radius: 50%;
@@ -174,7 +174,7 @@ footer { margin-top: 60px; border-top: 1px solid var(--sub); padding: 30px 0; te
 [data-theme="night"] .source-row-placeholder { color: #fff; }
 .source-row-logo.hidden { display: none; }
 .sources-count {
-    font-size: 10px; font-weight: 700; color: var(--dim); 
+    font-size: 12px; font-weight: 700; color: var(--dim); 
     white-space: nowrap; cursor: pointer; user-select: none;
     display: flex; align-items: center; gap: 3px;
 }
@@ -403,36 +403,50 @@ function render(articles) {
             logoWrap.style.alignItems = 'center';
             logoWrap.style.justifyContent = 'center';
 
-            const firstLetter = a.sourceName ? a.sourceName.charAt(0).toLowerCase() : '?';
+            if (hasGroup) {
+                // Grouped article: show "Sources" label instead of favicon
+                const sourcesLabel = document.createElement('span');
+                sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;';
+                sourcesLabel.textContent = 'Sources';
+                sourcesLabel.addEventListener('click', () => {
+                    const drawer = li.querySelector('.item-sources');
+                    const chevron = li.querySelector('.sources-chevron');
+                    const isOpen = drawer.classList.toggle('open');
+                    chevron.classList.toggle('open', isOpen);
+                });
+                logoWrap.appendChild(sourcesLabel);
+            } else {
+                const firstLetter = a.sourceName ? a.sourceName.charAt(0).toLowerCase() : '?';
 
-            const img = document.createElement('img');
-            img.className = 'item-logo';
-            img.alt = '';
-            
-            const placeholder = document.createElement('div');
-            placeholder.className = 'icon-placeholder';
-            placeholder.textContent = firstLetter;
-            placeholder.style.display = 'none';
+                const img = document.createElement('img');
+                img.className = 'item-logo';
+                img.alt = '';
+                
+                const placeholder = document.createElement('div');
+                placeholder.className = 'icon-placeholder';
+                placeholder.textContent = firstLetter;
+                placeholder.style.display = 'none';
 
-            if (domain) {
-                img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
-                img.onload = function() {
-                    if (this.naturalHeight <= 16) {
+                if (domain) {
+                    img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
+                    img.onload = function() {
+                        if (this.naturalHeight <= 16) {
+                            this.classList.add('hidden');
+                            placeholder.style.display = 'flex';
+                        }
+                    };
+                    img.onerror = function() {
                         this.classList.add('hidden');
                         placeholder.style.display = 'flex';
-                    }
-                };
-                img.onerror = function() {
-                    this.classList.add('hidden');
+                    };
+                } else {
+                    img.classList.add('hidden');
                     placeholder.style.display = 'flex';
-                };
-            } else {
-                img.classList.add('hidden');
-                placeholder.style.display = 'flex';
-            }
+                }
 
-            logoWrap.appendChild(img);
-            logoWrap.appendChild(placeholder);
+                logoWrap.appendChild(img);
+                logoWrap.appendChild(placeholder);
+            }
 
             li.appendChild(dateSpan);
             li.appendChild(body);
@@ -479,7 +493,7 @@ function render(articles) {
                     mLink.href = m.link;
                     mLink.target = '_blank';
                     mLink.rel = 'noopener noreferrer';
-                    mLink.textContent = m.sourceName;
+                    mLink.textContent = m.title;
 
                     const mDate = document.createElement('span');
                     mDate.className = 'source-row-date';
