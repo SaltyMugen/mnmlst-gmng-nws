@@ -217,11 +217,6 @@ function safeDomain(url) {
     }
 }
 
-function sanitiseLink(url) {
-    // Dexerto redirects clicks through editors.dexerto.com — strip that subdomain
-    return url.replace(/^(https?:\/\/)editors\./, '$1');
-}
-
 function formatTime(ts) {
     const d = Date.now() - ts;
     if (d < 3600000)  return Math.floor(d / 60000)    + 'm';
@@ -309,7 +304,7 @@ function render(articles) {
             const isNew    = (Date.now() - a.date) < NEW_THRESHOLD_MS;
             const domain   = safeDomain(a.link);
             const slug     = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-            const isHot    = slugCount[slug] > 1;
+            const isHot    = (a.hotScore != null) ? a.hotScore >= 2.0 : slugCount[slug] > 1;
             const isReddit = a.link.includes('reddit.com');
             const isPS     = a.link.includes('playstation.com');
 
@@ -327,7 +322,7 @@ function render(articles) {
             body.className = 'item-body';
 
             const link = document.createElement('a');
-            link.href   = sanitiseLink(a.link);
+            link.href   = a.link;
             link.target = '_blank';
             link.rel    = 'noopener noreferrer';
             link.textContent = a.title;
