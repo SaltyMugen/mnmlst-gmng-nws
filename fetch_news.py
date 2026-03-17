@@ -7,12 +7,21 @@ import os
 import re
 import tempfile
 import time
+import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timezone, timedelta, datetime
-
-import requests
 from dateutil import parser as dateutil_parser
 from deep_translator import GoogleTranslator
+
+def fetch_url(url):
+    response = requests.get(url)
+
+    response.encoding = 'utf-8' 
+    return response.text
+
+def save_data(articles):
+    with open('data_gaming.json', 'w', encoding='utf-8') as f:
+        json.dump(articles, f, ensure_ascii=False, indent=4)
 
 # --- LOGGING ---
 logging.basicConfig(
