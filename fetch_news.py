@@ -18,13 +18,10 @@ from deep_translator import GoogleTranslator
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def fetch_url(url):
-    """
-    Fetches URL content and forces UTF-8 encoding to handle Japanese 
-    and special characters correctly.
-    """
     try:
         response = requests.get(url, timeout=15)
-        response.encoding = 'utf-8' 
+        response.encoding = response.apparent_encoding 
+        
         return response.text
     except Exception as e:
         logging.error(f"Error fetching {url}: {e}")
