@@ -329,13 +329,6 @@ function render(articles) {
     const feed = document.getElementById('feed');
     feed.innerHTML = '';
 
-    const slugCount = {};
-    articles.forEach(a => {
-        const domain = safeDomain(a.link);
-        const slug   = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-        slugCount[slug] = (slugCount[slug] || 0) + 1;
-    });
-
     articles
         .slice() 
         .sort((a, b) => b.date - a.date)
@@ -345,8 +338,11 @@ function render(articles) {
 
             const isNew    = (Date.now() - a.date) < NEW_THRESHOLD_MS;
             const domain   = safeDomain(a.link);
-            const slug     = domain + ':' + a.title.toLowerCase().replace(/[^\w]/g, '').substring(0, 40);
-            const isHot    = (a.hotScore != null) ? a.hotScore >= 2.0 : slugCount[slug] > 1;
+            // FIX: isHot now reads hotScore set by the pipeline (number of sources
+            // covering the story). The broken slug-count fallback is removed — it
+            // was never populated correctly for grouped articles and gave false
+            // negatives for every grouped lead.
+            const isHot    = a.hotScore != null && a.hotScore >= 2.0;
             const isReddit    = a.link.includes('reddit.com');
             const isPS        = a.link.includes('playstation.com');
             const isNintendo  = a.link.includes('nintendo.com');
@@ -393,7 +389,12 @@ function render(articles) {
 
             if (hasGroup) {
                 // Grouped article: show count + chevron instead of favicon
-                const totalSources = a.groupMembers.length + 1;
+                // FIX: guard against the lead being accidentally included inside
+                // groupMembers by deduplicating on link before counting.
+                const memberLinks = new Set(a.groupMembers.map(m => m.link));
+                memberLinks.delete(a.link);
+                const totalSources = memberLinks.size + 1;
+
                 const sourcesLabel = document.createElement('span');
                 sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
                 sourcesLabel.innerHTML = `${totalSources} Sources <span class="sources-chevron">&#9662;</span>`;
@@ -405,8 +406,6 @@ function render(articles) {
                 });
                 logoWrap.appendChild(sourcesLabel);
             } else {
-                const firstLetter = a.sourceName ? a.sourceName.charAt(0).toLowerCase() : '?';
-
                 const img = document.createElement('img');
                 img.className = 'item-logo';
                 img.alt = '';
@@ -446,10 +445,22 @@ function render(articles) {
                 const drawer = document.createElement('div');
                 drawer.className = 'item-sources';
 
+                // FIX: deduplicate members against the lead link before building
+                // the drawer, then sort newest-first to match the main feed order.
+                const seenLinks = new Set([a.link]);
+                const uniqueMembers = a.groupMembers.filter(m => {
+                    if (seenLinks.has(m.link)) return false;
+                    seenLinks.add(m.link);
+                    return true;
+                });
+
                 const allMembers = [
                     { title: a.title, link: a.link, sourceName: a.sourceName, domain: domain, date: a.date },
-                    ...a.groupMembers
-                ].sort((x, y) => x.date - y.date);
+                    ...uniqueMembers
+                // FIX: sort newest-first to match the main feed ordering.
+                // Previously sorted oldest-first, meaning the lead shown in the
+                // feed would appear at the bottom of its own drawer.
+                ].sort((x, y) => y.date - x.date);
 
                 allMembers.forEach(m => {
                     const row = document.createElement('div');
