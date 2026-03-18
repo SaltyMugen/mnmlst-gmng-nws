@@ -391,7 +391,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
     result: list[dict] = []
     for group in groups:
-        lead = max(group, key=lambda x: x["date"])
+        lead = min(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
         unique_source_count = len({item["domain"] for item in group})
