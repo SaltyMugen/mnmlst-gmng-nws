@@ -428,7 +428,7 @@ def fetch_all() -> None:
     # Phase 2: fuzzy-group articles covering the same story
     grouped = _group_articles(url_deduped)
 
-    sorted_data = sorted(grouped, key=lambda x: x["date"], reverse=True)
+    sorted_data = sorted(grouped, key=lambda x: x["date"], reverse=False)
 
     dir_name = os.path.dirname(os.path.abspath(DATA_FILE)) or "."
     with tempfile.NamedTemporaryFile(
