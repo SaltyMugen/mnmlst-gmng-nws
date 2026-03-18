@@ -383,6 +383,8 @@ def _group_articles(articles: list[dict]) -> list[dict]:
         for j in range(i + 1, len(articles)):
             if j in used:
                 continue
+            if abs(articles[i]["date"] - articles[j]["date"]) > 86400000:
+                continue
             score = fuzz.ratio(norms[i], norms[j])
             if score >= SIMILARITY_THRESHOLD:
                 group.append(articles[j])
