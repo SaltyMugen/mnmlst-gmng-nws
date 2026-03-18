@@ -368,7 +368,7 @@ def _norm_title(title: str) -> str:
 
 
 def _group_articles(articles: list[dict]) -> list[dict]:
-    SIMILARITY_THRESHOLD = 85 
+    SIMILARITY_THRESHOLD = 69 
     norms = [_norm_title(a["title"]) for a in articles]
     used: set[int] = set()
     groups: list[list[dict]] = []
