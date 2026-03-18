@@ -370,20 +370,7 @@ def _norm_title(title: str) -> str:
 
 
 def _group_articles(articles: list[dict]) -> list[dict]:
-    """
-    Phase 2: cluster articles that cover the same story using fuzzy title
-    matching (token_sort_ratio so word-order differences don't penalise score).
-
-    Each cluster gets one lead article (most recent date). All other members
-    are attached as `groupMembers`. The lead's `hotScore` is set to the total
-    number of sources covering the story so the frontend `isHot` check works
-    correctly for both grouped and ungrouped articles.
-
-    Complexity is O(n²) which is acceptable for the ~500–1000 articles that
-    pass through after URL dedup within a 48-hour window.
-    """
-    SIMILARITY_THRESHOLD = 72  # tune: lower → more aggressive grouping
-
+    SIMILARITY_THRESHOLD = 85 
     norms = [_norm_title(a["title"]) for a in articles]
     used: set[int] = set()
     groups: list[list[dict]] = []
@@ -396,7 +383,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
         for j in range(i + 1, len(articles)):
             if j in used:
                 continue
-            score = fuzz.token_sort_ratio(norms[i], norms[j])
+            score = fuzz.ratio(norms[i], norms[j])
             if score >= SIMILARITY_THRESHOLD:
                 group.append(articles[j])
                 used.add(j)
@@ -404,14 +391,11 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
     result: list[dict] = []
     for group in groups:
-        # Lead = most recently published article in the group
         lead = max(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
-        # hotScore = total number of unique sources (≥1 for every article,
-        # ≥2 triggers the Hot badge). Set on every article so the frontend
-        # never needs to fall back to the broken slug-count path.
-        lead["hotScore"] = len(group)
+        unique_source_count = len({item["domain"] for item in group})
+        lead["hotScore"] = unique_source_count
 
         if members:
             lead["groupMembers"] = members
