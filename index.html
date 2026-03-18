@@ -342,7 +342,7 @@ function render(articles) {
             // covering the story). The broken slug-count fallback is removed — it
             // was never populated correctly for grouped articles and gave false
             // negatives for every grouped lead.
-            const isHot    = a.hotScore != null && a.hotScore >= 2.0;
+            const isHot    = a.hotScore != null && a.hotScore >= 4.0;
             const isReddit    = a.link.includes('reddit.com');
             const isPS        = a.link.includes('playstation.com');
             const isNintendo  = a.link.includes('nintendo.com');
