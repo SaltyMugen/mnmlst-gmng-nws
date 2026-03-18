@@ -9,10 +9,12 @@ import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timezone, timedelta, datetime
+from urllib.parse import urlparse, urlunparse
 
 import requests
 from dateutil import parser as dateutil_parser
 from deep_translator import GoogleTranslator
+from rapidfuzz import fuzz
 
 # --- LOGGING ---
 logging.basicConfig(
@@ -98,7 +100,6 @@ SOURCES = [
 
     # --- JP SOURCES ---
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
-    # --- JP SOURCES ---
     {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net", "translate": True, "tz_jst": True},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
     {"name": "Famitsu",           "rss": "https://www.famitsu.com/rss/fcom_all.rdf",                                "domain": "famitsu.com",              "translate": True, "tz_jst": True},
@@ -183,15 +184,34 @@ _CJK_RE = re.compile(r"[\u3000-\u9fff\uff00-\uffef]")
 
 def _is_cjk(text: str) -> bool:
     return bool(_CJK_RE.search(text))
-    
+
+
 def _fix_mojibake(text: str) -> str:
     """
-    Fix UTF-8 mojibake such as 'ã‚²ãƒ¼ãƒ ' → 'ゲーム'
+    Fix UTF-8 mojibake such as 'ã‚²ãƒ¼ãƒ ' → 'ゲーム'.
+    Only attempted when the text contains no CJK characters — if CJK is
+    already present the string decoded correctly and latin1→utf8 would corrupt it.
     """
+    if _is_cjk(text):
+        return text
     try:
         return text.encode("latin1").decode("utf-8")
     except Exception:
         return text
+
+
+def _normalise_url(url: str) -> str:
+    """
+    Strip tracking parameters and fragments so that AMP/canonical variants
+    of the same article collapse to one URL during deduplication.
+    Keeps scheme + netloc + path only.
+    """
+    try:
+        p = urlparse(url)
+        return urlunparse((p.scheme, p.netloc, p.path.rstrip("/"), "", "", ""))
+    except Exception:
+        return url
+
 
 def _parse_timestamp(entry: feedparser.FeedParserDict, assume_jst: bool, now_ms: int) -> int:
     """
@@ -289,7 +309,10 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
     raw_titles = []
     raw_entries = []
 
-    for entry in feed.entries[:15]:
+    # FIX: removed the hard [:15] cap — the cutoff_ms filter already gates
+    # volume and the cap was silently dropping valid recent articles on busy
+    # sources when older entries happened to appear first in the feed.
+    for entry in feed.entries:
         ts = _parse_timestamp(entry, assume_jst, now_ms)
 
         if ts < cutoff_ms:
@@ -298,14 +321,15 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
         # Decode HTML entities (e.g. &#8217; → ', &#8211; → –, &amp; → &)
         title = html.unescape(entry.title)
 
-        # Fix possible UTF-8 mojibake
+        # FIX: only attempt mojibake repair when no CJK is present.
+        # Applying latin1→utf8 to a correctly decoded CJK string corrupts it.
         title = _fix_mojibake(title)
 
         if src.get("filter") and not any(k in title.lower() for k in KEYWORDS):
             continue
 
         raw_titles.append(title)
-        raw_entries.append({"link": entry.link, "date": ts})
+        raw_entries.append({"link": _normalise_url(entry.link), "date": ts})
 
     if src.get("translate"):
         raw_titles = _translate_titles(raw_titles, name)
@@ -325,30 +349,76 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
     return articles
 
 
-def _deduplicate(articles: list[dict]) -> list[dict]:
+def _url_dedupe(articles: list[dict]) -> list[dict]:
     """
-    Deduplicate by URL (primary) and by normalised title (catches syndicated
-    stories and amp/tracking-param variants). Keeps the earliest-dated entry
-    per group so the original publish time is preserved.
+    Phase 1 deduplication: collapse identical URLs, keeping the
+    earliest-dated entry so the original publish time is preserved.
     """
     by_url: dict[str, dict] = {}
     for a in articles:
         url = a["link"]
         if url not in by_url or a["date"] < by_url[url]["date"]:
             by_url[url] = a
+    return list(by_url.values())
 
-    def _norm(title: str) -> str:
-        t = title.lower()
-        t = re.sub(r"[^\w\s]", "", t)
-        return " ".join(t.split())[:60]
 
-    by_title: dict[str, dict] = {}
-    for a in by_url.values():
-        key = _norm(a["title"])
-        if key not in by_title or a["date"] < by_title[key]["date"]:
-            by_title[key] = a
+def _norm_title(title: str) -> str:
+    """Normalise a title for fuzzy comparison."""
+    t = title.lower()
+    t = re.sub(r"[^\w\s]", "", t)
+    return " ".join(t.split())
 
-    return list(by_title.values())
+
+def _group_articles(articles: list[dict]) -> list[dict]:
+    """
+    Phase 2: cluster articles that cover the same story using fuzzy title
+    matching (token_sort_ratio so word-order differences don't penalise score).
+
+    Each cluster gets one lead article (most recent date). All other members
+    are attached as `groupMembers`. The lead's `hotScore` is set to the total
+    number of sources covering the story so the frontend `isHot` check works
+    correctly for both grouped and ungrouped articles.
+
+    Complexity is O(n²) which is acceptable for the ~500–1000 articles that
+    pass through after URL dedup within a 48-hour window.
+    """
+    SIMILARITY_THRESHOLD = 72  # tune: lower → more aggressive grouping
+
+    norms = [_norm_title(a["title"]) for a in articles]
+    used: set[int] = set()
+    groups: list[list[dict]] = []
+
+    for i, a in enumerate(articles):
+        if i in used:
+            continue
+        group = [a]
+        used.add(i)
+        for j in range(i + 1, len(articles)):
+            if j in used:
+                continue
+            score = fuzz.token_sort_ratio(norms[i], norms[j])
+            if score >= SIMILARITY_THRESHOLD:
+                group.append(articles[j])
+                used.add(j)
+        groups.append(group)
+
+    result: list[dict] = []
+    for group in groups:
+        # Lead = most recently published article in the group
+        lead = max(group, key=lambda x: x["date"])
+        members = [m for m in group if m is not lead]
+
+        # hotScore = total number of unique sources (≥1 for every article,
+        # ≥2 triggers the Hot badge). Set on every article so the frontend
+        # never needs to fall back to the broken slug-count path.
+        lead["hotScore"] = len(group)
+
+        if members:
+            lead["groupMembers"] = members
+
+        result.append(lead)
+
+    return result
 
 
 def fetch_all() -> None:
@@ -368,8 +438,13 @@ def fetch_all() -> None:
             except Exception as exc:
                 log.error("[%s] Unexpected error: %s", source_name, exc)
 
-    unique = _deduplicate(all_articles)
-    sorted_data = sorted(unique, key=lambda x: x["date"], reverse=True)
+    # Phase 1: collapse exact/near-exact URL duplicates
+    url_deduped = _url_dedupe(all_articles)
+
+    # Phase 2: fuzzy-group articles covering the same story
+    grouped = _group_articles(url_deduped)
+
+    sorted_data = sorted(grouped, key=lambda x: x["date"], reverse=True)
 
     dir_name = os.path.dirname(os.path.abspath(DATA_FILE)) or "."
     with tempfile.NamedTemporaryFile(
