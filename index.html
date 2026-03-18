@@ -102,16 +102,16 @@ h1 span {
 }
 
 .icon-placeholder {
-    background-color:nome;
+    background:linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049);;
     border-radius: 50%;
-    border-color: #f9df3a;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: lowercase;
-    color: #1a1916;
+    font-size: 21px;
+    font-weight: bolder;
+    font-family: 'Micro 5';
+    text-transform: capitalize;
+    color: #fff;
     flex-shrink: 0;
 }
 [data-theme="night"] .icon-placeholder { color: #fff; }
@@ -413,7 +413,7 @@ function render(articles) {
                 
                 const placeholder = document.createElement('div');
                 placeholder.className = 'icon-placeholder';
-                placeholder.textContent = firstLetter;
+                placeholder.textContent = 'M+';
                 placeholder.style.display = 'none';
 
                 if (domain) {
