@@ -331,7 +331,7 @@ function render(articles) {
 
     articles
         .slice() 
-        .sort((a, b) => a.date - b.date)
+        .sort((a, b) => b.date - a.date)
         .forEach((a, i) => {
             // Hide non-lead group members — they appear in the lead's drawer instead
             if (a.groupMember) return;
