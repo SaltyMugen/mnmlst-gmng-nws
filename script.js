@@ -4,12 +4,16 @@ const CUTOFF_MS         = 48 * 60 * 60 * 1000; // 48 hours (used for future age-
 const REFRESH_INTERVAL  = 5 * 60 * 1000;    // 5 minutes
 const CACHE_KEY         = "onimugen_v1_gaming";
 const BOOKMARKS_KEY     = "onimugen_v1_bookmarks";
+const READ_KEY          = "onimugen_v1_read";
+const MUTED_SOURCES_KEY = "onimugen_v1_muted_sources";
 
 // ─── State ────────────────────────────────────────────────────────
 let allArticles   = [];   // master copy of current articles
 let currentFilter = 'all';
 let lastDataHash  = null; // hash to detect real content changes
 let bookmarks     = {};   // keyed by article link
+let readLinks     = {};   // keyed by article link
+let mutedSources  = {};   // keyed by sourceName
 
 // ─── Utilities ────────────────────────────────────────────────────
 
@@ -47,7 +51,120 @@ function clearSearch() {
     input.focus();
 }
 
-// ─── Bookmarks ────────────────────────────────────────────────────
+// ─── Read history ─────────────────────────────────────────────────
+function _loadRead() {
+    try { readLinks = JSON.parse(localStorage.getItem(READ_KEY)) || {}; } catch (_) { readLinks = {}; }
+}
+function markRead(link) {
+    readLinks[link] = true;
+    localStorage.setItem(READ_KEY, JSON.stringify(readLinks));
+}
+
+// ─── Sources filter ───────────────────────────────────────────────
+function _loadMutedSources() {
+    try { mutedSources = JSON.parse(localStorage.getItem(MUTED_SOURCES_KEY)) || {}; } catch (_) { mutedSources = {}; }
+}
+function _saveMutedSources() {
+    localStorage.setItem(MUTED_SOURCES_KEY, JSON.stringify(mutedSources));
+}
+
+function buildSourcesMenu(articles) {
+    const inner = document.getElementById('sources-menu-inner');
+    if (!inner) return;
+    inner.innerHTML = '';
+
+    const seen = new Set();
+    articles.forEach(a => { if (a.sourceName) seen.add(a.sourceName); });
+    const names = [...seen].sort((a, b) => a.localeCompare(b));
+
+    names.forEach(name => {
+        const row = document.createElement('div');
+        row.className = 'sources-menu-row';
+        if (!mutedSources[name]) row.classList.add('selected');
+        row.setAttribute('role', 'option');
+        row.setAttribute('aria-selected', mutedSources[name] ? 'false' : 'true');
+
+        // favicon — derive domain from first matching article
+        const matchArticle = articles.find(a => a.sourceName === name);
+        const d = matchArticle ? (matchArticle.domain || safeDomain(matchArticle.link)) : '';
+        const img = document.createElement('img');
+        img.className = 'sources-menu-logo';
+        img.alt = '';
+        if (d) {
+            img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(d)}&sz=64`;
+            img.onerror = () => img.classList.add('hidden');
+        } else {
+            img.classList.add('hidden');
+        }
+
+        const check = document.createElement('span');
+        check.className = 'sources-menu-check';
+        check.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+
+        const label = document.createElement('span');
+        label.className = 'sources-menu-label';
+        label.textContent = name;
+
+        row.appendChild(img);
+        row.appendChild(label);
+        row.appendChild(check);
+
+        row.addEventListener('click', () => {
+            if (mutedSources[name]) {
+                delete mutedSources[name];
+                row.classList.add('selected');
+                row.setAttribute('aria-selected', 'true');
+            } else {
+                mutedSources[name] = true;
+                row.classList.remove('selected');
+                row.setAttribute('aria-selected', 'false');
+            }
+            _saveMutedSources();
+            _updateMutedCount();
+            applyFilters();
+        });
+
+        inner.appendChild(row);
+    });
+}
+
+function toggleSourcesMenu() {
+    const menu = document.getElementById('sources-menu');
+    const btn  = document.getElementById('sources-btn');
+    const isOpen = menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
+    btn.classList.toggle('open', isOpen);
+}
+
+function resetSources() {
+    mutedSources = {};
+    _saveMutedSources();
+    document.querySelectorAll('.sources-menu-row').forEach(r => {
+        r.classList.add('selected');
+        r.setAttribute('aria-selected', 'true');
+    });
+    _updateMutedCount();
+    applyFilters();
+}
+
+function _updateMutedCount() {
+    const count = Object.keys(mutedSources).length;
+    const el = document.getElementById('sources-muted-count');
+    if (!el) return;
+    el.textContent = count > 0 ? `(${count} hidden)` : '';
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', e => {
+    const wrap = document.getElementById('sources-filter-wrap');
+    if (wrap && !wrap.contains(e.target)) {
+        document.getElementById('sources-menu')?.classList.remove('open');
+        document.getElementById('sources-btn')?.setAttribute('aria-expanded', 'false');
+        document.getElementById('sources-btn')?.classList.remove('open');
+    }
+});
+
+
 function _loadBookmarks() {
     try { bookmarks = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {}; } catch (_) { bookmarks = {}; }
 }
@@ -174,7 +291,9 @@ function applyFilters() {
         let   matchTab    = true;
         if (currentFilter === 'new') matchTab = item.getAttribute('data-new') === 'true';
         if (currentFilter === 'hot') matchTab = item.getAttribute('data-hot') === 'true';
-        item.classList.toggle('hidden', !(matchSearch && matchTab));
+        const source      = item.getAttribute('data-source') || '';
+        const matchSource = !mutedSources[source];
+        item.classList.toggle('hidden', !(matchSearch && matchTab && matchSource));
     });
 }
 
@@ -221,6 +340,7 @@ function render(articles) {
             li.setAttribute('data-title', a.title);
             li.setAttribute('data-new', isNew);
             li.setAttribute('data-hot', isHot);
+            li.setAttribute('data-source', a.sourceName || '');
 
             const dateSpan = document.createElement('span');
             dateSpan.className = 'item-date';
@@ -234,6 +354,11 @@ function render(articles) {
             link.target = '_blank';
             link.rel    = 'noopener noreferrer';
             link.textContent = a.title;
+            if (readLinks[a.link]) li.classList.add('read-dimmed');
+            link.addEventListener('click', () => {
+                markRead(a.link);
+                li.classList.add('read-dimmed');
+            });
 
             if (isNew)      link.appendChild(makeBadge('New',        'badge-new'));
             if (isReddit)   link.appendChild(makeBadge('Rumour',     'badge-rumour'));
@@ -259,7 +384,8 @@ function render(articles) {
                 const totalSources = memberLinks.size + 1;
 
                 const sourcesLabel = document.createElement('span');
-                sourcesLabel.style.cssText = 'font-size:9px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:1px;cursor:pointer;padding:2px 4px;display:flex;align-items:center;gap:2px;';
+                sourcesLabel.className = 'sources-count-label';
+                sourcesLabel.style.cssText = '';
                 sourcesLabel.innerHTML = `${totalSources} Sources <span class="sources-chevron">&#9662;</span>`;
                 sourcesLabel.addEventListener('click', () => {
                     const drawer = li.querySelector('.item-sources');
@@ -383,6 +509,9 @@ function render(articles) {
 
             setTimeout(() => li.classList.add('show'), i < 30 ? i * 15 : 0);
         });
+
+    buildSourcesMenu(allArticles);
+    _updateMutedCount();
 }
 
 function makeBadge(text, cls) {
@@ -401,6 +530,8 @@ async function fetchFresh() {
 
 async function init() {
     _loadBookmarks();
+    _loadRead();
+    _loadMutedSources();
     const cached = localStorage.getItem(CACHE_KEY);
     if (cached) {
         try {
