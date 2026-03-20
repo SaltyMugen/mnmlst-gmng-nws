@@ -963,7 +963,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Char’s Zaku” and “Zaku II” from “Mobile Suit Gundam” are now available as cute golf head covers. Pre-orders are now open for all 9 golf goods with a mobile suit motif.",
+    "title": "“Char’s Zaku” and “Zaku II” from “Mobile Suit Gundam” are now available as cute golf head covers. Pre-orders are now open for all 9 golf goods items with a mobile suit motif.",
     "link": "https://news.denfaminicogamer.jp/news/2603192s",
     "date": 1773914265000,
     "domain": "news.denfaminicogamer.jp",
@@ -1785,20 +1785,20 @@
     "hotScore": 1
   },
   {
-    "title": "Former Mount & Blade modders are making Kinstrife, a medieval mosh pitter set in 13th century Germany",
-    "link": "https://www.rockpapershotgun.com/former-mount-blade-modders-are-making-kinstrife-a-medieval-mosh-pitter-set-in-13th-century-germany",
-    "date": 1773928800000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Nintendo eShop Highlights – 19/03/2026",
     "link": "https://www.nintendo.com/en-gb/News/2026/March/Nintendo-eShop-Highlights-19-03-2026-3053465.html",
     "date": 1773928800000,
     "domain": "nintendo.com",
     "sourceName": "Nintendo News",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Former Mount & Blade modders are making Kinstrife, a medieval mosh pitter set in 13th century Germany",
+    "link": "https://www.rockpapershotgun.com/former-mount-blade-modders-are-making-kinstrife-a-medieval-mosh-pitter-set-in-13th-century-germany",
+    "date": 1773928800000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1830,7 +1830,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"World's Goodest Pup\", a roguelike game starring a dog in the style of \"Suresupa\" released - a deck-building game that also attracts attention with its cute anime",
+    "title": "\"World's Goodest Pup\", a roguelike game starring a \"Threspa\"-like dog, released - a deck-building game that also attracts attention with its cute anime",
     "link": "http://www.gamespark.jp/article/2026/03/19/164133.html",
     "date": 1773928804000,
     "domain": "gamespark.jp",
@@ -2317,7 +2317,7 @@
         "isTranslated": true
       },
       {
-        "title": "The new \"Vampire Crawlers\" spin-off of \"Van Saba\" will be released on April 22nd. A turn-based deck building roguelike that shares the world view of the series.",
+        "title": "The new \"Vampire Crawlers\" spin-off of \"Van Saba\" will be released on April 22nd. A turn-based deck-building roguelike that shares the worldview of the series.",
         "link": "https://news.denfaminicogamer.jp/news/2603193d",
         "date": 1773934774000,
         "domain": "news.denfaminicogamer.jp",
@@ -2534,17 +2534,35 @@
     "hotScore": 1
   },
   {
-    "title": "How to activate the Spire of the Stars in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-spire-of-the-stars-puzzle",
+    "title": "How to mine iron ore for Rhett's Request in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-rhetts-request-mine-iron-ore",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to cook fish porridge for Renee's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-renees-request-cook-fish-porridge",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to chop down trees for Turnali's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-turnalis-request-fine-timber",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
-    "title": "Crimson Desert Sealed Abyss Artifact locations and how they work",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-sealed-abyss-artifact-locations-challenges",
+    "title": "How to open Hernand Castle Strongbox",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-castle-strongbox-solution",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2603,17 +2621,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to complete Trial After Trial in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-trial-after-trial-memory-fragment",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Ubisoft has ended game development at its affiliated studio \"Red Storm Entertainment\" and has cut 105 jobs, reports overseas. The studio that created classic series such as “Rainbow Six” and “Ghost Recon”",
@@ -2726,6 +2734,25 @@
     "hotScore": 1
   },
   {
+    "title": "How to solve light-reflection puzzles in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-solve-light-reflection-puzzles-in-crimson-desert",
+    "date": 1773962163000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to use Blinding Flash in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-blinding-flash-how-to-use",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Electrician Simulator is now available for free on the Epic Games Store. Experience a variety of jobs, from complex electrical equipment work to repairing game controllers.",
     "link": "https://news.denfaminicogamer.jp/news/260320c",
     "date": 1773964471000,
@@ -2834,7 +2861,7 @@
     "hotScore": 1
   },
   {
-    "title": "Game*Spark Review: “Pokémon” – addictive because it’s “Pokémon”. A new masterpiece sandbox that easily takes away humanity's time.",
+    "title": "Game*Spark Review: “Pokémon” – addictive because it’s “Pokémon”. A new masterpiece sandbox that easily takes away human time.",
     "link": "http://www.gamespark.jp/article/2026/03/20/164146.html",
     "date": 1773968404000,
     "domain": "gamespark.jp",
@@ -2870,7 +2897,7 @@
     "hotScore": 1
   },
   {
-    "title": "Cumulative sales of “No, I’m not a Human,” a horror game about identifying abnormalities, exceed 1 million copies. “Quite deep” new content is currently under development, and the momentum continues.",
+    "title": "Cumulative sales of “No, I’m not a Human,” a horror game about identifying abnormalities, exceeds 1 million copies. “Quite deep” new content is currently under development, and the momentum continues.",
     "link": "https://automaton-media.com/articles/newsjp/no-im-not-a-human-20260320-430782",
     "date": 1773970628000,
     "domain": "automaton-media.com",
@@ -3884,7 +3911,7 @@
     "hotScore": 1
   },
   {
-    "title": "The new anime ``Vertex Force'' directed by Kazuhiro Takamura, known for ``Stoppan'' has started! The director commented, ``Mecha and beautiful girls still have a lot of potential.''",
+    "title": "The new anime ``Vertex Force'' directed by Kazuhiro Takamura, known for ``Stoppan'' has started! ``Mecha and beautiful girls'' still have a lot of potential,'' the director commented.",
     "link": "https://news.denfaminicogamer.jp/news/2603202e",
     "date": 1774004281000,
     "domain": "news.denfaminicogamer.jp",
@@ -4272,16 +4299,8 @@
     "hotScore": 1,
     "groupMembers": [
       {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Abyss Without Balance in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
+        "title": "How to complete the Reunion puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-reunion-ancient-ruins",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -4800,17 +4819,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to solve light-reflection puzzles in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-solve-light-reflection-puzzles-in-crimson-desert",
-        "date": 1773962163000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Former Xbox Boss Is Reportedly Making A Phone For Amazon, 12 Years After First Effort Failed",
@@ -5393,32 +5402,32 @@
         "isTranslated": false
       },
       {
-        "title": "How to 'observe this skill in action to learn it' in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-observe-this-skill-in-action-to-learn-it",
+        "title": "I've spent over 100 hours in Crimson Desert—here are my top 20 quick tips to triumph in Pywel",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-tips-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "All bell locations for the Toll of Pywel quest in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-map-toll-of-pywel-bell-locations",
+        "title": "Crimson Desert can be overwhelming—do this one thing in each new city to make your life much easier",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-can-be-overwhelming-do-this-one-thing-in-each-new-city-to-make-your-life-much-easier",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "Crimson Desert bounties and how to catch each",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bounties",
+        "title": "Crimson Desert has the most diabolical lock and key system I've ever seen",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-locked-doors",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "The best early skills in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
+        "title": "How does Contribution work in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-contribution-shop-location",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5550,14 +5559,6 @@
         "date": 1774016971000,
         "domain": "eurogamer.net",
         "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "All pets in Crimson Desert and how to get them",
-        "link": "https://www.destructoid.com/all-pets-in-crimson-desert-and-how-to-get-them",
-        "date": 1774017659000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
         "isTranslated": false
       },
       {
@@ -5777,40 +5778,24 @@
         "isTranslated": false
       },
       {
-        "title": "How to beat Hornsplitter in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kailok-hornsplitter-boss-guide",
+        "title": "How to fast travel in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-fast-travel-mysterious-energy-abyss-nexus",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to beat Reed Devil in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-reed-devil-boss-guide",
+        "title": "How to fish for Annabella's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-how-to-fish-annabellas-request-tench",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to enter Hernand Castle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-enter-hernand-castle",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to respec in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to unlock each character in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-characters-unlock",
+        "title": "Where to find keys in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-key-locations",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5818,26 +5803,18 @@
       },
       {
         "title": "How to steal in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-steal-in-crimson-desert",
-        "date": 1774035416000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-steal-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to combine the Abyss Cell in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-combine-the-abyss-cell-in-crimson-desert",
-        "date": 1774004058000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to fly in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-fly-in-crimson-desert",
-        "date": 1773957748000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "title": "How to get pets in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
@@ -5854,6 +5831,22 @@
         "date": 1773957613000,
         "domain": "dualshockers.com",
         "sourceName": "DualShockers",
+        "isTranslated": false
+      },
+      {
+        "title": "How to steal in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-steal-in-crimson-desert",
+        "date": 1774035416000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to combine the Abyss Cell in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-combine-the-abyss-cell-in-crimson-desert",
+        "date": 1774004058000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -6090,17 +6083,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to get Abyss Artifacts in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "6 Manga That Had Better Endings Than Demon Slayer",
@@ -6233,7 +6216,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "How To Destroy The Flying Fortress Orbian In Crimson Desert",
@@ -6241,14 +6224,6 @@
         "date": 1774036820000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get to Florindale in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-florindale-pororin-patrol-shai",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -6260,7 +6235,17 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Can you store items in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-store-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "How to Complete the Forbidden Knowledge Quest in Crimson Desert",
@@ -6370,5 +6355,24 @@
     "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "All Alchemy materials in Crimson Desert and where to find them",
+    "link": "https://www.destructoid.com/all-alchemy-materials-in-crimson-desert-and-where-to-find-them",
+    "date": 1774045221000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "All pets in Crimson Desert and how to get them",
+        "link": "https://www.destructoid.com/all-pets-in-crimson-desert-and-how-to-get-them",
+        "date": 1774017659000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   }
 ]
