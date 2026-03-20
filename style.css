@@ -14,7 +14,7 @@
 
 body { 
     background: var(--bg); color: var(--ink); font-family: 'DM Sans', sans-serif; 
-    max-width: 850px; margin: 0 auto; padding: 100px 20px 40px; 
+    max-width: 890px; margin: 0 auto; padding: 100px 20px 40px; 
     transition: background 0.3s ease, color 0.3s ease; 
 }
 header { 
@@ -25,7 +25,7 @@ header {
     transition: background 0.3s ease, border-color 0.3s ease, padding 0.3s ease;
 }
 header.scrolled { border-color: var(--sub); padding: 8px 5%; }
-.header-inner { max-width: 810px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
+.header-inner { max-width: 890px; margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
 h1 { 
     font-family: 'Micro 5'; font-size: clamp(48px, 8vw, 58px); line-height: 0.8; 
     background: linear-gradient(to top, #FCBF49, #F77F00, #D62828, #003049); 
