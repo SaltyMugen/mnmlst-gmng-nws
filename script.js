@@ -3,11 +3,13 @@ const NEW_THRESHOLD_MS  = 15 * 60 * 1000;   // 15 minutes
 const CUTOFF_MS         = 48 * 60 * 60 * 1000; // 48 hours (used for future age-gating)
 const REFRESH_INTERVAL  = 5 * 60 * 1000;    // 5 minutes
 const CACHE_KEY         = "onimugen_v1_gaming";
+const BOOKMARKS_KEY     = "onimugen_v1_bookmarks";
 
 // ─── State ────────────────────────────────────────────────────────
 let allArticles   = [];   // master copy of current articles
 let currentFilter = 'all';
 let lastDataHash  = null; // hash to detect real content changes
+let bookmarks     = {};   // keyed by article link
 
 // ─── Utilities ────────────────────────────────────────────────────
 
@@ -36,7 +38,100 @@ function formatTime(ts) {
     return Math.floor(d / 86400000) + 'd';
 }
 
-// ─── Theme ────────────────────────────────────────────────────────
+// ─── Search clear ─────────────────────────────────────────────────
+function clearSearch() {
+    const input = document.getElementById('search-input');
+    input.value = '';
+    document.getElementById('search-clear').style.display = 'none';
+    applyFilters();
+    input.focus();
+}
+
+// ─── Bookmarks ────────────────────────────────────────────────────
+function _loadBookmarks() {
+    try { bookmarks = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {}; } catch (_) { bookmarks = {}; }
+}
+
+function _saveBookmarks() {
+    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarks));
+}
+
+function toggleBookmark(link, title, domain, sourceName, btn) {
+    if (bookmarks[link]) {
+        delete bookmarks[link];
+        btn.classList.remove('bookmarked');
+    } else {
+        bookmarks[link] = { title, link, domain, sourceName };
+        btn.classList.add('bookmarked');
+    }
+    _saveBookmarks();
+}
+
+function openBookmarks() {
+    _loadBookmarks();
+    const overlay = document.getElementById('bookmarks-overlay');
+    const feed    = document.getElementById('bookmarks-feed');
+    const empty   = document.getElementById('bookmarks-empty');
+    feed.innerHTML = '';
+    const items = Object.values(bookmarks);
+    empty.style.display = items.length === 0 ? 'block' : 'none';
+    items.forEach(b => {
+        const li = document.createElement('li');
+        li.className = 'bm-item';
+
+        // favicon
+        const logo = document.createElement('img');
+        logo.className = 'bm-item-logo';
+        logo.alt = '';
+        if (b.domain) {
+            logo.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(b.domain)}&sz=64`;
+            logo.onerror = function() { this.classList.add('hidden'); };
+        } else {
+            logo.classList.add('hidden');
+        }
+
+        const main = document.createElement('div');
+        main.className = 'bm-item-main';
+
+        const a = document.createElement('a');
+        a.href = b.link; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        a.textContent = b.title;
+
+        const sourceRow = document.createElement('div');
+        sourceRow.className = 'bm-item-source';
+        const domainSpan = document.createElement('span');
+        domainSpan.className = 'bm-item-domain';
+        domainSpan.textContent = b.sourceName || b.domain || '';
+        sourceRow.appendChild(domainSpan);
+
+        main.appendChild(a);
+        main.appendChild(sourceRow);
+
+        const del = document.createElement('button');
+        del.className = 'bm-remove'; del.setAttribute('aria-label', 'Remove bookmark');
+        del.innerHTML = '&times;';
+        del.onclick = () => {
+            delete bookmarks[b.link];
+            _saveBookmarks();
+            li.remove();
+            if (feed.children.length === 0) empty.style.display = 'block';
+            const inlineBtn = document.querySelector(`.bm-btn[data-link="${CSS.escape(b.link)}"]`);
+            if (inlineBtn) inlineBtn.classList.remove('bookmarked');
+        };
+
+        li.appendChild(logo);
+        li.appendChild(main);
+        li.appendChild(del);
+        feed.appendChild(li);
+    });
+    overlay.style.display = 'flex';
+}
+
+function closeBookmarks() {
+    document.getElementById('bookmarks-overlay').style.display = 'none';
+}
+
+
 function toggleTheme() {
     const d    = document.documentElement;
     const next = d.getAttribute('data-theme') === 'day' ? 'night' : 'day';
@@ -71,6 +166,8 @@ function setFilter(t, el) {
 
 function applyFilters() {
     const q = document.getElementById('search-input').value.toLowerCase();
+    const clearBtn = document.getElementById('search-clear');
+    if (clearBtn) clearBtn.style.display = q.length > 0 ? 'flex' : 'none';
     document.querySelectorAll('.item').forEach(item => {
         const title       = item.getAttribute('data-title').toLowerCase();
         const matchSearch = title.includes(q);
@@ -206,6 +303,19 @@ function render(articles) {
             li.appendChild(body);
             li.appendChild(logoWrap);
 
+            // Hover bookmark button
+            const bmBtn = document.createElement('button');
+            bmBtn.className = 'bm-btn';
+            bmBtn.setAttribute('aria-label', 'Bookmark article');
+            bmBtn.setAttribute('data-link', a.link);
+            bmBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>';
+            if (bookmarks[a.link]) bmBtn.classList.add('bookmarked');
+            bmBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggleBookmark(a.link, a.title, a.domain || domain, a.sourceName, bmBtn);
+            });
+            li.appendChild(bmBtn);
+
             if (hasGroup) {
                 const drawer = document.createElement('div');
                 drawer.className = 'item-sources';
@@ -290,6 +400,7 @@ async function fetchFresh() {
 }
 
 async function init() {
+    _loadBookmarks();
     const cached = localStorage.getItem(CACHE_KEY);
     if (cached) {
         try {
