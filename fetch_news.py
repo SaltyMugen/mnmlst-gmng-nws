@@ -367,12 +367,31 @@ def _norm_title(title: str) -> str:
     return " ".join(t.split())
 
 
+def _extract_topic_key(title: str) -> str | None:
+    """
+    Extract a prominent multi-word proper noun (2-4 capitalised words) from a title
+    to use as a topic grouping key. Returns None if no clear topic is found.
+    Examples: "Crimson Desert", "Elden Ring", "GTA VI", "Call of Duty"
+    """
+    # Match sequences of 2-4 title-cased or uppercase words (allows short words like 'of', 'in')
+    pattern = re.compile(r'\b([A-Z][a-zA-Z]+(?:\s+(?:of|in|the|a|an|to|for|and|or|vs|II|III|IV|VI|VII|VIII|IX|X|[A-Z][a-zA-Z]*))*\s+[A-Z][a-zA-Z]+)\b')
+    matches = pattern.findall(title)
+    if not matches:
+        return None
+    # Return the longest match as it's most likely the game/topic name
+    return max(matches, key=len).strip()
+
+
 def _group_articles(articles: list[dict]) -> list[dict]:
-    SIMILARITY_THRESHOLD = 69 
+    SIMILARITY_THRESHOLD = 69
+    TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
+    MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
+
     norms = [_norm_title(a["title"]) for a in articles]
     used: set[int] = set()
     groups: list[list[dict]] = []
 
+    # --- Pass 1: fuzzy title similarity (existing logic) ---
     for i, a in enumerate(articles):
         if i in used:
             continue
@@ -389,9 +408,44 @@ def _group_articles(articles: list[dict]) -> list[dict]:
                 used.add(j)
         groups.append(group)
 
+    # --- Pass 2: topic-key grouping for same-subject articles ---
+    # Flatten back to individual articles (ungrouped singletons only) for topic pass
+    singleton_indices = [i for i, g in enumerate(groups) if len(g) == 1]
+
+    # Build topic → [group_index] map
+    topic_map: dict[str, list[int]] = {}
+    for gi in singleton_indices:
+        article = groups[gi][0]
+        topic = _extract_topic_key(article["title"])
+        if topic:
+            topic_key = topic.lower()
+            topic_map.setdefault(topic_key, []).append(gi)
+
+    # Merge groups that share the same topic key and are within the time window
+    topic_merged: set[int] = set()
+    for topic_key, gis in topic_map.items():
+        if len(gis) < MIN_TOPIC_GROUP_SIZE:
+            continue
+
+        # Sort by date and check they fall within the time window
+        gis_sorted = sorted(gis, key=lambda gi: groups[gi][0]["date"])
+        oldest = groups[gis_sorted[0]][0]["date"]
+        newest = groups[gis_sorted[-1]][0]["date"]
+        if newest - oldest > TOPIC_TIME_WINDOW_MS:
+            continue
+
+        # Merge into first group
+        base_gi = gis_sorted[0]
+        for gi in gis_sorted[1:]:
+            groups[base_gi].extend(groups[gi])
+            topic_merged.add(gi)
+
+    # Remove groups that were merged into another
+    groups = [g for i, g in enumerate(groups) if i not in topic_merged]
+
     result: list[dict] = []
     for group in groups:
-        lead = min(group, key=lambda x: x["date"])
+        lead = max(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
         unique_source_count = len({item["domain"] for item in group})
