@@ -497,20 +497,20 @@
     "hotScore": 1
   },
   {
-    "title": "Microsoft's Next First-Party Release Officially Launches On Xbox Game Pass This April",
-    "link": "https://www.purexbox.com/news/2026/03/microsofts-next-first-party-release-officially-launches-on-xbox-game-pass-this-april",
-    "date": 1773853200000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "There's a New Live Action Yakuza Adaptation, and You Can Watch It for Free",
     "link": "https://www.pushsquare.com/news/2026/03/theres-a-new-live-action-yakuza-adaptation-and-you-can-watch-it-for-free",
     "date": 1773853200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Microsoft's Next First-Party Release Officially Launches On Xbox Game Pass This April",
+    "link": "https://www.purexbox.com/news/2026/03/microsofts-next-first-party-release-officially-launches-on-xbox-game-pass-this-april",
+    "date": 1773853200000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4221,23 +4221,13 @@
     "hotScore": 1
   },
   {
-    "title": "How to solve the Halssius Conflux statue puzzle in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-halssius-conflux-statue-puzzle-solution",
+    "title": "Crimson Desert PC Performance Review: I Tested All the Recommended Graphics Cards",
+    "link": "https://www.ign.com/articles/crimson-desert-pc-performance-analysis",
     "date": 1773957600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to solve the Dragon's Stone Chamber puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-dragons-stone-chamber-puzzle-solution",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "How to open Hernand Castle Strongbox",
@@ -4265,7 +4255,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to solve the Dragon's Stone Chamber puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-dragons-stone-chamber-puzzle-solution",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Crimson Desert Sealed Abyss Artifact locations and how they work",
@@ -4277,11 +4277,11 @@
     "hotScore": 1
   },
   {
-    "title": "Crimson Desert PC Performance Review: I Tested All the Recommended Graphics Cards",
-    "link": "https://www.ign.com/articles/crimson-desert-pc-performance-analysis",
+    "title": "How to solve the Halssius Conflux statue puzzle in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-halssius-conflux-statue-puzzle-solution",
     "date": 1773957600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4439,15 +4439,6 @@
     "date": 1773957620000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Crimson Desert abyss guide: The Path of Providence",
-    "link": "https://www.videogameschronicle.com/guide/crimson-desert-path-of-providence-abyss-puzzles-guide",
-    "date": 1773957629000,
-    "domain": "videogameschronicle.com",
-    "sourceName": "VGC",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4696,8 +4687,16 @@
         "isTranslated": false
       },
       {
-        "title": "How to fish for Annabella's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-how-to-fish-annabellas-request-tench",
+        "title": "How to unlock the Greymane camp Abyss Nexus in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-unlock-the-greymane-camp-abyss-nexus-in-crimson-desert",
+        "date": 1773957612000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete Abyss Without Balance in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -4720,24 +4719,8 @@
         "isTranslated": false
       },
       {
-        "title": "How to cook fish porridge for Renee's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-renees-request-cook-fish-porridge",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Abyss Without Balance in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
+        "title": "How to fish for Annabella's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-how-to-fish-annabellas-request-tench",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -4752,11 +4735,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to unlock the Greymane camp Abyss Nexus in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-unlock-the-greymane-camp-abyss-nexus-in-crimson-desert",
-        "date": 1773957612000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
@@ -4856,15 +4839,6 @@
     "date": 1773966600000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Things To Know Before You Play Solasta 2",
-    "link": "https://www.thegamer.com/solasta-2-beginner-tips-pro-tricks-before-play",
-    "date": 1773966620000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5548,6 +5522,54 @@
         "isTranslated": false
       },
       {
+        "title": "How to fly in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-fly-in-crimson-desert",
+        "date": 1773957748000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get more Palmar Pills in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-more-palmar-pills-in-crimson-desert",
+        "date": 1773957622000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to open Axiom Archive in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-open-axiom-archive-in-crimson-desert",
+        "date": 1773957620000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to respec in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-respec-in-crimson-desert",
+        "date": 1773957617000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to send Greymanes on missions in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-send-greymanes-on-missions-in-crimson-desert",
+        "date": 1773957615000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to beat the Excavatron in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-beat-the-excavatron-in-crimson-desert",
+        "date": 1773957614000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
         "title": "How To Defeat Lucian Baster In Crimson Desert",
         "link": "https://www.thegamer.com/crimson-desert-lucian-bastier-boss-preparation-mechanics-guide",
         "date": 1773968121000,
@@ -5556,16 +5578,32 @@
         "isTranslated": false
       },
       {
-        "title": "How to read the Lost Letter in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-lost-letter",
+        "title": "How to get Azurite in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-azurite-locations",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to get Azurite in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-azurite-locations",
+        "title": "How to get pets in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to use Blinding Flash in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-blinding-flash-how-to-use",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to steal in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-steal-items",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5582,6 +5620,14 @@
       {
         "title": "Can you store items in Crimson Desert?",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-store-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to clean the chimney in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-clean-chimney-actions-speak-louder-than-words",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5612,24 +5658,8 @@
         "isTranslated": false
       },
       {
-        "title": "How to use Copper Pouches in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-copper-pouches",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get Bloodstone in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bloodstone-locations",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to clean the chimney in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-clean-chimney-actions-speak-louder-than-words",
+        "title": "How to read the Lost Letter in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-lost-letter",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5684,14 +5714,6 @@
         "isTranslated": false
       },
       {
-        "title": "How to beat Marnie's Excavatron in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
         "title": "How to get to Florindale in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-florindale-pororin-patrol-shai",
         "date": 1773957600000,
@@ -5716,59 +5738,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to get pets in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
+        "title": "How to beat Marnie's Excavatron in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to fly in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-fly-in-crimson-desert",
-        "date": 1773957748000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get more Palmar Pills in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-more-palmar-pills-in-crimson-desert",
-        "date": 1773957622000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to open Axiom Archive in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-open-axiom-archive-in-crimson-desert",
-        "date": 1773957620000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to respec in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-respec-in-crimson-desert",
-        "date": 1773957617000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to send Greymanes on missions in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-send-greymanes-on-missions-in-crimson-desert",
-        "date": 1773957615000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to beat the Excavatron in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-beat-the-excavatron-in-crimson-desert",
-        "date": 1773957614000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
         "isTranslated": false
       },
       {
@@ -6365,6 +6339,14 @@
         "isTranslated": false
       },
       {
+        "title": "How does Contribution work in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-contribution-shop-location",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "Crimson Desert has the most diabolical lock and key system I've ever seen",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-locked-doors",
         "date": 1773957600000,
@@ -6381,8 +6363,8 @@
         "isTranslated": false
       },
       {
-        "title": "Spend your early levels in Crimson Desert getting more health and stamina instead of fun new skills that you can get for free",
-        "link": "https://www.pcgamer.com/games/action/spend-your-early-levels-in-crimson-desert-getting-more-health-and-stamina-instead-of-fun-new-skills-that-you-can-get-for-free",
+        "title": "The best early skills in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -6397,8 +6379,8 @@
         "isTranslated": false
       },
       {
-        "title": "The best early skills in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
+        "title": "Spend your early levels in Crimson Desert getting more health and stamina instead of fun new skills that you can get for free",
+        "link": "https://www.pcgamer.com/games/action/spend-your-early-levels-in-crimson-desert-getting-more-health-and-stamina-instead-of-fun-new-skills-that-you-can-get-for-free",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -6507,6 +6489,24 @@
     "title": "Every Character And Voice Actor In Invincible",
     "link": "https://www.thegamer.com/invincible-all-characters-their-voice-actors",
     "date": 1773999019000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Reinstated Subnautica 2 studio CEO says publisher Krafton ‘self-servingly’ chose its release date without permission",
+    "link": "https://www.videogameschronicle.com/news/reinstated-subnautica-2-studio-ceo-says-publisher-krafton-self-servingly-chose-its-release-date-without-permission",
+    "date": 1773999607000,
+    "domain": "videogameschronicle.com",
+    "sourceName": "VGC",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Five Nights At Freddy's Rejected Script Reportedly Found",
+    "link": "https://www.thegamer.com/five-nights-at-freddys-movie-leaked-warner-bro-script",
+    "date": 1773999960000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
