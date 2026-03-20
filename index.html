@@ -31,13 +31,13 @@
 
     <header id="main-header">
       <div class="header-inner">
-          <h1>OniMugen+<span>Beta 0.5.2</span></h1>
+          <h1 onclick="hardRefresh()" title="Refresh feed" style="cursor:pointer;">OniMugen+<span>Beta 0.5.2</span></h1>
           <div class="controls">
             <div class="expand-container">
                 <button class="icon-btn" onclick="toggleControl('search')" title="Search" aria-label="Toggle search">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                 </button>
-                <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()" aria-label="Search news"></div>
+                <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()" aria-label="Search news"><button id="search-clear" onclick="clearSearch()" aria-label="Clear search" tabindex="-1">&times;</button></div>
             </div>
             <div class="expand-container">
                 <button class="icon-btn" onclick="toggleControl('filter')" title="Filter" aria-label="Toggle filter">
@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </div>
-            <button class="icon-btn" onclick="hardRefresh()" title="Refresh" aria-label="Refresh feed">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 4v6h-6"></path><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+            <button class="icon-btn" onclick="openBookmarks()" title="Bookmarks" aria-label="View bookmarked articles">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
             </button>
             <button class="icon-btn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle light/dark theme">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -64,6 +64,20 @@
     <main><ul id="feed" aria-live="polite" aria-label="Gaming news feed"></ul></main>
 
     <footer><div class="footer-text">&copy; 2026 OniMugen. All content belongs to the respective creators and publishers.</div></footer>
+
+    <!-- Bookmarks overlay -->
+    <div id="bookmarks-overlay" role="dialog" aria-modal="true" aria-label="Bookmarked articles" style="display:none;">
+      <div id="bookmarks-panel">
+        <div id="bookmarks-header">
+          <span id="bookmarks-title">Bookmarks</span>
+          <button class="icon-btn" onclick="closeBookmarks()" aria-label="Close bookmarks">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <ul id="bookmarks-feed" aria-label="Bookmarked articles"></ul>
+        <div id="bookmarks-empty">No bookmarks yet.</div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
