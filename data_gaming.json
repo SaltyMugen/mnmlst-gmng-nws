@@ -1785,20 +1785,20 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo eShop Highlights – 19/03/2026",
-    "link": "https://www.nintendo.com/en-gb/News/2026/March/Nintendo-eShop-Highlights-19-03-2026-3053465.html",
-    "date": 1773928800000,
-    "domain": "nintendo.com",
-    "sourceName": "Nintendo News",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Former Mount & Blade modders are making Kinstrife, a medieval mosh pitter set in 13th century Germany",
     "link": "https://www.rockpapershotgun.com/former-mount-blade-modders-are-making-kinstrife-a-medieval-mosh-pitter-set-in-13th-century-germany",
     "date": 1773928800000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nintendo eShop Highlights – 19/03/2026",
+    "link": "https://www.nintendo.com/en-gb/News/2026/March/Nintendo-eShop-Highlights-19-03-2026-3053465.html",
+    "date": 1773928800000,
+    "domain": "nintendo.com",
+    "sourceName": "Nintendo News",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2110,20 +2110,20 @@
     "hotScore": 1
   },
   {
-    "title": "Hades 2 and Date Everything lead Gayming Awards 2026 nominations",
-    "link": "https://www.gamesindustry.biz/hades-2-and-date-everything-lead-gayming-awards-2026-nominations",
-    "date": 1773936000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Jim Carrey Confirmed to Return for Sonic the Hedgehog 4 in New Teaser Trailer",
     "link": "https://www.pushsquare.com/news/2026/03/jim-carrey-confirmed-to-return-for-sonic-the-hedgehog-4-in-new-teaser-trailer",
     "date": 1773936000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hades 2 and Date Everything lead Gayming Awards 2026 nominations",
+    "link": "https://www.gamesindustry.biz/hades-2-and-date-everything-lead-gayming-awards-2026-nominations",
+    "date": 1773936000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2534,8 +2534,8 @@
     "hotScore": 1
   },
   {
-    "title": "How to reach The Singing Catfish in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-singing-catfish-ship",
+    "title": "How to activate the Spire of the Stars in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-spire-of-the-stars-puzzle",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2543,17 +2543,8 @@
     "hotScore": 1
   },
   {
-    "title": "How to complete Gate to the Other World in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-gate-to-the-other-world-octavius-experiment",
-    "date": 1773957600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How to open Hernand Castle Strongbox",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-castle-strongbox-solution",
+    "title": "Crimson Desert Sealed Abyss Artifact locations and how they work",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-sealed-abyss-artifact-locations-challenges",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2577,25 +2568,6 @@
     "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
-    "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
-    "date": 1773957613000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to trade and get a wagon in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-trade-goods-wagon",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Crimson Desert: 8 Best Skills to Unlock First",
@@ -2631,7 +2603,17 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to complete Trial After Trial in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-trial-after-trial-memory-fragment",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Ubisoft has ended game development at its affiliated studio \"Red Storm Entertainment\" and has cut 105 jobs, reports overseas. The studio that created classic series such as “Rainbow Six” and “Ghost Recon”",
@@ -4287,7 +4269,25 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete Abyss Without Balance in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Marvel Rivals Ally Agents achievement – How to partner with Agents of Atlas members for 10 KOs",
@@ -4440,15 +4440,6 @@
     "date": 1774019282000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Starfield Tops PlayStation Pre-Order Charts",
-    "link": "https://insider-gaming.com/starfield-tops-playstation-pre-order-charts",
-    "date": 1774019425000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4809,7 +4800,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 1,
     "groupMembers": [
       {
         "title": "How to solve light-reflection puzzles in Crimson Desert",
@@ -4817,14 +4808,6 @@
         "date": 1773962163000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to solve the Halssius Conflux statue puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-halssius-conflux-statue-puzzle-solution",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -5410,16 +5393,32 @@
         "isTranslated": false
       },
       {
-        "title": "Crimson Desert guide: Tips, puzzle solutions, bosses, and confusing UI explained",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-guide",
+        "title": "How to 'observe this skill in action to learn it' in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-observe-this-skill-in-action-to-learn-it",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "I've spent over 100 hours in Crimson Desert—here are my top 20 quick tips to triumph in Pywel",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-tips-guide",
+        "title": "All bell locations for the Toll of Pywel quest in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-map-toll-of-pywel-bell-locations",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert bounties and how to catch each",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-bounties",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "The best early skills in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5770,6 +5769,54 @@
     "hotScore": 3,
     "groupMembers": [
       {
+        "title": "How to win at arm wrestling in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
+        "date": 1774004695000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to beat Hornsplitter in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-kailok-hornsplitter-boss-guide",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to beat Reed Devil in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-reed-devil-boss-guide",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to enter Hernand Castle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-enter-hernand-castle",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to respec in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to unlock each character in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-characters-unlock",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "How to steal in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-steal-in-crimson-desert",
         "date": 1774035416000,
@@ -5794,59 +5841,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to win at arm wrestling in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
-        "date": 1774004695000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Bruna's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-brunas-request-enter-lioncrest-manor",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to slot Abyss Gears in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-gears",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Where to find keys in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-key-locations",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get Bloodstone in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bloodstone-locations",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to use Copper Pouches in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-copper-pouches",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get pets in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
+        "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
+        "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
+        "date": 1773957613000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
         "isTranslated": false
       },
       {
@@ -6091,7 +6090,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to get Abyss Artifacts in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-artifacts",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "6 Manga That Had Better Endings Than Demon Slayer",
@@ -6224,7 +6233,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "How To Destroy The Flying Fortress Orbian In Crimson Desert",
@@ -6232,6 +6241,14 @@
         "date": 1774036820000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get to Florindale in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-florindale-pororin-patrol-shai",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -6252,33 +6269,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to cook fish porridge for Renee's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-renees-request-cook-fish-porridge",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to mine iron ore for Rhett's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-rhetts-request-mine-iron-ore",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to chop down trees for Turnali's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-turnalis-request-fine-timber",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Nvidia Confirms DLSS 5 Is Re-Drawing Games, and That Sucks",
@@ -6368,6 +6359,15 @@
     "date": 1774044568000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "New Call of Duty Patch Address Changes To Seasons in  Black Ops 7",
+    "link": "https://insider-gaming.com/new-call-of-duty-patch-address-changes-to-seasons-in-black-ops-7",
+    "date": 1774044642000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   }
