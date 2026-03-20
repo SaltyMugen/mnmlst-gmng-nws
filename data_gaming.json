@@ -874,7 +874,7 @@
     "hotScore": 1
   },
   {
-    "title": "The Kindle version of ``Japanese Yokai Ibunroku'', a book that deciphers the ``darkness'' of Japanese cultural history entrusted to ``demons and demons'', is on sale for 60% off for 399 yen. Explore the historical background of Shuten-doji, Tamamo-mae, Otakemaru, etc.",
+    "title": "The Kindle edition of ``Japanese Yokai Ibunroku'', a book that deciphers the ``darkness'' of Japanese cultural history entrusted to ``demons and demons'', is on sale for 60% off for 399 yen. Explore the historical background of Shuten-doji, Tamamo-mae, Otakemaru, etc.",
     "link": "https://news.denfaminicogamer.jp/news/2603192o",
     "date": 1773908729000,
     "domain": "news.denfaminicogamer.jp",
@@ -1135,7 +1135,7 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "New information on the theatrical anime “The Night of the Wizard” will be released on March 21st at 6pm! Scheduled to be released in 2026, produced by ufotable",
+        "title": "New information on the theatrical anime “The Night of the Wizard” will be released on March 21st at 6pm! Scheduled to be released in 2026 by ufotable",
         "link": "https://news.denfaminicogamer.jp/news/2603192t",
         "date": 1773912847000,
         "domain": "news.denfaminicogamer.jp",
@@ -2147,20 +2147,20 @@
     "hotScore": 1
   },
   {
-    "title": "Join the circus and swing an election in Moves of the Diamond Hand, the RPG follow-up to Betrayal at Club Low, which hits PC early access in April",
-    "link": "https://www.rockpapershotgun.com/join-the-circus-and-swing-an-election-in-moves-of-the-diamond-hand-the-rpg-follow-up-to-betrayal-at-club-low-which-hits-pc-early-access-in-april",
-    "date": 1773932400000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Free Play Days – Sea of Thieves, Totally Reliable Delivery Service, Trailmakers, Hell Let Loose and Firefighting Simulator: Ignite",
     "link": "https://news.xbox.com/en-us/2026/03/19/free-play-days-03-19-2026",
     "date": 1773932400000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Join the circus and swing an election in Moves of the Diamond Hand, the RPG follow-up to Betrayal at Club Low, which hits PC early access in April",
+    "link": "https://www.rockpapershotgun.com/join-the-circus-and-swing-an-election-in-moves-of-the-diamond-hand-the-rpg-follow-up-to-betrayal-at-club-low-which-hits-pc-early-access-in-april",
+    "date": 1773932400000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2463,6 +2463,15 @@
     "hotScore": 1
   },
   {
+    "title": "Sea of Thieves’ Birthday Bonanza Begins With Season 19",
+    "link": "https://news.xbox.com/en-us/2026/03/19/sea-of-thieves-season-19-anniversary-rewards",
+    "date": 1773939600000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Hoarder is just a beautiful Polish cleaning sim from a former Darkwood dev, until you find the staircase to the very different game beneath",
     "link": "https://www.rockpapershotgun.com/hoarder-is-just-a-beautiful-polish-cleaning-sim-from-a-former-darkwood-dev-until-you-find-the-staircase-to-the-very-different-game-beneath",
     "date": 1773939600000,
@@ -2477,15 +2486,6 @@
     "date": 1773939600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Sea of Thieves’ Birthday Bonanza Begins With Season 19",
-    "link": "https://news.xbox.com/en-us/2026/03/19/sea-of-thieves-season-19-anniversary-rewards",
-    "date": 1773939600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2580,20 +2580,20 @@
     "hotScore": 1
   },
   {
-    "title": "Shenmue 3 Enhanced Trailer Confirms Switch 2 Debut",
-    "link": "https://www.siliconera.com/shenmue-3-enhanced-trailer-confirms-switch-2-debut",
-    "date": 1773943200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Basketball Classics Brings Retro Arcade Hoops to Xbox",
     "link": "https://news.xbox.com/en-us/2026/03/19/basketball-classics-brings-retro-arcade-hoops-to-xbox",
     "date": 1773943200000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Shenmue 3 Enhanced Trailer Confirms Switch 2 Debut",
+    "link": "https://www.siliconera.com/shenmue-3-enhanced-trailer-confirms-switch-2-debut",
+    "date": 1773943200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2778,43 +2778,26 @@
     "hotScore": 1
   },
   {
-    "title": "How to fish for Annabella's Request in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-how-to-fish-annabellas-request-tench",
+    "title": "How to open the Bluemont Manor Strongboxes",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-bluemont-manor-strongbox-solutions",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to mine iron ore for Rhett's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-rhetts-request-mine-iron-ore",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to chop down trees for Turnali's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-turnalis-request-fine-timber",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to cook fish porridge for Renee's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-renees-request-cook-fish-porridge",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
-    "title": "How to open Hernand Castle Strongbox",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-castle-strongbox-solution",
+    "title": "How to activate the Spire of the Stars in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-spire-of-the-stars-puzzle",
+    "date": 1773957600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert Sealed Abyss Artifact locations and how they work",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-sealed-abyss-artifact-locations-challenges",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2840,33 +2823,6 @@
     "hotScore": 1
   },
   {
-    "title": "Where to Find a Jetpack in Crimson Desert",
-    "link": "https://www.dualshockers.com/crimson-desert-how-to-get-a-jetpack",
-    "date": 1773957613000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Where to Pack and Sell Trade Goods in Crimson Desert",
-        "link": "https://www.dualshockers.com/crimson-desert-how-pack-sell-trade-goods",
-        "date": 1773957613000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
-        "title": "Where to find keys in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-key-locations",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Crimson Desert: 8 Best Skills to Unlock First",
     "link": "https://www.dualshockers.com/crimson-desert-best-skills-to-unlock-first",
     "date": 1773957613000,
@@ -2887,6 +2843,15 @@
   {
     "title": "Best Kliff Abilities and Weapons in Crimson Desert",
     "link": "https://www.dualshockers.com/crimson-desert-best-kliff-build",
+    "date": 1773957613000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Where to Pack and Sell Trade Goods in Crimson Desert",
+    "link": "https://www.dualshockers.com/crimson-desert-how-pack-sell-trade-goods",
     "date": 1773957613000,
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
@@ -2927,7 +2892,17 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to complete Trial After Trial in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-trial-after-trial-memory-fragment",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Ubisoft has ended game development at its affiliated studio \"Red Storm Entertainment\" and has cut 105 jobs, reports overseas. The studio that created classic series such as “Rainbow Six” and “Ghost Recon”",
@@ -4604,20 +4579,20 @@
     "hotScore": 1
   },
   {
-    "title": "Hololive Vtuber Fuwawa Abyssgard Going on Hiatus",
-    "link": "https://www.siliconera.com/hololive-vtuber-fuwawa-abyssgard-going-on-hiatus",
-    "date": 1774015200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Next Week on Xbox: New Games for March 23 to 27",
     "link": "https://news.xbox.com/en-us/2026/03/20/next-week-on-xbox-new-games-for-march-23-to-27",
     "date": 1774015200000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hololive Vtuber Fuwawa Abyssgard Going on Hiatus",
+    "link": "https://www.siliconera.com/hololive-vtuber-fuwawa-abyssgard-going-on-hiatus",
+    "date": 1774015200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4640,13 +4615,48 @@
     "hotScore": 1
   },
   {
+    "title": "Slay The Spire 2 Is Getting Review Bombed On Steam Over Upcoming Balance Patch",
+    "link": "https://kotaku.com/slay-the-spire-2-steam-review-bomb-balance-patch-prepared-doormaker-2000680603",
+    "date": 1774015295000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "How to complete Mystical Key and Polar Opposites in Crimson Desert",
     "link": "https://www.pcgamer.com/games/action/crimson-desert-mystical-key-polar-opposites",
     "date": 1774015382000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete Abyss Without Balance in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get more Palmar Pills in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-more-palmar-pills-in-crimson-desert",
+        "date": 1773957622000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Chuck Norris Dead at 86",
@@ -5001,49 +5011,6 @@
     "hotScore": 1
   },
   {
-    "title": "Marathon's ultra challenging raid-like Cryo Archive map releases in only a few hours, here's what you need to know",
-    "link": "https://www.eurogamer.net/marathon-cryo-archive-what-you-need-to-know",
-    "date": 1774022219000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Marathon players must blast through 500 million UESC robots to unlock the Cryo Archive map, and it may not take as long as you'd think",
-        "link": "https://www.eurogamer.net/marathon-500-million-uesc-cryo-archive-map",
-        "date": 1773933070000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Marathon's Cryo Archive unlocks Friday after massive ARG effort",
-        "link": "https://www.polygon.com/marathong-cryo-archive-unlock-time-arg-solved",
-        "date": 1773955337000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      },
-      {
-        "title": "Marathon's Cryo Archive drops tomorrow and it sounds like almost every aspect of it will be a pain in the shell",
-        "link": "https://www.rockpapershotgun.com/marathons-cryo-archive-drops-tomorrow-and-it-sounds-like-almost-every-aspect-of-it-will-be-a-pain-in-the-shell",
-        "date": 1773956932000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
-        "isTranslated": false
-      },
-      {
-        "title": "\"So that we don't flood the game with amazing loot\": Marathon director defends Cryo Archive's weekend-only release in the name of balance, queue times and player prep",
-        "link": "https://www.rockpapershotgun.com/so-that-we-dont-flood-the-game-with-amazing-loot-marathon-director-defends-cryo-archives-weekend-only-release-in-the-name-of-balance-queue-times-and-player-prep",
-        "date": 1774006321000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Resident Evil Requiem Topped February 2026 Sales Charts",
     "link": "https://insider-gaming.com/resident-evil-requiem-topped-february-2026-sales-charts",
     "date": 1774022249000,
@@ -5080,20 +5047,20 @@
     "hotScore": 1
   },
   {
-    "title": "Tales of Berseria Remastered Feedback Survey Includes Wallpaper",
-    "link": "https://www.siliconera.com/tales-of-berseria-remastered-feedback-survey-includes-wallpaper",
-    "date": 1774022400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Nomori’s Ghibli-Inspired Aesthetic Belies a Mind-Bending Portal Puzzler",
     "link": "https://news.xbox.com/en-us/2026/03/20/nomori-gdc-preview",
     "date": 1774022400000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Tales of Berseria Remastered Feedback Survey Includes Wallpaper",
+    "link": "https://www.siliconera.com/tales-of-berseria-remastered-feedback-survey-includes-wallpaper",
+    "date": 1774022400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5179,25 +5146,6 @@
     "hotScore": 1
   },
   {
-    "title": "Slay The Spire 2 Review Bombed Over Balance Changes",
-    "link": "https://www.thegamer.com/slay-the-spire-2-review-bombed-balance-changes",
-    "date": 1774023565000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Slay The Spire 2 Is Getting Review Bombed On Steam Over Upcoming Balance Patch",
-        "link": "https://kotaku.com/slay-the-spire-2-steam-review-bomb-balance-patch-prepared-doormaker-2000680603",
-        "date": 1774015295000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Modern Warfare (2019) has more Steam players than Warzone & Black Ops 7 combined",
     "link": "https://www.dexerto.com/call-of-duty/modern-warfare-2019-has-more-steam-players-than-warzone-black-ops-7-combined-3338510",
     "date": 1774023718000,
@@ -5275,15 +5223,6 @@
     "date": 1774025400000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Crimson Desert Exec Responds to Control Complaints",
-    "link": "https://gamerant.com/crimson-desert-controls-bad",
-    "date": 1774025569000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5372,6 +5311,41 @@
         "date": 1774016865000,
         "domain": "eurogamer.net",
         "sourceName": "Eurogamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "How to solve the Halssius Conflux puzzle in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-solve-the-halssius-conflux-puzzle-in-crimson-desert",
+    "date": 1774025829000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to solve the Dragon's Stone Chamber puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-dragons-stone-chamber-puzzle-solution",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve Hidden Treasure Map Piece 7 in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-hidden-treasure-map-piece-7-location",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve light-reflection puzzles in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-solve-light-reflection-puzzles-in-crimson-desert",
+        "date": 1773962163000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -5638,22 +5612,6 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
-        "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
-        "date": 1773957613000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
-        "title": "How to Farm Abyss Artifacts in Crimson Desert",
-        "link": "https://www.dualshockers.com/crimson-desert-how-to-farm-abyss-artifacts",
-        "date": 1773957613000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
         "title": "How to win at arm wrestling in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
         "date": 1774004695000,
@@ -5662,115 +5620,67 @@
         "isTranslated": false
       },
       {
-        "title": "How to trade and get a wagon in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-trade-goods-wagon",
+        "title": "How to beat Marnie's Excavatron in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-marnies-excavatron-boss-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to get Bloodstone in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bloodstone-locations",
+        "title": "How to unlock each character in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-characters-unlock",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to use Copper Pouches in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-copper-pouches",
+        "title": "How to get to Florindale in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-florindale-pororin-patrol-shai",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to solve the Halssius Conflux statue puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-halssius-conflux-statue-puzzle-solution",
+        "title": "How to beat Hornsplitter in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-kailok-hornsplitter-boss-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to fix the Thinker's Meadow Abyss Nexus in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-thinkers-meadow-abyss-nexus-howling-hill",
+        "title": "How to get Abyss Artifacts in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-artifacts",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to pass time in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-pass-time",
+        "title": "How to beat Reed Devil in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-reed-devil-boss-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to complete the Reunion puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-reunion-ancient-ruins",
+        "title": "How to enter Hernand Castle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-enter-hernand-castle",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to fast travel in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-fast-travel-mysterious-energy-abyss-nexus",
+        "title": "How to respec in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get pets in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Can you store items in Crimson Desert?",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-store-items",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to steal in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-steal-items",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to use Blinding Flash in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-blinding-flash-how-to-use",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How does Contribution work in Crimson Desert?",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-contribution-shop-location",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to solve the Halssius Conflux puzzle in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-solve-the-halssius-conflux-puzzle-in-crimson-desert",
-        "date": 1774025829000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
         "isTranslated": false
       },
       {
@@ -5782,25 +5692,9 @@
         "isTranslated": false
       },
       {
-        "title": "How to solve light-reflection puzzles in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-solve-light-reflection-puzzles-in-crimson-desert",
-        "date": 1773962163000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "How to fly in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-fly-in-crimson-desert",
         "date": 1773957748000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get more Palmar Pills in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-more-palmar-pills-in-crimson-desert",
-        "date": 1773957622000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
         "isTranslated": false
@@ -5822,19 +5716,27 @@
         "isTranslated": false
       },
       {
-        "title": "How to send Greymanes on missions in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-send-greymanes-on-missions-in-crimson-desert",
-        "date": 1773957615000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
+        "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
+        "date": 1773957613000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
         "isTranslated": false
       },
       {
-        "title": "How to beat the Excavatron in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-beat-the-excavatron-in-crimson-desert",
-        "date": 1773957614000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "title": "Where to Find a Jetpack in Crimson Desert",
+        "link": "https://www.dualshockers.com/crimson-desert-how-to-get-a-jetpack",
+        "date": 1773957613000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      },
+      {
+        "title": "How to Farm Abyss Artifacts in Crimson Desert",
+        "link": "https://www.dualshockers.com/crimson-desert-how-to-farm-abyss-artifacts",
+        "date": 1773957613000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
         "isTranslated": false
       }
     ]
@@ -5944,6 +5846,15 @@
     "date": 1774028715000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"As soon as it fired up, he'd get up and go to lunch\": How Age of Empires' developers tested mission difficulty",
+    "link": "https://www.rockpapershotgun.com/as-soon-as-it-fired-up-hed-get-up-and-go-to-lunch-how-age-of-empires-developers-tested-mission-difficulty",
+    "date": 1774029180000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6077,6 +5988,54 @@
         "isTranslated": false
       },
       {
+        "title": "Spend your early levels in Crimson Desert getting more health and stamina instead of fun new skills that you can get for free",
+        "link": "https://www.pcgamer.com/games/action/spend-your-early-levels-in-crimson-desert-getting-more-health-and-stamina-instead-of-fun-new-skills-that-you-can-get-for-free",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to tame a horse and level it up in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-tame-horse-skills-level",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "All bell locations for the Toll of Pywel quest in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-map-toll-of-pywel-bell-locations",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert bounties and how to catch each",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-bounties",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to 'observe this skill in action to learn it' in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-observe-this-skill-in-action-to-learn-it",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "The best early skills in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "Crimson Desert can perform well on PC, but you’ll need to win its crash lottery first",
         "link": "https://www.rockpapershotgun.com/crimson-desert-pc-performance-best-settings",
         "date": 1773957600000,
@@ -6085,35 +6044,11 @@
         "isTranslated": false
       },
       {
-        "title": "I've spent over 100 hours in Crimson Desert—here are my top 20 quick tips to triumph in Pywel",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-tips-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert can be overwhelming—do this one thing in each new city to make your life much easier",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-can-be-overwhelming-do-this-one-thing-in-each-new-city-to-make-your-life-much-easier",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert has the most diabolical lock and key system I've ever seen",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-locked-doors",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert guide: Tips, puzzle solutions, bosses, and confusing UI explained",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
+        "title": "How to send Greymanes on missions in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-send-greymanes-on-missions-in-crimson-desert",
+        "date": 1773957615000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       },
       {
@@ -6285,6 +6220,14 @@
         "isTranslated": false
       },
       {
+        "title": "Crimson Desert is \"like riding a bike\", says Pearl Abyss PR boss, possibly in the sense that bikes also don't run on Intel Arc GPUs",
+        "link": "https://www.rockpapershotgun.com/crimson-desert-is-like-like-riding-a-bike-says-pearl-abyss-pr-boss-possibly-in-the-sense-that-bikes-also-dont-run-on-intel-arc-gpus",
+        "date": 1774027160000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
         "title": "Here are 9 incredibly specific and petty beefs I have with Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/here-are-9-incredibly-specific-and-petty-beefs-i-have-with-crimson-desert",
         "date": 1774027163000,
@@ -6320,20 +6263,20 @@
     "hotScore": 1
   },
   {
-    "title": "Best cards for FC 26 National Captain Evolution",
-    "link": "https://www.destructoid.com/best-cards-for-fc-26-national-captain-evolution",
-    "date": 1774031093000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Baldur's Gate 3 Writer Wishes He Could Have Done More With Wyll",
     "link": "https://www.thegamer.com/baldurs-gate-3-writer-wyll-equal-treatment",
     "date": 1774031326000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Funi Raccoon is another wonderful pile of rubble to sift through on your computer",
+    "link": "https://www.rockpapershotgun.com/funi-raccoon-is-another-wonderful-pile-of-rubble-to-sift-through-on-your-computer",
+    "date": 1774031400000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6365,12 +6308,100 @@
     "hotScore": 1
   },
   {
-    "title": "Who’s winning the Marathon Cryo Archive world first race? Live updates",
+    "title": "Major industry survey finds that, surprise surprise, 9/10 game devs think generative AI use should be more fully disclosed on Steam",
+    "link": "https://www.pcgamer.com/software/ai/major-industry-survey-finds-that-surprise-surprise-9-10-game-devs-think-generative-ai-use-should-be-more-fully-disclosed-on-steam",
+    "date": 1774032240000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Steel Ball Run Is Already 2026's Top Anime",
+    "link": "https://www.thegamer.com/jojo-bizarre-adventure-steel-ball-run-top-anime",
+    "date": 1774032319000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Marathon’s Cryo Archive race is on, and teams are slowly figuring out everything it takes to earn the best treasures within",
     "link": "https://www.destructoid.com/marathon-cryo-archive-updates-race-blog",
-    "date": 1774031692000,
+    "date": 1774032338000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "Marathon players must blast through 500 million UESC robots to unlock the Cryo Archive map, and it may not take as long as you'd think",
+        "link": "https://www.eurogamer.net/marathon-500-million-uesc-cryo-archive-map",
+        "date": 1773933070000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Marathon's Cryo Archive unlocks Friday after massive ARG effort",
+        "link": "https://www.polygon.com/marathong-cryo-archive-unlock-time-arg-solved",
+        "date": 1773955337000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      },
+      {
+        "title": "Marathon's Cryo Archive drops tomorrow and it sounds like almost every aspect of it will be a pain in the shell",
+        "link": "https://www.rockpapershotgun.com/marathons-cryo-archive-drops-tomorrow-and-it-sounds-like-almost-every-aspect-of-it-will-be-a-pain-in-the-shell",
+        "date": 1773956932000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "\"So that we don't flood the game with amazing loot\": Marathon director defends Cryo Archive's weekend-only release in the name of balance, queue times and player prep",
+        "link": "https://www.rockpapershotgun.com/so-that-we-dont-flood-the-game-with-amazing-loot-marathon-director-defends-cryo-archives-weekend-only-release-in-the-name-of-balance-queue-times-and-player-prep",
+        "date": 1774006321000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "Marathon's ultra challenging raid-like Cryo Archive map releases in only a few hours, here's what you need to know",
+        "link": "https://www.eurogamer.net/marathon-cryo-archive-what-you-need-to-know",
+        "date": 1774022219000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "A New Nintendo Switch 2 Console Model is Coming, But There's a Catch",
+    "link": "https://gamerant.com/new-switch-2-console-model-removable-battery",
+    "date": 1774032473000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Best players for FC 26 National Captain Evolution",
+    "link": "https://www.destructoid.com/best-cards-for-fc-26-national-captain-evolution",
+    "date": 1774032542000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Best players for FC 26 Euro Trio Evolution",
+        "link": "https://www.destructoid.com/best-players-for-fc-26-euro-trio-evolution",
+        "date": 1774032247000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   }
 ]
