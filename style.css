@@ -59,7 +59,7 @@ h1 span {
 /* --- SOURCE LOGO & PLACEHOLDER CSS --- */
 .item-logo, .icon-placeholder { 
     width: 25px; height: 25px; object-fit: contain; opacity: 0.3; 
-    filter: grayscale(100%); transition: all 0.2s ease; border-radius: 2px;
+    filter: grayscale(0%); transition: all 0.2s ease; border-radius: 2px;
     background: transparent; 
 }
 
