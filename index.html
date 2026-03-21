@@ -1,98 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="day">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
-    <meta name="description" content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors.">
-    <meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen">
-    
+    <meta
+      name="description"
+      content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors." />
+    <meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen" />
+
     <script>
-        (function() {
-            const savedTheme = localStorage.getItem('om-theme') || 'day';
-            document.documentElement.setAttribute('data-theme', savedTheme);
-        })();
+      (function () {
+        const savedTheme = localStorage.getItem("om-theme") || "day";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      })();
     </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Micro+5&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 
     <noscript>
-      <style>.noscript-msg { padding: 40px; text-align: center; font-family: sans-serif; }</style>
+      <style>
+        .noscript-msg {
+          padding: 40px;
+          text-align: center;
+          font-family: sans-serif;
+        }
+      </style>
       <div class="noscript-msg">JavaScript is required to load the news feed. Please enable it in your browser.</div>
     </noscript>
-</head>
-<body>
-    <div id="splash" role="status" aria-live="polite" aria-label="Loading OniMugen Gaming">
-      <div class="splash-title" aria-hidden="true">OniMugen</div>
-      <div class="splash-track" aria-hidden="true"><div class="splash-fill" id="s-fill"></div></div>
+  </head>
+  <body>
+    <div id="splash">
+      <div class="splash-title">OniMugen</div>
+      <div class="splash-track"><div class="splash-fill" id="s-fill"></div></div>
     </div>
 
     <header id="main-header">
       <div class="header-inner">
-          <h1 onclick="hardRefresh()" title="Refresh feed" style="cursor:pointer;">OniMugen+<span>Beta 0.5.2</span></h1>
-          <div class="controls">
-            <div class="expand-container">
-                <button class="icon-btn" onclick="toggleControl('search')" title="Search" aria-label="Toggle search">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                </button>
-                <div id="search-wrap" class="expandable"><input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()" aria-label="Search news"><button id="search-clear" onclick="clearSearch()" aria-label="Clear search" tabindex="-1">&times;</button></div>
-            </div>
-            <div class="expand-container">
-                <button class="icon-btn" onclick="toggleControl('filter')" title="Filter" aria-label="Toggle filter">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
-                </button>
-                <div id="filter-wrap" class="expandable">
-                    <div class="filter-options" role="group" aria-label="Filter articles">
-                        <span class="filter-opt active" onclick="setFilter('all', this)" role="button" tabindex="0" aria-pressed="true">ALL</span>
-                        <span class="filter-opt" onclick="setFilter('new', this)" role="button" tabindex="0" aria-pressed="false">NEW</span>
-                        <span class="filter-opt" onclick="setFilter('hot', this)" role="button" tabindex="0" aria-pressed="false">HOT</span>
-                    </div>
-                </div>
-            </div>
-            <button class="icon-btn" onclick="openBookmarks()" title="Bookmarks" aria-label="View bookmarked articles">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+        <h1 onclick="hardRefresh()" title="Refresh feed" style="cursor: pointer">OniMugen+<span>Build v0.5.3</span></h1>
+        <div class="controls">
+          <div class="expand-container">
+            <button class="icon-btn" onclick="toggleControl('search')" title="Search">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
             </button>
-            <button class="icon-btn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle light/dark theme">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            </button>
+            <div id="search-wrap" class="expandable">
+              <input type="text" id="search-input" placeholder="Search news..." oninput="applyFilters()" /><button
+                id="search-clear"
+                onclick="clearSearch()"
+                tabindex="-1">
+                &times;
+              </button>
+            </div>
           </div>
+          <div class="expand-container">
+            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <line x1="4" y1="21" x2="4" y2="14"></line>
+                <line x1="4" y1="10" x2="4" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12" y2="3"></line>
+                <line x1="20" y1="21" x2="20" y2="16"></line>
+                <line x1="20" y1="12" x2="20" y2="3"></line>
+                <line x1="1" y1="14" x2="7" y2="14"></line>
+                <line x1="9" y1="8" x2="15" y2="8"></line>
+                <line x1="17" y1="16" x2="23" y2="16"></line>
+              </svg>
+            </button>
+            <div id="filter-wrap" class="expandable">
+              <div class="filter-options">
+                <span class="filter-opt active" onclick="setFilter('all', this)" role="button" tabindex="0">ALL</span>
+                <span class="filter-opt" onclick="setFilter('new', this)" role="button" tabindex="0">NEW</span>
+                <span class="filter-opt" onclick="setFilter('hot', this)" role="button" tabindex="0">HOT</span>
+              </div>
+            </div>
+          </div>
+          <button class="icon-btn" onclick="openBookmarks()" title="Bookmarks">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </button>
+          <button id="theme-btn" onclick="cycleTheme()" title="Cycle theme">
+            <div class="theme-dots">
+              <div class="theme-dot" data-t="day"></div>
+              <div class="theme-dot" data-t="night"></div>
+              <div class="theme-dot" data-t="forest"></div>
+            </div>
+          </button>
+        </div>
       </div>
     </header>
 
     <main>
       <div id="sources-filter-wrap">
-        <button id="sources-btn" onclick="toggleSourcesMenu()" aria-label="Filter sources" aria-expanded="false">
+        <button id="sources-btn" onclick="toggleSourcesMenu()">
           Hide Sources <span id="sources-muted-count"></span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
         </button>
-        <div id="sources-menu" role="listbox" aria-label="Select sources" aria-multiselectable="true">
+        <div id="sources-menu">
           <div id="sources-menu-inner"></div>
           <div id="sources-menu-footer">
             <button onclick="resetSources()" id="sources-reset">Show all</button>
           </div>
         </div>
       </div>
-      <ul id="feed" aria-live="polite" aria-label="Gaming news feed"></ul>
+      <ul id="feed"></ul>
     </main>
 
-    <footer><div class="footer-text">&copy; 2026 OniMugen. All content belongs to the respective creators and publishers.</div></footer>
+    <footer>
+      <div class="footer-text">
+        &copy; 2026 OniMugen. All content belongs to the respective creators and publishers.
+      </div>
+    </footer>
 
-    <!-- Bookmarks overlay -->
-    <div id="bookmarks-overlay" role="dialog" aria-modal="true" aria-label="Bookmarked articles" style="display:none;">
+    <div id="bookmarks-overlay" style="display: none">
       <div id="bookmarks-panel">
         <div id="bookmarks-header">
           <span id="bookmarks-title">Bookmarks</span>
-          <button class="icon-btn" onclick="closeBookmarks()" aria-label="Close bookmarks">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          <button class="icon-btn" onclick="closeBookmarks()">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
           </button>
         </div>
-        <ul id="bookmarks-feed" aria-label="Bookmarked articles"></ul>
+        <ul id="bookmarks-feed"></ul>
         <div id="bookmarks-empty">No bookmarks yet.</div>
       </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
