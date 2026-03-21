@@ -1,14 +1,5 @@
 [
   {
-    "title": "[Play report] Cross play is also good! I played with Beatrix from \"GRANBLUE FANTASY: Relink - Endless Ragnarok\"!",
-    "link": "https://www.4gamer.net/games/982/G098219/20260319002",
-    "date": 1773898272000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Ubisoft accelerates organizational restructuring. Julien Bares, former head of development at Tencent Games Global, has been appointed as the leader of the new \"Creative House\" organization.",
     "link": "https://www.4gamer.net/games/999/G999905/20260319034",
     "date": 1773898809000,
@@ -221,15 +212,6 @@
     "date": 1773908568000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "It has been reported that a settlement has been reached with the person who infringed on the rights of the talent affiliated with Cover and Hololive Productions. Over the next month, approximately 30 caller information disclosure requests, civil lawsuits, criminal proceedings, etc. are planned.",
-    "link": "https://news.denfaminicogamer.jp/news/2603192n",
-    "date": 1773908747000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1100,15 +1082,6 @@
     "hotScore": 1
   },
   {
-    "title": "Season 2 DLC character “Blue Mary” will be joining “Fatal Fury City of the Wolves” from March 26th!",
-    "link": "https://www.gamer.ne.jp/news/202603190058",
-    "date": 1773927180000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Echoes of Aincrad: Sword Art Online ‘Gameplay’ trailer",
     "link": "https://www.gematsu.com/2026/03/echoes-of-aincrad-sword-art-online-gameplay-trailer",
     "date": 1773927788000,
@@ -1181,20 +1154,20 @@
     "hotScore": 1
   },
   {
-    "title": "Human Fall Flat Brings The Chaos In New Nintendo Switch 2 Edition",
-    "link": "https://www.nintendolife.com/news/2026/03/human-fall-flat-brings-the-chaos-in-new-nintendo-switch-2-edition",
-    "date": 1773928800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Capcom Won't Reveal One of Resident Evil Requiem's Biggest Mysteries Any Time Soon",
     "link": "https://www.pushsquare.com/news/2026/03/capcom-wont-reveal-one-of-resident-evil-requiems-biggest-mysteries-any-time-soon",
     "date": 1773928800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Human Fall Flat Brings The Chaos In New Nintendo Switch 2 Edition",
+    "link": "https://www.nintendolife.com/news/2026/03/human-fall-flat-brings-the-chaos-in-new-nintendo-switch-2-edition",
+    "date": 1773928800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1488,20 +1461,20 @@
     "hotScore": 1
   },
   {
-    "title": "Hades 2 and Date Everything lead Gayming Awards 2026 nominations",
-    "link": "https://www.gamesindustry.biz/hades-2-and-date-everything-lead-gayming-awards-2026-nominations",
-    "date": 1773936000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Jim Carrey Confirmed to Return for Sonic the Hedgehog 4 in New Teaser Trailer",
     "link": "https://www.pushsquare.com/news/2026/03/jim-carrey-confirmed-to-return-for-sonic-the-hedgehog-4-in-new-teaser-trailer",
     "date": 1773936000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hades 2 and Date Everything lead Gayming Awards 2026 nominations",
+    "link": "https://www.gamesindustry.biz/hades-2-and-date-everything-lead-gayming-awards-2026-nominations",
+    "date": 1773936000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1902,17 +1875,35 @@
     "hotScore": 1
   },
   {
-    "title": "Crimson Desert Sealed Abyss Artifact locations and how they work",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-sealed-abyss-artifact-locations-challenges",
+    "title": "How to mine iron ore for Rhett's Request in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-rhetts-request-mine-iron-ore",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to chop down trees for Turnali's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-turnalis-request-fine-timber",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to cook fish porridge for Renee's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-renees-request-cook-fish-porridge",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
-    "title": "How to activate the Spire of the Stars in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-spire-of-the-stars-puzzle",
+    "title": "How to open Hernand Castle Strongbox",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-castle-strongbox-solution",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1938,15 +1929,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
-    "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
-    "date": 1773957613000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert: Toward the Nest — how to activate the skybridge",
     "link": "https://www.videogameschronicle.com/guide/crimson-desert-toward-nest-crowcaller-guide",
     "date": 1773957649000,
@@ -1962,17 +1944,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to complete Trial After Trial in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-trial-after-trial-memory-fragment",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Ubisoft has ended game development at its affiliated studio \"Red Storm Entertainment\" and has cut 105 jobs, reports overseas. The studio that created classic series such as “Rainbow Six” and “Ghost Recon”",
@@ -2083,6 +2055,25 @@
     "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "How to solve light-reflection puzzles in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-solve-light-reflection-puzzles-in-crimson-desert",
+    "date": 1773962163000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to use Blinding Flash in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-blinding-flash-how-to-use",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Electrician Simulator is now available for free on the Epic Games Store. Experience a variety of jobs, from complex electrical equipment work to repairing game controllers.",
@@ -3517,20 +3508,20 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo Download: 19th March (North America)",
-    "link": "https://www.nintendolife.com/news/2026/03/nintendo-download-19th-march-north-america",
-    "date": 1774015200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feb 2026 USA Sales: PS5 Outsells Nintendo's New Switch 2 for a Second Consecutive Month",
     "link": "https://www.pushsquare.com/news/2026/03/feb-2026-usa-sales-ps5-outsells-nintendos-new-switch-2-for-a-second-consecutive-month",
     "date": 1774015200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nintendo Download: 19th March (North America)",
+    "link": "https://www.nintendolife.com/news/2026/03/nintendo-download-19th-march-north-america",
+    "date": 1774015200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3550,17 +3541,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Marvel Rivals Ally Agents achievement – How to partner with Agents of Atlas members for 10 KOs",
@@ -3806,20 +3787,20 @@
     "hotScore": 1
   },
   {
-    "title": "Opinion: Is Winds & Waves Just 'Pokémon: Tears Of The Kingdom'?",
-    "link": "https://www.nintendolife.com/features/opinion-is-winds-and-waves-just-pokemon-tears-of-the-kingdom",
-    "date": 1774022400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Hands On: Crimson Desert Runs Well Enough on PS5 Pro, But What About That Intro?",
     "link": "https://www.pushsquare.com/features/hands-on-crimson-desert-runs-well-enough-on-ps5-pro-but-what-about-that-intro",
     "date": 1774022400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Opinion: Is Winds & Waves Just 'Pokémon: Tears Of The Kingdom'?",
+    "link": "https://www.nintendolife.com/features/opinion-is-winds-and-waves-just-pokemon-tears-of-the-kingdom",
+    "date": 1774022400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3923,20 +3904,20 @@
     "hotScore": 1
   },
   {
-    "title": "Investor Who Urged Nintendo To Monetise Mario's Jumps Acquires Shares In Kadokawa",
-    "link": "https://www.nintendolife.com/news/2026/03/investor-who-urged-nintendo-to-monetise-marios-jumps-acquires-shares-in-kadokawa",
-    "date": 1774025100000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert's Performance Mode 'Not Recommended' on Base PS5, Here's 25 Minutes of Direct Capture Footage",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-deserts-performance-mode-not-recommended-on-base-ps5-heres-25-minutes-of-direct-capture-footage",
     "date": 1774025100000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Investor Who Urged Nintendo To Monetise Mario's Jumps Acquires Shares In Kadokawa",
+    "link": "https://www.nintendolife.com/news/2026/03/investor-who-urged-nintendo-to-monetise-marios-jumps-acquires-shares-in-kadokawa",
+    "date": 1774025100000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5422,16 +5403,40 @@
         "isTranslated": false
       },
       {
-        "title": "Crimson Desert bounties and how to catch each",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bounties",
+        "title": "I've spent over 100 hours in Crimson Desert—here are my top 20 quick tips to triumph in Pywel",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-tips-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to 'observe this skill in action to learn it' in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-observe-this-skill-in-action-to-learn-it",
+        "title": "Crimson Desert can be overwhelming—do this one thing in each new city to make your life much easier",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-can-be-overwhelming-do-this-one-thing-in-each-new-city-to-make-your-life-much-easier",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert has the most diabolical lock and key system I've ever seen",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-locked-doors",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Can you store items in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-store-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How does Contribution work in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-contribution-shop-location",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5741,7 +5746,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "All Sealed Abyss Artifact Locations In Crimson Desert",
@@ -5749,14 +5754,6 @@
         "date": 1774041840000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get Abyss Artifacts in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
@@ -5778,6 +5775,54 @@
     "isTranslated": false,
     "hotScore": 4,
     "groupMembers": [
+      {
+        "title": "How to win at arm wrestling in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
+        "date": 1774004695000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Where to find keys in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-key-locations",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to steal in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-steal-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get pets in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to fish for Annabella's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-how-to-fish-annabellas-request-tench",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How To Get Epidote In Crimson Desert",
+        "link": "https://gamerant.com/crimson-desert-how-get-epidote-where-find-location-mine-buy-farm",
+        "date": 1774065620000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
+        "isTranslated": false
+      },
       {
         "title": "How to parry in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-parry-in-crimson-desert",
@@ -5803,67 +5848,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to win at arm wrestling in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
-        "date": 1774004695000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to beat Hornsplitter in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kailok-hornsplitter-boss-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get to Florindale in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-florindale-pororin-patrol-shai",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to respec in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to beat Reed Devil in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-reed-devil-boss-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to enter Hernand Castle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-enter-hernand-castle",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "The best early skills in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How To Get Epidote In Crimson Desert",
-        "link": "https://gamerant.com/crimson-desert-how-get-epidote-where-find-location-mine-buy-farm",
-        "date": 1774065620000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
+        "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
+        "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
+        "date": 1773957613000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
         "isTranslated": false
       },
       {
@@ -5877,13 +5866,22 @@
     ]
   },
   {
+    "title": "Crimson Desert Lets You Get a Dog With Armor",
+    "link": "https://gamerant.com/crimson-desert-dog-armor",
+    "date": 1774065620000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "How To Solve Hidden Chamber Of Wisdom Puzzle In Crimson Desert",
     "link": "https://gamerant.com/crimson-desert-how-solve-hidden-chamber-wisdom-puzzle-mural-location",
     "date": 1774065620000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "How to solve the Halssius Conflux puzzle in Crimson Desert",
@@ -5892,33 +5890,8 @@
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
         "isTranslated": false
-      },
-      {
-        "title": "How to solve light-reflection puzzles in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-solve-light-reflection-puzzles-in-crimson-desert",
-        "date": 1773962163000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Abyss Without Balance in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Crimson Desert Lets You Get a Dog With Armor",
-    "link": "https://gamerant.com/crimson-desert-dog-armor",
-    "date": 1774065620000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Deepfog Basin Dragon Head Ruins In Crimson Desert",
@@ -5998,6 +5971,24 @@
     "date": 1774070160000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The gaming blanket “Damegi” is now a year-round sweatshirt! “Damegi XV Sweat” is now available with a feeling of freedom with no tightness.",
+    "link": "https://www.gamer.ne.jp/news/202603210008",
+    "date": 1774071180000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "A collaboration between “Beyblade” and “Eva” has been decided! The set includes 3 Beyblades inspired by Evangelion Unit 01/00/2, 2 types of specially printed launchers, and a storage box.",
+    "link": "https://news.denfaminicogamer.jp/news/260321e",
+    "date": 1774071192000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   }
