@@ -342,7 +342,7 @@
     "hotScore": 1
   },
   {
-    "title": "Meta quickly retracts the end of the VR version of “Horizon Worlds”. In order to respond to the voices of fans, we have changed course to continue the service \"for the time being\"",
+    "title": "Meta quickly retracts the end of the VR version of \"Horizon Worlds\". In order to respond to the voices of fans, we have changed course to continue the service \"for the time being\"",
     "link": "https://automaton-media.com/articles/newsjp/horizon-worlds-20260320-430772",
     "date": 1773968302000,
     "domain": "automaton-media.com",
@@ -872,7 +872,7 @@
     "hotScore": 1
   },
   {
-    "title": "MoonMonster Studios releases VR game Space Control on Meta Quest and SteamVR on April 1st",
+    "title": "MoonMonster Studios releases VR game “Space Control” on Meta Quest and SteamVR on April 1st",
     "link": "https://gamebiz.jp/news/422986",
     "date": 1773994380000,
     "domain": "gamebiz.jp",
@@ -1007,7 +1007,7 @@
     "hotScore": 1
   },
   {
-    "title": "Aniplex will broadcast original anime “Vertex Force” in 2026! The latest work from director Kazuhiro Takamura of “Strike Witches” and “Vibiope”",
+    "title": "Aniplex will broadcast original anime “Vertex Force” in 2026! Latest work from director Kazuhiro Takamura of “Strike Witches” and “Vibiope”",
     "link": "https://gamebiz.jp/news/422959",
     "date": 1774000800000,
     "domain": "gamebiz.jp",
@@ -1206,7 +1206,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"It's not a question of 'can you do it', it's a question of 'do it!' \"...The Japanese title of the maintenance shop sim \"Car Service Together\" has an unexpected sense of mystery",
+    "title": "\"It's not 'Can you do it?' It's 'Do it!' \"...The Japanese title of the maintenance shop sim \"Car Service Together\" has an unexpected sense of mystery",
     "link": "http://www.gamespark.jp/article/2026/03/20/164162.html",
     "date": 1774005564000,
     "domain": "gamespark.jp",
@@ -1545,7 +1545,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to complete Abyss Without Balance in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Marvel Rivals Ally Agents achievement – How to partner with Agents of Atlas members for 10 KOs",
@@ -1737,6 +1747,15 @@
     "hotScore": 1
   },
   {
+    "title": "Share of the Week: Ghost of Yōtei Legends",
+    "link": "https://blog.playstation.com/2026/03/20/share-of-the-week-ghost-of-yotei-legends",
+    "date": 1774022400000,
+    "domain": "blog.playstation.com",
+    "sourceName": "PlayStation Blog",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Nomori’s Ghibli-Inspired Aesthetic Belies a Mind-Bending Portal Puzzler",
     "link": "https://news.xbox.com/en-us/2026/03/20/nomori-gdc-preview",
     "date": 1774022400000,
@@ -1769,15 +1788,6 @@
     "date": 1774022400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Share of the Week: Ghost of Yōtei Legends",
-    "link": "https://blog.playstation.com/2026/03/20/share-of-the-week-ghost-of-yotei-legends",
-    "date": 1774022400000,
-    "domain": "blog.playstation.com",
-    "sourceName": "PlayStation Blog",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1958,17 +1968,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to complete Abyss Without Balance in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Former Xbox Boss Is Reportedly Making A Phone For Amazon, 12 Years After First Effort Failed",
@@ -2400,6 +2400,49 @@
     "sourceName": "Kotaku",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "How to parry in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-parry-in-crimson-desert",
+    "date": 1774038773000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to win at arm wrestling in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
+        "date": 1774004695000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to respec in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to steal in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-steal-in-crimson-desert",
+        "date": 1774035416000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to combine the Abyss Cell in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-combine-the-abyss-cell-in-crimson-desert",
+        "date": 1774004058000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Baffling Crimson Desert Images Have Ignited A Generative AI Controversy",
@@ -3037,7 +3080,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Mazukon 7th Anniversary ~Tamatenjin Shrine Reitaisai~” will be held on May 2nd at Tokyo Big Sight with the largest scale ever and free admission!",
+    "title": "“Jakon 7th Anniversary ~Tamatenjin Shrine Annual Festival~” will be held on May 2nd at Tokyo Big Sight with the largest scale ever and free admission!",
     "link": "https://www.gamer.ne.jp/news/202603210004",
     "date": 1774067460000,
     "domain": "gamer.ne.jp",
@@ -3046,7 +3089,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Minecraft LIVE\" will be broadcast from 1:30 on March 22nd! Delivering details on new features of the update “Tiny Takeover”",
+    "title": "“Minecraft LIVE” will be broadcast from 1:30 on March 22nd! Delivering details on new features of the update “Tiny Takeover”",
     "link": "https://www.gamer.ne.jp/news/202603210005",
     "date": 1774068360000,
     "domain": "gamer.ne.jp",
@@ -3244,20 +3287,20 @@
     "hotScore": 1
   },
   {
-    "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
-    "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
-    "date": 1774080000000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What are we all playing this weekend?",
     "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
     "date": 1774080000000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
+    "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
+    "date": 1774080000000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3414,7 +3457,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Marathon\" review. A “different” game that does not fit into the framework of “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
+    "title": "\"Marathon\" review. An “unique” game that does not fit into the framework of an “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
     "link": "https://automaton-media.com/articles/impressionjp/marathon-20260321-431075",
     "date": 1774083601000,
     "domain": "automaton-media.com",
@@ -3630,15 +3673,6 @@
     ]
   },
   {
-    "title": "Does Jury Duty Season 2 Justify Its Existence?",
-    "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
-    "date": 1774094400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "An early contender for movie of the year",
     "link": "https://www.theverge.com/tech/898265/project-hail-mary-airpods-max-2-installer",
     "date": 1774094400000,
@@ -3653,6 +3687,15 @@
     "date": 1774094400000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Does Jury Duty Season 2 Justify Its Existence?",
+    "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
+    "date": 1774094400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3828,20 +3871,20 @@
     "hotScore": 1
   },
   {
-    "title": "How Project Hail Mary Gets Rocky Right",
-    "link": "https://www.ign.com/articles/how-project-hail-mary-gets-rocky-right-alien",
-    "date": 1774101600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "After one of Blood's best mods added a new episode in January, another brilliant spin on Monolith's shooter just got an even bigger overhaul",
     "link": "https://www.pcgamer.com/games/fps/after-one-of-bloods-best-mods-added-a-new-episode-in-january-another-brilliant-spin-on-monoliths-shooter-just-got-an-even-bigger-overhaul",
     "date": 1774101600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How Project Hail Mary Gets Rocky Right",
+    "link": "https://www.ign.com/articles/how-project-hail-mary-gets-rocky-right-alien",
+    "date": 1774101600000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3853,273 +3896,6 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "Crimson Desert's lousy controls made me commit these 13 accidental atrocities",
-    "link": "https://www.polygon.com/crimson-desert-controls-accidental-atrocities",
-    "date": 1774101617000,
-    "domain": "polygon.com",
-    "sourceName": "Polygon",
-    "isTranslated": false,
-    "hotScore": 13,
-    "groupMembers": [
-      {
-        "title": "Crimson Desert can perform well on PC, but you’ll need to win its crash lottery first",
-        "link": "https://www.rockpapershotgun.com/crimson-desert-pc-performance-best-settings",
-        "date": 1773957600000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
-        "isTranslated": false
-      },
-      {
-        "title": "Open world action game \"Crimson Desert\" released. On Steam, the joint contract \"240,000 people\" has started successfully.",
-        "link": "https://news.denfaminicogamer.jp/news/260320e",
-        "date": 1773968800000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "Crimson Desert deluxe and pre-order special items are inaccessible for some, but Pearl Abyss is working on a fix",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-deluxe-and-pre-order-special-items-are-inaccessible-for-some-but-pearl-abyss-is-working-on-a-fix",
-        "date": 1773975551000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "All the hype has already made Crimson Desert one of the biggest launches on Steam this year",
-        "link": "https://www.vg247.com/crimson-desert-steam-launch-numbers",
-        "date": 1773996570000,
-        "domain": "vg247.com",
-        "sourceName": "VG247",
-        "isTranslated": false
-      },
-      {
-        "title": "The highly anticipated open world action game ``Crimson Desert'' gets off to a rocket start with ``over 230,000 viewers,'' but the launch is met with mixed reviews. Super free exploration where you can ride dragons and robots",
-        "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260320-430887",
-        "date": 1773998652000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "If there's one thing I've learned playing Crimson Desert for 75 hours, it's that you should absolutely treat this game as a slow burn",
-        "link": "https://www.pcgamer.com/games/action/if-theres-one-thing-ive-learned-playing-crimson-desert-for-75-hours-its-that-you-should-absolutely-treat-this-game-as-a-slow-burn",
-        "date": 1774000800000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "\"I genuinely thought my controller wasn't working\" - Crimson Desert players are getting so annoyed with its clunky controls they're asking for launch day refunds",
-        "link": "https://www.eurogamer.net/crimson-desert-players-annoyed-clunky-controls-asking-for-launch-day-refunds",
-        "date": 1774000849000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert patch stops bosses attacking you mid-revival, also takes aim at crashes and UI problems",
-        "link": "https://www.rockpapershotgun.com/crimson-desert-patch-stops-bosses-attacking-you-mid-revival-also-takes-aim-at-crashes-and-ui-problems",
-        "date": 1774001556000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert launches to 239,000 players on Steam but 'Mixed' reviews, and it's mostly because of how dense and cryptic the whole thing is",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-launches-to-239-000-players-on-steam-but-mixed-reviews-and-its-mostly-because-of-how-dense-and-cryptic-the-whole-thing-is",
-        "date": 1774008436000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert will not boot on Intel Arc graphics cards and users are being encouraged to refund the game",
-        "link": "https://www.pcgamer.com/hardware/graphics-cards/crimson-desert-will-not-boot-on-intel-arc-graphics-cards-and-users-are-being-encouraged-to-refund-the-game",
-        "date": 1774008948000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert's bafflingly convoluted controls are already frustrating players: 'That’s basic f*cking video game functionality'",
-        "link": "https://www.pcgamer.com/games/action/crimson-deserts-bafflingly-convoluted-controls-are-already-frustrating-players-thats-basic-f-cking-video-game-functionality",
-        "date": 1774010512000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "After weeks of hype, Crimson Desert debuts to high player counts but \"Mixed\" Steam reviews, citing \"disjointed graphics\", lovable cats, \"awful\" UI and more",
-        "link": "https://www.eurogamer.net/crimson-desert-hype-mixed-steam-reviews-high-player-counts-disjointed-graphics",
-        "date": 1774011134000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Blocked Intel graphics cards, failed Xbox App booting, and 120GB patches hit Crimson Desert as launch woes continue",
-        "link": "https://www.eurogamer.net/crimson-desert-blocked-graphics-card-120gb-patch-xbox-app-problem",
-        "date": 1774016971000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert sales top two million",
-        "link": "https://www.gematsu.com/2026/03/crimson-desert-sales-top-two-million",
-        "date": 1774016998000,
-        "domain": "gematsu.com",
-        "sourceName": "Gematsu",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert full guide and walkthrough",
-        "link": "https://www.videogameschronicle.com/guide/crimson-desert-full-guide-and-walkthrough",
-        "date": 1774018901000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert developers \"doing our utmost\" to respond to its various launch issues, as game still passes huge one-day sales milestone",
-        "link": "https://www.eurogamer.net/crimson-desert-sales-milestone-launch-day-issues-fix",
-        "date": 1774021583000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Pearl Abyss announces Crimson Desert has sold more than 2 million copies in less than 24 hours, promises to 'work to make improvements quickly'",
-        "link": "https://www.pcgamer.com/games/action/pearl-abyss-announces-crimson-desert-has-sold-more-than-2-million-copies-in-less-than-24-hours-promises-to-work-to-make-improvements-quickly",
-        "date": 1774022596000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Within a day of its release, ``Crimson Desert'' sold over 2 million copies worldwide. Open world action ADV finally released",
-        "link": "http://www.gamespark.jp/article/2026/03/21/164164.html",
-        "date": 1774023406000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "Crimson Desert: Arm Wrestling explained, how to win",
-        "link": "https://www.videogameschronicle.com/guide/crimson-desert-arm-wrestling-explained-win",
-        "date": 1774026037000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert is \"like riding a bike\", says Pearl Abyss PR boss, possibly in the sense that bikes also don't run on Intel Arc GPUs",
-        "link": "https://www.rockpapershotgun.com/crimson-desert-is-like-like-riding-a-bike-says-pearl-abyss-pr-boss-possibly-in-the-sense-that-bikes-also-dont-run-on-intel-arc-gpus",
-        "date": 1774027160000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
-        "isTranslated": false
-      },
-      {
-        "title": "Here are 9 incredibly specific and petty beefs I have with Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/here-are-9-incredibly-specific-and-petty-beefs-i-have-with-crimson-desert",
-        "date": 1774027163000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Too big, too wide, or just perfect? Tell us what you think of Crimson Desert by leaving a community rating",
-        "link": "https://www.destructoid.com/too-big-too-wide-or-just-perfect-tell-us-what-you-think-of-crimson-desert-by-leaving-a-community-rating",
-        "date": 1774027493000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert celebrates major milestone and wants your help to make it better: ‘We will listen closely to the wide range of feedback shared by the community’",
-        "link": "https://www.destructoid.com/crimson-desert-milestone-and-feedback",
-        "date": 1774029897000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert appears to use generative AI art—and if so, the devs never disclosed it",
-        "link": "https://www.destructoid.com/crimson-desert-appears-to-use-generative-ai-art-and-if-so-the-devs-never-disclosed-it",
-        "date": 1774030672000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Is there romance in Crimson Desert? Everything you need to know",
-        "link": "https://www.destructoid.com/is-there-romance-in-crimson-desert-everything-you-need-to-know",
-        "date": 1774037528000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert dev says it 'takes time' to get used to the game's notoriously clunky controls, but advises players to 'think of it like riding a bike, it comes naturally after you learn it'",
-        "link": "https://www.pcgamer.com/games/rpg/crimson-desert-dev-says-it-takes-time-to-get-used-to-the-games-notoriously-clunky-controls-but-advises-players-to-think-of-it-like-riding-a-bike-it-comes-naturally-after-you-learn-it",
-        "date": 1774045743000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "The new large-scale open world ``Crimson Desert'' is overwhelmingly popular, achieving ``sales of 2 million copies'' on the day of release. Officials express gratitude and promise improvements",
-        "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260321-431001",
-        "date": 1774052491000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "Intel makes official statement regarding ``Crimson Desert'' policy of ``non-compatibility with Intel GPUs.'' \"We've been calling for years to be able to respond.\"",
-        "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260321-431023",
-        "date": 1774062227000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "Pearly Abyss devs anonymously share a culture of toxic positivity, Crimson Desert's messy story and game development, and how they knew the game \"was going off the rails\"",
-        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rzl7vn/pearly_abyss_devs_anonymously_share_a_culture_of",
-        "date": 1774077727000,
-        "domain": "reddit.com",
-        "sourceName": "Reddit Leaks",
-        "isTranslated": false
-      },
-      {
-        "title": "``It's like riding a bicycle'' Responding to dissatisfaction with the new open world ``Crimson Desert'' controls, a publicist says, ``Once you learn it, it will become natural.''",
-        "link": "http://www.gamespark.jp/article/2026/03/21/164178.html",
-        "date": 1774082704000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "“Counter-Strike 2” is overwhelmingly strong, new game “Crimson Desert” regains the top spot over the weekend, looking back at Steam (3/14-3/20) sales rankings",
-        "link": "https://gamebiz.jp/news/422995",
-        "date": 1774084260000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      },
-      {
-        "title": "``Crimson Desert'' report that ``first puzzle was difficult and dropped out'' sparks debate - Some said it was ``very easy'' and ``I don't understand why it gets stuck''",
-        "link": "http://www.gamespark.jp/article/2026/03/21/164185.html",
-        "date": 1774098004000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "Two more senior Xbox leaders exit Microsoft",
@@ -4217,15 +3993,6 @@
     "date": 1774105217000,
     "domain": "polygon.com",
     "sourceName": "Polygon",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Death Stranding 2: On The Beach PC Review - Yet Another Smooth As Butter PlayStation Port",
-    "link": "https://www.thegamer.com/death-stranding-2-pc-review",
-    "date": 1774105220000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4592,14 +4359,6 @@
     "hotScore": 6,
     "groupMembers": [
       {
-        "title": "The 2026 spring big sale “Steam Spring Sale” has started – 90% off on “Bio RE:3”, “CoD:MW”, “Fallout: New Vegas” and more!",
-        "link": "http://www.gamespark.jp/article/2026/03/20/164143.html",
-        "date": 1773942376000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
         "title": "“Steam Spring Sale 2026” has begun, and the first sale of “Nioh 3” has already begun. Introducing plenty of popular sale works, from mutant cat making roguelite to hero dispatch ADV",
         "link": "https://automaton-media.com/articles/newsjp/steam-spring-sale-20260320-430739",
         "date": 1773957001000,
@@ -4711,62 +4470,14 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 1,
     "groupMembers": [
-      {
-        "title": "How to parry in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-parry-in-crimson-desert",
-        "date": 1774038773000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to steal in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-steal-in-crimson-desert",
-        "date": 1774035416000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to combine the Abyss Cell in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-combine-the-abyss-cell-in-crimson-desert",
-        "date": 1774004058000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
       {
         "title": "How to get Level 18 Health in Crimson Desert",
         "link": "https://gamerant.com/crimson-desert-max-health-stat-how-to-get",
         "date": 1774110858000,
         "domain": "gamerant.com",
         "sourceName": "Game Rant",
-        "isTranslated": false
-      },
-      {
-        "title": "How to win at arm wrestling in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-arm-wrestling",
-        "date": 1774004695000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "The best early skills in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to respec in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -4786,6 +4497,15 @@
     "date": 1774114500000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Cookie Run: New World revealed as franchise “finale project” with open-world RPG",
+    "link": "https://www.dexerto.com/gaming/cookie-run-new-world-revealed-as-franchise-finale-project-with-open-world-rpg-3338852",
+    "date": 1774114589000,
+    "domain": "dexerto.com",
+    "sourceName": "Dexerto",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4830,6 +4550,298 @@
     "date": 1774114976000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert's in-game artwork shows telltale signs of AI courtesy of missing fingers and human bodies melting into horses",
+    "link": "https://www.eurogamer.net/crimson-deserts-in-game-art-work-shows-telltale-signs-of-ai-courtesy-of-missing-fingers-and-human-bodies-melting-into-horses",
+    "date": 1774115303000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 13,
+    "groupMembers": [
+      {
+        "title": "The best early skills in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert can perform well on PC, but you’ll need to win its crash lottery first",
+        "link": "https://www.rockpapershotgun.com/crimson-desert-pc-performance-best-settings",
+        "date": 1773957600000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "Open world action game \"Crimson Desert\" released. On Steam, the joint contract \"240,000 people\" has started successfully.",
+        "link": "https://news.denfaminicogamer.jp/news/260320e",
+        "date": 1773968800000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Crimson Desert deluxe and pre-order special items are inaccessible for some, but Pearl Abyss is working on a fix",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-deluxe-and-pre-order-special-items-are-inaccessible-for-some-but-pearl-abyss-is-working-on-a-fix",
+        "date": 1773975551000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "All the hype has already made Crimson Desert one of the biggest launches on Steam this year",
+        "link": "https://www.vg247.com/crimson-desert-steam-launch-numbers",
+        "date": 1773996570000,
+        "domain": "vg247.com",
+        "sourceName": "VG247",
+        "isTranslated": false
+      },
+      {
+        "title": "The highly anticipated open world action game ``Crimson Desert'' gets off to a rocket start with ``over 230,000 viewers,'' but the launch is met with mixed reviews. Super free exploration where you can ride dragons and robots",
+        "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260320-430887",
+        "date": 1773998652000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "If there's one thing I've learned playing Crimson Desert for 75 hours, it's that you should absolutely treat this game as a slow burn",
+        "link": "https://www.pcgamer.com/games/action/if-theres-one-thing-ive-learned-playing-crimson-desert-for-75-hours-its-that-you-should-absolutely-treat-this-game-as-a-slow-burn",
+        "date": 1774000800000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "\"I genuinely thought my controller wasn't working\" - Crimson Desert players are getting so annoyed with its clunky controls they're asking for launch day refunds",
+        "link": "https://www.eurogamer.net/crimson-desert-players-annoyed-clunky-controls-asking-for-launch-day-refunds",
+        "date": 1774000849000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert patch stops bosses attacking you mid-revival, also takes aim at crashes and UI problems",
+        "link": "https://www.rockpapershotgun.com/crimson-desert-patch-stops-bosses-attacking-you-mid-revival-also-takes-aim-at-crashes-and-ui-problems",
+        "date": 1774001556000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert launches to 239,000 players on Steam but 'Mixed' reviews, and it's mostly because of how dense and cryptic the whole thing is",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-launches-to-239-000-players-on-steam-but-mixed-reviews-and-its-mostly-because-of-how-dense-and-cryptic-the-whole-thing-is",
+        "date": 1774008436000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert will not boot on Intel Arc graphics cards and users are being encouraged to refund the game",
+        "link": "https://www.pcgamer.com/hardware/graphics-cards/crimson-desert-will-not-boot-on-intel-arc-graphics-cards-and-users-are-being-encouraged-to-refund-the-game",
+        "date": 1774008948000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert's bafflingly convoluted controls are already frustrating players: 'That’s basic f*cking video game functionality'",
+        "link": "https://www.pcgamer.com/games/action/crimson-deserts-bafflingly-convoluted-controls-are-already-frustrating-players-thats-basic-f-cking-video-game-functionality",
+        "date": 1774010512000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "After weeks of hype, Crimson Desert debuts to high player counts but \"Mixed\" Steam reviews, citing \"disjointed graphics\", lovable cats, \"awful\" UI and more",
+        "link": "https://www.eurogamer.net/crimson-desert-hype-mixed-steam-reviews-high-player-counts-disjointed-graphics",
+        "date": 1774011134000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Blocked Intel graphics cards, failed Xbox App booting, and 120GB patches hit Crimson Desert as launch woes continue",
+        "link": "https://www.eurogamer.net/crimson-desert-blocked-graphics-card-120gb-patch-xbox-app-problem",
+        "date": 1774016971000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert sales top two million",
+        "link": "https://www.gematsu.com/2026/03/crimson-desert-sales-top-two-million",
+        "date": 1774016998000,
+        "domain": "gematsu.com",
+        "sourceName": "Gematsu",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert full guide and walkthrough",
+        "link": "https://www.videogameschronicle.com/guide/crimson-desert-full-guide-and-walkthrough",
+        "date": 1774018901000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert developers \"doing our utmost\" to respond to its various launch issues, as game still passes huge one-day sales milestone",
+        "link": "https://www.eurogamer.net/crimson-desert-sales-milestone-launch-day-issues-fix",
+        "date": 1774021583000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Pearl Abyss announces Crimson Desert has sold more than 2 million copies in less than 24 hours, promises to 'work to make improvements quickly'",
+        "link": "https://www.pcgamer.com/games/action/pearl-abyss-announces-crimson-desert-has-sold-more-than-2-million-copies-in-less-than-24-hours-promises-to-work-to-make-improvements-quickly",
+        "date": 1774022596000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Within a day of its release, ``Crimson Desert'' sold over 2 million copies worldwide. Open world action ADV finally released",
+        "link": "http://www.gamespark.jp/article/2026/03/21/164164.html",
+        "date": 1774023406000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Crimson Desert: Arm Wrestling explained, how to win",
+        "link": "https://www.videogameschronicle.com/guide/crimson-desert-arm-wrestling-explained-win",
+        "date": 1774026037000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert is \"like riding a bike\", says Pearl Abyss PR boss, possibly in the sense that bikes also don't run on Intel Arc GPUs",
+        "link": "https://www.rockpapershotgun.com/crimson-desert-is-like-like-riding-a-bike-says-pearl-abyss-pr-boss-possibly-in-the-sense-that-bikes-also-dont-run-on-intel-arc-gpus",
+        "date": 1774027160000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "Here are 9 incredibly specific and petty beefs I have with Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/here-are-9-incredibly-specific-and-petty-beefs-i-have-with-crimson-desert",
+        "date": 1774027163000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Too big, too wide, or just perfect? Tell us what you think of Crimson Desert by leaving a community rating",
+        "link": "https://www.destructoid.com/too-big-too-wide-or-just-perfect-tell-us-what-you-think-of-crimson-desert-by-leaving-a-community-rating",
+        "date": 1774027493000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert celebrates major milestone and wants your help to make it better: ‘We will listen closely to the wide range of feedback shared by the community’",
+        "link": "https://www.destructoid.com/crimson-desert-milestone-and-feedback",
+        "date": 1774029897000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert appears to use generative AI art—and if so, the devs never disclosed it",
+        "link": "https://www.destructoid.com/crimson-desert-appears-to-use-generative-ai-art-and-if-so-the-devs-never-disclosed-it",
+        "date": 1774030672000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "Is there romance in Crimson Desert? Everything you need to know",
+        "link": "https://www.destructoid.com/is-there-romance-in-crimson-desert-everything-you-need-to-know",
+        "date": 1774037528000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert dev says it 'takes time' to get used to the game's notoriously clunky controls, but advises players to 'think of it like riding a bike, it comes naturally after you learn it'",
+        "link": "https://www.pcgamer.com/games/rpg/crimson-desert-dev-says-it-takes-time-to-get-used-to-the-games-notoriously-clunky-controls-but-advises-players-to-think-of-it-like-riding-a-bike-it-comes-naturally-after-you-learn-it",
+        "date": 1774045743000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "The new large-scale open world ``Crimson Desert'' is overwhelmingly popular, achieving ``sales of 2 million copies'' on the day of release. Officials express gratitude and promise improvements",
+        "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260321-431001",
+        "date": 1774052491000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Intel makes official statement regarding ``Crimson Desert'' policy of ``non-compatibility with Intel GPUs.'' \"We've been calling for years to be able to respond.\"",
+        "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260321-431023",
+        "date": 1774062227000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Pearly Abyss devs anonymously share a culture of toxic positivity, Crimson Desert's messy story and game development, and how they knew the game \"was going off the rails\"",
+        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rzl7vn/pearly_abyss_devs_anonymously_share_a_culture_of",
+        "date": 1774077727000,
+        "domain": "reddit.com",
+        "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "``It's like riding a bicycle'' Responding to dissatisfaction with the new open world ``Crimson Desert'' controls, a publicist says, ``Once you learn it, it will become natural.''",
+        "link": "http://www.gamespark.jp/article/2026/03/21/164178.html",
+        "date": 1774082704000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "“Counter-Strike 2” is overwhelmingly strong, new game “Crimson Desert” regains the top spot over the weekend, looking back at Steam (3/14-3/20) sales rankings",
+        "link": "https://gamebiz.jp/news/422995",
+        "date": 1774084260000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
+      },
+      {
+        "title": "``Crimson Desert'' report that ``first puzzle was difficult and dropped out'' sparks debate - Some said it was ``very easy'' and ``I don't understand why it gets stuck''",
+        "link": "http://www.gamespark.jp/article/2026/03/21/164185.html",
+        "date": 1774098004000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Crimson Desert's lousy controls made me commit these 13 accidental atrocities",
+        "link": "https://www.polygon.com/crimson-desert-controls-accidental-atrocities",
+        "date": 1774101617000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "All Popcorn Serving Cart Recipes And How To Cook Them In Heartopia",
+    "link": "https://www.thegamer.com/heartopia-popcorn-serving-cart-cooking-guide",
+    "date": 1774115369000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   }
