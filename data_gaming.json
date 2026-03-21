@@ -1046,20 +1046,20 @@
     "hotScore": 1
   },
   {
-    "title": "Hades 2 and Date Everything lead Gayming Awards 2026 nominations",
-    "link": "https://www.gamesindustry.biz/hades-2-and-date-everything-lead-gayming-awards-2026-nominations",
-    "date": 1773936000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Jim Carrey Confirmed to Return for Sonic the Hedgehog 4 in New Teaser Trailer",
     "link": "https://www.pushsquare.com/news/2026/03/jim-carrey-confirmed-to-return-for-sonic-the-hedgehog-4-in-new-teaser-trailer",
     "date": 1773936000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hades 2 and Date Everything lead Gayming Awards 2026 nominations",
+    "link": "https://www.gamesindustry.biz/hades-2-and-date-everything-lead-gayming-awards-2026-nominations",
+    "date": 1773936000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1460,17 +1460,43 @@
     "hotScore": 1
   },
   {
-    "title": "Crimson Desert Sealed Abyss Artifact locations and how they work",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-sealed-abyss-artifact-locations-challenges",
+    "title": "How to mine iron ore for Rhett's Request in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-rhetts-request-mine-iron-ore",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to chop down trees for Turnali's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-turnalis-request-fine-timber",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to cook fish porridge for Renee's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-renees-request-cook-fish-porridge",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to fish for Annabella's Request in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-how-to-fish-annabellas-request-tench",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
-    "title": "How to activate the Spire of the Stars in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-spire-of-the-stars-puzzle",
+    "title": "How to open Hernand Castle Strongbox",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-castle-strongbox-solution",
     "date": 1773957600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1496,6 +1522,58 @@
     "hotScore": 1
   },
   {
+    "title": "Where to Find a Jetpack in Crimson Desert",
+    "link": "https://www.dualshockers.com/crimson-desert-how-to-get-a-jetpack",
+    "date": 1773957613000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Where to find keys in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-key-locations",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to use Blinding Flash in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-blinding-flash-how-to-use",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to steal in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-steal-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get pets in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-pets-how-to-get",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
+    "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
+    "date": 1773957613000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Crimson Desert: Toward the Nest — how to activate the skybridge",
     "link": "https://www.videogameschronicle.com/guide/crimson-desert-toward-nest-crowcaller-guide",
     "date": 1773957649000,
@@ -1511,17 +1589,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to complete Trial After Trial in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-trial-after-trial-memory-fragment",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Ubisoft has ended game development at its affiliated studio \"Red Storm Entertainment\" and has cut 105 jobs, reports overseas. The studio that created classic series such as “Rainbow Six” and “Ghost Recon”",
@@ -1990,15 +2058,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Signal Decay Games releases free trial version of debut sci-fi survival horror game “FEAR OF SLEEP”",
-    "link": "https://gamebiz.jp/news/422976",
-    "date": 1773979080000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
   },
   {
     "title": "Gloomy world x exhilarating action! ? First-person ACT “VHOLUME” demo version play report that runs through “Liminal City” with high-speed parkour",
@@ -2990,25 +3049,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kiln-repair-kilnden-workshop-fuel",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Abyss Without Balance in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Marvel Rivals Ally Agents achievement – How to partner with Agents of Atlas members for 10 KOs",
@@ -4115,17 +4156,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to get Abyss Artifacts in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Marathon’s Cryo Archive race is on, and players are quickly figuring out its nigh-impossible difficulty levels",
@@ -4849,13 +4880,22 @@
     "hotScore": 1
   },
   {
+    "title": "Crimson Desert Lets You Get a Dog With Armor",
+    "link": "https://gamerant.com/crimson-desert-dog-armor",
+    "date": 1774065620000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "How To Find Legendary Animals In Crimson Desert",
     "link": "https://gamerant.com/crimson-desert-how-find-hunt-locate-legendary-animal-creature",
     "date": 1774065620000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "How to win at arm wrestling in Crimson Desert",
@@ -4863,62 +4903,6 @@
         "date": 1774004695000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to beat Hornsplitter in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-kailok-hornsplitter-boss-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get to Florindale in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-florindale-pororin-patrol-shai",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to respec in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to beat Reed Devil in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-reed-devil-boss-guide",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to enter Hernand Castle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-enter-hernand-castle",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to Fix the Kilnden Workshop Kilns in Crimson Desert",
-        "link": "https://www.dualshockers.com/crimson-desert-how-repair-kiln-at-kilnden-workshop",
-        "date": 1773957613000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
-        "title": "Where to Find a Jetpack in Crimson Desert",
-        "link": "https://www.dualshockers.com/crimson-desert-how-to-get-a-jetpack",
-        "date": 1773957613000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
         "isTranslated": false
       },
       {
@@ -4946,15 +4930,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Crimson Desert Lets You Get a Dog With Armor",
-    "link": "https://gamerant.com/crimson-desert-dog-armor",
-    "date": 1774065620000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "QCY's high-cost performance wireless earphones \"MeloBuds Pro\" are on sale at 24% off on Amazon",
@@ -5387,13 +5362,146 @@
     "hotScore": 1
   },
   {
-    "title": "``It's like riding a bicycle'' Responding to dissatisfaction with the new open world ``Crimson Desert'' controls, a publicist says, ``Once you learn it, it will become natural.''",
-    "link": "http://www.gamespark.jp/article/2026/03/21/164178.html",
-    "date": 1774082704000,
+    "title": "A sale where you can purchase \"Persona 5 The Royal\" for 70% off for \"2,303 yen\" is being held on PS, Nintendo Switch, and Steam",
+    "link": "https://news.denfaminicogamer.jp/news/260321g",
+    "date": 1774083169000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "Four men referred to prosecution for selling modified Nintendo Switch consoles in Japan",
+        "link": "https://automaton-media.com/en/news/four-men-referred-to-prosecution-for-selling-modified-nintendo-switch-consoles-in-japan",
+        "date": 1773912256000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media",
+        "isTranslated": false
+      },
+      {
+        "title": "Approximately 300 titles added to the sale for Nintendo Switch 2/Switch. ``Dragon Quest I & II'' Switch 2 version, ``Ender Magnolia'', ``GGST'' and many more at cheap prices",
+        "link": "https://automaton-media.com/articles/newsjp/nintendo-switch-20260320-430834",
+        "date": 1773989035000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "A new Nintendo Switch 2 could be the poster child for replaceable batteries",
+        "link": "https://www.theverge.com/games/898313/nintendo-switch-2-eu-replaceable-battery",
+        "date": 1774036745000,
+        "domain": "theverge.com",
+        "sourceName": "The Verge",
+        "isTranslated": false
+      },
+      {
+        "title": "Nintendo Switch 2 may get easily replaceable battery with new EU model",
+        "link": "https://www.polygon.com/nintendo-switch-2-europe-replaceable-battery-joy-cons",
+        "date": 1774038150000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "Next week, \"Dissidia Duelm Final Fantasy\", \"Etranger Overlord\", and \"Okayu Nyumu! R\" will be released!",
+    "link": "https://www.gamer.ne.jp/news/202603210001",
+    "date": 1774083600000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Weekly Steam Plaza No. 145: Sandbox survival “Everwind” and PC version “DEATH STRANDING” on sale",
+    "link": "https://www.4gamer.net/games/038/G003821/20260321003",
+    "date": 1774083600000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Marathon\" review. A “different” game that does not fit into the framework of “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
+    "link": "https://automaton-media.com/articles/impressionjp/marathon-20260321-431075",
+    "date": 1774083601000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Action horror \"Inky Blinky Bob\" where you fight a giant flying octopus in an armed hot air balloon is now available!",
+    "link": "http://www.gamespark.jp/article/2026/03/21/164179.html",
+    "date": 1774083604000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 12,
+    "hotScore": 1
+  },
+  {
+    "title": "Vocabulary is an amazing power [Honoka Kuroki's secret knowledge] ]",
+    "link": "https://news.denfaminicogamer.jp/kikakuthetower/260321d",
+    "date": 1774083650000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "First LEGO Pokemon Minifigure Leaks Online, and It's Adorable",
+    "link": "https://gamerant.com/lego-pokemon-eevee-minifigure-leak",
+    "date": 1774083675000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The 100 Best Nintendo Games of All Time",
+    "link": "https://jp.ign.com/gallery/82990/the-100-best-nintendo-games-of-all-time",
+    "date": 1774083783000,
+    "domain": "jp.ign.com",
+    "sourceName": "IGN Japan",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Dark fantasy city builder \"Against the Storm\" PS5 package version will be released on July 16th! The first bonus is a DLC card for “Keepers of the Stone”",
+    "link": "https://www.gamer.ne.jp/news/202603210017",
+    "date": 1774083840000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Resident Evil Requiem is the best-selling game of the year in the US so far",
+    "link": "https://jp.ign.com/resident-evil-9/82989/news",
+    "date": 1774083903000,
+    "domain": "jp.ign.com",
+    "sourceName": "IGN Japan",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The first key visual of Aoko Aozaki's magic circle in the movie \"The Night of the Witch\" has been released! Scheduled for release in 2026",
+    "link": "https://news.denfaminicogamer.jp/news/260321h",
+    "date": 1774083969000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Counter-Strike 2” is overwhelmingly strong, new game “Crimson Desert” regains the top spot over the weekend, looking back at Steam (3/14-3/20) sales rankings",
+    "link": "https://gamebiz.jp/news/422995",
+    "date": 1774084260000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 13,
     "groupMembers": [
       {
         "title": "Pearl Abyss shares tumble after Crimson Desert fails to meet expectations",
@@ -5420,24 +5528,40 @@
         "isTranslated": false
       },
       {
-        "title": "Crimson Desert bounties and how to catch each",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bounties",
+        "title": "I've spent over 100 hours in Crimson Desert—here are my top 20 quick tips to triumph in Pywel",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-tips-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "How to 'observe this skill in action to learn it' in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-observe-this-skill-in-action-to-learn-it",
+        "title": "Crimson Desert can be overwhelming—do this one thing in each new city to make your life much easier",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-can-be-overwhelming-do-this-one-thing-in-each-new-city-to-make-your-life-much-easier",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "The best early skills in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
+        "title": "Crimson Desert has the most diabolical lock and key system I've ever seen",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-locked-doors",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Can you store items in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-store-items",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How does Contribution work in Crimson Desert?",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-contribution-shop-location",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -5682,122 +5806,15 @@
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
         "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "A sale where you can purchase \"Persona 5 The Royal\" for 70% off for \"2,303 yen\" is being held on PS, Nintendo Switch, and Steam",
-    "link": "https://news.denfaminicogamer.jp/news/260321g",
-    "date": 1774083169000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "Four men referred to prosecution for selling modified Nintendo Switch consoles in Japan",
-        "link": "https://automaton-media.com/en/news/four-men-referred-to-prosecution-for-selling-modified-nintendo-switch-consoles-in-japan",
-        "date": 1773912256000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media",
-        "isTranslated": false
       },
       {
-        "title": "Approximately 300 titles added to the sale for Nintendo Switch 2/Switch. ``Dragon Quest I & II'' Switch 2 version, ``Ender Magnolia'', ``GGST'' and many more at cheap prices",
-        "link": "https://automaton-media.com/articles/newsjp/nintendo-switch-20260320-430834",
-        "date": 1773989035000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
+        "title": "``It's like riding a bicycle'' Responding to dissatisfaction with the new open world ``Crimson Desert'' controls, a publicist says, ``Once you learn it, it will become natural.''",
+        "link": "http://www.gamespark.jp/article/2026/03/21/164178.html",
+        "date": 1774082704000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
         "isTranslated": true
-      },
-      {
-        "title": "A new Nintendo Switch 2 could be the poster child for replaceable batteries",
-        "link": "https://www.theverge.com/games/898313/nintendo-switch-2-eu-replaceable-battery",
-        "date": 1774036745000,
-        "domain": "theverge.com",
-        "sourceName": "The Verge",
-        "isTranslated": false
-      },
-      {
-        "title": "Nintendo Switch 2 may get easily replaceable battery with new EU model",
-        "link": "https://www.polygon.com/nintendo-switch-2-europe-replaceable-battery-joy-cons",
-        "date": 1774038150000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Next week, \"Dissidia Duelm Final Fantasy\", \"Etranger Overlord\", and \"Okayu Nyumu! R\" will be released!",
-    "link": "https://www.gamer.ne.jp/news/202603210001",
-    "date": 1774083600000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Weekly Steam Plaza No. 145: Sandbox survival “Everwind” and PC version “DEATH STRANDING” on sale",
-    "link": "https://www.4gamer.net/games/038/G003821/20260321003",
-    "date": 1774083600000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "\"Marathon\" review. A “different” game that does not fit into the framework of “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
-    "link": "https://automaton-media.com/articles/impressionjp/marathon-20260321-431075",
-    "date": 1774083601000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Action horror \"Inky Blinky Bob\" where you fight a giant flying octopus in an armed hot air balloon is now available!",
-    "link": "http://www.gamespark.jp/article/2026/03/21/164179.html",
-    "date": 1774083604000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Vocabulary is an amazing power [Honoka Kuroki's secret knowledge] ]",
-    "link": "https://news.denfaminicogamer.jp/kikakuthetower/260321d",
-    "date": 1774083650000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "First LEGO Pokemon Minifigure Leaks Online, and It's Adorable",
-    "link": "https://gamerant.com/lego-pokemon-eevee-minifigure-leak",
-    "date": 1774083675000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Dark fantasy city builder \"Against the Storm\" PS5 package version will be released on July 16th! The first bonus is a DLC card for “Keepers of the Stone”",
-    "link": "https://www.gamer.ne.jp/news/202603210017",
-    "date": 1774083840000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The first key visual of Aoko Aozaki's magic circle in the movie \"The Night of the Witch\" has been released! Scheduled for release in 2026",
-    "link": "https://news.denfaminicogamer.jp/news/260321h",
-    "date": 1774083969000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
   }
 ]
