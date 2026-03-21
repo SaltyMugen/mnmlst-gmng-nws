@@ -1,14 +1,5 @@
 [
   {
-    "title": "Shenmue III Enhanced Is Coming To Switch 2, Physical Editions Confirmed",
-    "link": "https://www.nintendolife.com/news/2026/03/shenmue-iii-enhanced-is-coming-to-switch-2-physical-editions-confirmed",
-    "date": 1773938400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Hoarder is just a beautiful Polish cleaning sim from a former Darkwood dev, until you find the staircase to the very different game beneath",
     "link": "https://www.rockpapershotgun.com/hoarder-is-just-a-beautiful-polish-cleaning-sim-from-a-former-darkwood-dev-until-you-find-the-staircase-to-the-very-different-game-beneath",
     "date": 1773939600000,
@@ -32,15 +23,6 @@
     "date": 1773939600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Tomb Raider 1-3 Remaster Team Says New Outfits Aren't AI, Promises Fixes for Disastrous Update",
-    "link": "https://www.pushsquare.com/news/2026/03/tomb-raider-1-3-remaster-team-says-new-outfits-arent-ai-promises-fixes-for-disastrous-update",
-    "date": 1773939600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -252,24 +234,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to use Copper Pouches in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-copper-pouches",
-    "date": 1773957600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How to open Hernand Castle Strongbox",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-castle-strongbox-solution",
-    "date": 1773957600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "6 Things Starting Adventurers Need to Relearn to Explore the Crimson Desert",
     "link": "https://news.xbox.com/en-us/2026/03/19/crimson-desert-tips",
     "date": 1773957600000,
@@ -303,7 +267,17 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to complete Trial After Trial in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-trial-after-trial-memory-fragment",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Ubisoft has ended game development at its affiliated studio \"Red Storm Entertainment\" and has cut 105 jobs, reports overseas. The studio that created classic series such as “Rainbow Six” and “Ghost Recon”",
@@ -1405,20 +1379,20 @@
     "hotScore": 1
   },
   {
-    "title": "'Energized' Xbox Engineer Talks New Dashboard Update & Its 'Unusually' Fast Turnaround",
-    "link": "https://www.purexbox.com/news/2026/03/energized-xbox-engineer-talks-new-dashboard-update-and-its-unusually-fast-turnaround",
-    "date": 1774008000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FBC: Firebreak Permanently Slashes Price as Its Final Major Update Goes Live on PS5",
     "link": "https://www.pushsquare.com/news/2026/03/fbc-firebreak-permanently-slashes-price-as-its-final-major-update-goes-live-on-ps5",
     "date": 1774008000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'Energized' Xbox Engineer Talks New Dashboard Update & Its 'Unusually' Fast Turnaround",
+    "link": "https://www.purexbox.com/news/2026/03/energized-xbox-engineer-talks-new-dashboard-update-and-its-unusually-fast-turnaround",
+    "date": 1774008000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1690,7 +1664,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to complete Abyss Without Balance in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-abyss-without-balance-skybridge-abyss-cell",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Marvel Rivals Ally Agents achievement – How to partner with Agents of Atlas members for 10 KOs",
@@ -2103,17 +2087,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to solve the Halssius Conflux statue puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-halssius-conflux-statue-puzzle-solution",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Former Xbox Boss Is Reportedly Making A Phone For Amazon, 12 Years After First Effort Failed",
@@ -2260,20 +2234,20 @@
     "hotScore": 1
   },
   {
-    "title": "Xbox Game Studios Sale Now Live On Steam Featuring Major 2025 Titles",
-    "link": "https://www.purexbox.com/news/2026/03/xbox-game-studios-sale-now-live-on-steam-featuring-major-2025-titles",
-    "date": 1774029600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: PS Plus Members Have Early Access to Select PS5, PS4 Games in PS Store's Spring Sale",
     "link": "https://www.pushsquare.com/features/ps-plus-members-have-early-access-to-select-ps5-ps4-games-in-ps-stores-spring-sale",
     "date": 1774029600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Game Studios Sale Now Live On Steam Featuring Major 2025 Titles",
+    "link": "https://www.purexbox.com/news/2026/03/xbox-game-studios-sale-now-live-on-steam-featuring-major-2025-titles",
+    "date": 1774029600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2573,16 +2547,24 @@
         "isTranslated": false
       },
       {
-        "title": "How to get Bloodstone in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-bloodstone-locations",
+        "title": "How to respec in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-respec-faded-abyss-artifacts",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
-        "title": "Where to find keys in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-key-locations",
+        "title": "How to enter Hernand Castle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-enter-hernand-castle",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to beat Reed Devil in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-reed-devil-boss-guide",
         "date": 1773957600000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
@@ -2812,17 +2794,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to chop down trees for Turnali's Request in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-turnalis-request-fine-timber",
-        "date": 1773957600000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Nvidia Confirms DLSS 5 Is Re-Drawing Games, and That Sucks",
@@ -3761,6 +3733,15 @@
     "hotScore": 1
   },
   {
+    "title": "Resident Evil Requiem is the best-selling game of the year in the US so far",
+    "link": "https://jp.ign.com/resident-evil-9/82989/news",
+    "date": 1774083903000,
+    "domain": "jp.ign.com",
+    "sourceName": "IGN Japan",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Wizard\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
     "link": "https://news.denfaminicogamer.jp/news/260321h",
     "date": 1774083969000,
@@ -4157,6 +4138,14 @@
     "hotScore": 13,
     "groupMembers": [
       {
+        "title": "The best early skills in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-best-skills",
+        "date": 1773957600000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "Crimson Desert can perform well on PC, but you’ll need to win its crash lottery first",
         "link": "https://www.rockpapershotgun.com/crimson-desert-pc-performance-best-settings",
         "date": 1773957600000,
@@ -4433,20 +4422,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: Based On Previous Years, Here's When The Xbox Spring Sale 2026 Should Begin",
-    "link": "https://www.purexbox.com/guides/based-on-previous-years-heres-when-the-xbox-spring-sale-2026-should-begin",
-    "date": 1774103400000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Dev to Patch PS5 RPG's 'Uncomfortable' Controls",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-to-patch-ps5-rpgs-uncomfortable-controls",
     "date": 1774103400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: Based On Previous Years, Here's When The Xbox Spring Sale 2026 Should Begin",
+    "link": "https://www.purexbox.com/guides/based-on-previous-years-heres-when-the-xbox-spring-sale-2026-should-begin",
+    "date": 1774103400000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4505,8 +4494,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -4514,8 +4503,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -4559,23 +4548,13 @@
     "hotScore": 1
   },
   {
-    "title": "Resident Evil Requiem is the best-selling game of the year in the US so far",
+    "title": "\"Red Dead Redemption 2\" is currently on sale on Steam where you can purchase it for 75% off for \"2,154 yen\". A masterpiece open world game depicting the escape and conflict of gangsters pursuing their ideals.",
     "link": "https://news.denfaminicogamer.jp/news/260321l",
     "date": 1774106910000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Resident Evil Requiem is the best-selling game of the year in the US so far",
-        "link": "https://jp.ign.com/resident-evil-9/82989/news",
-        "date": 1774083903000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Resident Evil’s Big Nintendo Swing and a Miss",
@@ -4802,6 +4781,15 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: These 18+ New PS5, PS4 Games Are Coming Out Next Week (23rd-29th March)",
+    "link": "https://www.pushsquare.com/guides/these-18plus-new-ps5-ps4-games-are-coming-out-next-week-23rd-29th-march",
+    "date": 1774110600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Nintendo Gives Disappointing Response to Question About Animal Crossing: New Horizons' Future",
