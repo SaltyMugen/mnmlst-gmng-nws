@@ -420,20 +420,20 @@
     "hotScore": 1
   },
   {
-    "title": "What are we all playing this weekend?",
-    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
-    "date": 1774080000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
     "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
     "date": 1774080000000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What are we all playing this weekend?",
+    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
+    "date": 1774080000000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -780,15 +780,6 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
-    "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Talking Point: What Are You Playing This Weekend? (March 21-22)",
     "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
     "date": 1774094400000,
@@ -798,22 +789,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
         "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
         "date": 1774089000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "ZUOSOFT releases flight action game “Tori no Uta ~Be a Bird~” for smartphones worldwide",
@@ -996,8 +996,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1005,8 +1005,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2097,20 +2097,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
-    "date": 1774173600000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
     "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
     "date": 1774173600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
+    "date": 1774173600000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2188,15 +2188,6 @@
     "hotScore": 1
   },
   {
-    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
-    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
-    "date": 1774177200000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Screamer review",
     "link": "https://www.pcgamer.com/games/racing/screamer-review",
     "date": 1774177200000,
@@ -2216,11 +2207,11 @@
     ]
   },
   {
-    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
-    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
+    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
+    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
     "date": 1774177200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2230,6 +2221,15 @@
     "date": 1774177200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
+    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
+    "date": 1774177200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2628,8 +2628,8 @@
     ]
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
+    "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
+    "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2637,8 +2637,8 @@
     "hotScore": 1
   },
   {
-    "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
-    "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2655,20 +2655,20 @@
     "hotScore": 1
   },
   {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
-    "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
     "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
     "date": 1774191600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3078,38 +3078,11 @@
     "hotScore": 1
   },
   {
-    "title": "10 Most Memorable Dragon Ball Super Quotes of All-Time",
-    "link": "https://gamerant.com/most-memorable-dragon-ball-super-quotes-all-time",
-    "date": 1774211415000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "6 Best Horror Games with Crossplay (Updated March 2026)",
-    "link": "https://gamerant.com/best-horror-games-crossplay-coop-multiplayer",
-    "date": 1774211415000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Players Really Don't Like Its Boring Protagonist",
     "link": "https://www.thegamer.com/crimson-desert-kliff-protagonist-everyone-hates",
     "date": 1774211479000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Crimson Desert Developer Pearl Abyss Address AI Controversy",
-    "link": "https://gamerant.com/crimson-desert-ai-art-controversy-pearl-abyss-comment",
-    "date": 1774211769000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3322,14 +3295,6 @@
     "hotScore": 9,
     "groupMembers": [
       {
-        "title": "Crimson Desert dev says it 'takes time' to get used to the game's notoriously clunky controls, but advises players to 'think of it like riding a bike, it comes naturally after you learn it'",
-        "link": "https://www.pcgamer.com/games/rpg/crimson-desert-dev-says-it-takes-time-to-get-used-to-the-games-notoriously-clunky-controls-but-advises-players-to-think-of-it-like-riding-a-bike-it-comes-naturally-after-you-learn-it",
-        "date": 1774045743000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
         "title": "The new large-scale open world ``Crimson Desert'' is overwhelmingly popular, achieving ``sales of 2 million copies'' on the day of release. Officials express gratitude and promise improvements",
         "link": "https://automaton-media.com/articles/newsjp/crimson-desert-20260321-431001",
         "date": 1774052491000,
@@ -3474,5 +3439,41 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Minecraft Fan Shares Impressive Biome Concept Inspired By New Game Drop",
+    "link": "https://gamerant.com/minecraft-biome-fan-concept",
+    "date": 1774218614000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "7 Manga That Had Better Endings Than Naruto",
+    "link": "https://gamerant.com/manga-endings-better-than-naruto",
+    "date": 1774218614000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Which Open-World Game Should You Play Next?",
+    "link": "https://gamerant.com/which-open-world-game-play-next",
+    "date": 1774218614000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The first season of the anime “Dorohedoro” will be available for free for a limited time on YouTube from March 25th. In addition, the non-credit OP and ED videos of the second season, scheduled to be distributed from April 1st, have been released. Shocking and chaotic content typical of Dorohedoro",
+    "link": "https://news.denfaminicogamer.jp",
+    "date": 1774218639086,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
   }
 ]
