@@ -126,7 +126,7 @@
     "hotScore": 1
   },
   {
-    "title": "[What day is it today? ] KONAMI's founding date...This year marks the 57th anniversary of its founding (March 21, 1969)",
+    "title": "[What day is it today? ]KONAMI's founding date...This year marks the 57th anniversary of its founding (March 21, 1969)",
     "link": "https://gamebiz.jp/news/422892",
     "date": 1774055700000,
     "domain": "gamebiz.jp",
@@ -275,7 +275,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Notice] Talk show for gamers “Game*Spark’s Radio Goodwill X” will be broadcast from 11:00 pm on March 21st!",
+    "title": "[Notice] Talk show for gamers “Game*Spark’s Radio Goodwill X” will be broadcast from 23:00 on March 21st!",
     "link": "http://www.gamespark.jp/article/2026/03/21/164171.html",
     "date": 1774062004000,
     "domain": "gamespark.jp",
@@ -473,20 +473,20 @@
     "hotScore": 1
   },
   {
-    "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
-    "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
-    "date": 1774080000000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What are we all playing this weekend?",
     "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
     "date": 1774080000000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
+    "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
+    "date": 1774080000000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -653,7 +653,7 @@
     "hotScore": 1
   },
   {
-    "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Wizard\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
+    "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Witch\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
     "link": "https://news.denfaminicogamer.jp/news/260321h",
     "date": 1774083969000,
     "domain": "news.denfaminicogamer.jp",
@@ -824,13 +824,31 @@
     "hotScore": 1
   },
   {
-    "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
-    "link": "https://www.pcgamer.com/games/action/blight-survival-offers-a-fresh-slice-of-its-medieval-zombie-slaying-after-its-developer-took-a-break-to-rebuild-our-core-systems-from-the-ground-up",
+    "title": "Talking Point: What Are You Playing This Weekend? (March 21-22)",
+    "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
     "date": 1774094400000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
+        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
+        "date": 1774089000000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
@@ -842,31 +860,13 @@
     "hotScore": 1
   },
   {
-    "title": "Talking Point: What Are You Playing This Weekend? (March 21-22)",
-    "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
+    "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
+    "link": "https://www.pcgamer.com/games/action/blight-survival-offers-a-fresh-slice-of-its-medieval-zombie-slaying-after-its-developer-took-a-break-to-rebuild-our-core-systems-from-the-ground-up",
     "date": 1774094400000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
-        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
-        "date": 1774089000000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "ZUOSOFT releases flight action game “Tori no Uta ~Be a Bird~” for smartphones worldwide",
@@ -941,15 +941,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Last Caretaker's latest update embraces its inner Dr Evil by adding sharks with frickin' laser beams attached to their heads",
-    "link": "https://www.pcgamer.com/games/survival-crafting/the-last-caretakers-latest-update-embraces-its-inner-dr-evil-by-adding-sharks-with-frickin-laser-beams-attached-to-their-heads",
-    "date": 1774098000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Court of Darkness: Temptation’s Kiss Preserves Another Voltage Otome",
     "link": "https://www.siliconera.com/review-court-of-darkness-temptations-kiss-preserves-another-voltage-otome",
     "date": 1774098000000,
@@ -964,6 +955,15 @@
     "date": 1774098000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Last Caretaker's latest update embraces its inner Dr Evil by adding sharks with frickin' laser beams attached to their heads",
+    "link": "https://www.pcgamer.com/games/survival-crafting/the-last-caretakers-latest-update-embraces-its-inner-dr-evil-by-adding-sharks-with-frickin-laser-beams-attached-to-their-heads",
+    "date": 1774098000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1058,8 +1058,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1067,8 +1067,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1166,24 +1166,6 @@
     "hotScore": 1
   },
   {
-    "title": "World of Warcraft: Midnight's class balancing is steering the MMO headfirst into a mistake that's been haunting FF14 for years",
-    "link": "https://www.pcgamer.com/games/mmo/world-of-warcraft-midnights-class-balancing-is-steering-the-mmo-headfirst-into-a-mistake-thats-been-haunting-ff14-for-years",
-    "date": 1774108800000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "I installed the 154 GB 'biblically accurate Skyrim' mod and only crashed my PC like 8 times",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/i-installed-the-154-gb-biblically-accurate-skyrim-mod-and-only-crashed-my-pc-like-8-times",
-    "date": 1774108800000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Hands On: Nintendo's My Mario Toy Series Is Cute, But Offers Mixed Value For Your Little Ones",
     "link": "https://www.nintendolife.com/features/hands-on-nintendos-my-mario-toy-series-is-cute-but-offers-mixed-value-for-your-little-ones",
     "date": 1774108800000,
@@ -1198,6 +1180,24 @@
     "date": 1774108800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "World of Warcraft: Midnight's class balancing is steering the MMO headfirst into a mistake that's been haunting FF14 for years",
+    "link": "https://www.pcgamer.com/games/mmo/world-of-warcraft-midnights-class-balancing-is-steering-the-mmo-headfirst-into-a-mistake-thats-been-haunting-ff14-for-years",
+    "date": 1774108800000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "I installed the 154 GB 'biblically accurate Skyrim' mod and only crashed my PC like 8 times",
+    "link": "https://www.pcgamer.com/games/the-elder-scrolls/i-installed-the-154-gb-biblically-accurate-skyrim-mod-and-only-crashed-my-pc-like-8-times",
+    "date": 1774108800000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1247,20 +1247,20 @@
     "hotScore": 1
   },
   {
-    "title": "The great RPG debate: Defined playable characters or blank slates?",
-    "link": "https://www.pcgamer.com/games/rpg/the-great-rpg-debate-defined-playable-characters-or-blank-slates",
-    "date": 1774112400000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price",
     "link": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
     "date": 1774112400000,
     "domain": "theverge.com",
     "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The great RPG debate: Defined playable characters or blank slates?",
+    "link": "https://www.pcgamer.com/games/rpg/the-great-rpg-debate-defined-playable-characters-or-blank-slates",
+    "date": 1774112400000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1392,20 +1392,20 @@
     "hotScore": 1
   },
   {
-    "title": "From a 'single save-passing exercise' to an 'international community': How GTA’s world-hopping Chain Game has endured through hundreds of rounds—and how it's preparing for its biggest test yet with GTA 6",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/from-a-single-save-passing-exercise-to-an-international-community-how-gtas-world-hopping-chain-game-has-endured-through-hundreds-of-rounds-and-how-its-preparing-for-its-biggest-test-yet-with-gta-6",
-    "date": 1774116000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'We'll Still Release on Switch, Xbox, and Steam': Dev Responds to Delisting as Sony Axes 1,000s More PS5, PS4 Games from PS Store",
     "link": "https://www.pushsquare.com/news/2026/03/well-still-release-on-switch-xbox-and-steam-dev-responds-to-delisting-as-sony-axes-1000s-more-ps5-ps4-games-from-ps-store",
     "date": 1774116000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "From a 'single save-passing exercise' to an 'international community': How GTA’s world-hopping Chain Game has endured through hundreds of rounds—and how it's preparing for its biggest test yet with GTA 6",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/from-a-single-save-passing-exercise-to-an-international-community-how-gtas-world-hopping-chain-game-has-endured-through-hundreds-of-rounds-and-how-its-preparing-for-its-biggest-test-yet-with-gta-6",
+    "date": 1774116000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1915,7 +1915,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all dot illustrations are newly drawn.",
+    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all pixel illustrations are newly drawn.",
     "link": "https://news.denfaminicogamer.jp/news/260322c",
     "date": 1774152895000,
     "domain": "news.denfaminicogamer.jp",
@@ -2096,7 +2096,7 @@
     "hotScore": 1
   },
   {
-    "title": "Steal the broken parts from enemy robots! PvE escape shooter \"Cargo Hunters\" set on a post-collapse Earth is a bit monotonous, but we look forward to future content expansion [Gemspa Robogame Catalog]",
+    "title": "Steal the broken parts from enemy robots! “Cargo Hunters” is a PvE escape shooter set on a post-collapse Earth, but it’s a little monotonous, but we look forward to future content expansion [Gemspa Robogame Catalog]",
     "link": "http://www.gamespark.jp/article/2026/03/22/164203.html",
     "date": 1774170004000,
     "domain": "gamespark.jp",
@@ -2168,20 +2168,20 @@
     "hotScore": 1
   },
   {
-    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
-    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
-    "date": 1774173600000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
     "date": 1774173600000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
+    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
+    "date": 1774173600000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2259,6 +2259,15 @@
     "hotScore": 1
   },
   {
+    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
+    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
+    "date": 1774177200000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Screamer Review",
     "link": "https://www.ign.com/articles/screamer-review",
     "date": 1774177200000,
@@ -2278,11 +2287,11 @@
     ]
   },
   {
-    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
-    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
+    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
+    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
     "date": 1774177200000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2292,15 +2301,6 @@
     "date": 1774177200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
-    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
-    "date": 1774177200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2573,15 +2573,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Wheel of Time is getting an animated show and a PC/mobile game, which is different from the open-world action RPG already in development",
-    "link": "https://www.pcgamer.com/games/rpg/the-wheel-of-time-is-getting-an-animated-show-and-a-pc-mobile-game-which-is-different-from-the-open-world-action-rpg-already-in-development",
-    "date": 1774188000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Congratulations to Resident Evil, 30 Years Old Today and Better Than Ever",
     "link": "https://www.pushsquare.com/features/congratulations-to-resident-evil-30-years-old-today-and-better-than-ever",
     "date": 1774188000000,
@@ -2596,6 +2587,15 @@
     "date": 1774188000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Wheel of Time is getting an animated show and a PC/mobile game, which is different from the open-world action RPG already in development",
+    "link": "https://www.pcgamer.com/games/rpg/the-wheel-of-time-is-getting-an-animated-show-and-a-pc-mobile-game-which-is-different-from-the-open-world-action-rpg-already-in-development",
+    "date": 1774188000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2708,8 +2708,26 @@
     ]
   },
   {
-    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
-    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
+    "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
+    "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
+    "date": 1774191600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2726,29 +2744,11 @@
     "hotScore": 1
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
+    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
+    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
-    "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
-    "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
-    "date": 1774191600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2852,15 +2852,6 @@
     "hotScore": 1
   },
   {
-    "title": "This cosplayer takes crochet to wild new heights by creating entire needlework outfits, and I'm feeling a little bad that the best I can do is a fuzzy shrimp",
-    "link": "https://www.pcgamer.com/games/this-cosplayer-takes-crochet-to-wild-new-heights-by-creating-entire-needlework-outfits-and-im-feeling-a-little-bad-that-the-best-i-can-do-is-a-fuzzy-shrimp",
-    "date": 1774195200000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Poll: Who's Your Favourite Resident Evil Villain?",
     "link": "https://www.nintendolife.com/features/poll-whos-your-favourite-resident-evil-villain",
     "date": 1774195200000,
@@ -2875,6 +2866,15 @@
     "date": 1774195200000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "This cosplayer takes crochet to wild new heights by creating entire needlework outfits, and I'm feeling a little bad that the best I can do is a fuzzy shrimp",
+    "link": "https://www.pcgamer.com/games/this-cosplayer-takes-crochet-to-wild-new-heights-by-creating-entire-needlework-outfits-and-im-feeling-a-little-bad-that-the-best-i-can-do-is-a-fuzzy-shrimp",
+    "date": 1774195200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
