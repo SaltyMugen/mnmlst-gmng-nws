@@ -81,20 +81,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: These 40+ Games Are Coming To Xbox Next Week (March 23-27)",
-    "link": "https://www.purexbox.com/features/these-40plus-games-are-coming-to-xbox-next-week-march-23-27",
-    "date": 1774098000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Court of Darkness: Temptation’s Kiss Preserves Another Voltage Otome",
     "link": "https://www.siliconera.com/review-court-of-darkness-temptations-kiss-preserves-another-voltage-otome",
     "date": 1774098000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: These 40+ Games Are Coming To Xbox Next Week (March 23-27)",
+    "link": "https://www.purexbox.com/features/these-40plus-games-are-coming-to-xbox-next-week-march-23-27",
+    "date": 1774098000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1146,25 +1146,6 @@
     "hotScore": 1
   },
   {
-    "title": "Screamer Review",
-    "link": "https://www.ign.com/articles/screamer-review",
-    "date": 1774177200000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Screamer review",
-        "link": "https://www.pcgamer.com/games/racing/screamer-review",
-        "date": 1774177200000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
     "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
     "date": 1774177200000,
@@ -1172,6 +1153,25 @@
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Screamer review",
+    "link": "https://www.pcgamer.com/games/racing/screamer-review",
+    "date": 1774177200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Screamer Review",
+        "link": "https://www.ign.com/articles/screamer-review",
+        "date": 1774177200000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
@@ -1688,6 +1688,15 @@
     "date": 1774196600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Pokopia player creates a working calculator inside the game",
+    "link": "https://www.dexerto.com/pokemon/pokopia-player-creates-a-working-calculator-inside-the-game-3338945",
+    "date": 1774197453000,
+    "domain": "dexerto.com",
+    "sourceName": "Dexerto",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2836,25 +2845,6 @@
     "hotScore": 1
   },
   {
-    "title": "Pokemon Pokopia Player Creates a Pokemon Center Store in the Game",
-    "link": "https://gamerant.com/pokemon-pokopia-pokemon-center-store",
-    "date": 1774252875000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Pokopia player creates a working calculator inside the game",
-        "link": "https://www.dexerto.com/pokemon/pokopia-player-creates-a-working-calculator-inside-the-game-3338945",
-        "date": 1774197453000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "“GUILTY GEAR -STRIVE-” new character “Kuradoen Sayu” (Kuradoberi Jam) & major update Ver.2.00 will be released on April 9th!",
     "link": "https://www.gamer.ne.jp/news/202603230022",
     "date": 1774253100000,
@@ -2870,15 +2860,6 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Daikoku Denki will expand its shareholder benefit system and review the benefit categories from the fiscal year ending March 2027, changing from \"QUO Card\" to \"Digital Gift\"",
-    "link": "https://gamebiz.jp/news/423058",
-    "date": 1774253580000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -3000,20 +2981,20 @@
     "hotScore": 1
   },
   {
-    "title": "Indie developer Inumoon's drawing party game \"Nikukyu Party!\" is now available on unityroom!",
-    "link": "https://gamebiz.jp/news/423053",
-    "date": 1774255440000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "\"ALL AIKATSU! BAND LIVE ~LEGGENDA VOCE~\" will be held on June 7th! Legendary idols from each title appear",
     "link": "https://www.gamer.ne.jp/news/202603230026",
     "date": 1774255440000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Indie developer Inumoon's drawing party game \"Nikukyu Party!\" is now available on unityroom!",
+    "link": "https://gamebiz.jp/news/423053",
+    "date": 1774255440000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4039,6 +4020,15 @@
     "hotScore": 1
   },
   {
+    "title": "Marvel Rivals Characters: Every Superhero And Supervillain Revealed So Far",
+    "link": "https://www.gamespot.com/gallery/marvel-rivals-characters-every-superhero-and-supervillain/2900-5216",
+    "date": 1774263180000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "The Steam version of “MACHINE CHILD”, a girl training SLG by Ashito Oyari, will be released on April 8th.",
     "link": "https://www.4gamer.net/games/932/G093214/20260323052",
     "date": 1774263259000,
@@ -4253,6 +4243,24 @@
     "date": 1774264310000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "What To Do In Cloister Of Ruination In Crimson Desert",
+    "link": "https://gamerant.com/crimson-desert-cloister-of-ruination-unlock-unseal-what-do-quest",
+    "date": 1774264552000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Snapbreak Games releases new puzzle escape game 'Cages: Hidden Worlds' in Q1 2027",
+    "link": "https://gamebiz.jp/news/423073",
+    "date": 1774264620000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
