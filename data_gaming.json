@@ -60,17 +60,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to complete Blix Bounty in Crimson Desert and capture him",
-        "link": "https://www.destructoid.com/how-to-complete-blix-bounty-in-crimson-desert-and-capture-him",
-        "date": 1774084655000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
@@ -91,15 +81,6 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
-    "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Talking Point: What Are You Playing This Weekend? (March 21-22)",
     "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
     "date": 1774094400000,
@@ -109,22 +90,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
         "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
         "date": 1774089000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "You'll Want to Pre-Order the Art Book for Award Winning PS5 RPG Clair Obscur: Expedition 33",
@@ -217,20 +207,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: Based On Previous Years, Here's When The Xbox Spring Sale 2026 Should Begin",
-    "link": "https://www.purexbox.com/guides/based-on-previous-years-heres-when-the-xbox-spring-sale-2026-should-begin",
-    "date": 1774103400000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Dev to Patch PS5 RPG's 'Uncomfortable' Controls",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-to-patch-ps5-rpgs-uncomfortable-controls",
     "date": 1774103400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: Based On Previous Years, Here's When The Xbox Spring Sale 2026 Should Begin",
+    "link": "https://www.purexbox.com/guides/based-on-previous-years-heres-when-the-xbox-spring-sale-2026-should-begin",
+    "date": 1774103400000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1219,20 +1209,20 @@
     "hotScore": 1
   },
   {
-    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
-    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
-    "date": 1774173600000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
     "date": 1774173600000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
+    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
+    "date": 1774173600000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1273,6 +1263,15 @@
     "hotScore": 1
   },
   {
+    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
+    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
+    "date": 1774177200000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Screamer review",
     "link": "https://www.pcgamer.com/games/racing/screamer-review",
     "date": 1774177200000,
@@ -1292,11 +1291,11 @@
     ]
   },
   {
-    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
-    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
+    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
+    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
     "date": 1774177200000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1306,15 +1305,6 @@
     "date": 1774177200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
-    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
-    "date": 1774177200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1469,20 +1459,20 @@
     "hotScore": 1
   },
   {
-    "title": "Xbox Series X Gets Major 'Just For You' Discount On The Microsoft Store",
-    "link": "https://www.purexbox.com/news/2026/03/xbox-series-x-gets-major-just-for-you-discount-on-the-microsoft-store",
-    "date": 1774180800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Peni Parker Is the Perfect Fit for PS5, PC Fighter Marvel Tokon",
     "link": "https://www.pushsquare.com/news/2026/03/peni-parker-is-the-perfect-fit-for-ps5-pc-fighter-marvel-tokon",
     "date": 1774180800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Series X Gets Major 'Just For You' Discount On The Microsoft Store",
+    "link": "https://www.purexbox.com/news/2026/03/xbox-series-x-gets-major-just-for-you-discount-on-the-microsoft-store",
+    "date": 1774180800000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1577,20 +1567,20 @@
     "hotScore": 1
   },
   {
-    "title": "'The Game Is Running On Consoles' - Samson Dev Hints At Potential Xbox Version",
-    "link": "https://www.purexbox.com/news/2026/03/the-game-is-running-on-consoles-samson-dev-hints-at-potential-xbox-version",
-    "date": 1774188000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Congratulations to Resident Evil, 30 Years Old Today and Better Than Ever",
     "link": "https://www.pushsquare.com/features/congratulations-to-resident-evil-30-years-old-today-and-better-than-ever",
     "date": 1774188000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'The Game Is Running On Consoles' - Samson Dev Hints At Potential Xbox Version",
+    "link": "https://www.purexbox.com/news/2026/03/the-game-is-running-on-consoles-samson-dev-hints-at-potential-xbox-version",
+    "date": 1774188000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1675,8 +1665,8 @@
     "hotScore": 1
   },
   {
-    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
-    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1693,20 +1683,11 @@
     "hotScore": 1
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
+    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
+    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
-    "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1716,6 +1697,15 @@
     "date": 1774191600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2109,8 +2099,8 @@
     ]
   },
   {
-    "title": "“Crabmeat” crab fishing in near-death situations (Hobonichi Indie Pick Up!)",
-    "link": "https://www.4gamer.net/games/950/G095079/20260319043",
+    "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, March 16th to March 22nd, 2026",
+    "link": "https://www.4gamer.net/games/040/G004099/20260322008",
     "date": 1774216800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -2118,8 +2108,8 @@
     "hotScore": 1
   },
   {
-    "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, March 16th to March 22nd, 2026",
-    "link": "https://www.4gamer.net/games/040/G004099/20260322008",
+    "title": "“Crabmeat” crab fishing in near-death situations (Hobonichi Indie Pick Up!)",
+    "link": "https://www.4gamer.net/games/950/G095079/20260319043",
     "date": 1774216800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -3117,15 +3107,6 @@
     "hotScore": 1
   },
   {
-    "title": "GungHo's sales of \"Puzzle and Dragons\" in the fiscal year ending December 2025 decreased by 40% to 25.5 billion yen. With the rise of the \"Ragnarok\" series, the dependence rate fell to 27%",
-    "link": "https://gamebiz.jp/news/423028",
-    "date": 1774246860000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Sons Of The Forest, a survival horror simulation game about surviving on a remote island inhabited by cannibals, is on sale for 70% off on Steam. Find the missing millionaire and uncover the island's secrets.",
     "link": "https://news.denfaminicogamer.jp/news/260323n",
     "date": 1774247059000,
@@ -3605,20 +3586,20 @@
     "hotScore": 1
   },
   {
-    "title": "Indie developer Inumoon's drawing party game \"Nikukyu Party!\" is now available on unityroom!",
-    "link": "https://gamebiz.jp/news/423053",
-    "date": 1774255440000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "\"ALL AIKATSU! BAND LIVE ~LEGGENDA VOCE~\" will be held on June 7th! Legendary idols from each title appear",
     "link": "https://www.gamer.ne.jp/news/202603230026",
     "date": 1774255440000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Indie developer Inumoon's drawing party game \"Nikukyu Party!\" is now available on unityroom!",
+    "link": "https://gamebiz.jp/news/423053",
+    "date": 1774255440000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3958,6 +3939,33 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Circle Amamikan releases a free short novel “Icicle Collecting Game” with a cute appearance and a cold atmosphere on unityroom",
+    "link": "https://gamebiz.jp/news/423057",
+    "date": 1774257360000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Iris Odyssey: Pandora's Girl\", released on May 29th. A fantasy ADV depicting the fateful encounter and adventure of a girl searching for her brother and a magician criminal investigator.",
+    "link": "https://www.4gamer.net/games/814/G081442/20260323041",
+    "date": 1774257527000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Capcom says it will not be using AI-generated content in its games. Plans to utilize the technology for “improving efficiency and productivity of development”",
+    "link": "https://automaton-media.com/en/news/capcom-says-it-will-not-be-using-ai-generated-content-in-its-games-plans-to-utilize-the-technology-for-improving-efficiency-and-productivity-of-development",
+    "date": 1774257606000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
