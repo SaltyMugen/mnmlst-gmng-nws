@@ -27,20 +27,20 @@
     "hotScore": 1
   },
   {
-    "title": "What are we all playing this weekend?",
-    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
-    "date": 1774080000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
     "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
     "date": 1774080000000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What are we all playing this weekend?",
+    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
+    "date": 1774080000000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -81,15 +81,6 @@
     "hotScore": 1
   },
   {
-    "title": "Social chat room game “On-Together: Virtual Co-Working” “inspired by chat room games of the early 2000s” [Developer interview]",
-    "link": "http://www.gamespark.jp/article/2026/03/21/164177.html",
-    "date": 1774081804000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "A sale where you can purchase \"Persona 5 The Royal\" for 70% off for \"2,303 yen\" is being held on PS, Nintendo Switch, and Steam",
     "link": "https://news.denfaminicogamer.jp/news/260321g",
     "date": 1774083169000,
@@ -108,7 +99,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Marathon\" review. A “different” game that does not fit into the framework of “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
+    "title": "\"Marathon\" review. An “unique” game that does not fit into the framework of an “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
     "link": "https://automaton-media.com/articles/impressionjp/marathon-20260321-431075",
     "date": 1774083601000,
     "domain": "automaton-media.com",
@@ -153,7 +144,7 @@
     "hotScore": 1
   },
   {
-    "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Wizard\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
+    "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Witch\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
     "link": "https://news.denfaminicogamer.jp/news/260321h",
     "date": 1774083969000,
     "domain": "news.denfaminicogamer.jp",
@@ -271,15 +262,6 @@
     ]
   },
   {
-    "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
-    "link": "https://www.pcgamer.com/games/action/blight-survival-offers-a-fresh-slice-of-its-medieval-zombie-slaying-after-its-developer-took-a-break-to-rebuild-our-core-systems-from-the-ground-up",
-    "date": 1774094400000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Does Jury Duty Season 2 Justify Its Existence?",
     "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
     "date": 1774094400000,
@@ -289,11 +271,11 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
+    "link": "https://www.pcgamer.com/games/action/blight-survival-offers-a-fresh-slice-of-its-medieval-zombie-slaying-after-its-developer-took-a-break-to-rebuild-our-core-systems-from-the-ground-up",
     "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -307,22 +289,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
         "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
         "date": 1774089000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "14 years since the service started, \"Dragon Quest X\" main story is coming to an end! New “stories” themselves will continue in the future.",
@@ -370,15 +361,6 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: These 40+ Games Are Coming To Xbox Next Week (March 23-27)",
-    "link": "https://www.purexbox.com/features/these-40plus-games-are-coming-to-xbox-next-week-march-23-27",
-    "date": 1774098000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Court of Darkness: Temptation’s Kiss Preserves Another Voltage Otome",
     "link": "https://www.siliconera.com/review-court-of-darkness-temptations-kiss-preserves-another-voltage-otome",
     "date": 1774098000000,
@@ -388,11 +370,11 @@
     "hotScore": 1
   },
   {
-    "title": "After one of Blood's best mods added a new episode in January, another brilliant spin on Monolith's shooter just got an even bigger overhaul",
-    "link": "https://www.pcgamer.com/games/fps/after-one-of-bloods-best-mods-added-a-new-episode-in-january-another-brilliant-spin-on-monoliths-shooter-just-got-an-even-bigger-overhaul",
-    "date": 1774101600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
+    "title": "Feature: These 40+ Games Are Coming To Xbox Next Week (March 23-27)",
+    "link": "https://www.purexbox.com/features/these-40plus-games-are-coming-to-xbox-next-week-march-23-27",
+    "date": 1774098000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -402,6 +384,15 @@
     "date": 1774101600000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "After one of Blood's best mods added a new episode in January, another brilliant spin on Monolith's shooter just got an even bigger overhaul",
+    "link": "https://www.pcgamer.com/games/fps/after-one-of-bloods-best-mods-added-a-new-episode-in-january-another-brilliant-spin-on-monoliths-shooter-just-got-an-even-bigger-overhaul",
+    "date": 1774101600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -469,8 +460,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -478,8 +469,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1029,7 +1020,7 @@
     "hotScore": 1
   },
   {
-    "title": "CORDURA, a cooperative horror game in which the player collects and escapes from a mansion where enemies imitate the player's appearance and voice are hiding, is currently in development. The longer you stay, the more your sanity decreases and the structures change [This week's 3 indies]",
+    "title": "CORDURA, a cooperative horror game in which the player collects and escapes from a mansion where enemies that imitate the player's appearance and voice are hiding, is currently in development. The longer you stay, the more your sanity decreases and the structures change [This week's 3 indies]",
     "link": "http://www.gamespark.jp/article/2026/03/22/164191.html",
     "date": 1774132204000,
     "domain": "gamespark.jp",
@@ -1245,7 +1236,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all dot illustrations are newly drawn.",
+    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all pixel illustrations are newly drawn.",
     "link": "https://news.denfaminicogamer.jp/news/260322c",
     "date": 1774152895000,
     "domain": "news.denfaminicogamer.jp",
@@ -1371,7 +1362,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released along with images that provide hints about the characters to be implemented.",
+    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released, along with images that provide hints about the characters to be implemented.",
     "link": "https://news.denfaminicogamer.jp/news/260322g",
     "date": 1774165838000,
     "domain": "news.denfaminicogamer.jp",
@@ -1453,20 +1444,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
-    "date": 1774173600000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
     "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
     "date": 1774173600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
+    "date": 1774173600000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1516,20 +1507,20 @@
     "hotScore": 1
   },
   {
-    "title": "Screamer review",
-    "link": "https://www.pcgamer.com/games/racing/screamer-review",
+    "title": "Screamer Review",
+    "link": "https://www.ign.com/articles/screamer-review",
     "date": 1774177200000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "Screamer Review",
-        "link": "https://www.ign.com/articles/screamer-review",
+        "title": "Screamer review",
+        "link": "https://www.pcgamer.com/games/racing/screamer-review",
         "date": 1774177200000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -1544,20 +1535,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
-    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
-    "date": 1774177200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
     "link": "https://www.pushsquare.com/reviews/ps5/screamer",
     "date": 1774177200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
+    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
+    "date": 1774177200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1955,15 +1946,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
-    "date": 1774191600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
     "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
     "date": 1774191600000,
@@ -1973,11 +1955,11 @@
     "hotScore": 1
   },
   {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1987,6 +1969,15 @@
     "date": 1774191600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2623,7 +2614,7 @@
     "hotScore": 1
   },
   {
-    "title": "A new character in the sequel of the beautiful girl android repair ADV ``D1AL-ogue'', which is popular for its depiction of mecha-barre, has been released. Brown, belly exposed, sanpaku eyes! ? Expectations are high again as it is full of great things.",
+    "title": "A new character for the sequel of the beautiful girl android repair ADV ``D1AL-ogue'', which is popular for its depiction of mecha-barre, has been released. Brown, belly exposed, sanpaku eyes! ? Expectations are high again as it is full of great things.",
     "link": "http://www.gamespark.jp/article/2026/03/23/164211.html",
     "date": 1774226103000,
     "domain": "gamespark.jp",
@@ -2721,7 +2712,7 @@
     "hotScore": 1
   },
   {
-    "title": "DeckLand, a deck-building RPG where positioning and evasion are the keys, is now available for early access on Steam. A martial arts story based on Korean folk tales and folklore is depicted.",
+    "title": "DeckLand, a deck-building RPG where positioning and evasion are the keys, has started early access on Steam. A martial arts story based on Korean folk tales and folklore is depicted.",
     "link": "https://www.4gamer.net/games/857/G085773/20260323002",
     "date": 1774230377000,
     "domain": "4gamer.net",
@@ -2892,7 +2883,7 @@
     "hotScore": 1
   },
   {
-    "title": "``PASSIS'', a highly difficult roguelite that only requires inputting 4 digits, became a hot topic when it was released for free. Brain-fueled hacking that is recommended to be played with ChatGPT etc.",
+    "title": "``PASSIS'', a highly difficult roguelite that only requires you to enter 4 digits, became a hot topic when it was released for free. Brain-fueled hacking that is recommended to be played with ChatGPT etc.",
     "link": "https://automaton-media.com/articles/newsjp/20260323-431442",
     "date": 1774234455000,
     "domain": "automaton-media.com",
@@ -3000,7 +2991,7 @@
     "hotScore": 1
   },
   {
-    "title": "ADV ``Memorial Vacation'', released on July 23rd. An original story set in Okinawa",
+    "title": "ADV “Memorial Vacation”, “Memorial Vacation”, released on July 23rd. An original story set in Okinawa",
     "link": "https://www.4gamer.net/games/992/G099246/20260323014",
     "date": 1774235979000,
     "domain": "4gamer.net",
@@ -3353,20 +3344,20 @@
     "hotScore": 1
   },
   {
-    "title": "BANDAI NAMCO ENT will broadcast a \"Roadmap Announcement Live Stream\" that will release information on the 1st anniversary of \"SD Gundam G-Generation Eternal\" starting tomorrow at 20:00",
-    "link": "https://gamebiz.jp/news/423030",
-    "date": 1774241340000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Persona” series 30th anniversary! Music event “Persona Sound Station Vol.1: Persona 3 Series Music 30-hour Livestream” will be distributed on March 27th",
     "link": "https://www.gamer.ne.jp/news/202603230014",
     "date": 1774241340000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "BANDAI NAMCO ENT will broadcast a \"Roadmap Announcement Live Stream\" that will release information on the 1st anniversary of \"SD Gundam G-Generation Eternal\" starting tomorrow at 20:00",
+    "link": "https://gamebiz.jp/news/423030",
+    "date": 1774241340000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3533,7 +3524,7 @@
     "hotScore": 1
   },
   {
-    "title": "Sega brings collaboration content with Rovio's \"Angry Birds\" series to \"Two Point Museum\"",
+    "title": "SEGA brings collaboration content with Rovio's \"Angry Birds\" series to \"Two Point Museum\"",
     "link": "https://gamebiz.jp/news/423038",
     "date": 1774244460000,
     "domain": "gamebiz.jp",
@@ -3710,14 +3701,6 @@
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
         "isTranslated": true
-      },
-      {
-        "title": "Pearl Abyss' new work \"Crimson Desert\" achieved cumulative worldwide sales of 2 million copies on March 20th, the release date",
-        "link": "https://gamebiz.jp/news/423021",
-        "date": 1774235880000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
       }
     ]
   },
@@ -3856,7 +3839,7 @@
         "isTranslated": true
       },
       {
-        "title": "``Grandidier of Decline'', a despairing gem creation game in which an older sister spits out gems for her younger brother, is now available for free. A \"self-sacrificing\" system where your physical condition and spirit are reduced each time you create a gem.",
+        "title": "``Grandidier of Decline,'' a despairing gem generation game in which an older sister spits out gems for her younger brother, is now available for free. A \"self-sacrificing\" system where your physical condition and spirit are reduced each time you create a gem.",
         "link": "https://news.denfaminicogamer.jp/news/260323q",
         "date": 1774246822000,
         "domain": "news.denfaminicogamer.jp",
@@ -3891,5 +3874,32 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Steam rental video store management sim \"Retro Rewind\" achieved sales of 100,000 copies at Mach. A game that captures generations that are “just like it was back then” is a huge hit.",
+    "link": "https://automaton-media.com/articles/newsjp/retro-rewind-20260323-431498",
+    "date": 1774247779000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "[Share buyback] SEH&I has completed its share buyback with a maximum of 700,000 shares and 250 million yen.The final number of shares acquired is 291,100 shares, and the total acquisition price is approximately 137 million yen.",
+    "link": "https://gamebiz.jp/news/423044",
+    "date": 1774248000000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "DeckLand, a Sugoroku-style strategic deck-building roguelite where positioning determines the outcome of the battle, starts Steam early access",
+    "link": "http://www.gamespark.jp/article/2026/03/23/164227.html",
+    "date": 1774248003000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
   }
 ]
