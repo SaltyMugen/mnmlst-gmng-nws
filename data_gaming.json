@@ -126,20 +126,20 @@
     "hotScore": 1
   },
   {
-    "title": "What are we all playing this weekend?",
-    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
-    "date": 1774080000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
     "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
     "date": 1774080000000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What are we all playing this weekend?",
+    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
+    "date": 1774080000000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -168,15 +168,6 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Pre-registration is now open for the management SLG “I LOVE BISTRO” where you can enjoy everything from food production on the farm to restaurant management!",
-    "link": "https://www.gamer.ne.jp/news/202603210014",
-    "date": 1774080780000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -225,20 +216,20 @@
     "hotScore": 1
   },
   {
-    "title": "Next week, \"Dissidia Duelm Final Fantasy\", \"Etranger Overlord\", and \"Okayu Nyumu! R\" will be released!",
-    "link": "https://www.gamer.ne.jp/news/202603210001",
-    "date": 1774083600000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Weekly Steam Plaza No. 145: Sandbox survival “Everwind” and PC version “DEATH STRANDING” on sale",
     "link": "https://www.4gamer.net/games/038/G003821/20260321003",
     "date": 1774083600000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Next week, \"Dissidia Duelm Final Fantasy\", \"Etranger Overlord\", and \"Okayu Nyumu! R\" will be released!",
+    "link": "https://www.gamer.ne.jp/news/202603210001",
+    "date": 1774083600000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -369,20 +360,20 @@
     "hotScore": 1
   },
   {
-    "title": "Interactive AI buddy “Chatting Slammy” by Square Enix and Google Cloud has been announced! Report on press briefing",
-    "link": "https://www.gamer.ne.jp/news/202603210003",
-    "date": 1774090800000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "An interactive AI buddy “Slammy” appears in “Dragon Quest X”. Report on briefing session by Square Enix x Google Cloud",
     "link": "https://www.4gamer.net/games/972/G097230/20260319079",
     "date": 1774090800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Interactive AI buddy “Chatting Slammy” by Square Enix and Google Cloud has been announced! Report on press briefing",
+    "link": "https://www.gamer.ne.jp/news/202603210003",
+    "date": 1774090800000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -460,6 +451,15 @@
     "hotScore": 1
   },
   {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Talking Point: What Are You Playing This Weekend? (March 21-22)",
     "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
     "date": 1774094400000,
@@ -469,31 +469,22 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
-        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
-        "date": 1774089000000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
         "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
         "date": 1774087200000,
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
+        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
+        "date": 1774089000000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
+        "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
-    "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "14 years since the service started, \"Dragon Quest X\" main story is coming to an end! New “stories” themselves will continue in the future.",
@@ -1660,20 +1651,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
-    "date": 1774173600000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
     "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
     "date": 1774173600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
+    "date": 1774173600000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1761,20 +1752,20 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
-    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
-    "date": 1774177200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
     "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
     "date": 1774177200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
+    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
+    "date": 1774177200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2200,20 +2191,20 @@
     "hotScore": 1
   },
   {
-    "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
-    "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
-    "date": 1774191600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
     "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
     "date": 1774191600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
+    "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
+    "date": 1774191600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2902,15 +2893,6 @@
     "hotScore": 1
   },
   {
-    "title": "All Urdavah Research Tasks in Crimson Desert",
-    "link": "https://gamerant.com/crimson-desert-urdavah-research-location-all-tasks",
-    "date": 1774225791000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Cover invests in NERD, which operates ``Studio STELLAR'', the personal office of VTuber Suisei Hoshimachi, and concludes a joint business agreement",
     "link": "https://gamebiz.jp/news/423007",
     "date": 1774225800000,
@@ -3505,20 +3487,20 @@
     "hotScore": 1
   },
   {
-    "title": "“Taimanin RPG” Main Quest Part 2 Chapter 9 has been released! There is also a selection premium gacha featuring Awakened Lilim and Tenshoubuho Ayame.",
-    "link": "https://www.gamer.ne.jp/news/202603230007",
-    "date": 1774234320000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "NineGates releases Steam store page for the new online competitive mahjong game “Shohai Mighty”",
     "link": "https://gamebiz.jp/news/423018",
     "date": 1774234320000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Taimanin RPG” Main Quest Part 2 Chapter 9 has been released! There is also a selection premium gacha featuring Awakened Lilim and Tenshoubuho Ayame.",
+    "link": "https://www.gamer.ne.jp/news/202603230007",
+    "date": 1774234320000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3645,6 +3627,33 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Meowpire,” a “Cat World War” watching sim x clicker game, officially announced. Move the world with the \"power of God\" while watching the cats' merciless battles",
+    "link": "https://automaton-media.com/articles/newsjp/meowpire-20260323-431452",
+    "date": 1774235235000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Steam version of “Heartwarming Fishing Story” is now available! A trial version where you can experience fishing and a slow life atmosphere is also available.",
+    "link": "https://www.gamer.ne.jp/news/202603230009",
+    "date": 1774235340000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Original Power Rangers Return as Adults in Official Sequel Series",
+    "link": "https://gamerant.com/mmpr-power-rangers-adult-sequel-comics",
+    "date": 1774235392000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
