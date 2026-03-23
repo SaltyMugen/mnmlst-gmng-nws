@@ -61,8 +61,7 @@ SOURCES = [
     # --- NEWS MACHINES ---
     {"name": "Game Rant",         "rss": "https://gamerant.com/feed/",                                              "domain": "gamerant.com"},
     {"name": "Dexerto",           "rss": "https://www.dexerto.com/gaming/feed/",                                    "domain": "dexerto.com"},
-    {"name": "GamesRadar+",       "rss": "https://www.gamesradar.com/news/rss/",                                    "domain": "gamesradar.com"},
-    {"name": "ComicBook Gaming",  "rss": "https://comicbook.com/gaming/rss",                                        "domain": "comicbook.com"},
+    {"name": "GamesRadar+",       "rss": "https://www.gamesradar.com/all-platforms/news/rss/",                                    "domain": "gamesradar.com"},
 
     # --- SPECIALISTS & LEAKS ---
     {"name": "Insider Gaming",    "rss": "https://insider-gaming.com/feed/",                                        "domain": "insider-gaming.com"},
@@ -80,15 +79,13 @@ SOURCES = [
     {"name": "Pure Xbox",         "rss": "https://www.purexbox.com/feeds/latest",                                   "domain": "purexbox.com"},
 
     # --- PC / PLATFORM ---
-    {"name": "Steam News",        "rss": "https://store.steampowered.com/feeds/news.xml",                           "domain": "store.steampowered.com"},
+    {"name": "Steam News",        "rss": "https://store.steampowered.com/feeds/news/collection/steam",                           "domain": "store.steampowered.com"},
 
     # --- INDIE ---
-    {"name": "IndieDB",           "rss": "https://www.indiedb.com/rss/news",                                        "domain": "indiedb.com"},
+    {"name": "IndieDB",           "rss": "https://rss.indiedb.com/articles/feed/rss.xml",                                        "domain": "indiedb.com"},
 
     # --- ADDITIONAL GENERAL ---
     {"name": "Game Informer",     "rss": "https://www.gameinformer.com/rss.xml",                                    "domain": "gameinformer.com"},
-    {"name": "Giant Bomb",        "rss": "https://www.giantbomb.com/feeds/mashup/",                                 "domain": "giantbomb.com"},
-    {"name": "Digital Foundry",   "rss": "https://www.eurogamer.net/feed/df",                                       "domain": "eurogamer.net/digitalfoundry"},
     {"name": "Noisy Pixel",       "rss": "https://noisypixel.net/feed/",                                            "domain": "noisypixel.net"},
     {"name": "TweakTown",         "rss": "https://www.tweaktown.com/rss/index.xml",                                 "domain": "tweaktown.com"},
 
