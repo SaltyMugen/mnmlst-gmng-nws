@@ -194,7 +194,7 @@ h1 span {
 [data-theme="forest"] .item-logo,
 [data-theme="forest"] .icon-placeholder {
     filter: grayscale(100%) invert(1) brightness(1.2) drop-shadow(0 0 5px rgba(255, 255, 255, 0.05));
-    opacity: 01;
+    opacity: 1;
     background: rgba(255, 255, 255, 0.03);
 }
 
@@ -228,6 +228,12 @@ h1 span {
     display: none;
 }
 /* --- END SOURCE LOGO CSS --- */
+
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .item[data-new="true"] {
     background: var(--new-hl);
@@ -294,9 +300,8 @@ h1 span {
     align-items: center;
     justify-content: center;
     transition:
-        color 0.2s,
-        opacity 0.2s,
-        color 0.4s ease;
+        color 0.4s ease,
+        opacity 0.2s;
     opacity: 0.8;
 }
 .icon-btn:hover {
@@ -838,6 +843,26 @@ footer {
 }
 .sources-chevron.open {
     transform: rotate(180deg);
+}
+
+/* ─── BUY ME A COFFEE ────────────────────────────────────────────── */
+#bmc-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icon-color);
+    opacity: 0.8;
+    transition: color 0.4s ease, opacity 0.2s;
+    text-decoration: none;
+}
+#bmc-btn:hover {
+    color: var(--ink);
+    opacity: 1;
+}
+#bmc-btn svg {
+    width: 17px;
+    height: 17px;
+    pointer-events: none;
 }
 
 /* ─── THEME CYCLE BUTTON ─────────────────────────────────────────── */

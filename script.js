@@ -25,6 +25,7 @@ function safeDomain(url) {
 
 function formatTime(ts) {
     const d = Date.now() - ts;
+    if (d < 60000)    return 'just now';
     if (d < 3600000)  return Math.floor(d / 60000)  + 'm';
     if (d < 86400000) return Math.floor(d / 3600000) + 'h';
     return Math.floor(d / 86400000) + 'd';
@@ -83,7 +84,6 @@ function toggleBookmark(link, title, domain, sourceName, btn) {
 }
 
 function openBookmarks() {
-    loadBookmarks();
     const overlay = document.getElementById('bookmarks-overlay');
     const feed    = document.getElementById('bookmarks-feed');
     const empty   = document.getElementById('bookmarks-empty');
@@ -186,12 +186,18 @@ function toggleControl(type) {
     }
 }
 
-// close search/filter when clicking outside the controls area
+// close search/filter and sources menu when clicking outside their containers
 document.addEventListener('click', e => {
     const controls = document.querySelector('.controls');
     if (controls && !controls.contains(e.target)) {
         document.getElementById('search-wrap')?.classList.remove('active');
         document.getElementById('filter-wrap')?.classList.remove('active');
+    }
+
+    const sourcesWrap = document.getElementById('sources-filter-wrap');
+    if (sourcesWrap && !sourcesWrap.contains(e.target)) {
+        document.getElementById('sources-menu')?.classList.remove('open');
+        document.getElementById('sources-btn')?.classList.remove('open');
     }
 });
 
@@ -203,7 +209,7 @@ function setFilter(type, el) {
 }
 
 function applyFilters() {
-    const q        = document.getElementById('search-input').value.toLowerCase();
+    const q        = (document.getElementById('search-input')?.value ?? '').toLowerCase();
     const clearBtn = document.getElementById('search-clear');
     if (clearBtn) clearBtn.style.display = q.length > 0 ? 'flex' : 'none';
 
@@ -213,8 +219,8 @@ function applyFilters() {
         const matchText   = title.includes(q);
         const matchSource = !mutedSources[source];
         let   matchTab    = true;
-        if (currentFilter === 'new') matchTab = item.getAttribute('data-new') === 'true';
-        if (currentFilter === 'hot') matchTab = item.getAttribute('data-hot') === 'true';
+        if (currentFilter === 'new')      matchTab = item.getAttribute('data-new') === 'true';
+        if (currentFilter === 'trending') matchTab = item.getAttribute('data-hot') === 'true';
         item.classList.toggle('hidden', !(matchText && matchTab && matchSource));
     });
 }
@@ -292,15 +298,6 @@ function toggleSourcesMenu() {
     const isOpen = menu.classList.toggle('open');
     btn.classList.toggle('open', isOpen);
 }
-
-// close sources menu when clicking outside it
-document.addEventListener('click', e => {
-    const wrap = document.getElementById('sources-filter-wrap');
-    if (wrap && !wrap.contains(e.target)) {
-        document.getElementById('sources-menu')?.classList.remove('open');
-        document.getElementById('sources-btn')?.classList.remove('open');
-    }
-});
 
 function resetSources() {
     mutedSources = {};
@@ -385,18 +382,22 @@ function render(articles) {
         if (isPS)           link.appendChild(makeBadge('PlayStation', 'badge-ps'));
         if (isNintendo)     link.appendChild(makeBadge('Nintendo',    'badge-nintendo'));
         if (isXbox)         link.appendChild(makeBadge('Xbox',        'badge-xbox'));
-        if (isHot)          link.appendChild(makeBadge('Hot',         'badge-hot'));
+        if (isHot)          link.appendChild(makeBadge('Trending',     'badge-hot'));
         if (a.isTranslated) link.appendChild(makeBadge('JP-EN',       'badge-jp'));
 
         body.appendChild(link);
 
         const logoWrap = document.createElement('span');
-        logoWrap.style.cssText = 'display:flex;align-items:center;justify-content:center';
+        logoWrap.className = 'logo-wrap';
 
         if (hasGroup) {
-            const memberLinks  = new Set(a.groupMembers.map(m => m.link));
-            memberLinks.delete(a.link);
-            const totalSources = memberLinks.size + 1;
+            const seenForCount = new Set([a.link]);
+            const uniqueForCount = a.groupMembers.filter(m => {
+                if (seenForCount.has(m.link)) return false;
+                seenForCount.add(m.link);
+                return true;
+            });
+            const totalSources = uniqueForCount.length + 1;
 
             const sourcesLabel = document.createElement('span');
             sourcesLabel.className = 'sources-count-label';
@@ -415,7 +416,7 @@ function render(articles) {
 
             const placeholder = document.createElement('div');
             placeholder.className   = 'icon-placeholder';
-            placeholder.textContent = 'M+';
+            placeholder.textContent = a.sourceName ? a.sourceName.charAt(0).toUpperCase() : '?';
             placeholder.style.display = 'none';
 
             if (domain) {
@@ -459,52 +460,53 @@ function render(articles) {
                 return true;
             });
 
+            // oldest source at top — that's usually the original report
             const allMembers = [
                 { title: a.title, link: a.link, sourceName: a.sourceName, domain, date: a.date },
                 ...uniqueMembers
-            ].sort((x, y) => y.date - x.date);
+            ].sort((x, y) => x.date - y.date);
 
-            allMembers.forEach(m => {
+            allMembers.forEach(member => {
                 const row = document.createElement('div');
                 row.className = 'source-row';
 
-                const mDomain = safeDomain(m.link);
-                const mLetter = m.sourceName ? m.sourceName.charAt(0).toLowerCase() : '?';
+                const memberDomain = safeDomain(member.link);
+                const initial      = member.sourceName ? member.sourceName.charAt(0).toLowerCase() : '?';
 
-                const mImg = document.createElement('img');
-                mImg.className = 'source-row-logo';
-                mImg.alt = '';
+                const favicon = document.createElement('img');
+                favicon.className = 'source-row-logo';
+                favicon.alt = '';
 
-                const mPlaceholder = document.createElement('div');
-                mPlaceholder.className   = 'source-row-placeholder';
-                mPlaceholder.textContent = mLetter;
-                mPlaceholder.style.display = 'none';
+                const fallback = document.createElement('div');
+                fallback.className   = 'source-row-placeholder';
+                fallback.textContent = initial;
+                fallback.style.display = 'none';
 
-                if (mDomain) {
-                    mImg.src = 'https://www.google.com/s2/favicons?domain=' + encodeURIComponent(mDomain) + '&sz=64';
-                    mImg.onload = function() {
-                        if (this.naturalHeight <= 16) { this.classList.add('hidden'); mPlaceholder.style.display = 'flex'; }
+                if (memberDomain) {
+                    favicon.src = 'https://www.google.com/s2/favicons?domain=' + encodeURIComponent(memberDomain) + '&sz=64';
+                    favicon.onload = function() {
+                        if (this.naturalHeight <= 16) { this.classList.add('hidden'); fallback.style.display = 'flex'; }
                     };
-                    mImg.onerror = function() { this.classList.add('hidden'); mPlaceholder.style.display = 'flex'; };
+                    favicon.onerror = function() { this.classList.add('hidden'); fallback.style.display = 'flex'; };
                 } else {
-                    mImg.classList.add('hidden');
-                    mPlaceholder.style.display = 'flex';
+                    favicon.classList.add('hidden');
+                    fallback.style.display = 'flex';
                 }
 
-                const mLink = document.createElement('a');
-                mLink.href   = m.link;
-                mLink.target = '_blank';
-                mLink.rel    = 'noopener noreferrer';
-                mLink.textContent = m.title;
+                const articleLink = document.createElement('a');
+                articleLink.href   = member.link;
+                articleLink.target = '_blank';
+                articleLink.rel    = 'noopener noreferrer';
+                articleLink.textContent = member.title;
 
-                const mDate = document.createElement('span');
-                mDate.className   = 'source-row-date';
-                mDate.textContent = formatTime(m.date);
+                const timestamp = document.createElement('span');
+                timestamp.className   = 'source-row-date';
+                timestamp.textContent = formatTime(member.date);
 
-                row.appendChild(mImg);
-                row.appendChild(mPlaceholder);
-                row.appendChild(mLink);
-                row.appendChild(mDate);
+                row.appendChild(favicon);
+                row.appendChild(fallback);
+                row.appendChild(articleLink);
+                row.appendChild(timestamp);
                 drawer.appendChild(row);
             });
 
@@ -540,10 +542,10 @@ async function init() {
             allArticles  = data;
             lastDataHash = hashArticles(data);
             render(data);
+            document.getElementById('splash').classList.add('fade');
         } catch (_) {
             localStorage.removeItem(CACHE_KEY);
         }
-        document.getElementById('splash').classList.add('fade');
     }
 
     try {
@@ -568,7 +570,7 @@ async function init() {
 function hardRefresh() {
     localStorage.removeItem(CACHE_KEY);
     lastDataHash = null;
-    init();
+    silentRefresh();
 }
 
 async function silentRefresh() {
@@ -590,4 +592,9 @@ document.addEventListener('DOMContentLoaded', () => {
     updateThemeDots(theme);
     init();
     setInterval(silentRefresh, REFRESH_INTERVAL);
+
+    const splash = document.getElementById('splash');
+    splash.addEventListener('transitionend', () => {
+        if (splash.classList.contains('fade')) splash.remove();
+    }, { once: true });
 });
