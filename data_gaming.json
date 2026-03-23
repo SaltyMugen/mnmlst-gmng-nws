@@ -1234,15 +1234,6 @@
     "hotScore": 1
   },
   {
-    "title": "AI was everywhere at gaming’s big developer conference — except the games",
-    "link": "https://www.theverge.com/games/897982/gdc-2026-ai-game-developer-conference",
-    "date": 1774180800000,
-    "domain": "theverge.com",
-    "sourceName": "The Verge",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Peni Parker Is the Perfect Fit for PS5, PC Fighter Marvel Tokon",
     "link": "https://www.pushsquare.com/news/2026/03/peni-parker-is-the-perfect-fit-for-ps5-pc-fighter-marvel-tokon",
     "date": 1774180800000,
@@ -1257,6 +1248,15 @@
     "date": 1774180800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "AI was everywhere at gaming’s big developer conference — except the games",
+    "link": "https://www.theverge.com/games/897982/gdc-2026-ai-game-developer-conference",
+    "date": 1774180800000,
+    "domain": "theverge.com",
+    "sourceName": "The Verge",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1431,6 +1431,15 @@
     "hotScore": 1
   },
   {
+    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
+    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
+    "date": 1774191600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
     "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
@@ -1442,15 +1451,6 @@
   {
     "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
     "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
-    "date": 1774191600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
-    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -2828,20 +2828,20 @@
     "hotScore": 1
   },
   {
-    "title": "Indie developer Inumoon's drawing party game \"Nikukyu Party!\" is now available on unityroom!",
-    "link": "https://gamebiz.jp/news/423053",
-    "date": 1774255440000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "\"ALL AIKATSU! BAND LIVE ~LEGGENDA VOCE~\" will be held on June 7th! Legendary idols from each title appear",
     "link": "https://www.gamer.ne.jp/news/202603230026",
     "date": 1774255440000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Indie developer Inumoon's drawing party game \"Nikukyu Party!\" is now available on unityroom!",
+    "link": "https://gamebiz.jp/news/423053",
+    "date": 1774255440000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3977,15 +3977,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to get Yellow Eggs in Palia",
-    "link": "https://www.destructoid.com/how-to-get-yellow-eggs-in-palia",
-    "date": 1774266739000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Bungie is 'Watching and Ingesting' Your Feedback About Marathon's Cryo Archive And Looking at 'Solutions' For Players Who Can't Get On During the Weekend",
     "link": "https://www.ign.com/articles/bungie-is-watching-and-ingesting-your-feedback-about-marathons-cryo-archive-and-looking-at-solutions-for-players-who-cant-get-on-during-the-weekend",
     "date": 1774266741000,
@@ -4385,5 +4376,24 @@
     "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "How to get Green Eggs in Palia",
+    "link": "https://www.destructoid.com/how-to-get-green-eggs-in-palia",
+    "date": 1774269260000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to get Yellow Eggs in Palia",
+        "link": "https://www.destructoid.com/how-to-get-yellow-eggs-in-palia",
+        "date": 1774266739000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   }
 ]
