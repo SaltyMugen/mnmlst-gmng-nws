@@ -9,20 +9,20 @@
     "hotScore": 1
   },
   {
-    "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
-    "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
-    "date": 1774080000000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What are we all playing this weekend?",
     "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
     "date": 1774080000000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
+    "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
+    "date": 1774080000000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -244,15 +244,6 @@
     ]
   },
   {
-    "title": "Does Jury Duty Season 2 Justify Its Existence?",
-    "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
-    "date": 1774094400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
     "link": "https://www.pcgamer.com/games/action/blight-survival-offers-a-fresh-slice-of-its-medieval-zombie-slaying-after-its-developer-took-a-break-to-rebuild-our-core-systems-from-the-ground-up",
     "date": 1774094400000,
@@ -262,11 +253,11 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "title": "Does Jury Duty Season 2 Justify Its Existence?",
+    "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
     "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -280,22 +271,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
         "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
         "date": 1774089000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "14 years since the service started, \"Dragon Quest X\" main story is coming to an end! New “stories” themselves will continue in the future.",
@@ -343,15 +343,6 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: These 40+ Games Are Coming To Xbox Next Week (March 23-27)",
-    "link": "https://www.purexbox.com/features/these-40plus-games-are-coming-to-xbox-next-week-march-23-27",
-    "date": 1774098000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Court of Darkness: Temptation’s Kiss Preserves Another Voltage Otome",
     "link": "https://www.siliconera.com/review-court-of-darkness-temptations-kiss-preserves-another-voltage-otome",
     "date": 1774098000000,
@@ -361,11 +352,11 @@
     "hotScore": 1
   },
   {
-    "title": "How Project Hail Mary Gets Rocky Right",
-    "link": "https://www.ign.com/articles/how-project-hail-mary-gets-rocky-right-alien",
-    "date": 1774101600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "title": "Feature: These 40+ Games Are Coming To Xbox Next Week (March 23-27)",
+    "link": "https://www.purexbox.com/features/these-40plus-games-are-coming-to-xbox-next-week-march-23-27",
+    "date": 1774098000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -375,6 +366,15 @@
     "date": 1774101600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How Project Hail Mary Gets Rocky Right",
+    "link": "https://www.ign.com/articles/how-project-hail-mary-gets-rocky-right-alien",
+    "date": 1774101600000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -442,8 +442,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -451,8 +451,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1426,20 +1426,20 @@
     "hotScore": 1
   },
   {
-    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
-    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
-    "date": 1774173600000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
     "date": 1774173600000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
+    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
+    "date": 1774173600000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1480,20 +1480,20 @@
     "hotScore": 1
   },
   {
-    "title": "Screamer Review",
-    "link": "https://www.ign.com/articles/screamer-review",
+    "title": "Screamer review",
+    "link": "https://www.pcgamer.com/games/racing/screamer-review",
     "date": 1774177200000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "Screamer review",
-        "link": "https://www.pcgamer.com/games/racing/screamer-review",
+        "title": "Screamer Review",
+        "link": "https://www.ign.com/articles/screamer-review",
         "date": 1774177200000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -1508,20 +1508,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
-    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
-    "date": 1774177200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
     "link": "https://www.pushsquare.com/reviews/ps5/screamer",
     "date": 1774177200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
+    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
+    "date": 1774177200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1910,8 +1910,8 @@
     ]
   },
   {
-    "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
-    "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1919,8 +1919,8 @@
     "hotScore": 1
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
+    "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
+    "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1937,20 +1937,20 @@
     "hotScore": 1
   },
   {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
-    "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
     "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
     "date": 1774191600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3036,15 +3036,6 @@
     "hotScore": 1
   },
   {
-    "title": "Sega and Colorful Palette hold events “Amid the Wavering Light” and “Gacha before our night awakens” at “Project Sekai”",
-    "link": "https://gamebiz.jp/news/423024",
-    "date": 1774237440000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The book ``Learning from Masterpieces: How to View and Take Photographs,'' a book that teaches you both photographic expression and ``how to see paintings'' at the same time, is now 72% off from 1,782 yen to 499 yen. We are holding a daily sale that can be purchased on Kindle",
     "link": "https://news.denfaminicogamer.jp/news/260323l",
     "date": 1774237488000,
@@ -3898,6 +3889,15 @@
     "date": 1774248547000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Capcom holds \"SPRING SALE\" where the \"Resident Evil\" series celebrates its 30th anniversary at a bargain price",
+    "link": "https://gamebiz.jp/news/423043",
+    "date": 1774249020000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
