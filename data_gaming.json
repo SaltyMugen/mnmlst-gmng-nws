@@ -171,7 +171,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all dot illustrations are newly drawn.",
+    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all pixel illustrations are newly drawn.",
     "link": "https://news.denfaminicogamer.jp/news/260322c",
     "date": 1774152895000,
     "domain": "news.denfaminicogamer.jp",
@@ -288,7 +288,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released along with images that provide hints about the characters to be implemented.",
+    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released, along with images that provide hints about the characters to be implemented.",
     "link": "https://news.denfaminicogamer.jp/news/260322g",
     "date": 1774165838000,
     "domain": "news.denfaminicogamer.jp",
@@ -334,20 +334,20 @@
     "hotScore": 1
   },
   {
-    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
-    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
-    "date": 1774173600000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
     "date": 1774173600000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
+    "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
+    "date": 1774173600000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -379,7 +379,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Free] “Jojo” Part 1 & Part 2 “all volumes” are now available for free at each e-book store! To commemorate the start of Part 7 “Steel Ball Run” anime",
+    "title": "[Free] “JoJo” Part 1 & Part 2 “all volumes” are now available for free at each e-book store! To commemorate the start of Part 7 “Steel Ball Run” anime",
     "link": "https://news.denfaminicogamer.jp/news/260322j",
     "date": 1774177129000,
     "domain": "news.denfaminicogamer.jp",
@@ -393,15 +393,6 @@
     "date": 1774177200000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Screamer review",
-    "link": "https://www.pcgamer.com/games/racing/screamer-review",
-    "date": 1774177200000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -420,6 +411,15 @@
     "date": 1774177200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Screamer review",
+    "link": "https://www.pcgamer.com/games/racing/screamer-review",
+    "date": 1774177200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -523,20 +523,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Wheel of Time is getting an animated show and a PC/mobile game, which is different from the open-world action RPG already in development",
-    "link": "https://www.pcgamer.com/games/rpg/the-wheel-of-time-is-getting-an-animated-show-and-a-pc-mobile-game-which-is-different-from-the-open-world-action-rpg-already-in-development",
-    "date": 1774188000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Congratulations to Resident Evil, 30 Years Old Today and Better Than Ever",
     "link": "https://www.pushsquare.com/features/congratulations-to-resident-evil-30-years-old-today-and-better-than-ever",
     "date": 1774188000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Wheel of Time is getting an animated show and a PC/mobile game, which is different from the open-world action RPG already in development",
+    "link": "https://www.pcgamer.com/games/rpg/the-wheel-of-time-is-getting-an-animated-show-and-a-pc-mobile-game-which-is-different-from-the-open-world-action-rpg-already-in-development",
+    "date": 1774188000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -595,11 +595,20 @@
     "hotScore": 1
   },
   {
-    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
-    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
     "date": 1774191600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
+    "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
+    "date": 1774191600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -622,20 +631,11 @@
     "hotScore": 1
   },
   {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
+    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
     "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "'We Should Have Clearly Disclosed Our Use of AI': Crimson Desert Dev 'Sincerely Apologises' for Erroneously Including AI Art in PS5 Game",
-    "link": "https://www.pushsquare.com/news/2026/03/we-should-have-clearly-disclosed-our-use-of-ai-crimson-desert-dev-sincerely-apologises-for-erroneously-including-ai-art-in-ps5-game",
-    "date": 1774191600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -685,20 +685,20 @@
     "hotScore": 1
   },
   {
-    "title": "This cosplayer takes crochet to wild new heights by creating entire needlework outfits, and I'm feeling a little bad that the best I can do is a fuzzy shrimp",
-    "link": "https://www.pcgamer.com/games/this-cosplayer-takes-crochet-to-wild-new-heights-by-creating-entire-needlework-outfits-and-im-feeling-a-little-bad-that-the-best-i-can-do-is-a-fuzzy-shrimp",
-    "date": 1774195200000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Poll: Who's Your Favourite Resident Evil Villain?",
     "link": "https://www.nintendolife.com/features/poll-whos-your-favourite-resident-evil-villain",
     "date": 1774195200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "This cosplayer takes crochet to wild new heights by creating entire needlework outfits, and I'm feeling a little bad that the best I can do is a fuzzy shrimp",
+    "link": "https://www.pcgamer.com/games/this-cosplayer-takes-crochet-to-wild-new-heights-by-creating-entire-needlework-outfits-and-im-feeling-a-little-bad-that-the-best-i-can-do-is-a-fuzzy-shrimp",
+    "date": 1774195200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -973,7 +973,7 @@
     "hotScore": 1
   },
   {
-    "title": "A new character in the sequel of the beautiful girl android repair ADV ``D1AL-ogue'', which is popular for its depiction of mecha-barre, has been released. Brown, belly exposed, sanpaku eyes! ? Expectations are high again as it is full of great things.",
+    "title": "A new character for the sequel of the beautiful girl android repair ADV ``D1AL-ogue'', which is popular for its depiction of mecha-barre, has been released. Brown, belly exposed, sanpaku eyes! ? Expectations are high again as it is full of great things.",
     "link": "http://www.gamespark.jp/article/2026/03/23/164211.html",
     "date": 1774226103000,
     "domain": "gamespark.jp",
@@ -1045,7 +1045,7 @@
     "hotScore": 1
   },
   {
-    "title": "DeckLand, a deck-building RPG where positioning and evasion are the keys, is now available for early access on Steam. A martial arts story based on Korean folk tales and folklore is depicted.",
+    "title": "DeckLand, a deck-building RPG where positioning and evasion are the keys, has started early access on Steam. A martial arts story based on Korean folk tales and folklore is depicted.",
     "link": "https://www.4gamer.net/games/857/G085773/20260323002",
     "date": 1774230377000,
     "domain": "4gamer.net",
@@ -1198,7 +1198,7 @@
     "hotScore": 1
   },
   {
-    "title": "``PASSIS'', a highly difficult roguelite that only requires inputting 4 digits, became a hot topic when it was released for free. Brain-fueled hacking that is recommended to be played with ChatGPT etc.",
+    "title": "``PASSIS'', a highly difficult roguelite that only requires you to enter 4 digits, became a hot topic when it was released for free. Brain-fueled hacking that is recommended to be played with ChatGPT etc.",
     "link": "https://automaton-media.com/articles/newsjp/20260323-431442",
     "date": 1774234455000,
     "domain": "automaton-media.com",
@@ -1261,7 +1261,7 @@
     "hotScore": 1
   },
   {
-    "title": "ADV ``Memorial Vacation'', released on July 23rd. An original story set in Okinawa",
+    "title": "ADV “Memorial Vacation”, “Memorial Vacation”, released on July 23rd. An original story set in Okinawa",
     "link": "https://www.4gamer.net/games/992/G099246/20260323014",
     "date": 1774235979000,
     "domain": "4gamer.net",
@@ -1575,7 +1575,7 @@
         "isTranslated": true
       },
       {
-        "title": "``Grandidier of Decline'', a despairing gem creation game in which an older sister spits out gems for her younger brother, is now available for free. A \"self-sacrificing\" system where your physical condition and spirit are reduced each time you create a gem.",
+        "title": "``Grandidier of Decline,'' a despairing gem generation game in which an older sister spits out gems for her younger brother, is now available for free. A \"self-sacrificing\" system where your physical condition and spirit are reduced each time you create a gem.",
         "link": "https://news.denfaminicogamer.jp/news/260323q",
         "date": 1774246822000,
         "domain": "news.denfaminicogamer.jp",
@@ -1639,7 +1639,7 @@
     "hotScore": 1
   },
   {
-    "title": "BOOTH has started offering a new anonymous delivery service \"YuYu BOOTH Pack\" in cooperation with Japan Post. Recommended for shop owners who handle many thin and small products.",
+    "title": "BOOTH has started offering a new anonymous delivery service \"YuYu BOOTH Pack\" in collaboration with Japan Post. Recommended for shop owners who handle many thin and small products.",
     "link": "https://news.denfaminicogamer.jp/news/260323t",
     "date": 1774250381000,
     "domain": "news.denfaminicogamer.jp",
@@ -1757,7 +1757,7 @@
     "hotScore": 1
   },
   {
-    "title": "A collaboration project between \"Street Fighter\" and Boat Race \"BOATRACE FIGHTER\" is being held. A total of 9 races will be held, the first campaign has started",
+    "title": "A collaboration project between \"Street Fighter\" and boat racing \"BOATRACE FIGHTER\" is being held. A total of 9 races will be held, the first campaign has started",
     "link": "https://www.4gamer.net/games/635/G063504/20260323038",
     "date": 1774254717000,
     "domain": "4gamer.net",
@@ -1901,7 +1901,7 @@
     "hotScore": 1
   },
   {
-    "title": "Warner, the animation “Demon’s Crest” produced by “SAO” Reki Kawahara will be produced by Production I.G! Broadcast is scheduled for 2026",
+    "title": "Warner, the animation \"Demon's Crest\" produced by \"SAO\" Reki Kawahara will be produced by Production I.G! Broadcast is scheduled for 2026",
     "link": "https://gamebiz.jp/news/423056",
     "date": 1774256580000,
     "domain": "gamebiz.jp",
@@ -2282,7 +2282,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Free release] \"Sick Kawa\" will be killed if you don't notice her change \"Menhera anomaly search\" at unityroom - Produced by Egao Inu, author of \"DON'T STOP SMILING\"",
+    "title": "[Free release] \"Sick Kawa\" - A game that will kill you if you don't notice her changes \"Menhera anomaly search\" at unityroom - Produced by Egao Inu, author of \"DON'T STOP SMILING\"",
     "link": "http://www.gamespark.jp/article/2026/03/23/164240.html",
     "date": 1774260903000,
     "domain": "gamespark.jp",
@@ -2988,15 +2988,6 @@
     ]
   },
   {
-    "title": "Resident Evil Requiem Developer Capcom Insists It Won't Use AI-Generated Assets in Its Games, but Will Harness Tech to Make Game Development Processes More Efficient",
-    "link": "https://www.ign.com/articles/resident-evil-requiem-developer-capcom-insists-it-wont-use-ai-generated-assets-in-its-games-but-will-harness-tech-to-make-game-development-processes-more-efficient",
-    "date": 1774273037000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "This week in PC games: a new Hooded Horse city-builder, some PS2-style horror, a school-day RPG and an absolutely tremendous catfish",
     "link": "https://www.rockpapershotgun.com/this-week-in-pc-games-a-new-hooded-horse-city-builder-some-ps2-style-horror-a-school-day-rpg-and-an-absolutely-tremendous-catfish",
     "date": 1774273136000,
@@ -3011,15 +3002,6 @@
     "date": 1774273158000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "2019's Call of Duty: Modern Warfare Is Blowing Up on Steam Thanks to a Big Sale and Positive Word of Mouth",
-    "link": "https://www.ign.com/articles/2019s-call-of-duty-modern-warfare-is-blowing-up-on-steam-thanks-to-a-big-sale-and-positive-word-of-mouth",
-    "date": 1774273646000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3051,11 +3033,11 @@
     "hotScore": 1
   },
   {
-    "title": "Dying Light: The Beast Announces Restored Land Edition That Adds Lots of Free Content",
-    "link": "https://www.ign.com/articles/dying-light-the-beast-announces-restored-land-update-that-adds-lots-of-free-content",
+    "title": "PS5 Players Will Definitely Want to Tune into Xbox's Partner Preview Later This Week",
+    "link": "https://www.pushsquare.com/news/2026/03/ps5-players-will-definitely-want-to-tune-into-xboxs-partner-preview-later-this-week",
     "date": 1774274400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3065,15 +3047,6 @@
     "date": 1774274400000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PS5 Players Will Definitely Want to Tune into Xbox's Partner Preview Later This Week",
-    "link": "https://www.pushsquare.com/news/2026/03/ps5-players-will-definitely-want-to-tune-into-xboxs-partner-preview-later-this-week",
-    "date": 1774274400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3270,6 +3243,15 @@
     "date": 1774275784000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Marvel's Wolverine Preorders Waiting On Insomniac's Next Gameplay Reveal",
+    "link": "https://www.gamespot.com/articles/marvels-wolverine-preorders-waiting-on-insomniacs-next-gameplay-reveal/1100-6538943",
+    "date": 1774276020000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3654,15 +3636,6 @@
     "hotScore": 1
   },
   {
-    "title": "Overwatch co-creator Jeff Kaplan says Breath of the Wild is \"the greatest game ever made\" – \"How can Legend of Zelda: Ocarina of Time exist and somebody make an even better Zelda game?\"",
-    "link": "https://www.gamesradar.com/games/the-legend-of-zelda/overwatch-co-creator-jeff-kaplan-says-breath-of-the-wild-is-the-greatest-game-ever-made-how-can-legend-of-zelda-ocarina-of-time-exist-and-somebody-make-an-even-better-zelda-game",
-    "date": 1774281583000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Giant Robot Hellboy Returns Delivers Another Wacky Mecha Adventure",
     "link": "https://www.ign.com/articles/giant-robot-hellboy-returns-delivers-another-wacky-mecha-adventure",
     "date": 1774281600000,
@@ -3913,7 +3886,17 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Crimson Desert Players Are Begging For Mounts To Be Permanent",
+        "link": "https://www.gamespot.com/articles/crimson-desert-players-are-begging-for-mounts-to-be-permanent/1100-6538947",
+        "date": 1774276380000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Xbox Partner Preview to highlight Stranger Than Heaven, The Expanse, and more",
@@ -4579,20 +4562,20 @@
     "hotScore": 1
   },
   {
-    "title": "High On Life 2 Delayed For Switch 2, No Longer Releasing On 4/20",
-    "link": "https://www.gamespot.com/articles/high-on-life-2-delayed-for-switch-2-no-longer-releasing-on-4-20/1100-6538952",
-    "date": 1774289700000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Samsung's High End 65\" S90 4K OLED Smart TV Drops to Just $1,044 During the Amazon Spring Sale",
     "link": "https://www.ign.com/articles/samsung-s90-4k-oled-tv-deal-early-amazon-spring-sale",
     "date": 1774289700000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "High On Life 2 Delayed For Switch 2, No Longer Releasing On 4/20",
+    "link": "https://www.gamespot.com/articles/high-on-life-2-delayed-for-switch-2-no-longer-releasing-on-4-20/1100-6538952",
+    "date": 1774289700000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4615,20 +4598,20 @@
     "hotScore": 1
   },
   {
-    "title": "Nvidia CEO Hates AI Slop Too, Promises DLSS 5 Isn't Making More Despite The Evidence",
-    "link": "https://www.gamespot.com/articles/nvidia-ceo-hates-ai-slop-too-promises-dlss-5-isnt-making-more-despite-the-evidence/1100-6538958",
-    "date": 1774290480000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Japanese Teens Apparently Love Nintendo Switch More Than Pokémon & Disney",
     "link": "https://www.nintendolife.com/news/2026/03/japanese-teens-apparently-love-nintendo-switch-more-than-pokemon-and-disney",
     "date": 1774290600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "EA Confirms Battlefield Game is Shutting Down on Consoles on June 22",
+    "link": "https://gamerant.com/battlefield-hardline-shutdown-date-consoles",
+    "date": 1774290614000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4817,6 +4800,15 @@
     "title": "Star Trek: Starfleet Academy Will End With Season 2",
     "link": "https://www.ign.com/articles/star-trek-starfleet-academy-will-end-with-season-2",
     "date": 1774292446000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert Doesn't Work on Intel GPUs, But Pearl Abyss Is Working On It",
+    "link": "https://www.ign.com/articles/crimson-desert-doesnt-work-on-intel-gpus-but-pearl-abyss-is-working-on-it",
+    "date": 1774292591000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
@@ -5101,25 +5093,6 @@
     "hotScore": 1
   },
   {
-    "title": "One Of The Most Controversial Battlefield Games Is Shutting Down On Consoles Soon",
-    "link": "https://www.gamespot.com/articles/one-of-the-most-controversial-battlefield-games-is-shutting-down-on-consoles-soon/1100-6538954",
-    "date": 1774293840000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "EA Confirms Battlefield Game is Shutting Down on Consoles on June 22",
-        "link": "https://gamerant.com/battlefield-hardline-shutdown-date-consoles",
-        "date": 1774290614000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "How To Collect Pokémon Cards In 2026 Without Spending A Fortune",
     "link": "https://kotaku.com/pokemon-tcg-collection-collecting-cheap-trading-2000681059",
     "date": 1774294152000,
@@ -5165,6 +5138,15 @@
     "hotScore": 1
   },
   {
+    "title": "The AMD Ryzen 7 9800X3D Processor Drops to the Lowest Price Ever, Also Includes Crimson Desert",
+    "link": "https://www.ign.com/articles/amd-ryzen-7-9800x3d-cpu-deal-early-amazon-spring-sale",
+    "date": 1774294500000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Fortnite's Peak Skin Costs Almost Triple The Actual Game",
     "link": "https://www.thegamer.com/fortnite-peak-skin-more-expensive-than-game",
     "date": 1774294526000,
@@ -5179,6 +5161,15 @@
     "date": 1774294697000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Dredge+ and More Games Coming to Apple Arcade in April 2026",
+    "link": "https://www.ign.com/articles/apple-arcade-new-games-april-2026",
+    "date": 1774294878000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5215,6 +5206,15 @@
     "date": 1774295745000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "As The Boys' final season approaches, Eric Kripke slams sci-fi shows that end with no casualties: \"I keep yelling at the screen, 'Things cost things! You can't get away with this!'\"",
+    "link": "https://www.gamesradar.com/entertainment/superhero-shows/as-the-boys-final-season-approaches-eric-kripke-slams-sci-fi-shows-that-end-with-no-casualties-i-keep-yelling-at-the-screen-things-cost-things-you-cant-get-away-with-this",
+    "date": 1774296000000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   },
