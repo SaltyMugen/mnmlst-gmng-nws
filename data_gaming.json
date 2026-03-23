@@ -198,20 +198,20 @@
     "hotScore": 1
   },
   {
-    "title": "What are we all playing this weekend?",
-    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
-    "date": 1774080000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
     "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
     "date": 1774080000000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What are we all playing this weekend?",
+    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
+    "date": 1774080000000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -315,7 +315,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Marathon\" review. A “different” game that does not fit into the framework of “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
+    "title": "\"Marathon\" review. An “unique” game that does not fit into the framework of an “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
     "link": "https://automaton-media.com/articles/impressionjp/marathon-20260321-431075",
     "date": 1774083601000,
     "domain": "automaton-media.com",
@@ -541,15 +541,6 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
-    "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Talking Point: What Are You Playing This Weekend? (March 21-22)",
     "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-march-21-22",
     "date": 1774094400000,
@@ -559,22 +550,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
         "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
         "date": 1774089000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "14 years since the service started, \"Dragon Quest X\" main story is coming to an end! New “stories” themselves will continue in the future.",
@@ -592,6 +592,15 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Daughter raising sim “Machine Child” Steam version to be released on April 8th. An “all ages” game developed by illustrator Ashito Oyari for over 9 years has overcome regulations and is now available on Steam.",
+    "link": "https://automaton-media.com/articles/newsjp/machine-child-20260321-431168",
+    "date": 1774096692000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -676,20 +685,20 @@
     "hotScore": 1
   },
   {
-    "title": "Crimson Desert Dev to Patch PS5 RPG's 'Uncomfortable' Controls",
-    "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-to-patch-ps5-rpgs-uncomfortable-controls",
-    "date": 1774103400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Guide: Based On Previous Years, Here's When The Xbox Spring Sale 2026 Should Begin",
     "link": "https://www.purexbox.com/guides/based-on-previous-years-heres-when-the-xbox-spring-sale-2026-should-begin",
     "date": 1774103400000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert Dev to Patch PS5 RPG's 'Uncomfortable' Controls",
+    "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-to-patch-ps5-rpgs-uncomfortable-controls",
+    "date": 1774103400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -712,8 +721,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -721,8 +730,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -838,20 +847,20 @@
     "hotScore": 1
   },
   {
-    "title": "Hands On: Nintendo's My Mario Toy Series Is Cute, But Offers Mixed Value For Your Little Ones",
-    "link": "https://www.nintendolife.com/features/hands-on-nintendos-my-mario-toy-series-is-cute-but-offers-mixed-value-for-your-little-ones",
-    "date": 1774108800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Talking Point: What Are Your First Impressions Of Crimson Desert On Xbox?",
     "link": "https://www.purexbox.com/features/talking-point-what-are-your-first-impressions-of-crimson-desert-on-xbox",
     "date": 1774108800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hands On: Nintendo's My Mario Toy Series Is Cute, But Offers Mixed Value For Your Little Ones",
+    "link": "https://www.nintendolife.com/features/hands-on-nintendos-my-mario-toy-series-is-cute-but-offers-mixed-value-for-your-little-ones",
+    "date": 1774108800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1290,7 +1299,7 @@
     "hotScore": 1
   },
   {
-    "title": "CORDURA, a cooperative horror game in which the player collects and escapes from a mansion where enemies imitate the player's appearance and voice are hiding, is currently in development. The longer you stay, the more your sanity decreases and the structures change [This week's 3 indies]",
+    "title": "CORDURA, a cooperative horror game in which the player collects and escapes from a mansion where enemies that imitate the player's appearance and voice are hiding, is currently in development. The longer you stay, the more your sanity decreases and the structures change [This week's 3 indies]",
     "link": "http://www.gamespark.jp/article/2026/03/22/164191.html",
     "date": 1774132204000,
     "domain": "gamespark.jp",
@@ -1623,15 +1632,6 @@
     "hotScore": 1
   },
   {
-    "title": "Financial results article summary (March 16-20, 2016)",
-    "link": "https://gamebiz.jp/news/422989",
-    "date": 1774162800000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Muse Dash” and “Narushio” collaboration song will be released on March 27th. All three songs “Chasing Daylight”, “RUNNING FOR YOUR LIFE” and “CATCH ME IF YOU CAN” have been implemented.",
     "link": "https://news.denfaminicogamer.jp/news/260322f",
     "date": 1774163527000,
@@ -1659,7 +1659,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released along with images that provide hints about the characters to be implemented.",
+    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released, along with images that provide hints about the characters to be implemented.",
     "link": "https://news.denfaminicogamer.jp/news/260322g",
     "date": 1774165838000,
     "domain": "news.denfaminicogamer.jp",
@@ -1705,7 +1705,7 @@
     "hotScore": 1
   },
   {
-    "title": "Steal the broken parts from enemy robots! “Cargo Hunters” is a PvE escape shooter set on a post-collapse Earth, but it’s a little monotonous, but we look forward to future content expansion [Gemspa Robogame Catalog]",
+    "title": "Steal the broken parts from enemy robots! PvE escape shooter \"Cargo Hunters\" set on a post-collapse Earth is a bit monotonous, but we look forward to future content expansion [Gemspa Robogame Catalog]",
     "link": "http://www.gamespark.jp/article/2026/03/22/164203.html",
     "date": 1774170004000,
     "domain": "gamespark.jp",
@@ -1777,20 +1777,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
-    "date": 1774173600000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
     "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
     "date": 1774173600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
+    "date": 1774173600000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1850,15 +1850,6 @@
     "hotScore": 1
   },
   {
-    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
-    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
-    "date": 1774177200000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Screamer Review",
     "link": "https://www.ign.com/articles/screamer-review",
     "date": 1774177200000,
@@ -1878,11 +1869,11 @@
     ]
   },
   {
-    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
-    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
+    "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
+    "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
     "date": 1774177200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1892,6 +1883,15 @@
     "date": 1774177200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
+    "link": "https://www.nintendolife.com/features/poll-box-art-brawl-resident-evil-code-veronica-x-gamecube",
+    "date": 1774177200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1949,6 +1949,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "“Guilty Gear Strive” new characters “Samu” and “Robokai” will be participating! “Samu” will be available at the same time as “Ver 2.0” distributed on April 9th, and “Robokai” is scheduled to be distributed in summer 2026.",
+    "link": "https://news.denfaminicogamer.jp/news/260322k",
+    "date": 1774179278000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
   },
   {
     "title": "Guilty Gear: Strive version 2.00 update, Season 5 DLC characters Jam Kuradoberi and Robo=Ky announced",
@@ -2056,20 +2065,20 @@
     "hotScore": 1
   },
   {
-    "title": "Peni Parker Is the Perfect Fit for PS5, PC Fighter Marvel Tokon",
-    "link": "https://www.pushsquare.com/news/2026/03/peni-parker-is-the-perfect-fit-for-ps5-pc-fighter-marvel-tokon",
-    "date": 1774180800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Gets Major 'Just For You' Discount On The Microsoft Store",
     "link": "https://www.purexbox.com/news/2026/03/xbox-series-x-gets-major-just-for-you-discount-on-the-microsoft-store",
     "date": 1774180800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Peni Parker Is the Perfect Fit for PS5, PC Fighter Marvel Tokon",
+    "link": "https://www.pushsquare.com/news/2026/03/peni-parker-is-the-perfect-fit-for-ps5-pc-fighter-marvel-tokon",
+    "date": 1774180800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2164,20 +2173,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: Congratulations to Resident Evil, 30 Years Old Today and Better Than Ever",
-    "link": "https://www.pushsquare.com/features/congratulations-to-resident-evil-30-years-old-today-and-better-than-ever",
-    "date": 1774188000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'The Game Is Running On Consoles' - Samson Dev Hints At Potential Xbox Version",
     "link": "https://www.purexbox.com/news/2026/03/the-game-is-running-on-consoles-samson-dev-hints-at-potential-xbox-version",
     "date": 1774188000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Congratulations to Resident Evil, 30 Years Old Today and Better Than Ever",
+    "link": "https://www.pushsquare.com/features/congratulations-to-resident-evil-30-years-old-today-and-better-than-ever",
+    "date": 1774188000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2290,15 +2299,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
-    "date": 1774191600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
     "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
     "date": 1774191600000,
@@ -2308,11 +2308,11 @@
     "hotScore": 1
   },
   {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2322,6 +2322,15 @@
     "date": 1774191600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2434,20 +2443,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Who's Your Favourite Resident Evil Villain?",
-    "link": "https://www.nintendolife.com/features/poll-whos-your-favourite-resident-evil-villain",
-    "date": 1774195200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Two Xbox Executives Announce Their Departures From Microsoft",
     "link": "https://www.purexbox.com/news/2026/03/two-xbox-executives-announce-their-departures-from-microsoft",
     "date": 1774195200000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Who's Your Favourite Resident Evil Villain?",
+    "link": "https://www.nintendolife.com/features/poll-whos-your-favourite-resident-evil-villain",
+    "date": 1774195200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2854,25 +2863,7 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "“Guilty Gear Strive” Season Pass 5 announced! Four new characters will be joining the battle, including “Kuradoen Sayu” and “Robokai”",
-        "link": "https://automaton-media.com/articles/newsjp/machine-child-20260321-431168",
-        "date": 1774096692000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "“Guilty Gear Strive” new characters “Samu” and “Robokai” will be participating! “Samu” will be available at the same time as “Ver 2.0” distributed on April 9th, and “Robokai” is scheduled to be distributed in summer 2026.",
-        "link": "https://news.denfaminicogamer.jp/news/260322k",
-        "date": 1774179278000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "The first season of the anime “Dorohedoro” will be available for free for a limited time on YouTube from March 25th. In addition, the non-credit OP and ED videos of the second season, scheduled to be distributed from April 1st, have been released. Shocking and chaotic content typical of Dorohedoro",
@@ -3136,7 +3127,7 @@
     "hotScore": 1
   },
   {
-    "title": "[What day is it today? ] Bandai Namco ENT releases \"SD Shin Kamen Rider Ranbu\"... OP video homage to the movie \"Shin Kamen Rider\" released (March 23, 2023)",
+    "title": "[What day is it today? ] Bandai Namco ENT releases \"SD Shin Kamen Rider Ranbu\"...Opening video homage to the movie \"Shin Kamen Rider\" released (March 23, 2023)",
     "link": "https://gamebiz.jp/news/422896",
     "date": 1774228500000,
     "domain": "gamebiz.jp",
@@ -3217,7 +3208,7 @@
     "hotScore": 1
   },
   {
-    "title": "DeckLand, a deck-building RPG where positioning and evasion are the keys, is now available for early access on Steam. A martial arts story based on Korean folk tales and folklore is depicted.",
+    "title": "DeckLand, a deck-building RPG where positioning and evasion are the keys, has started early access on Steam. A martial arts story based on Korean folk tales and folklore is depicted.",
     "link": "https://www.4gamer.net/games/857/G085773/20260323002",
     "date": 1774230377000,
     "domain": "4gamer.net",
@@ -3421,9 +3412,36 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of “Crimson Desert” apologizes for including AI-generated assets. \"Unintentional\" contamination in product version, announced investigation and implementation of replacement patch",
-    "link": "http://www.gamespark.jp/article/2026/03/23/164217.html",
-    "date": 1774232104000,
+    "title": "New Blood boss Dave Oshry 'quadruples down' on supporting GOG after worrying about its future, committing to sales, demos, one-click mods, plus day-and-date releases alongside Steam",
+    "link": "https://www.pcgamer.com/gaming-industry/new-blood-boss-dave-oshry-quadruples-down-on-supporting-gog-after-worrying-about-its-future-committing-to-sales-demos-one-click-mods-plus-day-and-date-releases-alongside-steam",
+    "date": 1774232367000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Indie game developer Ohana Student Council releases Gem of Despair generation multi-end ADV “Grandidier of Decline” for free on Unityroom",
+    "link": "https://gamebiz.jp/news/423015",
+    "date": 1774232640000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "BANDAI NAMCO EX and BANDAI SPIRITS will open “BANDAI SPIRITS Official Crane Game Spot” on March 25th at “Grand Tree Musashikosugi”",
+    "link": "https://gamebiz.jp/news/423020",
+    "date": 1774232820000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Crimson Desert” Patch to improve keyboard/mouse operation and playability is available on Steam. Will be distributed on other platforms at a later date",
+    "link": "http://www.gamespark.jp/article/2026/03/23/164218.html",
+    "date": 1774233004000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
@@ -3572,25 +3590,15 @@
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
         "isTranslated": true
+      },
+      {
+        "title": "The developer of “Crimson Desert” apologizes for including AI-generated assets. \"Unintentional\" contamination in product version, announced investigation and implementation of replacement patch",
+        "link": "http://www.gamespark.jp/article/2026/03/23/164217.html",
+        "date": 1774232104000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "New Blood boss Dave Oshry 'quadruples down' on supporting GOG after worrying about its future, committing to sales, demos, one-click mods, plus day-and-date releases alongside Steam",
-    "link": "https://www.pcgamer.com/gaming-industry/new-blood-boss-dave-oshry-quadruples-down-on-supporting-gog-after-worrying-about-its-future-committing-to-sales-demos-one-click-mods-plus-day-and-date-releases-alongside-steam",
-    "date": 1774232367000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Indie game developer Ohana Student Council releases Gem of Despair generation multi-end ADV “Grandidier of Decline” for free on Unityroom",
-    "link": "https://gamebiz.jp/news/423015",
-    "date": 1774232640000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
   }
 ]
