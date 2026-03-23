@@ -126,7 +126,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Notice] Talk show for gamers “Game*Spark’s Radio Goodwill X” will be broadcast from 11:00 pm on March 21st!",
+    "title": "[Notice] Talk show for gamers “Game*Spark’s Radio Goodwill X” will be broadcast from 23:00 on March 21st!",
     "link": "http://www.gamespark.jp/article/2026/03/21/164171.html",
     "date": 1774062004000,
     "domain": "gamespark.jp",
@@ -324,20 +324,20 @@
     "hotScore": 1
   },
   {
-    "title": "What are we all playing this weekend?",
-    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
-    "date": 1774080000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What we've been playing - \"It's like Supermarket Sweep if you can get up quick enough\"",
     "link": "https://www.eurogamer.net/what-weve-been-playing-supermarket-sweep",
     "date": 1774080000000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "What are we all playing this weekend?",
+    "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-374",
+    "date": 1774080000000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -450,7 +450,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Marathon\" review. A “different” game that does not fit into the framework of “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
+    "title": "\"Marathon\" review. An “unique” game that does not fit into the framework of an “escape shooter”, an instinctive desire to evolve brought about by a vivid design and a cycle of death.",
     "link": "https://automaton-media.com/articles/impressionjp/marathon-20260321-431075",
     "date": 1774083601000,
     "domain": "automaton-media.com",
@@ -504,7 +504,7 @@
     "hotScore": 1
   },
   {
-    "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Wizard\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
+    "title": "The first key visual of Aoko Aosaki deploying a magic circle from the movie \"Night of the Witch\" has been released! Ufotable will adapt the legendary visual novel released by TYPE-MOON in 2012 into a theatrical animation.",
     "link": "https://news.denfaminicogamer.jp/news/260321h",
     "date": 1774083969000,
     "domain": "news.denfaminicogamer.jp",
@@ -666,15 +666,6 @@
     ]
   },
   {
-    "title": "Does Jury Duty Season 2 Justify Its Existence?",
-    "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
-    "date": 1774094400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Blight: Survival offers a fresh slice of its medieval zombie-slaying, after its developer took a break to 'rebuild our core systems from the ground up'",
     "link": "https://www.pcgamer.com/games/action/blight-survival-offers-a-fresh-slice-of-its-medieval-zombie-slaying-after-its-developer-took-a-break-to-rebuild-our-core-systems-from-the-ground-up",
     "date": 1774094400000,
@@ -684,11 +675,11 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
-    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "title": "Does Jury Duty Season 2 Justify Its Existence?",
+    "link": "https://www.ign.com/articles/does-jury-duty-presents-company-retreat-season-2-justify-its-existence",
     "date": 1774094400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -702,22 +693,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
-        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
-        "date": 1774087200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? - Issue 625",
         "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-625",
         "date": 1774089000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? (21st March)",
+        "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-march",
+        "date": 1774087200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Guide: 50 Best Game Boy Advance Games Of All Time",
+    "link": "https://www.nintendolife.com/guides/50-best-game-boy-advance-games-of-all-time",
+    "date": 1774094400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "ZUOSOFT releases flight action game “Tori no Uta ~Be a Bird~” for smartphones worldwide",
@@ -819,20 +819,20 @@
     "hotScore": 1
   },
   {
-    "title": "How Project Hail Mary Gets Rocky Right",
-    "link": "https://www.ign.com/articles/how-project-hail-mary-gets-rocky-right-alien",
-    "date": 1774101600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "After one of Blood's best mods added a new episode in January, another brilliant spin on Monolith's shooter just got an even bigger overhaul",
     "link": "https://www.pcgamer.com/games/fps/after-one-of-bloods-best-mods-added-a-new-episode-in-january-another-brilliant-spin-on-monoliths-shooter-just-got-an-even-bigger-overhaul",
     "date": 1774101600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How Project Hail Mary Gets Rocky Right",
+    "link": "https://www.ign.com/articles/how-project-hail-mary-gets-rocky-right-alien",
+    "date": 1774101600000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -900,8 +900,8 @@
     "hotScore": 1
   },
   {
-    "title": "How many games can you identify just from a screenshot of their open world?",
-    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
+    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
+    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -909,8 +909,8 @@
     "hotScore": 1
   },
   {
-    "title": "If you simply cannot wait for the new Heroes of Might and Magic, this sci-fi take on HoMM just launched from Steam early access",
-    "link": "https://www.pcgamer.com/games/strategy/if-you-simply-cannot-wait-for-the-new-heroes-of-might-and-magic-this-sci-fi-take-on-homm-just-launched-from-steam-early-access",
+    "title": "How many games can you identify just from a screenshot of their open world?",
+    "link": "https://www.pcgamer.com/games/how-many-games-can-you-identify-just-from-a-screenshot-of-their-open-world",
     "date": 1774105200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -1469,7 +1469,7 @@
     "hotScore": 1
   },
   {
-    "title": "CORDURA, a cooperative horror game in which the player collects and escapes from a mansion where enemies imitate the player's appearance and voice are hiding, is currently in development. The longer you stay, the more your sanity decreases and the structures change [This week's 3 indies]",
+    "title": "CORDURA, a cooperative horror game in which the player collects and escapes from a mansion where enemies that imitate the player's appearance and voice are hiding, is currently in development. The longer you stay, the more your sanity decreases and the structures change [This week's 3 indies]",
     "link": "http://www.gamespark.jp/article/2026/03/22/164191.html",
     "date": 1774132204000,
     "domain": "gamespark.jp",
@@ -1739,7 +1739,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all dot illustrations are newly drawn.",
+    "title": "\"Digimon\" new smartphone app \"Digimon UP\" will be released in 2026! In addition to many Digimon elements appearing, all pixel illustrations are newly drawn.",
     "link": "https://news.denfaminicogamer.jp/news/260322c",
     "date": 1774152895000,
     "domain": "news.denfaminicogamer.jp",
@@ -1874,7 +1874,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released along with images that provide hints about the characters to be implemented.",
+    "title": "“Granblue Fantasy VSR” new characters have been added! Information on Ver 2.60, which will be implemented in the future, is released, along with images that provide hints about the characters to be implemented.",
     "link": "https://news.denfaminicogamer.jp/news/260322g",
     "date": 1774165838000,
     "domain": "news.denfaminicogamer.jp",
@@ -1992,20 +1992,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
-    "date": 1774173600000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
     "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
     "date": 1774173600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
+    "date": 1774173600000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2074,6 +2074,25 @@
     "hotScore": 1
   },
   {
+    "title": "Screamer review",
+    "link": "https://www.pcgamer.com/games/racing/screamer-review",
+    "date": 1774177200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Screamer Review",
+        "link": "https://www.ign.com/articles/screamer-review",
+        "date": 1774177200000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "RPS Verdict: Anime racer Screamer slides sideways into success with its colourful, characterful driving",
     "link": "https://www.rockpapershotgun.com/rps-verdict-screamer-review",
     "date": 1774177200000,
@@ -2083,23 +2102,13 @@
     "hotScore": 1
   },
   {
-    "title": "Screamer Review",
-    "link": "https://www.ign.com/articles/screamer-review",
+    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
+    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
     "date": 1774177200000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Screamer review",
-        "link": "https://www.pcgamer.com/games/racing/screamer-review",
-        "date": 1774177200000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Poll: Box Art Brawl - Resident Evil: Code Veronica X (GameCube)",
@@ -2107,15 +2116,6 @@
     "date": 1774177200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Review: Screamer (PS5) - Finally, a Racing Game Doing Something Interesting",
-    "link": "https://www.pushsquare.com/reviews/ps5/screamer",
-    "date": 1774177200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2514,15 +2514,6 @@
     ]
   },
   {
-    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
-    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
-    "date": 1774191600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
     "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
     "date": 1774191600000,
@@ -2541,11 +2532,11 @@
     "hotScore": 1
   },
   {
-    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
-    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "title": "I've finally found my true calling, and it's kicking people out of national parks for the slightest infractions of the rules",
+    "link": "https://www.pcgamer.com/games/sim/ive-finally-found-my-true-calling-and-its-kicking-people-out-of-national-parks-for-the-slightest-infractions-of-the-rules",
     "date": 1774191600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2555,6 +2546,15 @@
     "date": 1774191600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Picross S Konami Antiques Edition Features Castlevania, Contra, And More",
+    "link": "https://www.nintendolife.com/news/2026/03/picross-s-konami-antiques-edition-features-castlevania-contra-and-more",
+    "date": 1774191600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3091,15 +3091,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Best Games On Xbox Game Pass (March 2026)",
-    "link": "https://gamerant.com/best-games-xbox-game-pass",
-    "date": 1774216815000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Sony PSP Handheld Gets Trophy Support Via Fan",
     "link": "https://www.thegamer.com/psp-playstation-portable-trophy-support-fan-project",
     "date": 1774216820000,
@@ -3498,12 +3489,21 @@
     "hotScore": 1
   },
   {
-    "title": "[The moment the service ends] KONAMI “Power Pro Eikan Cross”…Ah~ The crown shines on me~?",
+    "title": "[The moment the service ends] KONAMI “PowerPro Eikan Cross”…Ah~ The honor shines on me~?",
     "link": "https://gamebiz.jp/news/422581",
     "date": 1774224540000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Final Fantasy Games New Players Should Play First",
+    "link": "https://gamerant.com/final-fantasy-games-fans-recommend-to-newcomers",
+    "date": 1774224916000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
