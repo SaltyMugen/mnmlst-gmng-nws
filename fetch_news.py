@@ -69,7 +69,7 @@ SOURCES = [
     {"name": "Siliconera",        "rss": "https://www.siliconera.com/feed/",                                        "domain": "siliconera.com"},
     {"name": "RPG Site",          "rss": "https://www.rpgsite.net/rss",                                             "domain": "rpgsite.net"},
     {"name": "Reddit Leaks",      "rss": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss?sort=new",        "domain": "reddit.com", "isReddit": True},
-
+    {"name": "GamesBeat",         "rss": "https://gamesbeat.com/category/gameplay/feed/",                        "domain": "gamesbeat.com"},
     # --- INDUSTRY ---
     {"name": "GamesIndustry.biz", "rss": "https://www.gamesindustry.biz/rss/gamesindustry_news_feed.rss",           "domain": "gamesindustry.biz"},
 
