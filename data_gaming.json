@@ -63,20 +63,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
-    "date": 1774173600000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Are these the most heard recordings in history?\" - How the PEGI age rating recordings were made, and why €200 wasn't enough for them",
     "link": "https://www.eurogamer.net/story-of-pegi-voice-actor-richard-wells",
     "date": 1774173600000,
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-802",
+    "date": 1774173600000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -279,8 +279,8 @@
     "hotScore": 1
   },
   {
-    "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
-    "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
+    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
+    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -288,8 +288,8 @@
     "hotScore": 1
   },
   {
-    "title": "Nearly 2 years after hitting 1.0, goblin pachinko roguelike Peglin adds a fourth act and a final boss: 'It's been a long time coming'",
-    "link": "https://www.pcgamer.com/games/roguelike/nearly-2-years-after-hitting-1-0-goblin-pachinko-roguelike-peglin-adds-a-fourth-act-and-a-final-boss-its-been-a-long-time-coming",
+    "title": "With Steam reviews at 'Mixed', the developer of Half Sword addresses differences between the early access game and its hugely popular tech demo: 'The final version of the game will differ from what has been shown previously'",
+    "link": "https://www.pcgamer.com/games/action/with-steam-reviews-at-mixed-the-developer-of-half-sword-addresses-differences-between-the-early-access-game-and-its-hugely-popular-tech-demo-the-final-version-of-the-game-will-differ-from-what-has-been-shown-previously",
     "date": 1774191600000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -788,15 +788,6 @@
     "date": 1774234800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "[Terukazu Yoshida's picture diary] Trial version of Game Shop Sunset, a game shop management simulation set in those days when there were many game stores in the city.",
-    "link": "http://www.gamespark.jp/article/2026/03/23/164220.html",
-    "date": 1774234804000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1807,6 +1798,15 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Square Enix has partnered with Google to put an AI chat bot in Dragon Quest X",
+    "link": "https://www.videogameschronicle.com/news/square-enix-has-partnered-with-google-to-put-an-ai-chat-bot-in-dragon-quest-x",
+    "date": 1774263659000,
+    "domain": "videogameschronicle.com",
+    "sourceName": "VGC",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -3541,16 +3541,8 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
-      {
-        "title": "Square Enix has partnered with Google to put an AI chat bot in Dragon Quest X",
-        "link": "https://www.videogameschronicle.com/news/square-enix-has-partnered-with-google-to-put-an-ai-chat-bot-in-dragon-quest-x",
-        "date": 1774263659000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
       {
         "title": "Square Enix Is Adding An AI-Powered Slime Chatbot To Dragon Quest X",
         "link": "https://kotaku.com/dragon-quest-10-x-google-gemini-chatbot-slime-square-enix-2000681033",
@@ -5582,6 +5574,24 @@
     "date": 1774326900000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Continue mowing the grass in the garden late at night, where there are creatures that hunt prey by responding to sound and light. Horror game “Bait Garden” to be released on March 31st",
+    "link": "https://www.4gamer.net/games/986/G098656/20260324017",
+    "date": 1774327481000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "``Snow Break: Forbidden Descent'' 3 weeks have passed since the start of maintenance and there has been no news",
+    "link": "http://www.gamespark.jp/article/2026/03/24/164270.html",
+    "date": 1774327504000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   }
