@@ -604,15 +604,6 @@
     "hotScore": 1
   },
   {
-    "title": "Tomodachi Life: Living the Dream is a blast despite lacking new features",
-    "link": "https://www.dexerto.com/gaming/tomodachi-life-living-the-dream-is-a-blast-despite-lacking-new-features-3339882",
-    "date": 1774357211000,
-    "domain": "dexerto.com",
-    "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "A stuffed slime toy with a Dragon Quest crown is cute. A special edition with a commemorative logo embroidered will be released on July 17th.",
     "link": "https://news.denfaminicogamer.jp/news/2603242r",
     "date": 1774358358000,
@@ -3536,15 +3527,6 @@
     ]
   },
   {
-    "title": "ENDROLL announces inventory management dark adventure “evoke: The Rules of Toys”",
-    "link": "https://gamebiz.jp/news/423231",
-    "date": 1774438020000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“POJANGMACHA: Korean Food Stall Management Simulator” will be released on April 9th! Quickly greet people at the store, serve food, and clean up.",
     "link": "https://www.gamer.ne.jp/news/202603250052",
     "date": 1774438020000,
@@ -3562,6 +3544,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "ENDROLL announces inventory management dark adventure “evoke: The Rules of Toys”",
+    "link": "https://gamebiz.jp/news/423231",
+    "date": 1774438020000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
   },
   {
     "title": "Feature: 70+ PS5, PS4 Games to Buy in PS Store's Huge Spring Sale",
@@ -4177,15 +4168,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
-    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
-    "date": 1774447200000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Hands On: Pokémon Champions Promises Top-Tier Battling, But At What Cost?",
     "link": "https://www.nintendolife.com/previews/hands-on-pokemon-champions-promises-top-tier-battling-but-at-what-cost",
     "date": 1774447200000,
@@ -4200,6 +4182,15 @@
     "date": 1774447200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
+    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
+    "date": 1774447200000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4772,6 +4763,15 @@
     "hotScore": 1
   },
   {
+    "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
+    "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
+    "date": 1774454400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "\"Heavyweights ruined the industry... now we live on the indies\" Nordic Game embraces smaller devs and games with soul",
     "link": "https://www.gamesindustry.biz/heavyweights-ruined-the-industry-now-we-live-on-the-indies-nordic-game-embraces-smaller-devs-and-games-with-soul",
     "date": 1774454400000,
@@ -4786,15 +4786,6 @@
     "date": 1774454400000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
-    "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
-    "date": 1774454400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4967,7 +4958,25 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Tomodachi Life: Living the Dream is a blast despite lacking new features",
+        "link": "https://www.dexerto.com/gaming/tomodachi-life-living-the-dream-is-a-blast-despite-lacking-new-features-3339882",
+        "date": 1774357211000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      },
+      {
+        "title": "Tomodachi Life: Living the Dream demo lets characters swear and it’s pure chaos",
+        "link": "https://www.dexerto.com/gaming/tomodachi-life-living-the-dream-demo-lets-characters-swear-and-its-pure-chaos-3340768",
+        "date": 1774449706000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "John Wick spin-off star Donnie Yen wants to make it \"the most definitive martial arts-infused action film ever made\"",
@@ -5105,20 +5114,20 @@
     "hotScore": 1
   },
   {
-    "title": "Call of Duty: Black Ops 7 Season 3 Details Revealed",
-    "link": "https://insider-gaming.com/call-of-duty-black-ops-7-season-3-details-revealed",
-    "date": 1774458000000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "NIS’ Horror Farming Sim Village in the Shade Debuts in 2026",
     "link": "https://www.siliconera.com/nis-horror-farming-sim-village-in-the-shade-debuts-in-2026",
     "date": 1774458000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Call of Duty: Black Ops 7 Season 3 Details Revealed",
+    "link": "https://insider-gaming.com/call-of-duty-black-ops-7-season-3-details-revealed",
+    "date": 1774458000000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5680,7 +5689,17 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "The best board games to buy in Amazon's Spring Sale",
+        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
+        "date": 1774463935000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "The Sennheiser Momentum 4 Is the Best Noise Cancelling Headphone Under $200 in the Spring Sale",
@@ -6242,6 +6261,15 @@
     ]
   },
   {
+    "title": "What Are The Best Armor Decorations In Monster Hunter Stories 3?",
+    "link": "https://www.thegamer.com/monster-hunter-stories-3-twisted-reflection-best-strongest-armor-decorations",
+    "date": 1774470679000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Razer’s new Blade 16 gaming laptop has an Intel Panther Lake chip and very fast RAM",
     "link": "https://www.theverge.com/gadgets/900518/razers-new-blade-16-gaming-laptop-has-an-intel-panther-lake-chip-and-very-fast-ram",
     "date": 1774471018000,
@@ -6366,17 +6394,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The best board games to buy in Amazon's Spring Sale",
-        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
-        "date": 1774463935000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Keraunios god rolls and how to get them in Destiny 2",
@@ -6739,15 +6757,6 @@
     "hotScore": 1
   },
   {
-    "title": "Dragon Ball: 6 Transformations That Rival Super Saiyan Blue",
-    "link": "https://gamerant.com/dragon-ball-forms-rival-super-saiyan-blue",
-    "date": 1774476675000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pokémon Champions Won't Let You Use Pokémon That Aren't Fully Evolved",
     "link": "https://www.ign.com/articles/pokemon-champions-wont-let-you-use-pokmon-that-arent-fully-evolved",
     "date": 1774477370000,
@@ -6755,25 +6764,6 @@
     "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Where to Find a Crystal Lizard in Monster Hunter Stories 3",
-    "link": "https://gamerant.com/monster-hunter-stories-3-finding-a-crystal-lizard-quest-guide",
-    "date": 1774477539000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "What Are The Best Armor Decorations In Monster Hunter Stories 3?",
-        "link": "https://www.thegamer.com/monster-hunter-stories-3-twisted-reflection-best-strongest-armor-decorations",
-        "date": 1774470679000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "It's Official: Xbox Has Beaten Nintendo and PlayStation as a Publisher",
@@ -6791,7 +6781,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Tomodachi Life: Living the Dream ‘Welcome Version’ demo now available",
@@ -6799,14 +6789,6 @@
         "date": 1774425608000,
         "domain": "gematsu.com",
         "sourceName": "Gematsu",
-        "isTranslated": false
-      },
-      {
-        "title": "Tomodachi Life: Living the Dream demo lets characters swear and it’s pure chaos",
-        "link": "https://www.dexerto.com/gaming/tomodachi-life-living-the-dream-demo-lets-characters-swear-and-its-pure-chaos-3340768",
-        "date": 1774449706000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
         "isTranslated": false
       }
     ]
@@ -6951,6 +6933,24 @@
     "title": "More Than 1 Developer is Reportedly Working on Halo: Campaign Evolved",
     "link": "https://gamerant.com/halo-campaign-evolved-developers-abstraction-games",
     "date": 1774480189000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "One Piece Just Teased A Dark Fate For Luffy Against Imu in Elbaf",
+    "link": "https://gamerant.com/one-piece-dark-fate-luffy-against-imu-elbaf",
+    "date": 1774480515000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Best Low-End PC Games for Old Laptops & Potato PCs",
+    "link": "https://gamerant.com/best-pc-video-games-low-requirements",
+    "date": 1774480515000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
