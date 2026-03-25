@@ -1626,20 +1626,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
-    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
-    "date": 1774368000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Nintendo Aware of Pokemon XD: Gale of Darkness Switch 2 Crash",
     "link": "https://www.siliconera.com/nintendo-aware-of-pokemon-xd-gale-of-darkness-switch-2-crash",
     "date": 1774368000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
+    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
+    "date": 1774368000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1786,7 +1786,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Asus ROG Cetra Open Wireless review",
+        "link": "https://www.pcgamer.com/hardware/earbuds-headphones/asus-rog-cetra-open-wireless-review",
+        "date": 1774367375000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Sony reveals that its new PSSR upscaling for the Playstation 5 Pro has the same 'core' as AMD's FSR Redstone but that doesn't necessarily mean older AMD PC graphics cards are set to get an FSR upgrade",
@@ -1798,20 +1808,20 @@
     "hotScore": 1
   },
   {
-    "title": "Hello Kitty Island Adventure Is Getting Brand-New DLC Next Month",
-    "link": "https://www.nintendolife.com/news/2026/03/hello-kitty-island-adventure-is-getting-brand-new-dlc-next-month",
-    "date": 1774369800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Owlchemy reveals Sporelando as a wacky XR addition for Dimensional Double Shift",
     "link": "https://gamesbeat.com/owlchemy-reveals-sporelando-as-a-wacky-xr-addition-for-dimensional-double-shift",
     "date": 1774369800000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hello Kitty Island Adventure Is Getting Brand-New DLC Next Month",
+    "link": "https://www.nintendolife.com/news/2026/03/hello-kitty-island-adventure-is-getting-brand-new-dlc-next-month",
+    "date": 1774369800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1879,20 +1889,20 @@
     "hotScore": 1
   },
   {
-    "title": "Acclaimed Arcade Racer 'Horizon Chase Turbo' Being Delisted From Switch eShop",
-    "link": "https://www.nintendolife.com/news/2026/03/acclaimed-arcade-racer-horizon-chase-turbo-being-delisted-from-switch-eshop",
-    "date": 1774371600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pokemon Champions Arrives in April With Free Switch 2 Update",
     "link": "https://www.siliconera.com/pokemon-champions-arrives-in-april-with-free-switch-2-update",
     "date": 1774371600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Acclaimed Arcade Racer 'Horizon Chase Turbo' Being Delisted From Switch eShop",
+    "link": "https://www.nintendolife.com/news/2026/03/acclaimed-arcade-racer-horizon-chase-turbo-being-delisted-from-switch-eshop",
+    "date": 1774371600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3909,7 +3919,7 @@
     "hotScore": 1
   },
   {
-    "title": "Tadatoshi Fujimaki, the creator of ``Kuroko's Basketball'' and ``Kill Ao,'' started X. Rough illustrations depicting the main characters of past works are also released.",
+    "title": "Mr. Tadatoshi Fujimaki, creator of ``Kuroko's Basketball'' and ``Kill Ao,'' started X. Rough illustrations depicting the main characters of past works are also released.",
     "link": "https://news.denfaminicogamer.jp/news/2603252g",
     "date": 1774430561000,
     "domain": "news.denfaminicogamer.jp",
@@ -4429,7 +4439,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Super Mario Bros. Wonder + Meetup In Bellabel Park Review - Bring Your Friends",
@@ -4437,6 +4447,22 @@
         "date": 1774436400000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Bellabel Park Review",
+        "link": "https://www.ign.com/articles/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park-review",
+        "date": 1774436400000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park Review - A Wonderful Addition",
+        "link": "https://gameinformer.com/review/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park/a-wonderful",
+        "date": 1774418400000,
+        "domain": "gameinformer.com",
+        "sourceName": "Game Informer",
         "isTranslated": false
       }
     ]
@@ -4457,30 +4483,14 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
-      {
-        "title": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Bellabel Park Review",
-        "link": "https://www.ign.com/articles/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park-review",
-        "date": 1774436400000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
-        "isTranslated": false
-      },
       {
         "title": "Review: Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup In Bellabel Park - Inessential Bells & Whistles",
         "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park",
         "date": 1774436400000,
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park Review - A Wonderful Addition",
-        "link": "https://gameinformer.com/review/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park/a-wonderful",
-        "date": 1774418400000,
-        "domain": "gameinformer.com",
-        "sourceName": "Game Informer",
         "isTranslated": false
       }
     ]
@@ -5071,14 +5081,6 @@
         "title": "When is Ballistic Being Removed From Fortnite? Ballistic Shutdown, Explained",
         "link": "https://insider-gaming.com/when-is-ballistic-being-removed-from-fortnite",
         "date": 1774439323000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      },
-      {
-        "title": "When is Rocket Racing Being Removed From Fortnite? Rocket Racing Shutdown, Explained",
-        "link": "https://insider-gaming.com/when-is-rocket-racing-being-removed-from-fortnite",
-        "date": 1774438111000,
         "domain": "insider-gaming.com",
         "sourceName": "Insider Gaming",
         "isTranslated": false
@@ -5724,6 +5726,15 @@
     ]
   },
   {
+    "title": "Announcing GamesBeat’s Visionary Awards 2026 judging panel",
+    "link": "https://gamesbeat.com/announcing-gamesbeats-visionary-awards-2026-judging-panel",
+    "date": 1774445400000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Microsoft Beats Out Sony & Nintendo In Metacritic's 2026 Game Publisher Rankings",
     "link": "https://www.purexbox.com/news/2026/03/microsoft-beats-out-sony-and-nintendo-in-metacritics-2026-game-publisher-rankings",
     "date": 1774445400000,
@@ -5741,15 +5752,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Announcing GamesBeat’s Visionary Awards 2026 judging panel",
-    "link": "https://gamesbeat.com/announcing-gamesbeats-visionary-awards-2026-judging-panel",
-    "date": 1774445400000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "15 Slay the Spire 2 Cards That Are Totally Game-Changing",
@@ -5894,17 +5896,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Asus ROG Cetra Open Wireless review",
-        "link": "https://www.pcgamer.com/hardware/earbuds-headphones/asus-rog-cetra-open-wireless-review",
-        "date": 1774367375000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Play Faster, a Precision Platformer Purpose-Built for Speedrunning, Announced for PC",
@@ -6473,20 +6465,20 @@
     ]
   },
   {
-    "title": "Hbada X7 Smart Ergonomic Chair Review",
-    "link": "https://www.ign.com/articles/hbada-x7-smart-ergonomic-chair-review",
-    "date": 1774450800000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Forza Horizon 6 system requirements are in and it's good news for older PCs and handhelds",
     "link": "https://www.pcgamer.com/games/racing/the-forza-horizon-6-system-requirements-are-in-and-its-good-news-for-older-pcs-and-handhelds",
     "date": 1774450800000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hbada X7 Smart Ergonomic Chair Review",
+    "link": "https://www.ign.com/articles/hbada-x7-smart-ergonomic-chair-review",
+    "date": 1774450800000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6500,20 +6492,20 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Mega Man Star Force: Legacy Collection (Switch) - A Well-Presented Package Of An Underrated DS Trio",
-    "link": "https://www.nintendolife.com/reviews/nintendo-switch/mega-man-star-force-legacy-collection",
-    "date": 1774450800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Great Britain Representatives Chosen for Esports Nations Cup",
     "link": "https://insider-gaming.com/esports-nations-cup-great-britain",
     "date": 1774450800000,
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Mega Man Star Force: Legacy Collection (Switch) - A Well-Presented Package Of An Underrated DS Trio",
+    "link": "https://www.nintendolife.com/reviews/nintendo-switch/mega-man-star-force-legacy-collection",
+    "date": 1774450800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6682,7 +6674,7 @@
     "hotScore": 1
   },
   {
-    "title": "Anime [Oshinoko] 4th season “Final Season” production decided. Special video & visual release",
+    "title": "Anime [Oshinoko] 4th season “Final Season” production decided. Final chapter for series completion, special video & visual released",
     "link": "https://news.denfaminicogamer.jp/news/2603252t",
     "date": 1774451005000,
     "domain": "news.denfaminicogamer.jp",
@@ -6812,6 +6804,33 @@
     "date": 1774451779000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Life is Strange Reunion release countdown: Exact date and time",
+    "link": "https://www.destructoid.com/life-is-strange-reunion-release-countdown-exact-date-and-time",
+    "date": 1774452031000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Live-service games are such a mess even Fortnite is struggling",
+    "link": "https://www.theverge.com/games/900389/live-service-games-mess-fortnite-layoffs",
+    "date": 1774452142000,
+    "domain": "theverge.com",
+    "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Every PlayStation Studio That’s Closed Since The PS5 Launched",
+    "link": "https://insider-gaming.com/every-playstation-studio-thats-closed-since-the-ps5-launched",
+    "date": 1774452283000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   }
