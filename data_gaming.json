@@ -469,22 +469,23 @@
     "hotScore": 1
   },
   {
-    "title": "Steam Client Beta - March 23rd",
-    "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
-    "date": 1774307032000,
-    "domain": "store.steampowered.com",
-    "sourceName": "Steam News",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Оновлення бета-версії клієнта Steam Deck: 23 березня 2026 року",
+    "title": "Steam Deck Beta Client Update: March 23rd",
     "link": "https://store.steampowered.com/news/app/1675200/view/532126482488624691",
     "date": 1774307043000,
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Steam Client Beta - March 23rd",
+        "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
+        "date": 1774307032000,
+        "domain": "store.steampowered.com",
+        "sourceName": "Steam News",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Pirate survival hit Windrose charts course for major quality-of-life improvements after 1.5M wishlists",
@@ -766,7 +767,7 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of the rescue cat care sim \"Cat Parents\" was surprised to see it surpass 100,000 Steam wishlists on the \"3rd day of announcement\". Be wary of expectations for “super-dreadnought”",
+    "title": "The developer of the rescue cat care sim ``Cat Parents'' was surprised to see it surpass 100,000 Steam wishlists on the ``3rd day of announcement''. Be wary of expectations for “super-dreadnought”",
     "link": "https://automaton-media.com/articles/newsjp/cat-parents-20260324-431810",
     "date": 1774338183000,
     "domain": "automaton-media.com",
@@ -970,15 +971,6 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "“THE WORLD OF BIOHAZARD 30th Anniversary Exhibition” will be held to commemorate the 30th anniversary of the “Resident Evil” series! The history is revealed, including the settings of the characters that appear.",
-    "link": "http://www.gamespark.jp/article/2026/03/24/164283.html",
-    "date": 1774345504000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -1199,7 +1191,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Goddess of Victory: NIKKE” collaborates with Razer. A limited edition Viper costume is now available. Limited quantity boxes will go on sale on March 30th.",
+    "title": "“Goddess of Victory: NIKKE” collaborates with Razer. A limited edition Viper costume is now available. Limited quantity boxes will go on sale on March 30th",
     "link": "https://www.4gamer.net/games/456/G045622/20260324046",
     "date": 1774351284000,
     "domain": "4gamer.net",
@@ -1308,24 +1300,6 @@
     "hotScore": 1
   },
   {
-    "title": "'Golden goose' indie games get Gabe Newell's attention, says Steam expert: 'You're like a little goblin that has a magical power to turn straw into gold'",
-    "link": "https://www.pcgamer.com/software/platforms/golden-goose-indie-games-get-gabe-newells-attention-says-steam-expert-youre-like-a-little-goblin-that-has-a-magical-power-to-turn-straw-into-gold",
-    "date": 1774353256000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How to get the Soul Spear in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
-    "date": 1774353441000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "In an environment that is “too black”? In a town ruled by a medieval feudal lord, workers were not allowed to return home. A large update to the town building strategy “Manor Road”",
     "link": "http://www.gamespark.jp/article/2026/03/24/164289.html",
     "date": 1774353473000,
@@ -1376,15 +1350,6 @@
     "date": 1774354909000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Report: Nintendo Is Slashing Switch 2 Production By A Third After Poor U.S. Sales",
-    "link": "https://kotaku.com/nintendo-switch-2-sales-holiday-mario-zelda-pokemon-2000681428",
-    "date": 1774355108000,
-    "domain": "kotaku.com",
-    "sourceName": "Kotaku",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1939,15 +1904,6 @@
     "hotScore": 1
   },
   {
-    "title": "New Xbox CEO \"Willing To Question Everything,\" Xbox Exec Says",
-    "link": "https://www.gamespot.com/articles/new-xbox-ceo-willing-to-question-everything-xbox-exec-says/1100-6538979",
-    "date": 1774364580000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Epic Games lays off over 1,000 employees following \"downturn in Fortnite engagement\"",
     "link": "https://www.gamesindustry.biz/epic-games-lays-off-over-1000-employees-following-downturn-in-fortnite-engagement",
     "date": 1774364581000,
@@ -2120,25 +2076,6 @@
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
-    "date": 1774366504000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
-        "date": 1774295745000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Turn your truck passenger seat into a full-fledged gaming environment! ? The high-end configuration that cost about 1 million yen is attracting attention.",
@@ -3089,6 +3026,25 @@
     "hotScore": 1
   },
   {
+    "title": "How to complete Gate to the Otherworld in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+    "date": 1774382026000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
+        "date": 1774295745000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
     "link": "https://www.siliconera.com/next-baldurs-gate-3-nendoroid-is-a-shadowheart-figure",
     "date": 1774382400000,
@@ -3269,7 +3225,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Sintopia\", a management sim that uses the souls of sinners to rebuild a flattened hell, will be released on April 17th! Japanese support planned",
+    "title": "“Sintopia”, a management sim that uses the souls of sinners to rebuild a flattened hell, will be released on April 17th! Japanese support planned",
     "link": "http://www.gamespark.jp/article/2026/03/25/164302.html",
     "date": 1774389604000,
     "domain": "gamespark.jp",
@@ -3565,7 +3521,7 @@
     "hotScore": 1
   },
   {
-    "title": "The announcement trailer for \"Harvest Skies: Crop Dusting Simulator\", a pesticide dusting simulator with up to 5 people cooperation, has been released. Build an agricultural aviation empire from one plane by mixing chemicals and flying low-altitude sprays with a biplane.",
+    "title": "The announcement trailer for ``Harvest Skies: Crop Dusting Simulator'', a pesticide dusting simulator that allows up to 5 people to cooperate, has been released. Build an agricultural aviation empire from one plane by mixing chemicals and flying low-altitude sprays with a biplane.",
     "link": "https://news.denfaminicogamer.jp/news/260325l",
     "date": 1774404197000,
     "domain": "news.denfaminicogamer.jp",
@@ -3592,7 +3548,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Farming Simulator 25\" releases expansion pack that adds Dutch agricultural machinery brand \"Vredo\" and boar",
+    "title": "“Farming Simulator 25” releases expansion pack that adds Dutch agricultural machinery brand “Vredo” and boar",
     "link": "https://www.4gamer.net/games/813/G081325/20260325010",
     "date": 1774406412000,
     "domain": "4gamer.net",
@@ -3993,7 +3949,7 @@
     "hotScore": 1
   },
   {
-    "title": "Officially announced new work ``ZEUS: God of Arrogance'' based on Greek mythology. An MMORPG set in a world torn apart by the arrogance of Zeus.",
+    "title": "Officially announced new work \"ZEUS: God of Arrogance\" based on Greek mythology. An MMORPG set in a world torn apart by the arrogance of Zeus.",
     "link": "https://www.4gamer.net/games/982/G098201/20260325022",
     "date": 1774412904000,
     "domain": "4gamer.net",
@@ -4038,7 +3994,7 @@
     "hotScore": 1
   },
   {
-    "title": "Anime “Ikkyu-san” “193 hours non-stop continuous broadcast” will be held at ABEMA. All 296 episodes can be enjoyed for free from midnight on April 1st to 1am on April 9th.",
+    "title": "Anime “Ikkyu-san” “193 hours non-stop continuous broadcast” will be held at ABEMA. You can enjoy all 296 episodes for free from midnight on April 1st to 1am on April 9th.",
     "link": "https://news.denfaminicogamer.jp/news/260325v",
     "date": 1774413639000,
     "domain": "news.denfaminicogamer.jp",
@@ -4227,7 +4183,7 @@
     "hotScore": 1
   },
   {
-    "title": "1930's black and white anime style FPS \"MOUSE: Yatoware's Detective\" will be released in domestic PS5/Switch 2 package version on July 9th!",
+    "title": "1930's black and white anime-style FPS \"MOUSE: Yatoware no Tantei\" will be released in Japan as a packaged version for PS5/Switch 2 on July 9th!",
     "link": "http://www.gamespark.jp/article/2026/03/25/164316.html",
     "date": 1774417204000,
     "domain": "gamespark.jp",
@@ -4344,7 +4300,7 @@
     "hotScore": 1
   },
   {
-    "title": "``Car Service Together,'' a ``very popular'' car maintenance sim that supports up to 4 people, is now available in Japanese with the latest update. From parts replacement to “magical modification”, tinkering with cars while being chased by deadlines.",
+    "title": "``Car Service Together'', a ``very popular'' car maintenance sim that supports up to 4 people, is now available in Japanese with the latest update. From parts replacement to “magical modification”, tinkering with cars while being chased by deadlines.",
     "link": "https://automaton-media.com/articles/newsjp/20260325-431977",
     "date": 1774421166000,
     "domain": "automaton-media.com",
@@ -4594,7 +4550,7 @@
     "hotScore": 1
   },
   {
-    "title": "Sega, Futaba Sakura/Codename: Navi (CV. Aoi Yuuki) and Haru Okumura/Codename: Noir (CV. Haruka Tomatsu) will be reprinted tomorrow in \"P5X\"",
+    "title": "Sega, Futaba Sakura/Codename: Navi (CV. Aoi Yuuki) and Haru Okumura/Codename: Noir (CV. Haruka Tomatsu) will be reprinted tomorrow in “P5X”",
     "link": "https://gamebiz.jp/news/423208",
     "date": 1774429020000,
     "domain": "gamebiz.jp",
@@ -4630,7 +4586,7 @@
     "hotScore": 1
   },
   {
-    "title": "Sachiko Kobayashi will appear on \"Niconico Chokaigi 2026\". This year, she will become a “Hanasaki Kaba-san” and will be in full bloom along with the cherry blossoms in Tokyo. On the day of the event, live singing will be performed in conjunction with the “Super Neo Yagura”",
+    "title": "Sachiko Kobayashi will appear on \"Nico Nico Chokaigi 2026\". This year, she will become a “Hanasaki Kaba-san” and will be in full bloom along with the cherry blossoms in Tokyo. On the day of the event, live singing will be performed in conjunction with the “Super Neo Yagura”",
     "link": "https://news.denfaminicogamer.jp/news/2603252e",
     "date": 1774429259000,
     "domain": "news.denfaminicogamer.jp",
@@ -4675,7 +4631,7 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "The trial version of \"Tomodachi Collection Waku Waku Life\", the new \"Tomodachi Collection\", is now available. You can play the beginning of the game ahead of its release on April 16th.",
+        "title": "The trial version of \"Tomodachi Collection Waku Waku Life\", the new \"Tomodachi Collection\" is now available. You can play the beginning of the game ahead of its release on April 16th.",
         "link": "https://news.denfaminicogamer.jp/news/260325o",
         "date": 1774427388000,
         "domain": "news.denfaminicogamer.jp",
@@ -4727,6 +4683,15 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "You Can Play The New Tomodachi Life Game Right Now, And It's Already Chaos",
+    "link": "https://www.gamespot.com/articles/you-can-play-the-new-tomodachi-life-game-right-now-and-its-already-chaos/1100-6538992",
+    "date": 1774430880000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -4793,7 +4758,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
+    "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose any restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
     "link": "https://news.denfaminicogamer.jp/news/2603252k",
     "date": 1774431946000,
     "domain": "news.denfaminicogamer.jp",
@@ -4856,7 +4821,7 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently being rebuilt, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
+    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently in the process of rebuilding, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
     "link": "https://automaton-media.com/articles/newsjp/1047-games-20260325-432026",
     "date": 1774432802000,
     "domain": "automaton-media.com",
@@ -4973,7 +4938,7 @@
     "hotScore": 1
   },
   {
-    "title": "The business is influenced by the buying and selling of antiques and tarot readings. Roguelike strategy “Fortune Seller”, released on April 6, 2026",
+    "title": "The business is influenced by the buying and selling of antiques and tarot readings. Roguelike strategy “Fortune Seller” to be released on April 6, 2026",
     "link": "https://www.4gamer.net/games/993/G099340/20260325053",
     "date": 1774433364000,
     "domain": "4gamer.net",
@@ -5042,15 +5007,6 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Silent Hill f Is Getting A Manga Spin-Off",
-    "link": "https://www.thegamer.com/silent-hill-f-is-getting-a-manga-that-retcons-the-games-original-ending",
-    "date": 1774434619000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -5280,20 +5236,20 @@
     "hotScore": 1
   },
   {
-    "title": "Invincible Season 4, Episode 4 Review – ‘Hurm’",
-    "link": "https://www.ign.com/articles/invincible-season-4-episode-4-review-recap-hurm",
-    "date": 1774436400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "It’s always a good time to revisit Super Mario Bros. Wonder",
     "link": "https://www.theverge.com/games/899839/super-mario-bros-wonder-nintendo-switch-2-review",
     "date": 1774436400000,
     "domain": "theverge.com",
     "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Invincible Season 4, Episode 4 Review – ‘Hurm’",
+    "link": "https://www.ign.com/articles/invincible-season-4-episode-4-review-recap-hurm",
+    "date": 1774436400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5825,7 +5781,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Narushio\" Ver. 3.2 first half story impressions. A ``growth story'' about Shigurika, a girl who overcomes setbacks and goes from being a genius to a hero. A new human hymn created by the relationship between old and new characters",
+    "title": "\"Narushio\" Ver. 3.2 first half story impressions. A coming-of-age story about Shigurika, a girl who overcomes setbacks and goes from being a genius to a hero. A new human hymn created by the relationship between old and new characters",
     "link": "https://automaton-media.com/articles/special-column/ww-20260325-432061",
     "date": 1774439325000,
     "domain": "automaton-media.com",
@@ -6203,6 +6159,30 @@
     "hotScore": 4,
     "groupMembers": [
       {
+        "title": "How to get Darkbringer in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
+        "date": 1774369551000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the Soul Spear in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
+        "date": 1774353441000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
         "title": "How to Beat Black Bears' Captain (In Ashes) in Crimson Desert",
         "link": "https://gamerant.com/crimson-desert-in-ashes-infiltrate-black-bears-base",
         "date": 1774440624000,
@@ -6216,38 +6196,6 @@
         "date": 1774440536000,
         "domain": "gamerant.com",
         "sourceName": "Game Rant",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Gate to the Otherworld in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-        "date": 1774382026000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get Darkbringer in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
-        "date": 1774369551000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to solve the Root's End puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
-        "date": 1774367332000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
@@ -6430,6 +6378,22 @@
     "isTranslated": false,
     "hotScore": 1,
     "groupMembers": [
+      {
+        "title": "How to solve the Root's End puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
+        "date": 1774367332000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
+        "date": 1774366504000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
       {
         "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
@@ -6628,20 +6592,20 @@
     "hotScore": 1
   },
   {
-    "title": "Pretty Lethal Review",
-    "link": "https://www.ign.com/articles/pretty-lethal-review-uma-thurman",
-    "date": 1774443600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dell made its new Pro laptops thinner and tweaked their naming scheme, again",
     "link": "https://www.theverge.com/tech/900090/dell-made-its-new-pro-laptops-thinner-and-tweaked-their-naming-scheme-again",
     "date": 1774443600000,
     "domain": "theverge.com",
     "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Pretty Lethal Review",
+    "link": "https://www.ign.com/articles/pretty-lethal-review-uma-thurman",
+    "date": 1774443600000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6790,11 +6754,47 @@
     "hotScore": 1
   },
   {
+    "title": "The number of global pre-registrations for the surreal city RPG “NTE” exceeds 30 million! A-rank character “Hania” will be presented as a gift",
+    "link": "http://www.gamespark.jp/article/2026/03/25/164333.html",
+    "date": 1774444622000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "Team17 parent company Everplay reports 10% profit increase in 2025",
     "link": "https://www.gamesindustry.biz/team17-parent-company-everplay-reports-10-profit-increase-in-2025",
     "date": 1774444761000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "GameStop Is No Better Than A Scalper As It Hikes Pokémon Card Prices",
+    "link": "https://kotaku.com/gamestop-pokemon-tcg-prices-booster-box-etb-perfect-order-2000681798",
+    "date": 1774444851000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "MSI's new power supplies have a buzzer that warns you if your graphics card is about to melt, which seems like a solution to a problem that really shouldn't exist",
+    "link": "https://www.pcgamer.com/hardware/power-supplies/msis-new-power-supplies-have-a-buzzer-that-warns-you-if-your-graphics-card-is-about-to-melt-which-seems-like-a-solution-to-a-problem-that-really-shouldnt-exist",
+    "date": 1774444919000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Tekken 8 To Receive Emergency Patch Following Review Bombing",
+    "link": "https://www.thegamer.com/tekken-8-emergency-patch-review-bombing",
+    "date": 1774444997000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   }
