@@ -45,15 +45,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"Dissidia Duelm Final Fantasy\" pre-download begins. An interview video with the creators of the FF series has also been released.",
-    "link": "https://www.4gamer.net/games/952/G095250/20260323043",
-    "date": 1774259720000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "As controversy swamps Tekken 8 and Street Fighter 6, Guilty Gear Strive just announced a massive new update",
     "link": "https://www.eurogamer.net/controversy-tekken-8-street-fighter-6-guilty-gear-strive-announced-massive-new-update",
     "date": 1774260528000,
@@ -837,8 +828,8 @@
     "hotScore": 1
   },
   {
-    "title": "I'm a fruit-slashing ninja. Casual and simple exhilarating action \"Fruit Ninja Classic+\" (Start today Apple Arcade #65)",
-    "link": "https://www.4gamer.net/games/992/G099234/20260319070",
+    "title": "“Tangy TD” is a challenging tower defense game where you increase your annihilation power through trial and error in your build (Hobonichi Indie Pick Up!)",
+    "link": "https://www.4gamer.net/games/950/G095079/20260319045",
     "date": 1774303200000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -846,8 +837,8 @@
     "hotScore": 1
   },
   {
-    "title": "“Tangy TD” is a challenging tower defense game where you increase your annihilation power through trial and error in your build (Hobonichi Indie Pick Up!)",
-    "link": "https://www.4gamer.net/games/950/G095079/20260319045",
+    "title": "I'm a fruit-slashing ninja. Casual and simple exhilarating action \"Fruit Ninja Classic+\" (Start today Apple Arcade #65)",
+    "link": "https://www.4gamer.net/games/992/G099234/20260319070",
     "date": 1774303200000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -909,22 +900,23 @@
     "hotScore": 1
   },
   {
-    "title": "Steam Client Beta - March 23rd",
-    "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
-    "date": 1774307032000,
-    "domain": "store.steampowered.com",
-    "sourceName": "Steam News",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Betaklientuppdatering till Steam Deck – 23 mars",
+    "title": "Steam Deck Beta Client Update: March 23rd",
     "link": "https://store.steampowered.com/news/app/1675200/view/532126482488624691",
     "date": 1774307043000,
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Steam Client Beta - March 23rd",
+        "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
+        "date": 1774307032000,
+        "domain": "store.steampowered.com",
+        "sourceName": "Steam News",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "'A firm announcement is dependent on this final stretch of work': Fans are spinning out over extraction shooter Sand's lack of a specific March release date",
@@ -1611,7 +1603,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Zenless Zone Zero\", Ver. 2.7 \"A hero does not die in the past\" was implemented today. The leader of the “Delusion Angels”, “Nangyuu”, appears as a new agent.",
+    "title": "\"Zenless Zone Zero\", Ver.2.7 \"Heroes Don't Die in the Past\" has been implemented today. The leader of “delusional angels” “Nanguha” appears as a new agent.",
     "link": "https://www.4gamer.net/games/630/G063081/20260324031",
     "date": 1774340360000,
     "domain": "4gamer.net",
@@ -1647,7 +1639,7 @@
     "hotScore": 1
   },
   {
-    "title": "Truly a “God game”. “I Am Jesus Christ,” an action ADV that depicts the life of Jesus Christ from birth to resurrection, will be released on Steam on April 2nd.",
+    "title": "Truly a “God game”. “I Am Jesus Christ,” an action ADV that depicts the story of Jesus Christ from birth to resurrection, will be released on Steam on April 2nd.",
     "link": "https://www.4gamer.net/games/582/G058257/20260324034",
     "date": 1774341597000,
     "domain": "4gamer.net",
@@ -1665,7 +1657,7 @@
     "hotScore": 1
   },
   {
-    "title": "``No Vacation for an Executioner'', a PS2 style horror game with a retro feel, has been released! Face the crazy world as an executioner",
+    "title": "``No Vacation for an Executioner'', a PS2-style horror game with a retro feel, has been released! Face the crazy world as an executioner",
     "link": "http://www.gamespark.jp/article/2026/03/24/164280.html",
     "date": 1774341904000,
     "domain": "gamespark.jp",
@@ -2342,20 +2334,20 @@
     "hotScore": 1
   },
   {
-    "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
-    "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
-    "date": 1774357200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
     "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
     "date": 1774357200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
+    "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
+    "date": 1774357200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3211,20 +3203,20 @@
     "hotScore": 1
   },
   {
-    "title": "Crimson Desert Storms the Physical UK Charts, and Almost All Copies Sold Were for PS5",
-    "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-storms-the-physical-uk-charts-and-almost-all-copies-sold-were-for-ps5",
-    "date": 1774368000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
     "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
     "date": 1774368000000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert Storms the Physical UK Charts, and Almost All Copies Sold Were for PS5",
+    "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-storms-the-physical-uk-charts-and-almost-all-copies-sold-were-for-ps5",
+    "date": 1774368000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5290,15 +5282,6 @@
     "hotScore": 1
   },
   {
-    "title": "Concept movie of love horror ADV \"ERROR: Ai.lien\" depicting the experience of love with AI turning into fear released",
-    "link": "https://www.gamer.ne.jp/news/202603250002",
-    "date": 1774407600000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "A divinely enshrined “Golden Obare Statue”! ``KING OF PRISM 10th ANNIVERSARY Exhibition'' report where you can enjoy the world of works at numerous photo spots",
     "link": "https://www.4gamer.net/games/819/G081935/20260316039",
     "date": 1774407600000,
@@ -5580,15 +5563,6 @@
     "date": 1774409967000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Cygames will end the service of \"Shadowverse\" on July 1, 2026... Ending a 10-year history, the history of the series will continue with TCG and subsequent titles",
-    "link": "https://gamebiz.jp/news/423183",
-    "date": 1774410240000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6652,6 +6626,33 @@
     "date": 1774420440000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"CODE VEIN II\" is 25% off and \"My Hero Academia All's Justice\" is 20% off on sale for the first time. Bandai Namco is holding a sale for the DL version for PS/Switch",
+    "link": "https://www.4gamer.net/games/917/G091719/20260325032",
+    "date": 1774420618000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Cruise has completed the liquidation of its consolidated subsidiary CROOZ Blockchain Lab. Withdrawal from the game business (GameFi business) has been completed, including the remaining corporate procedures.",
+    "link": "https://gamebiz.jp/news/423199",
+    "date": 1774420620000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Sparrow Soul” Zinnia (CV: Mai Nakahara) and Chihori Terasaki (CV: Ayana Taketatsu) new costume “With a wonderful night” is now available!",
+    "link": "https://www.gamer.ne.jp/news/202603250025",
+    "date": 1774420740000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   }
