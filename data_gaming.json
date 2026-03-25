@@ -1,14 +1,5 @@
 [
   {
-    "title": "Xbox Partner Preview Announced For This Week With Looks At Stranger Than Heaven, World Premieres, And More",
-    "link": "https://gameinformer.com/xbox-partner-preview/2026/03/23/xbox-partner-preview-announced-for-this-week-with-looks-at-stranger",
-    "date": 1774255440000,
-    "domain": "gameinformer.com",
-    "sourceName": "Game Informer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Umamusume: Cinderella Gray wins “Anime of the Year” and 7 other awards at the Anime Trending Awards",
     "link": "https://automaton-media.com/en/news/umamusume-cinderella-gray-wins-anime-of-the-year-and-7-other-awards-at-the-anime-trending-awards",
     "date": 1774256956000,
@@ -621,15 +612,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
-    "date": 1774295745000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Mini Review: 1348 Ex Voto (PS5) - An Intriguing But Disappointing PS5 Console Exclusive",
     "link": "https://www.pushsquare.com/reviews/ps5/1348-ex-voto",
     "date": 1774296000000,
@@ -700,6 +682,25 @@
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "How to summon your companions in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-summon-your-companions-in-crimson-desert",
+    "date": 1774302460000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to get a Bear mount in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-a-bear-mount-in-crimson-desert",
+        "date": 1774282097000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "PS5 Pro's Acclaimed PSSR 2 Upscaler Runs Faster Than Its Predecessor",
@@ -2613,20 +2614,20 @@
     "hotScore": 1
   },
   {
-    "title": "Razer's new Viper V4 Pro could be as big of a deal for competitive gamers as the Logitech Superstrike, even without those haptic clicks",
-    "link": "https://www.pcgamer.com/hardware/gaming-mice/razers-new-viper-v4-pro-could-be-as-big-of-a-deal-for-competitive-gamers-as-the-logitech-superstrike-even-without-those-haptic-clicks",
-    "date": 1774364400000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Behaviour acquires The Fun Pimps, creators of 7 Days to Die",
     "link": "https://gamesbeat.com/behaviour-acquires-the-fun-pimps-creators-of-7-days-to-die",
     "date": 1774364400000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Razer's new Viper V4 Pro could be as big of a deal for competitive gamers as the Logitech Superstrike, even without those haptic clicks",
+    "link": "https://www.pcgamer.com/hardware/gaming-mice/razers-new-viper-v4-pro-could-be-as-big-of-a-deal-for-competitive-gamers-as-the-logitech-superstrike-even-without-those-haptic-clicks",
+    "date": 1774364400000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2978,15 +2979,6 @@
     "hotScore": 1
   },
   {
-    "title": "Splitgate Devs Making ‘Movement Shooter’ Like Titanfall",
-    "link": "https://insider-gaming.com/splitgate-devs-new-shooter-movement-titanfall",
-    "date": 1774367804000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "``7 Days to Die'' developer, ``DbD'' is now under the umbrella of Behavior Interactive. To accelerate future development",
     "link": "http://www.gamespark.jp/article/2026/03/25/164299.html",
     "date": 1774367949000,
@@ -3014,20 +3006,20 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo Aware of Pokemon XD: Gale of Darkness Switch 2 Crash",
-    "link": "https://www.siliconera.com/nintendo-aware-of-pokemon-xd-gale-of-darkness-switch-2-crash",
-    "date": 1774368000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
     "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
     "date": 1774368000000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nintendo Aware of Pokemon XD: Gale of Darkness Switch 2 Crash",
+    "link": "https://www.siliconera.com/nintendo-aware-of-pokemon-xd-gale-of-darkness-switch-2-crash",
+    "date": 1774368000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3196,6 +3188,25 @@
     "hotScore": 1
   },
   {
+    "title": "How to get Darkbringer in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
+    "date": 1774369551000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
+        "date": 1774364513000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Owlchemy reveals Sporelando as a wacky XR addition for Dimensional Double Shift",
     "link": "https://gamesbeat.com/owlchemy-reveals-sporelando-as-a-wacky-xr-addition-for-dimensional-double-shift",
     "date": 1774369800000,
@@ -3313,20 +3324,20 @@
     "hotScore": 1
   },
   {
-    "title": "Pokemon Champions Arrives in April With Free Switch 2 Update",
-    "link": "https://www.siliconera.com/pokemon-champions-arrives-in-april-with-free-switch-2-update",
-    "date": 1774371600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Acclaimed Arcade Racer 'Horizon Chase Turbo' Being Delisted From Switch eShop",
     "link": "https://www.nintendolife.com/news/2026/03/acclaimed-arcade-racer-horizon-chase-turbo-being-delisted-from-switch-eshop",
     "date": 1774371600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Pokemon Champions Arrives in April With Free Switch 2 Update",
+    "link": "https://www.siliconera.com/pokemon-champions-arrives-in-april-with-free-switch-2-update",
+    "date": 1774371600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3961,41 +3972,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to destroy thorns in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-    "date": 1774379420000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "How to get Darkbringer in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
-        "date": 1774369551000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
-        "date": 1774364513000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get the Soul Spear in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
-        "date": 1774353441000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Official World Of Warcraft Music Video Is A Walk Down Memory Lane",
     "link": "https://www.gamespot.com/articles/official-world-of-warcraft-music-video-is-a-walk-down-memory-lane/1100-6538991",
     "date": 1774379520000,
@@ -4131,6 +4107,22 @@
     "hotScore": 2,
     "groupMembers": [
       {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
+        "date": 1774295745000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
         "title": "How to solve the Root's End puzzle in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
         "date": 1774367332000,
@@ -4147,11 +4139,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to get a Bear mount in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-a-bear-mount-in-crimson-desert",
-        "date": 1774282097000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "title": "How to get the Soul Spear in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
+        "date": 1774353441000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -5096,14 +5088,6 @@
         "isTranslated": false
       },
       {
-        "title": "How to summon your companions in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-summon-your-companions-in-crimson-desert",
-        "date": 1774302460000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "Crimson Desert sells through 2M copies in 5 days",
         "link": "https://gamesbeat.com/crimson-desert-sells-through-2m-copies-in-5-days",
         "date": 1774306620000,
@@ -5914,15 +5898,6 @@
     "hotScore": 1
   },
   {
-    "title": "KONAMI's new \"PowerPro\" series \"PowerPro Adventures\" scheduled to start service on March 26th",
-    "link": "https://gamebiz.jp/news/423185",
-    "date": 1774418820000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Cascadou, a deck-building roguelite solitaire poker game with explosive winnings, will be released on Steam on April 15th. Demo version also available",
     "link": "http://www.gamespark.jp/article/2026/03/25/164317.html",
     "date": 1774419004000,
@@ -5941,20 +5916,20 @@
     "hotScore": 1
   },
   {
-    "title": "KONAMI introduces “2026 Series 1” to “Prospi A”…Additional large number of S-rank players such as Espinoza (Orix) and Yasuki Ishigami (DeNA)",
-    "link": "https://gamebiz.jp/news/423194",
-    "date": 1774419180000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "To commemorate the 20th anniversary of the \"Raido\" series, a collaboration menu with Chimney Group will be available at three stores in Tokyo, Kyoto, and Osaka from April 16th!",
     "link": "https://www.gamer.ne.jp/news/202603250023",
     "date": 1774419180000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "KONAMI introduces “2026 Series 1” to “Prospi A”…Additional large number of S-rank players such as Espinoza (Orix) and Yasuki Ishigami (DeNA)",
+    "link": "https://gamebiz.jp/news/423194",
+    "date": 1774419180000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6137,20 +6112,20 @@
     "hotScore": 1
   },
   {
-    "title": "DLE's final loss for the fiscal year ending March 2026 has been revised downward to 480 million yen, a complete turn from the expected surplus of 190 million yen, due to a lag in gains on sales of investment securities.",
-    "link": "https://gamebiz.jp/news/423203",
-    "date": 1774421580000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "\"JoJo's Bizarre Adventure Oraora Overdrive\" 0.5th anniversary campaign is being held! Jotaro and DIO appear as Oradora Festival limited unit",
     "link": "https://www.gamer.ne.jp/news/202603250026",
     "date": 1774421580000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "DLE's final loss for the fiscal year ending March 2026 has been revised downward to 480 million yen, a complete turn from the expected surplus of 190 million yen, due to a lag in gains on sales of investment securities.",
+    "link": "https://gamebiz.jp/news/423203",
+    "date": 1774421580000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6653,6 +6628,24 @@
     "date": 1774428000000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Today’s Contexto: Hints & Answer For March 25, 2026",
+    "link": "https://insider-gaming.com/todays-contexto-hints-answer-for-march-25-2026",
+    "date": 1774428046000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Fellow Traveler and Beep Japan will release the anime-style JRPG adventure “Wander Stars” on Steam Japanese version and console version on April 23rd",
+    "link": "https://gamebiz.jp/news/423207",
+    "date": 1774428240000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
