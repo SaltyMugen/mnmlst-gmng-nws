@@ -786,20 +786,20 @@
     "hotScore": 1
   },
   {
-    "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
-    "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
-    "date": 1774357200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
     "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
     "date": 1774357200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
+    "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
+    "date": 1774357200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1237,20 +1237,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
-    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
-    "date": 1774368000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Storms the Physical UK Charts, and Almost All Copies Sold Were for PS5",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-storms-the-physical-uk-charts-and-almost-all-copies-sold-were-for-ps5",
     "date": 1774368000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
+    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
+    "date": 1774368000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3744,7 +3744,7 @@
     "hotScore": 1
   },
   {
-    "title": "In-car remote play on PS5 is now a fantasy. Announcement of cancellation of development and release of “AFEELA 1” - Honda electrification strategy review hits directly",
+    "title": "In-car remote play on PS5 is now a fantasy. Announcement of suspension of development and release of ``AFEELA 1'' - Honda's review of EV strategy hits directly",
     "link": "http://www.gamespark.jp/article/2026/03/25/164330.html",
     "date": 1774435597000,
     "domain": "gamespark.jp",
@@ -3858,7 +3858,25 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Super Mario Bros. Wonder + Meetup In Bellabel Park Review - Bring Your Friends",
+        "link": "https://www.gamespot.com/reviews/super-mario-bros-wonder-meetup-in-bellabel-park-review-bring-your-friends/1900-6418476",
+        "date": 1774436400000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park Review - A Wonderful Addition",
+        "link": "https://gameinformer.com/review/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park/a-wonderful",
+        "date": 1774418400000,
+        "domain": "gameinformer.com",
+        "sourceName": "Game Informer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Mario Wonder’s Switch 2 Edition is a disappointingly bland add-on to a brilliant Mario game",
@@ -3876,7 +3894,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Review: Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup In Bellabel Park - Inessential Bells & Whistles",
@@ -3884,14 +3902,6 @@
         "date": 1774436400000,
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park Review - A Wonderful Addition",
-        "link": "https://gameinformer.com/review/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park/a-wonderful",
-        "date": 1774418400000,
-        "domain": "gameinformer.com",
-        "sourceName": "Game Informer",
         "isTranslated": false
       }
     ]
@@ -4845,11 +4855,11 @@
     "hotScore": 1
   },
   {
-    "title": "Hands On: Pokémon Champions Promises Top-Tier Battling, But At What Cost?",
-    "link": "https://www.nintendolife.com/previews/hands-on-pokemon-champions-promises-top-tier-battling-but-at-what-cost",
+    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
+    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
     "date": 1774447200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4863,11 +4873,11 @@
     "hotScore": 1
   },
   {
-    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
-    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
+    "title": "Hands On: Pokémon Champions Promises Top-Tier Battling, But At What Cost?",
+    "link": "https://www.nintendolife.com/previews/hands-on-pokemon-champions-promises-top-tier-battling-but-at-what-cost",
     "date": 1774447200000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5188,20 +5198,29 @@
     ]
   },
   {
-    "title": "The Forza Horizon 6 system requirements are in and it's good news for older PCs and handhelds",
-    "link": "https://www.pcgamer.com/games/racing/the-forza-horizon-6-system-requirements-are-in-and-its-good-news-for-older-pcs-and-handhelds",
-    "date": 1774450800000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Hbada X7 Smart Ergonomic Chair Review",
     "link": "https://www.ign.com/articles/hbada-x7-smart-ergonomic-chair-review",
     "date": 1774450800000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Mega Man Star Force Legacy Collection Review",
+    "link": "https://www.ign.com/articles/mega-man-star-force-legacy-collection-review",
+    "date": 1774450800000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Forza Horizon 6 system requirements are in and it's good news for older PCs and handhelds",
+    "link": "https://www.pcgamer.com/games/racing/the-forza-horizon-6-system-requirements-are-in-and-its-good-news-for-older-pcs-and-handhelds",
+    "date": 1774450800000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5215,20 +5234,20 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Mega Man Star Force: Legacy Collection (Switch) - A Well-Presented Package Of An Underrated DS Trio",
-    "link": "https://www.nintendolife.com/reviews/nintendo-switch/mega-man-star-force-legacy-collection",
-    "date": 1774450800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Mini Review: Mega Man Star Force Legacy Collection (PS5) - A Charming Collection That Rarely Changes Course",
     "link": "https://www.pushsquare.com/reviews/ps5/mega-man-star-force-legacy-collection",
     "date": 1774450800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Mega Man Star Force: Legacy Collection (Switch) - A Well-Presented Package Of An Underrated DS Trio",
+    "link": "https://www.nintendolife.com/reviews/nintendo-switch/mega-man-star-force-legacy-collection",
+    "date": 1774450800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5276,25 +5295,6 @@
     "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Mega Man Star Force Legacy Collection Review",
-    "link": "https://www.thegamer.com/mega-man-star-force-legacy-collection-review",
-    "date": 1774450819000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Mega Man Star Force Legacy Collection Review",
-        "link": "https://www.ign.com/articles/mega-man-star-force-legacy-collection-review",
-        "date": 1774450800000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Elevate your mission in Directive 8020 with PlayStation 5 Pro enhancements, out May 12",
@@ -5584,25 +5584,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to solve the Precipice of Truth puzzle in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-precipice-of-truth-puzzle-solution",
-    "date": 1774452821000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to solve the Sanctum of Benediction puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-sanctum-of-benediction-puzzle-solution",
-        "date": 1774442523000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Tekken 8 devs promise better after latest patch, but fans are in full doom mode",
     "link": "https://www.pcgamer.com/games/fighting/tekken-8-devs-promise-better-after-latest-patch-but-fans-are-in-full-doom-mode",
     "date": 1774453002000,
@@ -5721,15 +5702,6 @@
     "hotScore": 1
   },
   {
-    "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
-    "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
-    "date": 1774454400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Heavyweights ruined the industry... now we live on the indies\" Nordic Game embraces smaller devs and games with soul",
     "link": "https://www.gamesindustry.biz/heavyweights-ruined-the-industry-now-we-live-on-the-indies-nordic-game-embraces-smaller-devs-and-games-with-soul",
     "date": 1774454400000,
@@ -5744,6 +5716,15 @@
     "date": 1774454400000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
+    "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
+    "date": 1774454400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6269,11 +6250,11 @@
     "hotScore": 1
   },
   {
-    "title": "Call of Duty: Black Ops 7 Season 3 Details Revealed",
-    "link": "https://insider-gaming.com/call-of-duty-black-ops-7-season-3-details-revealed",
+    "title": "Despite PS5 Hits, Sony Sinks to 21st in Metacritic's Publisher Rankings",
+    "link": "https://www.pushsquare.com/news/2026/03/despite-ps5-hits-sony-sinks-to-21st-in-metacritics-publisher-rankings",
     "date": 1774458000000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6283,15 +6264,6 @@
     "date": 1774458000000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Despite PS5 Hits, Sony Sinks to 21st in Metacritic's Publisher Rankings",
-    "link": "https://www.pushsquare.com/news/2026/03/despite-ps5-hits-sony-sinks-to-21st-in-metacritics-publisher-rankings",
-    "date": 1774458000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6310,6 +6282,15 @@
     "date": 1774458000000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Call of Duty: Black Ops 7 Season 3 Details Revealed",
+    "link": "https://insider-gaming.com/call-of-duty-black-ops-7-season-3-details-revealed",
+    "date": 1774458000000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6565,15 +6546,6 @@
     ]
   },
   {
-    "title": "Magic: The Gathering Marvel Super Heroes Is the Next Crossover Set, and You Can Preorder It Now",
-    "link": "https://www.gamespot.com/gallery/magic-the-gathering-marvel-super-heroes-is-the-next-crossover-set-and-you-can-preorder-it-now/2900-7636",
-    "date": 1774459260000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Nintendo confirms its US Switch 2 games will soon cost more as physical versions",
     "link": "https://www.videogameschronicle.com/news/nintendo-confirms-its-us-switch-2-games-will-soon-cost-more-as-physical-versions",
     "date": 1774459342000,
@@ -6745,6 +6717,15 @@
     "hotScore": 1
   },
   {
+    "title": "How To Get The Vow Of The Dead King Halberd In Crimson Desert",
+    "link": "https://www.thegamer.com/crimson-desert-vow-of-the-dead-king-location-where-to-find-guide",
+    "date": 1774460849000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Nintendo To Change Pricing For Digital & Physical Switch 2 Exclusives, Starting With Yoshi",
     "link": "https://www.nintendolife.com/news/2026/03/nintendo-to-change-pricing-for-digital-and-physical-switch-2-exclusives-starting-with-yoshi",
     "date": 1774461000000,
@@ -6860,49 +6841,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "How to get the Frostcursed Armor in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-frostcursed-armor-location",
-        "date": 1774457429000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How To Get The Vow Of The Dead King Halberd In Crimson Desert",
-        "link": "https://www.thegamer.com/crimson-desert-vow-of-the-dead-king-location-where-to-find-guide",
-        "date": 1774460849000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How To Get The Dusk Marksman's Plate Cloak In Crimson Desert",
-        "link": "https://www.thegamer.com/crimson-desert-dusk-marksmans-plate-cloak-location-spears-how-to-get-where-to-find-guide",
-        "date": 1774453177000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Gate to the Otherworld in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-        "date": 1774382026000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Kingdom Come: Deliverance 2 Studio Head Defends DLSS 5’s Slop Filter: ‘No Way Haters Will Stop This’",
@@ -6931,5 +6870,64 @@
     "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "How To Solve The Checkers Puzzle In Crimson Desert",
+    "link": "https://www.thegamer.com/crimson-desert-duskwood-waterside-ruins-checkers-puzzle-how-to-solve",
+    "date": 1774462521000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "How To Get The Dusk Marksman's Plate Cloak In Crimson Desert",
+        "link": "https://www.thegamer.com/crimson-desert-dusk-marksmans-plate-cloak-location-spears-how-to-get-where-to-find-guide",
+        "date": 1774453177000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete Gate to the Otherworld in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+        "date": 1774382026000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the Frostcursed Armor in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-frostcursed-armor-location",
+        "date": 1774457429000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve the Precipice of Truth puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-precipice-of-truth-puzzle-solution",
+        "date": 1774452821000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve the Sanctum of Benediction puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-sanctum-of-benediction-puzzle-solution",
+        "date": 1774442523000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   }
 ]
