@@ -506,7 +506,7 @@
     "hotScore": 1
   },
   {
-    "title": "Continue mowing the grass in the garden late at night, where there are creatures that hunt prey by responding to sound and light. Horror game “Bait Garden” to be released on March 31st",
+    "title": "Continue mowing the grass in the garden late at night, where creatures that respond to sound and light and hunt prey lurk. Horror game “Bait Garden” to be released on March 31st",
     "link": "https://www.4gamer.net/games/986/G098656/20260324017",
     "date": 1774327481000,
     "domain": "4gamer.net",
@@ -650,7 +650,7 @@
     "hotScore": 1
   },
   {
-    "title": "Truly a “God game”. “I Am Jesus Christ,” an action ADV that depicts the story of Jesus Christ from birth to resurrection, will be released on Steam on April 2nd.",
+    "title": "Truly a “God game”. “I Am Jesus Christ,” an action ADV that depicts the life of Jesus Christ from birth to resurrection, will be released on Steam on April 2nd.",
     "link": "https://www.4gamer.net/games/582/G058257/20260324034",
     "date": 1774341597000,
     "domain": "4gamer.net",
@@ -1020,7 +1020,7 @@
     "hotScore": 1
   },
   {
-    "title": "More than half of the registered users are Japanese gamers! Report on the development progress of 3D dungeon RPG \"Paper Dungeon - Deep Down\" which has over 7,000 wishlist registrations",
+    "title": "More than half of the registrants are Japanese gamers! Report on the development progress of 3D dungeon RPG \"Paper Dungeon - Deep Down\" which has over 7,000 wishlist registrations",
     "link": "http://www.gamespark.jp/article/2026/03/24/164288.html",
     "date": 1774352273000,
     "domain": "gamespark.jp",
@@ -1210,20 +1210,20 @@
     "hotScore": 1
   },
   {
-    "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
-    "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
-    "date": 1774357200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
     "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
     "date": 1774357200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
+    "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
+    "date": 1774357200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1417,7 +1417,7 @@
     "hotScore": 1
   },
   {
-    "title": "Play report of the city-building sim “Nova Roma” that rebuilds Rome – We love Rome and the public baths",
+    "title": "Play report of the city-building sim “Nova Roma” that rebuilds Rome – We love Rome and public baths",
     "link": "http://www.gamespark.jp/article/2026/03/24/164292.html",
     "date": 1774360804000,
     "domain": "gamespark.jp",
@@ -1588,7 +1588,7 @@
     "hotScore": 1
   },
   {
-    "title": "Razer's highest-spec wireless mouse for e-sports professionals in history, \"Viper V4 Pro,\" is now on sale. Five types of mouse pads with different slipperiness are also available at the same time.",
+    "title": "Razer's highest-spec wireless mouse for e-sports professionals, \"Viper V4 Pro,\" is now on sale. Five types of mouse pads with different slipperiness are also available at the same time.",
     "link": "https://www.4gamer.net/games/023/G002318/20260324038",
     "date": 1774364400000,
     "domain": "4gamer.net",
@@ -1860,20 +1860,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
-    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
-    "date": 1774368000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Storms the Physical UK Charts, and Almost All Copies Sold Were for PS5",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-storms-the-physical-uk-charts-and-almost-all-copies-sold-were-for-ps5",
     "date": 1774368000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
+    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
+    "date": 1774368000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2011,21 +2011,22 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Asus ROG Cetra Open Wireless review",
+        "link": "https://www.pcgamer.com/hardware/earbuds-headphones/asus-rog-cetra-open-wireless-review",
+        "date": 1774367375000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Sony reveals that its new PSSR upscaling for the Playstation 5 Pro has the same 'core' as AMD's FSR Redstone but that doesn't necessarily mean older AMD PC graphics cards are set to get an FSR upgrade",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/sony-reveals-that-its-new-pssr-upscaling-for-the-playstation-5-pro-has-the-same-core-as-amds-fsr-redstone-but-that-doesnt-necessarily-mean-older-amd-pc-graphics-cards-are-set-to-get-an-fsr-upgrade",
     "date": 1774369326000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How to get Darkbringer in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
-    "date": 1774369551000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
@@ -2626,6 +2627,25 @@
     "hotScore": 1
   },
   {
+    "title": "How to complete Gate to the Otherworld in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+    "date": 1774382026000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
+        "date": 1774295745000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
     "link": "https://www.siliconera.com/next-baldurs-gate-3-nendoroid-is-a-shadowheart-figure",
     "date": 1774382400000,
@@ -2779,7 +2799,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Play report] Is the enemy a zombie or a human? I explored post-apocalyptic Seoul in Nexon's new PvPvE action \"NAKWON: LAST PARADISE\" alpha test.",
+    "title": "[Play report] Are the enemies zombies or humans? I explored post-apocalyptic Seoul in Nexon's new PvPvE action \"NAKWON: LAST PARADISE\" alpha test.",
     "link": "https://www.4gamer.net/games/708/G070858/20260324036",
     "date": 1774389600000,
     "domain": "4gamer.net",
@@ -2842,7 +2862,7 @@
     "hotScore": 1
   },
   {
-    "title": "OpenAI to end provision of video generation AI \"Sora\". Just a few months after the app's release, overseas reports say Disney is also withdrawing from the deal, which includes a $1 billion investment and character licensing.",
+    "title": "OpenAI to end provision of video generation AI \"Sora\". Just a few months after the app's release, overseas reports say Disney is also withdrawing from the deal, which includes a billion dollar investment and character licensing.",
     "link": "https://news.denfaminicogamer.jp/news/260325c",
     "date": 1774393502000,
     "domain": "news.denfaminicogamer.jp",
@@ -2923,7 +2943,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"SOUND VOLTEX\" character Koiba, who is a hot topic for \"trampling\" sexy beautiful girls - Konami corrects that it is \"a mistake in the second year of middle school instead of the third year\". Users are confused, they were surprised at the “junior high school” but they are much younger.",
+    "title": "\"SOUND VOLTEX\" character Koiba, which is a hot topic for \"trampling\" sexy beautiful girls - Konami corrects that it is \"an error in the second year of middle school instead of the third year\". Users are confused, they were surprised at the “junior high school” but they are much younger.",
     "link": "http://www.gamespark.jp/article/2026/03/25/164303.html",
     "date": 1774400530000,
     "domain": "gamespark.jp",
@@ -3201,7 +3221,7 @@
     "hotScore": 1
   },
   {
-    "title": "The concept movie for the love horror game \"ERROR: Ai.lien\" where you can have a distorted love for your \"AI girlfriend\" has been released. “Kindness” eventually transforms into “obsession”",
+    "title": "The concept movie for the romance horror game \"ERROR: Ai.lien\" where you can have a distorted love for your \"AI girlfriend\" has been released. “Kindness” eventually transforms into “obsession”",
     "link": "https://news.denfaminicogamer.jp/news/260325z",
     "date": 1774407655000,
     "domain": "news.denfaminicogamer.jp",
@@ -3228,7 +3248,7 @@
     "hotScore": 1
   },
   {
-    "title": "OpenAI announces discontinuation of video generation AI \"Sora\"; Disney's $1 billion investment and license offer also goes blank",
+    "title": "OpenAI announces discontinuation of video generation AI \"Sora\" Disney's billion dollar investment and license offer also goes blank",
     "link": "https://jp.ign.com/entertainment/83010/news/openaiaisora-10",
     "date": 1774407975000,
     "domain": "jp.ign.com",
@@ -3255,7 +3275,7 @@
     "hotScore": 1
   },
   {
-    "title": "``Downfall'', an expansion of the ``Slay the Spire'' board game version, has garnered a lot of attention, with fans collecting ``over 360 million yen'' in just 10 hours from its launch. Popular MOD turned into official board game. The Japanese version is scheduled to be held separately in Japan.",
+    "title": "``Downfall'', an expansion of the ``Slay the Spire'' board game version, has garnered a lot of attention, with fans collecting ``over 360 million yen'' in just 10 hours from its launch. A popular MOD is made into an official board game. The Japanese version is scheduled to be held separately in Japan.",
     "link": "https://news.denfaminicogamer.jp/news/260325h",
     "date": 1774408936000,
     "domain": "news.denfaminicogamer.jp",
@@ -3405,7 +3425,7 @@
     ]
   },
   {
-    "title": "\"PAYDAY: Aces High\" announced. The latest installment of the popular series where four people take on a bank robbery will be released for VR in 2026",
+    "title": "\"PAYDAY: Aces High\" announced. The latest installment of the popular series in which four people take on a bank robbery will be released for VR in 2026",
     "link": "https://www.4gamer.net/games/993/G099310/20260325016",
     "date": 1774410694000,
     "domain": "4gamer.net",
@@ -3988,7 +4008,7 @@
     "hotScore": 1
   },
   {
-    "title": "I would like to explain the extremely useful cold supporter \"Tantan\" in \"Arknights: Endfield\". Not only support, but also range attack and time stop.",
+    "title": "I would like to explain the extremely useful cold supporter \"Tantan\" in \"Arknights: Endfield\". Not only support, but also rampage with area attacks and time stops",
     "link": "https://automaton-media.com/articles/columnjp/endfield-20260325-431984",
     "date": 1774426120000,
     "domain": "automaton-media.com",
@@ -3997,7 +4017,7 @@
     "hotScore": 1
   },
   {
-    "title": "A “home run derby” where you can feel despair…! “Zetton’s 1 Trillion Degree Home Run Competition” by Tsuburaya Productions is attracting attention",
+    "title": "“Home Run Derby” where you can taste the despair…! “Zetton’s 1 Trillion Degree Home Run Competition” by Tsuburaya Productions is attracting attention",
     "link": "http://www.gamespark.jp/article/2026/03/25/164322.html",
     "date": 1774426504000,
     "domain": "gamespark.jp",
@@ -4295,7 +4315,7 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently in the process of rebuilding, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
+    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently being rebuilt, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
     "link": "https://automaton-media.com/articles/newsjp/1047-games-20260325-432026",
     "date": 1774432802000,
     "domain": "automaton-media.com",
@@ -4304,7 +4324,7 @@
     "hotScore": 1
   },
   {
-    "title": "``E.S.O: Don't Forget'', an exploration horror game in which you play a novice maintenance worker as you check out a facility housing ferocious creatures, will be released in April!",
+    "title": "``E.S.O: Don't Forget'', an exploration horror game in which you play as a novice maintenance worker and check out a facility housing ferocious creatures, will be released in April!",
     "link": "http://www.gamespark.jp/article/2026/03/25/164328.html",
     "date": 1774432805000,
     "domain": "gamespark.jp",
@@ -4358,7 +4378,7 @@
     "hotScore": 1
   },
   {
-    "title": "LINE Games updates the demo version of the new premium survivor-like game \"Ember and Blade\"...planned for global release later this year",
+    "title": "LINE Games updates demo version of new premium survivor-like game \"Ember and Blade\"...planned for global release later this year",
     "link": "https://gamebiz.jp/news/423220",
     "date": 1774432980000,
     "domain": "gamebiz.jp",
@@ -4913,7 +4933,7 @@
     ]
   },
   {
-    "title": "“Reverse for you” mini-anime “Original! Bandori-chan” booster pack will be released!",
+    "title": "“Reverse for you” mini-anime “Ganso! Bandori-chan” booster pack will be released!",
     "link": "https://www.gamer.ne.jp/news/202603250051",
     "date": 1774437120000,
     "domain": "gamer.ne.jp",
@@ -5228,11 +5248,11 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "How to complete Gate to the Otherworld in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-        "date": 1774382026000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
+        "title": "How to get Darkbringer in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
+        "date": 1774369551000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       },
       {
@@ -5241,30 +5261,6 @@
         "date": 1774379420000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
-        "date": 1774295745000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to solve the Root's End puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
-        "date": 1774367332000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
-        "date": 1774366504000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -5719,6 +5715,22 @@
     "hotScore": 1,
     "groupMembers": [
       {
+        "title": "How to solve the Root's End puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
+        "date": 1774367332000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
+        "date": 1774366504000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
         "date": 1774364513000,
@@ -5851,15 +5863,6 @@
     "date": 1774443611000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Fortnite Layoffs Raise Concern For Games Industry",
-    "link": "https://www.thegamer.com/fortnite-layoffs-bad-sign-live-service-games",
-    "date": 1774443679000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6136,15 +6139,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to Get the Sunset Reed Armor Set and Hollow Visage Sword in Crimson Desert",
-    "link": "https://gamerant.com/crimson-desert-how-get-reed-devil-armor-sword-hollow-visage-location",
-    "date": 1774445476000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Microsoft Gaming CEO Reportedly Exploring Bundling Game Pass With Netflix After Personally Killing ‘Everything Is An Xbox’ Push",
     "link": "https://kotaku.com/xbox-game-pass-netflix-cheaper-ad-tier-asha-sharma-2000681806",
     "date": 1774445590000,
@@ -6296,17 +6290,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Asus ROG Cetra Open Wireless review",
-        "link": "https://www.pcgamer.com/hardware/earbuds-headphones/asus-rog-cetra-open-wireless-review",
-        "date": 1774367375000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Play Faster, a Precision Platformer Purpose-Built for Speedrunning, Announced for PC",
@@ -6327,11 +6311,11 @@
     "hotScore": 1
   },
   {
-    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
-    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
+    "title": "New Free FIFA Game Pits Greek God Zeus Against Argentinian Icon Diego Maradona, Will Come to PS5",
+    "link": "https://www.pushsquare.com/news/2026/03/new-free-fifa-game-pits-greek-god-zeus-against-argentinian-icon-diego-maradona-will-come-to-ps5",
     "date": 1774447200000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6345,11 +6329,11 @@
     "hotScore": 1
   },
   {
-    "title": "New Free FIFA Game Pits Greek God Zeus Against Argentinian Icon Diego Maradona, Will Come to PS5",
-    "link": "https://www.pushsquare.com/news/2026/03/new-free-fifa-game-pits-greek-god-zeus-against-argentinian-icon-diego-maradona-will-come-to-ps5",
+    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
+    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
     "date": 1774447200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6688,7 +6672,7 @@
     "hotScore": 1
   },
   {
-    "title": "If the balance is poor, it will collapse, and meteorites will fall from the sky! Co-op construction sim “Salvation Denied” Steam store page released – playtest also underway",
+    "title": "If the balance is poor, it will collapse and meteorites will fall from the sky! Co-op construction sim “Salvation Denied” Steam store page released – playtest also underway",
     "link": "http://www.gamespark.jp/article/2026/03/25/164336.html",
     "date": 1774449384000,
     "domain": "gamespark.jp",
@@ -6772,6 +6756,24 @@
     "date": 1774449788000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Marvel Rivals Lead Rules Out Crossovers And Non-Marvel Characters",
+    "link": "https://www.thegamer.com/marvel-rivals-no-crossovers",
+    "date": 1774450164000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "ARC Raiders: How to Apply Gas, Stun, and Burn Status (For Science!)",
+    "link": "https://gamerant.com/arc-raiders-how-to-get-the-for-science-trophy-achievement",
+    "date": 1774450193000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   }
