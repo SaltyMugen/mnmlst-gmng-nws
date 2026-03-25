@@ -531,15 +531,6 @@
     "hotScore": 1
   },
   {
-    "title": "Yakuza Dev Gearing Up for Big Stranger Than Heaven Re-Reveal",
-    "link": "https://www.pushsquare.com/news/2026/03/yakuza-dev-gearing-up-for-big-stranger-than-heaven-re-reveal",
-    "date": 1774292400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Talking Point: Do You Think Project Helix Will Support Physical Xbox Games?",
     "link": "https://www.purexbox.com/features/talking-point-do-you-think-project-helix-will-support-physical-xbox-games",
     "date": 1774294200000,
@@ -554,6 +545,15 @@
     "date": 1774294697000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
+    "date": 1774295745000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -630,25 +630,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to summon your companions in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-summon-your-companions-in-crimson-desert",
-    "date": 1774302460000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to get a Bear mount in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-a-bear-mount-in-crimson-desert",
-        "date": 1774282097000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "PS5 Pro's Acclaimed PSSR 2 Upscaler Runs Faster Than Its Predecessor",
     "link": "https://www.pushsquare.com/news/2026/03/ps5-pros-acclaimed-pssr-2-upscaler-runs-faster-than-its-predecessor",
     "date": 1774303200000,
@@ -703,22 +684,23 @@
     "hotScore": 1
   },
   {
-    "title": "Steam Client Beta - March 23rd",
-    "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
-    "date": 1774307032000,
-    "domain": "store.steampowered.com",
-    "sourceName": "Steam News",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Aggiornamento del client beta di Steam Deck: 23 marzo",
+    "title": "Steam Deck Beta Client Update: March 23rd",
     "link": "https://store.steampowered.com/news/app/1675200/view/532126482488624691",
     "date": 1774307043000,
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Steam Client Beta - March 23rd",
+        "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
+        "date": 1774307032000,
+        "domain": "store.steampowered.com",
+        "sourceName": "Steam News",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "'A firm announcement is dependent on this final stretch of work': Fans are spinning out over extraction shooter Sand's lack of a specific March release date",
@@ -808,15 +790,6 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "\"Alone on the Back of the Moon\" is a short incremental x novel game in which you become an investigator who explores the moon and collects ore, now available for free on unityroom",
-    "link": "https://www.4gamer.net/games/992/G099263/20260324005",
-    "date": 1774320034000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -1203,15 +1176,6 @@
     "date": 1774342801000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "\"If I were to compare it to a movie, it would be a good popcorn movie.\" Summary of overseas reviews of \"John Carpenter's Toxic Commando\"",
-    "link": "http://www.gamespark.jp/article/2026/03/24/164281.html",
-    "date": 1774342804000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1713,20 +1677,20 @@
     "hotScore": 1
   },
   {
-    "title": "Xbox Console Updates Continue As New 'Cloud Save Sync' Indicator Rolls Out To Insiders",
-    "link": "https://www.purexbox.com/news/2026/03/xbox-console-updates-continue-as-new-cloud-save-sync-indicator-rolls-out-to-insiders",
-    "date": 1774353600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dev Pledges to Make Crimson Desert 'Even More Enjoyable' as It Sells Over 3 Million Copies in First Week",
     "link": "https://www.pushsquare.com/news/2026/03/dev-pledges-to-make-crimson-desert-even-more-enjoyable-as-it-sells-over-3-million-copies-in-first-week",
     "date": 1774353600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Console Updates Continue As New 'Cloud Save Sync' Indicator Rolls Out To Insiders",
+    "link": "https://www.purexbox.com/news/2026/03/xbox-console-updates-continue-as-new-cloud-save-sync-indicator-rolls-out-to-insiders",
+    "date": 1774353600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1830,6 +1794,15 @@
     "hotScore": 1
   },
   {
+    "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
+    "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
+    "date": 1774357200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
     "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
     "date": 1774357200000,
@@ -1844,15 +1817,6 @@
     "date": 1774357200000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
-    "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
-    "date": 1774357200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2046,20 +2010,20 @@
     "hotScore": 1
   },
   {
-    "title": "Albion Online Is Finally Making Its Xbox Console Debut In April 2026",
-    "link": "https://www.purexbox.com/news/2026/03/albion-online-is-finally-making-its-xbox-console-debut-in-april-2026",
-    "date": 1774360800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "One of PS5's Most Graphically Intensive Games Patched to Support Low Power Mode",
     "link": "https://www.pushsquare.com/news/2026/03/one-of-ps5s-most-graphically-intensive-games-patched-to-support-low-power-mode",
     "date": 1774360800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Albion Online Is Finally Making Its Xbox Console Debut In April 2026",
+    "link": "https://www.purexbox.com/news/2026/03/albion-online-is-finally-making-its-xbox-console-debut-in-april-2026",
+    "date": 1774360800000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2654,20 +2618,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
-    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
-    "date": 1774368000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Storms the Physical UK Charts, and Almost All Copies Sold Were for PS5",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-storms-the-physical-uk-charts-and-almost-all-copies-sold-were-for-ps5",
     "date": 1774368000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
+    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
+    "date": 1774368000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2827,25 +2791,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to get Darkbringer in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
-    "date": 1774369551000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
-        "date": 1774364513000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Owlchemy reveals Sporelando as a wacky XR addition for Dimensional Double Shift",
     "link": "https://gamesbeat.com/owlchemy-reveals-sporelando-as-a-wacky-xr-addition-for-dimensional-double-shift",
     "date": 1774369800000,
@@ -2923,15 +2868,6 @@
     "date": 1774370788000,
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Epic kills 3 Fortnite modes amid mass layoffs, including the Rocket League devs' Mario Kart-like which helped kick off the multi-game metaverse era to begin with",
-    "link": "https://www.gamesradar.com/games/fortnite/epic-kills-3-fortnite-modes-amid-mass-layoffs-including-the-rocket-league-devs-mario-kart-like-which-helped-kick-off-the-multi-game-metaverse-era-to-begin-with",
-    "date": 1774371110000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3530,6 +3466,41 @@
     "hotScore": 1
   },
   {
+    "title": "How to destroy thorns in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+    "date": 1774379420000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to get Darkbringer in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
+        "date": 1774369551000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
+        "date": 1774364513000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the Soul Spear in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
+        "date": 1774353441000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Official World Of Warcraft Music Video Is A Walk Down Memory Lane",
     "link": "https://www.gamespot.com/articles/official-world-of-warcraft-music-video-is-a-walk-down-memory-lane/1100-6538991",
     "date": 1774379520000,
@@ -3656,22 +3627,6 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
-        "date": 1774295745000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "How to solve the Root's End puzzle in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
         "date": 1774367332000,
@@ -3688,11 +3643,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to get the Soul Spear in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
-        "date": 1774353441000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
+        "title": "How to get a Bear mount in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-a-bear-mount-in-crimson-desert",
+        "date": 1774282097000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -4551,6 +4506,14 @@
         "isTranslated": false
       },
       {
+        "title": "How to summon your companions in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-summon-your-companions-in-crimson-desert",
+        "date": 1774302460000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
         "title": "Crimson Desert sells through 2M copies in 5 days",
         "link": "https://gamesbeat.com/crimson-desert-sells-through-2m-copies-in-5-days",
         "date": 1774306620000,
@@ -5263,15 +5226,6 @@
     "hotScore": 1
   },
   {
-    "title": "To commemorate the 20th anniversary of the \"Raido\" series, a collaboration menu with Chimney Group will be available at three stores in Tokyo, Kyoto, and Osaka from April 16th!",
-    "link": "https://www.gamer.ne.jp/news/202603250023",
-    "date": 1774419180000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Sega Spring Sale is being held with 70% off the Ultimate Edition of \"Ryu ga Gotoku 8\" and 40% off on the DDX version of \"SHINOBI: Slash of Revenge\"!",
     "link": "https://www.gamer.ne.jp/news/202603250024",
     "date": 1774419900000,
@@ -5582,15 +5536,6 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Every Cheat Code for Grand Theft Auto: San Andreas – Definitive Edition",
-    "link": "https://gamerant.com/gta-san-andreas-definitive-edition-trilogy-cheat-codes-cheats",
-    "date": 1774425615000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -6215,7 +6160,7 @@
     "hotScore": 1
   },
   {
-    "title": "Console Archives “Terra Cresta” now available! Nichibutsu's shooting game released in 1986 is now available on Switch 2/PS5",
+    "title": "Console Archives “Terra Cresta” will be released on March 26th! Nichibutsu's shooting game released in 1986 is now available on Switch 2/PS5",
     "link": "http://www.gamespark.jp/article/2026/03/25/164329.html",
     "date": 1774432808000,
     "domain": "gamespark.jp",
@@ -6416,6 +6361,15 @@
     "hotScore": 1
   },
   {
+    "title": "Only a \"skeletal crew\" are left working on Fallout: London, and the massive mod's next DLC will miss a planned April release window",
+    "link": "https://www.rockpapershotgun.com/fallout-london-next-dlc-pushed-back-skeletal-crew",
+    "date": 1774433839000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "“Sadako” becomes a “curse bust figure” and appears as a prize. The monitor is removable and Sadako can be grown from anywhere.",
     "link": "https://news.denfaminicogamer.jp/news/2603252l",
     "date": 1774434052000,
@@ -6588,6 +6542,15 @@
     "hotScore": 1
   },
   {
+    "title": "PS Plus Essential Game for April 2026 Leaked",
+    "link": "https://www.pushsquare.com/news/2026/03/ps-plus-essential-game-for-april-2026-leaked",
+    "date": 1774435500000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Latest Rainbow Six Siege Patch Improves Several Operators",
     "link": "https://insider-gaming.com/ubisoft-rainbow-six-patch-notes-operators",
     "date": 1774435583000,
@@ -6639,6 +6602,51 @@
     "domain": "jp.ign.com",
     "sourceName": "IGN Japan",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"FF14\" CERO rating will be changed from \"CERO C\" to \"CERO D\" - to maintain group pose function",
+    "link": "http://www.gamespark.jp/article/2026/03/25/164331.html",
+    "date": 1774435859000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Weiss Schwarz Rose” booster pack “Nukitashi THE ANIMATION” will be released on August 14th!",
+    "link": "https://www.gamer.ne.jp/news/202603250034",
+    "date": 1774435920000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Half-Life 2 writer says Valve devs have \"been looking\" at gen AI for help with video game writing: \"It's the one place where I feel like AI is worth investigating\"",
+    "link": "https://www.gamesradar.com/games/half-life-2-writer-says-valve-devs-have-been-looking-at-gen-ai-for-help-with-video-game-writing-its-the-one-place-where-i-feel-like-ai-is-worth-investigating",
+    "date": 1774435971000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Zombie survival game \"NAKWON: LAST PARADISE\", closed alpha test play data released. Approximately 280,000 participants, over 32 million infected bodies subdued",
+    "link": "https://www.4gamer.net/games/708/G070858/20260325050",
+    "date": 1774436025000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "It's Officially the End of an Era for Roblox",
+    "link": "https://gamerant.com/roblox-classic-faces-removed-gone-offsale-update",
+    "date": 1774436034000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
