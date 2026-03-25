@@ -785,15 +785,6 @@
     "hotScore": 1
   },
   {
-    "title": "The vertical taskbar is finally back in Windows 11. Various improvements such as “automatic restart” of “Windows Update”, first from test implementation",
-    "link": "https://automaton-media.com/articles/newsjp/windows-20260324-431750",
-    "date": 1774331558000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The developer of the game, which was in danger of ending its service, reveals how they ``reduced the team from about 25 people to 3 people and got out of the crisis by introducing generation AI.'' Techniques for escaping a crisis without layoffs or termination of service",
     "link": "https://automaton-media.com/articles/newsjp/20260324-431748",
     "date": 1774332408000,
@@ -1323,15 +1314,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The FCC says foreign routers 'pose an unacceptable risk' and now require special approval to be sold in the US",
-    "link": "https://www.pcgamer.com/hardware/networking/the-fcc-says-foreign-routers-pose-an-unacceptable-risk-and-now-require-special-approval-to-be-sold-in-the-us",
-    "date": 1774351990000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -5081,15 +5063,6 @@
     "hotScore": 1
   },
   {
-    "title": "Marathon Has Sold An Estimated 1.2 Million Copies, But That Might Not Be Enough",
-    "link": "https://www.thegamer.com/marathon-early-launch-sales-estimates",
-    "date": 1774431929000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
     "link": "https://news.denfaminicogamer.jp/news/2603252k",
     "date": 1774431946000,
@@ -5378,15 +5351,6 @@
     "hotScore": 1
   },
   {
-    "title": "PS5 Games That Will Likely Be Unplayable by 2030",
-    "link": "https://gamerant.com/playstation5-games-likely-unplayable-by-2030",
-    "date": 1774434615000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Silent Hill f Is Getting A Manga Spin-Off",
     "link": "https://www.thegamer.com/silent-hill-f-is-getting-a-manga-that-retcons-the-games-original-ending",
     "date": 1774434619000,
@@ -5641,20 +5605,20 @@
     "hotScore": 1
   },
   {
-    "title": "Invincible Season 4, Episode 4 Review – ‘Hurm’",
-    "link": "https://www.ign.com/articles/invincible-season-4-episode-4-review-recap-hurm",
-    "date": 1774436400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "It’s always a good time to revisit Super Mario Bros. Wonder",
     "link": "https://www.theverge.com/games/899839/super-mario-bros-wonder-nintendo-switch-2-review",
     "date": 1774436400000,
     "domain": "theverge.com",
     "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Invincible Season 4, Episode 4 Review – ‘Hurm’",
+    "link": "https://www.ign.com/articles/invincible-season-4-episode-4-review-recap-hurm",
+    "date": 1774436400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5692,7 +5656,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Super Mario Bros. Wonder + Meetup In Bellabel Park Review - Bring Your Friends",
@@ -5700,22 +5664,6 @@
         "date": 1774436400000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Bellabel Park Review",
-        "link": "https://www.ign.com/articles/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park-review",
-        "date": 1774436400000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
-        "isTranslated": false
-      },
-      {
-        "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park Review - A Wonderful Addition",
-        "link": "https://gameinformer.com/review/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park/a-wonderful",
-        "date": 1774418400000,
-        "domain": "gameinformer.com",
-        "sourceName": "Game Informer",
         "isTranslated": false
       }
     ]
@@ -5736,7 +5684,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition Review",
@@ -5744,6 +5692,22 @@
         "date": 1774436420000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Bellabel Park Review",
+        "link": "https://www.ign.com/articles/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park-review",
+        "date": 1774436400000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park Review - A Wonderful Addition",
+        "link": "https://gameinformer.com/review/super-mario-bros-wonder-nintendo-switch-2-edition-meetup-in-bellabel-park/a-wonderful",
+        "date": 1774418400000,
+        "domain": "gameinformer.com",
+        "sourceName": "Game Informer",
         "isTranslated": false
       }
     ]
@@ -6258,65 +6222,6 @@
     "hotScore": 1
   },
   {
-    "title": "How To Get The Darkbringer Sword In Crimson Desert",
-    "link": "https://insider-gaming.com/how-to-get-the-darkbringer-sword-in-crimson-desert",
-    "date": 1774439536000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "How to complete Gate to the Otherworld in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-        "date": 1774382026000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
-        "date": 1774295745000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to solve the Root's End puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
-        "date": 1774367332000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
-        "date": 1774366504000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get the Soul Spear in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
-        "date": 1774353441000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "How To Best Set Up Your Store In Retro Rewind",
     "link": "https://www.thegamer.com/retro-rewind-store-layout-best-guide",
     "date": 1774439562000,
@@ -6734,6 +6639,100 @@
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
         "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "Daruma cultivation roguelite \"Daruma Observation Diary\" released on Steam. A brink energy experiment where you watch the Daruma dolls grow exponentially and you're out if you're too late.",
+    "link": "https://automaton-media.com/articles/newsjp/20260325-432098",
+    "date": 1774441329000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "CPU shortage is 'getting more serious day by day, no less than the memory chip situation' according to an unnamed gaming PC company",
+    "link": "https://www.pcgamer.com/hardware/processors/cpu-shortage-is-getting-more-serious-day-by-day-no-less-than-the-memory-chip-situation-according-to-an-unnamed-gaming-pc-company",
+    "date": 1774441343000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Dota 2 Update 7.36 Removes Facets",
+    "link": "https://www.thegamer.com/dota-2-patch-notes-march-facets",
+    "date": 1774441344000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How to Beat Golden Star in Crimson Desert",
+    "link": "https://gamerant.com/crimson-desert-golden-star-dragon-how-to-beat",
+    "date": 1774441482000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "How to complete Gate to the Otherworld in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+        "date": 1774382026000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
+        "date": 1774295745000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve the Root's End puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
+        "date": 1774367332000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
+        "date": 1774366504000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the Soul Spear in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
+        "date": 1774353441000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How To Get The Darkbringer Sword In Crimson Desert",
+        "link": "https://insider-gaming.com/how-to-get-the-darkbringer-sword-in-crimson-desert",
+        "date": 1774439536000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
       }
     ]
   }
