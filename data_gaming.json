@@ -1,14 +1,5 @@
 [
   {
-    "title": "Teacher brings PS5 to class and uses Assassin’s Creed to give history lesson",
-    "link": "https://www.dexerto.com/gaming/teacher-brings-ps5-to-class-and-uses-assassins-creed-to-give-history-lesson-3339072",
-    "date": 1774261238000,
-    "domain": "dexerto.com",
-    "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Your citizens don't stay put in Stellaris-style 4X strategy game Final Vanguard - start a war and \"entire waves of refugees can emerge\"",
     "link": "https://www.rockpapershotgun.com/your-citizens-dont-stay-put-in-stellaris-style-4x-strategy-game-final-vanguard-start-a-war-and-entire-waves-of-refugees-can-emerge",
     "date": 1774263600000,
@@ -694,22 +685,23 @@
     "hotScore": 1
   },
   {
-    "title": "Steam Client Beta - March 23rd",
-    "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
-    "date": 1774307032000,
-    "domain": "store.steampowered.com",
-    "sourceName": "Steam News",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Aggiornamento del client beta di Steam Deck: 23 marzo",
+    "title": "Steam Deck Beta Client Update: March 23rd",
     "link": "https://store.steampowered.com/news/app/1675200/view/532126482488624691",
     "date": 1774307043000,
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Steam Client Beta - March 23rd",
+        "link": "https://store.steampowered.com/news/group/4397053/view/540007781835474432",
+        "date": 1774307032000,
+        "domain": "store.steampowered.com",
+        "sourceName": "Steam News",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "'A firm announcement is dependent on this final stretch of work': Fans are spinning out over extraction shooter Sand's lack of a specific March release date",
@@ -1171,15 +1163,6 @@
     "hotScore": 1
   },
   {
-    "title": "The trial version of ``The Bagman'', a retro-style 16-bit survival horror game where you run away from a ``pursuer'', is now available on Steam. Proceeds in a point-and-click style and features extreme slasher gore.",
-    "link": "https://news.denfaminicogamer.jp/news/2603242m",
-    "date": 1774340574000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Frog physics 2D action game ``RUBATO'' has been highly rated. A unique retro-style game with “extraordinary effects” that lets you save the solar system with jumps and tongues.",
     "link": "https://automaton-media.com/articles/newsjp/rubato-20260324-431824",
     "date": 1774341576000,
@@ -1631,6 +1614,15 @@
     "hotScore": 1
   },
   {
+    "title": "“Harvest Skies: Crop Dusting Simulator,” a flight sim that allows up to 5 people to cooperate, releases announcement trailer",
+    "link": "https://www.4gamer.net/games/992/G099299/20260324050",
+    "date": 1774351419000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "The executioner approaches the truth of the world while putting the monster's chaos under control. PS2-style retro action RPG “No Vacation for an Executioner” released today",
     "link": "https://www.4gamer.net/games/993/G099300/20260324052",
     "date": 1774351981000,
@@ -1884,20 +1876,20 @@
     "hotScore": 1
   },
   {
-    "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
-    "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
-    "date": 1774357200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "If You're Playing Final Fantasy Games on PS5, There's a Good Chance You're Old",
     "link": "https://www.pushsquare.com/news/2026/03/if-youre-playing-final-fantasy-games-on-ps5-theres-a-good-chance-youre-old",
     "date": 1774357200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "First Impressions: The Diary Of A First-Time 'Tomodachi Life' Player - Am I Living The Dream?",
+    "link": "https://www.nintendolife.com/previews/first-impressions-the-diary-of-a-first-time-tomodachi-life-player-am-i-living-the-dream",
+    "date": 1774357200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2708,20 +2700,20 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
-    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
-    "date": 1774368000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Storms the Physical UK Charts, and Almost All Copies Sold Were for PS5",
     "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-storms-the-physical-uk-charts-and-almost-all-copies-sold-were-for-ps5",
     "date": 1774368000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
+    "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
+    "date": 1774368000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3139,15 +3131,6 @@
     "date": 1774372920000,
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Xbox and Netflix Have ‘Kicked Around Ideas’ For a Subscription Bundle",
-    "link": "https://insider-gaming.com/xbox-and-netflix-have-kicked-around-ideas-for-a-subscription-bundle",
-    "date": 1774373325000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4451,25 +4434,7 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Announcement of \"Harvest Skies: Crop Dusting Simulator\", a pesticide dusting flight sim that supports up to 5 people. A “special blend” of chemicals tailored to the field is sprayed by low-altitude flight that passes through electric wires.",
-        "link": "https://automaton-media.com/articles/newsjp/harvest-skies-20260324-431719",
-        "date": 1774321497000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "“Harvest Skies: Crop Dusting Simulator,” a flight sim that allows up to 5 people to cooperate, releases announcement trailer",
-        "link": "https://www.4gamer.net/games/992/G099299/20260324050",
-        "date": 1774351419000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "The original art exhibition for “Parasyte” “Parasyte Exhibition” will be held from June 6th. On display are the original drawings of Hitoshi Iwaaki's masterpiece manga, which was serialized from 1990 to 1995. The event will be held in Yokohama City, Kanagawa Prefecture until June 21st.",
@@ -5656,15 +5621,6 @@
     "hotScore": 1
   },
   {
-    "title": "KONAMI holds “Pacific League Guaranteed Scout” and “Central League Guaranteed Scout” with double the chance of appearing in S rank in “Prospi A”",
-    "link": "https://gamebiz.jp/news/423198",
-    "date": 1774424340000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "A new Japanese mod project is underway that will make it easier to install ``The Elder Scrolls III: Morrowind''. Overcoming many obstacles and making it playable",
     "link": "http://www.gamespark.jp/article/2026/03/25/164320.html",
     "date": 1774424704000,
@@ -6611,6 +6567,51 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "“Sadako” becomes a “curse bust figure” and appears as a prize. The monitor is removable and Sadako can be grown from anywhere.",
+    "link": "https://news.denfaminicogamer.jp/news/2603252l",
+    "date": 1774434052000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Billbil-kun: Lords of the Fallen offered in April 2026 as part of PlayStation Plus for all tiers (Essential/Extra/Premium)",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1s36twj/billbilkun_lords_of_the_fallen_offered_in_april",
+    "date": 1774434068000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PS Plus Monthly Games Headliner for April Revealed",
+    "link": "https://insider-gaming.com/ps-plus-monthly-games-headliner-for-april-reveal",
+    "date": 1774434105000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Bandai Namco ENT is holding a sale where downloadable games are up to 75% off! “CODE VEIN II” and “My Hero Academia All’s Justice” are on sale for the first time!",
+    "link": "https://gamebiz.jp/news/423219",
+    "date": 1774434120000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Tactical strategy \"Arbiter 131\" announced. \"XCOM\" style top-down tactical battle, it's up to you to follow the \"propaganda\" or go against it.",
+    "link": "https://automaton-media.com/articles/newsjp/arbiter-131-20260325-432031",
+    "date": 1774434278000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
     "hotScore": 1
   }
 ]
