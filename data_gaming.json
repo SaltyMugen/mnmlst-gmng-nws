@@ -1,23 +1,5 @@
 [
   {
-    "title": "After a very fun, but very frustrating, first weekend, Bungie is considering tweaking Marathon's Cryo Archive",
-    "link": "https://www.eurogamer.net/marathon-bungie-is-considering-tweaking-cryo-archive",
-    "date": 1774270969000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How to get Bismuth in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-get-bismuth-in-crimson-desert",
-    "date": 1774271363000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "What is the weekly challenge in Phasmophobia?",
     "link": "https://www.destructoid.com/what-is-the-weekly-challenge-in-phasmophobia",
     "date": 1774272582000,
@@ -351,20 +333,20 @@
     "hotScore": 1
   },
   {
-    "title": "EA Announces Server Shutdown & Delisting Plans For Battlefield Hardline On Xbox",
-    "link": "https://www.purexbox.com/news/2026/03/ea-announces-server-shutdown-and-delisting-plans-for-battlefield-hardline-on-xbox",
-    "date": 1774288800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFVII Ever Crisis Dirge of Cerberus Chapter 2 Features Nero",
     "link": "https://www.siliconera.com/ffvii-ever-crisis-dirge-of-cerberus-chapter-2-features-nero",
     "date": 1774288800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "EA Announces Server Shutdown & Delisting Plans For Battlefield Hardline On Xbox",
+    "link": "https://www.purexbox.com/news/2026/03/ea-announces-server-shutdown-and-delisting-plans-for-battlefield-hardline-on-xbox",
+    "date": 1774288800000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -803,7 +785,7 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of the rescue cat care sim \"Cat Parents\" was surprised to see it surpass 100,000 Steam wishlists on the \"3rd day of announcement\". Be wary of expectations for “super-dreadnought”",
+    "title": "The developer of the rescue cat care sim ``Cat Parents'' was surprised to see it surpass 100,000 Steam wishlists on the ``3rd day of announcement''. Be wary of expectations for “super-dreadnought”",
     "link": "https://automaton-media.com/articles/newsjp/cat-parents-20260324-431810",
     "date": 1774338183000,
     "domain": "automaton-media.com",
@@ -1010,7 +992,7 @@
     "hotScore": 1
   },
   {
-    "title": "“THE WORLD OF BIOHAZARD 30th Anniversary Exhibition” will be held to commemorate the 30th anniversary of the “Resident Evil” series! The history is revealed, including the settings of the characters that appear.",
+    "title": "The 30th anniversary event of the “Resident Evil” series “THE WORLD OF BIOHAZARD 30th Anniversary Exhibition” will be held! The history is revealed, including the settings of the characters that appear.",
     "link": "http://www.gamespark.jp/article/2026/03/24/164283.html",
     "date": 1774345504000,
     "domain": "gamespark.jp",
@@ -1236,7 +1218,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Goddess of Victory: NIKKE” collaborates with Razer. A limited edition Viper costume is now available. Limited quantity boxes will go on sale on March 30th.",
+    "title": "“Goddess of Victory: NIKKE” collaborates with Razer. A limited edition Viper costume is now available. Limited quantity boxes will go on sale on March 30th",
     "link": "https://www.4gamer.net/games/456/G045622/20260324046",
     "date": 1774351284000,
     "domain": "4gamer.net",
@@ -1352,6 +1334,25 @@
     "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "How to get the Soul Spear in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
+    "date": 1774353441000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to get Bismuth in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-bismuth-in-crimson-desert",
+        "date": 1774271363000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "In an environment that is “too black”? In a town ruled by a medieval feudal lord, workers were not allowed to return home. A large update to the town building strategy “Manor Road”",
@@ -2150,6 +2151,25 @@
     "hotScore": 1
   },
   {
+    "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
+    "date": 1774366504000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
+        "date": 1774295745000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Turn your truck passenger seat into a full-fledged gaming environment! ? The high-end configuration that cost about 1 million yen is attracting attention.",
     "link": "http://www.gamespark.jp/article/2026/03/25/164298.html",
     "date": 1774366558000,
@@ -2259,6 +2279,15 @@
     "hotScore": 1
   },
   {
+    "title": "Nintendo Aware of Pokemon XD: Gale of Darkness Switch 2 Crash",
+    "link": "https://www.siliconera.com/nintendo-aware-of-pokemon-xd-gale-of-darkness-switch-2-crash",
+    "date": 1774368000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Feature: Nintendo May Win Its Case Against The US Government, But Tariffs Are Here To Stay",
     "link": "https://www.nintendolife.com/features/nintendo-may-win-its-case-against-the-us-government-but-tariffs-are-here-to-stay",
     "date": 1774368000000,
@@ -2273,15 +2302,6 @@
     "date": 1774368000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Nintendo Aware of Pokemon XD: Gale of Darkness Switch 2 Crash",
-    "link": "https://www.siliconera.com/nintendo-aware-of-pokemon-xd-gale-of-darkness-switch-2-crash",
-    "date": 1774368000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2522,20 +2542,20 @@
     "hotScore": 1
   },
   {
-    "title": "Acclaimed Arcade Racer 'Horizon Chase Turbo' Being Delisted From Switch eShop",
-    "link": "https://www.nintendolife.com/news/2026/03/acclaimed-arcade-racer-horizon-chase-turbo-being-delisted-from-switch-eshop",
-    "date": 1774371600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pokemon Champions Arrives in April With Free Switch 2 Update",
     "link": "https://www.siliconera.com/pokemon-champions-arrives-in-april-with-free-switch-2-update",
     "date": 1774371600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Acclaimed Arcade Racer 'Horizon Chase Turbo' Being Delisted From Switch eShop",
+    "link": "https://www.nintendolife.com/news/2026/03/acclaimed-arcade-racer-horizon-chase-turbo-being-delisted-from-switch-eshop",
+    "date": 1774371600000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2927,20 +2947,20 @@
     "hotScore": 1
   },
   {
-    "title": "Tekken 8 Season 3 Backlash Somehow Even Worse Than Season 2, Game Gets Review Bombed",
-    "link": "https://www.pushsquare.com/news/2026/03/tekken-8-season-3-backlash-somehow-even-worse-than-season-2-game-gets-review-bombed",
-    "date": 1774378800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Chainsaw Man Manga Ended With Chapter 232 and Familiar Characters",
     "link": "https://www.siliconera.com/chainsaw-man-manga-ended-with-chapter-232-and-familiar-characters",
     "date": 1774378800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Tekken 8 Season 3 Backlash Somehow Even Worse Than Season 2, Game Gets Review Bombed",
+    "link": "https://www.pushsquare.com/news/2026/03/tekken-8-season-3-backlash-somehow-even-worse-than-season-2-game-gets-review-bombed",
+    "date": 1774378800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3098,23 +3118,13 @@
     "hotScore": 1
   },
   {
-    "title": "How to complete Gate to the Otherworld in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-    "date": 1774382026000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
+    "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
+    "link": "https://www.siliconera.com/next-baldurs-gate-3-nendoroid-is-a-shadowheart-figure",
+    "date": 1774382400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to complete Kiln Repair at the Kilnden Workshop quest in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-kiln-repair-at-the-kilnden-workshop-quest-in-crimson-desert",
-        "date": 1774295745000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "'I Have Done So Much for This Company': Axed Fortnite Dev Can't Believe He's Been Laid Off",
@@ -3122,15 +3132,6 @@
     "date": 1774382400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
-    "link": "https://www.siliconera.com/next-baldurs-gate-3-nendoroid-is-a-shadowheart-figure",
-    "date": 1774382400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3180,15 +3181,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"Weird and bats**t\" Steam launch of two different indie games with the same name ended in 3x more sales than expected: \"It all absolutely popped off\"",
-    "link": "https://www.gamesradar.com/games/weird-and-bats-t-steam-launch-of-two-different-indie-games-with-the-same-name-ended-in-3x-more-sales-than-expected-it-all-absolutely-popped-off",
-    "date": 1774385120000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Call of Duty veteran's new studio, which was just announced in 2025, is being closed by Sony",
     "link": "https://www.pcgamer.com/gaming-industry/call-of-duty-veterans-new-studio-which-was-just-announced-in-2025-is-reportedly-being-closed-by-sony",
     "date": 1774385674000,
@@ -3203,15 +3195,6 @@
     "date": 1774386000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Marathon sold just 1.2 million copies with nearly 70% on Steam, analyst estimates: \"It hasn't exactly made the splash Sony and Bungie wanted\"",
-    "link": "https://www.gamesradar.com/games/fps/marathon-sold-just-1-2-million-copies-with-nearly-70-percent-on-steam-analyst-estimates-it-hasnt-exactly-made-the-splash-sony-and-bungie-wanted",
-    "date": 1774386890000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3315,7 +3298,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Sintopia\", a management sim that uses the souls of sinners to rebuild a flattened hell, will be released on April 17th! Japanese support planned",
+    "title": "“Sintopia”, a management sim that uses the souls of sinners to rebuild a flattened hell, will be released on April 17th! Japanese support planned",
     "link": "http://www.gamespark.jp/article/2026/03/25/164302.html",
     "date": 1774389604000,
     "domain": "gamespark.jp",
@@ -3611,7 +3594,7 @@
     "hotScore": 1
   },
   {
-    "title": "The announcement trailer for \"Harvest Skies: Crop Dusting Simulator\", a pesticide dusting simulator with up to 5 people cooperation, has been released. Build an agricultural aviation empire from one plane by mixing chemicals and flying low-altitude sprays with a biplane.",
+    "title": "The announcement trailer for ``Harvest Skies: Crop Dusting Simulator'', a pesticide dusting simulator that allows up to 5 people to cooperate, has been released. Build an agricultural aviation empire from one plane by mixing chemicals and flying low-altitude sprays with a biplane.",
     "link": "https://news.denfaminicogamer.jp/news/260325l",
     "date": 1774404197000,
     "domain": "news.denfaminicogamer.jp",
@@ -3620,7 +3603,7 @@
     "hotScore": 1
   },
   {
-    "title": "The original art exhibition for “Parasyte” “Parasyte Exhibition” will be held from June 6th. On display are the original drawings of Hitoshi Iwaaki's masterpiece manga, which was serialized from 1990 to 1995. The event will be held in Yokohama City, Kanagawa Prefecture until June 21st.",
+    "title": "The original art exhibition \"Parasyte\" will be held from June 6th. On display are the original drawings of Hitoshi Iwaaki's masterpiece manga, which was serialized from 1990 to 1995. The event will be held in Yokohama City, Kanagawa Prefecture until June 21st.",
     "link": "https://news.denfaminicogamer.jp/news/260325k",
     "date": 1774404423000,
     "domain": "news.denfaminicogamer.jp",
@@ -3844,7 +3827,7 @@
     "hotScore": 1
   },
   {
-    "title": "The latest DLC for ``RoadCraft,'' a full-fledged disaster site recovery sim that even plans routes, is now available - New jobs in two autumn and summer themed regions!",
+    "title": "The latest DLC for ``RoadCraft,'' a full-fledged disaster site recovery sim that even plans routes, is now available - New jobs in two autumn and summer themed areas!",
     "link": "http://www.gamespark.jp/article/2026/03/25/164310.html",
     "date": 1774409404000,
     "domain": "gamespark.jp",
@@ -3898,7 +3881,7 @@
     "hotScore": 1
   },
   {
-    "title": "A 91-year-old gamer grandfather has successfully completed ``Resident Evil Requiem'' and is now on his second playthrough. Calm and calm character grandpa",
+    "title": "A 91-year-old gamer grandfather has successfully completed “Resident Evil Requiem” and is now on his second playthrough. Calm and calm character grandpa",
     "link": "https://automaton-media.com/articles/newsjp/20260325-431927",
     "date": 1774410478000,
     "domain": "automaton-media.com",
@@ -4039,7 +4022,7 @@
     "hotScore": 1
   },
   {
-    "title": "Officially announced new work ``ZEUS: God of Arrogance'' based on Greek mythology. An MMORPG set in a world torn apart by the arrogance of Zeus.",
+    "title": "Officially announced new work \"ZEUS: God of Arrogance\" based on Greek mythology. An MMORPG set in a world torn apart by the arrogance of Zeus.",
     "link": "https://www.4gamer.net/games/982/G098201/20260325022",
     "date": 1774412904000,
     "domain": "4gamer.net",
@@ -4084,7 +4067,7 @@
     "hotScore": 1
   },
   {
-    "title": "Anime “Ikkyu-san” “193 hours non-stop continuous broadcast” will be held at ABEMA. All 296 episodes can be enjoyed for free from midnight on April 1st to 1am on April 9th.",
+    "title": "Anime “Ikkyu-san” “193 hours non-stop continuous broadcast” will be held at ABEMA. You can enjoy all 296 episodes for free from midnight on April 1st to 1am on April 9th.",
     "link": "https://news.denfaminicogamer.jp/news/260325v",
     "date": 1774413639000,
     "domain": "news.denfaminicogamer.jp",
@@ -4640,7 +4623,7 @@
     "hotScore": 1
   },
   {
-    "title": "Sega, Futaba Sakura/Codename: Navi (CV. Aoi Yuuki) and Haru Okumura/Codename: Noir (CV. Haruka Tomatsu) will be reprinted tomorrow in \"P5X\"",
+    "title": "Sega, Futaba Sakura/Codename: Navi (CV. Aoi Yuuki) and Haru Okumura/Codename: Noir (CV. Haruka Tomatsu) will be reprinted tomorrow in “P5X”",
     "link": "https://gamebiz.jp/news/423208",
     "date": 1774429020000,
     "domain": "gamebiz.jp",
@@ -4676,7 +4659,7 @@
     "hotScore": 1
   },
   {
-    "title": "Sachiko Kobayashi will appear on \"Niconico Chokaigi 2026\". This year, she will become a “Hanasaki Kaba-san” and will be in full bloom along with the cherry blossoms in Tokyo. On the day of the event, live singing will be performed in conjunction with the “Super Neo Yagura”",
+    "title": "Sachiko Kobayashi will appear on \"Nico Nico Chokaigi 2026\". This year, she will become a “Hanasaki Kaba-san” and will be in full bloom along with the cherry blossoms in Tokyo. On the day of the event, live singing will be performed in conjunction with the “Super Neo Yagura”",
     "link": "https://news.denfaminicogamer.jp/news/2603252e",
     "date": 1774429259000,
     "domain": "news.denfaminicogamer.jp",
@@ -4758,7 +4741,7 @@
     "hotScore": 1
   },
   {
-    "title": "Mr. Tadatoshi Fujimaki, creator of ``Kuroko's Basketball'' and ``Kill Ao,'' started X. Rough illustrations depicting the main characters of past works are also released.",
+    "title": "Tadatoshi Fujimaki, the creator of ``Kuroko's Basketball'' and ``Kill Ao,'' started X. Rough illustrations depicting the main characters of past works are also released.",
     "link": "https://news.denfaminicogamer.jp/news/2603252g",
     "date": 1774430561000,
     "domain": "news.denfaminicogamer.jp",
@@ -4774,33 +4757,6 @@
     "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "A demo for Tomodachi Life: Living the Dream is available on Switch",
-    "link": "https://www.videogameschronicle.com/news/a-demo-for-tomodachi-life-living-the-dream-is-available-on-switch",
-    "date": 1774430781000,
-    "domain": "videogameschronicle.com",
-    "sourceName": "VGC",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Tomodachi Life: Living the Dream is a blast despite lacking new features",
-        "link": "https://www.dexerto.com/gaming/tomodachi-life-living-the-dream-is-a-blast-despite-lacking-new-features-3339882",
-        "date": 1774357211000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      },
-      {
-        "title": "Tomodachi Life: Living the Dream ‘Welcome Version’ demo now available",
-        "link": "https://www.gematsu.com/2026/03/tomodachi-life-living-the-dream-welcome-version-demo-now-available",
-        "date": 1774425608000,
-        "domain": "gematsu.com",
-        "sourceName": "Gematsu",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Square Enix changes Final Fantasy XIV's CERO rating from \"C\" to \"D\" to maintain freedom in group poses",
@@ -4965,7 +4921,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Terra Cresta\" will be released for Switch 2/PS5 from March 26th. A shooting game released by Nichibutsu in 1986.",
+    "title": "\"Terra Cresta\" will be distributed for Switch 2/PS5 from March 26th. A shooting game released by Nichibutsu in 1986.",
     "link": "https://news.denfaminicogamer.jp/news/2603252d",
     "date": 1774432852000,
     "domain": "news.denfaminicogamer.jp",
@@ -5046,7 +5002,7 @@
     "hotScore": 1
   },
   {
-    "title": "The business is influenced by the buying and selling of antiques and tarot readings. Roguelike strategy “Fortune Seller”, released on April 6, 2026",
+    "title": "The business is influenced by the buying and selling of antiques and tarot readings. Roguelike strategy “Fortune Seller” to be released on April 6, 2026",
     "link": "https://www.4gamer.net/games/993/G099340/20260325053",
     "date": 1774433364000,
     "domain": "4gamer.net",
@@ -5332,17 +5288,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How To Unlock The Bunzy Back Bling For Free In Fortnite",
-        "link": "https://www.thegamer.com/fortnite-spring-bunzy-back-bling-free-unlock-how-to",
-        "date": 1774433761000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "“Pal World Official Card Game” 1st booster pack & 2 types of trial deck specifications released! The second booster pack will also be released on October 30th.",
@@ -5363,20 +5309,20 @@
     "hotScore": 1
   },
   {
-    "title": "It’s always a good time to revisit Super Mario Bros. Wonder",
-    "link": "https://www.theverge.com/games/899839/super-mario-bros-wonder-nintendo-switch-2-review",
-    "date": 1774436400000,
-    "domain": "theverge.com",
-    "sourceName": "The Verge",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Invincible Season 4, Episode 4 Review – ‘Hurm’",
     "link": "https://www.ign.com/articles/invincible-season-4-episode-4-review-recap-hurm",
     "date": 1774436400000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "It’s always a good time to revisit Super Mario Bros. Wonder",
+    "link": "https://www.theverge.com/games/899839/super-mario-bros-wonder-nintendo-switch-2-review",
+    "date": 1774436400000,
+    "domain": "theverge.com",
+    "sourceName": "The Verge",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5512,15 +5458,6 @@
     "date": 1774436741000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "We've Found The Best Video Game Deals from Amazon's Big Spring Sale",
-    "link": "https://www.ign.com/articles/amazon-big-spring-sale-best-video-game-deals-2026",
-    "date": 1774436783000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5917,7 +5854,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Narushio\" Ver. 3.2 first half story impressions. A ``growth story'' about Shigurika, a girl who overcomes setbacks and goes from being a genius to a hero. A new human hymn created by the relationship between old and new characters",
+    "title": "\"Narushio\" Ver. 3.2 first half story impressions. A coming-of-age story about Shigurika, a girl who overcomes setbacks and goes from being a genius to a hero. A new human hymn created by the relationship between old and new characters",
     "link": "https://automaton-media.com/articles/special-column/ww-20260325-432061",
     "date": 1774439325000,
     "domain": "automaton-media.com",
@@ -6259,22 +6196,6 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "How to get Darkbringer in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
-        "date": 1774369551000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get the Soul Spear in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-soul-spear-location",
-        "date": 1774353441000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
         "title": "How to Beat Black Bears' Captain (In Ashes) in Crimson Desert",
         "link": "https://gamerant.com/crimson-desert-in-ashes-infiltrate-black-bears-base",
         "date": 1774440624000,
@@ -6291,11 +6212,11 @@
         "isTranslated": false
       },
       {
-        "title": "How To Get The Darkbringer Sword In Crimson Desert",
-        "link": "https://insider-gaming.com/how-to-get-the-darkbringer-sword-in-crimson-desert",
-        "date": 1774439536000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
+        "title": "How to complete Gate to the Otherworld in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+        "date": 1774382026000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       },
       {
@@ -6304,6 +6225,30 @@
         "date": 1774379420000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get Darkbringer in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-darkbringer-location",
+        "date": 1774369551000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to solve the Root's End puzzle in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
+        "date": 1774367332000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How To Get The Darkbringer Sword In Crimson Desert",
+        "link": "https://insider-gaming.com/how-to-get-the-darkbringer-sword-in-crimson-desert",
+        "date": 1774439536000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -6469,22 +6414,6 @@
     "isTranslated": false,
     "hotScore": 1,
     "groupMembers": [
-      {
-        "title": "How to solve the Root's End puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-roots-end-puzzle-solution",
-        "date": 1774367332000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete the Toward the Nest puzzle in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-toward-the-nest-skybridge-puzzle",
-        "date": 1774366504000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
       {
         "title": "How to solve the Arboria Castle puzzle in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-arboria-castle-puzzle-factory-solution",
@@ -6682,11 +6611,11 @@
     "hotScore": 1
   },
   {
-    "title": "Dell made its new Pro laptops thinner and tweaked their naming scheme, again",
-    "link": "https://www.theverge.com/tech/900090/dell-made-its-new-pro-laptops-thinner-and-tweaked-their-naming-scheme-again",
-    "date": 1774443600000,
-    "domain": "theverge.com",
-    "sourceName": "The Verge",
+    "title": "Spider-Man: Brand New Day's Michael Mando joins Sydney Sweeney in the Gundam movie, calls it a \"love letter to anime\"",
+    "link": "https://www.gamesradar.com/entertainment/live-action-movies/spider-man-brand-new-days-michael-mando-joins-sydney-sweeney-in-the-gundam-movie-calls-it-a-love-letter-to-anime",
+    "date": 1774443572000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6696,6 +6625,15 @@
     "date": 1774443600000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Dell made its new Pro laptops thinner and tweaked their naming scheme, again",
+    "link": "https://www.theverge.com/tech/900090/dell-made-its-new-pro-laptops-thinner-and-tweaked-their-naming-scheme-again",
+    "date": 1774443600000,
+    "domain": "theverge.com",
+    "sourceName": "The Verge",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6743,5 +6681,68 @@
     "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Tomodachi Life: Living the Dream demo drops seemingly out of the blue, and fans are already going \"feral\" over it: \"We're so hyped\"",
+    "link": "https://www.gamesradar.com/games/simulation/tomodachi-life-living-the-dream-demo-drops-seemingly-out-of-the-blue-and-fans-are-already-going-feral-over-it-were-so-hyped",
+    "date": 1774443630000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "Tomodachi Life: Living the Dream is a blast despite lacking new features",
+        "link": "https://www.dexerto.com/gaming/tomodachi-life-living-the-dream-is-a-blast-despite-lacking-new-features-3339882",
+        "date": 1774357211000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      },
+      {
+        "title": "Tomodachi Life: Living the Dream ‘Welcome Version’ demo now available",
+        "link": "https://www.gematsu.com/2026/03/tomodachi-life-living-the-dream-welcome-version-demo-now-available",
+        "date": 1774425608000,
+        "domain": "gematsu.com",
+        "sourceName": "Gematsu",
+        "isTranslated": false
+      },
+      {
+        "title": "A demo for Tomodachi Life: Living the Dream is available on Switch",
+        "link": "https://www.videogameschronicle.com/news/a-demo-for-tomodachi-life-living-the-dream-is-available-on-switch",
+        "date": 1774430781000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "Fortnite Layoffs Raise Concern For Games Industry",
+    "link": "https://www.thegamer.com/fortnite-layoffs-bad-sign-live-service-games",
+    "date": 1774443679000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The best deals we’ve found from Amazon’s Big Spring Sale (so far)",
+    "link": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
+    "date": 1774443868000,
+    "domain": "theverge.com",
+    "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "We've Found The Best Video Game Deals from Amazon's Big Spring Sale",
+        "link": "https://www.ign.com/articles/amazon-big-spring-sale-best-video-game-deals-2026",
+        "date": 1774436783000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      }
+    ]
   }
 ]
