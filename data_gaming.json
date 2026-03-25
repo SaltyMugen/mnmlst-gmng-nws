@@ -1226,6 +1226,15 @@
     "hotScore": 1
   },
   {
+    "title": "\"PowerPro Adventures\" service is scheduled to start on March 26th. Enjoy the familiar “Success” from the PowerPro series in a fantasy world",
+    "link": "https://www.4gamer.net/games/975/G097518/20260324022",
+    "date": 1774330010000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "Amazon is running a campaign where you can get a 1,100 yen discount on set products worth 15,000 yen and 1,100 yen worth of PlayStation Store tickets.",
     "link": "https://www.4gamer.net/games/085/G008540/20260324024",
     "date": 1774330833000,
@@ -3675,20 +3684,20 @@
     "hotScore": 1
   },
   {
-    "title": "Magic: The Gathering's Next Set, Secrets of Strixhaven, Is Available to Preorder Now",
-    "link": "https://www.gamespot.com/gallery/magic-the-gatherings-next-set-secrets-of-strixhaven-is-available-to-preorder-now/2900-7635",
-    "date": 1774375500000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Today’s Best Deals: Project Hail Mary Plush, Nioh 3 SteelBook, and Apple: The First 50 Years",
     "link": "https://www.ign.com/articles/best-deals-for-march-24-2026",
     "date": 1774375500000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Magic: The Gathering's Next Set, Secrets of Strixhaven, Is Available to Preorder Now",
+    "link": "https://www.gamespot.com/gallery/magic-the-gatherings-next-set-secrets-of-strixhaven-is-available-to-preorder-now/2900-7635",
+    "date": 1774375500000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4651,7 +4660,17 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "What Are The Best Armor Sets In Monster Hunter Stories 3?",
+        "link": "https://www.thegamer.com/monster-hunter-stories-3-twisted-reflection-best-armor-sets",
+        "date": 1774391479000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Announcement of the new VR game ``PAYDAY: Aces High'' based on the robbery action ``PAYDAY'' series. Supports online cooperative play with up to 4 people. Scheduled for release in 2026 for Meta Quest and SteamVR",
@@ -5924,40 +5943,13 @@
     "hotScore": 1
   },
   {
-    "title": "[Stocks] Note continues to grow significantly; announcement of capital and business alliance with KADOKAWA serves as a stimulus",
-    "link": "https://gamebiz.jp/news/423193",
-    "date": 1774418640000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "KONAMI's new \"PowerPro\" series \"PowerPro Adventures\" scheduled to start service on March 26th",
     "link": "https://gamebiz.jp/news/423185",
     "date": 1774418820000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Sword and magic \"PowerPro\" new RPG \"PowerPro Adventures\" will be released on March 26th! Free to play for iOS and Android",
-        "link": "https://news.denfaminicogamer.jp/news/2603242d",
-        "date": 1774328763000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "\"PowerPro Adventures\" service is scheduled to start on March 26th. Enjoy the familiar “Success” from the PowerPro series in a fantasy world",
-        "link": "https://www.4gamer.net/games/975/G097518/20260324022",
-        "date": 1774330010000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Cascadou, a deck-building roguelite solitaire poker game with explosive winnings, will be released on Steam on April 15th. Demo version also available",
@@ -6587,15 +6579,6 @@
     ]
   },
   {
-    "title": "The Lord Of The Rings: Shadow Of The Past Movie Announced",
-    "link": "https://www.thegamer.com/lord-of-the-rings-shadow-of-the-past-stephen-colbert",
-    "date": 1774426626000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "KONAMI officially releases real-time competition “Team Ranked Battle” on “Prospi A”… Compete with unified team order",
     "link": "https://gamebiz.jp/news/423204",
     "date": 1774426680000,
@@ -6658,11 +6641,29 @@
     ]
   },
   {
+    "title": "The trial version of \"Tomodachi Collection Waku Waku Life\", the new \"Tomodachi Collection\", is now available. You can play the beginning of the game ahead of its release on April 6th.",
+    "link": "https://news.denfaminicogamer.jp/news/260325o",
+    "date": 1774427388000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "\"I'm grateful for the publisher's opinion that we don't need a roguelike mode.\" Horror typing game \"Dyping Escape\" [Developer interview]",
     "link": "http://www.gamespark.jp/article/2026/03/25/164323.html",
     "date": 1774427404000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Netmarble carries out a major update that implements a new area \"Balton\" empire in MMORPG \"Raven 2\"!",
+    "link": "https://gamebiz.jp/news/423206",
+    "date": 1774427460000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
