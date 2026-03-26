@@ -1254,7 +1254,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
+    "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose any restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
     "link": "https://news.denfaminicogamer.jp/news/2603252k",
     "date": 1774431946000,
     "domain": "news.denfaminicogamer.jp",
@@ -1308,7 +1308,7 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently being rebuilt, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
+    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently in the process of rebuilding, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
     "link": "https://automaton-media.com/articles/newsjp/1047-games-20260325-432026",
     "date": 1774432802000,
     "domain": "automaton-media.com",
@@ -1317,7 +1317,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Terra Cresta\" will be distributed for Switch 2/PS5 from March 26th. A shooting game released by Nichibutsu in 1986.",
+    "title": "\"Terra Cresta\" will be released for Switch 2/PS5 from March 26th. A shooting game released by Nichibutsu in 1986.",
     "link": "https://news.denfaminicogamer.jp/news/2603252d",
     "date": 1774432852000,
     "domain": "news.denfaminicogamer.jp",
@@ -1770,20 +1770,20 @@
     "hotScore": 1
   },
   {
-    "title": "'Continuing to sell this product is no longer sustainable': Ayaneo has suspended pre-orders of its uber-powerful Next 2 gaming handheld after costs approached 'twice the price we originally set'",
-    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/continuing-to-sell-this-product-is-no-longer-sustainable-ayaneo-has-suspended-pre-orders-of-its-uber-powerful-next-2-gaming-handheld-after-costs-approached-twice-the-price-we-originally-set",
-    "date": 1774440044000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "MLB The Show 26: The Kotaku Review",
     "link": "https://kotaku.com/mlb-the-show-26-review-baseball-video-game-ps5-switch-xbox-2000681551",
     "date": 1774440044000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'Continuing to sell this product is no longer sustainable': Ayaneo has suspended pre-orders of its uber-powerful Next 2 gaming handheld after costs approached 'twice the price we originally set'",
+    "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/continuing-to-sell-this-product-is-no-longer-sustainable-ayaneo-has-suspended-pre-orders-of-its-uber-powerful-next-2-gaming-handheld-after-costs-approached-twice-the-price-we-originally-set",
+    "date": 1774440044000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1995,15 +1995,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo Misses Out On Top 10 In Metacritic's 16th Annual Game Publisher Rankings",
-    "link": "https://www.nintendolife.com/news/2026/03/nintendo-misses-out-on-top-10-in-metacritics-16th-annual-game-publisher-rankings",
-    "date": 1774444500000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The number of global pre-registrations for the surreal city RPG “NTE” exceeds 30 million! A-rank character “Hania” will be presented as a gift",
     "link": "http://www.gamespark.jp/article/2026/03/25/164333.html",
     "date": 1774444622000,
@@ -2056,6 +2047,25 @@
     "sourceName": "GamesBeat",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Microsoft Beats Out Sony & Nintendo In Metacritic's 2026 Game Publisher Rankings",
+    "link": "https://www.purexbox.com/news/2026/03/microsoft-beats-out-sony-and-nintendo-in-metacritics-2026-game-publisher-rankings",
+    "date": 1774445400000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Nintendo Misses Out On Top 10 In Metacritic's 16th Annual Game Publisher Rankings",
+        "link": "https://www.nintendolife.com/news/2026/03/nintendo-misses-out-on-top-10-in-metacritics-16th-annual-game-publisher-rankings",
+        "date": 1774444500000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Microsoft Gaming CEO Reportedly Exploring Bundling Game Pass With Netflix After Personally Killing ‘Everything Is An Xbox’ Push",
@@ -2130,15 +2140,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
-    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
-    "date": 1774447200000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Hands On: Pokémon Champions Promises Top-Tier Battling, But At What Cost?",
     "link": "https://www.nintendolife.com/previews/hands-on-pokemon-champions-promises-top-tier-battling-but-at-what-cost",
     "date": 1774447200000,
@@ -2153,6 +2154,15 @@
     "date": 1774447200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"They wouldn't look at any game that was less than £50 million\" Why Tencent's all-in strategy didn't suit Bulkhead",
+    "link": "https://www.gamesindustry.biz/they-wouldnt-look-at-any-game-that-was-less-than-50-million-why-tencents-all-in-strategy-didnt-suit-bulkhead",
+    "date": 1774447200000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2662,6 +2672,15 @@
     "hotScore": 1
   },
   {
+    "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
+    "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
+    "date": 1774454400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "\"Heavyweights ruined the industry... now we live on the indies\" Nordic Game embraces smaller devs and games with soul",
     "link": "https://www.gamesindustry.biz/heavyweights-ruined-the-industry-now-we-live-on-the-indies-nordic-game-embraces-smaller-devs-and-games-with-soul",
     "date": 1774454400000,
@@ -2676,15 +2695,6 @@
     "date": 1774454400000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
-    "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
-    "date": 1774454400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3194,7 +3204,7 @@
     "hotScore": 1
   },
   {
-    "title": "Detailed system requirements for the PC version of \"Forza Horizon 6\" revealed - In addition to the latest super resolution technology, it will also be compatible with Steam Deck and Xbox ROG Ally from the time of release",
+    "title": "Detailed system requirements for the PC version of \"Forza Horizon 6\" revealed - In addition to the latest super-resolution technology, it will also be compatible with Steam Deck and Xbox ROG Ally from the time of release",
     "link": "http://www.gamespark.jp/article/2026/03/26/164343.html",
     "date": 1774461289000,
     "domain": "gamespark.jp",
@@ -3409,17 +3419,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "The best board games to buy in Amazon's Spring Sale",
-        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
-        "date": 1774463935000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Someone Got The Legend Of Zelda: Wind Waker's World Working In A Browser",
@@ -3626,7 +3626,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Despite PS5 Hits, Sony Sinks to 21st in Metacritic's Publisher Rankings",
@@ -3634,14 +3634,6 @@
         "date": 1774458000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
-        "title": "Microsoft Beats Out Sony & Nintendo In Metacritic's 2026 Game Publisher Rankings",
-        "link": "https://www.purexbox.com/news/2026/03/microsoft-beats-out-sony-and-nintendo-in-metacritics-2026-game-publisher-rankings",
-        "date": 1774445400000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
         "isTranslated": false
       }
     ]
@@ -3941,7 +3933,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The best board games to buy in Amazon's Spring Sale",
+        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
+        "date": 1774463935000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Keraunios god rolls and how to get them in Destiny 2",
@@ -4188,7 +4190,7 @@
     "hotScore": 1
   },
   {
-    "title": "Mystery ADV \"Snoopy and the Exciting Secret Club\" gameplay trailer released. Contains approximately 13 minutes from the beginning of the game.",
+    "title": "Mystery ADV \"Snoopy and the Exciting Secret Club\", gameplay trailer released. Contains approximately 13 minutes from the beginning of the game.",
     "link": "https://www.4gamer.net/games/983/G098379/20260325037",
     "date": 1774476000000,
     "domain": "4gamer.net",
@@ -4197,7 +4199,7 @@
     "hotScore": 1
   },
   {
-    "title": "Retro Rewind, a management sim that lets you run a 1990s video rental store from scratch (Hobonichi Indie Pick Up!)",
+    "title": "``Retro Rewind'', a management sim that lets you run a 1990s video rental store from scratch (Hobonichi Indie Pick Up!)",
     "link": "https://www.4gamer.net/games/950/G095079/20260319049",
     "date": 1774476000000,
     "domain": "4gamer.net",
@@ -4540,7 +4542,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo of America will sell downloadable versions of its Switch 2 software for $10 cheaper than the packaged versions. New prices apply from the new book ``Yoshi and Fukashigi's Illustrated Book''. In Japan, the DL version is already on sale at a lower price.",
+    "title": "Nintendo of America will sell the download version of its Switch 2 software for $10 cheaper than the packaged version. New prices apply from the new book ``Yoshi and Fukashigi's Illustrated Book''. In Japan, the DL version is already on sale at a lower price.",
     "link": "https://news.denfaminicogamer.jp/news/260326h",
     "date": 1774488159000,
     "domain": "news.denfaminicogamer.jp",
@@ -5539,7 +5541,7 @@
     "hotScore": 1
   },
   {
-    "title": "Almost all episodes of \"Invasion! Squid Girl\" are available for free. For a limited time until May 3rd, you can take a peek at the final volume. A loose and fun slapstick comedy about a squid girl who has come to invade humanity from the bottom of the sea and is forced to work at a ``sea house.''",
+    "title": "Almost all episodes of \"Invasion! Squid Girl\" are available for free. For a limited time until May 3rd, you can take a peek at the final volume. A loose and fun slapstick comedy about a squid girl who comes to invade humanity from the bottom of the sea and is forced to work at a ``sea house.''",
     "link": "https://news.denfaminicogamer.jp/news/2603262e",
     "date": 1774505158000,
     "domain": "news.denfaminicogamer.jp",
@@ -6849,7 +6851,7 @@
     "hotScore": 1
   },
   {
-    "title": "Beep Japan releases cinematic visual novel “Until Then” Switch version today! Everyday life in the Philippines intersects with the mysteries of the world.",
+    "title": "Beep Japan releases the Switch version of the cinematic visual novel “Until Then” today! Everyday life in the Philippines intersects with the mysteries of the world.",
     "link": "https://gamebiz.jp/news/423303",
     "date": 1774521000000,
     "domain": "gamebiz.jp",
@@ -7006,6 +7008,15 @@
     "date": 1774522162000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Meta Quest usage reaches \"all-time high\" in 2025 despite studio closures and layoffs",
+    "link": "https://www.gamesindustry.biz/meta-quest-usage-reaches-all-time-high-in-2025-despite-studio-closures-and-layoffs",
+    "date": 1774522280000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   }
