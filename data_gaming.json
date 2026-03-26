@@ -739,15 +739,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"Shadowverse\" service ends at 11:00 on July 1st. Focus on development of “Shadowverse: Worlds Beyond”",
-    "link": "https://www.4gamer.net/games/350/G035041/20260325028",
-    "date": 1774416220000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Announcement of \"evoke: The Rules of Toys,\" a horror puzzle action game starring stuffed animals. Delivering ``memories'' to their owners while being bound by the ``three rules of toys''",
     "link": "https://www.4gamer.net/games/993/G099314/20260325023",
     "date": 1774416715000,
@@ -956,6 +947,15 @@
     "hotScore": 1
   },
   {
+    "title": "The trial version of \"Tomodachi Collection Waku Waku Life\" for Nintendo Switch is now available. You can also transfer the Mii and save data you created.",
+    "link": "https://automaton-media.com/articles/newsjp/20260325-432017",
+    "date": 1774429920000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "A game on Steam with a \"mismatched name and release date\" has \"sold three times as much as expected,\" according to the person in charge. Good friend Bundle's clever plan works well",
     "link": "https://automaton-media.com/articles/newsjp/piece-by-piece-20260325-432030",
     "date": 1774431526000,
@@ -1028,7 +1028,7 @@
     "hotScore": 1
   },
   {
-    "title": "The business is influenced by the buying and selling of antiques and tarot readings. Roguelike strategy “Fortune Seller”, released on April 6, 2026",
+    "title": "The business is influenced by the buying and selling of antiques and tarot readings. Roguelike strategy “Fortune Seller” to be released on April 6, 2026",
     "link": "https://www.4gamer.net/games/993/G099340/20260325053",
     "date": 1774433364000,
     "domain": "4gamer.net",
@@ -1318,7 +1318,7 @@
     ]
   },
   {
-    "title": "\"Narushio\" Ver. 3.2 first half story impressions. A ``growth story'' about Shigurika, a girl who overcomes setbacks and goes from being a genius to a hero. A new human hymn created by the relationship between old and new characters",
+    "title": "\"Narushio\" Ver. 3.2 first half story impressions. A coming-of-age story about Shigurika, a girl who overcomes setbacks and goes from being a genius to a hero. A new human hymn created by the relationship between old and new characters",
     "link": "https://automaton-media.com/articles/special-column/ww-20260325-432061",
     "date": 1774439325000,
     "domain": "automaton-media.com",
@@ -1588,15 +1588,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo Misses Out On Top 10 In Metacritic's 16th Annual Game Publisher Rankings",
-    "link": "https://www.nintendolife.com/news/2026/03/nintendo-misses-out-on-top-10-in-metacritics-16th-annual-game-publisher-rankings",
-    "date": 1774444500000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Team17 parent company Everplay reports 10% profit increase in 2025",
     "link": "https://www.gamesindustry.biz/team17-parent-company-everplay-reports-10-profit-increase-in-2025",
     "date": 1774444761000,
@@ -1642,6 +1633,25 @@
     "hotScore": 1
   },
   {
+    "title": "Microsoft Beats Out Sony & Nintendo In Metacritic's 2026 Game Publisher Rankings",
+    "link": "https://www.purexbox.com/news/2026/03/microsoft-beats-out-sony-and-nintendo-in-metacritics-2026-game-publisher-rankings",
+    "date": 1774445400000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Nintendo Misses Out On Top 10 In Metacritic's 16th Annual Game Publisher Rankings",
+        "link": "https://www.nintendolife.com/news/2026/03/nintendo-misses-out-on-top-10-in-metacritics-16th-annual-game-publisher-rankings",
+        "date": 1774444500000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Microsoft Gaming CEO Reportedly Exploring Bundling Game Pass With Netflix After Personally Killing ‘Everything Is An Xbox’ Push",
     "link": "https://kotaku.com/xbox-game-pass-netflix-cheaper-ad-tier-asha-sharma-2000681806",
     "date": 1774445590000,
@@ -1684,15 +1694,6 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "At 96 years old, Japanese gamer Grandma updates a video for the first time in about 3 years, \"I don't play games right now\" - Currently recovering from a broken bone.",
-    "link": "http://www.gamespark.jp/article/2026/03/25/164335.html",
-    "date": 1774446612000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -3028,7 +3029,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Despite PS5 Hits, Sony Sinks to 21st in Metacritic's Publisher Rankings",
@@ -3036,14 +3037,6 @@
         "date": 1774458000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
-        "title": "Microsoft Beats Out Sony & Nintendo In Metacritic's 2026 Game Publisher Rankings",
-        "link": "https://www.purexbox.com/news/2026/03/microsoft-beats-out-sony-and-nintendo-in-metacritics-2026-game-publisher-rankings",
-        "date": 1774445400000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
         "isTranslated": false
       }
     ]
@@ -3216,15 +3209,6 @@
     "date": 1774470215000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "After 37 years, cult classic NES Friday the 13th game has a fan remake made \"from scratch\" for Game Boy Color, and this time around you can actually take down Jason Voorhees",
-    "link": "https://www.gamesradar.com/games/horror/after-37-years-cult-classic-nes-friday-the-13th-game-has-a-fan-remake-made-from-scratch-for-game-boy-color-and-this-time-around-you-can-actually-take-down-jason-voorhees",
-    "date": 1774470604000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3519,7 +3503,7 @@
     "hotScore": 1
   },
   {
-    "title": "Mystery ADV \"Snoopy and the Exciting Secret Club\" gameplay trailer released. Contains approximately 13 minutes from the beginning of the game.",
+    "title": "Mystery ADV \"Snoopy and the Exciting Secret Club\", gameplay trailer released. Contains approximately 13 minutes from the beginning of the game.",
     "link": "https://www.4gamer.net/games/983/G098379/20260325037",
     "date": 1774476000000,
     "domain": "4gamer.net",
@@ -3528,7 +3512,7 @@
     "hotScore": 1
   },
   {
-    "title": "Retro Rewind, a management sim that lets you run a 1990s video rental store from scratch (Hobonichi Indie Pick Up!)",
+    "title": "``Retro Rewind'', a management sim that lets you run a 1990s video rental store from scratch (Hobonichi Indie Pick Up!)",
     "link": "https://www.4gamer.net/games/950/G095079/20260319049",
     "date": 1774476000000,
     "domain": "4gamer.net",
@@ -4103,17 +4087,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Tomodachi Life: Living the Dream Demo Launches",
-        "link": "https://www.siliconera.com/tomodachi-life-living-the-dream-demo-launches",
-        "date": 1774450800000,
-        "domain": "siliconera.com",
-        "sourceName": "Siliconera",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Switch2 version \"Virtua Fighter 5 R.E.V.O. World Stage\" released today. Trial version and updates released at the same time",
@@ -4457,7 +4431,7 @@
     "hotScore": 1
   },
   {
-    "title": "What is the genre name “SUSHI Lane Musical” and “Kill Kill Kill for Allies and Enemies”? ? We ask Mr. Sohei Shinkawa, a super niche man who sticks to originality, “How to break common sense”",
+    "title": "What is the genre name “SUSHI Lane Musical” and “Kill Kill Kill for Allies and Enemies”? ? We ask Mr. Sohei Shinkawa, a super niche man who sticks to his originality, “How to break common sense”",
     "link": "http://www.gamespark.jp/article/2026/03/26/164355.html",
     "date": 1774495805000,
     "domain": "gamespark.jp",
@@ -4602,7 +4576,7 @@
     "hotScore": 1
   },
   {
-    "title": "All 9 titles including \"Brigandine Lunasia Senki\" are on sale at great prices. “HappinetGAMES Download Sale in March” started",
+    "title": "All 9 titles including ``Brigandine Lunasia Senki'' are on sale at great prices. “HappinetGAMES Download Sale in March” started",
     "link": "https://www.4gamer.net/games/529/G052953/20260326020",
     "date": 1774498774000,
     "domain": "4gamer.net",
@@ -4683,7 +4657,7 @@
     "hotScore": 1
   },
   {
-    "title": "Even in the remastered version of ``Oblivion'', the stray line ``Wait a minute, try again...'' was intentionally left in. Todd Howard says it's ``part of its personality.''",
+    "title": "Even in the remastered version of ``Oblivion'', the stray line ``Wait a minute, try again...'' was intentionally left in. Todd Howard says it's ``part of his personality.''",
     "link": "http://www.gamespark.jp/article/2026/03/26/164361.html",
     "date": 1774500304000,
     "domain": "gamespark.jp",
@@ -4734,25 +4708,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The trial version of \"Tomodachi Collection Waku Waku Life\" for Nintendo Switch is now available. You can also transfer the Mii you created and save data.",
-        "link": "https://automaton-media.com/articles/newsjp/20260325-432017",
-        "date": 1774429920000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "The latest video of \"Tomodachi Collection Waku Waku Life\" is released. Introducing the addition of Mii parts with stamps and pens, \"petit individuality\", changing the topography of the island, making items yourself, etc.",
-        "link": "https://news.denfaminicogamer.jp/news/2603252r",
-        "date": 1774447861000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "``Pillars of Pantheon'', a roguelite that combines ``Besiege'' and ``Vansaba'', looks interesting. Create your own “moving armed temple” and annihilate your enemies.",
@@ -4827,7 +4783,7 @@
     "hotScore": 1
   },
   {
-    "title": "Almost all episodes of \"Invasion! Squid Girl\" are available for free. For a limited time until May 3rd, you can take a peek at the final volume. A loose and fun slapstick comedy about a squid girl who has come to invade humanity from the bottom of the sea and is forced to work at a ``sea house.''",
+    "title": "Almost all episodes of \"Invasion! Squid Girl\" are available for free. For a limited time until May 3rd, you can take a peek at the final volume. A loose and fun slapstick comedy about a squid girl who comes to invade humanity from the bottom of the sea and is forced to work at a ``sea house.''",
     "link": "https://news.denfaminicogamer.jp/news/2603262e",
     "date": 1774505158000,
     "domain": "news.denfaminicogamer.jp",
@@ -5235,7 +5191,17 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Tomodachi Life: Living the Dream Demo Launches",
+        "link": "https://www.siliconera.com/tomodachi-life-living-the-dream-demo-launches",
+        "date": 1774450800000,
+        "domain": "siliconera.com",
+        "sourceName": "Siliconera",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "``Nintendo is the only one that can surpass Nintendo.'' Overseas review high score ``Super Mario Bros. Wonder Nintendo Switch 2 Edition + Minna de Rinrin Park''",
@@ -5480,7 +5446,7 @@
         "isTranslated": false
       },
       {
-        "title": "\"Crimson Desert\" Review It's rough, but it's a greedy open world where you can't see the bottom even after playing for 200 hours, with an overwhelming amount of adventure and a slow life.",
+        "title": "\"Crimson Desert\" Review It's rough around the edges, but it's a greedy open world where you can't see the bottom even after playing for 200 hours, with an overwhelming amount of adventure and a slow life.",
         "link": "https://jp.ign.com/crimson-desert/83023/review/200",
         "date": 1774501337000,
         "domain": "jp.ign.com",
@@ -5499,7 +5465,7 @@
     "hotScore": 1
   },
   {
-    "title": "Square Enix will hold the event “DIRGE of CERBERUS -FINAL FANTASY VII- EC Edition Breaking Chains” at “FFVII Ever Crisis”!",
+    "title": "Square Enix holds the event “DIRGE of CERBERUS -FINAL FANTASY VII- EC Edition Breaking Chains” at “FFVII Ever Crisis”!",
     "link": "https://gamebiz.jp/news/423298",
     "date": 1774517220000,
     "domain": "gamebiz.jp",
@@ -5813,7 +5779,7 @@
     "hotScore": 1
   },
   {
-    "title": "Bushiroad, “Shadowverse EVOLVE” releases 4th anniversary information and more! Future product and event developments revealed!",
+    "title": "Bushiroad, \"Shadowverse EVOLVE\" releases 4th anniversary information and more! Future product and event developments revealed!",
     "link": "https://gamebiz.jp/news/423302",
     "date": 1774520280000,
     "domain": "gamebiz.jp",
@@ -5849,7 +5815,7 @@
     "hotScore": 1
   },
   {
-    "title": "Beep Japan releases cinematic visual novel “Until Then” Switch version today! Everyday life in the Philippines intersects with the mysteries of the world.",
+    "title": "Beep Japan releases the Switch version of the cinematic visual novel “Until Then” today! Everyday life in the Philippines intersects with the mysteries of the world.",
     "link": "https://gamebiz.jp/news/423303",
     "date": 1774521000000,
     "domain": "gamebiz.jp",
@@ -6982,11 +6948,47 @@
     "hotScore": 1
   },
   {
+    "title": "“Ganbare Goemon 40th Anniversary Lottery” will be on sale from 12:00 on March 27th. A lineup of prizes that will make you feel nostalgic, such as a CD-style acrylic stand with background music",
+    "link": "https://news.denfaminicogamer.jp/news/2603262v",
+    "date": 1774528413000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“Super New Space-Time Game Neptunia ∞” package reservations have started! A rough design of the store bonus design drawn by Tsunako has also been released.",
     "link": "https://www.gamer.ne.jp/news/202603260065",
     "date": 1774528440000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Daredevil star Charlie Cox says that Born Again season 3 feels like a \"new dawn\" for the show as it \"sheds the skin of the Mayor Fisk era\"",
+    "link": "https://www.gamesradar.com/entertainment/marvel-tv-shows/daredevil-star-charlie-cox-says-that-born-again-season-3-feels-like-a-new-dawn-for-the-show-as-it-sheds-the-skin-of-the-mayor-fisk-era",
+    "date": 1774528480000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Trickal\" half anniversary event will be held today. Login bonuses that can be obtained by selecting legendary pets including \"Spicy\" will be implemented.",
+    "link": "https://www.4gamer.net/games/913/G091374/20260326083",
+    "date": 1774528541000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The 3D game screen of “Super Real Mahjong Venus Returns”, a mahjong game with 1,690% of fans, is released for the first time!",
+    "link": "http://www.gamespark.jp/article/2026/03/26/164385.html",
+    "date": 1774528668000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   }
