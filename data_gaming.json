@@ -1,14 +1,5 @@
 [
   {
-    "title": "TIGA: UK games dev sector faces \"most severe downturn on record\"",
-    "link": "https://www.gamesindustry.biz/tiga-uk-games-dev-sector-faces-most-severe-downturn-on-record",
-    "date": 1774352811000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Console Updates Continue As New 'Cloud Save Sync' Indicator Rolls Out To Insiders",
     "link": "https://www.purexbox.com/news/2026/03/xbox-console-updates-continue-as-new-cloud-save-sync-indicator-rolls-out-to-insiders",
     "date": 1774353600000,
@@ -496,15 +487,6 @@
     "hotScore": 1
   },
   {
-    "title": "Mark Zuckerberg is building an AI co-CEO as part of his continuing mission to free himself from the burden of human interaction",
-    "link": "https://www.pcgamer.com/software/ai/mark-zuckerberg-is-building-an-ai-co-ceo-as-part-of-his-continuing-mission-to-free-himself-from-the-burden-of-human-interaction",
-    "date": 1774377072000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Chainsaw Man Manga Ended With Chapter 232 and Familiar Characters",
     "link": "https://www.siliconera.com/chainsaw-man-manga-ended-with-chapter-232-and-familiar-characters",
     "date": 1774378800000,
@@ -584,25 +566,6 @@
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "How to complete Gate to the Otherworld in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-    "date": 1774382026000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
@@ -3121,7 +3084,17 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "The best board games to buy in Amazon's Spring Sale",
+        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
+        "date": 1774463935000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Someone Got The Legend Of Zelda: Wind Waker's World Working In A Browser",
@@ -3616,17 +3589,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The best board games to buy in Amazon's Spring Sale",
-        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
-        "date": 1774463935000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Keraunios god rolls and how to get them in Destiny 2",
@@ -4430,17 +4393,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Tomodachi Life: Living the Dream Demo Launches",
-        "link": "https://www.siliconera.com/tomodachi-life-living-the-dream-demo-launches",
-        "date": 1774450800000,
-        "domain": "siliconera.com",
-        "sourceName": "Siliconera",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Switch2 version \"Virtua Fighter 5 R.E.V.O. World Stage\" released today. Trial version and updates released at the same time",
@@ -5580,7 +5533,17 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Tomodachi Life: Living the Dream Demo Launches",
+        "link": "https://www.siliconera.com/tomodachi-life-living-the-dream-demo-launches",
+        "date": 1774450800000,
+        "domain": "siliconera.com",
+        "sourceName": "Siliconera",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "``Nintendo is the only one that can surpass Nintendo.'' Overseas review high score ``Super Mario Bros. Wonder Nintendo Switch 2 Edition + Minna de Rinrin Park''",
@@ -5624,15 +5587,6 @@
     "date": 1774515444000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Production of the third season of the TV anime “Ranma 1/2” has been decided! Broadcast will start on Nippon Television from October",
-    "link": "https://gamebiz.jp/news/423287",
-    "date": 1774515600000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5897,15 +5851,6 @@
     "hotScore": 1
   },
   {
-    "title": "The release date of \"Hypnosis Mic -Alternative Rap Battle- 2nd period\" has been decided on July 16th! Reservations accepted now",
-    "link": "https://www.gamer.ne.jp/news/202603260042",
-    "date": 1774517280000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Today’s Contexto: Hints & Answer For March 26, 2026",
     "link": "https://insider-gaming.com/todays-contexto-hints-answer-for-march-26-2026",
     "date": 1774517383000,
@@ -6023,6 +5968,14 @@
     "hotScore": 2,
     "groupMembers": [
       {
+        "title": "How to get the Frostcursed Armor in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-frostcursed-armor-location",
+        "date": 1774457429000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "How to get full Blackwing Leather Armor set in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-get-full-blackwing-leather-armor-set-in-crimson-desert",
         "date": 1774461639000,
@@ -6031,11 +5984,19 @@
         "isTranslated": false
       },
       {
-        "title": "How to get the Frostcursed Armor in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-frostcursed-armor-location",
-        "date": 1774457429000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
+        "title": "How to complete Gate to the Otherworld in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+        "date": 1774382026000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -7000,6 +6961,33 @@
     "date": 1774525338000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Azur Lane” Event “Wanderer Recruitment Plan” will be held where you can receive the new SR light cruiser “Kizu”! SSR aircraft carrier “Unryu” and SR light cruiser “Nayoro” are also newly implemented in construction.",
+    "link": "https://www.gamer.ne.jp/news/202603260062",
+    "date": 1774525620000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Intel launches the Arc Pro B70 graphics card based on the Big Battlemage GPU we've been waiting for forever but it's for AI,  not gaming",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/intel-launches-the-arc-pro-b70-graphics-card-based-on-the-big-battlemage-gpu-weve-been-waiting-for-forever-but-its-for-ai-not-gaming",
+    "date": 1774525649000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Bushiroad, “Reverse for you” releases future product information! Trial set/booster pack “Medalist” will be released on April 24th!",
+    "link": "https://gamebiz.jp/news/423311",
+    "date": 1774525800000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
