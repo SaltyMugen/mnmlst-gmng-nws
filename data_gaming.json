@@ -794,15 +794,6 @@
     "hotScore": 1
   },
   {
-    "title": "Random: Nothing Says \"I Choose You!\" Quite Like These Pokémon Engagement Rings",
-    "link": "https://www.nintendolife.com/news/2026/03/random-nothing-says-i-choose-you-quite-like-these-pokemon-engagement-rings",
-    "date": 1774374300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Tycoon god game Sintopia is Black & White above, Dungeon Keeper below, and it's releasing in April",
     "link": "https://www.rockpapershotgun.com/tycoon-god-game-sintopia-is-black-white-above-dungeon-keeper-below-and-its-releasing-in-april",
     "date": 1774375018000,
@@ -929,20 +920,20 @@
     "hotScore": 1
   },
   {
-    "title": "Chainsaw Man Manga Ended With Chapter 232 and Familiar Characters",
-    "link": "https://www.siliconera.com/chainsaw-man-manga-ended-with-chapter-232-and-familiar-characters",
-    "date": 1774378800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Tekken 8 Season 3 Backlash Somehow Even Worse Than Season 2, Game Gets Review Bombed",
     "link": "https://www.pushsquare.com/news/2026/03/tekken-8-season-3-backlash-somehow-even-worse-than-season-2-game-gets-review-bombed",
     "date": 1774378800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Chainsaw Man Manga Ended With Chapter 232 and Familiar Characters",
+    "link": "https://www.siliconera.com/chainsaw-man-manga-ended-with-chapter-232-and-familiar-characters",
+    "date": 1774378800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1037,13 +1028,23 @@
     "hotScore": 1
   },
   {
-    "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
-    "link": "https://www.siliconera.com/next-baldurs-gate-3-nendoroid-is-a-shadowheart-figure",
-    "date": 1774382400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "title": "How to complete Gate to the Otherworld in Crimson Desert",
+    "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+    "date": 1774382026000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "'I Have Done So Much for This Company': Axed Fortnite Dev Can't Believe He's Been Laid Off",
@@ -1051,6 +1052,15 @@
     "date": 1774382400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
+    "link": "https://www.siliconera.com/next-baldurs-gate-3-nendoroid-is-a-shadowheart-figure",
+    "date": 1774382400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1226,15 +1236,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"SOUND VOLTEX\" character Koiba, which is a hot topic for \"trampling\" sexy beautiful girls - Konami corrects that it is \"an error in the second year of middle school instead of the third year\". Users are confused, they were surprised at the “junior high school” but they are much younger.",
-    "link": "http://www.gamespark.jp/article/2026/03/25/164303.html",
-    "date": 1774400530000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Devlog #3 - Game loop complete",
     "link": "https://www.indiedb.com/games/last-bot-standing/news/devlog-3-game-loop-complete",
     "date": 1774401840000,
@@ -1361,7 +1362,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Farming Simulator 25” releases expansion pack that adds Dutch agricultural machinery brand “Vredo” and boar",
+    "title": "\"Farming Simulator 25\" releases expansion pack that adds Dutch agricultural machinery brand \"Vredo\" and boar",
     "link": "https://www.4gamer.net/games/813/G081325/20260325010",
     "date": 1774406412000,
     "domain": "4gamer.net",
@@ -1496,7 +1497,7 @@
     "hotScore": 1
   },
   {
-    "title": "The latest DLC for ``RoadCraft,'' a full-fledged disaster site recovery sim that even plans routes, is now available - New jobs in two autumn and summer themed regions!",
+    "title": "The latest DLC for ``RoadCraft,'' a full-fledged disaster site recovery sim that even plans routes, is now available - New jobs in two autumn and summer themed areas!",
     "link": "http://www.gamespark.jp/article/2026/03/25/164310.html",
     "date": 1774409404000,
     "domain": "gamespark.jp",
@@ -1550,7 +1551,7 @@
     "hotScore": 1
   },
   {
-    "title": "A 91-year-old gamer grandfather has successfully completed ``Resident Evil Requiem'' and is now on his second playthrough. Calm and calm character grandpa",
+    "title": "A 91-year-old gamer grandfather has successfully completed “Resident Evil Requiem” and is now on his second playthrough. Calm and calm character grandpa",
     "link": "https://automaton-media.com/articles/newsjp/20260325-431927",
     "date": 1774410478000,
     "domain": "automaton-media.com",
@@ -1910,7 +1911,7 @@
     "hotScore": 1
   },
   {
-    "title": "1930's black and white anime-style FPS \"MOUSE: Yatoware no Tantei\" will be released in Japan as a packaged version for PS5/Switch 2 on July 9th!",
+    "title": "1930's black and white anime style FPS \"MOUSE: Yatoware's Detective\" will be released in domestic PS5/Switch 2 package version on July 9th!",
     "link": "http://www.gamespark.jp/article/2026/03/25/164316.html",
     "date": 1774417204000,
     "domain": "gamespark.jp",
@@ -2018,7 +2019,7 @@
     "hotScore": 1
   },
   {
-    "title": "``Car Service Together'', a ``very popular'' car maintenance sim that supports up to 4 people, is now available in Japanese with the latest update. From parts replacement to “magical modification”, tinkering with cars while being chased by deadlines.",
+    "title": "``Car Service Together,'' a ``very popular'' car maintenance sim that supports up to 4 people, is now available in Japanese with the latest update. From parts replacement to “magical modification”, tinkering with cars while being chased by deadlines.",
     "link": "https://automaton-media.com/articles/newsjp/20260325-431977",
     "date": 1774421166000,
     "domain": "automaton-media.com",
@@ -2288,7 +2289,7 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "The trial version of \"Tomodachi Collection Waku Waku Life\", the new \"Tomodachi Collection\" is now available. You can play the beginning of the game ahead of its release on April 16th.",
+        "title": "The trial version of \"Tomodachi Collection Waku Waku Life\", the new \"Tomodachi Collection\", is now available. You can play the beginning of the game ahead of its release on April 16th.",
         "link": "https://news.denfaminicogamer.jp/news/260325o",
         "date": 1774427388000,
         "domain": "news.denfaminicogamer.jp",
@@ -2316,7 +2317,7 @@
     "hotScore": 1
   },
   {
-    "title": "Mr. Tadatoshi Fujimaki, creator of ``Kuroko's Basketball'' and ``Kill Ao,'' started X. Rough illustrations depicting the main characters of past works are also released.",
+    "title": "Tadatoshi Fujimaki, the creator of ``Kuroko's Basketball'' and ``Kill Ao,'' started X. Rough illustrations depicting the main characters of past works are also released.",
     "link": "https://news.denfaminicogamer.jp/news/2603252g",
     "date": 1774430561000,
     "domain": "news.denfaminicogamer.jp",
@@ -2343,7 +2344,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose any restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
+    "title": "\"FF14\" CERO rating has been changed from \"C\" to \"D\". To maintain the freedom of \"group pose\" and not impose restrictions. Scheduled to change in patch 7.5, which will be released in the future.",
     "link": "https://news.denfaminicogamer.jp/news/2603252k",
     "date": 1774431946000,
     "domain": "news.denfaminicogamer.jp",
@@ -2388,7 +2389,7 @@
     "hotScore": 1
   },
   {
-    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently in the process of rebuilding, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
+    "title": "The developer of the FPS \"SPLITGATE: Arena Reloaded\", which is currently being rebuilt, has announced the start of a \"playtest of the new FPS\". While hinting that it will be similar to \"Titanfall\" or \"CoD: BO3\"",
     "link": "https://automaton-media.com/articles/newsjp/1047-games-20260325-432026",
     "date": 1774432802000,
     "domain": "automaton-media.com",
@@ -2415,7 +2416,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Terra Cresta\" will be released for Switch 2/PS5 from March 26th. A shooting game released by Nichibutsu in 1986.",
+    "title": "\"Terra Cresta\" will be distributed for Switch 2/PS5 from March 26th. A shooting game released by Nichibutsu in 1986.",
     "link": "https://news.denfaminicogamer.jp/news/2603252d",
     "date": 1774432852000,
     "domain": "news.denfaminicogamer.jp",
@@ -3624,15 +3625,6 @@
     "hotScore": 1
   },
   {
-    "title": "Cinetik releases latest DLC “Pax Americana” for turn-based grand strategy game “Maestro’s Cold War 2” on Steam",
-    "link": "https://gamebiz.jp/news/423236",
-    "date": 1774449600000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Illustrator Satoshi Kuramochi announces retirement from Square Enix - Responsible for character design, etc. for the \"Saga\" series",
     "link": "http://www.gamespark.jp/article/2026/03/25/164337.html",
     "date": 1774449747000,
@@ -3705,20 +3697,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Forza Horizon 6 system requirements are in and it's good news for older PCs and handhelds",
-    "link": "https://www.pcgamer.com/games/racing/the-forza-horizon-6-system-requirements-are-in-and-its-good-news-for-older-pcs-and-handhelds",
-    "date": 1774450800000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "March Xbox Update: New Console Updates Available to Insiders, Xbox at GDC, and More",
     "link": "https://news.xbox.com/en-us/2026/03/25/march-2026-xbox-update",
     "date": 1774450800000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Forza Horizon 6 system requirements are in and it's good news for older PCs and handhelds",
+    "link": "https://www.pcgamer.com/games/racing/the-forza-horizon-6-system-requirements-are-in-and-its-good-news-for-older-pcs-and-handhelds",
+    "date": 1774450800000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4003,15 +3995,6 @@
     "hotScore": 1
   },
   {
-    "title": "Silent Hill f Manga Will Run in Young Ace Up",
-    "link": "https://www.siliconera.com/silent-hill-f-manga-will-run-in-young-ace-up",
-    "date": 1774454400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PS5's Dynamic Pricing Debacle Appears to Extend to the US Now",
     "link": "https://www.pushsquare.com/news/2026/03/ps5s-dynamic-pricing-debacle-appears-to-extend-to-the-us-now",
     "date": 1774454400000,
@@ -4035,6 +4018,15 @@
     "date": 1774454400000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Silent Hill f Manga Will Run in Young Ace Up",
+    "link": "https://www.siliconera.com/silent-hill-f-manga-will-run-in-young-ace-up",
+    "date": 1774454400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4227,15 +4219,6 @@
     "hotScore": 1
   },
   {
-    "title": "Star Trek legend William Shatner shares his \"sorrow\" at Starfleet Academy cancellation, says the franchise \"should exist for a long time\"",
-    "link": "https://www.gamesradar.com/entertainment/sci-fi-shows/star-trek-legend-william-shatner-shares-his-sorrow-at-starfleet-academy-cancellation-says-the-franchise-should-exist-for-a-long-time",
-    "date": 1774457113000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "This SSD enclosure is one of my most-used PC gadgets, and you can get it for 30% off",
     "link": "https://www.rockpapershotgun.com/this-ssd-enclosure-is-one-of-my-most-used-pc-gadgets-and-you-can-get-it-for-30-off",
     "date": 1774457128000,
@@ -4335,15 +4318,6 @@
     "hotScore": 1
   },
   {
-    "title": "NIS’ Horror Farming Sim Village in the Shade Debuts in 2026",
-    "link": "https://www.siliconera.com/nis-horror-farming-sim-village-in-the-shade-debuts-in-2026",
-    "date": 1774458000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Interview: How An Italian Lunch Led To The New Standard For Competitive Pokémon Battling",
     "link": "https://www.nintendolife.com/features/interview-how-an-italian-lunch-led-to-the-new-standard-for-competitive-pokemon-battling",
     "date": 1774458000000,
@@ -4358,6 +4332,15 @@
     "date": 1774458000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "NIS’ Horror Farming Sim Village in the Shade Debuts in 2026",
+    "link": "https://www.siliconera.com/nis-horror-farming-sim-village-in-the-shade-debuts-in-2026",
+    "date": 1774458000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4597,7 +4580,7 @@
     "hotScore": 1
   },
   {
-    "title": "Detailed system requirements for the PC version of \"Forza Horizon 6\" revealed - In addition to the latest super-resolution technology, it will also be compatible with Steam Deck and Xbox ROG Ally from the time of release",
+    "title": "Detailed system requirements for the PC version of \"Forza Horizon 6\" revealed - In addition to the latest super resolution technology, it will also be compatible with Steam Deck and Xbox ROG Ally from the time of release",
     "link": "http://www.gamespark.jp/article/2026/03/26/164343.html",
     "date": 1774461289000,
     "domain": "gamespark.jp",
@@ -4652,15 +4635,6 @@
     "hotScore": 1
   },
   {
-    "title": "Shadowverse Service Ends in June 2026 After 10 Years",
-    "link": "https://www.siliconera.com/shadowverse-service-ends-in-june-2026-after-10-years",
-    "date": 1774461600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Sony and Honda Have Abandoned Their PS5-Integrated Electric Car Afeela",
     "link": "https://www.pushsquare.com/news/2026/03/sony-and-honda-have-abandoned-their-ps5-integrated-electric-car-afeela",
     "date": 1774461600000,
@@ -4675,6 +4649,15 @@
     "date": 1774461600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Shadowverse Service Ends in June 2026 After 10 Years",
+    "link": "https://www.siliconera.com/shadowverse-service-ends-in-june-2026-after-10-years",
+    "date": 1774461600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4702,22 +4685,6 @@
         "date": 1774457429000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to complete Gate to the Otherworld in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-        "date": 1774382026000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -4940,15 +4907,6 @@
     "hotScore": 1
   },
   {
-    "title": "Hololive Vtuber Calliope Perform at Apple 50th Anniversary in Japan",
-    "link": "https://www.siliconera.com/hololive-vtuber-calliope-perform-at-apple-50th-anniversary-in-japan",
-    "date": 1774465200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Random: Breath Of The Wild's Rito Village Looks Incredible In Pokémon Pokopia",
     "link": "https://www.nintendolife.com/news/2026/03/random-breath-of-the-wilds-rito-village-looks-incredible-in-pokemon-pokopia",
     "date": 1774465200000,
@@ -4963,6 +4921,15 @@
     "date": 1774465200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hololive Vtuber Calliope Perform at Apple 50th Anniversary in Japan",
+    "link": "https://www.siliconera.com/hololive-vtuber-calliope-perform-at-apple-50th-anniversary-in-japan",
+    "date": 1774465200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5192,15 +5159,6 @@
     "hotScore": 1
   },
   {
-    "title": "Snake Is Waiting for You With Metal Gear Machiboke Figures",
-    "link": "https://www.siliconera.com/snake-is-waiting-for-you-with-metal-gear-machiboke-figures",
-    "date": 1774468800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Poll: Who's Your Favourite Resident Evil Playable Character?",
     "link": "https://www.nintendolife.com/features/poll-whos-your-favourite-resident-evil-playable-character",
     "date": 1774468800000,
@@ -5215,6 +5173,15 @@
     "date": 1774468800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Snake Is Waiting for You With Metal Gear Machiboke Figures",
+    "link": "https://www.siliconera.com/snake-is-waiting-for-you-with-metal-gear-machiboke-figures",
+    "date": 1774468800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5610,20 +5577,20 @@
     ]
   },
   {
-    "title": "Nintendo Published Switch 2 Digital Games Will Be Cheaper",
-    "link": "https://www.siliconera.com/nintendo-published-switch-2-digital-games-will-be-cheaper",
-    "date": 1774472400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Here's What a Jak & Daxter PS5 Remake Could've Looked Like",
     "link": "https://www.pushsquare.com/news/2026/03/heres-what-a-jak-and-daxter-ps5-remake-couldve-looked-like",
     "date": 1774472400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nintendo Published Switch 2 Digital Games Will Be Cheaper",
+    "link": "https://www.siliconera.com/nintendo-published-switch-2-digital-games-will-be-cheaper",
+    "date": 1774472400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5818,7 +5785,7 @@
     "hotScore": 1
   },
   {
-    "title": "Mystery ADV \"Snoopy and the Exciting Secret Club\", gameplay trailer released. Contains approximately 13 minutes from the beginning of the game.",
+    "title": "Mystery ADV \"Snoopy and the Exciting Secret Club\" gameplay trailer released. Contains approximately 13 minutes from the beginning of the game.",
     "link": "https://www.4gamer.net/games/983/G098379/20260325037",
     "date": 1774476000000,
     "domain": "4gamer.net",
@@ -5827,7 +5794,7 @@
     "hotScore": 1
   },
   {
-    "title": "``Retro Rewind'', a management sim that lets you run a 1990s video rental store from scratch (Hobonichi Indie Pick Up!)",
+    "title": "Retro Rewind, a management sim that lets you run a 1990s video rental store from scratch (Hobonichi Indie Pick Up!)",
     "link": "https://www.4gamer.net/games/950/G095079/20260319049",
     "date": 1774476000000,
     "domain": "4gamer.net",
@@ -6332,7 +6299,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo of America will sell the download version of its Switch 2 software for $10 cheaper than the packaged version. New prices apply from the new book ``Yoshi and Fukashigi's Illustrated Book''. In Japan, the DL version is already on sale at a lower price.",
+    "title": "Nintendo of America will sell downloadable versions of its Switch 2 software for $10 cheaper than the packaged versions. New prices apply from the new book ``Yoshi and Fukashigi's Illustrated Book''. In Japan, the DL version is already on sale at a lower price.",
     "link": "https://news.denfaminicogamer.jp/news/260326h",
     "date": 1774488159000,
     "domain": "news.denfaminicogamer.jp",
@@ -6827,6 +6794,15 @@
     "hotScore": 1
   },
   {
+    "title": "Mario Wonder's DLC Soundtrack Has Been Added To Nintendo Music This Week",
+    "link": "https://www.nintendolife.com/news/2026/03/mario-wonders-dlc-soundtrack-has-been-added-to-nintendo-music-this-week",
+    "date": 1774493700000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "What is the main character trying to catch? Playtest 2.0 of the fishing mystery \"About Fishing\" drawn with low polygons has started",
     "link": "https://www.4gamer.net/games/966/G096645/20260326010",
     "date": 1774493907000,
@@ -7049,6 +7025,33 @@
     "date": 1774494600000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Idea Factory will release the second Nintendo Switch version “Hypnosis Mic -Alternative Rap Battle- 2nd period” on July 16th",
+    "link": "https://gamebiz.jp/news/423255",
+    "date": 1774494660000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Fan-favorite Steel Legion returning to Warhammer 40K after Armageddon book closes out current edition",
+    "link": "https://www.gamesradar.com/tabletop-gaming/fan-favorite-steel-legion-returning-to-warhammer-40k-after-armageddon-book-closes-out-current-edition",
+    "date": 1774494732000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "[Free release] Win freedom! Pixel art x nervous breakdown roguelike action game “Momuri Zombie Mancer” that fights to resign from the “black” Demon King’s army",
+    "link": "http://www.gamespark.jp/article/2026/03/26/164353.html",
+    "date": 1774494904000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   }
