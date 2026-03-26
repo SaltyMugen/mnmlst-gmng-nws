@@ -45,15 +45,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"Dissidia Duelm Final Fantasy\", official distribution begins. Final Fantasy series warriors and bosses clash in modern-day Tokyo",
-    "link": "https://www.4gamer.net/games/952/G095250/20260324020",
-    "date": 1774328188000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Real event “LicoBiTs FESTA 2026” will be held. Details will be announced on the web radio “LicoBiTs News Vol.4” scheduled to be distributed on March 27th.",
     "link": "https://www.4gamer.net/games/821/G082166/20260324021",
     "date": 1774328934000,
@@ -149,15 +140,6 @@
     "date": 1774340360000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Frog physics 2D action game ``RUBATO'' has been highly rated. A unique retro-style game with “extraordinary effects” that lets you save the solar system with jumps and tongues.",
-    "link": "https://automaton-media.com/articles/newsjp/rubato-20260324-431824",
-    "date": 1774341576000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1260,25 +1242,6 @@
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "How to complete Gate to the Otherworld in Crimson Desert",
-    "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
-    "date": 1774382026000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to destroy thorns in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
-        "date": 1774379420000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Next Baldur’s Gate 3 Nendoroid Is a Shadowheart Figure",
@@ -2823,15 +2786,6 @@
     "date": 1774433112000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "fupac releases Hitsumabushi, an idle game where you watch cats eat Hitsumabushi",
-    "link": "https://gamebiz.jp/news/423230",
-    "date": 1774433340000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5231,6 +5185,22 @@
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
         "isTranslated": false
+      },
+      {
+        "title": "How to complete Gate to the Otherworld in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-complete-gate-to-the-otherworld-in-crimson-desert",
+        "date": 1774382026000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to destroy thorns in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-destroy-thorns-in-crimson-desert",
+        "date": 1774379420000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
       }
     ]
   },
@@ -5386,17 +5356,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "The best board games to buy in Amazon's Spring Sale",
-        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
-        "date": 1774463935000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "The Sennheiser Momentum 4 Is the Best Noise Cancelling Headphone Under $200 in the Spring Sale",
@@ -6073,7 +6033,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The best board games to buy in Amazon's Spring Sale",
+        "link": "https://www.polygon.com/amazon-spring-sale-board-games-2026",
+        "date": 1774463935000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Keraunios god rolls and how to get them in Destiny 2",
@@ -6635,19 +6605,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "Best Bloodstone farm locations in Crimson Desert",
-        "link": "https://www.destructoid.com/best-bloodstone-farm-locations-in-crimson-desert",
-        "date": 1774473053000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "All Fallen Kingdom Armor Locations in Crimson Desert",
         "link": "https://gamerant.com/crimson-desert-fallen-kingdom-full-set-locations",
         "date": 1774482192000,
         "domain": "gamerant.com",
         "sourceName": "Game Rant",
+        "isTranslated": false
+      },
+      {
+        "title": "Best Bloodstone farm locations in Crimson Desert",
+        "link": "https://www.destructoid.com/best-bloodstone-farm-locations-in-crimson-desert",
+        "date": 1774473053000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -6992,6 +6962,33 @@
     "date": 1774488840000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Strategy SLG \"Tiny Metal 2\" playtest begins on Steam on April 3rd. Experience cooperative play with up to 4 people and the first naval battle in the series",
+    "link": "https://www.4gamer.net/games/948/G094814/20260326001",
+    "date": 1774489393000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "[Steam (3/26)] “Apex” regains the top spot from “CS2” “Heroaka UR” participating in “Stars and Stripes” jumps from 77th to 7th place",
+    "link": "https://gamebiz.jp/news/423244",
+    "date": 1774489440000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Tekken 8” will be responding to “emergency patches” after a series of unpopular reviews since the start of the new season. We are also reviewing “behaviors that lead to excessive returns” etc.",
+    "link": "https://automaton-media.com/articles/newsjp/tekken-8-20260326-432189",
+    "date": 1774489533000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
     "isTranslated": true,
     "hotScore": 1
   }
