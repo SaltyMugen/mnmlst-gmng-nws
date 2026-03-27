@@ -2015,7 +2015,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "\"RPG Maker\" new project teaser site and movie released. You can see how a party of three moves through the city and field.",
@@ -2031,14 +2031,6 @@
         "date": 1774504801000,
         "domain": "automaton-media.com",
         "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "Announcing a new project for \"RPG Maker\" that combines 2D and 3D! Teaser release that incorporates new expressions and gives a sense of the history of the series",
-        "link": "http://www.gamespark.jp/article/2026/03/26/164364.html",
-        "date": 1774504805000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
         "isTranslated": true
       },
       {
@@ -2445,15 +2437,6 @@
     "date": 1774520940000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Beep Japan releases cinematic visual novel “Until Then” Switch version today! Everyday life in the Philippines intersects with the mysteries of the world.",
-    "link": "https://gamebiz.jp/news/423303",
-    "date": 1774521000000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4893,6 +4876,24 @@
     ]
   },
   {
+    "title": "How to extract from Cryo Archive in Marathon",
+    "link": "https://www.pcgamer.com/games/fps/marathon-cryo-archive-extract-exfil",
+    "date": 1774548000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How to increase your Cryo Archive Security Clearance Level in Marathon",
+    "link": "https://www.pcgamer.com/games/fps/marathon-security-clearance-level-cryo-archive",
+    "date": 1774548000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Annapurna revives road trip adventure Forever Ago with a release window",
     "link": "https://gamesbeat.com/annapurna-revives-road-trip-adventure-forever-ago-with-a-release-window",
     "date": 1774548000000,
@@ -4918,24 +4919,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "How to extract from Cryo Archive in Marathon",
-    "link": "https://www.pcgamer.com/games/fps/marathon-cryo-archive-extract-exfil",
-    "date": 1774548000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How to increase your Cryo Archive Security Clearance Level in Marathon",
-    "link": "https://www.pcgamer.com/games/fps/marathon-security-clearance-level-cryo-archive",
-    "date": 1774548000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "How Sands of Aura Brings Soulslike Combat and Sandsea Exploration to Xbox",
@@ -7200,6 +7183,24 @@
     "date": 1774574460000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "[App Store (3/27)] \"PokePoke\" distributed by the new theme expansion pack \"Shining Mega\" ranks first. KONAMI's new \"PowerPro Adventures\" debuts at 17th place",
+    "link": "https://gamebiz.jp/news/423326",
+    "date": 1774575000000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "PvE survival \"ICARUS\" console version to survive on an unexplored planet is now available! Also includes the expansion DLC “New Frontier” which includes a vast map.",
+    "link": "http://www.gamespark.jp/article/2026/03/27/164414.html",
+    "date": 1774575004000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   }
