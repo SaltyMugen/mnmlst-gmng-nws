@@ -1073,15 +1073,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Win/Xbox version of “Yukurasu-tei Raden Guidance! Pixel Museum” will be released on April 2nd. Enjoy art-themed pixel puzzles",
-    "link": "https://www.4gamer.net/games/863/G086378/20260326006",
-    "date": 1774493275000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Mario Wonder's 'Meetup In Bellabel Park' Soundtrack Has Been Added To Nintendo Music",
     "link": "https://www.nintendolife.com/news/2026/03/mario-wonders-meetup-in-bellabel-park-soundtrack-has-been-added-to-nintendo-music",
     "date": 1774493700000,
@@ -2287,20 +2278,20 @@
     "hotScore": 1
   },
   {
-    "title": "Anime-Inspired FPS 'Mullet Madjack' Hits Switch In April, And It Looks Like A Lot",
-    "link": "https://www.nintendolife.com/news/2026/03/anime-inspired-fps-mullet-madjack-hits-switch-in-april-and-it-looks-like-a-lot",
-    "date": 1774526400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Ziff Davis announces new IGN France partnership, as part of international licencing expansion",
     "link": "https://www.gamesindustry.biz/ziff-davis-announces-new-ign-france-partnership-as-part-of-international-licencing-expansion",
     "date": 1774526400000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Anime-Inspired FPS 'Mullet Madjack' Hits Switch In April, And It Looks Like A Lot",
+    "link": "https://www.nintendolife.com/news/2026/03/anime-inspired-fps-mullet-madjack-hits-switch-in-april-and-it-looks-like-a-lot",
+    "date": 1774526400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2872,20 +2863,20 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Crimson Desert (PS5) - A Generational Open World Buried in Early Access Cruft",
-    "link": "https://www.pushsquare.com/reviews/ps5/crimson-desert",
-    "date": 1774537200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "SAROS is the PS5’s next must-play game from the platform’s true masters",
     "link": "https://www.dexerto.com/gaming/saros-is-ps5s-next-must-play-game-from-platforms-masters-3339761",
     "date": 1774537200000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Crimson Desert (PS5) - A Generational Open World Buried in Early Access Cruft",
+    "link": "https://www.pushsquare.com/reviews/ps5/crimson-desert",
+    "date": 1774537200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5125,7 +5116,17 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to get the Darkbringer in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-the-darkbringer-in-crimson-desert",
+        "date": 1774518467000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Snag This Sick Lego Lambo While It's On Sale",
@@ -6457,14 +6458,6 @@
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
         "isTranslated": false
-      },
-      {
-        "title": "How to get the Darkbringer in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-the-darkbringer-in-crimson-desert",
-        "date": 1774518467000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
       }
     ]
   },
@@ -7211,6 +7204,15 @@
     "date": 1774583400000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Early access version of \"Nova Roma\", a city-building sim themed around ancient Rome, released. Leave the declining Roman Empire and build a new utopia",
+    "link": "https://www.4gamer.net/games/715/G071528/20260327018",
+    "date": 1774583668000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
   }
