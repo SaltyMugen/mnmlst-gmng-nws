@@ -149,6 +149,7 @@ h1 span {
     transition:
         0.2s ease,
         background 0.4s ease;
+    padding: 3px 0;
 }
 .item.show::after {
     content: "";
