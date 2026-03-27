@@ -1,5 +1,6 @@
 const NEW_THRESHOLD_MS = 15 * 60 * 1000;
 const REFRESH_INTERVAL = 5 * 60 * 1000;
+const TRENDING_THRESHOLD = 2.5; // keep in sync with fetch_news.py
 const CACHE_KEY = "onimugen_v1_gaming";
 const BOOKMARKS_KEY = "onimugen_v1_bookmarks";
 const READ_KEY = "onimugen_v1_read";
@@ -358,7 +359,7 @@ function render(articles) {
 
             const isNew = Date.now() - a.date < NEW_THRESHOLD_MS;
             const domain = safeDomain(a.link);
-            const isHot = a.hotScore != null && a.hotScore >= 4.0;
+            const isHot = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
             const isReddit = a.link.includes("reddit.com");
             const isPS = a.link.includes("playstation.com");
             const isNintendo = a.link.includes("nintendo.com");
