@@ -1190,15 +1190,6 @@
     "hotScore": 1
   },
   {
-    "title": "ADV \"SP(L/R)ITE: Sprite\" that allows you to cooperate with your opponent even though it is a death game will be released on April 9th. A collaborative escape from another space featuring a high-tension gal goddess",
-    "link": "https://automaton-media.com/articles/newsjp/20260326-432295",
-    "date": 1774513324000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "SaGa series artist Satoshi Kuramochi leaves Square Enix",
     "link": "https://automaton-media.com/en/news/saga-series-artist-satoshi-kuramochi-leaves-square-enix",
     "date": 1774513422000,
@@ -1231,15 +1222,6 @@
     "date": 1774515444000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Details of Champ Chime Chocolate, a chocolate shop that cannot be put into your mouth, have been released. The “phantom brand” that disappeared for a short period of time in 1934 will be recreated and exhibited in Ginza",
-    "link": "https://news.denfaminicogamer.jp/news/2603262d",
-    "date": 1774515622000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1875,20 +1857,20 @@
     "hotScore": 1
   },
   {
-    "title": "'How Was This Missed in the Writing Process?': Capcom to Revise Street Fighter 6's Incestuous New Storyline",
-    "link": "https://www.pushsquare.com/news/2026/03/how-was-this-missed-in-the-writing-process-capcom-to-revise-street-fighter-6s-incestuous-new-storyline",
-    "date": 1774529100000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "It Was Asha Sharma's 'Direction' To Scrub 'This Is An Xbox' Marketing, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/03/it-was-asha-sharmas-direction-to-scrub-this-is-an-xbox-marketing-suggests-report",
     "date": 1774529100000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'How Was This Missed in the Writing Process?': Capcom to Revise Street Fighter 6's Incestuous New Storyline",
+    "link": "https://www.pushsquare.com/news/2026/03/how-was-this-missed-in-the-writing-process-capcom-to-revise-street-fighter-6s-incestuous-new-storyline",
+    "date": 1774529100000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3338,33 +3320,6 @@
     "hotScore": 1
   },
   {
-    "title": "Annapurna revives road trip adventure Forever Ago with a release window",
-    "link": "https://gamesbeat.com/annapurna-revives-road-trip-adventure-forever-ago-with-a-release-window",
-    "date": 1774548000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Road trip adventure game Forever Ago launches this fall for PS5, Xbox Series, Switch 2, and PC",
-        "link": "https://www.gematsu.com/2026/03/road-trip-adventure-game-forever-ago-launches-this-fall-for-ps5-xbox-series-switch-2-and-pc",
-        "date": 1774545329000,
-        "domain": "gematsu.com",
-        "sourceName": "Gematsu",
-        "isTranslated": false
-      },
-      {
-        "title": "Road trip adventure “Forever Ago” that follows the memory of the main character will be released in fall 2026",
-        "link": "https://www.4gamer.net/games/993/G099381/20260326075",
-        "date": 1774546605000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "How to increase your Cryo Archive Security Clearance Level in Marathon",
     "link": "https://www.pcgamer.com/games/fps/marathon-security-clearance-level-cryo-archive",
     "date": 1774548000000,
@@ -3383,29 +3338,38 @@
     "hotScore": 1
   },
   {
+    "title": "Annapurna revives road trip adventure Forever Ago with a release window",
+    "link": "https://gamesbeat.com/annapurna-revives-road-trip-adventure-forever-ago-with-a-release-window",
+    "date": 1774548000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Road trip adventure game Forever Ago launches this fall for PS5, Xbox Series, Switch 2, and PC",
+        "link": "https://www.gematsu.com/2026/03/road-trip-adventure-game-forever-ago-launches-this-fall-for-ps5-xbox-series-switch-2-and-pc",
+        "date": 1774545329000,
+        "domain": "gematsu.com",
+        "sourceName": "Gematsu",
+        "isTranslated": false
+      },
+      {
+        "title": "Road trip adventure “Forever Ago” that traces the memory of the main character will be released in fall 2026",
+        "link": "https://www.4gamer.net/games/993/G099381/20260326075",
+        "date": 1774546605000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "Vaunted's tactical combat looks fine, but I'm most interested in the consequences of rewriting history when one of its dodgy mercenaries bites the bullet",
     "link": "https://www.rockpapershotgun.com/vaunteds-tactical-combat-looks-fine-but-im-most-interested-in-the-consequences-of-rewriting-history-when-one-of-its-dodgy-mercenaries-bites-the-bullet",
     "date": 1774548000000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How Sands of Aura Brings Soulslike Combat and Sandsea Exploration to Xbox",
-    "link": "https://news.xbox.com/en-us/2026/03/26/how-sands-of-aura-brings-soulslike-combat-and-sandsea-exploration",
-    "date": 1774548000000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Fradulent Votes Removed From World Top 100 2nd Global One Piece Character Popularity Poll",
-    "link": "https://www.siliconera.com/fradulent-votes-removed-from-world-top-100-2nd-global-one-piece-character-popularity-poll",
-    "date": 1774548000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3428,11 +3392,38 @@
     "hotScore": 1
   },
   {
+    "title": "Fradulent Votes Removed From World Top 100 2nd Global One Piece Character Popularity Poll",
+    "link": "https://www.siliconera.com/fradulent-votes-removed-from-world-top-100-2nd-global-one-piece-character-popularity-poll",
+    "date": 1774548000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "How Sands of Aura Brings Soulslike Combat and Sandsea Exploration to Xbox",
+    "link": "https://news.xbox.com/en-us/2026/03/26/how-sands-of-aura-brings-soulslike-combat-and-sandsea-exploration",
+    "date": 1774548000000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Feature: \"Virtua Fighter Really Needs To Run At A Steady 60fps\" - Producer Seiji Aoki On Bringing An Iconic Series To Switch 2",
     "link": "https://www.nintendolife.com/features/virtua-fighter-really-needs-to-run-at-a-steady-60fps-producer-seiji-aoki-on-bringing-an-iconic-series-to-switch-2",
     "date": 1774548000000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Serious Sam Returns To Xbox With 'Shatterverse', And Its Developer Might Surprise You",
+    "link": "https://www.purexbox.com/news/2026/03/serious-sam-returns-to-xbox-with-shatterverse-and-its-developer-might-surprise-you",
+    "date": 1774548000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3451,15 +3442,6 @@
     "date": 1774548000000,
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Serious Sam Returns To Xbox With 'Shatterverse', And Its Developer Might Surprise You",
-    "link": "https://www.purexbox.com/news/2026/03/serious-sam-returns-to-xbox-with-shatterverse-and-its-developer-might-surprise-you",
-    "date": 1774548000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3633,7 +3615,7 @@
     "hotScore": 1
   },
   {
-    "title": "Grave Seasons, an agricultural simulation game in which you search for a serial killer lurking in the town behind the scenes of an idyllic life, will be released on August 14th. Compatible with Xbox Series X|S, PS5, Nintendo Switch, and PC (Steam). We plan to release a trial version soon.",
+    "title": "Grave Seasons, an agricultural simulation game in which you search for a serial killer lurking in the town behind the scenes of a peaceful life, will be released on August 14th. Compatible with Xbox Series X|S, PS5, Nintendo Switch, and PC (Steam). We plan to release a trial version soon.",
     "link": "https://news.denfaminicogamer.jp/news/260327j",
     "date": 1774549148000,
     "domain": "news.denfaminicogamer.jp",
@@ -3864,20 +3846,20 @@
     ]
   },
   {
-    "title": "Project Songbird: Unravel Shadows and Survive a Cinematic World of Suspense",
-    "link": "https://news.xbox.com/en-us/2026/03/26/project-songbird-unravel-shadows-and-survive",
-    "date": 1774551600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "New The Ring Sadako Figure Can ‘Leave’ Her TV",
     "link": "https://www.siliconera.com/new-the-ring-sadako-figure-can-leave-her-tv",
     "date": 1774551600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Project Songbird: Unravel Shadows and Survive a Cinematic World of Suspense",
+    "link": "https://news.xbox.com/en-us/2026/03/26/project-songbird-unravel-shadows-and-survive",
+    "date": 1774551600000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4365,17 +4347,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Netflix Is Raising Its Prices Yet Again",
-        "link": "https://insider-gaming.com/netflix-raising-its-prices",
-        "date": 1774553600000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Moosa: Dirty Fate Revealed During Xbox Partner Preview",
@@ -4700,15 +4672,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The Last Of Us Factions Being Revived By Indie Devs",
-    "link": "https://www.thegamer.com/the-last-of-us-factions-terminal-war-indie-creation",
-    "date": 1774564219000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -5190,7 +5153,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Play Report] I checked the basic rules and adjustment elements of \"Culdcept Begins\", the first new game in 10 years. For those who don't yet know the masterpiece of digital board games, this is perfect.",
+    "title": "[Play Report] I checked out the basic rules and adjustment elements of \"Culdcept Begins\", the first new game in 10 years. For those who don't yet know the masterpiece of digital board games, this is perfect.",
     "link": "https://www.4gamer.net/games/981/G098181/20260323022",
     "date": 1774578600000,
     "domain": "4gamer.net",
@@ -5967,7 +5930,7 @@
     "hotScore": 1
   },
   {
-    "title": "The VR story work “If You Can See the Cat” created by Atsushi Wada will be released on Steam on April 3rd. Combining animation, film, and interactive expression",
+    "title": "The VR story work ``If You Can See the Cat'' created by Atsushi Wada will be released on Steam on April 3rd. Combining animation, film, and interactive expression",
     "link": "https://www.4gamer.net/games/994/G099412/20260327007",
     "date": 1774586365000,
     "domain": "4gamer.net",
@@ -6085,15 +6048,6 @@
     ]
   },
   {
-    "title": "[TO Books Financial Results Report] Upward revision of full-year earnings forecast for April 2026, record high profit From “publishing IP company” to comprehensive production",
-    "link": "https://gamebiz.jp/news/423325",
-    "date": 1774587420000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The movie version of ``Detective Conan: Detectives' Requiem'' will be broadcast on ``Friday Road Show'' tonight from 9pm. A 10th anniversary work released in 2006 featuring all the main characters.",
     "link": "https://news.denfaminicogamer.jp/news/2603272e",
     "date": 1774587529000,
@@ -6112,19 +6066,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "How to get and use Packs in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-and-use-packs-in-crimson-desert",
-        "date": 1774553684000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "How to Get Silver Ore in Crimson Desert",
         "link": "https://gamerant.com/crimson-desert-how-to-get-silver-ore-cave-location",
         "date": 1774580015000,
         "domain": "gamerant.com",
         "sourceName": "Game Rant",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get and use Packs in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-and-use-packs-in-crimson-desert",
+        "date": 1774553684000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -6604,7 +6558,7 @@
     "hotScore": 1
   },
   {
-    "title": "Work support app \"gogh\" has sold over 300,000 copies of the PC version. Reviews were “very positive” and the mobile version achieved 2.5 million downloads.",
+    "title": "Sales of the PC version of the work support app \"gogh\" exceeded 300,000 copies. Reviews were “very positive” and the mobile version achieved 2.5 million downloads.",
     "link": "https://www.4gamer.net/games/855/G085573/20260327036",
     "date": 1774592137000,
     "domain": "4gamer.net",
@@ -7114,7 +7068,7 @@
     "hotScore": 1
   },
   {
-    "title": "The synopsis and advance cut of the anime “Himitsu no Iipuri” episode 102 “Himitsu no Iipuri” has been released! Their respective futures depicted in the final episode",
+    "title": "The synopsis and advance cut of the anime “Himitsu no Iipuri” episode 102 “Himitsu no Iipuri” have been released! Their respective futures depicted in the final episode",
     "link": "https://www.gamer.ne.jp/news/202603270038",
     "date": 1774598400000,
     "domain": "gamer.ne.jp",
@@ -7209,7 +7163,7 @@
         "isTranslated": false
       },
       {
-        "title": "\"Crimson Desert\" Review It's rough around the edges, but it's a greedy open world where you can't see the bottom even after playing for 200 hours, with an overwhelming amount of adventure and a slow life.",
+        "title": "\"Crimson Desert\" Review It's rough, but it's a greedy open world where you can't see the bottom even after playing for 200 hours, with an overwhelming amount of adventure and a slow life.",
         "link": "https://jp.ign.com/crimson-desert/83023/review/200",
         "date": 1774501337000,
         "domain": "jp.ign.com",
@@ -7258,6 +7212,51 @@
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "PlayStation's Dynamic Pricing Gives Some Players 70 Percent Off On Stellar Blade",
+    "link": "https://www.thegamer.com/stellar-blade-discount-playstation-dynamic-pricing",
+    "date": 1774599340000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The “fake mufti” from “Mobile Suit Gundam: Flash of Hathaway” is unexpectedly made into boxer shorts. Available in two types: \"Fake Mufti pattern\" and Wedge's pet cat \"Shiharu pattern\", reservations start from March 27th",
+    "link": "https://news.denfaminicogamer.jp/news/2603272n",
+    "date": 1774599357000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Land Ho's final profit for the fiscal year ending December 2025 is 16 million yen...Game development company under Orchestra Holdings",
+    "link": "https://gamebiz.jp/news/423379",
+    "date": 1774599480000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Demon mass-produced roguelite strategy game ``Sin & Siege'' announced. A hellish development game that uses the ``Seven Deadly Sins'' such as prosperity of descendants through lust, battle through anger, etc.",
+    "link": "https://automaton-media.com/articles/newsjp/20260327-432672",
+    "date": 1774599589000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Latest Escape from Tarkov Update Makes The Game ‘Easier’",
+    "link": "https://insider-gaming.com/latest-tarkov-update-makes-game-easie",
+    "date": 1774599595000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
