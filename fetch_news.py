@@ -31,7 +31,7 @@ DATA_FILE = "data_gaming.json"
 # Score = unique source count × time-decay (halves every 12h).
 # Roughly: 3 fresh sources = ~3.0, 3 sources at 12h old = ~1.5, 5 at 2h = ~4.7.
 # Raise this if too many stories are trending; lower it if too few.
-TRENDING_THRESHOLD = 2.5
+TRENDING_THRESHOLD = 2.1
 
 HEADERS = {
     "User-Agent": (
@@ -413,7 +413,7 @@ def _trending_score(group: list[dict]) -> float:
 
 
 def _group_articles(articles: list[dict]) -> list[dict]:
-    SIMILARITY_THRESHOLD = 69
+    SIMILARITY_THRESHOLD = 50
     TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
     MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
 
