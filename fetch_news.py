@@ -28,9 +28,8 @@ log = logging.getLogger(__name__)
 DATA_FILE = "data_gaming.json"
 
 # A story needs to clear this score to get the Trending badge in the UI.
-# Score = unique source count × time-decay (halves every 12h).
-# Roughly: 3 fresh sources = ~3.0, 3 sources at 12h old = ~1.5, 5 at 2h = ~4.7.
-# Raise this if too many stories are trending; lower it if too few.
+# Score = unique source count × time-decay (half-life 12h).
+# Raise to see fewer trending stories, lower to see more.
 TRENDING_THRESHOLD = 2.1
 
 HEADERS = {
@@ -387,31 +386,6 @@ def _extract_topic_key(title: str) -> str | None:
     return max(matches, key=len).strip()
 
 
-def _trending_score(group: list[dict]) -> float:
-    """
-    How "trending" is this story right now?
-
-    Combines two signals: how many distinct outlets covered it, and how
-    recently. A story picked up by 4 sources an hour ago should rank much
-    higher than the same coverage spread over 40 hours.
-
-    Decay is exponential with a 12-hour half-life — after 12h the raw
-    source count is halved, after 24h it's quartered, etc.
-    """
-    now_ms = int(time.time() * 1000)
-    source_count = len({item["domain"] for item in group})
-
-    # Use the oldest article as the story's birth time — that's when
-    # the first outlet picked it up, not when we happened to process it.
-    oldest_ms = min(item["date"] for item in group)
-    age_hours = (now_ms - oldest_ms) / 3_600_000
-
-    # ln(2) / 12  →  score halves every 12 hours
-    decay = math.exp(-0.0578 * age_hours)
-
-    return round(source_count * decay, 3)
-
-
 def _group_articles(articles: list[dict]) -> list[dict]:
     SIMILARITY_THRESHOLD = 50
     TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
@@ -421,7 +395,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
     used: set[int] = set()
     groups: list[list[dict]] = []
 
-    # --- Pass 1: fuzzy title similarity ---
+    # --- Pass 1: fuzzy title similarity (existing logic) ---
     for i, a in enumerate(articles):
         if i in used:
             continue
@@ -439,9 +413,10 @@ def _group_articles(articles: list[dict]) -> list[dict]:
         groups.append(group)
 
     # --- Pass 2: topic-key grouping for same-subject articles ---
-    # Only runs on singletons — already-grouped articles are left alone.
+    # Flatten back to individual articles (ungrouped singletons only) for topic pass
     singleton_indices = [i for i, g in enumerate(groups) if len(g) == 1]
 
+    # Build topic → [group_index] map
     topic_map: dict[str, list[int]] = {}
     for gi in singleton_indices:
         article = groups[gi][0]
@@ -450,30 +425,39 @@ def _group_articles(articles: list[dict]) -> list[dict]:
             topic_key = topic.lower()
             topic_map.setdefault(topic_key, []).append(gi)
 
+    # Merge groups that share the same topic key and are within the time window
     topic_merged: set[int] = set()
     for topic_key, gis in topic_map.items():
         if len(gis) < MIN_TOPIC_GROUP_SIZE:
             continue
 
+        # Sort by date and check they fall within the time window
         gis_sorted = sorted(gis, key=lambda gi: groups[gi][0]["date"])
         oldest = groups[gis_sorted[0]][0]["date"]
         newest = groups[gis_sorted[-1]][0]["date"]
         if newest - oldest > TOPIC_TIME_WINDOW_MS:
             continue
 
+        # Merge into first group
         base_gi = gis_sorted[0]
         for gi in gis_sorted[1:]:
             groups[base_gi].extend(groups[gi])
             topic_merged.add(gi)
 
+    # Remove groups that were merged into another
     groups = [g for i, g in enumerate(groups) if i not in topic_merged]
 
     result: list[dict] = []
     for group in groups:
-        lead = max(group, key=lambda x: x["date"])
+        # oldest article is the original source — that's what should appear in the feed
+        lead = min(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
-        lead["hotScore"] = _trending_score(group)
+        # time-decayed trending score — see TRENDING_THRESHOLD in fetch_all
+        now_ms = int(time.time() * 1000)
+        source_count = len({item["domain"] for item in group})
+        age_hours = (now_ms - lead["date"]) / 3_600_000
+        lead["hotScore"] = round(source_count * math.exp(-0.0578 * age_hours), 3)
 
         if members:
             lead["groupMembers"] = members
