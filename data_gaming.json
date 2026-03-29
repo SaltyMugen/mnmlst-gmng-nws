@@ -595,20 +595,20 @@
     "hotScore": 1
   },
   {
-    "title": "Round Up: Life Is Strange: Reunion PS5 Reviews Reveal a 'Tender, Heartfelt' Conclusion to Max and Chloe's Story",
-    "link": "https://www.pushsquare.com/features/round-up-life-is-strange-reunion-ps5-reviews-reveal-a-tender-heartfelt-conclusion-to-max-and-chloes-story",
-    "date": 1774746000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Super Meat Boy Brings Brutal 3D Platforming To Switch 2 This Month",
     "link": "https://www.nintendolife.com/news/2026/03/super-meat-boy-brings-brutal-3d-platforming-to-switch-2-this-month",
     "date": 1774746000000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Round Up: Life Is Strange: Reunion PS5 Reviews Reveal a 'Tender, Heartfelt' Conclusion to Max and Chloe's Story",
+    "link": "https://www.pushsquare.com/features/round-up-life-is-strange-reunion-ps5-reviews-reveal-a-tender-heartfelt-conclusion-to-max-and-chloes-story",
+    "date": 1774746000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1253,20 +1253,20 @@
     "hotScore": 1
   },
   {
-    "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
-    "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
-    "date": 1774778400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
     "date": 1774778400000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
+    "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
+    "date": 1774778400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1640,13 +1640,32 @@
     "hotScore": 1
   },
   {
+    "title": "Kingdom Come: Deliverance 2 dev claims he was “fired” and replaced with AI",
+    "link": "https://www.dexerto.com/gaming/kingdom-come-deliverance-2-dev-claims-he-was-fired-and-replaced-with-ai-3342537",
+    "date": 1774790792000,
+    "domain": "dexerto.com",
+    "sourceName": "Dexerto",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Kingdom Come: Deliverance 2 developer claims AI is replacing them",
+        "link": "https://www.polygon.com/kingdom-come-deliverance-2-developer-fired-ai",
+        "date": 1774722755000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Kingdom Come: Deliverance 2 devs were \"experimenting\" for the first game, but came armed with knowledge and about 100 more staff members for the sequel: \"It had to stand taller\"",
     "link": "https://www.gamesradar.com/games/rpg/kingdom-come-deliverance-2-devs-were-experimenting-for-the-first-game-but-came-armed-with-knowledge-and-about-100-more-staff-members-for-the-sequel-it-had-to-stand-taller",
     "date": 1774790887000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "New report claims Kingdom Come: Deliverance 2 studio fired translator to replace them with AI and \"save finances\"",
@@ -1654,14 +1673,6 @@
         "date": 1774717991000,
         "domain": "eurogamer.net",
         "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Kingdom Come: Deliverance 2 developer claims AI is replacing them",
-        "link": "https://www.polygon.com/kingdom-come-deliverance-2-developer-fired-ai",
-        "date": 1774722755000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
         "isTranslated": false
       },
       {
@@ -1939,15 +1950,6 @@
     ]
   },
   {
-    "title": "Monster Hunter Stories 3 is Getting a Big Free Update in Summer 2026",
-    "link": "https://gamerant.com/monster-hunter-stories-3-free-update-summer-2026",
-    "date": 1774796416000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert Update Replaces AI Paintings",
     "link": "https://www.thegamer.com/crimson-desert-generative-ai-assets-paintings-replaced",
     "date": 1774796984000,
@@ -2161,17 +2163,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Kingdom Come: Deliverance 2 dev claims he was “fired” and replaced with AI",
-        "link": "https://www.dexerto.com/gaming/kingdom-come-deliverance-2-dev-claims-he-was-fired-and-replaced-with-ai-3342537",
-        "date": 1774790792000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "New cast announced one after another! That famous line also jumped out at the reading drama! Anime “Suikoden” AJ Special Stage Report [AnimeJapan 2026]",
@@ -2197,6 +2189,15 @@
     "date": 1774801817000,
     "domain": "theverge.com",
     "sourceName": "The Verge",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Dragon Ball Super: The Strongest Transformation in Each Arc",
+    "link": "https://gamerant.com/dragon-ball-super-strongest-forms-in-each-arc",
+    "date": 1774801875000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   }
