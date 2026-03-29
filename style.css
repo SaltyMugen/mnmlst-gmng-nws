@@ -149,7 +149,6 @@ h1 span {
     transition:
         0.2s ease,
         background 0.4s ease;
-    padding: 3px 0;
 }
 .item.show::after {
     content: "";
@@ -362,6 +361,53 @@ h1 span {
 .filter-opt.active {
     color: var(--ink);
     border-bottom: 1px solid var(--ink);
+}
+
+/* filter dropdown — opens below the filter icon */
+#filter-container {
+    position: relative;
+}
+#filter-btn.open {
+    color: var(--ink);
+    opacity: 1;
+}
+#filter-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    z-index: 50;
+    background: var(--bg);
+    border: 1px solid var(--sub);
+    border-radius: 4px;
+    min-width: 140px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    padding: 4px 0;
+    transition:
+        background 0.4s ease,
+        border-color 0.4s ease;
+}
+#filter-menu.open {
+    display: block;
+}
+#filter-menu .filter-opt {
+    display: block;
+    padding: 8px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--dim);
+    border-bottom: none;
+    transition: background 0.1s, color 0.15s;
+}
+#filter-menu .filter-opt:hover {
+    background: var(--hover-bg);
+    color: var(--ink);
+}
+#filter-menu .filter-opt.active {
+    color: var(--ink);
+    border-bottom: none;
+    background: var(--hover-bg);
 }
 #splash {
     position: fixed;

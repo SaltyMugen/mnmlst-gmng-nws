@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="forest">
+<html lang="en" data-theme="day">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -65,8 +65,8 @@
               </button>
             </div>
           </div>
-          <div class="expand-container">
-            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter">
+          <div class="expand-container" id="filter-container">
+            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter" id="filter-btn">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -85,14 +85,13 @@
                 <line x1="17" y1="16" x2="23" y2="16"></line>
               </svg>
             </button>
-            <div id="filter-wrap" class="expandable">
-              <div class="filter-options">
-                <span class="filter-opt active" onclick="setFilter('all', this)" role="button" tabindex="0">ALL</span>
-                <span class="filter-opt" onclick="setFilter('new', this)" role="button" tabindex="0">NEW</span>
-                <span class="filter-opt" onclick="setFilter('trending', this)" role="button" tabindex="0"
-                  >TRENDING</span
-                >
-              </div>
+            <div id="filter-menu">
+              <span class="filter-opt active" onclick="setFilter('all', this)"         role="button" tabindex="0">All</span>
+              <span class="filter-opt"         onclick="setFilter('new', this)"         role="button" tabindex="0">New</span>
+              <span class="filter-opt"         onclick="setFilter('trending', this)"    role="button" tabindex="0">Trending</span>
+              <span class="filter-opt"         onclick="setFilter('playstation', this)" role="button" tabindex="0">PlayStation</span>
+              <span class="filter-opt"         onclick="setFilter('xbox', this)"        role="button" tabindex="0">Xbox</span>
+              <span class="filter-opt"         onclick="setFilter('nintendo', this)"    role="button" tabindex="0">Nintendo</span>
             </div>
           </div>
           <button class="icon-btn" onclick="openBookmarks()" title="Bookmarks">

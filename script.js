@@ -1,6 +1,6 @@
-const NEW_THRESHOLD_MS = 15 * 60 * 1000;
-const REFRESH_INTERVAL = 5 * 60 * 1000;
-const TRENDING_THRESHOLD = 2.5; // keep in sync with fetch_news.py
+const NEW_THRESHOLD_MS = 15 * 60 * 1000;  // 15 min = "new"
+const REFRESH_INTERVAL = 5 * 60 * 1000;   // poll every 5 min
+const TRENDING_THRESHOLD = 2.5;            // keep in sync with fetch_news.py
 const CACHE_KEY = "onimugen_v1_gaming";
 const BOOKMARKS_KEY = "onimugen_v1_bookmarks";
 const READ_KEY = "onimugen_v1_read";
@@ -86,7 +86,7 @@ function toggleBookmark(link, title, domain, sourceName, btn) {
         delete bookmarks[link];
         btn.classList.remove("bookmarked");
     } else {
-        bookmarks[link] = { title, link, domain, sourceName };
+        bookmarks[link] = { title, link, domain, sourceName, savedAt: Date.now() };
         btn.classList.add("bookmarked");
     }
     saveBookmarks();
@@ -98,7 +98,7 @@ function openBookmarks() {
     const empty = document.getElementById("bookmarks-empty");
 
     feed.innerHTML = "";
-    const items = Object.values(bookmarks);
+    const items = Object.values(bookmarks).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
     empty.style.display = items.length === 0 ? "block" : "none";
 
     items.forEach((b) => {
@@ -184,23 +184,28 @@ function updateThemeDots(theme) {
 
 function toggleControl(type) {
     const search = document.getElementById("search-wrap");
-    const filter = document.getElementById("filter-wrap");
+    const filterMenu = document.getElementById("filter-menu");
+    const filterBtn  = document.getElementById("filter-btn");
+
     if (type === "search") {
-        filter.classList.remove("active");
+        filterMenu?.classList.remove("open");
+        filterBtn?.classList.remove("open");
         search.classList.toggle("active");
         if (search.classList.contains("active")) document.getElementById("search-input").focus();
     } else {
         search.classList.remove("active");
-        filter.classList.toggle("active");
+        const isOpen = filterMenu.classList.toggle("open");
+        filterBtn.classList.toggle("open", isOpen);
     }
 }
 
-// close search/filter and sources menu when clicking outside their containers
+// close dropdowns when clicking outside them
 document.addEventListener("click", (e) => {
     const controls = document.querySelector(".controls");
     if (controls && !controls.contains(e.target)) {
         document.getElementById("search-wrap")?.classList.remove("active");
-        document.getElementById("filter-wrap")?.classList.remove("active");
+        document.getElementById("filter-menu")?.classList.remove("open");
+        document.getElementById("filter-btn")?.classList.remove("open");
     }
 
     const sourcesWrap = document.getElementById("sources-filter-wrap");
@@ -214,6 +219,9 @@ function setFilter(type, el) {
     document.querySelectorAll(".filter-opt").forEach((opt) => opt.classList.remove("active"));
     el.classList.add("active");
     currentFilter = type;
+    // close the dropdown after picking
+    document.getElementById("filter-menu")?.classList.remove("open");
+    document.getElementById("filter-btn")?.classList.remove("open");
     applyFilters();
 }
 
@@ -223,13 +231,19 @@ function applyFilters() {
     if (clearBtn) clearBtn.style.display = q.length > 0 ? "flex" : "none";
 
     document.querySelectorAll(".item").forEach((item) => {
-        const title = item.getAttribute("data-title").toLowerCase();
-        const source = item.getAttribute("data-source") || "";
-        const matchText = title.includes(q);
+        const title      = item.getAttribute("data-title").toLowerCase();
+        const source     = item.getAttribute("data-source") || "";
+        const platform   = item.getAttribute("data-platform") || "";
+        const matchText  = title.includes(q);
         const matchSource = !mutedSources[source];
+
         let matchTab = true;
-        if (currentFilter === "new") matchTab = item.getAttribute("data-new") === "true";
-        if (currentFilter === "trending") matchTab = item.getAttribute("data-hot") === "true";
+        if (currentFilter === "new")         matchTab = item.getAttribute("data-new") === "true";
+        if (currentFilter === "trending")    matchTab = item.getAttribute("data-hot") === "true";
+        if (currentFilter === "playstation") matchTab = platform === "playstation";
+        if (currentFilter === "xbox")        matchTab = platform === "xbox";
+        if (currentFilter === "nintendo")    matchTab = platform === "nintendo";
+
         item.classList.toggle("hidden", !(matchText && matchTab && matchSource));
     });
 }
@@ -357,22 +371,26 @@ function render(articles) {
         .forEach((a, i) => {
             if (a.groupMember) return;
 
-            const isNew = Date.now() - a.date < NEW_THRESHOLD_MS;
-            const domain = safeDomain(a.link);
-            const isHot = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
-            const isReddit = a.link.includes("reddit.com");
-            const isPS = a.link.includes("playstation.com");
+            const isNew      = Date.now() - a.date < NEW_THRESHOLD_MS;
+            const domain     = safeDomain(a.link);
+            const isTrending = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
+            const isReddit   = a.link.includes("reddit.com");
+            const isPS       = a.link.includes("playstation.com");
             const isNintendo = a.link.includes("nintendo.com");
-            const isXbox = a.link.includes(".xbox.com");
-            const hasGroup = a.groupMembers && a.groupMembers.length > 0;
+            const isXbox     = a.link.includes(".xbox.com");
+            const hasGroup   = a.groupMembers && a.groupMembers.length > 0;
+
+            // work out which platform badge this belongs to (if any)
+            const platform = isPS ? "playstation" : isXbox ? "xbox" : isNintendo ? "nintendo" : "";
 
             const li = document.createElement("li");
             li.className = "item";
             if (hasGroup) li.classList.add("has-group");
-            li.setAttribute("data-title", a.title);
-            li.setAttribute("data-new", isNew);
-            li.setAttribute("data-hot", isHot);
-            li.setAttribute("data-source", a.sourceName || "");
+            li.setAttribute("data-title",    a.title);
+            li.setAttribute("data-new",      isNew);
+            li.setAttribute("data-hot",      isTrending);
+            li.setAttribute("data-source",   a.sourceName || "");
+            li.setAttribute("data-platform", platform);
 
             const dateSpan = document.createElement("span");
             dateSpan.className = "item-date";
@@ -392,13 +410,13 @@ function render(articles) {
                 li.classList.add("read-dimmed");
             });
 
-            if (isNew) link.appendChild(makeBadge("New", "badge-new"));
-            if (isReddit) link.appendChild(makeBadge("Rumour", "badge-rumour"));
-            if (isPS) link.appendChild(makeBadge("PlayStation", "badge-ps"));
-            if (isNintendo) link.appendChild(makeBadge("Nintendo", "badge-nintendo"));
-            if (isXbox) link.appendChild(makeBadge("Xbox", "badge-xbox"));
-            if (isHot) link.appendChild(makeBadge("Trending", "badge-hot"));
-            if (a.isTranslated) link.appendChild(makeBadge("JP-EN", "badge-jp"));
+            if (isNew)          link.appendChild(makeBadge("New",         "badge-new"));
+            if (isReddit)       link.appendChild(makeBadge("Rumour",      "badge-rumour"));
+            if (isPS)           link.appendChild(makeBadge("PlayStation", "badge-ps"));
+            if (isNintendo)     link.appendChild(makeBadge("Nintendo",    "badge-nintendo"));
+            if (isXbox)         link.appendChild(makeBadge("Xbox",        "badge-xbox"));
+            if (isTrending)     link.appendChild(makeBadge("Trending",    "badge-hot"));
+            if (a.isTranslated) link.appendChild(makeBadge("JP-EN",       "badge-jp"));
 
             body.appendChild(link);
 
