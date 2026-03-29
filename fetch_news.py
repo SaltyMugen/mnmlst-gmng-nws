@@ -28,9 +28,9 @@ log = logging.getLogger(__name__)
 DATA_FILE = "data_gaming.json"
 
 # A story needs to clear this score to get the Trending badge in the UI.
-# Score = unique source count × time-decay (half-life 12h).
+# Score = unique source count x time-decay (half-life 12h).
 # Raise to see fewer trending stories, lower to see more.
-TRENDING_THRESHOLD = 2.1
+TRENDING_THRESHOLD = 2.5
 
 HEADERS = {
     "User-Agent": (
@@ -365,10 +365,49 @@ def _url_dedupe(articles: list[dict]) -> list[dict]:
 
 
 def _norm_title(title: str) -> str:
-    """Normalise a title for fuzzy comparison."""
+    """Normalise a title for fuzzy comparison (used by topic-key pass)."""
     t = title.lower()
     t = re.sub(r"[^\w\s]", "", t)
     return " ".join(t.split())
+
+
+# Words stripped before similarity scoring — generic terms that appear in
+# almost every gaming headline and would otherwise cause false groupings.
+_GROUPING_STOPWORDS = {
+    "a", "an", "the", "in", "on", "at", "to", "for", "of", "and", "or", "but",
+    "is", "are", "was", "were", "be", "been", "being", "with", "this", "that",
+    "it", "its", "by", "as", "up", "if", "so", "do", "did", "has", "have", "had",
+    "not", "from", "into", "about", "than", "more", "will", "can", "get",
+    "how", "all", "after", "before", "over", "just", "out", "what", "who", "why",
+    "heres", "dont", "wouldnt", "weve", "thats",
+    "game", "games", "gaming", "new", "update", "report", "says", "claims",
+    "reportedly", "confirmed", "official", "reveal", "revealed", "reveals",
+    "release", "launches", "launch", "coming", "adds", "development",
+    "dev", "developer", "studio", "publisher", "announces", "announced",
+    "show", "shows", "interest", "port", "mode", "style", "year", "years",
+}
+
+
+def _title_similarity(a: str, b: str) -> float:
+    """
+    Compare two article titles using token_set_ratio on stopword-filtered tokens.
+
+    token_set_ratio is better than plain ratio for news headlines because it
+    finds the meaningful shared vocabulary between two titles regardless of
+    word order or length — exactly what you need when six outlets cover the
+    same story with six differently-worded headlines.
+
+    Stripping generic gaming/news words first prevents false groupings caused
+    by headlines that share surface-level words like game, new, update but
+    are actually about completely different stories.
+    """
+    def clean(t: str) -> str:
+        t = t.lower()
+        t = re.sub(r"[^\w\s]", "", t)
+        tokens = [w for w in t.split() if w not in _GROUPING_STOPWORDS]
+        return " ".join(tokens)
+
+    return fuzz.token_set_ratio(clean(a), clean(b))
 
 
 def _extract_topic_key(title: str) -> str | None:
@@ -387,15 +426,16 @@ def _extract_topic_key(title: str) -> str | None:
 
 
 def _group_articles(articles: list[dict]) -> list[dict]:
-    SIMILARITY_THRESHOLD = 50
+    # 60 is the sweet spot for token_set_ratio with gaming-stopword filtering —
+    # catches same-story coverage with different headlines, avoids false chains.
+    SIMILARITY_THRESHOLD = 60
     TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
     MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
 
-    norms = [_norm_title(a["title"]) for a in articles]
     used: set[int] = set()
     groups: list[list[dict]] = []
 
-    # --- Pass 1: fuzzy title similarity (existing logic) ---
+    # --- Pass 1: token_set_ratio on stopword-filtered titles ---
     for i, a in enumerate(articles):
         if i in used:
             continue
@@ -406,17 +446,15 @@ def _group_articles(articles: list[dict]) -> list[dict]:
                 continue
             if abs(articles[i]["date"] - articles[j]["date"]) > 86400000:
                 continue
-            score = fuzz.ratio(norms[i], norms[j])
-            if score >= SIMILARITY_THRESHOLD:
+            if _title_similarity(articles[i]["title"], articles[j]["title"]) >= SIMILARITY_THRESHOLD:
                 group.append(articles[j])
                 used.add(j)
         groups.append(group)
 
     # --- Pass 2: topic-key grouping for same-subject articles ---
-    # Flatten back to individual articles (ungrouped singletons only) for topic pass
+    # Only runs on singletons — already-grouped articles are left alone.
     singleton_indices = [i for i, g in enumerate(groups) if len(g) == 1]
 
-    # Build topic → [group_index] map
     topic_map: dict[str, list[int]] = {}
     for gi in singleton_indices:
         article = groups[gi][0]
@@ -425,35 +463,31 @@ def _group_articles(articles: list[dict]) -> list[dict]:
             topic_key = topic.lower()
             topic_map.setdefault(topic_key, []).append(gi)
 
-    # Merge groups that share the same topic key and are within the time window
     topic_merged: set[int] = set()
     for topic_key, gis in topic_map.items():
         if len(gis) < MIN_TOPIC_GROUP_SIZE:
             continue
 
-        # Sort by date and check they fall within the time window
         gis_sorted = sorted(gis, key=lambda gi: groups[gi][0]["date"])
         oldest = groups[gis_sorted[0]][0]["date"]
         newest = groups[gis_sorted[-1]][0]["date"]
         if newest - oldest > TOPIC_TIME_WINDOW_MS:
             continue
 
-        # Merge into first group
         base_gi = gis_sorted[0]
         for gi in gis_sorted[1:]:
             groups[base_gi].extend(groups[gi])
             topic_merged.add(gi)
 
-    # Remove groups that were merged into another
     groups = [g for i, g in enumerate(groups) if i not in topic_merged]
 
     result: list[dict] = []
     for group in groups:
-        # oldest article is the original source — that's what should appear in the feed
+        # oldest article is the original source — anchor the group to it
         lead = min(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
-        # time-decayed trending score — see TRENDING_THRESHOLD in fetch_all
+        # time-decayed trending score — see TRENDING_THRESHOLD constant
         now_ms = int(time.time() * 1000)
         source_count = len({item["domain"] for item in group})
         age_hours = (now_ms - lead["date"]) / 3_600_000

@@ -1,6 +1,6 @@
 const NEW_THRESHOLD_MS = 15 * 60 * 1000;
 const REFRESH_INTERVAL = 5 * 60 * 1000;
-const TRENDING_THRESHOLD = 2.1; // keep in sync with fetch_news.py
+const TRENDING_THRESHOLD = 2.5; // keep in sync with fetch_news.py
 const CACHE_KEY = "onimugen_v1_gaming";
 const BOOKMARKS_KEY = "onimugen_v1_bookmarks";
 const READ_KEY = "onimugen_v1_read";
