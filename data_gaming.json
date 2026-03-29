@@ -1378,15 +1378,6 @@
     "hotScore": 1
   },
   {
-    "title": "“Jyudo 10 Ahead” by Umehara and MenaRD will be held on April 29th. A Dominican hero takes on the legendary professional gamer that everyone knows",
-    "link": "https://www.4gamer.net/games/991/G999107/20260329007",
-    "date": 1774762146000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Avatar Legends: The Fighting Game Hits Switch 1 & 2 This July",
     "link": "https://www.nintendolife.com/news/2026/03/avatar-legends-the-fighting-game-hits-switch-1-and-2-this-july",
     "date": 1774763100000,
@@ -1487,20 +1478,20 @@
     "hotScore": 1
   },
   {
-    "title": "Financial results article summary (March 23-27, 2016)",
-    "link": "https://gamebiz.jp/news/423362",
-    "date": 1774767600000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "\"Ryu ga Gotoku Kiwami 3/Ryu ga Gotoku 3 Gaiden Dark Ties\" perfume that expresses the lives of Kazuma Kiryu and Yoshitaka Mine will be released on April 4th at Don Quijote and FITS you. STORE!",
     "link": "https://www.gamer.ne.jp/news/202603290005",
     "date": 1774767600000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Financial results article summary (March 23-27, 2016)",
+    "link": "https://gamebiz.jp/news/423362",
+    "date": 1774767600000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1694,20 +1685,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
-    "date": 1774778400000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
     "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
     "date": 1774778400000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
+    "date": 1774778400000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1826,7 +1817,17 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "“Zero: Red Chou REMAKE” How has the fear “deepened” after 23 years? Thorough comparison with the original version [Special feature]",
+        "link": "https://www.4gamer.net/games/991/G999107/20260329007",
+        "date": 1774762146000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "10 Anime Inspired by Chinese Mythology That Aren’t Dragon Ball",
@@ -2108,15 +2109,6 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Etrange Overlord’s Story Is Its Strongest Element",
-    "link": "https://www.siliconera.com/review-etrange-overlords-story-is-its-strongest-element",
-    "date": 1774789200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Video: Warframe Official Side-By-Side Comparison (Switch 2 & Switch)",
     "link": "https://www.nintendolife.com/news/2026/03/video-warframe-official-side-by-side-comparison-switch-2-and-switch",
     "date": 1774789200000,
@@ -2131,6 +2123,15 @@
     "date": 1774789200000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Etrange Overlord’s Story Is Its Strongest Element",
+    "link": "https://www.siliconera.com/review-etrange-overlords-story-is-its-strongest-element",
+    "date": 1774789200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
