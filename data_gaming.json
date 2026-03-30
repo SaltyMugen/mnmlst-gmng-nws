@@ -1441,20 +1441,20 @@
     "hotScore": 1
   },
   {
-    "title": "Darwin's Paradox! Review",
-    "link": "https://www.ign.com/articles/darwins-paradox-review",
-    "date": 1774854060000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "This Fun New Puzzle-Platformer Is Limbo, But Not Creepy | Darwin's Paradox Review",
     "link": "https://www.gamespot.com/reviews/this-fun-new-puzzle-platformer-is-limbo-but-not-creepy-darwins-paradox-review/1900-6418477",
     "date": 1774854060000,
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Darwin's Paradox! Review",
+    "link": "https://www.ign.com/articles/darwins-paradox-review",
+    "date": 1774854060000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1609,15 +1609,6 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Fortnite Teases A Return For Its Marvel Crossover Infinity Gauntlet LTM",
-    "link": "https://www.thegamer.com/fortnite-marvel-infinity-gauntlet-ltm-return",
-    "date": 1774858439000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -2419,25 +2410,6 @@
     "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "Tomb Raider Series Pauses Production After Sophie Turner Suffers \"Minor Injury\"",
-    "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-series-pauses-production-after-sophie-turner-suffers-minor-injury",
-    "date": 1774865700000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Tomb Raider show stops production after Sophie Turner suffers injury",
-        "link": "https://www.dexerto.com/tv-movies/tomb-raider-show-stops-production-after-sophie-turner-suffers-injury-3342758",
-        "date": 1774865581000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "“Ryu Miko Business Trip Kawaraban” with guests Katsuyuki Miura and Hiroto Suzuki from “In the Far Distant Time and Space: The Miko of the Ryugu” will be streamed live from 20:00 on April 6th!",
@@ -3314,5 +3286,32 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "Amazon's Tomb Raider Paused After Sophie Turner Injury",
+    "link": "https://www.thegamer.com/amazon-tomb-raider-sophie-turner-injury",
+    "date": 1774874920000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Tomb Raider show stops production after Sophie Turner suffers injury",
+        "link": "https://www.dexerto.com/tv-movies/tomb-raider-show-stops-production-after-sophie-turner-suffers-injury-3342758",
+        "date": 1774865581000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      },
+      {
+        "title": "Tomb Raider Series Pauses Production After Sophie Turner Suffers \"Minor Injury\"",
+        "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-series-pauses-production-after-sophie-turner-suffers-minor-injury",
+        "date": 1774865700000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
   }
 ]
