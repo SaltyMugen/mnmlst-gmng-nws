@@ -360,20 +360,20 @@
     "hotScore": 1
   },
   {
-    "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
-    "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
-    "date": 1774778400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
     "date": 1774778400000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
+    "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
+    "date": 1774778400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -540,15 +540,6 @@
     "hotScore": 1
   },
   {
-    "title": "Super Mario Bros. (1993) Flashback Review",
-    "link": "https://www.ign.com/articles/super-mario-bros-1993-flashback-review",
-    "date": 1774789200000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "XCOM meets Rashomon in Vaunted, a tactical RPG where your characters can rewrite history from their perspective",
     "link": "https://www.pcgamer.com/games/rpg/xcom-meets-rashomon-in-vaunted-a-tactical-rpg-where-your-characters-can-rewrite-history-from-their-perspective",
     "date": 1774789200000,
@@ -567,11 +558,11 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Etrange Overlord’s Story Is Its Strongest Element",
-    "link": "https://www.siliconera.com/review-etrange-overlords-story-is-its-strongest-element",
+    "title": "Super Mario Bros. (1993) Flashback Review",
+    "link": "https://www.ign.com/articles/super-mario-bros-1993-flashback-review",
     "date": 1774789200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -581,6 +572,15 @@
     "date": 1774789200000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Etrange Overlord’s Story Is Its Strongest Element",
+    "link": "https://www.siliconera.com/review-etrange-overlords-story-is-its-strongest-element",
+    "date": 1774789200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1416,8 +1416,8 @@
     "hotScore": 1
   },
   {
-    "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, March 23rd to March 29th, 2026",
-    "link": "https://www.4gamer.net/games/040/G004099/20260329008",
+    "title": "“CiniCross” challenges a cursed dungeon with nonograms (Hobonichi Indie Pick Up!)",
+    "link": "https://www.4gamer.net/games/950/G095079/20260329001",
     "date": 1774821600000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -1425,8 +1425,8 @@
     "hotScore": 1
   },
   {
-    "title": "“CiniCross” challenges a cursed dungeon with nonograms (Hobonichi Indie Pick Up!)",
-    "link": "https://www.4gamer.net/games/950/G095079/20260329001",
+    "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, March 23rd to March 29th, 2026",
+    "link": "https://www.4gamer.net/games/040/G004099/20260329008",
     "date": 1774821600000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -2321,12 +2321,39 @@
     "hotScore": 1
   },
   {
+    "title": "Charisma's first smartphone game \"CHARISMA de MURDER MYSTERY\" will be released in 2026!",
+    "link": "https://www.gamer.ne.jp/news/202603300007",
+    "date": 1774842300000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "10 Things From Sunrise on the Reaping Hunger Games Fans Want to See in the Movie",
     "link": "https://gamerant.com/sunrise-on-the-reaping-hungers-games-movie-moments",
     "date": 1774842315000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Resident Evil Code Veronica: Remake | Everything We Know",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1s7fzjg/resident_evil_code_veronica_remake_everything_we",
+    "date": 1774842511000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Translator reports that he was fired because ``all translations will be done by AI from now on''... Accusations by the person in charge of ``Kingdom Come II'' caused a huge reaction on overseas bulletin boards",
+    "link": "http://www.gamespark.jp/article/2026/03/30/164515.html",
+    "date": 1774842618000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
     "hotScore": 1
   }
 ]
