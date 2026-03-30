@@ -1,14 +1,5 @@
 [
   {
-    "title": "[Free] The legendary aerobics episode of “Kaitou Sentai Lupinranger VS Keisatsu Sentai Patranger” is now available for free on YouTube. The usually cool Lupine Blue/Touma Yoimachi does aerobics in a leotard",
-    "link": "https://news.denfaminicogamer.jp/news/260329g",
-    "date": 1774755096000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The second season of the TV anime “Polar Opposite You and Me” will be broadcast from July 5th! A PV condensing famous scenes from the first season has also been released.",
     "link": "https://www.gamer.ne.jp/news/202603290002",
     "date": 1774755900000,
@@ -270,7 +261,7 @@
     "hotScore": 1
   },
   {
-    "title": "The mystery-solving ADV \"Escape from the Closed Elevator\", which aims to escape from a locked elevator, will be released on April 2nd on Switch!",
+    "title": "The mystery-solving ADV \"Escape from the Closed Elevator\", which aims to escape from a trapped elevator, will be released on April 2nd on Switch!",
     "link": "https://www.gamer.ne.jp/news/202603290006",
     "date": 1774771200000,
     "domain": "gamer.ne.jp",
@@ -279,7 +270,7 @@
     "hotScore": 1
   },
   {
-    "title": "The highly anticipated new voxel RPG \"Everwind\" where you travel through the sky on a ship does not end with a satisfying beginning, but the \"things you can do\" keep increasing [Craft Survival Directory]",
+    "title": "The highly anticipated new voxel RPG ``Everwind'', in which you travel through the sky on a ship, does not end with a satisfying beginning, but the ``things you can do'' keep increasing [Craft Survival Directory]",
     "link": "http://www.gamespark.jp/article/2026/03/29/164502.html",
     "date": 1774771204000,
     "domain": "gamespark.jp",
@@ -495,7 +486,7 @@
     "hotScore": 1
   },
   {
-    "title": "The “hidden ending” in the love game with Zetton from “Ultraman” is a hot topic. If the player's name is \"Redman\"...",
+    "title": "The \"hidden ending\" in the love game with Zetton from \"Ultraman\" is a hot topic. If the player's name is \"Redman\"...",
     "link": "https://news.denfaminicogamer.jp/news/260329r",
     "date": 1774784028000,
     "domain": "news.denfaminicogamer.jp",
@@ -531,7 +522,7 @@
     "hotScore": 1
   },
   {
-    "title": "Anime “Yomi no Tsugai” character visuals and first episode preview cuts released. The main anime will start broadcasting on TOKYO MX and other channels from 23:30 on April 4th.",
+    "title": "Anime \"Yomi no Tsugai\" character visuals and first episode preview cut released. The main anime will start broadcasting on TOKYO MX and other channels from 23:30 on April 4th.",
     "link": "https://news.denfaminicogamer.jp/news/260329s",
     "date": 1774786556000,
     "domain": "news.denfaminicogamer.jp",
@@ -558,20 +549,20 @@
     "hotScore": 1
   },
   {
-    "title": "Super Mario Bros. (1993) Flashback Review",
-    "link": "https://www.ign.com/articles/super-mario-bros-1993-flashback-review",
-    "date": 1774789200000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "XCOM meets Rashomon in Vaunted, a tactical RPG where your characters can rewrite history from their perspective",
     "link": "https://www.pcgamer.com/games/rpg/xcom-meets-rashomon-in-vaunted-a-tactical-rpg-where-your-characters-can-rewrite-history-from-their-perspective",
     "date": 1774789200000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Super Mario Bros. (1993) Flashback Review",
+    "link": "https://www.ign.com/articles/super-mario-bros-1993-flashback-review",
+    "date": 1774789200000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -774,22 +765,23 @@
     "hotScore": 1
   },
   {
-    "title": "Introducing \"Dragon Quest",
+    "title": "“Dragon Quest",
     "link": "https://www.gamer.ne.jp/news/202603300002",
     "date": 1774796400000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "\"Dragon Quest",
-    "link": "https://www.4gamer.net/games/972/G097227/20260323056",
-    "date": 1774796400000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "\"Dragon Quest",
+        "link": "https://www.4gamer.net/games/972/G097227/20260323056",
+        "date": 1774796400000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Amazon's Big Spring Sale Is Live: We're Finding the Best Tech and Gaming Deals Each Day",
@@ -1785,7 +1777,7 @@
         "isTranslated": true
       },
       {
-        "title": "“Crimson Desert” reached “over 270,000 users” on Steam after the new update. With the implementation of 5 types of vehicles that can summon “legendary animals” and bosses, and a large update packed with improvements, the popularity is increasing even more.",
+        "title": "“Crimson Desert” reached “over 270,000 users” on Steam after the new update. With the implementation of 5 types of vehicles that can summon “legendary animals” and bosses, and a large update packed with improvements, the popularity is accelerating even further.",
         "link": "https://automaton-media.com/articles/newsjp/20260330-433355",
         "date": 1774834055000,
         "domain": "automaton-media.com",
@@ -1846,15 +1838,6 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "\"Twist\", information on characters \"Riere Coralia\" (CV: Shogo Sakamoto) and \"Minajir Tiraja\" (CV: Ryota Osaka) released",
-    "link": "https://www.4gamer.net/games/448/G044893/20260330004",
-    "date": 1774835739000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -1957,7 +1940,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Made in Abyss - A mysterious journey that is difficult to repeat\", now accepting pre-registrations. A roguelike RPG that aims to reach the abyss of the huge vertical hole \"Abyss\" while collecting relics and taking on powerful enemies.",
+    "title": "\"Made in Abyss ~A mysterious journey that is difficult to repeat~\" begins accepting pre-registrations. A roguelike RPG that aims to reach the abyss of the huge vertical hole \"Abyss\" while collecting relics and taking on powerful enemies.",
     "link": "https://www.4gamer.net/games/907/G090720/20260330007",
     "date": 1774837333000,
     "domain": "4gamer.net",
@@ -2274,7 +2257,7 @@
     "hotScore": 1
   },
   {
-    "title": "An update including \"Duet Night Abyss\" and a new chapter in the Hanaya area \"Souten no Hen\" was carried out on April 7th. Challenge the decisive battle with the two dragon gods “Taiho” and “Cangyin”",
+    "title": "An update including ``Duet Night Abyss'' and the new chapter in the Hanaya area ``Souten no Hen'' was carried out on April 7th. Challenge the decisive battle with the two dragon gods “Taiho” and “Cangyin”",
     "link": "https://www.4gamer.net/games/747/G074788/20260330012",
     "date": 1774841312000,
     "domain": "4gamer.net",
@@ -2288,6 +2271,43 @@
     "date": 1774841324000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Twist\" Royal Sword Academy's Riele Coralia (CV: Shogo Sakamoto) and Minazir Tiraja (CV: Ryota Osaka) visuals and PVs have been released!",
+    "link": "https://www.gamer.ne.jp/news/202603300006",
+    "date": 1774841400000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "\"Twist\", information on characters \"Riere Coralia\" (CV: Shogo Sakamoto) and \"Minajir Tiraja\" (CV: Ryota Osaka) released",
+        "link": "https://www.4gamer.net/games/448/G044893/20260330004",
+        "date": 1774835739000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "[Overwhelmingly popular] ``Mini Cozy Room: Lo-Fi'', a work game where you can create cute rooms and enjoy Lo-Fi music, is on sale for half price for 245 yen. Equipped with multiplayer functions, work support tools, and simultaneous viewing of YouTube videos.",
+    "link": "https://news.denfaminicogamer.jp/news/260330g",
+    "date": 1774841410000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Wyldheart, a cooperative action RPG created by a former AAA title developer, has been announced. A title that emphasizes ease of play, with consideration given to the ease of joining and leaving midway.",
+    "link": "https://www.4gamer.net/games/994/G099464/20260330016",
+    "date": 1774841627000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
   }
