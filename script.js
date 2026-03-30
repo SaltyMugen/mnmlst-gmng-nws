@@ -1,46 +1,51 @@
-const NEW_THRESHOLD_MS = 15 * 60 * 1000;  // 15 min = "new"
-const REFRESH_INTERVAL = 5 * 60 * 1000;   // poll every 5 min
-const TRENDING_THRESHOLD = 2.5;            // keep in sync with fetch_news.py
-const CACHE_KEY = "onimugen_v1_gaming";
-const BOOKMARKS_KEY = "onimugen_v1_bookmarks";
-const READ_KEY = "onimugen_v1_read";
+// how long ago something counts as "new"
+const NEW_THRESHOLD_MS = 15 * 60 * 1000;
+
+// how often we quietly check for fresh articles in the background
+const REFRESH_INTERVAL = 5 * 60 * 1000;
+
+// the score a story needs to earn the Trending badge
+// calculated in fetch_news.py using source count + time decay — keep in sync
+const TRENDING_THRESHOLD = 2.5;
+
+const CACHE_KEY         = "onimugen_v1_gaming";
+const BOOKMARKS_KEY     = "onimugen_v1_bookmarks";
+const READ_KEY          = "onimugen_v1_read";
 const MUTED_SOURCES_KEY = "onimugen_v1_muted_sources";
 
-let allArticles = [];
-let currentFilter = "all";
-let lastDataHash = null;
-let bookmarks = {};
-let readLinks = {};
+let allArticles  = [];
+let activeFilter = "all";
+let lastHash     = null;
+let bookmarks    = {};
+let readLinks    = {};
 let mutedSources = {};
 
-// --- Utilities ---
+
+// --- Tiny helpers ---
 
 function hashArticles(articles) {
-    return articles.map((a) => a.link + a.date).join("|");
+    return articles.map(a => a.link + a.date).join("|");
 }
 
-function safeDomain(url) {
-    try {
-        return new URL(url).hostname;
-    } catch (_) {
-        return "";
-    }
+function getDomain(url) {
+    try { return new URL(url).hostname; } catch (_) { return ""; }
 }
 
-function formatTime(ts) {
-    const d = Date.now() - ts;
-    if (d < 60000) return "just now";
-    if (d < 3600000) return Math.floor(d / 60000) + "m";
-    if (d < 86400000) return Math.floor(d / 3600000) + "h";
-    return Math.floor(d / 86400000) + "d";
+function timeAgo(ts) {
+    const diff = Date.now() - ts;
+    if (diff < 60000)    return "just now";
+    if (diff < 3600000)  return Math.floor(diff / 60000) + "m";
+    if (diff < 86400000) return Math.floor(diff / 3600000) + "h";
+    return Math.floor(diff / 86400000) + "d";
 }
 
-function makeBadge(text, cls) {
+function badge(text, cls) {
     const b = document.createElement("span");
     b.className = "badge " + cls;
     b.textContent = text;
     return b;
 }
+
 
 // --- Search ---
 
@@ -48,18 +53,16 @@ function clearSearch() {
     const input = document.getElementById("search-input");
     input.value = "";
     document.getElementById("search-clear").style.display = "none";
-    applyFilters();
+    filterFeed();
     input.focus();
 }
+
 
 // --- Read history ---
 
 function loadRead() {
-    try {
-        readLinks = JSON.parse(localStorage.getItem(READ_KEY)) || {};
-    } catch (_) {
-        readLinks = {};
-    }
+    try { readLinks = JSON.parse(localStorage.getItem(READ_KEY)) || {}; }
+    catch (_) { readLinks = {}; }
 }
 
 function markRead(link) {
@@ -67,14 +70,12 @@ function markRead(link) {
     localStorage.setItem(READ_KEY, JSON.stringify(readLinks));
 }
 
+
 // --- Bookmarks ---
 
 function loadBookmarks() {
-    try {
-        bookmarks = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {};
-    } catch (_) {
-        bookmarks = {};
-    }
+    try { bookmarks = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {}; }
+    catch (_) { bookmarks = {}; }
 }
 
 function saveBookmarks() {
@@ -86,6 +87,7 @@ function toggleBookmark(link, title, domain, sourceName, btn) {
         delete bookmarks[link];
         btn.classList.remove("bookmarked");
     } else {
+        // savedAt lets us sort by most recently bookmarked
         bookmarks[link] = { title, link, domain, sourceName, savedAt: Date.now() };
         btn.classList.add("bookmarked");
     }
@@ -94,14 +96,16 @@ function toggleBookmark(link, title, domain, sourceName, btn) {
 
 function openBookmarks() {
     const overlay = document.getElementById("bookmarks-overlay");
-    const feed = document.getElementById("bookmarks-feed");
-    const empty = document.getElementById("bookmarks-empty");
+    const feed    = document.getElementById("bookmarks-feed");
+    const empty   = document.getElementById("bookmarks-empty");
 
     feed.innerHTML = "";
-    const items = Object.values(bookmarks).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
-    empty.style.display = items.length === 0 ? "block" : "none";
 
-    items.forEach((b) => {
+    // newest bookmark first
+    const saved = Object.values(bookmarks).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+    empty.style.display = saved.length === 0 ? "block" : "none";
+
+    saved.forEach(b => {
         const li = document.createElement("li");
         li.className = "bm-item";
 
@@ -110,9 +114,7 @@ function openBookmarks() {
         logo.alt = "";
         if (b.domain) {
             logo.src = "https://www.google.com/s2/favicons?domain=" + encodeURIComponent(b.domain) + "&sz=64";
-            logo.onerror = function () {
-                this.classList.add("hidden");
-            };
+            logo.onerror = function() { this.classList.add("hidden"); };
         } else {
             logo.classList.add("hidden");
         }
@@ -121,36 +123,37 @@ function openBookmarks() {
         main.className = "bm-item-main";
 
         const a = document.createElement("a");
-        a.href = b.link;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
+        a.href    = b.link;
+        a.target  = "_blank";
+        a.rel     = "noopener noreferrer";
         a.textContent = b.title;
 
-        const sourceRow = document.createElement("div");
+        const sourceRow   = document.createElement("div");
         sourceRow.className = "bm-item-source";
-        const domainSpan = document.createElement("span");
-        domainSpan.className = "bm-item-domain";
-        domainSpan.textContent = b.sourceName || b.domain || "";
-        sourceRow.appendChild(domainSpan);
+        const sourceLabel = document.createElement("span");
+        sourceLabel.className   = "bm-item-domain";
+        sourceLabel.textContent = b.sourceName || b.domain || "";
+        sourceRow.appendChild(sourceLabel);
 
         main.appendChild(a);
         main.appendChild(sourceRow);
 
-        const del = document.createElement("button");
-        del.className = "bm-remove";
-        del.innerHTML = "&times;";
-        del.onclick = () => {
+        const removeBtn = document.createElement("button");
+        removeBtn.className = "bm-remove";
+        removeBtn.innerHTML = "&times;";
+        removeBtn.onclick = () => {
             delete bookmarks[b.link];
             saveBookmarks();
             li.remove();
             if (feed.children.length === 0) empty.style.display = "block";
-            const inlineBtn = document.querySelector('.bm-btn[data-link="' + CSS.escape(b.link) + '"]');
-            if (inlineBtn) inlineBtn.classList.remove("bookmarked");
+            // un-highlight the bookmark button in the feed if it's visible
+            const feedBtn = document.querySelector('.bm-btn[data-link="' + CSS.escape(b.link) + '"]');
+            if (feedBtn) feedBtn.classList.remove("bookmarked");
         };
 
         li.appendChild(logo);
         li.appendChild(main);
-        li.appendChild(del);
+        li.appendChild(removeBtn);
         feed.appendChild(li);
     });
 
@@ -161,46 +164,50 @@ function closeBookmarks() {
     document.getElementById("bookmarks-overlay").style.display = "none";
 }
 
+
 // --- Theme ---
 
 const THEMES = ["day", "night", "forest"];
 
 function cycleTheme() {
-    const root = document.documentElement;
+    const root    = document.documentElement;
     const current = root.getAttribute("data-theme") || "day";
-    const next = THEMES[(THEMES.indexOf(current) + 1) % THEMES.length];
+    const next    = THEMES[(THEMES.indexOf(current) + 1) % THEMES.length];
     root.setAttribute("data-theme", next);
     localStorage.setItem("om-theme", next);
     updateThemeDots(next);
 }
 
 function updateThemeDots(theme) {
-    document.querySelectorAll(".theme-dot").forEach((dot) => {
+    document.querySelectorAll(".theme-dot").forEach(dot => {
         dot.classList.toggle("active", dot.getAttribute("data-t") === theme);
     });
 }
 
+
 // --- Header controls ---
 
 function toggleControl(type) {
-    const search = document.getElementById("search-wrap");
+    const searchWrap = document.getElementById("search-wrap");
     const filterMenu = document.getElementById("filter-menu");
     const filterBtn  = document.getElementById("filter-btn");
 
     if (type === "search") {
-        filterMenu?.classList.remove("open");
-        filterBtn?.classList.remove("open");
-        search.classList.toggle("active");
-        if (search.classList.contains("active")) document.getElementById("search-input").focus();
+        filterMenu.classList.remove("open");
+        filterBtn.classList.remove("open");
+        searchWrap.classList.toggle("active");
+        if (searchWrap.classList.contains("active")) {
+            document.getElementById("search-input").focus();
+        }
     } else {
-        search.classList.remove("active");
-        const isOpen = filterMenu.classList.toggle("open");
-        filterBtn.classList.toggle("open", isOpen);
+        searchWrap.classList.remove("active");
+        const nowOpen = filterMenu.classList.toggle("open");
+        filterBtn.classList.toggle("open", nowOpen);
     }
 }
 
-// close dropdowns when clicking outside them
-document.addEventListener("click", (e) => {
+// close any open dropdowns when clicking outside the header controls
+document.addEventListener("click", e => {
     const controls = document.querySelector(".controls");
     if (controls && !controls.contains(e.target)) {
         document.getElementById("search-wrap")?.classList.remove("active");
@@ -215,47 +222,55 @@ document.addEventListener("click", (e) => {
     }
 });
 
-function setFilter(type, el) {
-    document.querySelectorAll(".filter-opt").forEach((opt) => opt.classList.remove("active"));
+function pickFilter(type, el) {
+    document.querySelectorAll(".filter-opt").forEach(opt => opt.classList.remove("active"));
     el.classList.add("active");
-    currentFilter = type;
+    activeFilter = type;
     // close the dropdown after picking
-    document.getElementById("filter-menu")?.classList.remove("open");
-    document.getElementById("filter-btn")?.classList.remove("open");
-    applyFilters();
+    document.getElementById("filter-menu").classList.remove("open");
+    document.getElementById("filter-btn").classList.remove("open");
+    filterFeed();
 }
 
-function applyFilters() {
-    const q = (document.getElementById("search-input")?.value ?? "").toLowerCase();
+function filterFeed() {
+    const q        = (document.getElementById("search-input")?.value ?? "").toLowerCase();
     const clearBtn = document.getElementById("search-clear");
     if (clearBtn) clearBtn.style.display = q.length > 0 ? "flex" : "none";
 
-    document.querySelectorAll(".item").forEach((item) => {
-        const title      = item.getAttribute("data-title").toLowerCase();
-        const source     = item.getAttribute("data-source") || "";
-        const platform   = item.getAttribute("data-platform") || "";
-        const matchText  = title.includes(q);
-        const matchSource = !mutedSources[source];
+    document.querySelectorAll(".item").forEach(item => {
+        const title    = item.getAttribute("data-title").toLowerCase();
+        const source   = item.getAttribute("data-source") || "";
+        const platform = item.getAttribute("data-platform") || "";
 
-        let matchTab = true;
-        if (currentFilter === "new")         matchTab = item.getAttribute("data-new") === "true";
-        if (currentFilter === "trending")    matchTab = item.getAttribute("data-hot") === "true";
-        if (currentFilter === "playstation") matchTab = platform === "playstation";
-        if (currentFilter === "xbox")        matchTab = platform === "xbox";
-        if (currentFilter === "nintendo")    matchTab = platform === "nintendo";
+        const matchesSearch = title.includes(q);
+        const sourceVisible = !mutedSources[source];
 
-        item.classList.toggle("hidden", !(matchText && matchTab && matchSource));
+        let matchesTab = true;
+        if (activeFilter === "new")         matchesTab = item.getAttribute("data-new") === "true";
+        if (activeFilter === "trending")    matchesTab = item.getAttribute("data-hot") === "true";
+        if (activeFilter === "playstation") matchesTab = platform === "playstation";
+        if (activeFilter === "xbox")        matchesTab = platform === "xbox";
+        if (activeFilter === "nintendo")    matchesTab = platform === "nintendo";
+        if (activeFilter === "reddit")      matchesTab = platform === "reddit";
+
+        item.classList.toggle("hidden", !(matchesSearch && matchesTab && sourceVisible));
     });
 }
+
+// keyboard support — Enter or Space triggers filter buttons
+document.addEventListener("keydown", e => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("filter-opt")) {
+        e.preventDefault();
+        e.target.click();
+    }
+});
+
 
 // --- Sources menu ---
 
 function loadMutedSources() {
-    try {
-        mutedSources = JSON.parse(localStorage.getItem(MUTED_SOURCES_KEY)) || {};
-    } catch (_) {
-        mutedSources = {};
-    }
+    try { mutedSources = JSON.parse(localStorage.getItem(MUTED_SOURCES_KEY)) || {}; }
+    catch (_) { mutedSources = {}; }
 }
 
 function saveMutedSources() {
@@ -267,19 +282,18 @@ function buildSourcesMenu(articles) {
     if (!inner) return;
     inner.innerHTML = "";
 
+    // collect unique source names, sorted alphabetically
     const seen = new Set();
-    articles.forEach((a) => {
-        if (a.sourceName) seen.add(a.sourceName);
-    });
+    articles.forEach(a => { if (a.sourceName) seen.add(a.sourceName); });
     const names = [...seen].sort((a, b) => a.localeCompare(b));
 
-    names.forEach((name) => {
+    names.forEach(name => {
         const row = document.createElement("div");
         row.className = "sources-menu-row";
         if (!mutedSources[name]) row.classList.add("selected");
 
-        const match = articles.find((a) => a.sourceName === name);
-        const domain = match ? match.domain || safeDomain(match.link) : "";
+        const match  = articles.find(a => a.sourceName === name);
+        const domain = match ? (match.domain || getDomain(match.link)) : "";
 
         const img = document.createElement("img");
         img.className = "sources-menu-logo";
@@ -292,17 +306,16 @@ function buildSourcesMenu(articles) {
         }
 
         const label = document.createElement("span");
-        label.className = "sources-menu-label";
+        label.className   = "sources-menu-label";
         label.textContent = name;
 
-        const check = document.createElement("span");
-        check.className = "sources-menu-check";
-        check.innerHTML =
-            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        const tick = document.createElement("span");
+        tick.className = "sources-menu-check";
+        tick.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
 
         row.appendChild(img);
         row.appendChild(label);
-        row.appendChild(check);
+        row.appendChild(tick);
 
         row.addEventListener("click", () => {
             if (mutedSources[name]) {
@@ -314,7 +327,7 @@ function buildSourcesMenu(articles) {
             }
             saveMutedSources();
             updateMutedCount();
-            applyFilters();
+            filterFeed();
         });
 
         inner.appendChild(row);
@@ -322,8 +335,8 @@ function buildSourcesMenu(articles) {
 }
 
 function toggleSourcesMenu() {
-    const menu = document.getElementById("sources-menu");
-    const btn = document.getElementById("sources-btn");
+    const menu   = document.getElementById("sources-menu");
+    const btn    = document.getElementById("sources-btn");
     const isOpen = menu.classList.toggle("open");
     btn.classList.toggle("open", isOpen);
 }
@@ -331,31 +344,24 @@ function toggleSourcesMenu() {
 function resetSources() {
     mutedSources = {};
     saveMutedSources();
-    document.querySelectorAll(".sources-menu-row").forEach((r) => r.classList.add("selected"));
+    document.querySelectorAll(".sources-menu-row").forEach(r => r.classList.add("selected"));
     updateMutedCount();
-    applyFilters();
+    filterFeed();
 }
 
 function updateMutedCount() {
     const count = Object.keys(mutedSources).length;
-    const el = document.getElementById("sources-muted-count");
+    const el    = document.getElementById("sources-muted-count");
     if (el) el.textContent = count > 0 ? "(" + count + " hidden)" : "";
 }
+
 
 // --- Scroll ---
 
 window.addEventListener("scroll", () => {
-    document.getElementById("main-header").classList.toggle("scrolled", window.pageYOffset > 20);
+    document.getElementById("main-header").classList.toggle("scrolled", window.scrollY > 20);
 });
 
-// --- Keyboard support for filter buttons ---
-
-document.addEventListener("keydown", (e) => {
-    if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("filter-opt")) {
-        e.preventDefault();
-        e.target.click();
-    }
-});
 
 // --- Render ---
 
@@ -365,208 +371,196 @@ function render(articles) {
     const feed = document.getElementById("feed");
     feed.innerHTML = "";
 
-    articles
-        .slice()
-        .sort((a, b) => b.date - a.date)
-        .forEach((a, i) => {
-            if (a.groupMember) return;
+    articles.slice().sort((a, b) => b.date - a.date).forEach((a, i) => {
+        if (a.groupMember) return;
 
-            const isNew      = Date.now() - a.date < NEW_THRESHOLD_MS;
-            const domain     = safeDomain(a.link);
-            const isTrending = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
-            const isReddit   = a.link.includes("reddit.com");
-            const isPS       = a.link.includes("playstation.com");
-            const isNintendo = a.link.includes("nintendo.com");
-            const isXbox     = a.link.includes(".xbox.com");
-            const hasGroup   = a.groupMembers && a.groupMembers.length > 0;
+        const isNew      = (Date.now() - a.date) < NEW_THRESHOLD_MS;
+        const isTrending = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
+        const domain     = getDomain(a.link);
+        const isReddit   = a.link.includes("reddit.com");
+        const isPS       = a.link.includes("playstation.com");
+        const isNintendo = a.link.includes("nintendo.com");
+        const isXbox     = a.link.includes(".xbox.com");
+        const hasGroup   = a.groupMembers && a.groupMembers.length > 0;
 
-            // work out which platform badge this belongs to (if any)
-            const platform = isPS ? "playstation" : isXbox ? "xbox" : isNintendo ? "nintendo" : "";
+        // used by the platform + reddit filters
+        const platform = isPS ? "playstation" : isXbox ? "xbox" : isNintendo ? "nintendo" : isReddit ? "reddit" : "";
 
-            const li = document.createElement("li");
-            li.className = "item";
-            if (hasGroup) li.classList.add("has-group");
-            li.setAttribute("data-title",    a.title);
-            li.setAttribute("data-new",      isNew);
-            li.setAttribute("data-hot",      isTrending);
-            li.setAttribute("data-source",   a.sourceName || "");
-            li.setAttribute("data-platform", platform);
+        const li = document.createElement("li");
+        li.className = "item";
+        if (hasGroup) li.classList.add("has-group");
+        li.setAttribute("data-title",    a.title);
+        li.setAttribute("data-new",      isNew);
+        li.setAttribute("data-hot",      isTrending);
+        li.setAttribute("data-source",   a.sourceName || "");
+        li.setAttribute("data-platform", platform);
 
-            const dateSpan = document.createElement("span");
-            dateSpan.className = "item-date";
-            dateSpan.textContent = formatTime(a.date);
+        const dateSpan = document.createElement("span");
+        dateSpan.className   = "item-date";
+        dateSpan.textContent = timeAgo(a.date);
 
-            const body = document.createElement("div");
-            body.className = "item-body";
+        const body = document.createElement("div");
+        body.className = "item-body";
 
-            const link = document.createElement("a");
-            link.href = a.link;
-            link.target = "_blank";
-            link.rel = "noopener noreferrer";
-            link.textContent = a.title;
-            if (readLinks[a.link]) li.classList.add("read-dimmed");
-            link.addEventListener("click", () => {
-                markRead(a.link);
-                li.classList.add("read-dimmed");
+        const link = document.createElement("a");
+        link.href   = a.link;
+        link.target = "_blank";
+        link.rel    = "noopener noreferrer";
+        link.textContent = a.title;
+
+        if (readLinks[a.link]) li.classList.add("read-dimmed");
+        link.addEventListener("click", () => {
+            markRead(a.link);
+            li.classList.add("read-dimmed");
+        });
+
+        if (isNew)          link.appendChild(badge("New",         "badge-new"));
+        if (isReddit)       link.appendChild(badge("Rumour",      "badge-rumour"));
+        if (isPS)           link.appendChild(badge("PlayStation", "badge-ps"));
+        if (isNintendo)     link.appendChild(badge("Nintendo",    "badge-nintendo"));
+        if (isXbox)         link.appendChild(badge("Xbox",        "badge-xbox"));
+        if (isTrending)     link.appendChild(badge("Trending",    "badge-hot"));
+        if (a.isTranslated) link.appendChild(badge("JP-EN",       "badge-jp"));
+
+        body.appendChild(link);
+
+        // right-hand column — either a "N Sources" label for grouped items or a favicon
+        const logoWrap = document.createElement("span");
+        logoWrap.className = "logo-wrap";
+
+        if (hasGroup) {
+            // count unique sources (lead + deduplicated members)
+            const seen = new Set([a.link]);
+            const uniqueMembers = a.groupMembers.filter(m => {
+                if (seen.has(m.link)) return false;
+                seen.add(m.link);
+                return true;
+            });
+            const sourceCount = uniqueMembers.length + 1;
+
+            const sourcesLabel = document.createElement("span");
+            sourcesLabel.className = "sources-count-label";
+            sourcesLabel.innerHTML = sourceCount + ' Sources <span class="sources-chevron">&#9662;</span>';
+            sourcesLabel.addEventListener("click", () => {
+                const drawer  = li.querySelector(".item-sources");
+                const chevron = li.querySelector(".sources-chevron");
+                const open    = drawer.classList.toggle("open");
+                chevron.classList.toggle("open", open);
+            });
+            logoWrap.appendChild(sourcesLabel);
+        } else {
+            const img = document.createElement("img");
+            img.className = "item-logo";
+            img.alt = "";
+
+            const placeholder = document.createElement("div");
+            placeholder.className   = "icon-placeholder";
+            placeholder.textContent = a.sourceName ? a.sourceName.charAt(0).toUpperCase() : "?";
+            placeholder.style.display = "none";
+
+            if (domain) {
+                img.src = "https://www.google.com/s2/favicons?domain=" + encodeURIComponent(domain) + "&sz=64";
+                img.onload = function() {
+                    if (this.naturalHeight <= 16) { this.classList.add("hidden"); placeholder.style.display = "flex"; }
+                };
+                img.onerror = function() { this.classList.add("hidden"); placeholder.style.display = "flex"; };
+            } else {
+                img.classList.add("hidden");
+                placeholder.style.display = "flex";
+            }
+
+            logoWrap.appendChild(img);
+            logoWrap.appendChild(placeholder);
+        }
+
+        li.appendChild(dateSpan);
+        li.appendChild(body);
+        li.appendChild(logoWrap);
+
+        const bmBtn = document.createElement("button");
+        bmBtn.className = "bm-btn";
+        bmBtn.setAttribute("data-link", a.link);
+        bmBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>';
+        if (bookmarks[a.link]) bmBtn.classList.add("bookmarked");
+        bmBtn.addEventListener("click", e => {
+            e.stopPropagation();
+            toggleBookmark(a.link, a.title, a.domain || domain, a.sourceName, bmBtn);
+        });
+        li.appendChild(bmBtn);
+
+        // expandable drawer listing all sources that covered this story
+        if (hasGroup) {
+            const drawer = document.createElement("div");
+            drawer.className = "item-sources";
+
+            const seenLinks = new Set([a.link]);
+            const uniqueMembers = a.groupMembers.filter(m => {
+                if (seenLinks.has(m.link)) return false;
+                seenLinks.add(m.link);
+                return true;
             });
 
-            if (isNew)          link.appendChild(makeBadge("New",         "badge-new"));
-            if (isReddit)       link.appendChild(makeBadge("Rumour",      "badge-rumour"));
-            if (isPS)           link.appendChild(makeBadge("PlayStation", "badge-ps"));
-            if (isNintendo)     link.appendChild(makeBadge("Nintendo",    "badge-nintendo"));
-            if (isXbox)         link.appendChild(makeBadge("Xbox",        "badge-xbox"));
-            if (isTrending)     link.appendChild(makeBadge("Trending",    "badge-hot"));
-            if (a.isTranslated) link.appendChild(makeBadge("JP-EN",       "badge-jp"));
+            // oldest article first — that's the original source
+            const allSources = [
+                { title: a.title, link: a.link, sourceName: a.sourceName, domain, date: a.date },
+                ...uniqueMembers
+            ].sort((x, y) => x.date - y.date);
 
-            body.appendChild(link);
+            allSources.forEach(src => {
+                const row = document.createElement("div");
+                row.className = "source-row";
 
-            const logoWrap = document.createElement("span");
-            logoWrap.className = "logo-wrap";
+                const srcDomain = getDomain(src.link);
+                const initial   = src.sourceName ? src.sourceName.charAt(0).toLowerCase() : "?";
 
-            if (hasGroup) {
-                const seenForCount = new Set([a.link]);
-                const uniqueForCount = a.groupMembers.filter((m) => {
-                    if (seenForCount.has(m.link)) return false;
-                    seenForCount.add(m.link);
-                    return true;
-                });
-                const totalSources = uniqueForCount.length + 1;
+                const favicon = document.createElement("img");
+                favicon.className = "source-row-logo";
+                favicon.alt = "";
 
-                const sourcesLabel = document.createElement("span");
-                sourcesLabel.className = "sources-count-label";
-                sourcesLabel.innerHTML = totalSources + ' Sources <span class="sources-chevron">&#9662;</span>';
-                sourcesLabel.addEventListener("click", () => {
-                    const drawer = li.querySelector(".item-sources");
-                    const chevron = li.querySelector(".sources-chevron");
-                    const open = drawer.classList.toggle("open");
-                    chevron.classList.toggle("open", open);
-                });
-                logoWrap.appendChild(sourcesLabel);
-            } else {
-                const img = document.createElement("img");
-                img.className = "item-logo";
-                img.alt = "";
+                const fallback = document.createElement("div");
+                fallback.className   = "source-row-placeholder";
+                fallback.textContent = initial;
+                fallback.style.display = "none";
 
-                const placeholder = document.createElement("div");
-                placeholder.className = "icon-placeholder";
-                placeholder.textContent = a.sourceName ? a.sourceName.charAt(0).toUpperCase() : "?";
-                placeholder.style.display = "none";
-
-                if (domain) {
-                    img.src = "https://www.google.com/s2/favicons?domain=" + encodeURIComponent(domain) + "&sz=64";
-                    img.onload = function () {
-                        if (this.naturalHeight <= 16) {
-                            this.classList.add("hidden");
-                            placeholder.style.display = "flex";
-                        }
+                if (srcDomain) {
+                    favicon.src = "https://www.google.com/s2/favicons?domain=" + encodeURIComponent(srcDomain) + "&sz=64";
+                    favicon.onload = function() {
+                        if (this.naturalHeight <= 16) { this.classList.add("hidden"); fallback.style.display = "flex"; }
                     };
-                    img.onerror = function () {
-                        this.classList.add("hidden");
-                        placeholder.style.display = "flex";
-                    };
+                    favicon.onerror = function() { this.classList.add("hidden"); fallback.style.display = "flex"; };
                 } else {
-                    img.classList.add("hidden");
-                    placeholder.style.display = "flex";
+                    favicon.classList.add("hidden");
+                    fallback.style.display = "flex";
                 }
 
-                logoWrap.appendChild(img);
-                logoWrap.appendChild(placeholder);
-            }
+                const articleLink = document.createElement("a");
+                articleLink.href   = src.link;
+                articleLink.target = "_blank";
+                articleLink.rel    = "noopener noreferrer";
+                articleLink.textContent = src.title;
 
-            li.appendChild(dateSpan);
-            li.appendChild(body);
-            li.appendChild(logoWrap);
+                const timestamp = document.createElement("span");
+                timestamp.className   = "source-row-date";
+                timestamp.textContent = timeAgo(src.date);
 
-            const bmBtn = document.createElement("button");
-            bmBtn.className = "bm-btn";
-            bmBtn.setAttribute("data-link", a.link);
-            bmBtn.innerHTML =
-                '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>';
-            if (bookmarks[a.link]) bmBtn.classList.add("bookmarked");
-            bmBtn.addEventListener("click", (e) => {
-                e.stopPropagation();
-                toggleBookmark(a.link, a.title, a.domain || domain, a.sourceName, bmBtn);
+                row.appendChild(favicon);
+                row.appendChild(fallback);
+                row.appendChild(articleLink);
+                row.appendChild(timestamp);
+                drawer.appendChild(row);
             });
-            li.appendChild(bmBtn);
 
-            if (hasGroup) {
-                const drawer = document.createElement("div");
-                drawer.className = "item-sources";
+            li.appendChild(drawer);
+        }
 
-                const seenLinks = new Set([a.link]);
-                const uniqueMembers = a.groupMembers.filter((m) => {
-                    if (seenLinks.has(m.link)) return false;
-                    seenLinks.add(m.link);
-                    return true;
-                });
-
-                // oldest source at top — that's usually the original report
-                const allMembers = [
-                    { title: a.title, link: a.link, sourceName: a.sourceName, domain, date: a.date },
-                    ...uniqueMembers
-                ].sort((x, y) => x.date - y.date);
-
-                allMembers.forEach((member) => {
-                    const row = document.createElement("div");
-                    row.className = "source-row";
-
-                    const memberDomain = safeDomain(member.link);
-                    const initial = member.sourceName ? member.sourceName.charAt(0).toLowerCase() : "?";
-
-                    const favicon = document.createElement("img");
-                    favicon.className = "source-row-logo";
-                    favicon.alt = "";
-
-                    const fallback = document.createElement("div");
-                    fallback.className = "source-row-placeholder";
-                    fallback.textContent = initial;
-                    fallback.style.display = "none";
-
-                    if (memberDomain) {
-                        favicon.src =
-                            "https://www.google.com/s2/favicons?domain=" + encodeURIComponent(memberDomain) + "&sz=64";
-                        favicon.onload = function () {
-                            if (this.naturalHeight <= 16) {
-                                this.classList.add("hidden");
-                                fallback.style.display = "flex";
-                            }
-                        };
-                        favicon.onerror = function () {
-                            this.classList.add("hidden");
-                            fallback.style.display = "flex";
-                        };
-                    } else {
-                        favicon.classList.add("hidden");
-                        fallback.style.display = "flex";
-                    }
-
-                    const articleLink = document.createElement("a");
-                    articleLink.href = member.link;
-                    articleLink.target = "_blank";
-                    articleLink.rel = "noopener noreferrer";
-                    articleLink.textContent = member.title;
-
-                    const timestamp = document.createElement("span");
-                    timestamp.className = "source-row-date";
-                    timestamp.textContent = formatTime(member.date);
-
-                    row.appendChild(favicon);
-                    row.appendChild(fallback);
-                    row.appendChild(articleLink);
-                    row.appendChild(timestamp);
-                    drawer.appendChild(row);
-                });
-
-                li.appendChild(drawer);
-            }
-
-            feed.appendChild(li);
-            setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
-        });
+        feed.appendChild(li);
+        setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
+    });
 
     buildSourcesMenu(allArticles);
     updateMutedCount();
 }
+
 
 // --- Data fetching ---
 
@@ -581,12 +575,13 @@ async function init() {
     loadRead();
     loadMutedSources();
 
+    // show cached data immediately while we fetch fresh stuff
     const cached = localStorage.getItem(CACHE_KEY);
     if (cached) {
         try {
             const data = JSON.parse(cached);
             allArticles = data;
-            lastDataHash = hashArticles(data);
+            lastHash    = hashArticles(data);
             render(data);
             document.getElementById("splash").classList.add("fade");
         } catch (_) {
@@ -598,8 +593,8 @@ async function init() {
         const fresh = await fetchFresh();
         if (fresh && fresh.length > 0) {
             const hash = hashArticles(fresh);
-            if (hash !== lastDataHash) {
-                lastDataHash = hash;
+            if (hash !== lastHash) {
+                lastHash    = hash;
                 allArticles = fresh;
                 render(fresh);
                 localStorage.setItem(CACHE_KEY, JSON.stringify(fresh));
@@ -615,7 +610,7 @@ async function init() {
 
 function hardRefresh() {
     localStorage.removeItem(CACHE_KEY);
-    lastDataHash = null;
+    lastHash = null;
     silentRefresh();
 }
 
@@ -624,8 +619,8 @@ async function silentRefresh() {
         const fresh = await fetchFresh();
         if (!fresh || fresh.length === 0) return;
         const hash = hashArticles(fresh);
-        if (hash !== lastDataHash) {
-            lastDataHash = hash;
+        if (hash !== lastHash) {
+            lastHash    = hash;
             allArticles = fresh;
             render(fresh);
             localStorage.setItem(CACHE_KEY, JSON.stringify(fresh));
@@ -634,17 +629,14 @@ async function silentRefresh() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const theme = localStorage.getItem("om-theme") || "day";
-    updateThemeDots(theme);
+    const saved = localStorage.getItem("om-theme") || "day";
+    updateThemeDots(saved);
     init();
     setInterval(silentRefresh, REFRESH_INTERVAL);
 
+    // pull the splash out of the DOM entirely once it's faded
     const splash = document.getElementById("splash");
-    splash.addEventListener(
-        "transitionend",
-        () => {
-            if (splash.classList.contains("fade")) splash.remove();
-        },
-        { once: true }
-    );
+    splash.addEventListener("transitionend", () => {
+        if (splash.classList.contains("fade")) splash.remove();
+    }, { once: true });
 });
