@@ -1,23 +1,5 @@
 [
   {
-    "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, March 23rd to March 29th, 2026",
-    "link": "https://www.4gamer.net/games/040/G004099/20260329008",
-    "date": 1774821600000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "“CiniCross” challenges a cursed dungeon with nonograms (Hobonichi Indie Pick Up!)",
-    "link": "https://www.4gamer.net/games/950/G095079/20260329001",
-    "date": 1774821600000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "We're so back (we were never here before) Devlog #001",
     "link": "https://www.indiedb.com/games/renascent/news/were-so-back-we-were-never-here-before",
     "date": 1774821694000,
@@ -1242,20 +1224,20 @@
     "hotScore": 1
   },
   {
-    "title": "Full List of PS Plus Extra Game Removals for April 2026 Confirmed",
-    "link": "https://www.pushsquare.com/news/2026/03/full-list-of-ps-plus-extra-game-removals-for-april-2026-confirmed",
-    "date": 1774864800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Three Final Xbox Game Pass Additions For March 2026 Are Available Early This Week",
     "link": "https://www.purexbox.com/news/2026/03/three-final-xbox-game-pass-additions-for-march-2026-are-available-early-this-week",
     "date": 1774864800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Full List of PS Plus Extra Game Removals for April 2026 Confirmed",
+    "link": "https://www.pushsquare.com/news/2026/03/full-list-of-ps-plus-extra-game-removals-for-april-2026-confirmed",
+    "date": 1774864800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1431,15 +1413,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to use Hernand Refinement Tokens in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
-    "date": 1774867041000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "To commemorate the 10th anniversary of \"Shinki PROJECT\", new costumes Tetra and Arisa will appear as new Shinki! Up to 100 gift roulette games are also being held every day.",
     "link": "https://www.gamer.ne.jp/news/202603300038",
     "date": 1774867080000,
@@ -1512,20 +1485,20 @@
     "hotScore": 1
   },
   {
-    "title": "Second PS Plus Essential Game for April 2026 Leaks Ahead of This Week's Announcement",
-    "link": "https://www.pushsquare.com/news/2026/03/second-ps-plus-essential-game-for-april-2026-leaks-ahead-of-this-weeks-announcement",
-    "date": 1774868400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'Found It For £5' - GTA IV Xbox 360 Dev Kit Discovered In Edinburgh With Unseen Beta Content",
     "link": "https://www.purexbox.com/news/2026/03/found-it-for-p5-gta-iv-xbox-360-dev-kit-discovered-in-edinburgh-with-unseen-beta-content",
     "date": 1774868400000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Second PS Plus Essential Game for April 2026 Leaks Ahead of This Week's Announcement",
+    "link": "https://www.pushsquare.com/news/2026/03/second-ps-plus-essential-game-for-april-2026-leaks-ahead-of-this-weeks-announcement",
+    "date": 1774868400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2515,19 +2488,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
+        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
+        "date": 1774867041000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "How to get Propeller Spear in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
         "date": 1774877371000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
-        "date": 1774881123000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -2665,7 +2638,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
+        "date": 1774881123000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "New numbers show GTA 6 development might cost more than previous estimates, which were already staggering",
@@ -2695,24 +2678,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nightholme, a New 3-Player Horror Game, Shows Off 9 Minutes of Narrated Gameplay",
-    "link": "https://www.ign.com/articles/nightholme-narrated-gameplay-3-player-horror-game",
-    "date": 1774886400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Well Is Not Empty, a New Retro-3D Horror Game, Announced for PC",
-    "link": "https://www.ign.com/articles/the-well-is-not-empty-a-new-retro-3d-horror-game-announced-for-pc",
-    "date": 1774886400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Gachiakuta: The Game Gameplay Trailers Show Rudo and His Allies",
     "link": "https://www.siliconera.com/gachiakuta-the-game-gameplay-trailers-show-rudo-and-his-allies",
     "date": 1774886400000,
@@ -2732,11 +2697,20 @@
     ]
   },
   {
-    "title": "Crimson Desert Dev Keeps Its Promise, Replaces AI Art in Latest Patch",
-    "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-keeps-its-promise-replaces-ai-art-in-latest-patch",
+    "title": "Nightholme, a New 3-Player Horror Game, Shows Off 9 Minutes of Narrated Gameplay",
+    "link": "https://www.ign.com/articles/nightholme-narrated-gameplay-3-player-horror-game",
     "date": 1774886400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Well Is Not Empty, a New Retro-3D Horror Game, Announced for PC",
+    "link": "https://www.ign.com/articles/the-well-is-not-empty-a-new-retro-3d-horror-game-announced-for-pc",
+    "date": 1774886400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2746,6 +2720,15 @@
     "date": 1774886400000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert Dev Keeps Its Promise, Replaces AI Art in Latest Patch",
+    "link": "https://www.pushsquare.com/news/2026/03/crimson-desert-dev-keeps-its-promise-replaces-ai-art-in-latest-patch",
+    "date": 1774886400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3020,15 +3003,6 @@
     "hotScore": 1
   },
   {
-    "title": "Complete Super Meat Boy 3D Trophy List—How To Get All Achievements & Trophies",
-    "link": "https://insider-gaming.com/super-meat-boy-3d-trophy-list",
-    "date": 1774890000000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "New Chainsaw Man Reze Nendoroid Wears a Casual Outfit",
     "link": "https://www.siliconera.com/new-chainsaw-man-reze-nendoroid-wears-a-casual-outfit",
     "date": 1774890000000,
@@ -3038,11 +3012,11 @@
     "hotScore": 1
   },
   {
-    "title": "Starfield PS5 Won't Play Off Physical Disc without a Download",
-    "link": "https://www.pushsquare.com/news/2026/03/starfield-ps5-wont-play-off-physical-disc-without-a-download",
+    "title": "Complete Super Meat Boy 3D Trophy List—How To Get All Achievements & Trophies",
+    "link": "https://insider-gaming.com/super-meat-boy-3d-trophy-list",
     "date": 1774890000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3052,6 +3026,15 @@
     "date": 1774890000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Starfield PS5 Won't Play Off Physical Disc without a Download",
+    "link": "https://www.pushsquare.com/news/2026/03/starfield-ps5-wont-play-off-physical-disc-without-a-download",
+    "date": 1774890000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3391,20 +3374,20 @@
     "hotScore": 1
   },
   {
-    "title": "Round Up: First Super Meat Boy 3D Reviews Make It Sound as Brutal as Ever",
-    "link": "https://www.pushsquare.com/features/round-up-first-super-meat-boy-3d-reviews-make-it-sound-as-brutal-as-ever",
-    "date": 1774895400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Five Things We Want To See From Xbox's Gears Of War: E-Day Direct",
     "link": "https://www.purexbox.com/features/five-things-we-want-to-see-from-xboxs-gears-of-war-e-day-direct",
     "date": 1774895400000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Round Up: First Super Meat Boy 3D Reviews Make It Sound as Brutal as Ever",
+    "link": "https://www.pushsquare.com/features/round-up-first-super-meat-boy-3d-reviews-make-it-sound-as-brutal-as-ever",
+    "date": 1774895400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3844,15 +3827,6 @@
     "hotScore": 1
   },
   {
-    "title": "It Could Be a New Era for Star Fox",
-    "link": "https://gamerant.com/star-fox-mario-movie-new-game-switch-2-future",
-    "date": 1774902615000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "How To Build And Use Rossi In Arknights: Endfield",
     "link": "https://www.thegamer.com/arknights-endfield-rossi-build-guide-team-comp-best-weapon-armor",
     "date": 1774902679000,
@@ -3876,15 +3850,6 @@
     "date": 1774903043000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Crimson Desert Arben Greatsword Location",
-    "link": "https://gamerant.com/crimson-desert-arben-greatsword-location-stats",
-    "date": 1774903535000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4343,6 +4308,33 @@
     "date": 1774907493000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "最大8人で妨害しまくりの友情破壊ゴルフゲーム『Super Battle Golf』販売本数100万本突破！",
+    "link": "http://www.gamespark.jp/article/2026/03/31/164549.html",
+    "date": 1774908004000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "When Fallout 76 Players Can Expect the 76th Patch",
+    "link": "https://gamerant.com/fallout-76-update-76th-patch-release-date",
+    "date": 1774908015000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "One Piece: 9 Strongest Characters From Joy Boy's Era, Ranked",
+    "link": "https://gamerant.com/one-piece-strongest-characters-joy-boy-era",
+    "date": 1774908015000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   }
