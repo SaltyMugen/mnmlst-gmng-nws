@@ -1,13 +1,33 @@
 <!doctype html>
-<html lang="en" data-theme="forest">
+<html lang="en" data-theme="day">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OniMugen | Gaming — Real-Time Game News & Leaks</title>
-    <meta
-      name="description"
-      content="OniMugen / Gaming : High-density aggregator for the latest gaming news, leaks, and industry rumors." />
-    <meta name="keywords" content="Gaming News, Game Leaks, IGN, Kotaku, PC Gamer, Gaming Rumors, OniMugen" />
+
+    <title>OniMugen — Gaming News, Leaks & Rumours in One Feed</title>
+    <meta name="description" content="OniMugen pulls gaming news, leaks, and rumours from 35+ sources into a single real-time feed. IGN, Kotaku, Eurogamer, Reddit leaks and more — all in one place." />
+    <link rel="canonical" href="https://onimugen.com/" />
+
+    <!-- Open Graph — controls how the link looks when shared on Discord, Reddit, Facebook etc -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:site_name"   content="OniMugen" />
+    <meta property="og:url"         content="https://onimugen.com/" />
+    <meta property="og:title"       content="OniMugen — Gaming News, Leaks & Rumours in One Feed" />
+    <meta property="og:description" content="35+ sources. One feed. Real-time gaming news, leaks, and rumours from IGN, Kotaku, Eurogamer, Reddit and more." />
+    <meta property="og:image"       content="https://onimugen.com/og-image.png" />
+    <meta property="og:image:width"  content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale"      content="en_GB" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:site"        content="@onimugen" />
+    <meta name="twitter:title"       content="OniMugen — Gaming News, Leaks & Rumours in One Feed" />
+    <meta name="twitter:description" content="35+ sources. One feed. Real-time gaming news, leaks, and rumours from IGN, Kotaku, Eurogamer, Reddit and more." />
+    <meta name="twitter:image"       content="https://onimugen.com/og-image.png" />
+
+    <!-- Favicon — inline SVG as data URI so no extra file needed -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' rx='6' fill='%231a1c1a'/%3E%3Cpath d='M8 12C8 10 9 8 11 8L12 10H20L21 8C23 8 24 10 24 12V22H8V12Z' stroke='%23ff4d00' stroke-width='2' stroke-linejoin='round'/%3E%3Cpath d='M13 16L16 19L19 16' stroke='%23ff4d00' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M22 24H28M25 21V27' stroke='%23ff8000' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E" />
 
     <script>
       (function () {
@@ -41,7 +61,7 @@
 
     <header id="main-header">
       <div class="header-inner">
-        <h1 onclick="hardRefresh()" title="Refresh feed" style="cursor: pointer">OniMugen+<span>Build v0.6.1</span></h1>
+        <h1 onclick="hardRefresh()" title="Refresh feed" style="cursor: pointer">OniMugen+<span>Build v0.5.3</span></h1>
         <div class="controls">
           <div class="expand-container">
             <button class="icon-btn" onclick="toggleControl('search')" title="Search">
@@ -65,8 +85,8 @@
               </button>
             </div>
           </div>
-          <div class="expand-container" id="filter-container">
-            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter" id="filter-btn">
+          <div class="expand-container">
+            <button class="icon-btn" onclick="toggleControl('filter')" title="Filter">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -85,13 +105,14 @@
                 <line x1="17" y1="16" x2="23" y2="16"></line>
               </svg>
             </button>
-            <div id="filter-menu">
-              <span class="filter-opt active" onclick="setFilter('all', this)"         role="button" tabindex="0">All</span>
-              <span class="filter-opt"         onclick="setFilter('new', this)"         role="button" tabindex="0">New</span>
-              <span class="filter-opt"         onclick="setFilter('trending', this)"    role="button" tabindex="0">Trending</span>
-              <span class="filter-opt"         onclick="setFilter('playstation', this)" role="button" tabindex="0">PlayStation</span>
-              <span class="filter-opt"         onclick="setFilter('xbox', this)"        role="button" tabindex="0">Xbox</span>
-              <span class="filter-opt"         onclick="setFilter('nintendo', this)"    role="button" tabindex="0">Nintendo</span>
+            <div id="filter-wrap" class="expandable">
+              <div class="filter-options">
+                <span class="filter-opt active" onclick="setFilter('all', this)" role="button" tabindex="0">ALL</span>
+                <span class="filter-opt" onclick="setFilter('new', this)" role="button" tabindex="0">NEW</span>
+                <span class="filter-opt" onclick="setFilter('trending', this)" role="button" tabindex="0"
+                  >TRENDING</span
+                >
+              </div>
             </div>
           </div>
           <button class="icon-btn" onclick="openBookmarks()" title="Bookmarks">
@@ -163,7 +184,8 @@
 
     <footer>
       <div class="footer-text">
-        &copy; 2026 OniMugen. All content belongs to the respective creators and publishers.
+        OniMugen aggregates gaming news, leaks, and rumours from 35+ sources including IGN, Kotaku, Eurogamer, PC Gamer, and more.
+        All content belongs to the respective creators and publishers. &copy; 2026 OniMugen.
       </div>
     </footer>
 
