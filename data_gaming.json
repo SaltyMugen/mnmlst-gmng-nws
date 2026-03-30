@@ -252,20 +252,20 @@
     "hotScore": 1
   },
   {
-    "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
-    "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
-    "date": 1774778400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Sunday Papers",
     "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
     "date": 1774778400000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
+    "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
+    "date": 1774778400000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -468,20 +468,20 @@
     "hotScore": 1
   },
   {
-    "title": "Video: Warframe Official Side-By-Side Comparison (Switch 2 & Switch)",
-    "link": "https://www.nintendolife.com/news/2026/03/video-warframe-official-side-by-side-comparison-switch-2-and-switch",
-    "date": 1774789200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Etrange Overlord’s Story Is Its Strongest Element",
     "link": "https://www.siliconera.com/review-etrange-overlords-story-is-its-strongest-element",
     "date": 1774789200000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Video: Warframe Official Side-By-Side Comparison (Switch 2 & Switch)",
+    "link": "https://www.nintendolife.com/news/2026/03/video-warframe-official-side-by-side-comparison-switch-2-and-switch",
+    "date": 1774789200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1706,15 +1706,6 @@
     "hotScore": 1
   },
   {
-    "title": "CTW, the number of pre-registrations for the new browser game \"Different World Leisurely Farmer Dreamy Life\" exceeds 50,000... TV commercial to commemorate it will be aired",
-    "link": "https://gamebiz.jp/news/423443",
-    "date": 1774837380000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The successor of Hokuto Shinken joins “Fatal Fury: City of the Wolves”. “Kenshiro” will appear in June as a DLC character for Season Pass 2",
     "link": "https://www.4gamer.net/games/649/G064915/20260330010",
     "date": 1774837440000,
@@ -2338,33 +2329,6 @@
     "hotScore": 1
   },
   {
-    "title": "A collaboration with the anime “Sword Art Online” has been decided at “Maddam”! Implementation dates and collaboration details will be released in due course.",
-    "link": "https://www.gamer.ne.jp/news/202603300009",
-    "date": 1774845900000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Collaboration between “Maddam” and “Sword Art Online” decided. Announced on “Jakutama” Official X",
-        "link": "https://news.denfaminicogamer.jp/news/260330l",
-        "date": 1774842819000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "Yostar decides to collaborate with the anime “Sword Art Online” on the competitive mahjong game “Jantama”",
-        "link": "https://gamebiz.jp/news/423458",
-        "date": 1774844700000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "Nexon to take charge of operation of Korean PC version of “Overwatch” - Partnership signed to strengthen localization",
     "link": "http://www.gamespark.jp/article/2026/03/30/164517.html",
     "date": 1774846018000,
@@ -2388,6 +2352,50 @@
     "date": 1774846786000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "A collaboration between \"Jantama\" and the anime \"Sword Art Online\" has been decided. Details will be released later",
+    "link": "https://www.4gamer.net/games/517/G051738/20260330024",
+    "date": 1774846903000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "Collaboration between “Maddam” and “Sword Art Online” decided. Announced on “Jakutama” Official X",
+        "link": "https://news.denfaminicogamer.jp/news/260330l",
+        "date": 1774842819000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Yostar decides to collaborate with the anime “Sword Art Online” on the competitive mahjong game “Jantama”",
+        "link": "https://gamebiz.jp/news/423458",
+        "date": 1774844700000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
+      },
+      {
+        "title": "A collaboration with the anime “Sword Art Online” has been decided at “Maddam”! Implementation dates and collaboration details will be released in due course.",
+        "link": "https://www.gamer.ne.jp/news/202603300009",
+        "date": 1774845900000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "Bushiroad Creative, capsule toy brand “Bushikapu!” “Monday Man Figure Keychain” is now on sale.",
+    "link": "https://gamebiz.jp/news/423463",
+    "date": 1774847040000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
