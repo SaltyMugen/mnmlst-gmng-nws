@@ -1,14 +1,5 @@
 [
   {
-    "title": "Five new Steam games you probably missed (March 30, 2026)",
-    "link": "https://www.pcgamer.com/software/platforms/five-new-steam-games-you-probably-missed-march-30-2026",
-    "date": 1774826058000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"Kingdom Hearts\" 24th anniversary illustration released. There was also a handwritten message from director Tetsuya Nomura saying, ``We're working hard towards our 25th anniversary.'' Currently, the latest work in the series, ``Kingdom Hearts IV,'' is in full production.",
     "link": "https://news.denfaminicogamer.jp/news/260330a",
     "date": 1774828270000,
@@ -1044,20 +1035,20 @@
     "hotScore": 1
   },
   {
-    "title": "Crowdfunding for “JKs who aren’t afraid of ghosts VS the school labyrinth” has reached its goal! Stretch goals have also started for the implementation of additional characters.",
-    "link": "https://www.gamer.ne.jp/news/202603300030",
-    "date": 1774862880000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "NVIDIA adds 4 new titles including \"Screamer\" to GeForce NOW, latest update of \"Collapse: Star Rail\" also available",
     "link": "https://gamebiz.jp/news/423491",
     "date": 1774862880000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Crowdfunding for “JKs who aren’t afraid of ghosts VS the school labyrinth” has reached its goal! Stretch goals have also started for the implementation of additional characters.",
+    "link": "https://www.gamer.ne.jp/news/202603300030",
+    "date": 1774862880000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1365,6 +1356,15 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "How to use Hernand Refinement Tokens in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
+    "date": 1774867041000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -1884,20 +1884,20 @@
     "hotScore": 1
   },
   {
-    "title": "\"Origament: A Paper Adventure\", which takes you as a lost child's letter and travels through various eras and lands, will be released on April 7th!",
-    "link": "https://www.gamer.ne.jp/news/202603300041",
-    "date": 1774875600000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Germany's Assemble Entertainment releases 3D action game \"Origament: A Paper Adventure\" about a letter traveling on April 7th",
     "link": "https://gamebiz.jp/news/423492",
     "date": 1774875600000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Origament: A Paper Adventure\", which takes you as a lost child's letter and travels through various eras and lands, will be released on April 7th!",
+    "link": "https://www.gamer.ne.jp/news/202603300041",
+    "date": 1774875600000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -2398,19 +2398,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
-        "date": 1774867041000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
         "title": "How to get Propeller Spear in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
         "date": 1774877371000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
+        "date": 1774881123000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -2539,17 +2539,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
-        "date": 1774881123000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "New numbers show GTA 6 development might cost more than previous estimates, which were already staggering",
