@@ -1449,15 +1449,6 @@
     "hotScore": 1
   },
   {
-    "title": "How to use Hernand Refinement Tokens in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
-    "date": 1774867041000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "To commemorate the 10th anniversary of \"Shinki PROJECT\", new costumes Tetra and Arisa will appear as new Shinki! Up to 100 gift roulette games are also being held every day.",
     "link": "https://www.gamer.ne.jp/news/202603300038",
     "date": 1774867080000,
@@ -1929,15 +1920,6 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Otome Daoshi Leans Into Anime and Manga Aesthetics",
-    "link": "https://www.siliconera.com/review-otome-daoshi-leans-into-anime-and-manga-aesthetics",
-    "date": 1774875600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Amazon's Tomb Raider Series Pauses Production as Star Sophie Turner Suffers Injury",
     "link": "https://www.pushsquare.com/news/2026/03/amazons-tomb-raider-series-pauses-production-as-star-sophie-turner-suffers-injury",
     "date": 1774875600000,
@@ -1947,22 +1929,31 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Tomb Raider Series Pauses Production After Sophie Turner Suffers \"Minor Injury\"",
-        "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-series-pauses-production-after-sophie-turner-suffers-minor-injury",
-        "date": 1774865700000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Tomb Raider show stops production after Sophie Turner suffers injury",
         "link": "https://www.dexerto.com/tv-movies/tomb-raider-show-stops-production-after-sophie-turner-suffers-injury-3342758",
         "date": 1774865581000,
         "domain": "dexerto.com",
         "sourceName": "Dexerto",
         "isTranslated": false
+      },
+      {
+        "title": "Tomb Raider Series Pauses Production After Sophie Turner Suffers \"Minor Injury\"",
+        "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-series-pauses-production-after-sophie-turner-suffers-minor-injury",
+        "date": 1774865700000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Review: Otome Daoshi Leans Into Anime and Manga Aesthetics",
+    "link": "https://www.siliconera.com/review-otome-daoshi-leans-into-anime-and-manga-aesthetics",
+    "date": 1774875600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Award-winning animator Atsushi Wada’s VR film If You See a Cat coming to steam in April 2026",
@@ -2533,19 +2524,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
+        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
+        "date": 1774867041000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
         "title": "How to get Propeller Spear in Crimson Desert",
         "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
         "date": 1774877371000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
-        "date": 1774881123000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -2692,7 +2683,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
+        "date": 1774881123000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "New numbers show GTA 6 development might cost more than previous estimates, which were already staggering",
@@ -4327,5 +4328,14 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Baseball Players Are Using A New Robo-Judge To Instantly Humiliate Umpires And Crowds Love It",
+    "link": "https://kotaku.com/baseball-players-are-using-a-new-robo-judge-to-instantly-humiliate-shame-umpires-and-crowds-are-going-wild-2000683267",
+    "date": 1774906601000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1
   }
 ]
