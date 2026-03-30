@@ -414,20 +414,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Sunday Papers",
-    "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
-    "date": 1774778400000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "DLSS 5 Isn't Anywhere Near As Impressive As V-Rally 3 on the Game Boy Advance",
     "link": "https://www.ign.com/articles/dlss-5-isnt-anywhere-near-as-impressive-as-v-rally-3-on-the-game-boy-advance",
     "date": 1774778400000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Sunday Papers",
+    "link": "https://www.rockpapershotgun.com/the-sunday-papers-803",
+    "date": 1774778400000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -594,20 +594,20 @@
     "hotScore": 1
   },
   {
-    "title": "XCOM meets Rashomon in Vaunted, a tactical RPG where your characters can rewrite history from their perspective",
-    "link": "https://www.pcgamer.com/games/rpg/xcom-meets-rashomon-in-vaunted-a-tactical-rpg-where-your-characters-can-rewrite-history-from-their-perspective",
-    "date": 1774789200000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Super Mario Bros. (1993) Flashback Review",
     "link": "https://www.ign.com/articles/super-mario-bros-1993-flashback-review",
     "date": 1774789200000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "XCOM meets Rashomon in Vaunted, a tactical RPG where your characters can rewrite history from their perspective",
+    "link": "https://www.pcgamer.com/games/rpg/xcom-meets-rashomon-in-vaunted-a-tactical-rpg-where-your-characters-can-rewrite-history-from-their-perspective",
+    "date": 1774789200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2293,12 +2293,30 @@
     "hotScore": 1
   },
   {
+    "title": "Hiroya Yamazaki achieved his second consecutive victory at the 2nd \"Uikore FAN TOURNAMENT\", which was attended by about 200 people! The venue report of the event, which was a great success with Teppei Arita also participating, has arrived.",
+    "link": "https://www.gamer.ne.jp/news/202603300005",
+    "date": 1774840500000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "Adobe's final profit for the fiscal year ending November 2025 increased by 1.4% to 2.355 billion yen... Adobe's Japanese subsidiary in the US",
     "link": "https://gamebiz.jp/news/423450",
     "date": 1774840500000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "GACHIAKUTA: The Game ‘Combat’ trailers – Enjin, Riyo, Rudo, and Zanka",
+    "link": "https://www.gematsu.com/2026/03/gachiakuta-the-game-combat-trailers-enjin-riyo-rudo-and-zanka",
+    "date": 1774840555000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
