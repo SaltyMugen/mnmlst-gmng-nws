@@ -1,14 +1,5 @@
 [
   {
-    "title": "\"Dragon Quest\" Roto equipment and heavy metal figures of slimes are now available in special colors to highlight the 40th anniversary history.",
-    "link": "http://www.gamespark.jp/article/2026/03/30/164526.html",
-    "date": 1774856704000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Uma Musume”, new costumes “Sakura Bakushin-oh” and “North Flight” have been implemented today. \"Special Week\" Awakening Lv6 and Lv7 are also now open",
     "link": "https://www.4gamer.net/games/414/G041434/20260330031",
     "date": 1774856808000,
@@ -420,6 +411,15 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "How to use Hernand Refinement Tokens in Crimson Desert",
+    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
+    "date": 1774867041000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -1368,17 +1368,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
-        "date": 1774881123000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "New numbers show GTA 6 development might cost more than previous estimates, which were already staggering",
@@ -2706,6 +2696,14 @@
     "hotScore": 3,
     "groupMembers": [
       {
+        "title": "How to get Propeller Spear in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
+        "date": 1774877371000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
         "title": "How to get the White Bear mount in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-white-bear-mount-location",
         "date": 1774883707000,
@@ -2714,19 +2712,11 @@
         "isTranslated": false
       },
       {
-        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
-        "date": 1774867041000,
+        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
+        "date": 1774881123000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to get Propeller Spear in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
-        "date": 1774877371000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -3436,15 +3426,6 @@
     "hotScore": 1
   },
   {
-    "title": "Aria (yukata version) and Anthria (swimsuit version) appear in \"Granblue Fantasy\" Legend Gacha!",
-    "link": "https://www.gamer.ne.jp/news/202603310003",
-    "date": 1774926000000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "[Play report] Four bands and their love. Which story will you choose? Looking back at the charm of the “DYNAMIC CHORD” series",
     "link": "https://www.4gamer.net/games/950/G095084/20260305025",
     "date": 1774926000000,
@@ -4011,15 +3992,6 @@
     "date": 1774932420000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Hifumi Shobo launches new light novel label “Meltia Books” for women on June 5th",
-    "link": "https://gamebiz.jp/news/423530",
-    "date": 1774932540000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4777,6 +4749,24 @@
     "title": "[Game Entertainment Stock Overview (3/31)] KADOKAWA rebounds due to increased buying by activists, Sanrio lowers target stock price [Chart posted]",
     "link": "https://gamebiz.jp/news/423552",
     "date": 1774942680000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Reverse Blue x Reverse End” Aniva limited knight “Problem School Festival” (CV: Miyuri Shimabukuro) is now available! Chapter 07 “Overlord Paradox” released",
+    "link": "https://www.gamer.ne.jp/news/202603310024",
+    "date": 1774942920000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "SEGA SAMMY HD decides to cancel 7,684,100 shares of treasury stock",
+    "link": "https://gamebiz.jp/news/423550",
+    "date": 1774943040000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
