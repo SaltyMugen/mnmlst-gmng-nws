@@ -990,20 +990,20 @@
     "hotScore": 1
   },
   {
-    "title": "Crowdfunding for “JKs who aren’t afraid of ghosts VS the school labyrinth” has reached its goal! Stretch goals have also started for the implementation of additional characters.",
-    "link": "https://www.gamer.ne.jp/news/202603300030",
-    "date": 1774862880000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "NVIDIA adds 4 new titles including \"Screamer\" to GeForce NOW, latest update of \"Collapse: Star Rail\" also available",
     "link": "https://gamebiz.jp/news/423491",
     "date": 1774862880000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Crowdfunding for “JKs who aren’t afraid of ghosts VS the school labyrinth” has reached its goal! Stretch goals have also started for the implementation of additional characters.",
+    "link": "https://www.gamer.ne.jp/news/202603300030",
+    "date": 1774862880000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -1830,20 +1830,20 @@
     "hotScore": 1
   },
   {
-    "title": "\"Origament: A Paper Adventure\", which takes you as a lost child's letter and travels through various eras and lands, will be released on April 7th!",
-    "link": "https://www.gamer.ne.jp/news/202603300041",
-    "date": 1774875600000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Germany's Assemble Entertainment releases 3D action game \"Origament: A Paper Adventure\" about a letter traveling on April 7th",
     "link": "https://gamebiz.jp/news/423492",
     "date": 1774875600000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Origament: A Paper Adventure\", which takes you as a lost child's letter and travels through various eras and lands, will be released on April 7th!",
+    "link": "https://www.gamer.ne.jp/news/202603300041",
+    "date": 1774875600000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -2404,17 +2404,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
-        "date": 1774881123000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "New numbers show GTA 6 development might cost more than previous estimates, which were already staggering",
@@ -4044,15 +4034,6 @@
     "hotScore": 1
   },
   {
-    "title": "Someone Bought an Xbox 360, and It Turned Out to Be a Rockstar Games Devkit",
-    "link": "https://gamerant.com/xbox-360-rockstar-devkit-character-models-songs",
-    "date": 1774911676000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Palworld funny guy John Buckley threatens more April Fool's shenanigans, but I'm not joking when I say we need that Palworld dating sim",
     "link": "https://www.gamesradar.com/games/survival/palworld-funny-guy-john-buckley-threatens-more-april-fools-shenanigans-but-im-not-joking-when-i-say-we-need-that-palworld-dating-sim",
     "date": 1774911793000,
@@ -4295,22 +4276,6 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "How to get the White Bear mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-white-bear-mount-location",
-        "date": 1774883707000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
-        "date": 1774867041000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
         "title": "How To Get Every Trophy/Achievement In Crimson Desert",
         "link": "https://www.thegamer.com/crimson-desert-achievement-trophy-list-guide",
         "date": 1774912734000,
@@ -4324,6 +4289,30 @@
         "date": 1774877371000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the White Bear mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-white-bear-mount-location",
+        "date": 1774883707000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
+        "date": 1774881123000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
+        "date": 1774867041000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
         "isTranslated": false
       }
     ]
@@ -4407,6 +4396,15 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Naughty Dog’s Neil Druckmann Might Have Just Teased More Things to Come for The Last of Us",
+    "link": "https://gamerant.com/last-of-us-3-tease-neil-druckmann",
+    "date": 1774917886000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
