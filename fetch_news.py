@@ -386,6 +386,9 @@ _GROUPING_STOPWORDS = {
     "release", "launches", "launch", "coming", "adds", "development",
     "dev", "developer", "studio", "publisher", "announces", "announced",
     "show", "shows", "interest", "port", "mode", "style", "year", "years",
+    # these appear in almost every release/update headline and cause false chains
+    "available", "now", "version", "added", "today", "latest", "first",
+    "big", "full", "free", "fun", "great", "best", "top", "right",
 }
 
 
@@ -435,26 +438,34 @@ def _group_articles(articles: list[dict]) -> list[dict]:
     # transitive matches: if A~B and B~C but A!~C, C never joins the group
     # because B is already consumed. Flood-fill keeps expanding each group
     # until no new matches are found, so the whole story clusters together.
+    #
+    # Crucially: every candidate must score against BOTH the current frontier
+    # node AND the original anchor. This prevents weak chains like
+    # A→B→C where B~C only because they share a generic word ("available"),
+    # not because they're actually about the same story.
     for i in range(len(articles)):
         if i in used:
             continue
 
+        anchor_title = articles[i]["title"]
         group_indices = {i}
         used.add(i)
-        frontier = [i]  # articles we still need to check neighbours for
+        frontier = [i]
 
         while frontier:
             current = frontier.pop()
             for j in range(len(articles)):
                 if j in used:
                     continue
-                # don't bother scoring if they're more than 24h apart
                 if abs(articles[current]["date"] - articles[j]["date"]) > 86400000:
                     continue
-                if _title_similarity(articles[current]["title"], articles[j]["title"]) >= SIMILARITY_THRESHOLD:
+                # must match both the frontier node and the original anchor
+                score_vs_frontier = _title_similarity(articles[current]["title"], articles[j]["title"])
+                score_vs_anchor   = _title_similarity(anchor_title, articles[j]["title"])
+                if score_vs_frontier >= SIMILARITY_THRESHOLD and score_vs_anchor >= SIMILARITY_THRESHOLD:
                     group_indices.add(j)
                     used.add(j)
-                    frontier.append(j)  # this new member might connect more articles
+                    frontier.append(j)
 
         groups.append([articles[k] for k in sorted(group_indices)])
 
