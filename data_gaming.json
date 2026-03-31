@@ -1,23 +1,5 @@
 [
   {
-    "title": "“Would you like to collaborate with “THE IDOLM@STER”?” BANNAM is looking for partners to utilize the series IP – responding to a wide range of work including commercial appearances and advertising",
-    "link": "http://www.gamespark.jp/article/2026/03/30/164521.html",
-    "date": 1774852204000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Hamaru Strategy is conducting a consumer awareness survey regarding random goods. The results are scheduled to be made publicly available.",
-    "link": "https://www.4gamer.net/games/991/G999106/20260330030",
-    "date": 1774852233000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "An additional setting collection for “New Cthulhu Myths TRPG” “New Cthulhu Myths TRPG Cthulhu 2026” will be released on May 29th. Contains many rules and new weapons that enrich the background of the explorer.",
     "link": "https://news.denfaminicogamer.jp/news/260330n",
     "date": 1774852341000,
@@ -531,29 +513,11 @@
     "hotScore": 1
   },
   {
-    "title": "How to use Hernand Refinement Tokens in Crimson Desert",
-    "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
-    "date": 1774867041000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "``If you miss a step, it's over'' - extreme exploration. \"Don't Wake the Beast\" is a roguelite stealth game in which you infiltrate a monster's nest, evade traps, and steal gold and silver treasures.",
     "link": "https://www.4gamer.net/games/994/G099495/20260330045",
     "date": 1774867399000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "“Mobile Suit Gundam EXVS.2 IB TOKYO Showdown” report! Also included an interview with Mr. Nakao and Mr. Zaku Nagata, who provided commentary and commentary.",
-    "link": "https://www.gamer.ne.jp/news/202603300039",
-    "date": 1774867500000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -992,19 +956,19 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Tomb Raider Series Pauses Production After Sophie Turner Suffers \"Minor Injury\"",
-        "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-series-pauses-production-after-sophie-turner-suffers-minor-injury",
-        "date": 1774865700000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Tomb Raider show stops production after Sophie Turner suffers injury",
         "link": "https://www.dexerto.com/tv-movies/tomb-raider-show-stops-production-after-sophie-turner-suffers-injury-3342758",
         "date": 1774865581000,
         "domain": "dexerto.com",
         "sourceName": "Dexerto",
+        "isTranslated": false
+      },
+      {
+        "title": "Tomb Raider Series Pauses Production After Sophie Turner Suffers \"Minor Injury\"",
+        "link": "https://www.nintendolife.com/news/2026/03/tomb-raider-series-pauses-production-after-sophie-turner-suffers-minor-injury",
+        "date": 1774865700000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
         "isTranslated": false
       }
     ]
@@ -1530,7 +1494,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
+        "date": 1774881123000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "New numbers show GTA 6 development might cost more than previous estimates, which were already staggering",
@@ -2884,14 +2858,6 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "How to get Propeller Spear in Crimson Desert",
-        "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
-        "date": 1774877371000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "How to get the White Bear mount in Crimson Desert",
         "link": "https://www.pcgamer.com/games/action/crimson-desert-white-bear-mount-location",
         "date": 1774883707000,
@@ -2900,11 +2866,19 @@
         "isTranslated": false
       },
       {
-        "title": "How to get the Silver Fang wolf mount in Crimson Desert",
-        "link": "https://www.pcgamer.com/games/action/crimson-desert-silver-fang-mount-legendary-wolf",
-        "date": 1774881123000,
+        "title": "How to use Hernand Refinement Tokens in Crimson Desert",
+        "link": "https://www.pcgamer.com/games/action/crimson-desert-hernand-refinement-tokens",
+        "date": 1774867041000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "How to get Propeller Spear in Crimson Desert",
+        "link": "https://www.destructoid.com/how-to-get-propeller-spear-in-crimson-desert",
+        "date": 1774877371000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -4383,20 +4357,20 @@
     ]
   },
   {
-    "title": "Introducing the two main characters of \"Soul Devourer: Blue Pieta\", vampire hunter Layla (CV: Yoshino Aoyama) and apprentice Shinigami Choi Woo-ri (CV: Ikumi Hasegawa)!",
-    "link": "https://www.gamer.ne.jp/news/202603310011",
-    "date": 1774933380000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "EXNOA will end the Japanese PC version (DMM GAMES version) of \"The Elder Scrolls Online\" service on July 21, 2026.",
     "link": "https://gamebiz.jp/news/423533",
     "date": 1774933380000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Introducing the two main characters of \"Soul Devourer: Blue Pieta\", vampire hunter Layla (CV: Yoshino Aoyama) and apprentice Shinigami Choi Woo-ri (CV: Ikumi Hasegawa)!",
+    "link": "https://www.gamer.ne.jp/news/202603310011",
+    "date": 1774933380000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4722,6 +4696,24 @@
     "date": 1774938120000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Furu Game Overall Survey” is being held! The “Caligula” series ranks first in the 2025 survey for “original titles you would like to see made into sequels”",
+    "link": "https://www.gamer.ne.jp/news/202603310017",
+    "date": 1774938480000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Four beautiful girls with witch powers appear - An exhilarating roguelite ACT \"Cinderia\" that combines well over 100 skills and equipment to fight, early access begins",
+    "link": "http://www.gamespark.jp/article/2026/03/31/164570.html",
+    "date": 1774938604000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   }
