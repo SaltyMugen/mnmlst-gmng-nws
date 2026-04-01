@@ -53,10 +53,12 @@ BLOCKED_TITLE_PATTERNS = [
     "every game ranked",
     "how to ",
     "april fools",
+    "april fool",
     "% off",
     "save $",
     "music video",
     "season",
+    "just $",
 ]
 
 HEADERS = {
@@ -86,7 +88,7 @@ SOURCES = [
     {"name": "TheGamer",          "rss": "https://www.thegamer.com/feed/",                                          "domain": "thegamer.com"},
     {"name": "Gematsu",           "rss": "https://www.gematsu.com/feed",                                            "domain": "gematsu.com"},
     {"name": "The Verge",         "rss": "https://www.theverge.com/rss/index.xml",                                  "domain": "theverge.com", "filter": True},
-
+    {"name": "Bloomberg",         "rss": "https://feeds.bloomberg.com/technology/news.rss",                         "domain": "bloomberg.com", "filter": True},
     # --- OFFICIAL PLATFORMS ---
     {"name": "PlayStation Blog",  "rss": "https://blog.playstation.com/feed/",                                      "domain": "blog.playstation.com"},
     {"name": "Xbox Wire",         "rss": "https://news.xbox.com/en-us/feed/",                                       "domain": "news.xbox.com"},
