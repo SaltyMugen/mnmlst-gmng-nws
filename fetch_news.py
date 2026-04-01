@@ -3,7 +3,6 @@ import feedparser
 import html
 import json
 import logging
-import math
 import os
 import re
 import tempfile
@@ -27,10 +26,29 @@ log = logging.getLogger(__name__)
 # --- CONFIGURATION ---
 DATA_FILE = "data_gaming.json"
 
-# A story needs to clear this score to get the Trending badge in the UI.
-# Score = unique source count × time-decay (half-life 12h).
-# Raise to see fewer trending stories, lower to see more.
-TRENDING_THRESHOLD = 2.5
+# Articles whose titles match any of these patterns are silently dropped.
+# Patterns are case-insensitive. Use plain substrings — no regex needed.
+# Add anything here you never want to see in the feed.
+BLOCKED_TITLE_PATTERNS = [
+    "top 3",
+    "top 5",
+    "top 6",
+    "top 7",
+    "top 8",
+    "top 9",
+    "top 10",
+    "top 15",
+    "top 20",
+    "top 25",
+    "top 50",
+    "top 100",
+    "best games",
+    "games you need to play",
+    "games to play",
+    "ranked",
+    "every game ranked",
+    "how to "
+]
 
 HEADERS = {
     "User-Agent": (
@@ -330,6 +348,11 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
         if src.get("filter") and not any(k in title.lower() for k in KEYWORDS):
             continue
 
+        # drop listicles, ranked lists, and other low-signal articles
+        if any(p in title.lower() for p in BLOCKED_TITLE_PATTERNS):
+            log.debug("Blocked: %s", title)
+            continue
+
         raw_titles.append(title)
         raw_entries.append({"link": _normalise_url(entry.link), "date": ts})
 
@@ -365,46 +388,10 @@ def _url_dedupe(articles: list[dict]) -> list[dict]:
 
 
 def _norm_title(title: str) -> str:
-    """Normalise a title for the topic-key pass."""
+    """Normalise a title for fuzzy comparison."""
     t = title.lower()
     t = re.sub(r"[^\w\s]", "", t)
     return " ".join(t.split())
-
-
-# Generic words stripped before similarity scoring.
-# These appear in almost every gaming headline and would cause false groupings
-# if left in — "game", "new", "update" etc match everything.
-_GROUPING_STOPWORDS = {
-    "a", "an", "the", "in", "on", "at", "to", "for", "of", "and", "or", "but",
-    "is", "are", "was", "were", "be", "been", "being", "with", "this", "that",
-    "it", "its", "by", "as", "up", "if", "so", "do", "did", "has", "have", "had",
-    "not", "from", "into", "about", "than", "more", "will", "can", "get",
-    "how", "all", "after", "before", "over", "just", "out", "what", "who", "why",
-    "heres", "dont", "wouldnt", "weve", "thats",
-    "game", "games", "gaming", "new", "update", "report", "says", "claims",
-    "reportedly", "confirmed", "official", "reveal", "revealed", "reveals",
-    "release", "launches", "launch", "coming", "adds", "development",
-    "dev", "developer", "studio", "publisher", "announces", "announced",
-    "show", "shows", "interest", "port", "mode", "style", "year", "years",
-    # these appear in almost every release/update headline and cause false chains
-    "available", "now", "version", "added", "today", "latest", "first",
-    "big", "full", "free", "fun", "great", "best", "top", "right",
-}
-
-
-def _title_similarity(a: str, b: str) -> float:
-    """
-    Score how similar two headlines are using token_set_ratio on
-    stopword-filtered text. Better than plain fuzz.ratio for news
-    headlines because it rewards shared vocabulary regardless of
-    word order or title length.
-    """
-    def clean(t: str) -> str:
-        t = t.lower()
-        t = re.sub(r"[^\w\s]", "", t)
-        return " ".join(w for w in t.split() if w not in _GROUPING_STOPWORDS)
-
-    return fuzz.token_set_ratio(clean(a), clean(b))
 
 
 def _extract_topic_key(title: str) -> str | None:
@@ -423,91 +410,73 @@ def _extract_topic_key(title: str) -> str | None:
 
 
 def _group_articles(articles: list[dict]) -> list[dict]:
-    # 60 works well with token_set_ratio + stopword filtering —
-    # catches same-story coverage with different headlines without false chains.
-    SIMILARITY_THRESHOLD = 60
-    TOPIC_TIME_WINDOW_MS = 24 * 60 * 60 * 1000  # match the 24h feed window
-    MIN_TOPIC_GROUP_SIZE = 3
+    SIMILARITY_THRESHOLD = 69
+    TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
+    MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
 
+    norms = [_norm_title(a["title"]) for a in articles]
     used: set[int] = set()
     groups: list[list[dict]] = []
 
-    # --- Pass 1: flood-fill grouping via token_set_ratio ---
-    #
-    # The old greedy approach (anchor on article i, scan forward once) misses
-    # transitive matches: if A~B and B~C but A!~C, C never joins the group
-    # because B is already consumed. Flood-fill keeps expanding each group
-    # until no new matches are found, so the whole story clusters together.
-    #
-    # Crucially: every candidate must score against BOTH the current frontier
-    # node AND the original anchor. This prevents weak chains like
-    # A→B→C where B~C only because they share a generic word ("available"),
-    # not because they're actually about the same story.
-    for i in range(len(articles)):
+    # --- Pass 1: fuzzy title similarity (existing logic) ---
+    for i, a in enumerate(articles):
         if i in used:
             continue
-
-        anchor_title = articles[i]["title"]
-        group_indices = {i}
+        group = [a]
         used.add(i)
-        frontier = [i]
+        for j in range(i + 1, len(articles)):
+            if j in used:
+                continue
+            if abs(articles[i]["date"] - articles[j]["date"]) > 86400000:
+                continue
+            score = fuzz.ratio(norms[i], norms[j])
+            if score >= SIMILARITY_THRESHOLD:
+                group.append(articles[j])
+                used.add(j)
+        groups.append(group)
 
-        while frontier:
-            current = frontier.pop()
-            for j in range(len(articles)):
-                if j in used:
-                    continue
-                if abs(articles[current]["date"] - articles[j]["date"]) > 86400000:
-                    continue
-                # must match both the frontier node and the original anchor
-                score_vs_frontier = _title_similarity(articles[current]["title"], articles[j]["title"])
-                score_vs_anchor   = _title_similarity(anchor_title, articles[j]["title"])
-                if score_vs_frontier >= SIMILARITY_THRESHOLD and score_vs_anchor >= SIMILARITY_THRESHOLD:
-                    group_indices.add(j)
-                    used.add(j)
-                    frontier.append(j)
-
-        groups.append([articles[k] for k in sorted(group_indices)])
-
-    # --- Pass 2: topic-key grouping for same-subject singletons ---
-    # Only runs on articles that Pass 1 left ungrouped.
+    # --- Pass 2: topic-key grouping for same-subject articles ---
+    # Flatten back to individual articles (ungrouped singletons only) for topic pass
     singleton_indices = [i for i, g in enumerate(groups) if len(g) == 1]
 
+    # Build topic → [group_index] map
     topic_map: dict[str, list[int]] = {}
     for gi in singleton_indices:
-        topic = _extract_topic_key(groups[gi][0]["title"])
+        article = groups[gi][0]
+        topic = _extract_topic_key(article["title"])
         if topic:
-            topic_map.setdefault(topic.lower(), []).append(gi)
+            topic_key = topic.lower()
+            topic_map.setdefault(topic_key, []).append(gi)
 
+    # Merge groups that share the same topic key and are within the time window
     topic_merged: set[int] = set()
     for topic_key, gis in topic_map.items():
         if len(gis) < MIN_TOPIC_GROUP_SIZE:
             continue
 
+        # Sort by date and check they fall within the time window
         gis_sorted = sorted(gis, key=lambda gi: groups[gi][0]["date"])
         oldest = groups[gis_sorted[0]][0]["date"]
         newest = groups[gis_sorted[-1]][0]["date"]
         if newest - oldest > TOPIC_TIME_WINDOW_MS:
             continue
 
+        # Merge into first group
         base_gi = gis_sorted[0]
         for gi in gis_sorted[1:]:
             groups[base_gi].extend(groups[gi])
             topic_merged.add(gi)
 
+    # Remove groups that were merged into another
     groups = [g for i, g in enumerate(groups) if i not in topic_merged]
 
     result: list[dict] = []
     for group in groups:
-        # oldest article is the original source — anchor the group to it
-        lead = min(group, key=lambda x: x["date"])
+        lead = max(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
-        # time-decayed trending score — see TRENDING_THRESHOLD in fetch_news.py
-        now_ms = int(time.time() * 1000)
-        source_count = len({item["domain"] for item in group})
-        age_hours = (now_ms - lead["date"]) / 3_600_000
-        lead["hotScore"] = round(source_count * math.exp(-0.0578 * age_hours), 3)
+        unique_source_count = len({item["domain"] for item in group})
+        lead["hotScore"] = unique_source_count
 
         if members:
             lead["groupMembers"] = members
@@ -519,7 +488,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
-    cutoff_ms = now_ms - (24 * 60 * 60 * 1000)
+    cutoff_ms = now_ms - (48 * 60 * 60 * 1000)
 
     all_articles: list[dict] = []
 
