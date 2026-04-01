@@ -365,14 +365,14 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
         raw_titles.append(title)
         raw_entries.append({"link": _normalise_url(entry.link), "date": ts})
 
-    if src.get("translate"):
-    raw_titles = _translate_titles(raw_titles, name)
+        if src.get("translate"):
+            raw_titles = _translate_titles(raw_titles, name)
 
-    for title, entry_meta in zip(raw_titles, raw_entries):
+        for title, entry_meta in zip(raw_titles, raw_entries):
         # re-check block list after translation — JP titles are translated above
-        if any(p in title.lower() for p in BLOCKED_TITLE_PATTERNS):
-            log.debug("Blocked (post-translation): %s", title)
-            continue
+            if any(p in title.lower() for p in BLOCKED_TITLE_PATTERNS):
+                log.debug("Blocked (post-translation): %s", title)
+                continue
         articles.append(
             {
                 "title": title,
