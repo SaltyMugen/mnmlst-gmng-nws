@@ -466,14 +466,6 @@ def _group_articles(articles: list[dict]) -> list[dict]:
     used: set[int] = set()
     groups: list[list[dict]] = []
 
-    # --- Pass 1: flood-fill grouping via token_set_ratio ---
-    #
-    # the old greedy approach missed transitive matches: if A~B and B~C but not A~C,
-    # C never joined because B was already consumed. flood-fill keeps expanding
-    # until nothing new can be added.
-    #
-    # every candidate must also score against the original anchor article —
-    # this prevents weak chains where B~C only because of a generic shared word.
     for i in range(len(articles)):
         if i in used:
             continue
@@ -526,8 +518,9 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
     result: list[dict] = []
     for group in groups:
-        # oldest article = original source, anchors the group in the feed
-        lead = min(group, key=lambda x: x["date"])
+        #oldest non-JP article as lead 
+        non_jp = [a for a in group if not a.get("isTranslated")]
+        lead = min(non_jp, key=lambda x: x["date"]) if non_jp else min(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
         # time-decayed score — halves every 12 hours
