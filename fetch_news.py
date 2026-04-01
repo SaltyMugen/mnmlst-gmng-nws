@@ -48,7 +48,7 @@ BLOCKED_TITLE_PATTERNS = [
     "ranked",
     "every game ranked",
     "how to ",
-    "april Fools",
+    "april fools",
     "% off",
 ]
 
