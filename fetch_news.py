@@ -126,7 +126,7 @@ SOURCES = [
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
     {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net", "translate": True, "tz_jst": True},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
-    {"name": "Famitsu",           "rss": "https://famitsu.com",                                "domain": "famitsu.com",              "translate": True, "tz_jst": True},
+    {"name": "Famitsu",           "rss": "https://famitsu.com",                                                     "domain": "famitsu.com",              "translate": True, "tz_jst": True},
     {"name": "Dengeki Online",    "rss": "https://dengekionline.com/index.xml",                                     "domain": "dengekionline.com",         "translate": True, "tz_jst": True},
     {"name": "GameBiz",           "rss": "https://gamebiz.jp/feed.rss",                                             "domain": "gamebiz.jp",                "translate": True, "tz_jst": True},
     {"name": "Denfaminicogamer",  "rss": "https://news.denfaminicogamer.jp/feed",                                   "domain": "news.denfaminicogamer.jp",  "translate": True, "tz_jst": True},
@@ -413,7 +413,7 @@ def _extract_topic_key(title: str) -> str | None:
 
 def _group_articles(articles: list[dict]) -> list[dict]:
     SIMILARITY_THRESHOLD = 69
-    TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
+    TOPIC_TIME_WINDOW_MS = 24 * 60 * 60 * 1000  # 48 hours for topic grouping
     MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
 
     norms = [_norm_title(a["title"]) for a in articles]
@@ -490,7 +490,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
-    cutoff_ms = now_ms - (48 * 60 * 60 * 1000)
+    cutoff_ms = now_ms - (24 * 60 * 60 * 1000)
 
     all_articles: list[dict] = []
 
