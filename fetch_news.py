@@ -56,6 +56,17 @@ BLOCKED_TITLE_PATTERNS = [
     "save $",
     "music video",
     "just $",
+    "0 best",
+    "1 best",
+    "2 best",
+    "3 best",
+    "4 best",
+    "5 best",
+    "6 best",
+    "7 best",
+    "8 best",
+    "9 best",
+    "10 best",
 ]
 
 HEADERS = {
