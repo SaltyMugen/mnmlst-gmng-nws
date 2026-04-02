@@ -162,7 +162,7 @@ KEYWORDS = [
 "amd", "nvidia", "rtx", "radeon", "dlss", "fsr", "ray tracing", "frame generation",
 
 "activision", "blizzard", "activision blizzard",
-"electronic arts", "ea",
+"electronic arts", " ea ",
 "ubisoft",
 "take two", "take-two", "take two interactive",
 "rockstar", "rockstar games",
