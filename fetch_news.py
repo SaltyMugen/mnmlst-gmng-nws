@@ -447,7 +447,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
             if abs(articles[i]["date"] - articles[j]["date"]) > 86400000:
                 continue
             score = fuzz.token_set_ratio(norms[i], norms[j])
-            def _keyword_overlap(a: str, b: str) -> int:
+        def _keyword_overlap(a: str, b: str) -> int:
                 sa = set(a.split())
                 sb = set(b.split())
                 return len(sa & sb)
@@ -456,8 +456,8 @@ def _group_articles(articles: list[dict]) -> list[dict]:
                 score >= SIMILARITY_THRESHOLD
                 or _keyword_overlap(norms[i], norms[j]) >= 3
             ):
-    group.append(articles[j])
-    used.add(j)
+                group.append(articles[j])
+                used.add(j)
         groups.append(group)
 
     # --- Pass 2: topic-key grouping for same-subject articles ---
