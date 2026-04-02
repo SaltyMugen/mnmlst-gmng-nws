@@ -359,7 +359,7 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
 
     # translate JP titles after collecting all entries
     if src.get("translate"):
-    raw_titles = _translate_titles(raw_titles, name)
+        raw_titles = _translate_titles(raw_titles, name)
 
     for title, entry_meta in zip(raw_titles, raw_entries):
     # re-check block list after translation — JP titles are translated above
