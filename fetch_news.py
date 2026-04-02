@@ -478,7 +478,9 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
     result: list[dict] = []
     for group in groups:
-        lead = max(group, key=lambda x: x["date"])
+        # prefer oldest non-JP article as lead — translated titles are often awkward
+        non_jp = [a for a in group if not a.get("isTranslated")]
+        lead = min(non_jp, key=lambda x: x["date"]) if non_jp else min(group, key=lambda x: x["date"])
         members = [m for m in group if m is not lead]
 
         unique_source_count = len({item["domain"] for item in group})
