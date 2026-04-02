@@ -85,7 +85,7 @@ SOURCES = [
     {"name": "TheGamer",          "rss": "https://www.thegamer.com/feed/",                                          "domain": "thegamer.com"},
     {"name": "Gematsu",           "rss": "https://www.gematsu.com/feed",                                            "domain": "gematsu.com"},
     {"name": "The Verge",         "rss": "https://www.theverge.com/rss/index.xml",                                  "domain": "theverge.com", "filter": True},
-
+    {"name": "Bloomberg",         "rss": "https://feeds.bloomberg.com/news.rss",                                    "domain": "bloomberg.com", "filter": True},
     # --- OFFICIAL PLATFORMS ---
     {"name": "PlayStation Blog",  "rss": "https://blog.playstation.com/feed/",                                      "domain": "blog.playstation.com"},
     {"name": "Xbox Wire",         "rss": "https://news.xbox.com/en-us/feed/",                                       "domain": "news.xbox.com"},
@@ -359,13 +359,13 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
 
     # translate JP titles after collecting all entries
     if src.get("translate"):
-        raw_titles = _translate_titles(raw_titles, name)
+    raw_titles = _translate_titles(raw_titles, name)
 
     for title, entry_meta in zip(raw_titles, raw_entries):
-        # re-check after translation — JP titles slip through the first check
+    # re-check block list after translation — JP titles are translated above
         if any(p in title.lower() for p in BLOCKED_TITLE_PATTERNS):
-            log.debug("Blocked (post-translation): %s", title)
-            continue
+        log.debug("Blocked (post-translation): %s", title)
+        continue
         articles.append(
             {
                 "title": title,
