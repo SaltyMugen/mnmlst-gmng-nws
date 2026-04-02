@@ -364,7 +364,7 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
     for title, entry_meta in zip(raw_titles, raw_entries):
     # re-check block list after translation — JP titles are translated above
         if any(p in title.lower() for p in BLOCKED_TITLE_PATTERNS):
-        log.debug("Blocked (post-translation): %s", title)
+            log.debug("Blocked (post-translation): %s", title)
         continue
         articles.append(
             {
