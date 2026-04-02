@@ -153,41 +153,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Super Mario Galaxy Movie Review – Shooting For The Stars",
-    "link": "https://gameinformer.com/movie-review/2026/03/31/the-super-mario-galaxy-movie-review-shooting-for-the-stars",
-    "date": 1774965600000,
-    "domain": "gameinformer.com",
-    "sourceName": "Game Informer",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie review",
-        "link": "https://www.eurogamer.net/the-super-mario-galaxy-movie-review",
-        "date": 1775045921000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Swaps Heart for References",
-        "link": "https://www.dualshockers.com/the-super-mario-galaxy-movie-replaces-heart-with-references-review",
-        "date": 1775087922000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "Ascend to Zero – Introducing This Unique Time-Bending Roguelike",
     "link": "https://news.xbox.com/en-us/2026/03/31/ascend-to-zero-roguelike-xbox-launch",
     "date": 1774965600000,
@@ -202,6 +167,15 @@
     "date": 1774965600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Super Mario Galaxy Movie Review – Shooting For The Stars",
+    "link": "https://gameinformer.com/movie-review/2026/03/31/the-super-mario-galaxy-movie-review-shooting-for-the-stars",
+    "date": 1774965600000,
+    "domain": "gameinformer.com",
+    "sourceName": "Game Informer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -640,6 +614,14 @@
         "isTranslated": true
       },
       {
+        "title": "Despite a low Rotten Tomatoes score, The Super Mario Galaxy Movie is already breaking box office records",
+        "link": "https://www.gamesradar.com/entertainment/animation-movies/despite-a-low-rotten-tomatoes-score-the-super-mario-galaxy-movie-is-already-breaking-box-office-records",
+        "date": 1775127145000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      },
+      {
         "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
         "link": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
         "date": 1775127583000,
@@ -895,15 +877,6 @@
     "date": 1774999314000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "What the heck: A superhuman has beaten Dark Souls at level 1, hitless, and without using dodge roll or ranged weapons",
-    "link": "https://www.pcgamer.com/games/rpg/what-the-heck-a-superhuman-has-beaten-dark-souls-at-level-1-hitless-and-without-using-dodge-roll-or-ranged-weapons",
-    "date": 1775001068000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1532,14 +1505,6 @@
         "isTranslated": false
       },
       {
-        "title": "Crimson Desert is \"opposite\" to most open-world games because the \"magic kicks in\" later, says Arkane Lyon boss: \"Might be why so many find investing time in it rewarding\"",
-        "link": "https://www.gamesradar.com/games/open-world/crimson-desert-is-opposite-to-most-open-world-games-because-the-magic-kicks-in-later-says-arkane-lyon-boss-might-be-why-so-many-find-investing-time-in-it-rewarding",
-        "date": 1775071185000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
         "title": "Crimson Desert players are speed-gliding using this \"game changer\" of a trick that may or may not be a bug: \"Dear devs, please do not patch this\"",
         "link": "https://www.gamesradar.com/games/open-world/crimson-desert-players-are-speed-gliding-using-this-game-changer-of-a-trick-that-may-or-may-not-be-a-bug-dear-devs-please-do-not-patch-this",
         "date": 1775087848000,
@@ -2118,6 +2083,41 @@
     "hotScore": 1
   },
   {
+    "title": "The Super Mario Galaxy Movie review",
+    "link": "https://www.eurogamer.net/the-super-mario-galaxy-movie-review",
+    "date": 1775045921000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Swaps Heart for References",
+        "link": "https://www.dualshockers.com/the-super-mario-galaxy-movie-replaces-heart-with-references-review",
+        "date": 1775087922000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      },
+      {
+        "title": "The Super Mario Galaxy Movie Is Already Breaking Box Office Records",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-is-already-breaking-box-office-records",
+        "date": 1775093700000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "“Saka Tsuku RTW” holds a scouting event where new ★5 players from England’s powerhouse clubs appear at maximum level",
     "link": "https://www.4gamer.net/games/402/G040221/20260401057",
     "date": 1775046234000,
@@ -2496,20 +2496,20 @@
     "hotScore": 1
   },
   {
-    "title": "Movie Review: The Super Mario Galaxy Movie - A Faithful But Overstuffed Sequel",
-    "link": "https://www.nintendolife.com/features/movie-review-the-super-mario-galaxy-movie-a-faithful-but-overstuffed-sequel",
-    "date": 1775052000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Remember When Call of Duty Said Its New Skins Would Be Sensible? Well, Here's Dave Chappelle",
     "link": "https://www.pushsquare.com/news/2026/04/remember-when-call-of-duty-said-its-new-skins-would-be-sensible-well-heres-dave-chappelle",
     "date": 1775052000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Movie Review: The Super Mario Galaxy Movie - A Faithful But Overstuffed Sequel",
+    "link": "https://www.nintendolife.com/features/movie-review-the-super-mario-galaxy-movie-a-faithful-but-overstuffed-sequel",
+    "date": 1775052000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2959,20 +2959,20 @@
     "hotScore": 1
   },
   {
-    "title": "Mario Galaxy Movie Retail Pre-Orders Go Live, Including Steelbook & 'Tin Egg' Edition",
-    "link": "https://www.nintendolife.com/news/2026/04/mario-galaxy-movie-retail-pre-orders-go-live-including-steelbook-and-tin-egg-edition",
-    "date": 1775061000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'There Is No Shop' - Halo Dev Eases Concerns Over Xbox Fanta Skin For Campaign Evolved",
     "link": "https://www.purexbox.com/news/2026/04/there-is-no-shop-halo-dev-eases-concerns-over-xbox-fanta-skin-for-campaign-evolved",
     "date": 1775061000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Mario Galaxy Movie Retail Pre-Orders Go Live, Including Steelbook & 'Tin Egg' Edition",
+    "link": "https://www.nintendolife.com/news/2026/04/mario-galaxy-movie-retail-pre-orders-go-live-including-steelbook-and-tin-egg-edition",
+    "date": 1775061000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3472,20 +3472,20 @@
     "hotScore": 1
   },
   {
-    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
-    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
-    "date": 1775075400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
     "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
     "date": 1775075400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
+    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
+    "date": 1775075400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3903,25 +3903,6 @@
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "The Super Mario Galaxy Movie Is Already Breaking Box Office Records",
-    "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-is-already-breaking-box-office-records",
-    "date": 1775093700000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Despite a low Rotten Tomatoes score, The Super Mario Galaxy Movie is already breaking box office records",
-        "link": "https://www.gamesradar.com/entertainment/animation-movies/despite-a-low-rotten-tomatoes-score-the-super-mario-galaxy-movie-is-already-breaking-box-office-records",
-        "date": 1775127145000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
@@ -6100,6 +6081,24 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Resident Evil's PS1 trilogy finally comes to Steam alongside cult classic JRPG Breath of Fire 4, but Capcom's retroactive DRM isn't going down well with everyone",
+    "link": "https://www.gamesradar.com/games/resident-evil/resident-evils-ps1-trilogy-finally-comes-to-steam-alongside-cult-classic-jrpg-breath-of-fire-4-but-capcoms-retroactive-drm-isnt-going-down-well-with-everyone",
+    "date": 1775128446000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Two high-rated motherboard security vulnerabilities have been identified in Gigabyte Control Center, so come update your software along with me",
+    "link": "https://www.pcgamer.com/software/security/two-high-rated-motherboard-security-vulnerabilities-have-been-identified-in-gigabyte-control-center-so-come-update-your-software-along-with-me",
+    "date": 1775128587000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
