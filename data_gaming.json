@@ -912,7 +912,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 5,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
@@ -921,30 +921,6 @@
         "domain": "videogameschronicle.com",
         "sourceName": "VGC",
         "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Swaps Heart for References",
-        "link": "https://www.dualshockers.com/the-super-mario-galaxy-movie-replaces-heart-with-references-review",
-        "date": 1775087922000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
       }
     ]
   },
@@ -1508,15 +1484,6 @@
     "hotScore": 1
   },
   {
-    "title": "GIGABYTE MO27Q2A: A 280Hz QD-OLED monitor built for the games you actually play",
-    "link": "https://www.destructoid.com/gigabyte-mo27q2a-a-280hz-qd-oled-monitor-built-for-the-games-you-actually-play",
-    "date": 1775065825000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Classic SEGA Series Sakura Wars Turns 30 This Year, Sparking Hope for a New Game",
     "link": "https://www.pushsquare.com/news/2026/04/classic-sega-series-sakura-wars-turns-30-this-year-sparking-hope-for-a-new-game",
     "date": 1775066400000,
@@ -1535,40 +1502,13 @@
     "hotScore": 1
   },
   {
-    "title": "Marvel Rivals is adding MCU watch parties in-game, introducing massive crossover potential for the future",
-    "link": "https://www.destructoid.com/marvel-rivals-mcu-watch-parties-in-game-massive-crossover-potential",
-    "date": 1775066809000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "NBA 2K26 Season 6 release countdown: Exact date and time, season pass rewards, and more",
     "link": "https://www.destructoid.com/nba-2k26-season-6-release-countdown-exact-date-and-time-season-pass-rewards-and-more",
     "date": 1775066880000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "All Will Fall release countdown: Exact date and time",
-        "link": "https://www.destructoid.com/all-will-fall-release-countdown-exact-date-and-time",
-        "date": 1775081538000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Road To Vostok Early Access Release Date Countdown & Exact Start Times",
-        "link": "https://insider-gaming.com/road-to-vostok-early-access-release-date-countdown-exact-start-times",
-        "date": 1775142497000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Talking Point: How Many Random Peripherals For Xbox Games Do You Still Own?",
@@ -1847,15 +1787,6 @@
     "hotScore": 1
   },
   {
-    "title": "MTG's Avatar Collector Booster boxes are currently $100 off on Amazon",
-    "link": "https://www.polygon.com/mtg-magic-gathering-avatar-collector-booster-sale",
-    "date": 1775077751000,
-    "domain": "polygon.com",
-    "sourceName": "Polygon",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The most baffling apostrophe in gaming history: a PC Gamer investigation",
     "link": "https://www.pcgamer.com/gaming-industry/the-most-baffling-apostrophe-in-gaming-history-a-pc-gamer-investigation",
     "date": 1775077944000,
@@ -1899,6 +1830,25 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "All Will Fall release countdown: Exact date and time",
+    "link": "https://www.destructoid.com/all-will-fall-release-countdown-exact-date-and-time",
+    "date": 1775081538000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Road To Vostok Early Access Release Date Countdown & Exact Start Times",
+        "link": "https://insider-gaming.com/road-to-vostok-early-access-release-date-countdown-exact-start-times",
+        "date": 1775142497000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "All Bandage Locations in World One - The Forest in Super Meat Boy 3D",
@@ -1970,6 +1920,41 @@
         "domain": "store.steampowered.com",
         "sourceName": "Steam News",
         "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "The Super Mario Galaxy Movie Swaps Heart for References",
+    "link": "https://www.dualshockers.com/the-super-mario-galaxy-movie-replaces-heart-with-references-review",
+    "date": 1775087922000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Was Never Framed As A Sequel",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-was-never-framed-as-a-sequel/1100-6539183",
+        "date": 1775146140000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
       }
     ]
   },
@@ -4277,16 +4262,8 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
-      {
-        "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
-        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
-        "date": 1775137245000,
-        "domain": "reddit.com",
-        "sourceName": "Reddit Leaks",
-        "isTranslated": false
-      },
       {
         "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
         "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
@@ -4423,6 +4400,25 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
+    "date": 1775137245000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "'It Killed Me That People Couldn't Play It' — Director of The Last of Us Online Only Found Out It Was Canceled 24 Hours Before the Public, Says It Was 80% Complete",
+        "link": "https://www.ign.com/articles/it-killed-me-that-people-couldnt-play-it-director-of-the-last-of-us-online-only-found-out-it-was-cancelled-24-hours-before-the-public-says-it-was-80-complete",
+        "date": 1775141530000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Nexon calls Arc Raiders a \"Trojan Horse\" for proving controversial AI tools can build triple-A hits with smaller teams",
@@ -4749,20 +4745,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4858,15 +4854,6 @@
     "hotScore": 1
   },
   {
-    "title": "'It Killed Me That People Couldn't Play It' — Director of The Last of Us Online Only Found Out It Was Canceled 24 Hours Before the Public, Says It Was 80% Complete",
-    "link": "https://www.ign.com/articles/it-killed-me-that-people-couldnt-play-it-director-of-the-last-of-us-online-only-found-out-it-was-cancelled-24-hours-before-the-public-says-it-was-80-complete",
-    "date": 1775141530000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "World’s Oldest Tortoise Isn’t Dead, That Was Just A Crypto Coin Hoax",
     "link": "https://kotaku.com/crypto-coin-hoax-tried-to-scam-people-into-believing-the-worlds-oldest-tortoise-just-died-2000684239",
     "date": 1775141701000,
@@ -4891,8 +4878,16 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 5,
     "groupMembers": [
+      {
+        "title": "Co-Founder Of Call Of Duty Studio Raven Retires After 36 Years And 42 Games Released",
+        "link": "https://www.gamespot.com/articles/co-founder-of-call-of-duty-studio-raven-retires-after-36-years-and-42-games-released/1100-6539189",
+        "date": 1775143500000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
       {
         "title": "Raven Software Cofounder Retires After 36 Years, Reminding People Of All The Cool Stuff It Used To Make Before Call Of Duty",
         "link": "https://kotaku.com/raven-software-brian-raffel-hexen-call-duty-2000684262",
@@ -4902,11 +4897,11 @@
         "isTranslated": false
       },
       {
-        "title": "Co-Founder Of Call Of Duty Studio Raven Retires After 36 Years And 42 Games Released",
-        "link": "https://www.gamespot.com/articles/co-founder-of-call-of-duty-studio-raven-retires-after-36-years-and-42-games-released/1100-6539189",
-        "date": 1775143500000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
+        "title": "Warzone studio co-founder retires after more than three decades",
+        "link": "https://www.dexerto.com/call-of-duty/warzone-studio-co-founder-retires-after-more-than-three-decades-3345616",
+        "date": 1775150007000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
         "isTranslated": false
       },
       {
@@ -5188,15 +5183,6 @@
     "date": 1775143913000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Peak Devs Hit Back At Fans Angry Over Updates",
-    "link": "https://www.thegamer.com/peak-devs-hit-back-no-updates",
-    "date": 1775143949000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5654,15 +5640,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Super Mario Galaxy Movie Was Never Framed As A Sequel",
-    "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-was-never-framed-as-a-sequel/1100-6539183",
-    "date": 1775146140000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Deep Rock Galactic: Survivor's upcoming DLC is bringing back the original's seasonally appropriate Egg Hunt mode",
     "link": "https://www.rockpapershotgun.com/deep-rock-galactic-survivors-upcoming-dlc-is-bringing-back-the-originals-seasonally-appropriate-egg-hunt-mode",
     "date": 1775146176000,
@@ -5949,15 +5926,6 @@
     "hotScore": 1
   },
   {
-    "title": "Pokemon Pokopia Player Builds Giant Sudowoodo Using Inflatable Sudowoodos",
-    "link": "https://gamerant.com/pokemon-pokopia-giant-sudowoodo-inflatable",
-    "date": 1775149275000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Amazon Prime: All 11 Games Subscribers Can Claim For Free In April 2026",
     "link": "https://www.thegamer.com/xcom-total-war-free-games-amazon-prime-april-2026",
     "date": 1775149279000,
@@ -5975,15 +5943,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Warzone studio co-founder retires after more than three decades",
-    "link": "https://www.dexerto.com/call-of-duty/warzone-studio-co-founder-retires-after-more-than-three-decades-3345616",
-    "date": 1775150007000,
-    "domain": "dexerto.com",
-    "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "PlayStation 6 Handheld Leak Teases the Device's Power",
@@ -6198,6 +6157,60 @@
     "date": 1775153741000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Ex Naughty Dog director says Naughty Dog had at LEAST 2 single player projects in development at the time that factions 2 was cancelled. Last year Daniel RPK claimed 3 single player games were being worked on at the studio",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sapgpo/ex_naughty_dog_director_says_naughty_dog_had_at",
+    "date": 1775154372000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Fortnite's brainrot characters ignite a fan revolt",
+    "link": "https://www.polygon.com/fortnite-brainrot-tung-sahur-ballerina-cappuccina-skins-layoffs",
+    "date": 1775154397000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "French consumer advocacy group sues Ubisoft for taking The Crew offline, almost two years since Stop Killing Games first protested it",
+    "link": "https://www.destructoid.com/ubisoft-the-crew-lawsuit",
+    "date": 1775154446000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Pokemon Legends: Z-A Has New Free Downloads You Can Claim Right Now",
+    "link": "https://gamerant.com/pokemon-legends-za-free-download-alpha-starters-home",
+    "date": 1775154616000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Best Job Medals In Dissidia Duellum Final Fantasy",
+    "link": "https://www.thegamer.com/dissidia-duellum-final-fantasy-best-job-medals-tier-list-support-tank-dps-melee-ranged-ranked",
+    "date": 1775154619000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
   }
