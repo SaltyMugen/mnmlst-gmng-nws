@@ -428,7 +428,7 @@ def _extract_topic_key(title: str) -> str | None:
 
 def _group_articles(articles: list[dict]) -> list[dict]:
     SIMILARITY_THRESHOLD = 69
-    TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
+    TOPIC_TIME_WINDOW_MS = 24 * 60 * 60 * 1000  # 48 hours for topic grouping
     MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
 
     norms = [_norm_title(a["title"]) for a in articles]
@@ -446,8 +446,16 @@ def _group_articles(articles: list[dict]) -> list[dict]:
                 continue
             if abs(articles[i]["date"] - articles[j]["date"]) > 86400000:
                 continue
-            score = fuzz.ratio(norms[i], norms[j])
-            if score >= SIMILARITY_THRESHOLD:
+            score = fuzz.token_set_ratio(norms[i], norms[j])
+            def _keyword_overlap(a: str, b: str) -> int:
+                sa = set(a.split())
+                sb = set(b.split())
+                return len(sa & sb)
+
+            if (
+                score >= SIMILARITY_THRESHOLD
+                or _keyword_overlap(norms[i], norms[j]) >= 3
+            ):
                 group.append(articles[j])
                 used.add(j)
         groups.append(group)
@@ -463,7 +471,16 @@ def _group_articles(articles: list[dict]) -> list[dict]:
         topic = _extract_topic_key(article["title"])
         if topic:
             topic_key = topic.lower()
-            topic_map.setdefault(topic_key, []).append(gi)
+            
+            matched = False
+            for existing_key in topic_map:
+                if fuzz.token_set_ratio(topic_key, existing_key) > 75:
+                    topic_map[existing_key].append(gi)
+                    matched = True
+                    break
+                    
+            if not matched:
+                topic_map[topic_key] = [gi]
 
     # Merge groups that share the same topic key and are within the time window
     topic_merged: set[int] = set()
@@ -507,7 +524,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
-    cutoff_ms = now_ms - (48 * 60 * 60 * 1000)
+    cutoff_ms = now_ms - (24 * 60 * 60 * 1000)
 
     all_articles: list[dict] = []
 
