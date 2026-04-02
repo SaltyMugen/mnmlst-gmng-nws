@@ -892,7 +892,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
@@ -901,22 +901,6 @@
         "domain": "videogameschronicle.com",
         "sourceName": "VGC",
         "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
       }
     ]
   },
@@ -1425,15 +1409,6 @@
     ]
   },
   {
-    "title": "The U.S. Patent Office rejects all 26 sections of Nintendo's \"Character Summoning\" patent - orders an unusual reexamination",
-    "link": "http://www.gamespark.jp/article/2026/04/02/164661.html",
-    "date": 1775063462000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Mortal Shell II, a soul-like sequel that possesses corpses and uses them as its own power, releases over 10 minutes of gameplay footage featuring three characters - open beta to be held this summer & scheduled for release in 2026",
     "link": "http://www.gamespark.jp/article/2026/04/02/164662.html",
     "date": 1775064550000,
@@ -1503,7 +1478,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 5,
     "groupMembers": [
       {
         "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
@@ -1512,6 +1487,30 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
+      },
+      {
+        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+        "date": 1775119598000,
+        "domain": "gamesindustry.biz",
+        "sourceName": "GamesIndustry.biz",
+        "isTranslated": false
+      },
+      {
+        "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
+        "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
+        "date": 1775090134000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "The U.S. Patent Office rejects all 26 sections of Nintendo's \"Character Summoning\" patent - orders an unusual reexamination",
+        "link": "http://www.gamespark.jp/article/2026/04/02/164661.html",
+        "date": 1775063462000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
       }
     ]
   },
@@ -1936,15 +1935,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
-    "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
-    "date": 1775090134000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“TOKYO INDIE GAMES SUMMIT 2026” Exhibited Works Report (Part 2). As entropy continues to increase, chivalry and good stories intertwine.",
     "link": "https://www.4gamer.net/games/991/G999110/20260401024",
     "date": 1775091600000,
@@ -2090,6 +2080,14 @@
     "hotScore": 4,
     "groupMembers": [
       {
+        "title": "Remember the Switch 2's Mysterious C Button? Nintendo Is Trying to Tempt You With Platinum Points and User Icons Just to Press It, Now GameChat Is a Premium Feature",
+        "link": "https://www.ign.com/articles/remember-the-switch-2s-mysterious-c-button-nintendo-is-trying-to-tempt-you-with-platinum-points-and-user-icons-just-to-press-it-now-gamechat-is-a-premium-feature",
+        "date": 1775148331000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
         "title": "Nintendo Wants To Bribe You To Use GameChat On Switch 2",
         "link": "https://www.gamespot.com/articles/nintendo-wants-to-bribe-you-to-use-gamechat-on-switch-2/1100-6539182",
         "date": 1775138940000,
@@ -2103,14 +2101,6 @@
         "date": 1775156420000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Remember the Switch 2's Mysterious C Button? Nintendo Is Trying to Tempt You With Platinum Points and User Icons Just to Press It, Now GameChat Is a Premium Feature",
-        "link": "https://www.ign.com/articles/remember-the-switch-2s-mysterious-c-button-nintendo-is-trying-to-tempt-you-with-platinum-points-and-user-icons-just-to-press-it-now-gamechat-is-a-premium-feature",
-        "date": 1775148331000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -2582,19 +2572,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "Work with Satone even on your smartphone. Work ADV “Chill with You: Lo-Fi Story” with over 200,000 downloads will be released on April 8th for iOS and Android",
-        "link": "http://www.gamespark.jp/article/2026/04/02/164674.html",
-        "date": 1775108103000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
         "title": "The smartphone version of “Chill with You: Lo-Fi Story” will be released on April 8th. You can carry around a \"work call\" with Literary Girl Satone for free. Equipped with features unique to smartphones such as data linkage with the PC version and standby mode",
         "link": "https://news.denfaminicogamer.jp/news/260402i",
         "date": 1775100614000,
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Work with Satone even on your smartphone. Work ADV “Chill with You: Lo-Fi Story” with over 200,000 downloads will be released on April 8th for iOS and Android",
+        "link": "http://www.gamespark.jp/article/2026/04/02/164674.html",
+        "date": 1775108103000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
         "isTranslated": true
       },
       {
@@ -3008,15 +2998,6 @@
     "hotScore": 1
   },
   {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-    "date": 1775119598000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -3204,7 +3185,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "GOG’s optimised ports of the original PC Resident Evil trilogy are now on Steam too",
@@ -3221,14 +3202,6 @@
         "domain": "dualshockers.com",
         "sourceName": "DualShockers",
         "isTranslated": false
-      },
-      {
-        "title": "The original version of \"Resident Evil\" 1-3 is now available on Steam. Now you can easily play the three original horror classics on your PC",
-        "link": "https://www.4gamer.net/games/995/G099586/20260402038",
-        "date": 1775118731000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -3741,7 +3714,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "The first three ``Resident Evil'' works are now available on Steam. Reprinted for modern PCs, now 500 yen each",
@@ -3757,6 +3730,14 @@
         "date": 1775090535000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "The original version of \"Resident Evil\" 1-3 is now available on Steam. Now you can easily play the three original horror classics on your PC",
+        "link": "https://www.4gamer.net/games/995/G099586/20260402038",
+        "date": 1775118731000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -4072,15 +4053,6 @@
     "hotScore": 1
   },
   {
-    "title": "Souls Games With Better Co-Op Than Nightreign",
-    "link": "https://www.dualshockers.com/souls-games-with-better-co-op-than-nightreign",
-    "date": 1775133013000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Fight in a strange world while stealing the \"shapes\" of living things...The sequel to the \"very popular\" metroidvania \"GRIME\" is here - freshly harvested! Today's 16 featured games on Steam [April 2, 2026]",
     "link": "http://www.gamespark.jp/article/2026/04/02/164696.html",
     "date": 1775133068000,
@@ -4207,19 +4179,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
-        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
-        "date": 1775137245000,
-        "domain": "reddit.com",
-        "sourceName": "Reddit Leaks",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
         "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
         "date": 1775136600000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
+        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
+        "date": 1775137245000,
+        "domain": "reddit.com",
+        "sourceName": "Reddit Leaks",
         "isTranslated": false
       },
       {
@@ -4439,6 +4411,33 @@
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "Quick thoughts about the Super Mario Galaxy movie",
+    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+    "date": 1775138132000,
+    "domain": "gamefile.news",
+    "sourceName": "Game File",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Was Never Framed As A Sequel",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-was-never-framed-as-a-sequel/1100-6539183",
+        "date": 1775146140000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
@@ -4799,8 +4798,16 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 4,
     "groupMembers": [
+      {
+        "title": "Co-Founder Of Call Of Duty Studio Raven Retires After 36 Years And 42 Games Released",
+        "link": "https://www.gamespot.com/articles/co-founder-of-call-of-duty-studio-raven-retires-after-36-years-and-42-games-released/1100-6539189",
+        "date": 1775143500000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
       {
         "title": "Raven Software Cofounder Retires After 36 Years, Reminding People Of All The Cool Stuff It Used To Make Before Call Of Duty",
         "link": "https://kotaku.com/raven-software-brian-raffel-hexen-call-duty-2000684262",
@@ -4810,11 +4817,11 @@
         "isTranslated": false
       },
       {
-        "title": "Co-Founder Of Call Of Duty Studio Raven Retires After 36 Years And 42 Games Released",
-        "link": "https://www.gamespot.com/articles/co-founder-of-call-of-duty-studio-raven-retires-after-36-years-and-42-games-released/1100-6539189",
-        "date": 1775143500000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
+        "title": "Warzone studio co-founder retires after more than three decades",
+        "link": "https://www.dexerto.com/call-of-duty/warzone-studio-co-founder-retires-after-more-than-three-decades-3345616",
+        "date": 1775150007000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
         "isTranslated": false
       }
     ]
@@ -5292,6 +5299,24 @@
     "hotScore": 1
   },
   {
+    "title": "Diablo 4: Lord of Hatred Exclusive Cutscene – 'The Queen and the Saint' | IGN First",
+    "link": "https://www.ign.com/articles/diablo-4-lord-of-hatred-exclusive-cutscene-the-queen-and-the-saint-ign-first",
+    "date": 1775145600000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Best Comics and Graphic Novels Releasing in April 2026 – Here's What to Read This Month",
+    "link": "https://www.ign.com/articles/the-best-comics-and-graphic-novels-april-2026",
+    "date": 1775145600000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "More Games Need To Be Honest About Being Early Access",
     "link": "https://www.gamespot.com/videos/more-games-need-to-be-honest-about-being-early-access/2300-6466802",
     "date": 1775145600000,
@@ -5309,24 +5334,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Diablo 4: Lord of Hatred Exclusive Cutscene – 'The Queen and the Saint' | IGN First",
-    "link": "https://www.ign.com/articles/diablo-4-lord-of-hatred-exclusive-cutscene-the-queen-and-the-saint-ign-first",
-    "date": 1775145600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Best Comics and Graphic Novels Releasing in April 2026 – Here's What to Read This Month",
-    "link": "https://www.ign.com/articles/the-best-comics-and-graphic-novels-april-2026",
-    "date": 1775145600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
@@ -5355,19 +5362,19 @@
         "isTranslated": true
       },
       {
-        "title": "Recruitment for the 2nd CBT for the new smartphone game “Monster Hunter Outlanders” begins – large monsters and new adventurers added from last time",
-        "link": "http://www.gamespark.jp/article/2026/04/02/164680.html",
-        "date": 1775114104000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
         "title": "Recruitment for the 2nd closed beta test for the new Monster Hunter smartphone game ``Monster Hunter Outlanders'' begins on April 2nd. Applications for iOS/Android will be accepted until 15:59 on April 22nd, and the start date and time of the test will be announced at a later date.",
         "link": "https://news.denfaminicogamer.jp/news/2604022g",
         "date": 1775106444000,
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Recruitment for the 2nd CBT for the new smartphone game “Monster Hunter Outlanders” begins – large monsters and new adventurers added from last time",
+        "link": "http://www.gamespark.jp/article/2026/04/02/164680.html",
+        "date": 1775114104000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
         "isTranslated": true
       },
       {
@@ -5513,15 +5520,6 @@
     "date": 1775146068000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Super Mario Galaxy Movie Was Never Framed As A Sequel",
-    "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-was-never-framed-as-a-sequel/1100-6539183",
-    "date": 1775146140000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5835,15 +5833,6 @@
     "date": 1775149467000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Warzone studio co-founder retires after more than three decades",
-    "link": "https://www.dexerto.com/call-of-duty/warzone-studio-co-founder-retires-after-more-than-three-decades-3345616",
-    "date": 1775150007000,
-    "domain": "dexerto.com",
-    "sourceName": "Dexerto",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6195,6 +6184,24 @@
     "date": 1775156751000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'We're Just Getting Started' - Xbox Employee Hypes Up 'Momentum' Of 2026 So Far",
+    "link": "https://www.purexbox.com/news/2026/04/were-just-getting-started-xbox-employee-hypes-up-momentum-of-2026-so-far",
+    "date": 1775157180000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Best Legendary Shotguns in Borderlands 4",
+    "link": "https://www.dualshockers.com/best-legendary-shotguns-in-borderlands-4-and-how-to-get-them",
+    "date": 1775157497000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 1
   }
