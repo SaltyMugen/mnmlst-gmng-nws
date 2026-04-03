@@ -811,25 +811,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
-        "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
-        "date": 1775071800000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-        "date": 1775119598000,
-        "domain": "gamesindustry.biz",
-        "sourceName": "GamesIndustry.biz",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Pikmin 4 Keychains Return to Japan",
@@ -848,6 +830,33 @@
     "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
+    "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
+    "date": 1775071800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+        "date": 1775119598000,
+        "domain": "gamesindustry.biz",
+        "sourceName": "GamesIndustry.biz",
+        "isTranslated": false
+      },
+      {
+        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+        "link": "https://jp.ign.com/palworld/83077/news",
+        "date": 1775177010000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Out Of Nowhere, Xbox Just Announced NBA 2K26 For Game Pass",
@@ -1150,7 +1159,7 @@
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1177,7 +1186,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1421,7 +1430,7 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
+    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
     "domain": "4gamer.net",
@@ -1485,7 +1494,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -1549,7 +1558,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -1675,7 +1684,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
+    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -1874,7 +1883,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -2135,7 +2144,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -2241,7 +2250,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Peak devs remind players that 'any update is a bonus not a right'",
@@ -2249,6 +2258,14 @@
         "date": 1775141031000,
         "domain": "polygon.com",
         "sourceName": "Polygon",
+        "isTranslated": false
+      },
+      {
+        "title": "\"Any Update is a Bonus, Not a Right\" Peak Developer Responds to \"Lazy\" Criticism",
+        "link": "https://gamerant.com/peak-updates-landfall",
+        "date": 1775184470000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
         "isTranslated": false
       }
     ]
@@ -3403,20 +3420,20 @@
     "hotScore": 1
   },
   {
-    "title": "There's just no good reason why WoW's story mode raids aren't available right away—and I'm saying that as someone who cleared normal just fine last month",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/theres-just-no-good-reason-why-wows-story-mode-raids-arent-available-right-away-and-im-saying-that-as-someone-who-cleared-normal-just-fine-last-month",
-    "date": 1775143079000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Epic Games giving away a highly-rated PC game right now",
     "link": "https://www.polygon.com/epic-store-free-game-april-2-clone-drone-in-the-danger-zone",
     "date": 1775143079000,
     "domain": "polygon.com",
     "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "There's just no good reason why WoW's story mode raids aren't available right away—and I'm saying that as someone who cleared normal just fine last month",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/theres-just-no-good-reason-why-wows-story-mode-raids-arent-available-right-away-and-im-saying-that-as-someone-who-cleared-normal-just-fine-last-month",
+    "date": 1775143079000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3691,7 +3708,7 @@
     ]
   },
   {
-    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -4913,7 +4930,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -5082,15 +5099,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-    "link": "https://jp.ign.com/palworld/83077/news",
-    "date": 1775177010000,
-    "domain": "jp.ign.com",
-    "sourceName": "IGN Japan",
-    "isTranslated": true,
-    "hotScore": 1
   },
   {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
@@ -5367,15 +5375,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"Any Update is a Bonus, Not a Right\" Peak Developer Responds to \"Lazy\" Criticism",
-    "link": "https://gamerant.com/peak-updates-landfall",
-    "date": 1775184470000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Bandai Namco Group's live hall \"Shibuya LOVEZ\" will open on June 27th! An opening series featuring appearances by T.M.Revolution and Takanori Nishikawa will also be held.",
     "link": "https://www.gamer.ne.jp/news/202604030007",
     "date": 1775184780000,
@@ -5619,7 +5618,7 @@
     "hotScore": 1
   },
   {
-    "title": "The 4th cast of “Tales of Festival 2026” including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
+    "title": "The 4th cast of \"Tales of Festival 2026\" including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
     "link": "https://www.gamer.ne.jp/news/202604030012",
     "date": 1775189280000,
     "domain": "gamer.ne.jp",
@@ -5628,7 +5627,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! Introducing new goods such as star fragment style bottle terrarium collection",
+    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! New goods such as star fragment style bottle terrarium collection are now available",
     "link": "https://www.gamer.ne.jp/news/202604030013",
     "date": 1775189640000,
     "domain": "gamer.ne.jp",
@@ -5825,7 +5824,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+    "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
     "link": "https://news.denfaminicogamer.jp/interview/260403s",
     "date": 1775192430000,
     "domain": "news.denfaminicogamer.jp",
