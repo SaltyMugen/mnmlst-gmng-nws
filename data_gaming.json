@@ -145,15 +145,6 @@
     "hotScore": 1
   },
   {
-    "title": "Elden Ring's famous \"too strong naked pressure point\" player insinuates that he \"lost to Marenia\", causing an uproar in the community. Even “heroes” sometimes lose.",
-    "link": "https://automaton-media.com/articles/newsjp/20260401-433979",
-    "date": 1775030112000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Next-gen DirectX heads into the abyss of inference accelerators and ray tracing. The latest information on DirectX from 2026 onwards",
     "link": "https://www.4gamer.net/games/033/G003329/20260331034",
     "date": 1775030400000,
@@ -886,15 +877,6 @@
     "hotScore": 1
   },
   {
-    "title": "Remember When Call of Duty Said Its New Skins Would Be Sensible? Well, Here's Dave Chappelle",
-    "link": "https://www.pushsquare.com/news/2026/04/remember-when-call-of-duty-said-its-new-skins-would-be-sensible-well-heres-dave-chappelle",
-    "date": 1775052000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Movie Review: The Super Mario Galaxy Movie - A Faithful But Overstuffed Sequel",
     "link": "https://www.nintendolife.com/features/movie-review-the-super-mario-galaxy-movie-a-faithful-but-overstuffed-sequel",
     "date": 1775052000000,
@@ -928,6 +910,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Remember When Call of Duty Said Its New Skins Would Be Sensible? Well, Here's Dave Chappelle",
+    "link": "https://www.pushsquare.com/news/2026/04/remember-when-call-of-duty-said-its-new-skins-would-be-sensible-well-heres-dave-chappelle",
+    "date": 1775052000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Players’ Choice: Vote for March 2026’s best new game",
@@ -1155,20 +1146,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
-    "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
-    "date": 1775062800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'No Mode Is Properly Optimised on Base PS5': Crimson Desert's Console Performance a 'Mixed Bag'",
     "link": "https://www.pushsquare.com/news/2026/04/no-mode-is-properly-optimised-on-base-ps5-crimson-deserts-console-performance-a-mixed-bag",
     "date": 1775062800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
+    "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
+    "date": 1775062800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1225,16 +1216,17 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Pikmin 4 Keychains Return to Japan",
-    "link": "https://www.siliconera.com/pikmin-4-keychains-return-to-japan",
-    "date": 1775070000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
+        "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
+        "date": 1775071800000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Bethesda Shares Starfield Free Lanes Deep Dive, Included in PS5 Version",
@@ -1246,23 +1238,13 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
-    "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
-    "date": 1775071800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "title": "Pikmin 4 Keychains Return to Japan",
+    "link": "https://www.siliconera.com/pikmin-4-keychains-return-to-japan",
+    "date": 1775070000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-        "date": 1775119598000,
-        "domain": "gamesindustry.biz",
-        "sourceName": "GamesIndustry.biz",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Out Of Nowhere, Xbox Just Announced NBA 2K26 For Game Pass",
@@ -1319,20 +1301,20 @@
     "hotScore": 1
   },
   {
-    "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
-    "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
-    "date": 1775075400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
     "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
     "date": 1775075400000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
+    "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
+    "date": 1775075400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2511,6 +2493,15 @@
     "hotScore": 1
   },
   {
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "date": 1775119598000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -3449,20 +3440,20 @@
     "hotScore": 1
   },
   {
-    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
-    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
-    "date": 1775131200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
     "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
     "date": 1775131200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
+    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
+    "date": 1775131200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3613,20 +3604,20 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Mega Man Star Force Legacy Collection Preserves More Classics",
-    "link": "https://www.siliconera.com/review-mega-man-star-force-legacy-collection-preserves-more-classics",
-    "date": 1775134800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
     "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
     "date": 1775134800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Mega Man Star Force Legacy Collection Preserves More Classics",
+    "link": "https://www.siliconera.com/review-mega-man-star-force-legacy-collection-preserves-more-classics",
+    "date": 1775134800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3667,19 +3658,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-        "date": 1775136600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
         "date": 1775137245000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
+        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
+        "date": 1775136600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -3910,15 +3901,6 @@
     "hotScore": 1
   },
   {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
-    "date": 1775138400000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
     "link": "https://gamesbeat.com/karafun-karaoke-platform-creates-karafun-battle-mobile-game",
     "date": 1775138400000,
@@ -3926,6 +3908,33 @@
     "sourceName": "GamesBeat",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "date": 1775138400000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "PC indie game specialty subscription “Indie Pass” service starts on April 13, 2026",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164707.html",
+        "date": 1775142577000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
+        "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
+        "date": 1775176816000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Neptunia: Sisters VS Sisters was originally supposed to be developed as a mainline entry, but priorities switched to Unlimited so that the OG devs could be involved from day one",
@@ -4265,6 +4274,24 @@
     ]
   },
   {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
+    "link": "https://www.pushsquare.com/news/2026/04/assassins-creed-unitys-ps5-patch-is-put-to-the-test-with-some-surprising-results",
+    "date": 1775142000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
     "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
     "date": 1775142000000,
@@ -4282,24 +4309,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
-    "link": "https://www.pushsquare.com/news/2026/04/assassins-creed-unitys-ps5-patch-is-put-to-the-test-with-some-surprising-results",
-    "date": 1775142000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Japanese crowdfunded $340k game still missing half its funds as platform claims it accidentally sent the money elsewhere",
@@ -4335,15 +4344,6 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PC indie game specialty subscription “Indie Pass” service starts on April 13, 2026",
-    "link": "http://www.gamespark.jp/article/2026/04/03/164707.html",
-    "date": 1775142577000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -4583,6 +4583,24 @@
     "hotScore": 1
   },
   {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
+    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
+    "date": 1775145600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
     "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
     "date": 1775145600000,
@@ -4624,24 +4642,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
-    "date": 1775145600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Upcoming Japanese dating sim Girlfailure Art Club puts you at the mercy of four quirky otaku high school girls",
@@ -4761,20 +4761,20 @@
     "hotScore": 1
   },
   {
-    "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
-    "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
-    "date": 1775147400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
     "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
     "date": 1775147400000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
+    "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
+    "date": 1775147400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4996,11 +4996,11 @@
     ]
   },
   {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
+    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5014,11 +5014,11 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
-    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
     "date": 1775149200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5185,20 +5185,20 @@
     "hotScore": 1
   },
   {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
-    "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
     "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
     "date": 1775152800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "date": 1775152800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
