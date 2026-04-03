@@ -337,7 +337,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 6,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
@@ -362,22 +362,6 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
       }
     ]
   },
@@ -887,20 +871,20 @@
     "hotScore": 1
   },
   {
-    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
-    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
-    "date": 1775075400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
     "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
     "date": 1775075400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
+    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
+    "date": 1775075400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1076,7 +1060,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Breaking Down The 12 Biggest Super Mario Galaxy Movie Cameos And References",
@@ -1093,11 +1077,27 @@
         "domain": "kotaku.com",
         "sourceName": "Kotaku",
         "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
       }
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1124,7 +1124,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1359,7 +1359,7 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
+    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
     "domain": "4gamer.net",
@@ -1423,7 +1423,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -1487,7 +1487,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -1613,7 +1613,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
+    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -1822,7 +1822,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -1871,15 +1871,6 @@
     "date": 1775121470000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "A book has been released in which Hideki Kamiya, who worked on ``Okami,'' ``Bayonetta,'' and ``Devil May Cry,'' talks about development episodes and his thoughts on the works. Unraveling the essence of game design with hundreds of setting images",
-    "link": "https://news.denfaminicogamer.jp/news/2604022q",
-    "date": 1775122277000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -2065,7 +2056,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -2411,20 +2402,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
-    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
-    "date": 1775131200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
     "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
     "date": 1775131200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
+    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
+    "date": 1775131200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3214,20 +3205,20 @@
     "hotScore": 1
   },
   {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
     "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
     "date": 1775142000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3559,20 +3550,20 @@
     ]
   },
   {
-    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
-    "date": 1775145600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Grab These Resident Evil PSN Avatars for Free This Month",
     "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
     "date": 1775145600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
+    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
+    "date": 1775145600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3613,7 +3604,7 @@
     ]
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -3703,15 +3694,6 @@
     "hotScore": 1
   },
   {
-    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
-    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
-    "date": 1775147400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
     "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
     "date": 1775147400000,
@@ -3729,6 +3711,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
+    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
+    "date": 1775147400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Anime Awards 2026 nominees revealed as Demon Slayer and Chainsaw Man battle for Film of the Year",
@@ -3955,20 +3946,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
-    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
-    "date": 1775149200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
     "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
+    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
+    "date": 1775149200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4815,7 +4806,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -5093,24 +5084,8 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
-      {
-        "title": "Karaoke PV for “Bunny Garden 2” released! Some of the songs prepared for each cast are released",
-        "link": "https://www.gamer.ne.jp/news/202604030008",
-        "date": 1775185920000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
-        "title": "qureate releases a karaoke PV that shows part of the stage where the cast of \"Bunny Garden 2\" sing and dance",
-        "link": "https://gamebiz.jp/news/423759",
-        "date": 1775192820000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      },
       {
         "title": "The latest video \"Karaoke PV\" of the cast of \"Bunny Garden 2\" singing and dancing has been released. Unveiling the thrilling performances of new characters",
         "link": "https://www.4gamer.net/games/986/G098647/20260403017",
@@ -5320,6 +5295,25 @@
     "hotScore": 1
   },
   {
+    "title": "Karaoke PV for “Bunny Garden 2” released! Some of the songs prepared for each cast are released",
+    "link": "https://www.gamer.ne.jp/news/202604030008",
+    "date": 1775185920000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "qureate releases a karaoke PV that shows part of the stage where the cast of \"Bunny Garden 2\" sing and dance",
+        "link": "https://gamebiz.jp/news/423759",
+        "date": 1775192820000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "Introducing the photo report of the “Heaven Burns Red” x “SMALL WORLDS Miniature Museum” collaboration!",
     "link": "https://www.gamer.ne.jp/news/202604030006",
     "date": 1775186520000,
@@ -5411,7 +5405,7 @@
     "hotScore": 1
   },
   {
-    "title": "The 4th cast of \"Tales of Festival 2026\" including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
+    "title": "The 4th cast of “Tales of Festival 2026” including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
     "link": "https://www.gamer.ne.jp/news/202604030012",
     "date": 1775189280000,
     "domain": "gamer.ne.jp",
@@ -5420,7 +5414,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! New goods such as star fragment style bottle terrarium collection are now available",
+    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! Introducing new goods such as star fragment style bottle terrarium collection",
     "link": "https://www.gamer.ne.jp/news/202604030013",
     "date": 1775189640000,
     "domain": "gamer.ne.jp",
@@ -5566,15 +5560,6 @@
     "hotScore": 1
   },
   {
-    "title": "Neos has decided on early purchase benefits for “Culdcept Begins”! You can get gorgeous DLC such as avatars of past characters such as \"Zeneth\" and \"Najran\"",
-    "link": "https://gamebiz.jp/news/423752",
-    "date": 1775191680000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Blizzard is hiring a lead designer for a AAA open-world shooter. Is a project inheriting the lineage of \"StarCraft\" starting?",
     "link": "https://www.4gamer.net/games/999/G999901/20260403019",
     "date": 1775191922000,
@@ -5593,7 +5578,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+    "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
     "link": "https://news.denfaminicogamer.jp/interview/260403s",
     "date": 1775192430000,
     "domain": "news.denfaminicogamer.jp",
@@ -5611,20 +5596,20 @@
     "hotScore": 1
   },
   {
-    "title": "“Heartwarming Fishing Story” A fishing life that expands further in the tropical sea! DLC “More Southern Island Pack” now available on Switch",
-    "link": "https://www.gamer.ne.jp/news/202604030017",
-    "date": 1775192580000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "CCMC opens the Steam store for the strategy \"KING of HOLO\" developed by Take from the Hololive Production derivative game brand \"holo Indie\", and begins accepting advance wishlist registrations",
     "link": "https://gamebiz.jp/news/423746",
     "date": 1775192580000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Heartwarming Fishing Story” A fishing life that expands further in the tropical sea! DLC “More Southern Island Pack” now available on Switch",
+    "link": "https://www.gamer.ne.jp/news/202604030017",
+    "date": 1775192580000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6076,6 +6061,24 @@
     "date": 1775200200000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "[Game Entertainment Stock Overview (4/3)] Sakura Internet is S high due to collaboration with US Microsoft; Alphapolis rebounds after announcement of new game \"Appraiser (tentative)\"",
+    "link": "https://gamebiz.jp/news/423783",
+    "date": 1775200680000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen each” & 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
+    "link": "https://news.denfaminicogamer.jp/news/2604032q",
+    "date": 1775200799000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   }
