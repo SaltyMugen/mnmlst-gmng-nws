@@ -802,17 +802,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
-        "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
-        "date": 1775071800000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Pikmin 4 Keychains Return to Japan",
@@ -831,6 +821,33 @@
     "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
+    "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
+    "date": 1775071800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+        "date": 1775119598000,
+        "domain": "gamesindustry.biz",
+        "sourceName": "GamesIndustry.biz",
+        "isTranslated": false
+      },
+      {
+        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+        "link": "https://jp.ign.com/palworld/83077/news",
+        "date": 1775177010000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Out Of Nowhere, Xbox Just Announced NBA 2K26 For Game Pass",
@@ -1070,15 +1087,6 @@
     "hotScore": 1
   },
   {
-    "title": "“TOKYO INDIE GAMES SUMMIT 2026” Exhibited Works Report (Part 2). As entropy continues to increase, chivalry and good stories intertwine.",
-    "link": "https://www.4gamer.net/games/991/G999110/20260401024",
-    "date": 1775091600000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The Super Mario Galaxy Movie Is Already Breaking Box Office Records",
     "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-is-already-breaking-box-office-records",
     "date": 1775093700000,
@@ -1106,7 +1114,7 @@
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1133,7 +1141,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1178,8 +1186,8 @@
     "hotScore": 1
   },
   {
-    "title": "\"Ratatan\" starts accepting reservations for the package version for Switch2 & PS5. Early purchase bonus is an unlock code for the legendary weapon “Heroic Sword Banban Sword”",
-    "link": "https://www.4gamer.net/games/987/G098742/20260401052",
+    "title": "\"To the Mirror Flower that Will Disappear Soon\", DL version store page for Switch released. We are also running a campaign where you can win a set of ASMR voice drama 1st Season 5 works.",
+    "link": "https://www.4gamer.net/games/947/G094747/20260330027",
     "date": 1775098800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -1187,8 +1195,8 @@
     "hotScore": 1
   },
   {
-    "title": "\"To the Mirror Flower that Will Disappear Soon\", DL version store page for Switch released. We are also running a campaign where you can win a set of ASMR voice drama 1st Season 5 works.",
-    "link": "https://www.4gamer.net/games/947/G094747/20260330027",
+    "title": "\"Ratatan\" starts accepting reservations for the package version for Switch2 & PS5. Early purchase bonus is an unlock code for the legendary weapon “Heroic Sword Banban Sword”",
+    "link": "https://www.4gamer.net/games/987/G098742/20260401052",
     "date": 1775098800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
@@ -1368,7 +1376,7 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
+    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
     "domain": "4gamer.net",
@@ -1432,7 +1440,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -1496,7 +1504,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -1622,7 +1630,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
+    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -1730,25 +1738,6 @@
     "hotScore": 1
   },
   {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-    "date": 1775119598000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-        "link": "https://jp.ign.com/palworld/83077/news",
-        "date": 1775177010000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -1831,7 +1820,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -2083,7 +2072,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -2637,19 +2626,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-        "date": 1775136600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
         "date": 1775137245000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
+        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
+        "date": 1775136600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -3103,20 +3092,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3474,7 +3463,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -3483,22 +3472,6 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
-      },
-      {
-        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-        "date": 1775196005000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-        "date": 1775189953000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -3593,20 +3566,20 @@
     ]
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3647,7 +3620,7 @@
     ]
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -4859,7 +4832,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -4885,19 +4858,19 @@
         "isTranslated": false
       },
       {
-        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
-        "link": "https://news.denfaminicogamer.jp/news/260403g",
-        "date": 1775171435000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
         "title": "Teaser trailer for “STR 6” additional character “Ingrid” released! Even in the latest work, the Loli Baba is still the same",
         "link": "http://www.gamespark.jp/article/2026/04/03/164719.html",
         "date": 1775178008000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
+        "link": "https://news.denfaminicogamer.jp/news/260403g",
+        "date": 1775171435000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       },
       {
@@ -5276,15 +5249,6 @@
     "hotScore": 1
   },
   {
-    "title": "Bandai Namco Group's live hall \"Shibuya LOVEZ\" will open on June 27th! An opening series featuring appearances by T.M.Revolution and Takanori Nishikawa will also be held.",
-    "link": "https://www.gamer.ne.jp/news/202604030007",
-    "date": 1775184780000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Survival horror \"IROONI-\" released on Steam. Features a system that prevents you from being attacked if you touch an object of the same color as the colored demon's designated color.",
     "link": "https://www.4gamer.net/games/983/G098369/20260403004",
     "date": 1775185090000,
@@ -5467,7 +5431,7 @@
     "hotScore": 1
   },
   {
-    "title": "The 4th cast of \"Tales of Festival 2026\" including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
+    "title": "The 4th cast of “Tales of Festival 2026” including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
     "link": "https://www.gamer.ne.jp/news/202604030012",
     "date": 1775189280000,
     "domain": "gamer.ne.jp",
@@ -5476,7 +5440,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! New goods such as star fragment style bottle terrarium collection are now available",
+    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! Introducing new goods such as star fragment style bottle terrarium collection",
     "link": "https://www.gamer.ne.jp/news/202604030013",
     "date": 1775189640000,
     "domain": "gamer.ne.jp",
@@ -5507,6 +5471,25 @@
         "date": 1775187876000,
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+    "date": 1775189953000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+        "date": 1775196005000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
         "isTranslated": true
       }
     ]
@@ -5639,7 +5622,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+    "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
     "link": "https://news.denfaminicogamer.jp/interview/260403s",
     "date": 1775192430000,
     "domain": "news.denfaminicogamer.jp",
@@ -6086,6 +6069,24 @@
     "date": 1775199240000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Acceptance for the next lottery sale of Pikachu's life-sized stuffed toy \"Welcome back! Pikachu 1/1\" will begin on May 1st. Previous winners cannot apply",
+    "link": "https://www.4gamer.net/games/986/G098664/20260403030",
+    "date": 1775199717000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Levatec has been selected as a special sponsor of “EVO Japan 2026”! The tournament name is “EVO Japan 2026 presented by Revatec”",
+    "link": "https://www.gamer.ne.jp/news/202604030027",
+    "date": 1775199720000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   }
