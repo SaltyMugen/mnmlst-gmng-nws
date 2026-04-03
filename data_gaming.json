@@ -588,19 +588,19 @@
         "isTranslated": false
       },
       {
-        "title": "Cthulhu Cliff climbing roguelite \"Ascenders: Beyond the Peak\" announced. Climb the cliff that is surrounded by a “mysterious threat”, and even if you abandon your friends, you will climb anyway and aim for the top of the mountain.",
-        "link": "https://automaton-media.com/articles/newsjp/20260403-434412",
-        "date": 1775186114000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
         "title": "``Ascenders: Beyond the Peak'', a turn-based mountain climbing roguelite reminiscent of ``Mountains of Madness'', has been announced. Lead your troops tied together with ropes and take on the mountain range that reduces your SAN value.",
         "link": "https://news.denfaminicogamer.jp/news/260403t",
         "date": 1775185448000,
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Cthulhu Cliff climbing roguelite \"Ascenders: Beyond the Peak\" announced. Climb the cliff that is surrounded by a “mysterious threat”, and even if you abandon your friends, you will climb anyway and aim for the top of the mountain.",
+        "link": "https://automaton-media.com/articles/newsjp/20260403-434412",
+        "date": 1775186114000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
         "isTranslated": true
       },
       {
@@ -1072,20 +1072,20 @@
     "hotScore": 1
   },
   {
-    "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
-    "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
-    "date": 1775134800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Mega Man Star Force Legacy Collection Preserves More Classics",
     "link": "https://www.siliconera.com/review-mega-man-star-force-legacy-collection-preserves-more-classics",
     "date": 1775134800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
+    "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
+    "date": 1775134800000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1126,20 +1126,20 @@
     "hotScore": 1
   },
   {
-    "title": "Astro Burn is a cat sci-fi cute-em-up built for the rise of modern retro | Haz Dulull interview",
-    "link": "https://gamesbeat.com/astro-burn-is-a-cat-sci-fi-cute-em-up-built-for-the-rise-of-modern-retro-haz-dulull-interview",
-    "date": 1775136600000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pokémon Home Gets An Alpha-Sized Distribution To Celebrate Legends Z-A Compatibility",
     "link": "https://www.nintendolife.com/news/2026/04/pokemon-home-gets-an-alpha-sized-distribution-to-celebrate-legends-z-a-compatibility",
     "date": 1775136600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Astro Burn is a cat sci-fi cute-em-up built for the rise of modern retro | Haz Dulull interview",
+    "link": "https://gamesbeat.com/astro-burn-is-a-cat-sci-fi-cute-em-up-built-for-the-rise-of-modern-retro-haz-dulull-interview",
+    "date": 1775136600000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1315,15 +1315,6 @@
     "hotScore": 1
   },
   {
-    "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
-    "link": "https://gamesbeat.com/karafun-karaoke-platform-creates-karafun-battle-mobile-game",
-    "date": 1775138400000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Little Nightmares II Is Getting An 'Enhanced Edition' On Switch 2",
     "link": "https://www.nintendolife.com/news/2026/04/little-nightmares-ii-is-getting-an-enhanced-edition-on-switch-2",
     "date": 1775138400000,
@@ -1341,6 +1332,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
+    "link": "https://gamesbeat.com/karafun-karaoke-platform-creates-karafun-battle-mobile-game",
+    "date": 1775138400000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
@@ -1562,6 +1562,15 @@
     ]
   },
   {
+    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
+    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
+    "date": 1775142000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
     "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
     "date": 1775142000000,
@@ -1576,15 +1585,6 @@
     "date": 1775142000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
-    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
-    "date": 1775142000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1650,8 +1650,16 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
+        "link": "https://news.denfaminicogamer.jp/news/260403f",
+        "date": 1775187657000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
       {
         "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
         "link": "https://www.4gamer.net/games/996/G099632/20260403035",
@@ -1787,7 +1795,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 6,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -1796,38 +1804,6 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
-      },
-      {
-        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-        "link": "https://www.gamer.ne.jp/news/202604030048",
-        "date": 1775216040000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
-        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-        "date": 1775196005000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-        "link": "https://news.denfaminicogamer.jp/news/2604032s",
-        "date": 1775202202000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-        "date": 1775189953000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -1905,6 +1881,15 @@
     "hotScore": 1
   },
   {
+    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
+    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "date": 1775145600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Grab These Resident Evil PSN Avatars for Free This Month",
     "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
     "date": 1775145600000,
@@ -1919,15 +1904,6 @@
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
-    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
-    "date": 1775145600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2219,6 +2195,15 @@
     ]
   },
   {
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "date": 1775149200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
     "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
@@ -2233,15 +2218,6 @@
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
-    "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2366,20 +2342,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
-    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
-    "date": 1775152800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
     "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
+    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
+    "date": 1775152800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2919,19 +2895,19 @@
     "hotScore": 5,
     "groupMembers": [
       {
-        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
-        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
-        "date": 1775172600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "Ingrid Erases a World in a Street Fighter 6 Trailer",
         "link": "https://www.siliconera.com/ingrid-erases-a-world-in-a-street-fighter-6-trailer",
         "date": 1775232000000,
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
+        "isTranslated": false
+      },
+      {
+        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
+        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
+        "date": 1775172600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -3041,17 +3017,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
-        "link": "https://news.denfaminicogamer.jp/news/260403f",
-        "date": 1775187657000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Tisse...? Arena shooter \"GAME\" where Sunsoft's \"that character\" may appear The strongest occupation is not a hero or a wise man, but an appraiser (tentative), right? ～Underground Labyrinth and Mysterious Girl～” Announcement",
@@ -3426,6 +3392,15 @@
     ]
   },
   {
+    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+    "date": 1775189953000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -3532,7 +3507,17 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "``A game where Lina takes ■■ people from Lina's world.'' Disturbing deck-building roguelike “Hitori Asobi”, Steam store page released",
+        "link": "https://www.4gamer.net/games/979/G097959/20260403024",
+        "date": 1775195533000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Nexon opens a new area \"Maple Island\" in Lotte World Adventure in South Korea. Set up attractions that recreate games",
@@ -3652,25 +3637,6 @@
     "hotScore": 1
   },
   {
-    "title": "``A game where Lina takes ■■ people from Lina's world.'' Disturbing deck-building roguelike “Hitori Asobi”, Steam store page released",
-    "link": "https://www.4gamer.net/games/979/G097959/20260403024",
-    "date": 1775195533000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The disturbing deck-building roguelike “Hitori Asobi” is now available on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
-        "link": "https://automaton-media.com/articles/newsjp/plameta-keeper-roguelike-20260403-434499",
-        "date": 1775207002000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "It is possible that ``32GB of memory'' is the mainstream for Steam users in China. 32GB users increase dramatically only in “February”",
     "link": "https://automaton-media.com/articles/newsjp/20260403-434454",
     "date": 1775195892000,
@@ -3678,6 +3644,25 @@
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+    "date": 1775196005000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+        "link": "https://www.gamer.ne.jp/news/202604030048",
+        "date": 1775216040000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "From love letters expressing your feelings to threatening letters demanding ransom. Medieval manuscript illustration studio sim “Scriptorium: Master of Manuscripts”, released on April 17, 2026",
@@ -3839,6 +3824,15 @@
     "date": 1775201405000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+    "link": "https://news.denfaminicogamer.jp/news/2604032s",
+    "date": 1775202202000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4231,6 +4225,15 @@
     "date": 1775206980000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The disturbing deck-building roguelike “Hitori Asobi” is now available on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
+    "link": "https://automaton-media.com/articles/newsjp/plameta-keeper-roguelike-20260403-434499",
+    "date": 1775207002000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5077,6 +5080,15 @@
     "hotScore": 1
   },
   {
+    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
+    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "date": 1775221200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "I reckon revisiting Sega's weirdest egg-rolling GameCube romp is the perfect way to spend Easter, especially if you've still got the 2000s retro console",
     "link": "https://www.gamesradar.com/hardware/retro/i-reckon-revisiting-segas-weirdest-egg-rolling-gamecube-romp-is-the-perfect-way-to-spend-easter-especially-if-youve-still-got-the-2000s-retro-console",
     "date": 1775221200000,
@@ -5109,15 +5121,6 @@
     "date": 1775221200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
-    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
-    "date": 1775221200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5548,6 +5551,15 @@
     "hotScore": 1
   },
   {
+    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
+    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
+    "date": 1775228400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Review: Genki Covert Dock 3 And ShadowCast 3 - A Surprisingly Compact Mobile Capture Duo For Your Switch 2",
     "link": "https://www.nintendolife.com/reviews/genki-covert-dock-3-and-shadowcast-3-a-surprisingly-compact-mobile-capture-duo-for-your-switch-2",
     "date": 1775228400000,
@@ -5562,15 +5574,6 @@
     "date": 1775228400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
-    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
-    "date": 1775228400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
