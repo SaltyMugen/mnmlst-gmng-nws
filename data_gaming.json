@@ -79,7 +79,25 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
+        "link": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
+        "date": 1775127583000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "The Super Mario Galaxy Movie is quite enjoyable, actually. But the most important scenes happen in the theater seats",
+        "link": "https://www.destructoid.com/super-mario-galaxy-movie-enjoyable-most-important-scenes-in-the-theater",
+        "date": 1775141279000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Fallout Season 2 lands second-best Prime Video spot with 83 million people tuning in during its first 13 weeks of release",
@@ -491,14 +509,22 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 6,
     "groupMembers": [
       {
-        "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
-        "link": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
-        "date": 1775127583000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
+        "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
+        "link": "https://www.videogameschronicle.com/news/super-mario-galaxy-movie-has-a-better-opening-day-than-the-first-film-is-expected-to-finish-behind-for-the-weekend",
+        "date": 1775119608000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      },
+      {
+        "title": "The Super Mario Galaxy Movie Opens Huge, But Not Expected To Beat The 2023 Movie",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
+        "date": 1775158680000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
         "isTranslated": false
       },
       {
@@ -508,6 +534,22 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
       }
     ]
   },
@@ -782,15 +824,6 @@
     "hotScore": 1
   },
   {
-    "title": "PSA: If You Own Goat Simulator 3 On Switch 1, You Get A 70% Discount On Switch 2",
-    "link": "https://www.nintendolife.com/news/2026/04/psa-if-you-own-goat-simulator-3-on-switch-1-you-get-a-70percent-discount-on-switch-2",
-    "date": 1775058300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "April’s PlayStation Plus ‘free’ Essential monthly games have been confirmed",
     "link": "https://www.videogameschronicle.com/news/aprils-playstation-plus-free-essential-monthly-games-have-been-confirmed",
     "date": 1775058543000,
@@ -863,20 +896,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
-    "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
-    "date": 1775062800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "How Bright Future Balances Cozy and Competitive Play in Super Animal Royale",
     "link": "https://news.xbox.com/en-us/2026/04/01/super-animal-royale-bright-future",
     "date": 1775062800000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
+    "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
+    "date": 1775062800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -942,7 +975,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
@@ -951,6 +984,22 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
+      },
+      {
+        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+        "date": 1775119598000,
+        "domain": "gamesindustry.biz",
+        "sourceName": "GamesIndustry.biz",
+        "isTranslated": false
+      },
+      {
+        "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
+        "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
+        "date": 1775090134000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
       }
     ]
   },
@@ -1246,15 +1295,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
-    "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
-    "date": 1775090134000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“TOKYO INDIE GAMES SUMMIT 2026” Exhibited Works Report (Part 2). As entropy continues to increase, chivalry and good stories intertwine.",
     "link": "https://www.4gamer.net/games/991/G999110/20260401024",
     "date": 1775091600000,
@@ -1291,7 +1331,7 @@
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1327,7 +1367,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1336,7 +1376,7 @@
     "hotScore": 1
   },
   {
-    "title": "With the new update of \"Hundred Line (Handra)\", you can suddenly play from \"HUNDRED LINE 2\". Enemy movement effects can now be skipped, making play even more enjoyable.",
+    "title": "With the new \"Hundred Line (Handra)\" update, you can suddenly play from \"HUNDRED LINE 2\". Enemy movement effects can now be skipped, making play even more enjoyable.",
     "link": "https://automaton-media.com/articles/newsjp/20260402-434111",
     "date": 1775096882000,
     "domain": "automaton-media.com",
@@ -1554,7 +1594,7 @@
     "hotScore": 1
   },
   {
-    "title": "The Kindle edition of the classic girls' manga \"Fruits Basket\" is now offering 50% points back on all volumes. If you purchase all 23 volumes, you will receive 6072 points. A blockbuster work that has sold over 30 million copies worldwide, depicting the interaction between a girl and a family that transforms into animals when they come into contact with the opposite sex.",
+    "title": "The Kindle edition of the classic girls' manga ``Fruits Basket'' is offering 50% points back on all volumes. If you purchase all 23 volumes, you will receive 6072 points. A blockbuster work that has sold over 30 million copies worldwide, depicting the interaction between a girl and a family that transforms into animals when they come into contact with the opposite sex.",
     "link": "https://news.denfaminicogamer.jp/news/2604022n",
     "date": 1775105881000,
     "domain": "news.denfaminicogamer.jp",
@@ -1609,7 +1649,7 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
+    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
     "domain": "4gamer.net",
@@ -1664,7 +1704,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -1783,7 +1823,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -1936,7 +1976,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
+    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -2072,25 +2112,6 @@
     "hotScore": 1
   },
   {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-    "date": 1775119598000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-        "link": "https://jp.ign.com/palworld/83077/news",
-        "date": 1775177010000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -2098,49 +2119,6 @@
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
-    "link": "https://www.videogameschronicle.com/news/super-mario-galaxy-movie-has-a-better-opening-day-than-the-first-film-is-expected-to-finish-behind-for-the-weekend",
-    "date": 1775119608000,
-    "domain": "videogameschronicle.com",
-    "sourceName": "VGC",
-    "isTranslated": false,
-    "hotScore": 5,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie Opens Huge, But Not Expected To Beat The 2023 Movie",
-        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
-        "date": 1775158680000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "The trial version of ``Morbid Metal'', a rogue-lite action game with cool mechanical visuals, is now available on Steam. Fight while switching characters and connect combos to defeat enemies.",
@@ -2252,7 +2230,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -2548,7 +2526,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -3159,19 +3137,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-        "date": 1775136600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
         "date": 1775137245000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
+        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
+        "date": 1775136600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -3627,20 +3605,20 @@
     "hotScore": 1
   },
   {
-    "title": "Monster Crown: Sin Eater launches April 30",
-    "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
-    "date": 1775140497000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
     "date": 1775140497000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Monster Crown: Sin Eater launches April 30",
+    "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
+    "date": 1775140497000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3699,15 +3677,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Super Mario Galaxy Movie is quite enjoyable, actually. But the most important scenes happen in the theater seats",
-    "link": "https://www.destructoid.com/super-mario-galaxy-movie-enjoyable-most-important-scenes-in-the-theater",
-    "date": 1775141279000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "World’s Oldest Tortoise Isn’t Dead, That Was Just A Crypto Coin Hoax",
     "link": "https://kotaku.com/crypto-coin-hoax-tried-to-scam-people-into-believing-the-worlds-oldest-tortoise-just-died-2000684239",
     "date": 1775141701000,
@@ -3754,15 +3723,6 @@
     "hotScore": 1
   },
   {
-    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
-    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
-    "date": 1775142000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -3787,6 +3747,15 @@
     "date": 1775142000000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
+    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
+    "date": 1775142000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3824,7 +3793,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "The New Denpa Men coming to Switch 2 on April 6",
@@ -3832,6 +3801,14 @@
         "date": 1775183473000,
         "domain": "gematsu.com",
         "sourceName": "Gematsu",
+        "isTranslated": false
+      },
+      {
+        "title": "Switch F2P 'The New Denpa Men' Is Getting A Switch 2 Version Next Week",
+        "link": "https://www.nintendolife.com/news/2026/04/switch-f2p-the-new-denpa-men-is-getting-a-switch-2-version-next-week",
+        "date": 1775186700000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
         "isTranslated": false
       }
     ]
@@ -4064,6 +4041,15 @@
     "hotScore": 1
   },
   {
+    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
+    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
+    "date": 1775145600000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
     "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
     "date": 1775145600000,
@@ -4081,19 +4067,19 @@
         "isTranslated": true
       },
       {
-        "title": "Recruitment for the 2nd closed beta test for the new Monster Hunter smartphone game ``Monster Hunter Outlanders'' begins on April 2nd. Applications for iOS/Android will be accepted until 15:59 on April 22nd, and the start date and time of the test will be announced at a later date.",
-        "link": "https://news.denfaminicogamer.jp/news/2604022g",
-        "date": 1775106444000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
         "title": "Recruitment for the 2nd CBT for the new smartphone game “Monster Hunter Outlanders” begins – large monsters and new adventurers added from last time",
         "link": "http://www.gamespark.jp/article/2026/04/02/164680.html",
         "date": 1775114104000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Recruitment for the 2nd closed beta test for the new Monster Hunter smartphone game ``Monster Hunter Outlanders'' begins on April 2nd. Applications for iOS/Android will be accepted until 15:59 on April 22nd, and the start date and time of the test will be announced at a later date.",
+        "link": "https://news.denfaminicogamer.jp/news/2604022g",
+        "date": 1775106444000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       },
       {
@@ -4105,15 +4091,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
-    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
-    "date": 1775145600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Grab These Resident Evil PSN Avatars for Free This Month",
@@ -4152,7 +4129,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -4485,20 +4462,20 @@
     ]
   },
   {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
-    "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
     "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "date": 1775149200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4590,7 +4567,17 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Free Amazon Luna Games For April 2026 Revealed",
+        "link": "https://insider-gaming.com/free-amazon-luna-games-for-april-2026-revealed",
+        "date": 1775171674000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "MechWarrior studio Piranha Games lays off 30% of its employees",
@@ -4645,16 +4632,8 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
-      {
-        "title": "Free Amazon Luna Games For April 2026 Revealed",
-        "link": "https://insider-gaming.com/free-amazon-luna-games-for-april-2026-revealed",
-        "date": 1775171674000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      },
       {
         "title": "[7,368 yen → 0 yen for 2] Time melts! Two solid strategy games, “XCOM” and the Egyptian version of “Total War” are now available for free to Amazon Prime members [12 titles free in April]",
         "link": "http://www.gamespark.jp/article/2026/04/03/164720.html",
@@ -4675,20 +4654,20 @@
     "hotScore": 1
   },
   {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
-    "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
     "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
     "date": 1775152800000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "date": 1775152800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4750,6 +4729,15 @@
     "title": "French consumer advocacy group sues Ubisoft for taking The Crew offline, almost two years since Stop Killing Games first protested it",
     "link": "https://www.destructoid.com/ubisoft-the-crew-lawsuit",
     "date": 1775154446000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
@@ -5337,7 +5325,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -5371,19 +5359,19 @@
         "isTranslated": true
       },
       {
-        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
-        "link": "https://news.denfaminicogamer.jp/news/260403g",
-        "date": 1775171435000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
         "title": "Teaser trailer for “STR 6” additional character “Ingrid” released! Even in the latest work, the Loli Baba is still the same",
         "link": "http://www.gamespark.jp/article/2026/04/03/164719.html",
         "date": 1775178008000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
+        "link": "https://news.denfaminicogamer.jp/news/260403g",
+        "date": 1775171435000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       },
       {
@@ -5497,6 +5485,15 @@
     "hotScore": 1
   },
   {
+    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+    "link": "https://jp.ign.com/palworld/83077/news",
+    "date": 1775177010000,
+    "domain": "jp.ign.com",
+    "sourceName": "IGN Japan",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
     "link": "http://www.gamespark.jp/article/2026/04/03/164717.html",
     "date": 1775177051000,
@@ -5574,15 +5571,6 @@
     "date": 1775178208000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "[Personnel] GREE HD appoints Yoshinao Inaba as Senior Executive Officer and Deputy General Manager of Corporate Headquarters on April 1st.",
-    "link": "https://gamebiz.jp/news/423728",
-    "date": 1775178540000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5877,7 +5865,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Game entertainment stock market (4/3)] Widely bought with the aim of autonomous rebound and buybacks. However, after the first round of trading, growth is sluggish [Chart published]",
+    "title": "[Game entertainment stock market (4/3)] Widely bought with the aim of autonomous rebound and buybacks. However, after the first round of trading, growth is sluggish [Chart posted]",
     "link": "https://gamebiz.jp/news/423745",
     "date": 1775184720000,
     "domain": "gamebiz.jp",
@@ -6015,6 +6003,15 @@
     "title": "Zero Place brings Japan's ``gacha culture'' overseas... Promoting overseas expansion with experiential gacha exhibition in the U.S. through IFE",
     "link": "https://gamebiz.jp/news/423739",
     "date": 1775186940000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Individual game creator ``Makeru Ojisan'' releases ``Injumura Undressing Card Game'' for free.",
+    "link": "https://gamebiz.jp/news/423750",
+    "date": 1775187240000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
