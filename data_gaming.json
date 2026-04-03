@@ -927,6 +927,15 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PlayStation Plus Monthly Games for April: Lords of the Fallen, Tomb Raider I-III Remastered, Sword Art Online Fractured Daydream",
+    "link": "https://blog.playstation.com/2026/04/01/playstation-plus-monthly-games-for-april-lords-of-the-fallen-tomb-raider-i-iii-remastered-sword-art-online-fractured-daydream",
+    "date": 1775057402000,
+    "domain": "blog.playstation.com",
+    "sourceName": "PlayStation Blog",
+    "isTranslated": false,
     "hotScore": 3,
     "groupMembers": [
       {
@@ -938,12 +947,12 @@
         "isTranslated": false
       },
       {
-        "title": "PlayStation Plus Monthly Games for April: Lords of the Fallen, Tomb Raider I-III Remastered, Sword Art Online Fractured Daydream",
-        "link": "https://blog.playstation.com/2026/04/01/playstation-plus-monthly-games-for-april-lords-of-the-fallen-tomb-raider-i-iii-remastered-sword-art-online-fractured-daydream",
-        "date": 1775057402000,
-        "domain": "blog.playstation.com",
-        "sourceName": "PlayStation Blog",
-        "isTranslated": false
+        "title": "PS Plus April free play, ``Lord of the Fallen'', ``Tomb Raider I-III Remastered'' and ``SAO Fractured Daydream'' are now available",
+        "link": "https://www.4gamer.net/games/129/G012999/20260402026",
+        "date": 1775107839000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
       }
     ]
   },
@@ -1011,20 +1020,20 @@
     "hotScore": 1
   },
   {
-    "title": "Mario Galaxy Movie Retail Pre-Orders Go Live, Including Steelbook & 'Tin Egg' Edition",
-    "link": "https://www.nintendolife.com/news/2026/04/mario-galaxy-movie-retail-pre-orders-go-live-including-steelbook-and-tin-egg-edition",
-    "date": 1775061000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'There Is No Shop' - Halo Dev Eases Concerns Over Xbox Fanta Skin For Campaign Evolved",
     "link": "https://www.purexbox.com/news/2026/04/there-is-no-shop-halo-dev-eases-concerns-over-xbox-fanta-skin-for-campaign-evolved",
     "date": 1775061000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Mario Galaxy Movie Retail Pre-Orders Go Live, Including Steelbook & 'Tin Egg' Edition",
+    "link": "https://www.nintendolife.com/news/2026/04/mario-galaxy-movie-retail-pre-orders-go-live-including-steelbook-and-tin-egg-edition",
+    "date": 1775061000000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1117,7 +1126,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
@@ -1126,22 +1135,6 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
-      },
-      {
-        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-        "date": 1775119598000,
-        "domain": "gamesindustry.biz",
-        "sourceName": "GamesIndustry.biz",
-        "isTranslated": false
-      },
-      {
-        "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
-        "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
-        "date": 1775090134000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
       }
     ]
   },
@@ -1437,6 +1430,15 @@
     "hotScore": 1
   },
   {
+    "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
+    "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
+    "date": 1775090134000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“TOKYO INDIE GAMES SUMMIT 2026” Exhibited Works Report (Part 2). As entropy continues to increase, chivalry and good stories intertwine.",
     "link": "https://www.4gamer.net/games/991/G999110/20260401024",
     "date": 1775091600000,
@@ -1473,7 +1475,7 @@
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1491,7 +1493,7 @@
     "hotScore": 1
   },
   {
-    "title": "Competitive fighting x volleyball!? \"Sepak U\", which features a highly flexible action where you hit the bouncing ball into the opponent's position, has released the Steam store page",
+    "title": "Competitive fighting x volleyball!? \"Sepak U\", a game with a high degree of freedom in action where you hit a bouncing ball into the opponent's territory, has released its Steam store page.",
     "link": "https://www.4gamer.net/games/995/G099563/20260402003",
     "date": 1775094640000,
     "domain": "4gamer.net",
@@ -1509,7 +1511,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1518,7 +1520,7 @@
     "hotScore": 1
   },
   {
-    "title": "With the new update of \"Hundred Line (Handra)\", you can suddenly play from \"HUNDRED LINE 2\". Enemy movement effects can now be skipped, making play even more enjoyable.",
+    "title": "With the new \"Hundred Line (Handra)\" update, you can suddenly play from \"HUNDRED LINE 2\". Enemy movement effects can now be skipped, making play even more enjoyable.",
     "link": "https://automaton-media.com/articles/newsjp/20260402-434111",
     "date": 1775096882000,
     "domain": "automaton-media.com",
@@ -1755,7 +1757,7 @@
     ]
   },
   {
-    "title": "“Super Kaguyahime! ” The first LINE stamp is now available. A lineup of 32 scenes including ``Grateful Rain A La Mode'' and ``The Animation is Too Good''",
+    "title": "“Super Kaguyahime! ” The first LINE stamp is now available. A lineup of 32 scenes including \"Thankful Rain A La Mode\" and \"The Art Is Too Good\"",
     "link": "https://news.denfaminicogamer.jp/news/2604022m",
     "date": 1775105491000,
     "domain": "news.denfaminicogamer.jp",
@@ -1773,7 +1775,7 @@
     "hotScore": 1
   },
   {
-    "title": "The Kindle edition of the classic girls' manga \"Fruits Basket\" is now offering 50% points back on all volumes. If you purchase all 23 volumes, you will receive 6072 points. A blockbuster work that has sold over 30 million copies worldwide, depicting the interaction between a girl and a family that transforms into animals when they come into contact with the opposite sex.",
+    "title": "The Kindle edition of the classic girls' manga ``Fruits Basket'' is offering 50% points back on all volumes. If you purchase all 23 volumes, you will receive 6072 points. A blockbuster work that has sold over 30 million copies worldwide, depicting the interaction between a girl and a family that transforms into animals when they come into contact with the opposite sex.",
     "link": "https://news.denfaminicogamer.jp/news/2604022n",
     "date": 1775105881000,
     "domain": "news.denfaminicogamer.jp",
@@ -1847,18 +1849,9 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
+    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "PS Plus April free play, ``Lord of the Fallen'', ``Tomb Raider I-III Remastered'' and ``SAO Fractured Daydream'' are now available",
-    "link": "https://www.4gamer.net/games/129/G012999/20260402026",
-    "date": 1775107839000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
@@ -1902,7 +1895,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -2021,7 +2014,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -2165,7 +2158,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
+    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -2301,6 +2294,25 @@
     "hotScore": 1
   },
   {
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "date": 1775119598000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+        "link": "https://jp.ign.com/palworld/83077/news",
+        "date": 1775177010000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -2419,7 +2431,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -2508,7 +2520,7 @@
     "hotScore": 1
   },
   {
-    "title": "A great adventure by the blue octopus Darwin that will decide the fate of humanity! \"Darwin's Paradox!\" now available on PS5/Xbox Series X|S/Switch2/PC",
+    "title": "A great adventure by the blue octopus Darwin that will determine the fate of humanity! \"Darwin's Paradox!\" now available on PS5/Xbox Series X|S/Switch2/PC",
     "link": "https://www.gamer.ne.jp/news/202604020045",
     "date": 1775122800000,
     "domain": "gamer.ne.jp",
@@ -2708,7 +2720,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -2852,7 +2864,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Peak devs remind players that 'any update is a bonus not a right'",
@@ -2860,6 +2872,14 @@
         "date": 1775141031000,
         "domain": "polygon.com",
         "sourceName": "Polygon",
+        "isTranslated": false
+      },
+      {
+        "title": "\"Any Update is a Bonus, Not a Right\" Peak Developer Responds to \"Lazy\" Criticism",
+        "link": "https://gamerant.com/peak-updates-landfall",
+        "date": 1775184470000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
         "isTranslated": false
       }
     ]
@@ -3302,19 +3322,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-        "date": 1775136600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
         "date": 1775137245000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
+        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
+        "date": 1775136600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -3880,6 +3900,15 @@
     ]
   },
   {
+    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
+    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
+    "date": 1775142000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -3897,15 +3926,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
-    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
-    "date": 1775142000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
@@ -4234,19 +4254,19 @@
         "isTranslated": true
       },
       {
-        "title": "Recruitment for the 2nd closed beta test for the new Monster Hunter smartphone game ``Monster Hunter Outlanders'' begins on April 2nd. Applications for iOS/Android will be accepted until 15:59 on April 22nd, and the start date and time of the test will be announced at a later date.",
-        "link": "https://news.denfaminicogamer.jp/news/2604022g",
-        "date": 1775106444000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
         "title": "Recruitment for the 2nd CBT for the new smartphone game “Monster Hunter Outlanders” begins – large monsters and new adventurers added from last time",
         "link": "http://www.gamespark.jp/article/2026/04/02/164680.html",
         "date": 1775114104000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Recruitment for the 2nd closed beta test for the new Monster Hunter smartphone game ``Monster Hunter Outlanders'' begins on April 2nd. Applications for iOS/Android will be accepted until 15:59 on April 22nd, and the start date and time of the test will be announced at a later date.",
+        "link": "https://news.denfaminicogamer.jp/news/2604022g",
+        "date": 1775106444000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       },
       {
@@ -4260,20 +4280,20 @@
     ]
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4671,7 +4691,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Tomak: Save the Earth Regeneration Temporarily Free",
@@ -4680,14 +4700,6 @@
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
         "isTranslated": false
-      },
-      {
-        "title": "The legendary \"Decapitated Head Training Sim\" where you fall in love with a beautiful woman's decapitated head and save the world is back for the 25th anniversary. “TOMAK: Save the Earth Regeneration” now available on Epic Games Store & free for a limited time",
-        "link": "http://www.gamespark.jp/article/2026/04/02/164672.html",
-        "date": 1775105948000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
       },
       {
         "title": "``TOMAK: Save the Earth Regeneration,'' a cult training sim in which you raise a goddess of love (her severed head) growing in a flowerpot, is now available for free on the Epic Games Store. Resurrected as a 25th anniversary work",
@@ -5481,7 +5493,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -5515,19 +5527,19 @@
         "isTranslated": true
       },
       {
-        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
-        "link": "https://news.denfaminicogamer.jp/news/260403g",
-        "date": 1775171435000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
         "title": "Teaser trailer for “STR 6” additional character “Ingrid” released! Even in the latest work, the Loli Baba is still the same",
         "link": "http://www.gamespark.jp/article/2026/04/03/164719.html",
         "date": 1775178008000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
+        "link": "https://news.denfaminicogamer.jp/news/260403g",
+        "date": 1775171435000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       },
       {
@@ -5613,15 +5625,6 @@
     "hotScore": 1
   },
   {
-    "title": "All Secret Loot in the Icemoor Castle Ruins in Crimson Desert",
-    "link": "https://gamerant.com/crimson-desert-icemoor-castle-ruins-loot-locations",
-    "date": 1775174737000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Steam Client Beta - April 2nd",
     "link": "https://store.steampowered.com/news/group/4397053/view/511861552615261136",
     "date": 1775175664000,
@@ -5668,15 +5671,6 @@
     "hotScore": 1
   },
   {
-    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-    "link": "https://jp.ign.com/palworld/83077/news",
-    "date": 1775177010000,
-    "domain": "jp.ign.com",
-    "sourceName": "IGN Japan",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
     "link": "http://www.gamespark.jp/article/2026/04/03/164717.html",
     "date": 1775177051000,
@@ -5701,7 +5695,7 @@
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Sunsoft's new ACT \"GAME\" The strongest profession is not a hero or a wise man, but an appraiser (tentative), right? ～Underground Labyrinth and Mysterious Girl～” will be released on April 23rd.",
@@ -5709,14 +5703,6 @@
         "date": 1775179680000,
         "domain": "gamebiz.jp",
         "sourceName": "GameBiz",
-        "isTranslated": true
-      },
-      {
-        "title": "Tisse...? Arena shooter \"GAME\" where Sunsoft's \"that character\" may appear The strongest occupation is not a hero or a wise man, but an appraiser (tentative), right? ～Underground Labyrinth and Mysterious Girl～” Announcement",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164718.html",
-        "date": 1775178004000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
         "isTranslated": true
       },
       {
@@ -5728,6 +5714,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Tisse...? Arena shooter \"GAME\" where Sunsoft's \"that character\" may appear The strongest occupation is not a hero or a wise man, but an appraiser (tentative), right? ～Underground Labyrinth and Mysterious Girl～” Announcement",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164718.html",
+    "date": 1775178004000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
   },
   {
     "title": "Naruto: 8 Popular Anime You’ve Heard Kakashi's Voice In",
@@ -5902,20 +5897,20 @@
     "hotScore": 1
   },
   {
-    "title": "Nexon opens new area ``Maple Island'' in theme park ``Lotte World Adventure'' in Seoul, South Korea",
-    "link": "https://gamebiz.jp/news/423736",
-    "date": 1775182020000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The Apple Arcade version of \"HYKE: Northern Light(s)\" is now available! A top-down 2D dot action RPG in which you travel in search of clues about your mother, a witch.",
     "link": "https://www.gamer.ne.jp/news/202604030004",
     "date": 1775182020000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Nexon opens new area ``Maple Island'' in theme park ``Lotte World Adventure'' in Seoul, South Korea",
+    "link": "https://gamebiz.jp/news/423736",
+    "date": 1775182020000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6035,6 +6030,24 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Every Romanceable Character in Baldur's Gate 3",
+    "link": "https://gamerant.com/baldurs-gate-3-all-romanceable-characters",
+    "date": 1775184333000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "This year marks the 23rd anniversary of the opening of an area with the motif of ``MapleStory'' at the Korean theme park ``Lotte World.'' Enjoy attractions, goods and food",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164722.html",
+    "date": 1775184403000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
     "hotScore": 1
   }
 ]
