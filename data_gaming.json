@@ -567,7 +567,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Breaking Down The 12 Biggest Super Mario Galaxy Movie Cameos And References",
@@ -584,6 +584,22 @@
         "domain": "kotaku.com",
         "sourceName": "Kotaku",
         "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
       }
     ]
   },
@@ -688,7 +704,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -1173,7 +1189,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -1245,7 +1261,7 @@
     "hotScore": 5,
     "groupMembers": [
       {
-        "title": "Do NPCs really work hard to build stone statues in the highly popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
+        "title": "Do NPCs really work hard to build stone statues in the popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
         "link": "http://www.gamespark.jp/article/2026/04/02/164702.html",
         "date": 1775138404000,
         "domain": "gamespark.jp",
@@ -1545,20 +1561,20 @@
     "hotScore": 1
   },
   {
-    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
-    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
-    "date": 1775131200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
     "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
     "date": 1775131200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
+    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
+    "date": 1775131200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1950,41 +1966,6 @@
     "hotScore": 1
   },
   {
-    "title": "Quick thoughts about the Super Mario Galaxy movie",
-    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-    "date": 1775138132000,
-    "domain": "gamefile.news",
-    "sourceName": "Game File",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie Opens Huge, But Not Expected To Beat The 2023 Movie",
-        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
-        "date": 1775158680000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
     "link": "https://www.pcgamer.com/hardware/processors/amd-says-intels-interesting-choices-around-multithreading-could-help-epyc-cpus-gain-server-market-share",
     "date": 1775138202000,
@@ -2296,6 +2277,15 @@
     ]
   },
   {
+    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
+    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
+    "date": 1775142000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
     "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
     "date": 1775142000000,
@@ -2310,15 +2300,6 @@
     "date": 1775142000000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
-    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
-    "date": 1775142000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2679,7 +2660,7 @@
     ]
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -2757,6 +2738,33 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "The Division 2 Escalation mode explained: Modifiers, rewards, and more",
+        "link": "https://www.destructoid.com/the-division-2-escalation-mode-explained-modifiers-rewards-and-more",
+        "date": 1775162216000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "All new Exotic weapon and gear talents in The Division 2 Y8S1 Rise Up",
+        "link": "https://www.destructoid.com/all-new-exotic-weapon-and-gear-talents-in-the-division-2-y8s1-rise-up",
+        "date": 1775219586000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
+    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
+    "date": 1775147400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -2777,15 +2785,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
-    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
-    "date": 1775147400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Seller Who Stockpiled Memory Now Panicking After RAM Prices Dip: ‘We’re Doomed, We’re Screwed’",
@@ -2957,20 +2956,20 @@
     "hotScore": 1
   },
   {
-    "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
-    "date": 1775149200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
     "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
+    "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
+    "date": 1775149200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3192,6 +3191,25 @@
     "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Opens Huge, But Not Expected To Beat The 2023 Movie",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
+        "date": 1775158680000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "10 Games That Went to the Moon Before Artemis II",
@@ -3491,15 +3509,6 @@
     ]
   },
   {
-    "title": "The Division 2 Escalation mode explained: Modifiers, rewards, and more",
-    "link": "https://www.destructoid.com/the-division-2-escalation-mode-explained-modifiers-rewards-and-more",
-    "date": 1775162216000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Elijah Wood appears to confirm Aragorn recasting rumors in Lord of the Rings: The Hunt for Gollum: \"Those are tough boots [to fill]\"",
     "link": "https://www.gamesradar.com/entertainment/fantasy-movies/elijah-wood-appears-to-confirm-aragorn-recasting-rumors-in-lord-of-the-rings-the-hunt-for-gollum-those-are-tough-boots-to-fill",
     "date": 1775162712000,
@@ -3787,7 +3796,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 5,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
@@ -3796,14 +3805,6 @@
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
-      },
-      {
-        "title": "Teaser trailer for \"Street Fighter 6\" additional character \"Ingrid\" released. It is scheduled to enter the race in the second half of spring 2026. Decorate the birds of Year 3 additional characters",
-        "link": "https://news.denfaminicogamer.jp/news/260403g",
-        "date": 1775171435000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
       },
       {
         "title": "Teaser trailer for “STR 6” additional character “Ingrid” released! Even in the latest work, the Loli Baba is still the same",
@@ -4453,7 +4454,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following \"Kamen Rider Zets\" has been released",
+    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following “Kamen Rider Zets” has been released",
     "link": "https://news.denfaminicogamer.jp/news/2604032h",
     "date": 1775193804000,
     "domain": "news.denfaminicogamer.jp",
@@ -4570,7 +4571,7 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "The disturbing deck-building roguelike “Hitori Asobi” is now available on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
+        "title": "Unsettling deck-building roguelike ``Hitori Asobi'' released on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
         "link": "https://automaton-media.com/articles/newsjp/plameta-keeper-roguelike-20260403-434499",
         "date": 1775207002000,
         "domain": "automaton-media.com",
@@ -4755,7 +4756,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen” each and 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
+    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen each” & 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
     "link": "https://news.denfaminicogamer.jp/news/2604032q",
     "date": 1775200799000,
     "domain": "news.denfaminicogamer.jp",
@@ -4854,7 +4855,7 @@
     "hotScore": 1
   },
   {
-    "title": "2P Games officially releases “Crying Goose”, a text adventure game set in the turbulent times of the late Ming Dynasty, on Steam",
+    "title": "2P Games officially releases “Crying Geese”, a text adventure game set in the turbulent times of the late Ming Dynasty, on Steam",
     "link": "https://gamebiz.jp/news/423790",
     "date": 1775202660000,
     "domain": "gamebiz.jp",
@@ -5553,21 +5554,12 @@
     "hotScore": 1
   },
   {
-    "title": "Chinese history survival ADV “Crying Geese” now available on Steam. \"Very well received\" ADV \"Hungry Lamb\" new work by the development team",
+    "title": "Chinese history survival ADV “Crying Geese” now available on Steam. \"Very popular\" ADV \"Hungry Lamb\" new work from the development team",
     "link": "http://www.gamespark.jp/article/2026/04/03/164740.html",
     "date": 1775212204000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Test Case Quest Guide in ARC Raiders",
-    "link": "https://gamerant.com/arc-raiders-test-case-quest-hornet-driver-fireball-firefly-burner",
-    "date": 1775212207000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -5979,20 +5971,20 @@
     "hotScore": 1
   },
   {
-    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
-    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
-    "date": 1775217600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Super Meat Boy 3D (Switch 2) - Not The Finest Cut, But Still Tasty",
     "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/super-meat-boy-3d",
     "date": 1775217600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
+    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
+    "date": 1775217600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6024,7 +6016,7 @@
     "hotScore": 1
   },
   {
-    "title": "GameStop Thought Buying Games Online Was A ‘Passing Phase’ Says Former Business Developer",
+    "title": "GameStop Thought Buying Games Online Was A ‘Passing Phase,’ Says Former Business Developer",
     "link": "https://kotaku.com/gamestop-steam-impulse-gdc-larry-kuperman-digital-distribution-2000684593",
     "date": 1775218450000,
     "domain": "kotaku.com",
@@ -6048,6 +6040,15 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Mobile Suit Gundam Extreme Versus\" pop-up event products have been released. Char and Amuro, Shin and Kira want Aksuta to play with “Inib” too much",
+    "link": "https://news.denfaminicogamer.jp/news/2604033e",
+    "date": 1775219356000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -6081,6 +6082,15 @@
     "title": "An Open-World Lord of the Rings RPG from Kingdom Come: Deliverance 2's Studio Could Be the Stuff of Legends",
     "link": "https://gamerant.com/lotr-open-world-game-like-kingdom-come-deliverance-2-good",
     "date": 1775219415000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Persona 4 Revival Release Window Possibly Narrowed Down by Unexpected Source",
+    "link": "https://gamerant.com/persona-4-reload-release-window-funko-pop-leak",
+    "date": 1775219437000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
