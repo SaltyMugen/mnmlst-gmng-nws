@@ -760,7 +760,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
@@ -768,14 +768,6 @@
         "date": 1775071800000,
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-        "date": 1775119598000,
-        "domain": "gamesindustry.biz",
-        "sourceName": "GamesIndustry.biz",
         "isTranslated": false
       }
     ]
@@ -853,20 +845,20 @@
     "hotScore": 1
   },
   {
-    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
-    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
-    "date": 1775075400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
     "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
     "date": 1775075400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
+    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
+    "date": 1775075400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1696,6 +1688,25 @@
     "hotScore": 1
   },
   {
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "date": 1775119598000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+        "link": "https://jp.ign.com/palworld/83077/news",
+        "date": 1775177010000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -2419,20 +2430,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
-    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
-    "date": 1775131200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
     "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
     "date": 1775131200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
+    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
+    "date": 1775131200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2627,19 +2638,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
-        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
-        "date": 1775137245000,
-        "domain": "reddit.com",
-        "sourceName": "Reddit Leaks",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
         "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
         "date": 1775136600000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
+        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
+        "date": 1775137245000,
+        "domain": "reddit.com",
+        "sourceName": "Reddit Leaks",
         "isTranslated": false
       },
       {
@@ -3555,16 +3566,8 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
-      {
-        "title": "\"Monster Hunter Outlanders\" 2nd closed beta test will be held, recruitment of participants has begun. Chance to try the new “Monster Hunter” with crafts and new actions",
-        "link": "https://automaton-media.com/articles/newsjp/20260402-434123",
-        "date": 1775098644000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
       {
         "title": "Recruitment for the 2nd CBT for the new smartphone game “Monster Hunter Outlanders” begins – large monsters and new adventurers added from last time",
         "link": "http://www.gamespark.jp/article/2026/04/02/164680.html",
@@ -3720,15 +3723,6 @@
     "hotScore": 1
   },
   {
-    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
-    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
-    "date": 1775147400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
     "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
     "date": 1775147400000,
@@ -3746,6 +3740,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
+    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
+    "date": 1775147400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Anime Awards 2026 nominees revealed as Demon Slayer and Chainsaw Man battle for Film of the Year",
@@ -3972,20 +3975,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
-    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
-    "date": 1775149200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
     "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
+    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
+    "date": 1775149200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5002,15 +5005,6 @@
     ]
   },
   {
-    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-    "link": "https://jp.ign.com/palworld/83077/news",
-    "date": 1775177010000,
-    "domain": "jp.ign.com",
-    "sourceName": "IGN Japan",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
     "link": "http://www.gamespark.jp/article/2026/04/03/164717.html",
     "date": 1775177051000,
@@ -5217,15 +5211,6 @@
     "date": 1775183759000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Season 03 of “CoD:BO7” and “CoD:WZ” has begun! New Operator Valkyrie and various weapon blueprints can be unlocked with Black Cells",
-    "link": "https://www.gamer.ne.jp/news/202604030005",
-    "date": 1775183760000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5545,15 +5530,6 @@
     "date": 1775190060000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Perp Gamesh announces release of Switch version of physics-based cooperative “frustrating” action game “Joint Responsibility” on April 30th",
-    "link": "https://gamebiz.jp/news/423756",
-    "date": 1775190180000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6084,6 +6060,33 @@
     "title": "Cyber ​​Step HD announces the exercise status of the 42nd stock acquisition rights for the period from March 27th to April 2nd. Approximately 162 million yen was raised by exercising 13,000 rights.",
     "link": "https://gamebiz.jp/news/423774",
     "date": 1775199000000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "A collaboration event with “Puzzle Harvest! Nyanko Village” will be held in “Nyanko Great War”! Get cats from Nyanko Village, rare tickets, etc.",
+    "link": "https://www.gamer.ne.jp/news/202604030026",
+    "date": 1775199060000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Steam's \"Linux users\" are rapidly increasing, showing their presence at \"over 5% for the first time\". Possibility of “OS switching” flickering behind the breakthrough",
+    "link": "https://automaton-media.com/articles/newsjp/20260403-434466",
+    "date": 1775199175000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "[Event] “Ukraine Game Festival” will be held in a face-to-face format for the first time during GDC, over 800 people will experience Ukrainian game culture",
+    "link": "https://gamebiz.jp/news/423775",
+    "date": 1775199240000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
