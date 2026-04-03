@@ -933,13 +933,23 @@
     "hotScore": 1
   },
   {
-    "title": "Оновлення домашньої сторінки крамниці Steam",
+    "title": "Steam Store Home: A refresh",
     "link": "https://store.steampowered.com/news/app/593110/view/526496349181445156",
     "date": 1775077057000,
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Steam store \"refresh\" is out in beta now, enwidening images and adding infinite scrollage to the homepage",
+        "link": "https://www.rockpapershotgun.com/steam-store-refresh-is-out-in-beta-now-enwidening-images-and-adding-infinite-scrollage-to-the-homepage",
+        "date": 1775129586000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "US Patent Office revokes Nintendo's controversial Pokémon battling patent in nonfinal decision",
@@ -2300,15 +2310,6 @@
     "hotScore": 1
   },
   {
-    "title": "Steam store \"refresh\" is out in beta now, enwidening images and adding infinite scrollage to the homepage",
-    "link": "https://www.rockpapershotgun.com/steam-store-refresh-is-out-in-beta-now-enwidening-images-and-adding-infinite-scrollage-to-the-homepage",
-    "date": 1775129586000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "All Prizes in RACCOIN",
     "link": "https://www.destructoid.com/all-prizes-in-raccoin",
     "date": 1775130170000,
@@ -3185,15 +3186,6 @@
     ]
   },
   {
-    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
-    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
-    "date": 1775142000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -3213,11 +3205,11 @@
     ]
   },
   {
-    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
-    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
+    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
+    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
     "date": 1775142000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3227,6 +3219,15 @@
     "date": 1775142000000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
+    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
+    "date": 1775142000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3558,20 +3559,20 @@
     ]
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4658,17 +4659,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Brimstone and Oro Interactive announce that “Super Battle Golf” has sold over 1 million copies… Major update “Snow and Ice Green” will be released on April 10th",
-        "link": "https://gamebiz.jp/news/423758",
-        "date": 1775191380000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Metroidvania “Solateria” for parry lovers (Hobonichi Indie Pick Up!)",
@@ -5102,8 +5093,24 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
+      {
+        "title": "Karaoke PV for “Bunny Garden 2” released! Some of the songs prepared for each cast are released",
+        "link": "https://www.gamer.ne.jp/news/202604030008",
+        "date": 1775185920000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      },
+      {
+        "title": "qureate releases a karaoke PV that shows part of the stage where the cast of \"Bunny Garden 2\" sing and dance",
+        "link": "https://gamebiz.jp/news/423759",
+        "date": 1775192820000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
+      },
       {
         "title": "The latest video \"Karaoke PV\" of the cast of \"Bunny Garden 2\" singing and dancing has been released. Unveiling the thrilling performances of new characters",
         "link": "https://www.4gamer.net/games/986/G098647/20260403017",
@@ -5311,25 +5318,6 @@
     "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "Karaoke PV for “Bunny Garden 2” released! Some of the songs prepared for each cast are released",
-    "link": "https://www.gamer.ne.jp/news/202604030008",
-    "date": 1775185920000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "qureate releases a karaoke PV that shows part of the stage where the cast of \"Bunny Garden 2\" sing and dance",
-        "link": "https://gamebiz.jp/news/423759",
-        "date": 1775192820000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "Introducing the photo report of the “Heaven Burns Red” x “SMALL WORLDS Miniature Museum” collaboration!",
@@ -5569,15 +5557,6 @@
     "hotScore": 1
   },
   {
-    "title": "SNK establishes a new motion capture studio on the 3rd floor of its Osaka office (head office) to further strengthen game development capabilities",
-    "link": "https://gamebiz.jp/news/423757",
-    "date": 1775191260000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Cryo Archive Interactive Map - Marathon",
     "link": "https://gamerant.com/map/marathon-complete-cryo-archive-full-interactive-map",
     "date": 1775191515000,
@@ -5632,20 +5611,20 @@
     "hotScore": 1
   },
   {
-    "title": "CCMC opens the Steam store for the strategy \"KING of HOLO\" developed by Take from the Hololive Production derivative game brand \"holo Indie\", and begins accepting advance wishlist registrations",
-    "link": "https://gamebiz.jp/news/423746",
-    "date": 1775192580000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Heartwarming Fishing Story” A fishing life that expands further in the tropical sea! DLC “More Southern Island Pack” now available on Switch",
     "link": "https://www.gamer.ne.jp/news/202604030017",
     "date": 1775192580000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "CCMC opens the Steam store for the strategy \"KING of HOLO\" developed by Take from the Hololive Production derivative game brand \"holo Indie\", and begins accepting advance wishlist registrations",
+    "link": "https://gamebiz.jp/news/423746",
+    "date": 1775192580000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6088,6 +6067,15 @@
     "date": 1775199940000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Cover, male VTuber group \"Holostars\" changes its activity policy from company-led group activities to individual activities as the main focus",
+    "link": "https://gamebiz.jp/news/423778",
+    "date": 1775200200000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
