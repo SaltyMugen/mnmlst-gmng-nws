@@ -346,7 +346,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 6,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
@@ -371,22 +371,6 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
       }
     ]
   },
@@ -912,20 +896,20 @@
     "hotScore": 1
   },
   {
-    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
-    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
-    "date": 1775075400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
     "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
     "date": 1775075400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
+    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
+    "date": 1775075400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1137,7 +1121,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Breaking Down The 12 Biggest Super Mario Galaxy Movie Cameos And References",
@@ -1154,11 +1138,27 @@
         "domain": "kotaku.com",
         "sourceName": "Kotaku",
         "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
       }
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1185,7 +1185,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1429,7 +1429,7 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
+    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
     "domain": "4gamer.net",
@@ -1493,7 +1493,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -1557,7 +1557,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -1683,7 +1683,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
+    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -1882,7 +1882,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -2143,7 +2143,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -2489,20 +2489,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
-    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
-    "date": 1775131200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
     "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
     "date": 1775131200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
+    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
+    "date": 1775131200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3534,7 +3534,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -3543,6 +3543,22 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
+      },
+      {
+        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+        "date": 1775196005000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+        "date": 1775189953000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
       }
     ]
   },
@@ -3645,20 +3661,20 @@
     ]
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3691,7 +3707,7 @@
     ]
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -3781,15 +3797,6 @@
     "hotScore": 1
   },
   {
-    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
-    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
-    "date": 1775147400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
     "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
     "date": 1775147400000,
@@ -3807,6 +3814,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
+    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
+    "date": 1775147400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Anime Awards 2026 nominees revealed as Demon Slayer and Chainsaw Man battle for Film of the Year",
@@ -4033,20 +4049,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
-    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
-    "date": 1775149200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
     "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
+    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
+    "date": 1775149200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4456,8 +4472,16 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Audiences Think Luma Dropped The F-Bomb",
+        "link": "https://www.thegamer.com/super-mario-galaxy-movie-luma-f-bomb",
+        "date": 1775197696000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      },
       {
         "title": "Is there an F-Bomb in The Super Mario Galaxy Movie? Viewers convinced Luma swears",
         "link": "https://www.dexerto.com/tv-movies/is-there-an-f-bomb-in-the-super-mario-galaxy-movie-viewers-convinced-luma-swears-3345786",
@@ -4597,25 +4621,6 @@
     "hotScore": 1
   },
   {
-    "title": "MTG Secrets Of Strixhaven Witherbloom Pestilence Commander Deck List & Upgrades",
-    "link": "https://www.thegamer.com/magic-the-gathering-secrets-of-strixhaven-witherbloom-pestilence-commander-deck-list-upgrades",
-    "date": 1775162829000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "MTG Secrets Of Strixhaven Lorehold Spirit Commander Deck List And Upgrades",
-        "link": "https://www.thegamer.com/magic-the-gathering-secrets-of-strixhaven-lorehold-spirit-commander-deck-list-upgrades",
-        "date": 1775164787000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Skyblivion isn't \"dead in the water\", the Oblivion remake mod's lead says, a recent call for extra hands is about maintaining \"good momentum\"",
     "link": "https://www.rockpapershotgun.com/skyblivion-isnt-dead-in-the-water-the-oblivion-remake-mods-lead-says-a-recent-call-for-extra-hands-is-about-maintaining-good-momentum",
     "date": 1775162868000,
@@ -4684,6 +4689,15 @@
     "date": 1775164761000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "MTG Secrets Of Strixhaven Lorehold Spirit Commander Deck List And Upgrades",
+    "link": "https://www.thegamer.com/magic-the-gathering-secrets-of-strixhaven-lorehold-spirit-commander-deck-list-upgrades",
+    "date": 1775164787000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4905,7 +4919,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -5549,7 +5563,7 @@
     "hotScore": 1
   },
   {
-    "title": "The 4th cast of \"Tales of Festival 2026\" including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
+    "title": "The 4th cast of “Tales of Festival 2026” including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
     "link": "https://www.gamer.ne.jp/news/202604030012",
     "date": 1775189280000,
     "domain": "gamer.ne.jp",
@@ -5558,7 +5572,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! New goods such as star fragment style bottle terrarium collection are now available",
+    "title": "“Twist Exhibition” will be held at BOSS E・ZO FUKUOKA from June 6th! Introducing new goods such as star fragment style bottle terrarium collection",
     "link": "https://www.gamer.ne.jp/news/202604030013",
     "date": 1775189640000,
     "domain": "gamer.ne.jp",
@@ -5597,25 +5611,6 @@
         "date": 1775187876000,
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-    "date": 1775189953000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-        "date": 1775196005000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
         "isTranslated": true
       }
     ]
@@ -5766,7 +5761,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+    "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
     "link": "https://news.denfaminicogamer.jp/interview/260403s",
     "date": 1775192430000,
     "domain": "news.denfaminicogamer.jp",
