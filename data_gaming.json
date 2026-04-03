@@ -170,7 +170,7 @@
         "isTranslated": false
       },
       {
-        "title": "Do NPCs really work hard to build stone statues in the highly popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
+        "title": "Do NPCs really work hard to build stone statues in the popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
         "link": "http://www.gamespark.jp/article/2026/04/02/164702.html",
         "date": 1775138404000,
         "domain": "gamespark.jp",
@@ -255,15 +255,6 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "In \"Arknights: Endfield\", the janitor finally becomes a penguin. I won't hide it anymore",
-    "link": "https://automaton-media.com/articles/newsjp/20260401-434030",
-    "date": 1775039191000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -948,7 +939,33 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
+        "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
+        "date": 1775071800000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+        "date": 1775119598000,
+        "domain": "gamesindustry.biz",
+        "sourceName": "GamesIndustry.biz",
+        "isTranslated": false
+      },
+      {
+        "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
+        "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
+        "date": 1775090134000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Pikmin 4 Keychains Return to Japan",
@@ -967,33 +984,6 @@
     "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
-    "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
-    "date": 1775071800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-        "date": 1775119598000,
-        "domain": "gamesindustry.biz",
-        "sourceName": "GamesIndustry.biz",
-        "isTranslated": false
-      },
-      {
-        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-        "link": "https://jp.ign.com/palworld/83077/news",
-        "date": 1775177010000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "Out Of Nowhere, Xbox Just Announced NBA 2K26 For Game Pass",
@@ -1151,15 +1141,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nail in the Coffin - Devlog #4",
-    "link": "https://www.indiedb.com/games/nail-in-the-coffin/features/nail-in-the-coffin-devlog-4",
-    "date": 1775080143000,
-    "domain": "indiedb.com",
-    "sourceName": "IndieDB",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Puzzle platformer \"Piece by Piece\" where you move characters inside pieces to aim for the exit (Hobonichi Indie Pick Up!)",
     "link": "https://www.4gamer.net/games/950/G095079/20260329004",
     "date": 1775080800000,
@@ -1269,15 +1250,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
-    "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
-    "date": 1775090134000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“TOKYO INDIE GAMES SUMMIT 2026” Exhibited Works Report (Part 2). As entropy continues to increase, chivalry and good stories intertwine.",
     "link": "https://www.4gamer.net/games/991/G999110/20260401024",
     "date": 1775091600000,
@@ -1314,7 +1286,7 @@
     ]
   },
   {
-    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
+    "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic pixel art, now available on Steam store page",
     "link": "https://www.4gamer.net/games/995/G099562/20260402001",
     "date": 1775093736000,
     "domain": "4gamer.net",
@@ -1350,7 +1322,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Fuyanden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snows Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
+    "title": "\"Fuenden: Where Winds Meet\", the second part of the large update \"Kasai\", \"Winds and Snow Covering Liangzhou\", has been implemented today. , A new area with snowy mountains and fortified cities has appeared.",
     "link": "https://www.4gamer.net/games/651/G065198/20260402005",
     "date": 1775096817000,
     "domain": "4gamer.net",
@@ -1359,7 +1331,7 @@
     "hotScore": 1
   },
   {
-    "title": "With the new \"Hundred Line (Handra)\" update, you can suddenly play from \"HUNDRED LINE 2\". Enemy movement effects can now be skipped, making play even more enjoyable.",
+    "title": "With the new update of \"Hundred Line (Handra)\", you can suddenly play from \"HUNDRED LINE 2\". Enemy movement effects can now be skipped, making play even more enjoyable.",
     "link": "https://automaton-media.com/articles/newsjp/20260402-434111",
     "date": 1775096882000,
     "domain": "automaton-media.com",
@@ -1577,15 +1549,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Kindle edition of the classic girls' manga ``Fruits Basket'' is offering 50% points back on all volumes. If you purchase all 23 volumes, you will receive 6072 points. A blockbuster work that has sold over 30 million copies worldwide, depicting the interaction between a girl and a family that transforms into animals when they come into contact with the opposite sex.",
-    "link": "https://news.denfaminicogamer.jp/news/2604022n",
-    "date": 1775105881000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "``Ryusei no Rockman Perfect Collection'' has been so popular that many stores are out of stock of the packaged version. Full production in preparation for reshipment",
     "link": "https://automaton-media.com/articles/newsjp/20260402-434154",
     "date": 1775106351000,
@@ -1687,7 +1650,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -2302,7 +2265,7 @@
     "hotScore": 1
   },
   {
-    "title": "Anime producer ufotable will announce \"new information\" about the 30th anniversary collaboration project of the \"Tales of\" series from 6:00 p.m. on April 3rd. A follow-up to the video introduced in February as the \"2026 Project\"",
+    "title": "Anime producer ufotable will announce \"new information\" about the 30th anniversary collaboration project of the \"Tales of\" series from 6pm on April 3rd. A follow-up to the video introduced in February as the \"2026 Project\"",
     "link": "https://news.denfaminicogamer.jp/news/2604023m",
     "date": 1775123055000,
     "domain": "news.denfaminicogamer.jp",
@@ -2500,7 +2463,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -3111,19 +3074,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-        "date": 1775136600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
         "date": 1775137245000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
+        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
+        "date": 1775136600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -3172,19 +3135,19 @@
         "isTranslated": false
       },
       {
-        "title": "Switch 2 version “Little Nightmares 2 Enhanced Edition” will be released on May 19, 2026! Richer with enhanced graphics and stereophonic sound",
-        "link": "https://www.gamer.ne.jp/news/202604030010",
-        "date": 1775187420000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
         "title": "Bandai Namco ENT will release “Little Nightmares 2 Enhanced Edition” Nintendo Switch 2nd version on May 29th",
         "link": "https://gamebiz.jp/news/423732",
         "date": 1775183460000,
         "domain": "gamebiz.jp",
         "sourceName": "GameBiz",
+        "isTranslated": true
+      },
+      {
+        "title": "Switch 2 version “Little Nightmares 2 Enhanced Edition” will be released on May 19, 2026! Richer with enhanced graphics and stereophonic sound",
+        "link": "https://www.gamer.ne.jp/news/202604030010",
+        "date": 1775187420000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
         "isTranslated": true
       },
       {
@@ -3378,38 +3341,20 @@
     "hotScore": 1
   },
   {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
-    "date": 1775138400000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "PC indie game specialty subscription “Indie Pass” service starts on April 13, 2026",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164707.html",
-        "date": 1775142577000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
-        "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
-        "date": 1775176816000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
     "link": "https://gamesbeat.com/karafun-karaoke-platform-creates-karafun-battle-mobile-game",
     "date": 1775138400000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "date": 1775138400000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3805,6 +3750,15 @@
     "hotScore": 1
   },
   {
+    "title": "PC indie game specialty subscription “Indie Pass” service starts on April 13, 2026",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164707.html",
+    "date": 1775142577000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "Apparently you can't escape Microsoft Outlook issues even in space as Artemis II astronauts ask NASA for help with the software",
     "link": "https://www.pcgamer.com/software/windows/apparently-you-cant-escape-microsoft-outlook-issues-even-in-space-as-artemis-ii-astronauts-ask-nasa-for-help-with-the-software",
     "date": 1775142609000,
@@ -4038,7 +3992,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 5,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "\"Monster Hunter Outlanders\" 2nd closed beta test will be held, recruitment of participants has begun. Chance to try the new “Monster Hunter” with crafts and new actions",
@@ -4054,14 +4008,6 @@
         "date": 1775114104000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "Recruitment for the 2nd closed beta test for the new Monster Hunter smartphone game ``Monster Hunter Outlanders'' begins on April 2nd. Applications for iOS/Android will be accepted until 15:59 on April 22nd, and the start date and time of the test will be announced at a later date.",
-        "link": "https://news.denfaminicogamer.jp/news/2604022g",
-        "date": 1775106444000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       },
       {
@@ -4111,7 +4057,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -5467,6 +5413,34 @@
     "hotScore": 1
   },
   {
+    "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
+    "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
+    "date": 1775176816000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
+        "link": "https://news.denfaminicogamer.jp/news/260403f",
+        "date": 1775187657000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+    "link": "https://jp.ign.com/palworld/83077/news",
+    "date": 1775177010000,
+    "domain": "jp.ign.com",
+    "sourceName": "IGN Japan",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
     "link": "http://www.gamespark.jp/article/2026/04/03/164717.html",
     "date": 1775177051000,
@@ -5491,16 +5465,8 @@
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
-      {
-        "title": "Sunsoft's new ACT \"GAME\" The strongest profession is not a hero or a wise man, but an appraiser (tentative), right? ～Underground Labyrinth and Mysterious Girl～” will be released on April 23rd.",
-        "link": "https://gamebiz.jp/news/423730",
-        "date": 1775179680000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      },
       {
         "title": "“GAME: The strongest profession is not a hero or a wise man, but an appraiser (tentative), right? ~Underground Labyrinth and Mysterious Girl~”, released on April 23rd",
         "link": "https://www.4gamer.net/games/996/G099604/20260403007",
@@ -5658,20 +5624,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Apple Arcade version of \"HYKE: Northern Light(s)\" is now available! A top-down 2D dot action RPG in which you travel in search of clues about your mother, a witch.",
-    "link": "https://www.gamer.ne.jp/news/202604030004",
-    "date": 1775182020000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Nexon opens new area ``Maple Island'' in theme park ``Lotte World Adventure'' in Seoul, South Korea",
     "link": "https://gamebiz.jp/news/423736",
     "date": 1775182020000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Apple Arcade version of \"HYKE: Northern Light(s)\" is now available! A top-down 2D dot action RPG in which you travel in search of clues about your mother, a witch.",
+    "link": "https://www.gamer.ne.jp/news/202604030004",
+    "date": 1775182020000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5821,7 +5787,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Game entertainment stock market (4/3)] Widely bought with the aim of autonomous rebound and buybacks. However, after the first round of trading, growth is sluggish [Chart posted]",
+    "title": "[Game entertainment stock market (4/3)] Widely bought with the aim of autonomous rebound and buybacks. However, after the first round of trading, growth is sluggish [Chart published]",
     "link": "https://gamebiz.jp/news/423745",
     "date": 1775184720000,
     "domain": "gamebiz.jp",
@@ -5854,6 +5820,15 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Installation Instructions",
+    "link": "https://www.indiedb.com/mods/moan-mod/tutorials/installation-instructions9",
+    "date": 1775185200000,
+    "domain": "indiedb.com",
+    "sourceName": "IndieDB",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -6001,11 +5976,38 @@
     "hotScore": 1
   },
   {
+    "title": "``The Legend of Zelda'' ``Hylian Shield'' and ``Kabanda Sign'' 3D puzzles will be released on April 25th. Our aim is to beautifully display items that cannot stand on their own due to lack of support by rearranging their parts.",
+    "link": "https://news.denfaminicogamer.jp/news/260403z",
+    "date": 1775187853000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "\"HYKE: Northern Light(s)\", set in a world devastated by the war between humans and witches, now available on Apple Arcade",
     "link": "https://www.4gamer.net/games/996/G099615/20260403013",
     "date": 1775187876000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The former director says he regrets that development of ``The Last of Us Online'' was actually \"about 80%\" completed. I was just one step away",
+    "link": "https://automaton-media.com/articles/newsjp/the-last-of-us-online-20260403-434411",
+    "date": 1775187967000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Plameta Keeper releases Steam store page for \"Cute, but a little weird\" deck-building roguelike x 3D board game \"Holo Asobi\"",
+    "link": "https://gamebiz.jp/news/423751",
+    "date": 1775188020000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   }
