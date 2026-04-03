@@ -198,6 +198,15 @@
     "hotScore": 1
   },
   {
+    "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
+    "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
+    "date": 1775062800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "How Bright Future Balances Cozy and Competitive Play in Super Animal Royale",
     "link": "https://news.xbox.com/en-us/2026/04/01/super-animal-royale-bright-future",
     "date": 1775062800000,
@@ -212,15 +221,6 @@
     "date": 1775062800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
-    "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
-    "date": 1775062800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -270,20 +270,20 @@
     "hotScore": 1
   },
   {
-    "title": "Bethesda Shares Starfield Free Lanes Deep Dive, Included in PS5 Version",
-    "link": "https://www.pushsquare.com/news/2026/04/bethesda-shares-starfield-free-lanes-deep-dive-included-in-ps5-version",
-    "date": 1775070000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pikmin 4 Keychains Return to Japan",
     "link": "https://www.siliconera.com/pikmin-4-keychains-return-to-japan",
     "date": 1775070000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Bethesda Shares Starfield Free Lanes Deep Dive, Included in PS5 Version",
+    "link": "https://www.pushsquare.com/news/2026/04/bethesda-shares-starfield-free-lanes-deep-dive-included-in-ps5-version",
+    "date": 1775070000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -324,15 +324,6 @@
     "hotScore": 1
   },
   {
-    "title": "Always-Online RTS Has To Quickly Patch In Offline Mode After Server Provider Ditches Them For AI",
-    "link": "https://kotaku.com/stormgate-rts-patch-offline-mode-after-server-provider-ditches-them-for-ai-2000683998",
-    "date": 1775074733000,
-    "domain": "kotaku.com",
-    "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
     "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
     "date": 1775075400000,
@@ -361,13 +352,23 @@
     ]
   },
   {
-    "title": "Оновлення домашньої сторінки крамниці Steam",
+    "title": "Steam Store Home: A refresh",
     "link": "https://store.steampowered.com/news/app/593110/view/526496349181445156",
     "date": 1775077057000,
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Steam store \"refresh\" is out in beta now, enwidening images and adding infinite scrollage to the homepage",
+        "link": "https://www.rockpapershotgun.com/steam-store-refresh-is-out-in-beta-now-enwidening-images-and-adding-infinite-scrollage-to-the-homepage",
+        "date": 1775129586000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "More Crunchyroll Spring 2026 Streaming Anime Series Confirmed",
@@ -560,7 +561,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Starship Troopers: Ultimate Bug War!” download version released for Switch2 & PS5",
+    "title": "“Starship Troopers: Ultimate Bug War!” Download version released for Switch2 & PS5",
     "link": "https://www.4gamer.net/games/966/G096626/20260402006",
     "date": 1775109600000,
     "domain": "4gamer.net",
@@ -856,7 +857,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "GOG’s optimised ports of the original PC Resident Evil trilogy are now on Steam too",
@@ -864,14 +865,6 @@
         "date": 1775131843000,
         "domain": "videogameschronicle.com",
         "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "The Original Resident Evil is Finally Available on Steam",
-        "link": "https://www.dualshockers.com/steam-players-return-to-raccoon-city-original-resident-evil-trilogy",
-        "date": 1775146911000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
         "isTranslated": false
       },
       {
@@ -1036,7 +1029,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -1108,7 +1101,7 @@
     "hotScore": 5,
     "groupMembers": [
       {
-        "title": "Do NPCs really work hard to build stone statues in the highly popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
+        "title": "Do NPCs really work hard to build stone statues in the popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
         "link": "http://www.gamespark.jp/article/2026/04/02/164702.html",
         "date": 1775138404000,
         "domain": "gamespark.jp",
@@ -1325,15 +1318,6 @@
     "hotScore": 1
   },
   {
-    "title": "Steam store \"refresh\" is out in beta now, enwidening images and adding infinite scrollage to the homepage",
-    "link": "https://www.rockpapershotgun.com/steam-store-refresh-is-out-in-beta-now-enwidening-images-and-adding-infinite-scrollage-to-the-homepage",
-    "date": 1775129586000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Random: Jack Black Jokingly Suggests A Third Mario Movie Will Arrive In 2029",
     "link": "https://www.nintendolife.com/news/2026/04/random-jack-black-jokingly-suggests-a-third-mario-movie-will-arrive-in-2029",
     "date": 1775130300000,
@@ -1379,20 +1363,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
-    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
-    "date": 1775131200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
     "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
     "date": 1775131200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
+    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
+    "date": 1775131200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1487,20 +1471,20 @@
     "hotScore": 1
   },
   {
-    "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
-    "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
-    "date": 1775134800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Mega Man Star Force Legacy Collection Preserves More Classics",
     "link": "https://www.siliconera.com/review-mega-man-star-force-legacy-collection-preserves-more-classics",
     "date": 1775134800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
+    "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
+    "date": 1775134800000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1818,20 +1802,20 @@
     "hotScore": 1
   },
   {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
-    "date": 1775138400000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
     "link": "https://gamesbeat.com/karafun-karaoke-platform-creates-karafun-battle-mobile-game",
     "date": 1775138400000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "date": 1775138400000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2092,6 +2076,24 @@
     "hotScore": 1
   },
   {
+    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
+    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
+    "date": 1775142000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -2111,29 +2113,11 @@
     ]
   },
   {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
     "link": "https://www.pushsquare.com/news/2026/04/assassins-creed-unitys-ps5-patch-is-put-to-the-test-with-some-surprising-results",
     "date": 1775142000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
-    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
-    "date": 1775142000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2421,20 +2405,20 @@
     "hotScore": 1
   },
   {
+    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
+    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "date": 1775145600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
     "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
     "date": 1775145600000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
-    "date": 1775145600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2448,11 +2432,11 @@
     "hotScore": 1
   },
   {
-    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
-    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
+    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2485,7 +2469,7 @@
     ]
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -2584,15 +2568,6 @@
     ]
   },
   {
-    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
-    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
-    "date": 1775147400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
     "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
     "date": 1775147400000,
@@ -2610,6 +2585,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
+    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
+    "date": 1775147400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Seller Who Stockpiled Memory Now Panicking After RAM Prices Dip: ‘We’re Doomed, We’re Screwed’",
@@ -2725,11 +2709,11 @@
     ]
   },
   {
-    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
-    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
     "date": 1775149200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2743,11 +2727,11 @@
     "hotScore": 1
   },
   {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
+    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2890,6 +2874,15 @@
     "hotScore": 1
   },
   {
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "date": 1775152800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
     "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
     "date": 1775152800000,
@@ -2904,15 +2897,6 @@
     "date": 1775152800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
-    "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3621,15 +3605,6 @@
     "hotScore": 1
   },
   {
-    "title": "Marathon Devs Announce Recon Changes Ahead of Next Patch",
-    "link": "https://insider-gaming.com/marathon-devs-announce-recon-changes-ahead-of-next-patch",
-    "date": 1775173597000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Amazon's \"New Life Sale Final\" has started. Many products will be on sale, including gaming devices, streamer goods such as Stream Deck, and mobile batteries. Until April 6th",
     "link": "https://news.denfaminicogamer.jp/news/260403e",
     "date": 1775174154000,
@@ -4223,7 +4198,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following \"Kamen Rider Zets\" has been released",
+    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following “Kamen Rider Zets” has been released",
     "link": "https://news.denfaminicogamer.jp/news/2604032h",
     "date": 1775193804000,
     "domain": "news.denfaminicogamer.jp",
@@ -4340,7 +4315,7 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "The disturbing deck-building roguelike “Hitori Asobi” is now available on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
+        "title": "Unsettling deck-building roguelike ``Hitori Asobi'' released on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
         "link": "https://automaton-media.com/articles/newsjp/plameta-keeper-roguelike-20260403-434499",
         "date": 1775207002000,
         "domain": "automaton-media.com",
@@ -4525,21 +4500,12 @@
     "hotScore": 1
   },
   {
-    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen” each and 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
+    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen each” & 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
     "link": "https://news.denfaminicogamer.jp/news/2604032q",
     "date": 1775200799000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Take-Two Lays Off Head of AI and Shakes Up Department",
-    "link": "https://insider-gaming.com/take-two-head-of-ai-laid-off-shake-up",
-    "date": 1775200880000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -4624,7 +4590,7 @@
     "hotScore": 1
   },
   {
-    "title": "2P Games officially releases “Crying Goose”, a text adventure game set in the turbulent times of the late Ming Dynasty, on Steam",
+    "title": "2P Games officially releases “Crying Geese”, a text adventure game set in the turbulent times of the late Ming Dynasty, on Steam",
     "link": "https://gamebiz.jp/news/423790",
     "date": 1775202660000,
     "domain": "gamebiz.jp",
@@ -4915,20 +4881,20 @@
     ]
   },
   {
-    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
-    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
-    "date": 1775206800000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "One Of Switch's Very Best Indies Is Getting Physical 8 Years After Release",
     "link": "https://www.nintendolife.com/news/2026/04/one-of-switchs-very-best-indies-is-getting-physical-8-years-after-release",
     "date": 1775206800000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "date": 1775206800000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5324,7 +5290,7 @@
     "hotScore": 1
   },
   {
-    "title": "Chinese history survival ADV “Crying Geese” now available on Steam. \"Very well received\" ADV \"Hungry Lamb\" new work by the development team",
+    "title": "Chinese history survival ADV “Crying Geese” now available on Steam. \"Very popular\" ADV \"Hungry Lamb\" new work from the development team",
     "link": "http://www.gamespark.jp/article/2026/04/03/164740.html",
     "date": 1775212204000,
     "domain": "gamespark.jp",
@@ -5423,20 +5389,20 @@
     "hotScore": 1
   },
   {
-    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
-    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
-    "date": 1775214000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
     "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
     "date": 1775214000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
+    "date": 1775214000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5588,15 +5554,6 @@
     ]
   },
   {
-    "title": "Cash App is Giving Some Gamers Up to $50 Discounts on the PlayStation Store",
-    "link": "https://gamerant.com/cash-app-playstation-store-funds-discount-how-work",
-    "date": 1775215587000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Two Realms: Whispers from the Rift Demo is Live",
     "link": "https://www.indiedb.com/games/two-realms-whispers-from-the-rift/news/two-realms-whispers-from-the-rift-demo-is-live",
     "date": 1775215799000,
@@ -5723,6 +5680,15 @@
     "hotScore": 1
   },
   {
+    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
+    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
+    "date": 1775217600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Review: Super Meat Boy 3D (Switch 2) - Not The Finest Cut, But Still Tasty",
     "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/super-meat-boy-3d",
     "date": 1775217600000,
@@ -5737,15 +5703,6 @@
     "date": 1775217600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
-    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
-    "date": 1775217600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5891,7 +5848,17 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Does Tomodachi Life: Living The Dream Have Multiplayer Or Co-Op?",
+        "link": "https://insider-gaming.com/does-tomodachi-life-living-the-dream-have-multiplayer-or-co-op",
+        "date": 1775222733000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "\"What if the gameplay was fun? This blew our f***ing minds\": Dispatch devs had a revelation after years of tired Telltale mechanics",
@@ -5909,6 +5876,15 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
+    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "date": 1775221200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -5930,15 +5906,6 @@
     "hotScore": 1
   },
   {
-    "title": "Best Buy Has A Neat Super Mario Bros. 40th Anniversary Game Case Up For Grabs (US)",
-    "link": "https://www.nintendolife.com/news/2026/04/best-buy-has-a-neat-super-mario-bros-40th-anniversary-game-case-up-for-grabs-us",
-    "date": 1775221200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Uncharted Fans Think a Social Post Is Evidence of New PS5 Entry",
     "link": "https://www.pushsquare.com/news/2026/04/uncharted-fans-think-a-social-post-is-evidence-of-new-ps5-entry",
     "date": 1775221200000,
@@ -5948,11 +5915,11 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
-    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "title": "Best Buy Has A Neat Super Mario Bros. 40th Anniversary Game Case Up For Grabs (US)",
+    "link": "https://www.nintendolife.com/news/2026/04/best-buy-has-a-neat-super-mario-bros-40th-anniversary-game-case-up-for-grabs-us",
     "date": 1775221200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5996,6 +5963,42 @@
     "title": "Ross Scott Invited To Speak In EU Parliament Over Stop Killing Games",
     "link": "https://www.thegamer.com/stop-killing-games-ross-scott-eu-parliament",
     "date": 1775221829000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "T1 Turns a Profit for First Time in Organizational History",
+    "link": "https://insider-gaming.com/t1-turn-profit-for-first-time",
+    "date": 1775222935000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Hands-on Preview: Dreadmoor is the Spooky Fishing Game You Have to Play",
+    "link": "https://www.dualshockers.com/pax-east-dreadmoor-preview",
+    "date": 1775223012000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PlayStation Plus Still Hasn't Delivered on a Promise It Made in 2025, But That's a Good Thing",
+    "link": "https://gamerant.com/ps-plus-ps4-games-2026-not-ending-no-change",
+    "date": 1775223015000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nintendo Switch: All The Special Editions",
+    "link": "https://www.thegamer.com/every-special-edition-nintendo-switch-model",
+    "date": 1775223019000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
