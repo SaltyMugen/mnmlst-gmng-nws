@@ -136,15 +136,6 @@
     "hotScore": 1
   },
   {
-    "title": "Officially announced \"Chop Chop Inc.\", a craft game where you cut down trees. A woodworking business that makes everything from furniture to PCs, everything starts with woodcutters.",
-    "link": "https://automaton-media.com/articles/newsjp/20260402-434211",
-    "date": 1775114567000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "A survey report shows that the \"sales of third-party titles\" for Nintendo game consoles have grown by 76% compared to the previous year. Will the average sales “price” of Switch 2 titles be the driving force?",
     "link": "https://automaton-media.com/articles/newsjp/20260402-434229",
     "date": 1775116210000,
@@ -1221,6 +1212,15 @@
     "hotScore": 1
   },
   {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -1238,15 +1238,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
@@ -1381,7 +1372,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 6,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -1390,6 +1381,38 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
+      },
+      {
+        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+        "link": "https://www.gamer.ne.jp/news/202604030048",
+        "date": 1775216040000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      },
+      {
+        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+        "date": 1775196005000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+        "link": "https://news.denfaminicogamer.jp/news/2604032s",
+        "date": 1775202202000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+        "date": 1775189953000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
       }
     ]
   },
@@ -1458,20 +1481,20 @@
     "hotScore": 1
   },
   {
-    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
-    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
-    "date": 1775145600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
     "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
     "date": 1775145600000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
+    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "date": 1775145600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1915,13 +1938,31 @@
     "hotScore": 1
   },
   {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "title": "Former Nintendo Sales Lead Thinks Switch 2 Price Increase Is \"Inevitable\"",
+    "link": "https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable",
     "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Why A Switch 2 Price Increase May Be \"Inevitable\"",
+        "link": "https://www.gamespot.com/articles/why-a-switch-2-price-increase-may-be-inevitable/1100-6539210",
+        "date": 1775225580000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "Ex-Nintendo Sales Lead Explains The Three Factors Making A Switch 2 Price Hike ‘Inevitable’",
+        "link": "https://kotaku.com/switch-2-price-ram-iran-oil-trump-tariffs-2000684755",
+        "date": 1775253602000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
@@ -1933,11 +1974,11 @@
     "hotScore": 1
   },
   {
-    "title": "Former Nintendo Sales Lead Thinks Switch 2 Price Increase Is \"Inevitable\"",
-    "link": "https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable",
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2147,15 +2188,6 @@
     "date": 1775167200000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The newspaper club controls the fate of the school! ? High School Fixers, a school politics ADV that uses the school newspaper to manipulate public opinion, presented by a current art college student [TIGS2026]",
-    "link": "http://www.gamespark.jp/article/2026/04/03/164710.html",
-    "date": 1775167204000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -2740,15 +2772,6 @@
     ]
   },
   {
-    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-    "date": 1775189953000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -3012,25 +3035,6 @@
     "hotScore": 1
   },
   {
-    "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-    "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-    "date": 1775196005000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-        "link": "https://www.gamer.ne.jp/news/202604030048",
-        "date": 1775216040000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "From love letters expressing your feelings to threatening letters demanding ransom. Medieval manuscript illustration studio sim “Scriptorium: Master of Manuscripts”, released on April 17, 2026",
     "link": "https://www.4gamer.net/games/833/G083395/20260403026",
     "date": 1775196253000,
@@ -3194,15 +3198,6 @@
     "hotScore": 1
   },
   {
-    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-    "link": "https://news.denfaminicogamer.jp/news/2604032s",
-    "date": 1775202202000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "71 talents/staff from Hololive gather! Holo Indie's new strategy RPG \"KING of HOLO\" released on Steam store",
     "link": "http://www.gamespark.jp/article/2026/04/03/164731.html",
     "date": 1775202304000,
@@ -3266,20 +3261,20 @@
     "hotScore": 1
   },
   {
-    "title": "The synopsis and advance cut of the anime “Onegai Ipuri” episode 1 “Onegai! Become an Ipuri” have been released!",
-    "link": "https://www.gamer.ne.jp/news/202604030028",
-    "date": 1775203200000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Movic will pre-sell \"Harry Potter Card Game\" at \"Warner Bros. Studio Tour Tokyo\" from April 17th!",
     "link": "https://gamebiz.jp/news/423789",
     "date": 1775203200000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The synopsis and advance cut of the anime “Onegai Ipuri” episode 1 “Onegai! Become an Ipuri” have been released!",
+    "link": "https://www.gamer.ne.jp/news/202604030028",
+    "date": 1775203200000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3984,20 +3979,20 @@
     "hotScore": 1
   },
   {
-    "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
-    "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
-    "date": 1775214000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
     "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
     "date": 1775214000000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
+    "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
+    "date": 1775214000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4391,15 +4386,6 @@
     "hotScore": 1
   },
   {
-    "title": "Hands-on Preview: Dreadmoor is the Spooky Fishing Game You Have to Play",
-    "link": "https://www.dualshockers.com/pax-east-dreadmoor-preview",
-    "date": 1775223012000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "A work purporting to be a sequel to novelist Yukito Ayatsuji's work is on sale on Amazon. Although he used the name of his masterpiece, ``Murder at the Decagon House,'' Mr. Ayatsuji was not involved in any way. With the cooperation of the publisher, the book in question has already been deleted.",
     "link": "https://news.denfaminicogamer.jp/news/2604033i",
     "date": 1775223614000,
@@ -4499,6 +4485,25 @@
     "hotScore": 1
   },
   {
+    "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
+    "link": "https://gamebiz.jp/news/423805",
+    "date": 1775224800000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "``Collapsed City,'' a maritime city construction sim set in a submerged apocalyptic world, released on Steam. Stack materials while maintaining balance to avoid collapse.",
+        "link": "https://www.4gamer.net/games/875/G087523/20260403039",
+        "date": 1775224800000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "``Collapsed City'', a maritime city construction sim that collapses if you just pile it up, is now available on Steam! The game's appeal is that a sense of balance is important in two ways.",
     "link": "https://www.gamer.ne.jp/news/202604030047",
     "date": 1775224800000,
@@ -4521,25 +4526,6 @@
         "date": 1775254503000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
-    "link": "https://gamebiz.jp/news/423805",
-    "date": 1775224800000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "``Collapsed City,'' a maritime city construction sim set in a submerged apocalyptic world, released on Steam. Stack materials while maintaining balance to avoid collapse.",
-        "link": "https://www.4gamer.net/games/875/G087523/20260403039",
-        "date": 1775224800000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -4570,25 +4556,6 @@
     "sourceName": "VGC",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Why A Switch 2 Price Increase May Be \"Inevitable\"",
-    "link": "https://www.gamespot.com/articles/why-a-switch-2-price-increase-may-be-inevitable/1100-6539210",
-    "date": 1775225580000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Ex-Nintendo Sales Lead Explains The Three Factors Making A Switch 2 Price Hike ‘Inevitable’",
-        "link": "https://kotaku.com/switch-2-price-ram-iran-oil-trump-tariffs-2000684755",
-        "date": 1775253602000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "“Initial D THE ARCADE” collaborates with “Uma Musume”. Vinyl stickers that can turn your car into a “Uma Musume Itasha” and BGM from “Umapyoi Densetsu” are now available",
@@ -4805,7 +4772,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -4813,14 +4780,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4913,7 +4872,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Lenovo Legion Go 2 Prices Increase By Nearly 50%",
@@ -5357,17 +5326,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -5630,7 +5589,17 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "10 PS2 JRPGs That Are Fun Immediately",
+        "link": "https://www.dualshockers.com/ps2-jrpgs-that-are-fun-from-the-start",
+        "date": 1775255413000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Pokemon Leak Suggests Mega Staraptor Is Getting Contrary",
@@ -5657,7 +5626,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The Steam version of the dirty room cleaning/renovation game ``House Flipper'' is being distributed free of charge for a limited time. A game with a regular price of 2,800 yen is now free",
+        "link": "https://automaton-media.com/articles/newsjp/20260404-434572",
+        "date": 1775255427000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Nintendo 64 JRPGs that Never Received a Modern Port",
@@ -5869,15 +5848,6 @@
     "hotScore": 1
   },
   {
-    "title": "Crimson Desert Interactive Map",
-    "link": "https://gamerant.com/map/crimson-desert-complete-desert-full-interactive-map",
-    "date": 1775246416000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Google AI embarrasses itself when asked to perform the one simple task computers have always been good at",
     "link": "https://www.pcgamer.com/software/ai/google-ai-embarrasses-itself-when-asked-to-perform-the-one-simple-task-computers-have-always-been-good-at",
     "date": 1775246883000,
@@ -6009,6 +5979,15 @@
     "date": 1775249521000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6223,6 +6202,24 @@
     "title": "6 Popular Shonen Tropes Dragon Ball Perfected",
     "link": "https://gamerant.com/popular-shonen-tropes-dragon-ball-perfected",
     "date": 1775253616000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Traveling through a submerged apocalyptic world with music... \"ARIE: Tsukuyomi\" is an ADV that depicts a journey without battle [TOKYO INDIE GAMES SUMMIT2026]",
+    "link": "http://www.gamespark.jp/article/2026/04/04/164760.html",
+    "date": 1775255404000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Best Open-World RPGs If You Hate 100-Hour Fetch Quests",
+    "link": "https://gamerant.com/open-world-rpgs-without-100-hour-fetch-quests",
+    "date": 1775255415000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
