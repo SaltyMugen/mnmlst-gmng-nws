@@ -1136,7 +1136,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
@@ -1145,22 +1145,6 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
-      },
-      {
-        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-        "date": 1775119598000,
-        "domain": "gamesindustry.biz",
-        "sourceName": "GamesIndustry.biz",
-        "isTranslated": false
-      },
-      {
-        "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
-        "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
-        "date": 1775090134000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
       }
     ]
   },
@@ -1453,6 +1437,15 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
+    "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
+    "date": 1775090134000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -2349,6 +2342,25 @@
     "hotScore": 1
   },
   {
+    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+    "date": 1775119598000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+        "link": "https://jp.ign.com/palworld/83077/news",
+        "date": 1775177010000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -2527,15 +2539,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "“Mongil: STAR DIVE” online showcase “FIRST DIVE SHOW” will be available from 18:00 on April 8th!",
-    "link": "https://www.gamer.ne.jp/news/202604020042",
-    "date": 1775121420000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
   },
   {
     "title": "New Metroidvania ``Annalog'' for NES, now available for fans. Recommended for fans of ``Metroid,'' ``The Legend of Zelda,'' and programming logic puzzles.",
@@ -2762,15 +2765,6 @@
     "date": 1775125440000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Above the Desk releases management sim “Above the Snow” on April 23rd! Running a mountain hut in the Alps in the 1960s",
-    "link": "https://gamebiz.jp/news/423715",
-    "date": 1775125560000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4002,6 +3996,15 @@
     ]
   },
   {
+    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
+    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
+    "date": 1775142000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -4019,15 +4022,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
-    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
-    "date": 1775142000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
@@ -5798,15 +5792,6 @@
     "hotScore": 1
   },
   {
-    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-    "link": "https://jp.ign.com/palworld/83077/news",
-    "date": 1775177010000,
-    "domain": "jp.ign.com",
-    "sourceName": "IGN Japan",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
     "link": "http://www.gamespark.jp/article/2026/04/03/164717.html",
     "date": 1775177051000,
@@ -6011,6 +5996,33 @@
     "date": 1775181646000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Amazon's \"New Life Sale Final\" book sale has begun. You can find great deals on drinks such as Red Bull, various frozen foods, and robot vacuum cleaners that will be a great addition to your new life. Sale period is until April 6th",
+    "link": "https://news.denfaminicogamer.jp/news/260403l",
+    "date": 1775181731000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Nexon opens new area ``Maple Island'' in theme park ``Lotte World Adventure'' in Seoul, South Korea",
+    "link": "https://gamebiz.jp/news/423736",
+    "date": 1775182020000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Apple Arcade version of \"HYKE: Northern Light(s)\" is now available! A top-down 2D dot action RPG in which you travel in search of clues about your mother, a witch.",
+    "link": "https://www.gamer.ne.jp/news/202604030004",
+    "date": 1775182020000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   }
