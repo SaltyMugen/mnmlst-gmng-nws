@@ -51,17 +51,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "MindsEye Going Off the Deep End with In-Game Mission Revealing 'Evidence' of 'Sabotage'",
-        "link": "https://www.pushsquare.com/news/2026/04/mindseye-going-off-the-deep-end-with-in-game-mission-revealing-evidence-of-sabotage",
-        "date": 1775048400000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "The Hundred Line: Last Defense Academy players get collectively kinkshamed by the developers for April Fools",
@@ -178,14 +168,30 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 4,
     "groupMembers": [
       {
-        "title": "A premium preview screening of the Japanese version of the movie ``The Super Mario Galaxy Movie'' will be held on April 21st. Recruiting participants",
-        "link": "https://www.4gamer.net/games/991/G999103/20260402050",
-        "date": 1775125528000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
+        "title": "The movie ``The Super Mario Galaxy Movie'' received a user score of ``91%'' on an overseas review aggregation site. Critics score is mixed, but it is very popular with users",
+        "link": "https://news.denfaminicogamer.jp/news/2604022l",
+        "date": 1775107996000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
+        "link": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
+        "date": 1775127583000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "A review of ``The Super Mario Galaxy Movie,'' which is full of love for Mario but lacks a story that you can empathize with.",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83073/review",
+        "date": 1775128800000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
         "isTranslated": true
       },
       {
@@ -280,15 +286,6 @@
     "hotScore": 1
   },
   {
-    "title": "Feature: 30 Xbox Series X|S Games To Look Forward To In April-December 2026",
-    "link": "https://www.purexbox.com/features/30-xbox-series-xs-games-to-look-forward-to-in-april-december-2026",
-    "date": 1775035800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Crimson Desert smashes another sales milestone, less than two weeks since its release",
     "link": "https://www.eurogamer.net/crimson-desert-smashes-another-sales-milestone-less-than-two-weeks-since-its-release",
     "date": 1775035819000,
@@ -314,7 +311,7 @@
         "isTranslated": false
       },
       {
-        "title": "Do NPCs really work hard to build stone statues in the highly popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
+        "title": "Do NPCs really work hard to build stone statues in the popular “Crimson Desert”? Players even voice their bewilderment at the overly detailed design.",
         "link": "http://www.gamespark.jp/article/2026/04/02/164702.html",
         "date": 1775138404000,
         "domain": "gamespark.jp",
@@ -454,15 +451,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The Elder Scrolls Online Is Coming To PC Game Pass With Xbox Play Anywhere Support",
-    "link": "https://www.purexbox.com/news/2026/04/the-elder-scrolls-online-is-coming-to-pc-game-pass-with-xbox-play-anywhere-support",
-    "date": 1775040300000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -635,23 +623,39 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 5,
     "groupMembers": [
       {
-        "title": "The Super Mario Galaxy Movie breaks records with $34m opening despite \"unfavourable\" reviews",
-        "link": "https://www.eurogamer.net/super-mario-galaxy-movie-breaks-records-despite-unfavourable-reviews",
-        "date": 1775127583000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
+        "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
+        "link": "https://www.videogameschronicle.com/news/super-mario-galaxy-movie-has-a-better-opening-day-than-the-first-film-is-expected-to-finish-behind-for-the-weekend",
+        "date": 1775119608000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
         "isTranslated": false
       },
       {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
+        "title": "The Super Mario Galaxy Movie Opens Huge, But Not Expected To Beat The 2023 Movie",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
+        "date": 1775158680000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
         "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
       }
     ]
   },
@@ -782,29 +786,11 @@
     "hotScore": 1
   },
   {
-    "title": "Some Unlikely Games Have Entered The 'Top Paid' Xbox Charts In Recent Weeks",
-    "link": "https://www.purexbox.com/news/2026/04/some-unlikely-games-have-entered-the-top-paid-xbox-charts-in-recent-weeks",
-    "date": 1775050620000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "From Frogspawn to Frog Sqwad: The Making of A Sticky, Snacky New Multiplayer Game",
     "link": "https://news.xbox.com/en-us/2026/04/01/frog-sqwad-coming-to-xbox-june-2026",
     "date": 1775052000000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Remember When Call of Duty Said Its New Skins Would Be Sensible? Well, Here's Dave Chappelle",
-    "link": "https://www.pushsquare.com/news/2026/04/remember-when-call-of-duty-said-its-new-skins-would-be-sensible-well-heres-dave-chappelle",
-    "date": 1775052000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -827,7 +813,7 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "A great adventure by the blue octopus Darwin that will decide the fate of humanity! \"Darwin's Paradox!\" now available on PS5/Xbox Series X|S/Switch2/PC",
+        "title": "A great adventure by the blue octopus Darwin that will determine the fate of humanity! \"Darwin's Paradox!\" now available on PS5/Xbox Series X|S/Switch2/PC",
         "link": "https://www.gamer.ne.jp/news/202604020045",
         "date": 1775122800000,
         "domain": "gamer.ne.jp",
@@ -843,15 +829,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Ubisoft Teams With Xbox To Bring 'Heroes Of Might And Magic: Olden Era' To PC Game Pass",
-    "link": "https://www.purexbox.com/news/2026/04/ubisoft-teams-with-xbox-to-bring-heroes-of-might-and-magic-olden-era-to-pc-game-pass",
-    "date": 1775052840000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Playstudios kicks off month-long Space Invaders crossover inside Tetris mobile game",
@@ -899,49 +876,13 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: The Super Mario Galaxy Movie: Is There A Post-Credits Scene?",
-    "link": "https://www.nintendolife.com/guides/the-super-mario-galaxy-movie-is-there-a-post-credits-scene",
-    "date": 1775055600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
+    "title": "PlayStation Plus Monthly Games for April: Lords of the Fallen, Tomb Raider I-III Remastered, Sword Art Online Fractured Daydream",
+    "link": "https://blog.playstation.com/2026/04/01/playstation-plus-monthly-games-for-april-lords-of-the-fallen-tomb-raider-i-iii-remastered-sword-art-online-fractured-daydream",
+    "date": 1775057402000,
+    "domain": "blog.playstation.com",
+    "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "\"The Super Mario Galaxy Movie\" Japanese version premium preview will be held in Tokyo on April 21st! Scene photos showing Rosetta and others have also been released.",
-        "link": "https://www.gamer.ne.jp/news/202604020049",
-        "date": 1775124780000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
-        "title": "New scene photos featuring Yoshi, Rosetta, and Bowser Jr. from ``The Super Mario Galaxy Movie'' have been released. It has also been decided that a Japanese version premium preview screening will be held.",
-        "link": "https://news.denfaminicogamer.jp/news/2604023l",
-        "date": 1775124542000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "Bring Down a Ring of Gold Diggers in PS5, PS4's Most Controversial Game Yet",
-    "link": "https://www.pushsquare.com/news/2026/04/bring-down-a-ring-of-gold-diggers-in-ps5-ps4s-most-controversial-game-yet",
-    "date": 1775055600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PS Plus Essential Games for April 2026 Announced",
-    "link": "https://www.pushsquare.com/news/2026/04/ps-plus-essential-games-for-april-2026-announced",
-    "date": 1775057400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Here are our PS Plus monthly games for April",
@@ -949,14 +890,6 @@
         "date": 1775059449000,
         "domain": "eurogamer.net",
         "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "PlayStation Plus Monthly Games for April: Lords of the Fallen, Tomb Raider I-III Remastered, Sword Art Online Fractured Daydream",
-        "link": "https://blog.playstation.com/2026/04/01/playstation-plus-monthly-games-for-april-lords-of-the-fallen-tomb-raider-i-iii-remastered-sword-art-online-fractured-daydream",
-        "date": 1775057402000,
-        "domain": "blog.playstation.com",
-        "sourceName": "PlayStation Blog",
         "isTranslated": false
       }
     ]
@@ -967,15 +900,6 @@
     "date": 1775058062000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PSA: If You Own Goat Simulator 3 On Switch 1, You Get A 70% Discount On Switch 2",
-    "link": "https://www.nintendolife.com/news/2026/04/psa-if-you-own-goat-simulator-3-on-switch-1-you-get-a-70percent-discount-on-switch-2",
-    "date": 1775058300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1025,42 +949,6 @@
     "hotScore": 1
   },
   {
-    "title": "Mario Galaxy Movie Retail Pre-Orders Go Live, Including Steelbook & 'Tin Egg' Edition",
-    "link": "https://www.nintendolife.com/news/2026/04/mario-galaxy-movie-retail-pre-orders-go-live-including-steelbook-and-tin-egg-edition",
-    "date": 1775061000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "'There Is No Shop' - Halo Dev Eases Concerns Over Xbox Fanta Skin For Campaign Evolved",
-    "link": "https://www.purexbox.com/news/2026/04/there-is-no-shop-halo-dev-eases-concerns-over-xbox-fanta-skin-for-campaign-evolved",
-    "date": 1775061000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "These 11+ PS5, PS4 Games Will Be Delisted in April",
-    "link": "https://www.pushsquare.com/news/2026/04/these-11plus-ps5-ps4-games-will-be-delisted-in-april",
-    "date": 1775061900000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "How Bright Future Balances Cozy and Competitive Play in Super Animal Royale",
-    "link": "https://news.xbox.com/en-us/2026/04/01/super-animal-royale-bright-future",
-    "date": 1775062800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Adventures of Elliot Trials of Mana Riesz Crossover Confirmed",
     "link": "https://www.siliconera.com/the-adventures-of-elliot-trials-of-mana-riesz-crossover-confirmed",
     "date": 1775062800000,
@@ -1070,11 +958,11 @@
     "hotScore": 1
   },
   {
-    "title": "'No Mode Is Properly Optimised on Base PS5': Crimson Desert's Console Performance a 'Mixed Bag'",
-    "link": "https://www.pushsquare.com/news/2026/04/no-mode-is-properly-optimised-on-base-ps5-crimson-deserts-console-performance-a-mixed-bag",
+    "title": "How Bright Future Balances Cozy and Competitive Play in Super Animal Royale",
+    "link": "https://news.xbox.com/en-us/2026/04/01/super-animal-royale-bright-future",
     "date": 1775062800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1098,29 +986,11 @@
     ]
   },
   {
-    "title": "Classic SEGA Series Sakura Wars Turns 30 This Year, Sparking Hope for a New Game",
-    "link": "https://www.pushsquare.com/news/2026/04/classic-sega-series-sakura-wars-turns-30-this-year-sparking-hope-for-a-new-game",
-    "date": 1775066400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Nintendo's legal fight with Palworld suffers a reversal as the USPTO reject their patent on character-summoning battle mechanics",
     "link": "https://www.rockpapershotgun.com/nintendos-legal-fight-with-palworld-suffers-a-reversal-as-the-uspto-reject-their-patent-on-character-summoning-battle-mechanics",
     "date": 1775066422000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Talking Point: How Many Random Peripherals For Xbox Games Do You Still Own?",
-    "link": "https://www.purexbox.com/features/talking-point-how-many-random-peripherals-for-xbox-games-do-you-still-own",
-    "date": 1775067600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1131,17 +1001,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
-        "link": "https://www.nintendolife.com/news/2026/04/nintendos-summon-character-to-fight-patent-rejected-by-us-patent-office",
-        "date": 1775071800000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Pikmin 4 Keychains Return to Japan",
@@ -1149,24 +1009,6 @@
     "date": 1775070000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Bethesda Shares Starfield Free Lanes Deep Dive, Included in PS5 Version",
-    "link": "https://www.pushsquare.com/news/2026/04/bethesda-shares-starfield-free-lanes-deep-dive-included-in-ps5-version",
-    "date": 1775070000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Out Of Nowhere, Xbox Just Announced NBA 2K26 For Game Pass",
-    "link": "https://www.purexbox.com/news/2026/04/out-of-nowhere-xbox-just-announced-nba-2k26-for-game-pass",
-    "date": 1775073300000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1189,15 +1031,6 @@
     "hotScore": 1
   },
   {
-    "title": "Xbox Spring Sale 2026 Now Live In Full, 2000+ Games Discounted",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-spring-sale-2026-now-live-in-full-2000plus-games-discounted",
-    "date": 1775074500000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Early look at the Pro Drum Cymbals and Kick Drum Gem in Fortnite Festival",
     "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1s9w39o/early_look_at_the_pro_drum_cymbals_and_kick_drum",
     "date": 1775074648000,
@@ -1212,24 +1045,6 @@
     "date": 1775074733000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "A Lovely Little Pokémon-Themed Garden Has Opened Up In London, UK",
-    "link": "https://www.nintendolife.com/news/2026/04/a-lovely-little-pokemon-themed-garden-has-opened-up-in-london-uk",
-    "date": 1775075400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "We Hope You're Not Sick of Soulslikes, Because Mortal Shell 2 Just Got a Massive Gameplay Trailer",
-    "link": "https://www.pushsquare.com/news/2026/04/we-hope-youre-not-sick-of-soulslikes-because-mortal-shell-2-just-got-a-massive-gameplay-trailer",
-    "date": 1775075400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1362,15 +1177,6 @@
     "hotScore": 1
   },
   {
-    "title": "Hardware Snoop Tips Rumoured PS6 Handheld to Be a Beast",
-    "link": "https://www.pushsquare.com/news/2026/04/hardware-snoop-tips-rumoured-ps6-handheld-to-be-a-beast",
-    "date": 1775084400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "That's right, let's watch the anime: The 256th episode is the human drama \"Ikoku Nikki\" which was also made into a live-action movie. A girl who lost her parents and a clumsy novelist live together",
     "link": "https://www.4gamer.net/games/338/G033856/20260324037",
     "date": 1775084400000,
@@ -1408,30 +1214,12 @@
     "hotScore": 1
   },
   {
-    "title": "'The Solution Is to Get Rid of Consoles': Analyst Predicts $1,000 PS6 and a Transition to Game Streaming",
-    "link": "https://www.pushsquare.com/news/2026/04/the-solution-is-to-get-rid-of-consoles-analyst-predicts-usd1000-ps6-and-a-transition-to-game-streaming",
-    "date": 1775088000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Analysis of smartphone game sales (March 19, 2026 - March 25, 2026). This week's number one is \"Prospi A\". Also introduces the market size by country/region in 2025",
     "link": "https://www.4gamer.net/games/316/G031643/20260330013",
     "date": 1775088000000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "'The Hundred Line' Update 1.2.0 Announced, Here's What's Included",
-    "link": "https://www.nintendolife.com/news/2026/04/the-hundred-line-update-1-2-0-announced-heres-whats-included",
-    "date": 1775088300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -1451,33 +1239,6 @@
     "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "The Super Mario Galaxy Movie Is Already Breaking Box Office Records",
-    "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-is-already-breaking-box-office-records",
-    "date": 1775093700000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Breaking Down The 12 Biggest Super Mario Galaxy Movie Cameos And References",
-        "link": "https://kotaku.com/super-mario-galaxy-movie-cameos-game-watch-daisy-pikmin-2000684272",
-        "date": 1775148239000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Is A Sugary Barrage Of References And Not Much Else",
-        "link": "https://kotaku.com/super-mario-galaxy-movie-review-nintendo-luigi-peach-rosalina-2000684229",
-        "date": 1775138089000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "It's so cute that you can feel the \"commitment\" to it. Deus Exia, a side-scrolling 2D action game with nostalgic dot art, now available on Steam store page",
@@ -1531,15 +1292,6 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Nintendo Really Wants You To Press Switch 2's GameChat Button",
-    "link": "https://www.nintendolife.com/news/2026/04/nintendo-really-wants-you-to-press-switch-2s-gamechat-button",
-    "date": 1775097300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -1689,33 +1441,6 @@
     "hotScore": 1
   },
   {
-    "title": "HoYoverse's new slow life game \"Petit Planet\" new beta test will be held on April 21st! Friendship with cute beasts and expanded multiplayer features",
-    "link": "http://www.gamespark.jp/article/2026/04/02/164670.html",
-    "date": 1775102954000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "HoYoverse's slow life game \"Petit Planet\" new beta test will be held from April 21st. A noteworthy work with online elements that allow fluffy residents to interact leisurely and loosely connect.",
-        "link": "https://automaton-media.com/articles/newsjp/20260402-434168",
-        "date": 1775108885000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "\"Petit Planet\" new beta test will start on April 21st for PC, iOS, and Android. New residents appear",
-        "link": "https://www.4gamer.net/games/948/G094822/20260402019",
-        "date": 1775104357000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "KRAFTON and others have invested $3.5 million in the new adventure MOBA \"Golden Tides.\" Expectations are rising as the “next generation MOBA”",
     "link": "https://www.4gamer.net/games/995/G099568/20260402018",
     "date": 1775103169000,
@@ -1759,6 +1484,25 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "\"Petit Planet\" new beta test will start on April 21st for PC, iOS, and Android. New residents appear",
+    "link": "https://www.4gamer.net/games/948/G094822/20260402019",
+    "date": 1775104357000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "HoYoverse's slow life game \"Petit Planet\" new beta test will be held from April 21st. A noteworthy work with online elements that allow fluffy residents to interact leisurely and loosely connect.",
+        "link": "https://automaton-media.com/articles/newsjp/20260402-434168",
+        "date": 1775108885000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "\"EGG Console Seesaw MSX\" released today. An ACT game where you use seesaws and trampolines to repel the bad guys.",
@@ -1823,15 +1567,6 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Pokémon Legends: Z-A Is Getting Pokémon HOME Connectivity This Week",
-    "link": "https://www.nintendolife.com/news/2026/04/pokemon-legends-z-a-is-getting-pokemon-home-connectivity-this-week",
-    "date": 1775105700000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -1909,7 +1644,7 @@
     "hotScore": 1
   },
   {
-    "title": "Which button is the correct answer? Horror puzzle game that aims to escape from a mysterious room, ``Push it and if it doesn't work, try it'', Switch version released today",
+    "title": "Which button is the correct answer? The Switch version of the horror puzzle game ``Push it and if it doesn't work, try it'' that aims to escape from a mysterious room is released today.",
     "link": "https://www.4gamer.net/games/993/G099368/20260402021",
     "date": 1775107351000,
     "domain": "4gamer.net",
@@ -1943,15 +1678,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Capcom Jokes About Mega Man In Pragmata With This Impressive Outfit",
-    "link": "https://www.nintendolife.com/news/2026/04/capcom-jokes-about-mega-man-in-pragmata-with-this-impressive-outfit",
-    "date": 1775109300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -2084,7 +1810,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -2228,7 +1954,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
+    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -2392,49 +2118,6 @@
     "hotScore": 1
   },
   {
-    "title": "Super Mario Galaxy Movie has a better opening day than the first film, is expected to finish behind for the weekend",
-    "link": "https://www.videogameschronicle.com/news/super-mario-galaxy-movie-has-a-better-opening-day-than-the-first-film-is-expected-to-finish-behind-for-the-weekend",
-    "date": 1775119608000,
-    "domain": "videogameschronicle.com",
-    "sourceName": "VGC",
-    "isTranslated": false,
-    "hotScore": 5,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie Opens Huge, But Not Expected To Beat The 2023 Movie",
-        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
-        "date": 1775158680000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "The trial version of ``Morbid Metal'', a rogue-lite action game with cool mechanical visuals, is now available on Steam. Fight while switching characters and connect combos to defeat enemies.",
     "link": "https://news.denfaminicogamer.jp/news/2604022z",
     "date": 1775120087000,
@@ -2516,25 +2199,6 @@
     "hotScore": 1
   },
   {
-    "title": "Five Games Are Leaving Xbox Game Pass In Early April 2026",
-    "link": "https://www.purexbox.com/news/2026/04/five-games-are-leaving-xbox-game-pass-in-early-april-2026",
-    "date": 1775120580000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Grand Theft Auto 5 is leaving Xbox Game Pass in April, as well as two other fantastic RPGs",
-        "link": "https://www.eurogamer.net/grand-theft-auto-5-leaving-xbox-game-pass-april",
-        "date": 1775137288000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "\"Darwin's Paradox!\", an action ADV starring an octopus, released today. Use the unique abilities of an octopus to overcome the gimmicks of each stage.",
     "link": "https://www.4gamer.net/games/882/G088252/20260402037",
     "date": 1775120705000,
@@ -2553,7 +2217,7 @@
     "hotScore": 1
   },
   {
-    "title": "Penny Parker's voice actor for the fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
+    "title": "Penny Parker's voice actor for fighting game ``MARVEL Tōkon'' continues from the movie ``Into the Spider-Verse''! New Japanese dubbed video released",
     "link": "http://www.gamespark.jp/article/2026/04/02/164689.html",
     "date": 1775121304000,
     "domain": "gamespark.jp",
@@ -2679,7 +2343,7 @@
     "hotScore": 1
   },
   {
-    "title": "Anime producer ufotable will announce \"new information\" about the 30th anniversary collaboration project of the \"Tales of\" series from 6:00 p.m. on April 3rd. A follow-up to the video introduced in February as the \"2026 Project\"",
+    "title": "Anime producer ufotable will announce \"new information\" about the 30th anniversary collaboration project of the \"Tales of\" series from 6pm on April 3rd. A follow-up to the video introduced in February as the \"2026 Project\"",
     "link": "https://news.denfaminicogamer.jp/news/2604023m",
     "date": 1775123055000,
     "domain": "news.denfaminicogamer.jp",
@@ -2806,6 +2470,33 @@
     "hotScore": 1
   },
   {
+    "title": "New scene photos featuring Yoshi, Rosetta, and Bowser Jr. from ``The Super Mario Galaxy Movie'' have been released. It has also been decided that a Japanese version premium preview screening will be held.",
+    "link": "https://news.denfaminicogamer.jp/news/2604023l",
+    "date": 1775124542000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "\"The Super Mario Galaxy Movie\" Japanese version premium preview will be held in Tokyo on April 21st! Scene photos showing Rosetta and others have also been released.",
+        "link": "https://www.gamer.ne.jp/news/202604020049",
+        "date": 1775124780000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      },
+      {
+        "title": "A premium preview screening of the Japanese version of the movie ``The Super Mario Galaxy Movie'' will be held on April 21st. Recruiting participants",
+        "link": "https://www.4gamer.net/games/991/G999103/20260402050",
+        "date": 1775125528000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "Invader Studios announces 'Panic Delivery' early access release in Q2 2026",
     "link": "https://gamebiz.jp/news/423714",
     "date": 1775124720000,
@@ -2820,15 +2511,6 @@
     "date": 1775124796000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Super Animal Royale's Latest Major Update Is Here",
-    "link": "https://www.nintendolife.com/news/2026/04/super-animal-royales-latest-major-update-is-here",
-    "date": 1775124900000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3022,17 +2704,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Former Nintendo Sales Lead Thinks Switch 2 Price Increase Is \"Inevitable\"",
-        "link": "https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable",
-        "date": 1775152800000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Grid Cortex Games releases COMBOTRONICA, a high-tech roguelike deck builder centered around the original tile chain mechanic",
@@ -3059,7 +2731,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Peak devs remind players that 'any update is a bonus not a right'",
@@ -3067,14 +2739,6 @@
         "date": 1775141031000,
         "domain": "polygon.com",
         "sourceName": "Polygon",
-        "isTranslated": false
-      },
-      {
-        "title": "'Any Update Is a Bonus Not a Right' Says Peak Dev in Response to 'Lazy Dev Cycle' Accusations",
-        "link": "https://www.ign.com/articles/any-update-is-a-bonus-not-a-right-says-peak-dev-in-response-to-lazy-dev-cycle-accusations",
-        "date": 1775165142000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -3106,15 +2770,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
-    "link": "https://www.pushsquare.com/news/2026/04/rumour-halos-ps5-debut-launches-in-june-according-to-fanta-related-fan-theory",
-    "date": 1775127600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "In the latest video of Washagana TV, we will introduce the Ichiban Kuji products and action figures of \"GQuuuuuuX\"",
@@ -3254,34 +2909,6 @@
     ]
   },
   {
-    "title": "Multiple Assassin's Creed Games Are Free To Play On Xbox This Week (April 2-6)",
-    "link": "https://www.purexbox.com/news/2026/04/multiple-assassins-creed-games-are-free-to-play-on-xbox-this-week-april-2-6",
-    "date": 1775130300000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Free Xbox Games Right Now Include 6 Assassin's Creed Titles",
-        "link": "https://www.gamespot.com/gallery/free-xbox-games-you-can-play-right-now-and-how-to-get-them/2900-7437",
-        "date": 1775149440000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Random: Jack Black Jokingly Suggests A Third Mario Movie Will Arrive In 2029",
-    "link": "https://www.nintendolife.com/news/2026/04/random-jack-black-jokingly-suggests-a-third-mario-movie-will-arrive-in-2029",
-    "date": 1775130300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "``Yomawari'' staff's new work ``Honogurashi no Niwa'' has been selected as ``CERO C'', which is recommended for ages 15 and above. Fans were also confused, saying, ``Isn't it strange that it's supposed to be a rural life simulation game?'' ``It's a heartwarming game, right?''",
     "link": "https://news.denfaminicogamer.jp/news/2604023p",
     "date": 1775130453000,
@@ -3324,24 +2951,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
-    "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
-    "date": 1775131200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
-    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
-    "date": 1775131200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -3410,15 +3019,6 @@
     ]
   },
   {
-    "title": "PS5 Price Increases Start, Live Now at Some Retailers",
-    "link": "https://www.pushsquare.com/news/2026/04/ps5-price-increases-start-live-now-at-some-retailers",
-    "date": 1775133000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Fight in a strange world while stealing the \"shapes\" of living things...The sequel to the \"very popular\" metroidvania \"GRIME\" is here - freshly harvested! Today's 16 featured games on Steam [April 2, 2026]",
     "link": "http://www.gamespark.jp/article/2026/04/02/164696.html",
     "date": 1775133068000,
@@ -3443,15 +3043,6 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "ICYMI: Donkey Kong Bananza's Newest DLC Event Is Now Available",
-    "link": "https://www.nintendolife.com/news/2026/04/icymi-donkey-kong-bananzas-newest-dlc-event-is-now-available",
-    "date": 1775133900000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -3500,15 +3091,6 @@
     "hotScore": 1
   },
   {
-    "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
-    "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
-    "date": 1775134800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dr. Stone artist Boichi says that mangakas’ fixation on Shonen Jump might negatively impact the creative diversity of the industry in the long run",
     "link": "https://automaton-media.com/en/news/dr-stone-artist-boichi-says-that-mangakas-fixation-on-shonen-jump-might-negatively-impact-the-creative-diversity-of-the-industry-in-the-long-run",
     "date": 1775134800000,
@@ -3542,16 +3124,8 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
-      {
-        "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-        "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-        "date": 1775136600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
       {
         "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
@@ -3595,17 +3169,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Little Nightmares II Is Getting An 'Enhanced Edition' On Switch 2",
-        "link": "https://www.nintendolife.com/news/2026/04/little-nightmares-ii-is-getting-an-enhanced-edition-on-switch-2",
-        "date": 1775138400000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Mchose G3 V2 review",
@@ -3654,15 +3218,6 @@
     "hotScore": 1
   },
   {
-    "title": "Pokémon Home Gets An Alpha-Sized Distribution To Celebrate Legends Z-A Compatibility",
-    "link": "https://www.nintendolife.com/news/2026/04/pokemon-home-gets-an-alpha-sized-distribution-to-celebrate-legends-z-a-compatibility",
-    "date": 1775136600000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The direction change shot is amazing! ``Kaguya'' [TIGS2026] A high school girl's relaxing daily life colored with good old barrage STG and full voice that makes you happy",
     "link": "http://www.gamespark.jp/article/2026/04/02/164700.html",
     "date": 1775136604000,
@@ -3687,6 +3242,15 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Grand Theft Auto 5 is leaving Xbox Game Pass in April, as well as two other fantastic RPGs",
+    "link": "https://www.eurogamer.net/grand-theft-auto-5-leaving-xbox-game-pass-april",
+    "date": 1775137288000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -3723,7 +3287,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Xbox FanFest Tour 2026 announced",
@@ -3731,14 +3295,6 @@
         "date": 1775139513000,
         "domain": "gematsu.com",
         "sourceName": "Gematsu",
-        "isTranslated": false
-      },
-      {
-        "title": "Xbox Announces Eight 'FanFest Tour' Events Taking Place Across The World In 2026",
-        "link": "https://www.purexbox.com/news/2026/04/xbox-announces-eight-fanfest-tour-events-taking-place-across-the-world-in-2026",
-        "date": 1775141100000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
         "isTranslated": false
       },
       {
@@ -3759,6 +3315,25 @@
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "The Super Mario Galaxy Movie Is A Sugary Barrage Of References And Not Much Else",
+    "link": "https://kotaku.com/super-mario-galaxy-movie-review-nintendo-luigi-peach-rosalina-2000684229",
+    "date": 1775138089000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Breaking Down The 12 Biggest Super Mario Galaxy Movie Cameos And References",
+        "link": "https://kotaku.com/super-mario-galaxy-movie-cameos-game-watch-daisy-pikmin-2000684272",
+        "date": 1775148239000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "“Kageki Shojo! ! ” A sale is underway where you can get 50% points back on the Kindle version. Receive 5215 points when purchasing all volumes",
@@ -3866,25 +3441,6 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Echoes of Aincrad Is a Totally New Take on Sword Art Online, as Massive PS5 Gameplay Demo Shows",
-        "link": "https://www.pushsquare.com/news/2026/04/echoes-of-aincrad-is-a-totally-new-take-on-sword-art-online-as-massive-ps5-gameplay-demo-shows",
-        "date": 1775170800000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Is It Us, Or Did Xbox Just Get A Major Makeover On The Microsoft Store For Windows?",
-    "link": "https://www.purexbox.com/news/2026/04/is-it-us-or-did-xbox-just-get-a-major-makeover-on-the-microsoft-store-for-windows",
-    "date": 1775138700000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -3988,15 +3544,6 @@
     "hotScore": 1
   },
   {
-    "title": "Tell You What, This Parkour Platformer for PS5 Looks Sublime",
-    "link": "https://www.pushsquare.com/news/2026/04/tell-you-what-this-parkour-platformer-for-ps5-looks-sublime",
-    "date": 1775140200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "\"I am Jesus Christ\" released on Steam - A first-person perspective on the life of Jesus",
     "link": "http://www.gamespark.jp/article/2026/04/02/164704.html",
     "date": 1775140203000,
@@ -4015,20 +3562,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4040,33 +3587,6 @@
     "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Poll: What Review Score Would You Give The Super Mario Galaxy Movie?",
-    "link": "https://www.nintendolife.com/features/poll-what-review-score-would-you-give-the-super-mario-galaxy-movie",
-    "date": 1775141100000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "A review of ``The Super Mario Galaxy Movie,'' which is full of love for Mario but lacks a story that you can empathize with.",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83073/review",
-        "date": 1775128800000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      },
-      {
-        "title": "The movie ``The Super Mario Galaxy Movie'' received a user score of ``91%'' on an overseas review aggregation site. Critics score is mixed, but it is very popular with users",
-        "link": "https://news.denfaminicogamer.jp/news/2604022l",
-        "date": 1775107996000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "Curveball Games releases demo version of Sente, a strategic turn-based board game for up to 6 players",
@@ -4142,6 +3662,15 @@
     "hotScore": 1
   },
   {
+    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
+    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
+    "date": 1775142000000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -4161,29 +3690,11 @@
     ]
   },
   {
-    "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
-    "link": "https://www.siliconera.com/petit-planet-stardrift-closed-beta-test-starts-in-april",
-    "date": 1775142000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
     "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
     "date": 1775142000000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
-    "link": "https://www.pushsquare.com/news/2026/04/assassins-creed-unitys-ps5-patch-is-put-to-the-test-with-some-surprising-results",
-    "date": 1775142000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4305,15 +3816,6 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo Download: 2nd April (North America)",
-    "link": "https://www.nintendolife.com/news/2026/04/nintendo-download-2nd-april-north-america",
-    "date": 1775143800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Up to 25 people can play! “Clean Up Earth,” a cooperative cleaning game that allows you to support real environmental protection projects just by playing, is available on PC/console.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164708.html",
     "date": 1775143804000,
@@ -4415,15 +3917,6 @@
     "hotScore": 1
   },
   {
-    "title": "Japanese Charts: Pokémon Pokopia Sales Slow, But It's Still On Top",
-    "link": "https://www.nintendolife.com/news/2026/04/japanese-charts-pokemon-pokopia-sales-slow-but-its-still-on-top",
-    "date": 1775144700000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pride precipitates a dizzying fall in Ascenders, a climbing game spin on Darkest Dungeon",
     "link": "https://www.rockpapershotgun.com/pride-precipitates-a-dizzying-fall-in-ascenders-a-climbing-game-spin-on-darkest-dungeon",
     "date": 1775144769000,
@@ -4447,15 +3940,6 @@
     "date": 1775145526000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
-    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
-    "date": 1775145600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4503,20 +3987,11 @@
     ]
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
+    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
     "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
-    "date": 1775145600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4634,24 +4109,6 @@
     "date": 1775146947000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
-    "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
-    "date": 1775147400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
-    "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
-    "date": 1775147400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4832,7 +4289,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Star Wars: Maul - Shadow Lord Renewed For Season 2",
@@ -4840,14 +4297,6 @@
         "date": 1775165420000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Disney Reveals Episode Titles and Release Times for Star Wars: Maul – Shadow Lord",
-        "link": "https://www.ign.com/articles/star-wars-maul-shadow-lord-episode-release-times",
-        "date": 1775159212000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4890,29 +4339,20 @@
     "hotScore": 1
   },
   {
-    "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
-    "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
-    "date": 1775149200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
-    "date": 1775149200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "INTERVIEW: The Development Of Call of Duty: Modern Warfare 3 With Film Creator Cade Onder",
     "link": "https://insider-gaming.com/development-of-call-of-duty-modern-warfare-3-with-film-creator-cade-onder",
     "date": 1775149206000,
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Free Xbox Games Right Now Include 6 Assassin's Creed Titles",
+    "link": "https://www.gamespot.com/gallery/free-xbox-games-you-can-play-right-now-and-how-to-get-them/2900-7437",
+    "date": 1775149440000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4994,7 +4434,17 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Free Amazon Luna Games For April 2026 Revealed",
+        "link": "https://insider-gaming.com/free-amazon-luna-games-for-april-2026-revealed",
+        "date": 1775171674000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "MechWarrior studio Piranha Games lays off 30% of its employees",
@@ -5002,15 +4452,6 @@
     "date": 1775150905000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "PSA: The Super Mario Galaxy amiibo Are Finally Out Now",
-    "link": "https://www.nintendolife.com/news/2026/04/psa-the-super-mario-galaxy-amiibo-are-finally-out-now",
-    "date": 1775151000000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5042,12 +4483,12 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "Free Amazon Luna Games For April 2026 Revealed",
-        "link": "https://insider-gaming.com/free-amazon-luna-games-for-april-2026-revealed",
-        "date": 1775171674000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
+        "title": "[7,368 yen → 0 yen for 2] Time melts! Two solid strategy games, “XCOM” and the Egyptian version of “Total War” are now available for free to Amazon Prime members [12 titles free in April]",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164720.html",
+        "date": 1775180104000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
       }
     ]
   },
@@ -5061,15 +4502,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
-    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
-    "date": 1775152800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
     "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
@@ -5079,11 +4511,11 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
-    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
+    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
+    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
     "date": 1775152800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5115,15 +4547,6 @@
     "hotScore": 1
   },
   {
-    "title": "Today’s Best Deals: Super Mario Galaxy for Switch, Pokémon TCG Perfect Order Boosters, and Project Hail Mary Bag Clip",
-    "link": "https://www.ign.com/articles/best-deals-for-april-2-2026",
-    "date": 1775154300000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Ex Naughty Dog director says Naughty Dog had at LEAST 2 single player projects in development at the time that factions 2 was cancelled. Last year Daniel RPK claimed 3 single player games were being worked on at the studio",
     "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sapgpo/ex_naughty_dog_director_says_naughty_dog_had_at",
     "date": 1775154372000,
@@ -5151,11 +4574,11 @@
     "hotScore": 1
   },
   {
-    "title": "'If I Could Know, I Would Want to Know' — Steven Spielberg Says His Big Question About Aliens 'Has Resolved Itself to My Satisfaction' in Disclosure Day",
-    "link": "https://www.ign.com/articles/if-i-could-know-i-would-want-to-know-steven-spielberg-says-his-big-question-about-aliens-has-resolved-itself-to-my-satisfaction-in-disclosure-day",
-    "date": 1775154672000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5183,24 +4606,6 @@
     "date": 1775154753000,
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Ally: First Look at Bong Joon Ho's First Animated Film",
-    "link": "https://www.ign.com/articles/ally-first-look-at-bong-joon-hos-first-animated-film",
-    "date": 1775154992000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "What Classic Nintendo Franchise would you like to see Reimagined?",
-    "link": "https://www.ign.com/articles/what-classic-nintendo-franchise-would-you-like-to-see-reimagined",
-    "date": 1775155038000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5268,15 +4673,6 @@
     "hotScore": 1
   },
   {
-    "title": "'We're Just Getting Started' - Xbox Employee Hypes Up 'Momentum' Of 2026 So Far",
-    "link": "https://www.purexbox.com/news/2026/04/were-just-getting-started-xbox-employee-hypes-up-momentum-of-2026-so-far",
-    "date": 1775157180000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Best Legendary Shotguns in Borderlands 4",
     "link": "https://www.dualshockers.com/best-legendary-shotguns-in-borderlands-4-and-how-to-get-them",
     "date": 1775157497000,
@@ -5304,38 +4700,11 @@
     "hotScore": 1
   },
   {
-    "title": "The Bonfire of the Vanities: Apple TV Series Adaptation in Development with David E. Kelley, Matt Reeves",
-    "link": "https://www.ign.com/articles/the-bonfire-of-the-vanities-apple-tv-series-adaptation-in-development-with-david-e-kelley-matt-reeves",
-    "date": 1775158153000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Testaments Season 1 Review",
-    "link": "https://www.ign.com/articles/the-testaments-season-1-review",
-    "date": 1775158286000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Super Mario Galaxy Movie As Reviewed By A Four-Year-Old",
     "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-as-reviewed-by-a-four-year-old/1100-6539197",
     "date": 1775158380000,
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Dungeon Crawler TV Series Is Officially Confirmed for Peacock",
-    "link": "https://www.ign.com/articles/the-dungeon-crawler-tv-series-is-officially-confirmed-for-peacock",
-    "date": 1775158746000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5391,24 +4760,6 @@
     "date": 1775159679000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Marvel MaXimum Collection First Impressions: Preserving the Past As-Is While Also Providing Optional New Features",
-    "link": "https://www.ign.com/articles/marvel-maximum-collection-first-impressions-x-men-arcade",
-    "date": 1775159895000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Amazon Slashes Pokémon TCG Perfect Order Booster Prices Just Days After Release",
-    "link": "https://www.ign.com/articles/amazon-slashes-pokmon-tcg-perfect-order-booster-prices-just-days-after-release",
-    "date": 1775160000000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5501,15 +4852,6 @@
     "date": 1775162216000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Brian Cox Joins Cast of Dexter: Resurrection Season 2",
-    "link": "https://www.ign.com/articles/brian-cox-joins-cast-of-dexter-resurrection-season-2",
-    "date": 1775162246000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5614,24 +4956,6 @@
     "hotScore": 1
   },
   {
-    "title": "Peaky Blinders Sequel Series Casts Jamie Bell, Charlie Heaton and More; First Photo of Duke Shelby Revealed",
-    "link": "https://www.ign.com/articles/peaky-blinders-sequel-series-casts-jamie-bell-charlie-heaton-and-more-first-photo-of-duke-shelby-revealed",
-    "date": 1775164991000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Dell Has the Cheapest 32\" 4K OLED Gaming Monitor With This $300 Discount",
-    "link": "https://www.ign.com/articles/dell-s3225qc-4k-oled-gaming-monitor-deal-in-april",
-    "date": 1775165700000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Possible hint at P4R’s release window",
     "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1saut3z/possible_hint_at_p4rs_release_window",
     "date": 1775166424000,
@@ -5655,15 +4979,6 @@
     "date": 1775166708000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The FlashForge AD5X Is One of the Best Multi-Color 3D Printers Under $300",
-    "link": "https://www.ign.com/articles/flashforge-ad5x-corexy-multi-color-3d-printer-deal-aliexpress-april-sale",
-    "date": 1775166900000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5831,7 +5146,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -5846,16 +5161,8 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
-      {
-        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
-        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
-        "date": 1775172600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
       {
         "title": "Teaser trailer for “STR 6” additional character “Ingrid” released! Even in the latest work, the Loli Baba is still the same",
         "link": "http://www.gamespark.jp/article/2026/04/03/164719.html",
@@ -6139,15 +5446,6 @@
     "hotScore": 1
   },
   {
-    "title": "Street Fighter 6's Next DLC Fighter Joins The Battle In \"Late Spring\" 2026",
-    "link": "https://www.nintendolife.com/news/2026/04/street-fighter-6s-next-dlc-fighter-joins-the-battle-in-late-spring-2026",
-    "date": 1775178900000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "[What day is it today? ] Nintendo establishes joint venture “Nintendo Systems Co., Ltd.” with DeNA (April 3, 2023)",
     "link": "https://gamebiz.jp/news/423656",
     "date": 1775178900000,
@@ -6176,8 +5474,8 @@
   },
   {
     "title": "A ``karaoke PV'' showing the six cast members of ``Bunny Garden 2'' singing and dancing has been released. The latest romance adventure game \"for gentlemen with pure hearts\" scheduled to be released on April 16th.",
-    "link": "https://news.denfaminicogamer.jp",
-    "date": 1775179838139,
+    "link": "https://news.denfaminicogamer.jp/news/260403r",
+    "date": 1775179533000,
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
