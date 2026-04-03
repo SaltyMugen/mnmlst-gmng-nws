@@ -870,7 +870,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "Nintendo's 'Summon Character To Fight' Patent Rejected By US Patent Office",
@@ -879,6 +879,22 @@
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
         "isTranslated": false
+      },
+      {
+        "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
+        "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
+        "date": 1775119598000,
+        "domain": "gamesindustry.biz",
+        "sourceName": "GamesIndustry.biz",
+        "isTranslated": false
+      },
+      {
+        "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
+        "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
+        "date": 1775090134000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
       }
     ]
   },
@@ -1162,15 +1178,6 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Nintendo's \"Sub Character Summoning Battle System Patent\" was reexamined and rejected by the US Patent Office. Although it is not a final judgment, it is pointed out in detail that it is “not patentable.”",
-    "link": "https://automaton-media.com/articles/newsjp/20260402-434094",
-    "date": 1775090134000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -1972,25 +1979,6 @@
     "hotScore": 1
   },
   {
-    "title": "US Patent Office rejects Nintendo's 'summon subcharacter and let it fight' patent",
-    "link": "https://www.gamesindustry.biz/us-patent-office-rejects-nintendos-summon-subcharacter-and-let-it-fight-patent",
-    "date": 1775119598000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
-        "link": "https://jp.ign.com/palworld/83077/news",
-        "date": 1775177010000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "The sequel to Garry's Mod releases this month, and Valve will let you publish your creations as standalone Steam games, like dafty Finn sim My Summer Cottage",
     "link": "https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage",
     "date": 1775119606000,
@@ -2394,30 +2382,20 @@
     "hotScore": 1
   },
   {
-    "title": "“Hypnosismic -Alternative Rap Battle- 2nd period” A PV introducing the game system and additional elements from the smartphone version has been released!",
-    "link": "https://www.gamer.ne.jp/news/202604020050",
-    "date": 1775125080000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "\"Hypnosismic -Alternative Rap Battle- 2nd period\", promotional movie released where you can check the game system and additional elements etc.",
-        "link": "https://www.4gamer.net/games/775/G077568/20260402045",
-        "date": 1775125503000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "“League The k4sen: DASH LADDER” will be held from April 10th! The concept is “LTK league game that anyone can participate in”",
     "link": "https://www.gamer.ne.jp/news/202604020051",
     "date": 1775125440000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "\"Hypnosismic -Alternative Rap Battle- 2nd period\", promotional movie released where you can check the game system and additional elements etc.",
+    "link": "https://www.4gamer.net/games/775/G077568/20260402045",
+    "date": 1775125503000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -2575,7 +2553,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Peak devs remind players that 'any update is a bonus not a right'",
@@ -2591,14 +2569,6 @@
         "date": 1775184470000,
         "domain": "gamerant.com",
         "sourceName": "Game Rant",
-        "isTranslated": false
-      },
-      {
-        "title": "'Any Update Is a Bonus Not a Right' Says Peak Dev in Response to 'Lazy Dev Cycle' Accusations",
-        "link": "https://www.ign.com/articles/any-update-is-a-bonus-not-a-right-says-peak-dev-in-response-to-lazy-dev-cycle-accusations",
-        "date": 1775165142000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -3111,19 +3081,19 @@
         "isTranslated": false
       },
       {
-        "title": "Switch 2 version “Little Nightmares 2 Enhanced Edition” will be released on May 19, 2026! Richer with enhanced graphics and stereophonic sound",
-        "link": "https://www.gamer.ne.jp/news/202604030010",
-        "date": 1775187420000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
         "title": "Bandai Namco ENT will release “Little Nightmares 2 Enhanced Edition” Nintendo Switch 2nd version on May 29th",
         "link": "https://gamebiz.jp/news/423732",
         "date": 1775183460000,
         "domain": "gamebiz.jp",
         "sourceName": "GameBiz",
+        "isTranslated": true
+      },
+      {
+        "title": "Switch 2 version “Little Nightmares 2 Enhanced Edition” will be released on May 19, 2026! Richer with enhanced graphics and stereophonic sound",
+        "link": "https://www.gamer.ne.jp/news/202604030010",
+        "date": 1775187420000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
         "isTranslated": true
       },
       {
@@ -3549,7 +3519,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "A review of ``The Super Mario Galaxy Movie,'' which is full of love for Mario but lacks a story that you can empathize with.",
@@ -3557,14 +3527,6 @@
         "date": 1775128800000,
         "domain": "jp.ign.com",
         "sourceName": "IGN Japan",
-        "isTranslated": true
-      },
-      {
-        "title": "The movie ``The Super Mario Galaxy Movie'' received a user score of ``91%'' on an overseas review aggregation site. Critics score is mixed, but it is very popular with users",
-        "link": "https://news.denfaminicogamer.jp/news/2604022l",
-        "date": 1775107996000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
         "isTranslated": true
       }
     ]
@@ -3634,15 +3596,6 @@
     ]
   },
   {
-    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
-    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
-    "date": 1775142000000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -3660,6 +3613,15 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "This new climbing game is a bit like Darkest Dungeon on a mountain: Sometimes you have to cut the rope, and not everyone on the team is going to take it well when you do",
+    "link": "https://www.pcgamer.com/games/strategy/this-new-climbing-game-is-a-bit-like-darkest-dungeon-on-a-mountain-sometimes-you-have-to-cut-the-rope-and-not-everyone-on-the-team-is-going-to-take-it-well-when-you-do",
+    "date": 1775142000000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Petit Planet Stardrift Closed Beta Test Starts in April",
@@ -4014,20 +3976,20 @@
     ]
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4334,7 +4296,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Star Wars: Maul - Shadow Lord Renewed For Season 2",
@@ -4342,14 +4304,6 @@
         "date": 1775165420000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Disney Reveals Episode Titles and Release Times for Star Wars: Maul – Shadow Lord",
-        "link": "https://www.ign.com/articles/star-wars-maul-shadow-lord-episode-release-times",
-        "date": 1775159212000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4662,15 +4616,6 @@
     "hotScore": 1
   },
   {
-    "title": "'If I Could Know, I Would Want to Know' — Steven Spielberg Says His Big Question About Aliens 'Has Resolved Itself to My Satisfaction' in Disclosure Day",
-    "link": "https://www.ign.com/articles/if-i-could-know-i-would-want-to-know-steven-spielberg-says-his-big-question-about-aliens-has-resolved-itself-to-my-satisfaction-in-disclosure-day",
-    "date": 1775154672000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "10 Games That Went to the Moon Before Artemis II",
     "link": "https://www.dualshockers.com/games-that-went-to-the-moon-before-artemis-ii",
     "date": 1775154677000,
@@ -4694,24 +4639,6 @@
     "date": 1775154753000,
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Ally: First Look at Bong Joon Ho's First Animated Film",
-    "link": "https://www.ign.com/articles/ally-first-look-at-bong-joon-hos-first-animated-film",
-    "date": 1775154992000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "What Classic Nintendo Franchise would you like to see Reimagined?",
-    "link": "https://www.ign.com/articles/what-classic-nintendo-franchise-would-you-like-to-see-reimagined",
-    "date": 1775155038000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4815,38 +4742,11 @@
     "hotScore": 1
   },
   {
-    "title": "The Bonfire of the Vanities: Apple TV Series Adaptation in Development with David E. Kelley, Matt Reeves",
-    "link": "https://www.ign.com/articles/the-bonfire-of-the-vanities-apple-tv-series-adaptation-in-development-with-david-e-kelley-matt-reeves",
-    "date": 1775158153000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Testaments Season 1 Review",
-    "link": "https://www.ign.com/articles/the-testaments-season-1-review",
-    "date": 1775158286000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Super Mario Galaxy Movie As Reviewed By A Four-Year-Old",
     "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-as-reviewed-by-a-four-year-old/1100-6539197",
     "date": 1775158380000,
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The Dungeon Crawler TV Series Is Officially Confirmed for Peacock",
-    "link": "https://www.ign.com/articles/the-dungeon-crawler-tv-series-is-officially-confirmed-for-peacock",
-    "date": 1775158746000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4902,24 +4802,6 @@
     "date": 1775159679000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Marvel MaXimum Collection First Impressions: Preserving the Past As-Is While Also Providing Optional New Features",
-    "link": "https://www.ign.com/articles/marvel-maximum-collection-first-impressions-x-men-arcade",
-    "date": 1775159895000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Amazon Slashes Pokémon TCG Perfect Order Booster Prices Just Days After Release",
-    "link": "https://www.ign.com/articles/amazon-slashes-pokmon-tcg-perfect-order-booster-prices-just-days-after-release",
-    "date": 1775160000000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5003,15 +4885,6 @@
     "date": 1775162216000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Brian Cox Joins Cast of Dexter: Resurrection Season 2",
-    "link": "https://www.ign.com/articles/brian-cox-joins-cast-of-dexter-resurrection-season-2",
-    "date": 1775162246000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5116,24 +4989,6 @@
     "hotScore": 1
   },
   {
-    "title": "Peaky Blinders Sequel Series Casts Jamie Bell, Charlie Heaton and More; First Photo of Duke Shelby Revealed",
-    "link": "https://www.ign.com/articles/peaky-blinders-sequel-series-casts-jamie-bell-charlie-heaton-and-more-first-photo-of-duke-shelby-revealed",
-    "date": 1775164991000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Dell Has the Cheapest 32\" 4K OLED Gaming Monitor With This $300 Discount",
-    "link": "https://www.ign.com/articles/dell-s3225qc-4k-oled-gaming-monitor-deal-in-april",
-    "date": 1775165700000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Possible hint at P4R’s release window",
     "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1saut3z/possible_hint_at_p4rs_release_window",
     "date": 1775166424000,
@@ -5157,15 +5012,6 @@
     "date": 1775166708000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The FlashForge AD5X Is One of the Best Multi-Color 3D Printers Under $300",
-    "link": "https://www.ign.com/articles/flashforge-ad5x-corexy-multi-color-3d-printer-deal-aliexpress-april-sale",
-    "date": 1775166900000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5279,15 +5125,6 @@
     "hotScore": 1
   },
   {
-    "title": "One Deranged Pokémon Pokopia Player Has Slurped Up the Entire Ocean",
-    "link": "https://www.ign.com/articles/one-deranged-pokmon-pokopia-player-has-slurped-up-the-entire-ocean",
-    "date": 1775168352000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The best third-party Nintendo Switch 2 Pro Controllers on sale right noow",
     "link": "https://www.polygon.com/best-third-party-switch-2-pro-controllers",
     "date": 1775168380000,
@@ -5304,25 +5141,6 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "'We’re Not Going to do a Dead by Daylight 2' – Developer Kills Possibility of a Sequel",
-    "link": "https://www.ign.com/articles/were-not-going-to-do-a-dead-by-daylight-2-developer-kills-possibility-of-a-sequel",
-    "date": 1775169082000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The developers of ``Dead by Daylight'' deny the possibility of a sequel. Demonstrates a desire to carry the current game into the next decade. Speaking to an overseas interview, he commented that ``fans won't be satisfied'' with the production of a sequel, and stated that he plans to continue updating the game in the future.",
-        "link": "https://news.denfaminicogamer.jp/news/260403u",
-        "date": 1775182956000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "A former GameStop exec thought building its Steam competitor would be his 'forever job,' but the retailer bet the house on digital distribution being 'a passing phase'",
@@ -5550,6 +5368,15 @@
     ]
   },
   {
+    "title": "US Patent Office rejects Nintendo's patent for ``summoning characters to fight'' Although not a final decision, the impact on the ``Pal World'' lawsuit will also be in focus",
+    "link": "https://jp.ign.com/palworld/83077/news",
+    "date": 1775177010000,
+    "domain": "jp.ign.com",
+    "sourceName": "IGN Japan",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "SIE acquires British machine learning and computer vision company. Working on cutting-edge visual computing to enhance game images",
     "link": "http://www.gamespark.jp/article/2026/04/03/164717.html",
     "date": 1775177051000,
@@ -5724,20 +5551,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Apple Arcade version of \"HYKE: Northern Light(s)\" is now available! A top-down 2D dot action RPG in which you travel in search of clues about your mother, a witch.",
-    "link": "https://www.gamer.ne.jp/news/202604030004",
-    "date": 1775182020000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Nexon opens new area ``Maple Island'' in theme park ``Lotte World Adventure'' in Seoul, South Korea",
     "link": "https://gamebiz.jp/news/423736",
     "date": 1775182020000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Apple Arcade version of \"HYKE: Northern Light(s)\" is now available! A top-down 2D dot action RPG in which you travel in search of clues about your mother, a witch.",
+    "link": "https://www.gamer.ne.jp/news/202604030004",
+    "date": 1775182020000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -5802,6 +5629,15 @@
     "date": 1775182920000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The developers of ``Dead by Daylight'' deny the possibility of a sequel. Demonstrates a desire to carry the current game into the next decade. Speaking to an overseas interview, he commented that ``fans won't be satisfied'' with the production of a sequel, and stated that he plans to continue updating the game in the future.",
+    "link": "https://news.denfaminicogamer.jp/news/260403u",
+    "date": 1775182956000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -6144,6 +5980,24 @@
     "date": 1775188980000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Introducing a stuffed toy of Kyubey from ``Puella Magi Madoka Magica'' that is extremely comfortable to hold. The soft fabric and chewy cotton make it extremely comfortable to hold. Included with the mook book released on May 20th, reservations accepted now",
+    "link": "https://news.denfaminicogamer.jp/news/260403y",
+    "date": 1775189094000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The 4th cast of “Tales of Festival 2026” including Yuko Minaguchi and Rina Sato has been announced! Moderators will be Masaya Onozaka, Misato Fukuen, and Anmi Asakura.",
+    "link": "https://www.gamer.ne.jp/news/202604030012",
+    "date": 1775189280000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   }
