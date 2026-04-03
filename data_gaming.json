@@ -109,7 +109,7 @@
     "hotScore": 1
   },
   {
-    "title": "The main character, who has outstanding abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
+    "title": "The main character, who has extraordinary abilities but suffers, takes on a hopeless mission. ZA/UM's new RPG \"ZERO PARADES: For Dead Spies\" PC version to be released on May 21, 2026",
     "link": "https://www.4gamer.net/games/938/G093823/20260402032",
     "date": 1775113373000,
     "domain": "4gamer.net",
@@ -181,7 +181,7 @@
     "hotScore": 1
   },
   {
-    "title": "NCSOFT changed its company name to NC. With the intention of \"creating new value for the next generation based on the challenges and creativity of the future\"",
+    "title": "NCSOFT changed its company name to NC. With our intention to \"create new value for the next generation based on creativity and challenges to the future\"",
     "link": "https://www.4gamer.net/games/991/G999101/20260402035",
     "date": 1775117102000,
     "domain": "4gamer.net",
@@ -369,7 +369,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 5,
     "groupMembers": [
       {
         "title": "Exploration roguelite turn-based climbing game Ascenders: Beyond the Peak announced for consoles, PC",
@@ -393,6 +393,14 @@
         "date": 1775185448000,
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Announcement of \"Ascenders: Beyond the Peak,\" a Cthulhu myth x turn-based mountain climbing roguelite that challenges vertical despair. Early access starts in Q3 2026",
+        "link": "https://www.4gamer.net/games/996/G099631/20260403031",
+        "date": 1775202990000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -470,7 +478,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26”. Looking back on his 10 years in WWE",
+    "title": "[Interview] Interview with “WWE Superstar” ASUKA about the appeal of “WWE 2K26.” Looking back on his 10 years in WWE",
     "link": "https://www.4gamer.net/games/995/G099540/20260401026",
     "date": 1775125800000,
     "domain": "4gamer.net",
@@ -558,7 +566,33 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
@@ -837,16 +871,8 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
-      {
-        "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
-        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
-        "date": 1775137245000,
-        "domain": "reddit.com",
-        "sourceName": "Reddit Leaks",
-        "isTranslated": false
-      },
       {
         "title": "My soul was crushed... The Last of Us online multiplayer game was already 80% complete. After 7 years of development, we were informed of the cancellation 24 hours before the announcement.",
         "link": "http://www.gamespark.jp/article/2026/04/03/164709.html",
@@ -865,6 +891,33 @@
     "sourceName": "VGC",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "The Last of Us Online was reportedly nearly 80% complete before cancellation (former director)",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sahpu3/the_last_of_us_online_was_reportedly_nearly_80",
+    "date": 1775137245000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "The Last of Us multiplayer game was roughly 80% complete when it was cancelled, claims former director",
+        "link": "https://www.eurogamer.net/the-last-of-us-online-80-percent-complete-when-cancelled",
+        "date": 1775140025000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Canceled The Last of Us multiplayer game failed as a product of the COVID-19 pandemic, former director says",
+        "link": "https://www.destructoid.com/canceled-the-last-of-us-multiplayer-failed-product-covid-19-director",
+        "date": 1775147358000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Nexon calls Arc Raiders a \"Trojan Horse\" for proving controversial AI tools can build triple-A hits with smaller teams",
@@ -936,41 +989,6 @@
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Quick thoughts about the Super Mario Galaxy movie",
-    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-    "date": 1775138132000,
-    "domain": "gamefile.news",
-    "sourceName": "Game File",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
@@ -1082,25 +1100,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Last of Us multiplayer game was roughly 80% complete when it was cancelled, claims former director",
-    "link": "https://www.eurogamer.net/the-last-of-us-online-80-percent-complete-when-cancelled",
-    "date": 1775140025000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Canceled The Last of Us multiplayer game failed as a product of the COVID-19 pandemic, former director says",
-        "link": "https://www.destructoid.com/canceled-the-last-of-us-multiplayer-failed-product-covid-19-director",
-        "date": 1775147358000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Tell You What, This Parkour Platformer for PS5 Looks Sublime",
     "link": "https://www.pushsquare.com/news/2026/04/tell-you-what-this-parkour-platformer-for-ps5-looks-sublime",
     "date": 1775140200000,
@@ -1110,20 +1109,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1582,6 +1581,15 @@
     "hotScore": 1
   },
   {
+    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
+    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "date": 1775145600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Grab These Resident Evil PSN Avatars for Free This Month",
     "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
     "date": 1775145600000,
@@ -1596,15 +1604,6 @@
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
-    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
-    "date": 1775145600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1637,7 +1636,7 @@
     ]
   },
   {
-    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -1895,6 +1894,15 @@
     ]
   },
   {
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "date": 1775149200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
     "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
@@ -1909,15 +1917,6 @@
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
-    "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2042,20 +2041,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
-    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
-    "date": 1775152800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
     "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
+    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
+    "date": 1775152800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2087,11 +2086,11 @@
     "hotScore": 1
   },
   {
-    "title": "My New Favorite Way To Watch Classic Movies On VHS",
-    "link": "https://kotaku.com/retro-rewind-how-to-install-custom-movies-mod-help-handbrake-download-vhs-2000684030",
-    "date": 1775155237000,
-    "domain": "kotaku.com",
-    "sourceName": "Kotaku",
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2148,25 +2147,6 @@
     "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "It Sure Sounds Like A Luma Drops An F-Bomb In The Mario Galaxy Movie",
-    "link": "https://kotaku.com/super-mario-galaxy-movie-luma-fuck-found-you-peach-2000684314",
-    "date": 1775159283000,
-    "domain": "kotaku.com",
-    "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Is there an F-Bomb in The Super Mario Galaxy Movie? Viewers convinced Luma swears",
-        "link": "https://www.dexerto.com/tv-movies/is-there-an-f-bomb-in-the-super-mario-galaxy-movie-viewers-convinced-luma-swears-3345786",
-        "date": 1775173768000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "A contributor to GameStop's long-forgotten Steam competitor explains why he thinks Valve came out on top: 'What Steam did better than anybody else was to create a community'",
@@ -2315,7 +2295,7 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+        "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
         "link": "https://news.denfaminicogamer.jp/interview/260403s",
         "date": 1775192430000,
         "domain": "news.denfaminicogamer.jp",
@@ -2415,7 +2395,7 @@
     "hotScore": 1
   },
   {
-    "title": "Nintendo's Dragon Quest Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
+    "title": "Nintendo's \"Dragon Quest\" Hanafuda cards have been ordered again! All bills have original monster designs that are fun just to look at.",
     "link": "http://www.gamespark.jp/article/2026/04/03/164712.html",
     "date": 1775170804000,
     "domain": "gamespark.jp",
@@ -2433,19 +2413,19 @@
     "hotScore": 5,
     "groupMembers": [
       {
-        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
-        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
-        "date": 1775172600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "Ingrid Erases a World in a Street Fighter 6 Trailer",
         "link": "https://www.siliconera.com/ingrid-erases-a-world-in-a-street-fighter-6-trailer",
         "date": 1775232000000,
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
+        "isTranslated": false
+      },
+      {
+        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
+        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
+        "date": 1775172600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -2491,6 +2471,15 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Is there an F-Bomb in The Super Mario Galaxy Movie? Viewers convinced Luma swears",
+    "link": "https://www.dexerto.com/tv-movies/is-there-an-f-bomb-in-the-super-mario-galaxy-movie-viewers-convinced-luma-swears-3345786",
+    "date": 1775173768000,
+    "domain": "dexerto.com",
+    "sourceName": "Dexerto",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -3330,7 +3319,7 @@
     "hotScore": 1
   },
   {
-    "title": "2P Games officially releases “Crying Goose”, a text adventure game set in the turbulent times of the late Ming Dynasty, on Steam",
+    "title": "2P Games officially releases “Crying Geese”, a text adventure game set in the turbulent times of the late Ming Dynasty, on Steam",
     "link": "https://gamebiz.jp/news/423790",
     "date": 1775202660000,
     "domain": "gamebiz.jp",
@@ -3357,15 +3346,6 @@
     "hotScore": 1
   },
   {
-    "title": "Announcement of \"Ascenders: Beyond the Peak,\" a Cthulhu myth x turn-based mountaineering roguelite that challenges vertical despair. Early access starts in Q3 2026",
-    "link": "https://www.4gamer.net/games/996/G099631/20260403031",
-    "date": 1775202990000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "FamilyMart starts \"Pokemon GO\" campaign from April 7th...If you present FamiPay and make a purchase of 500 yen or more, you can receive a \"Partner Research\" participation ticket.",
     "link": "https://gamebiz.jp/news/423776",
     "date": 1775203020000,
@@ -3384,20 +3364,20 @@
     "hotScore": 1
   },
   {
-    "title": "The synopsis and advance cut of the anime “Onegai Ipuri” episode 1 “Onegai! Become an Ipuri” have been released!",
-    "link": "https://www.gamer.ne.jp/news/202604030028",
-    "date": 1775203200000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Movic will pre-sell \"Harry Potter Card Game\" at \"Warner Bros. Studio Tour Tokyo\" from April 17th!",
     "link": "https://gamebiz.jp/news/423789",
     "date": 1775203200000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The synopsis and advance cut of the anime “Onegai Ipuri” episode 1 “Onegai! Become an Ipuri” have been released!",
+    "link": "https://www.gamer.ne.jp/news/202604030028",
+    "date": 1775203200000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4483,6 +4463,15 @@
     "hotScore": 1
   },
   {
+    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
+    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "date": 1775221200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Best Buy Has A Neat Super Mario Bros. 40th Anniversary Game Case Up For Grabs (US)",
     "link": "https://www.nintendolife.com/news/2026/04/best-buy-has-a-neat-super-mario-bros-40th-anniversary-game-case-up-for-grabs-us",
     "date": 1775221200000,
@@ -4497,15 +4486,6 @@
     "date": 1775221200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
-    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
-    "date": 1775221200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4672,15 +4652,6 @@
     "hotScore": 1
   },
   {
-    "title": "``Collapsed City'', a maritime city construction sim that collapses if you just pile it up, is now available on Steam! The game's appeal is that a sense of balance is important in two ways.",
-    "link": "https://www.gamer.ne.jp/news/202604030047",
-    "date": 1775224800000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
     "link": "https://gamebiz.jp/news/423805",
     "date": 1775224800000,
@@ -4698,6 +4669,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "``Collapsed City'', a maritime city construction sim that collapses if you just pile it up, is now available on Steam! The game's appeal is that a sense of balance is important in two ways.",
+    "link": "https://www.gamer.ne.jp/news/202604030047",
+    "date": 1775224800000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
   },
   {
     "title": "Macross Frontier Top Gun Maverick Crossover Figure Announced",
@@ -4808,15 +4788,6 @@
     "hotScore": 1
   },
   {
-    "title": "Who will kill Homelander in The Boys season 5?",
-    "link": "https://www.gamesradar.com/entertainment/superhero-shows/who-will-kill-homelander-in-the-boys-season-5",
-    "date": 1775227405000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dead by Daylight 2 Isn’t Happening, Behaviour Interactive Confirms",
     "link": "https://insider-gaming.com/dead-by-daylight-2-isnt-happening-behaviour-interactive-confirms",
     "date": 1775227503000,
@@ -4890,6 +4861,15 @@
     "hotScore": 1
   },
   {
+    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
+    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
+    "date": 1775228400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Review: Genki Covert Dock 3 And ShadowCast 3 - A Surprisingly Compact Mobile Capture Duo For Your Switch 2",
     "link": "https://www.nintendolife.com/reviews/genki-covert-dock-3-and-shadowcast-3-a-surprisingly-compact-mobile-capture-duo-for-your-switch-2",
     "date": 1775228400000,
@@ -4904,15 +4884,6 @@
     "date": 1775228400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
-    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
-    "date": 1775228400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4932,17 +4903,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Build your own base with the money and ideas you collect from work. Garden work & renovation sim “Beyond Yardwork Simulator”, Steam store page released",
-        "link": "http://www.gamespark.jp/article/2026/04/04/164755.html",
-        "date": 1775250003000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "PlayStation Store: March 2026’s top downloads",
@@ -4969,7 +4930,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -4977,14 +4938,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4996,7 +4949,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "State of Decay 3 springs back to life to announce alpha tests in May",
@@ -5004,6 +4957,14 @@
         "date": 1775232517000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
+        "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
+        "date": 1775232075000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -5254,32 +5215,13 @@
     "hotScore": 1
   },
   {
-    "title": "Latest zombie survival game “State of Decay 3” finally announces playtest – to be held from May 2026",
+    "title": "The latest zombie survival game “State of Decay 3” finally announces the playtest – to be held from May 2026",
     "link": "http://www.gamespark.jp/article/2026/04/04/164752.html",
     "date": 1775232055000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
-    "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
-    "date": 1775232075000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
-        "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
-        "date": 1775241120000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Nightbound: Cursed Merchant - Developer Log #2",
@@ -5744,15 +5686,6 @@
     "hotScore": 1
   },
   {
-    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
-    "date": 1775239200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Ufotable and Production IG Working on Tales of Character Illustrations",
     "link": "https://www.siliconera.com/ufotable-and-production-ig-working-on-tales-of-character-illustrations",
     "date": 1775239200000,
@@ -5778,6 +5711,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
+    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
+    "date": 1775239200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Peak Devs Call Out Entitled Gamers Who Want Endless Free Updates",
@@ -5839,6 +5781,15 @@
     "date": 1775241050000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
+    "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
+    "date": 1775241120000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5979,20 +5930,20 @@
     "hotScore": 1
   },
   {
-    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
-    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
-    "date": 1775246400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dragon Quest Metal Slime Computer Mouse Returns With Bubble Slime",
     "link": "https://www.siliconera.com/dragon-quest-metal-slime-computer-mouse-returns-with-bubble-slime",
     "date": 1775246400000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
+    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
+    "date": 1775246400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6176,6 +6127,15 @@
     "hotScore": 1
   },
   {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Arknights: Endfield dev says launching a new gacha RPG in a post-Genshin Impact world is tough when \"some titles are so similar that players go into a game for 1 hour and they know what will happen in the next 20 hours\"",
     "link": "https://www.gamesradar.com/games/action-rpg/arknights-endfield-dev-says-launching-a-new-gacha-rpg-in-a-post-genshin-impact-world-is-tough-when-some-titles-are-so-similar-that-players-go-into-a-game-for-1-hour-and-they-know-what-will-happen-in-the-next-20-hours",
     "date": 1775249852000,
@@ -6199,6 +6159,42 @@
     "date": 1775250000000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The demo version of the apocalyptic horror game \"Breaking Armor\" where you fight monsters with a super-heavy tank where all operations are manual is now available!",
+    "link": "http://www.gamespark.jp/article/2026/04/04/164755.html",
+    "date": 1775250003000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Most Expensive PC Gaming Handheld Just Got A $650 Price Increase",
+    "link": "https://kotaku.com/lenovo-legion-go-2-price-ram-pc-gaming-handheld-2000684733",
+    "date": 1775250068000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Japanese company says it sent half of a game's $345,000 crowdfunding campaign to the wrong people – who, uh, did not return the money",
+    "link": "https://www.gamesradar.com/games/adventure/japanese-company-says-it-sent-half-of-a-games-usd345-000-crowdfunding-campaign-to-the-wrong-people-who-uh-did-not-return-the-money",
+    "date": 1775250111000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Is GTA 6‘s Long Development The Result Of A Complete Engine Rebuild? It’s Probably More Complicated Than That",
+    "link": "https://kotaku.com/is-gta-6s-long-development-the-result-of-a-complete-engine-rebuild-its-probably-more-complicated-than-that-2000684709",
+    "date": 1775250171000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
     "isTranslated": false,
     "hotScore": 1
   }
