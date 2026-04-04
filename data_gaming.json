@@ -635,7 +635,17 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Super Mario Run Celebrates The Super Mario Galaxy Movie With A New Event",
+        "link": "https://www.nintendolife.com/news/2026/04/super-mario-run-celebrates-the-super-mario-galaxy-movie-with-a-new-event",
+        "date": 1775267100000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Naughty Dog’s other Single-Player project, rumored to be led by Shaun Escayg, is seemingly an Uncharted game, based on a photo he posted from a research trip",
@@ -2237,7 +2247,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -2245,6 +2255,14 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+        "date": 1775249666000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -2649,15 +2667,6 @@
     "hotScore": 1
   },
   {
-    "title": "The Super Mario Galaxy Movie Clears $100 Million In 2 Days--See The Latest Box Office Numbers",
-    "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
-    "date": 1775235840000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "State of Decay 3 update reveals playtests coming in May 2026",
     "link": "https://www.polygon.com/state-of-decay-3-alpha-release-undead-labs",
     "date": 1775236127000,
@@ -2845,7 +2854,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 4,
     "groupMembers": [
       {
         "title": "As House Flipper Remastered Collection's playtest gets going, the original is free to pick up for the weekend",
@@ -2854,6 +2863,22 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
+      },
+      {
+        "title": "The Steam version of the dirty room cleaning/renovation game ``House Flipper'' is being distributed free of charge for a limited time. A game with a regular price of 2,800 yen is now free",
+        "link": "https://automaton-media.com/articles/newsjp/20260404-434572",
+        "date": 1775255427000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "The Steam version of ``House Flipper'', a home renovation sim where you renovate an abandoned house with your own hands, is now available for free. A playtest of the remastered version with new graphics is also underway.",
+        "link": "https://news.denfaminicogamer.jp/news/260404a",
+        "date": 1775256113000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
       }
     ]
   },
@@ -3110,15 +3135,6 @@
     "hotScore": 1
   },
   {
-    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-    "date": 1775249666000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "A Shop at the Edge of Everything — Alpha Now Live",
     "link": "https://www.indiedb.com/games/aifrits-artifacts/news/a-shop-at-the-edge-of-everything-alpha-now-live",
     "date": 1775249712000,
@@ -3331,24 +3347,6 @@
     "date": 1775255404000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The Steam version of the dirty room cleaning/renovation game ``House Flipper'' is being distributed free of charge for a limited time. A game with a regular price of 2,800 yen is now free",
-    "link": "https://automaton-media.com/articles/newsjp/20260404-434572",
-    "date": 1775255427000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "The Steam version of ``House Flipper'', a home renovation sim where you renovate an abandoned house with your own hands, is now available for free. A playtest of the remastered version with new graphics is also underway.",
-    "link": "https://news.denfaminicogamer.jp/news/260404a",
-    "date": 1775256113000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3621,25 +3619,6 @@
     "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
-  },
-  {
-    "title": "Super Mario Run Celebrates The Super Mario Galaxy Movie With A New Event",
-    "link": "https://www.nintendolife.com/news/2026/04/super-mario-run-celebrates-the-super-mario-galaxy-movie-with-a-new-event",
-    "date": 1775267100000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie: Best Easter Eggs And References",
-        "link": "https://www.thegamer.com/the-super-mario-galaxy-movie-cameos-easter-eggs-list",
-        "date": 1775326756000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "The history of sweets development by Doraemon and his friends. \"Doraemon's Dorayaki Shop Story +\" featuring characters from the pixel art Fujiko F. Fujio world (Start today, Apple Arcade #66)",
@@ -4015,20 +3994,20 @@
     "hotScore": 1
   },
   {
-    "title": "1st anniversary \"G Gene Eternal\" dominates the second half of the week - Review of App Store (3/28 - 4/3) sales rankings",
-    "link": "https://gamebiz.jp/news/423785",
-    "date": 1775286120000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The 16th episode of the program \"Arknights no Susume\" by Hikaru Midorikawa and Yusuke Kobayashi, \"Let's enjoy the integrated strategy year's Kaizono Shii!\" will be premiered on April 6th at 20:00!",
     "link": "https://www.gamer.ne.jp/news/202604040015",
     "date": 1775286120000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "1st anniversary \"G Gene Eternal\" dominates the second half of the week - Review of App Store (3/28 - 4/3) sales rankings",
+    "link": "https://gamebiz.jp/news/423785",
+    "date": 1775286120000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4401,6 +4380,15 @@
     "hotScore": 1
   },
   {
+    "title": "This Nightdive-remastered 3DO shooter shows why it took Halo to break PC gaming's FPS hegemony",
+    "link": "https://www.pcgamer.com/games/fps/this-nightdive-remastered-3do-shooter-shows-why-it-took-halo-to-break-pc-gamings-fps-hegemony",
+    "date": 1775307600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Shadow Lord is \"a whole 'nother level of character depth\" for Sam Witwer's Maul \"where you get to go into his mental psyche\"",
     "link": "https://www.gamesradar.com/entertainment/star-wars-tv-shows/shadow-lord-creatives-talked-to-sam-witwer-all-the-time-about-his-star-wars-character-maul-this-is-a-whole-nother-level-of-character-depth",
     "date": 1775307600000,
@@ -4415,15 +4403,6 @@
     "date": 1775307600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "This Nightdive-remastered 3DO shooter shows why it took Halo to break PC gaming's FPS hegemony",
-    "link": "https://www.pcgamer.com/games/fps/this-nightdive-remastered-3do-shooter-shows-why-it-took-halo-to-break-pc-gamings-fps-hegemony",
-    "date": 1775307600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4446,19 +4425,19 @@
     "hotScore": 6,
     "groupMembers": [
       {
-        "title": "The latest information about the Another Eden series will be announced one after another at “Anaden Festival 2026 Spring”! “Another Eden Begins” will be released on September 17, 2026!",
-        "link": "https://gamebiz.jp/news/423808",
-        "date": 1775327100000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      },
-      {
         "title": "The release date of “Another Eden Begins” is set for September 17th! Pre-orders for the package version have started, and the DLC “Additional Character Pack” has also been announced.",
         "link": "https://www.gamer.ne.jp/news/202604040019",
         "date": 1775307600000,
         "domain": "gamer.ne.jp",
         "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      },
+      {
+        "title": "The latest information about the Another Eden series will be announced one after another at “Anaden Festival 2026 Spring”! “Another Eden Begins” will be released on September 17, 2026!",
+        "link": "https://gamebiz.jp/news/423808",
+        "date": 1775327100000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
         "isTranslated": true
       },
       {
@@ -4557,7 +4536,25 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Take-Two lays off AI team",
+        "link": "https://www.eurogamer.net/take-two-lays-off-ai-team",
+        "date": 1775317505000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Grand Theft Auto 6 publisher Take-Two have seemingly laid off their head of AI and several of the department's staffers",
+        "link": "https://www.rockpapershotgun.com/grand-theft-auto-6-publisher-take-two-have-seemingly-laid-off-their-head-of-ai-and-several-of-the-departments-staffers",
+        "date": 1775322853000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "My dream pair of AR gaming glasses needs to have these nine features",
@@ -4670,8 +4667,8 @@
     ]
   },
   {
-    "title": "MindsEye is a glitchy, incoherent mess I wouldn't recommend to anyone—and it might also be my favorite game of 2026",
-    "link": "https://www.pcgamer.com/games/action/mindseye-is-a-glitchy-incoherent-mess-i-wouldnt-recommend-to-anyone-and-it-might-also-be-my-favorite-game-of-2026",
+    "title": "Final Fantasy 14's latest variant dungeon is so good, it deserves better—the MMO needs to figure out its rewards so all this great work isn't wasted",
+    "link": "https://www.pcgamer.com/games/mmo/final-fantasy-14s-latest-variant-dungeon-is-so-good-it-deserves-better-the-mmo-needs-to-figure-out-its-rewards-so-all-this-great-work-isnt-wasted",
     "date": 1775314800000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -4679,8 +4676,8 @@
     "hotScore": 1
   },
   {
-    "title": "Final Fantasy 14's latest variant dungeon is so good, it deserves better—the MMO needs to figure out its rewards so all this great work isn't wasted",
-    "link": "https://www.pcgamer.com/games/mmo/final-fantasy-14s-latest-variant-dungeon-is-so-good-it-deserves-better-the-mmo-needs-to-figure-out-its-rewards-so-all-this-great-work-isnt-wasted",
+    "title": "MindsEye is a glitchy, incoherent mess I wouldn't recommend to anyone—and it might also be my favorite game of 2026",
+    "link": "https://www.pcgamer.com/games/action/mindseye-is-a-glitchy-incoherent-mess-i-wouldnt-recommend-to-anyone-and-it-might-also-be-my-favorite-game-of-2026",
     "date": 1775314800000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
@@ -4758,25 +4755,6 @@
     "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Take-Two lays off AI team",
-    "link": "https://www.eurogamer.net/take-two-lays-off-ai-team",
-    "date": 1775317505000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Grand Theft Auto 6 publisher Take-Two have seemingly laid off their head of AI and several of the department's staffers",
-        "link": "https://www.rockpapershotgun.com/grand-theft-auto-6-publisher-take-two-have-seemingly-laid-off-their-head-of-ai-and-several-of-the-departments-staffers",
-        "date": 1775322853000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "YouTube’s Gaming Historian Explains Why He’s Stepping Away After 15 Years",
@@ -5014,6 +4992,25 @@
     "hotScore": 1
   },
   {
+    "title": "The Super Mario Galaxy Movie: Best Easter Eggs And References",
+    "link": "https://www.thegamer.com/the-super-mario-galaxy-movie-cameos-easter-eggs-list",
+    "date": 1775326756000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Box Office Report And How Merch Sales Compare To Taylor Swift Movie",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
+        "date": 1775328900000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Changes that Borderlands 4 Needs in Future Updates",
     "link": "https://www.dualshockers.com/changes-that-borderlands-4-needs-in-future-updates",
     "date": 1775327412000,
@@ -5082,6 +5079,15 @@
     "date": 1775329200000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Feature: Going Platinum: Leaving Superhot's Sequel Idle for Hours Might Be the Maddest Thing I've Done for a Trophy",
+    "link": "https://www.pushsquare.com/features/going-platinum-leaving-superhots-sequel-idle-for-hours-might-be-the-maddest-thing-ive-done-for-a-trophy",
+    "date": 1775329200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
