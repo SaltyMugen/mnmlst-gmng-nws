@@ -1,32 +1,5 @@
 [
   {
-    "title": "Nintendo eShop Highlights – 02/04/2026",
-    "link": "https://www.nintendo.com/en-gb/News/2026/April/Nintendo-eShop-Highlights-02-04-2026-3064199.html",
-    "date": 1775134800000,
-    "domain": "nintendo.com",
-    "sourceName": "Nintendo News",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Deals: All 140+ Backwards Compatible Games In The Xbox Spring Sale 2026",
-    "link": "https://www.purexbox.com/news/2026/04/deals-all-140plus-backwards-compatible-games-in-the-xbox-spring-sale-2026",
-    "date": 1775134800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Dr. Stone artist Boichi says that mangakas’ fixation on Shonen Jump might negatively impact the creative diversity of the industry in the long run",
-    "link": "https://automaton-media.com/en/news/dr-stone-artist-boichi-says-that-mangakas-fixation-on-shonen-jump-might-negatively-impact-the-creative-diversity-of-the-industry-in-the-long-run",
-    "date": 1775134800000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Ukrainian game devs show their resolve at GDC side event",
     "link": "https://gamesbeat.com/ukrainian-game-devs-show-their-resolve-at-gdc-side-event",
     "date": 1775135700000,
@@ -186,14 +159,22 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Is there an F-Bomb in The Super Mario Galaxy Movie? Viewers convinced Luma swears",
-        "link": "https://www.dexerto.com/tv-movies/is-there-an-f-bomb-in-the-super-mario-galaxy-movie-viewers-convinced-luma-swears-3345786",
-        "date": 1775173768000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
+        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+        "date": 1775154625000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
         "isTranslated": false
       }
     ]
@@ -215,6 +196,33 @@
     "sourceName": "4Gamer.net",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "date": 1775138400000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
+        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
+        "date": 1775235180000,
+        "domain": "gamesbeat.com",
+        "sourceName": "GamesBeat",
+        "isTranslated": false
+      },
+      {
+        "title": "``Payment based on playing time is terrible'' Various voices say about $6.99 monthly indie game subscription - Is ``Indie Pass'' unpopular overseas? \"It takes away the opportunity to directly support developers,\" he said.",
+        "link": "http://www.gamespark.jp/article/2026/04/04/164782.html",
+        "date": 1775296804000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
@@ -240,33 +248,6 @@
         "date": 1775185545000,
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
-    "date": 1775138400000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
-        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
-        "date": 1775235180000,
-        "domain": "gamesbeat.com",
-        "sourceName": "GamesBeat",
-        "isTranslated": false
-      },
-      {
-        "title": "``Payment based on playing time is terrible'' Various voices say about $6.99 monthly indie game subscription - Is ``Indie Pass'' unpopular overseas? \"It takes away the opportunity to directly support developers,\" he said.",
-        "link": "http://www.gamespark.jp/article/2026/04/04/164782.html",
-        "date": 1775296804000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
         "isTranslated": true
       }
     ]
@@ -445,6 +426,25 @@
     "hotScore": 1
   },
   {
+    "title": "Free Play Days – Assassin’s Creed Takeover 2026",
+    "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
+    "date": 1775142000000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "Free Play Days – Find Your Assassin: The Perfect Assassin’s Creed Game Based on Your Playstyle",
+        "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-find-your-perfect-assassins-creed-game",
+        "date": 1775149200000,
+        "domain": "news.xbox.com",
+        "sourceName": "Xbox Wire",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "Cofounder Brian Raffel retires from Call of Duty studio Raven Software",
     "link": "https://gamesbeat.com/cofounder-brian-raffel-retires-from-call-of-duty-multiplayer-studio-raven-software",
     "date": 1775142000000,
@@ -489,25 +489,6 @@
     "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Free Play Days – Assassin’s Creed Takeover 2026",
-    "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
-    "date": 1775142000000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "Free Play Days – Find Your Assassin: The Perfect Assassin’s Creed Game Based on Your Playstyle",
-        "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-find-your-perfect-assassins-creed-game",
-        "date": 1775149200000,
-        "domain": "news.xbox.com",
-        "sourceName": "Xbox Wire",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "Japanese crowdfunded $340k game still missing half its funds as platform claims it accidentally sent the money elsewhere",
@@ -729,11 +710,11 @@
     "hotScore": 1
   },
   {
-    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
-    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
+    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
     "date": 1775145600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -743,15 +724,6 @@
     "date": 1775145600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
-    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
-    "date": 1775145600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1004,20 +976,20 @@
     "hotScore": 1
   },
   {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
-    "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
     "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "date": 1775149200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1113,20 +1085,20 @@
     "hotScore": 1
   },
   {
+    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
+    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
+    "date": 1775152800000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Former Nintendo Sales Lead Thinks Switch 2 Price Increase Is \"Inevitable\"",
     "link": "https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable",
     "date": 1775152800000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
-    "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1140,11 +1112,11 @@
     "hotScore": 1
   },
   {
-    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
-    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1165,25 +1137,6 @@
     "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-    "date": 1775154625000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "All Slot Cards in RACCOIN",
@@ -1309,17 +1262,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "``Slay the Spire 2'' developer reveals that ``three new modes'' are being planned. 3 modes: serious competition, for people who don't have time, and multi-interaction, but it is unclear whether it will actually be implemented",
-        "link": "https://automaton-media.com/articles/newsjp/20260403-434400",
-        "date": 1775181458000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Possible hint at P4R’s release window",
@@ -1441,19 +1384,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "Ingrid Erases a World in a Street Fighter 6 Trailer",
-        "link": "https://www.siliconera.com/ingrid-erases-a-world-in-a-street-fighter-6-trailer",
-        "date": 1775232000000,
-        "domain": "siliconera.com",
-        "sourceName": "Siliconera",
-        "isTranslated": false
-      },
-      {
         "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
         "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
         "date": 1775172600000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
+        "title": "Ingrid Erases a World in a Street Fighter 6 Trailer",
+        "link": "https://www.siliconera.com/ingrid-erases-a-world-in-a-street-fighter-6-trailer",
+        "date": 1775232000000,
+        "domain": "siliconera.com",
+        "sourceName": "Siliconera",
         "isTranslated": false
       },
       {
@@ -1465,6 +1408,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Is there an F-Bomb in The Super Mario Galaxy Movie? Viewers convinced Luma swears",
+    "link": "https://www.dexerto.com/tv-movies/is-there-an-f-bomb-in-the-super-mario-galaxy-movie-viewers-convinced-luma-swears-3345786",
+    "date": 1775173768000,
+    "domain": "dexerto.com",
+    "sourceName": "Dexerto",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Steam Client Beta - April 2nd",
@@ -2258,20 +2210,20 @@
     ]
   },
   {
-    "title": "One Of Switch's Very Best Indies Is Getting Physical 8 Years After Release",
-    "link": "https://www.nintendolife.com/news/2026/04/one-of-switchs-very-best-indies-is-getting-physical-8-years-after-release",
-    "date": 1775206800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
     "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
     "date": 1775206800000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "One Of Switch's Very Best Indies Is Getting Physical 8 Years After Release",
+    "link": "https://www.nintendolife.com/news/2026/04/one-of-switchs-very-best-indies-is-getting-physical-8-years-after-release",
+    "date": 1775206800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2684,20 +2636,20 @@
     "hotScore": 1
   },
   {
-    "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
-    "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
-    "date": 1775214000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
     "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
     "date": 1775214000000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
+    "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
+    "date": 1775214000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2808,15 +2760,6 @@
     "date": 1775216026000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-    "link": "https://www.gamer.ne.jp/news/202604030048",
-    "date": 1775216040000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3019,20 +2962,20 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
-    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
-    "date": 1775221200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Uncharted Fans Think a Social Post Is Evidence of New PS5 Entry",
     "link": "https://www.pushsquare.com/news/2026/04/uncharted-fans-think-a-social-post-is-evidence-of-new-ps5-entry",
     "date": 1775221200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
+    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "date": 1775221200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3127,15 +3070,6 @@
     "hotScore": 1
   },
   {
-    "title": "'We've Really Gone to Town': Control Resonant Dev Diary Focuses on Its Action RPG Gameplay",
-    "link": "https://www.pushsquare.com/news/2026/04/weve-really-gone-to-town-control-resonant-dev-diary-focuses-on-its-action-rpg-gameplay",
-    "date": 1775224800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Next Week on Xbox: New Games for April 6 to 10",
     "link": "https://news.xbox.com/en-us/2026/04/03/next-week-on-xbox-new-games-for-april-6-to-10",
     "date": 1775224800000,
@@ -3153,6 +3087,15 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "'We've Really Gone to Town': Control Resonant Dev Diary Focuses on Its Action RPG Gameplay",
+    "link": "https://www.pushsquare.com/news/2026/04/weve-really-gone-to-town-control-resonant-dev-diary-focuses-on-its-action-rpg-gameplay",
+    "date": 1775224800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Nippon Ichi Software’s new supposedly “cozy and relaxing” farming sim celebrates 15+ age rating with blood splattered promo image, to the delight of Yomawari fans",
@@ -3363,20 +3306,20 @@
     "hotScore": 1
   },
   {
-    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
-    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
-    "date": 1775228400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "PS5 Power Saver Yet Again Tipped as PS6 Handheld 'Trojan Horse'",
     "link": "https://www.pushsquare.com/news/2026/04/ps5-power-saver-yet-again-tipped-as-ps6-handheld-trojan-horse",
     "date": 1775228400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
+    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
+    "date": 1775228400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3771,19 +3714,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
-        "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
-        "date": 1775258723000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      },
-      {
         "title": "Today’s Parseword hints and answer (April 2026)",
         "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
         "date": 1775258042000,
         "domain": "destructoid.com",
         "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
+        "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
+        "date": 1775258723000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -4007,6 +3950,15 @@
     "hotScore": 1
   },
   {
+    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
+    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
+    "date": 1775239200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Ufotable and Production IG Working on Tales of Character Illustrations",
     "link": "https://www.siliconera.com/ufotable-and-production-ig-working-on-tales-of-character-illustrations",
     "date": 1775239200000,
@@ -4032,15 +3984,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
-    "date": 1775239200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Peak Devs Call Out Entitled Gamers Who Want Endless Free Updates",
@@ -4115,20 +4058,20 @@
     "hotScore": 1
   },
   {
-    "title": "US FFXIV Fan Festival 2026 Schedule Shared",
-    "link": "https://www.siliconera.com/us-ffxiv-fan-festival-2026-schedule-shared",
-    "date": 1775242800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "For All the Talk About Crimson Desert, Nothing Beats MLB The Show on the US PS5 Chart",
     "link": "https://www.pushsquare.com/news/2026/04/for-all-the-talk-about-crimson-desert-nothing-beats-mlb-the-show-on-the-us-ps5-chart",
     "date": 1775242800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "US FFXIV Fan Festival 2026 Schedule Shared",
+    "link": "https://www.siliconera.com/us-ffxiv-fan-festival-2026-schedule-shared",
+    "date": 1775242800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4229,6 +4172,25 @@
     "domain": "indiedb.com",
     "sourceName": "IndieDB",
     "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Time travel command battle RPG \"Another Eden Begins\" to be released on September 17th. The latest work in the \"Another Eden\" series, where you travel through time through ancient times, modern times, and the future and meet friends.",
+        "link": "https://automaton-media.com/articles/newsjp/anothereden-bigins-20260404-434693",
+        "date": 1775307614000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
+    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
+    "date": 1775246400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -4237,15 +4199,6 @@
     "date": 1775246400000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
-    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
-    "date": 1775246400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4309,15 +4262,6 @@
     "date": 1775248024000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Pokémon Games that Prove the Series Can Still Surprise Players",
-    "link": "https://www.dualshockers.com/pokemon-games-that-prove-the-series-can-still-surprise-players",
-    "date": 1775248215000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5754,6 +5698,33 @@
     "domain": "news.denfaminicogamer.jp",
     "sourceName": "Denfaminicogamer",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Review: Bubblegum Galaxy Features a Fantastic Aesthetic",
+    "link": "https://www.siliconera.com/review-bubblegum-galaxy-features-a-fantastic-aesthetic",
+    "date": 1775307600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The release date of “Another Eden Begins” is set for September 17th! Pre-orders for the package version have started, and the DLC “Additional Character Pack” has also been announced.",
+    "link": "https://www.gamer.ne.jp/news/202604040019",
+    "date": 1775307600000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Jay and Silent Bob: Chronic Blunt Punch Preview at PAX East 2026",
+    "link": "https://www.dualshockers.com/preview-jay-and-silent-bob-chronic-blunt-punch",
+    "date": 1775307614000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
     "hotScore": 1
   }
 ]
