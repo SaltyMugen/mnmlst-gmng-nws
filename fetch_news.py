@@ -447,7 +447,7 @@ def _extract_topic_key(title: str) -> str | None:
 
 def _group_articles(articles: list[dict]) -> list[dict]:
     SIMILARITY_THRESHOLD = 69
-    TOPIC_TIME_WINDOW_MS = 48 * 60 * 60 * 1000  # 48 hours for topic grouping
+    TOPIC_TIME_WINDOW_MS = 24 * 60 * 60 * 1000  # 48 hours for topic grouping
     MIN_TOPIC_GROUP_SIZE = 3  # only topic-group if 3+ articles share the same subject
 
     norms = [_norm_title(a["title"]) for a in articles]
@@ -531,7 +531,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
 
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
-    cutoff_ms = now_ms - (48 * 60 * 60 * 1000)
+    cutoff_ms = now_ms - (24 * 60 * 60 * 1000)
 
     all_articles: list[dict] = []
 
