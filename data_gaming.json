@@ -503,7 +503,33 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
@@ -605,20 +631,20 @@
     "hotScore": 1
   },
   {
-    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
-    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
-    "date": 1775131200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Guide: Best Space And Sci-Fi Games On Nintendo Switch 1 & 2",
     "link": "https://www.nintendolife.com/guides/best-space-and-sci-fi-games-on-nintendo-switch-1-and-2",
     "date": 1775131200000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'Did Not Work': The First Descendant Considered a Failure by Its Developer",
+    "link": "https://www.pushsquare.com/news/2026/04/did-not-work-the-first-descendant-considered-a-failure-by-its-developer",
+    "date": 1775131200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -749,20 +775,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
-    "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
-    "date": 1775136600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Pokémon Home Gets An Alpha-Sized Distribution To Celebrate Legends Z-A Compatibility",
     "link": "https://www.nintendolife.com/news/2026/04/pokemon-home-gets-an-alpha-sized-distribution-to-celebrate-legends-z-a-compatibility",
     "date": 1775136600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Last of Us Multiplayer Was 80% Complete Before Cancellation, Spent 7 Years in Development",
+    "link": "https://www.pushsquare.com/news/2026/04/the-last-of-us-multiplayer-was-80percent-complete-before-cancellation-spent-7-years-in-development",
+    "date": 1775136600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -864,41 +890,6 @@
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Quick thoughts about the Super Mario Galaxy movie",
-    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-    "date": 1775138132000,
-    "domain": "gamefile.news",
-    "sourceName": "Game File",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
@@ -1159,6 +1150,15 @@
     "hotScore": 1
   },
   {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -1176,15 +1176,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
@@ -1319,7 +1310,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 6,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -1328,38 +1319,6 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
-      },
-      {
-        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-        "link": "https://www.gamer.ne.jp/news/202604030048",
-        "date": 1775216040000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
-        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-        "link": "https://news.denfaminicogamer.jp/news/2604032s",
-        "date": 1775202202000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-        "date": 1775196005000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-        "date": 1775189953000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -1437,6 +1396,15 @@
     "hotScore": 1
   },
   {
+    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
+    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
+    "date": 1775145600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Grab These Resident Evil PSN Avatars for Free This Month",
     "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
     "date": 1775145600000,
@@ -1451,15 +1419,6 @@
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
-    "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
-    "date": 1775145600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1573,20 +1532,20 @@
     "hotScore": 1
   },
   {
-    "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
-    "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
-    "date": 1775147400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Landfall Surprises With Two Indie Hits On Switch 2, Including A Viral Horror Darling",
     "link": "https://www.nintendolife.com/news/2026/04/landfall-surprises-with-two-indie-hits-on-switch-2-including-a-viral-horror-darling",
     "date": 1775147400000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "PlayStation Acquires Machine Learning Specialist to Achieve 'New Levels' of Game Visuals",
+    "link": "https://www.pushsquare.com/news/2026/04/playstation-acquires-machine-learning-specialist-to-achieve-new-levels-of-game-visuals",
+    "date": 1775147400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1694,11 +1653,11 @@
     ]
   },
   {
-    "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
     "date": 1775149200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1712,11 +1671,11 @@
     "hotScore": 1
   },
   {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "title": "PS5's Brilliant Ghost of Yotei Legends Expands with 'Hardcore' Raid Next Week",
+    "link": "https://www.pushsquare.com/news/2026/04/ps5s-brilliant-ghost-of-yotei-legends-expands-with-hardcore-raid-next-week",
     "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1841,11 +1800,11 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
-    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1859,11 +1818,11 @@
     "hotScore": 1
   },
   {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "title": "Poll: Do You Think PS5 Can Outsell PS4 with Its New Price Point?",
+    "link": "https://www.pushsquare.com/features/poll-do-you-think-ps5-can-outsell-ps4-with-its-new-price-point",
     "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1880,6 +1839,15 @@
     "title": "French consumer advocacy group sues Ubisoft for taking The Crew offline, almost two years since Stop Killing Games first protested it",
     "link": "https://www.destructoid.com/ubisoft-the-crew-lawsuit",
     "date": 1775154446000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
@@ -2168,19 +2136,19 @@
     "hotScore": 5,
     "groupMembers": [
       {
-        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
-        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
-        "date": 1775172600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "Ingrid Erases a World in a Street Fighter 6 Trailer",
         "link": "https://www.siliconera.com/ingrid-erases-a-world-in-a-street-fighter-6-trailer",
         "date": 1775232000000,
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
+        "isTranslated": false
+      },
+      {
+        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
+        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
+        "date": 1775172600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -2602,6 +2570,15 @@
     ]
   },
   {
+    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+    "date": 1775189953000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -2729,7 +2706,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following \"Kamen Rider Zets\" has been released",
+    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following “Kamen Rider Zets” has been released",
     "link": "https://news.denfaminicogamer.jp/news/2604032h",
     "date": 1775193804000,
     "domain": "news.denfaminicogamer.jp",
@@ -2863,6 +2840,25 @@
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
     "hotScore": 1
+  },
+  {
+    "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+    "date": 1775196005000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+        "link": "https://www.gamer.ne.jp/news/202604030048",
+        "date": 1775216040000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "From love letters expressing your feelings to threatening letters demanding ransom. Medieval manuscript illustration studio sim “Scriptorium: Master of Manuscripts”, released on April 17, 2026",
@@ -3028,11 +3024,11 @@
     "hotScore": 1
   },
   {
-    "title": "A free play weekend for the underwater survival craft “Subnautica” series is being held!最大75％OFFになる限定セールも",
-    "link": "https://www.gamer.ne.jp/news/202604030029",
-    "date": 1775201640000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
+    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+    "link": "https://news.denfaminicogamer.jp/news/2604032s",
+    "date": 1775202202000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4037,20 +4033,20 @@
     "hotScore": 1
   },
   {
-    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
-    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
-    "date": 1775217600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Super Meat Boy 3D (Switch 2) - Not The Finest Cut, But Still Tasty",
     "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/super-meat-boy-3d",
     "date": 1775217600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
+    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
+    "date": 1775217600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4163,11 +4159,11 @@
     "hotScore": 1
   },
   {
-    "title": "Uncharted Fans Think a Social Post Is Evidence of New PS5 Entry",
-    "link": "https://www.pushsquare.com/news/2026/04/uncharted-fans-think-a-social-post-is-evidence-of-new-ps5-entry",
+    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
+    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
     "date": 1775221200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4181,11 +4177,11 @@
     "hotScore": 1
   },
   {
-    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
-    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "title": "Uncharted Fans Think a Social Post Is Evidence of New PS5 Entry",
+    "link": "https://www.pushsquare.com/news/2026/04/uncharted-fans-think-a-social-post-is-evidence-of-new-ps5-entry",
     "date": 1775221200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4506,11 +4502,11 @@
     "hotScore": 1
   },
   {
-    "title": "PS5 Power Saver Yet Again Tipped as PS6 Handheld 'Trojan Horse'",
-    "link": "https://www.pushsquare.com/news/2026/04/ps5-power-saver-yet-again-tipped-as-ps6-handheld-trojan-horse",
+    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
+    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
     "date": 1775228400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4524,11 +4520,11 @@
     "hotScore": 1
   },
   {
-    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
-    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
+    "title": "PS5 Power Saver Yet Again Tipped as PS6 Handheld 'Trojan Horse'",
+    "link": "https://www.pushsquare.com/news/2026/04/ps5-power-saver-yet-again-tipped-as-ps6-handheld-trojan-horse",
     "date": 1775228400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4575,7 +4571,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -4583,14 +4579,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4950,15 +4938,6 @@
     "hotScore": 1
   },
   {
-    "title": "Invincible has quickly bounced back after last week's series low, as the latest episode of season 4 becomes the show's second-highest rated ever",
-    "link": "https://www.gamesradar.com/entertainment/superhero-shows/invincible-has-quickly-bounced-back-after-last-weeks-series-low-as-the-latest-episode-of-season-4-becomes-the-shows-second-highest-rated-ever",
-    "date": 1775233935000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Today’s Wordle #1750: Hints and Answer for April 4, 2026",
     "link": "https://insider-gaming.com/todays-wordle-1750-hints-answer-april-4-2026",
     "date": 1775234392000,
@@ -5068,20 +5047,20 @@
     "hotScore": 1
   },
   {
-    "title": "'They Realised They Let Me Go Prematurely': God of War's OG Kratos Talks About Reprising His Role",
-    "link": "https://www.pushsquare.com/news/2026/04/they-realised-they-let-me-go-prematurely-god-of-wars-og-kratos-talks-about-reprising-his-role",
-    "date": 1775235600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Our Top Ten Favourite Easter Eggs In The Super Mario Galaxy Movie",
     "link": "https://www.nintendolife.com/features/our-top-ten-favourite-easter-eggs-in-the-super-mario-galaxy-movie",
     "date": 1775235600000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "'They Realised They Let Me Go Prematurely': God of War's OG Kratos Talks About Reprising His Role",
+    "link": "https://www.pushsquare.com/news/2026/04/they-realised-they-let-me-go-prematurely-god-of-wars-og-kratos-talks-about-reprising-his-role",
+    "date": 1775235600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5342,15 +5321,6 @@
     "hotScore": 1
   },
   {
-    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
-    "date": 1775239200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Ufotable and Production IG Working on Tales of Character Illustrations",
     "link": "https://www.siliconera.com/ufotable-and-production-ig-working-on-tales-of-character-illustrations",
     "date": 1775239200000,
@@ -5376,6 +5346,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
+    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
+    "date": 1775239200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Peak Devs Call Out Entitled Gamers Who Want Endless Free Updates",
@@ -5642,20 +5621,20 @@
     ]
   },
   {
-    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
-    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
-    "date": 1775246400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dragon Quest Metal Slime Computer Mouse Returns With Bubble Slime",
     "link": "https://www.siliconera.com/dragon-quest-metal-slime-computer-mouse-returns-with-bubble-slime",
     "date": 1775246400000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
+    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
+    "date": 1775246400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5773,6 +5752,15 @@
     "date": 1775249521000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6187,6 +6175,15 @@
     "date": 1775260763000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "No Man's Sky player creates stunning underwater city reminiscent of BioShock's own Rapture, and I'm not even sure this is the same game anymore",
+    "link": "https://www.gamesradar.com/games/survival/no-mans-sky-player-creates-stunning-underwater-city-reminiscent-of-bioshocks-own-rapture-and-im-not-even-sure-this-is-the-same-game-anymore",
+    "date": 1775261382000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   }
