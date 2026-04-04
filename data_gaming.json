@@ -1,14 +1,5 @@
 [
   {
-    "title": "'The Solution Is to Get Rid of Consoles': Analyst Predicts $1,000 PS6 and a Transition to Game Streaming",
-    "link": "https://www.pushsquare.com/news/2026/04/the-solution-is-to-get-rid-of-consoles-analyst-predicts-usd1000-ps6-and-a-transition-to-game-streaming",
-    "date": 1775088000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Mario speedrunner claims he’s being derailed on way to ‘perfect’ run",
     "link": "https://www.dexerto.com/gaming/mario-speedrunner-claims-hes-being-derailed-on-way-to-perfect-run-3344954",
     "date": 1775096322000,
@@ -520,7 +511,33 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
@@ -883,41 +900,6 @@
     "hotScore": 1
   },
   {
-    "title": "Quick thoughts about the Super Mario Galaxy movie",
-    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-    "date": 1775138132000,
-    "domain": "gamefile.news",
-    "sourceName": "Game File",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
     "link": "https://www.pcgamer.com/hardware/processors/amd-says-intels-interesting-choices-around-multithreading-could-help-epyc-cpus-gain-server-market-share",
     "date": 1775138202000,
@@ -1018,20 +1000,20 @@
     "hotScore": 1
   },
   {
-    "title": "Monster Crown: Sin Eater launches April 30",
-    "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
-    "date": 1775140497000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
     "date": 1775140497000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Monster Crown: Sin Eater launches April 30",
+    "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
+    "date": 1775140497000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1336,7 +1318,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 6,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -1345,6 +1327,38 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
+      },
+      {
+        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+        "link": "https://www.gamer.ne.jp/news/202604030048",
+        "date": 1775216040000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      },
+      {
+        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+        "link": "https://news.denfaminicogamer.jp/news/2604032s",
+        "date": 1775202202000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+        "date": 1775196005000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+        "date": 1775189953000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
       }
     ]
   },
@@ -1871,6 +1885,15 @@
     "hotScore": 1
   },
   {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "All Slot Cards in RACCOIN",
     "link": "https://www.destructoid.com/all-slot-cards-in-raccoin",
     "date": 1775155434000,
@@ -2185,15 +2208,6 @@
         "isTranslated": true
       }
     ]
-  },
-  {
-    "title": "Possess someone and get to the truth of the incident! “Nakano Personality Transplant Research Institute” is packed with secrets to make the rounds more interesting [TIGS2026]",
-    "link": "http://www.gamespark.jp/article/2026/04/03/164713.html",
-    "date": 1775171703000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
   },
   {
     "title": "Send likes and aim to become a top Vtuber! SNS clicker “Like Me” is interesting [TOKYO INDIE GAMES SUMMIT2026]",
@@ -2596,15 +2610,6 @@
     ]
   },
   {
-    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-    "date": 1775189953000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -2868,25 +2873,6 @@
     "hotScore": 1
   },
   {
-    "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-    "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-    "date": 1775196005000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-        "link": "https://www.gamer.ne.jp/news/202604030048",
-        "date": 1775216040000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "From love letters expressing your feelings to threatening letters demanding ransom. Medieval manuscript illustration studio sim “Scriptorium: Master of Manuscripts”, released on April 17, 2026",
     "link": "https://www.4gamer.net/games/833/G083395/20260403026",
     "date": 1775196253000,
@@ -3046,15 +3032,6 @@
     "date": 1775201405000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-    "link": "https://news.denfaminicogamer.jp/news/2604032s",
-    "date": 1775202202000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3675,7 +3652,17 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "McDonald's Introduces a 'Pro Gamer Menu' With an Arch-Shaped Device That Will Keep You From Going AFK While You Eat, But It's Only Available in Türkiye",
+        "link": "https://www.ign.com/articles/mcdonalds-introduces-a-pro-gamer-menu-with-an-arch-shaped-device-that-will-keep-you-from-going-afk-while-you-eat-but-its-only-available-in-trkiye",
+        "date": 1775258042000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "\"Slay the Spire 2\"'s \"Writhing Swarm Organism\" has been unexpectedly \"re-enhanced\" with the beta update. High-durability elite who can't even use high-fire combos now attacks every turn",
@@ -3822,20 +3809,20 @@
     "hotScore": 1
   },
   {
-    "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
-    "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
-    "date": 1775214000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
     "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
     "date": 1775214000000,
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
+    "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
+    "date": 1775214000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4624,7 +4611,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "State of Decay 3 springs back to life to announce alpha tests in May",
@@ -4632,14 +4619,6 @@
         "date": 1775232517000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
-        "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
-        "date": 1775232075000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -4714,17 +4693,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Lenovo Legion Go 2 Prices Increase By Nearly 50%",
@@ -4732,15 +4701,6 @@
     "date": 1775230676000,
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Canada Pitches Bank Expansion in China, Seeking to Grow Exports",
-    "link": "https://www.bloomberg.com/news/articles/2026-04-03/canada-pitches-bank-expansion-in-china-seeking-to-grow-exports",
-    "date": 1775230811000,
-    "domain": "bloomberg.com",
-    "sourceName": "Bloomberg",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4914,6 +4874,25 @@
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
         "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
+    "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
+    "date": 1775232075000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
+        "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
+        "date": 1775241120000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
       }
     ]
   },
@@ -5109,15 +5088,6 @@
     "hotScore": 1
   },
   {
-    "title": "11 Games in the indie.io Franchise Sale on Steam",
-    "link": "https://www.ign.com/articles/11-games-in-the-indieio-franchise-sale-on-steam",
-    "date": 1775235600000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Feature: Our Top Ten Favourite Easter Eggs In The Super Mario Galaxy Movie",
     "link": "https://www.nintendolife.com/features/our-top-ten-favourite-easter-eggs-in-the-super-mario-galaxy-movie",
     "date": 1775235600000,
@@ -5170,7 +5140,17 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -5505,15 +5485,6 @@
     "date": 1775241050000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
-    "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
-    "date": 1775241120000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -6006,15 +5977,6 @@
     "hotScore": 1
   },
   {
-    "title": "6 Popular Shonen Tropes Dragon Ball Perfected",
-    "link": "https://gamerant.com/popular-shonen-tropes-dragon-ball-perfected",
-    "date": 1775253616000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Zelda: Tears Of The Kingdom - Secrets Of The Zonai Book Is Now Available To Preorder",
     "link": "https://www.gamespot.com/articles/zelda-tears-of-the-kingdom-secrets-of-the-zonai-buying-guide/1100-6539202",
     "date": 1775255040000,
@@ -6093,7 +6055,25 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
-    "hotScore": 1
+    "hotScore": 1,
+    "groupMembers": [
+      {
+        "title": "A trial report of the latest popular ADV work \"Staffer Retro: Psychic Mystery Quest\". A struggling girl tries her best in Sicily [Happinet Game Festival! 2026]",
+        "link": "http://www.gamespark.jp/article/2026/04/04/164762.html",
+        "date": 1775259004000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      },
+      {
+        "title": "Just 10 minutes of play and you'll be overwhelmed... \"70's style robot anime Get P-X\" trial report [Happinet Game Festival]",
+        "link": "http://www.gamespark.jp/article/2026/04/04/164763.html",
+        "date": 1775260804000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Fire Force's Grand Finale Brings Peace With Soul Eater's Birth",
@@ -6123,6 +6103,15 @@
     "hotScore": 1
   },
   {
+    "title": "Genius RollerCoaster Tycoon 2 Player Makes Longest Rollercoaster Ever Built, Manipulates Guests Into Staying Just Happy Enough to Ride It for 1.947 x 10²²⁷ Years",
+    "link": "https://www.ign.com/articles/genius-rollercoaster-tycoon-2-player-makes-longest-rollercoaster-ever-built-manipulates-guests-into-staying-just-happy-enough-to-ride-it-for-1947-x-10-years",
+    "date": 1775257993000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "All NBA 2K26 2KTV answers: Episode 1-26",
     "link": "https://www.destructoid.com/all-nba-2k26-2ktv-answers",
     "date": 1775258189000,
@@ -6138,15 +6127,6 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "A trial report of the latest popular ADV work \"Staffer Retro: Psychic Mystery Quest\". A struggling girl tries her best in Sicily [Happinet Game Festival! 2026]",
-    "link": "http://www.gamespark.jp/article/2026/04/04/164762.html",
-    "date": 1775259004000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
     "hotScore": 1
   },
   {
@@ -6191,6 +6171,15 @@
     "date": 1775260121000,
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "All Operation Poison Pill Rewards in Black Ops 7 Endgame",
+    "link": "https://gamerant.com/call-of-duty-black-ops-7-bo7-endgame-operation-poison-pill-rewards-free-camos-operator-skins-blueprints-how-to-get",
+    "date": 1775260763000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   }
