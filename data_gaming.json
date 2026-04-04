@@ -450,15 +450,6 @@
     "hotScore": 1
   },
   {
-    "title": "The first update in about 12 years has been released to the Steam version of the multiplayer rescue action game ``Overwhelmingly popular'' rescue action game ``BattleBlock Theater''. A large remaster-level update",
-    "link": "https://automaton-media.com/articles/newsjp/20260402-434320",
-    "date": 1775127880000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "\"Puyo Puyo eSports\", 5th grade elementary school student Yuuki will be the representative athlete for the 20th Asian Games",
     "link": "https://www.4gamer.net/games/458/G045823/20260402052",
     "date": 1775127950000,
@@ -892,20 +883,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -916,7 +907,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 7,
+    "hotScore": 8,
     "groupMembers": [
       {
         "title": "Crimson Desert's commitment to cleaning up its clunky controls shines the brightest in how satisfying it feels to fly around Pywel now",
@@ -989,6 +980,14 @@
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
         "isTranslated": true
+      },
+      {
+        "title": "With the \"Crimson Desert\" update, the maximum capacity of your personal storage space has increased by approximately 4 times to 1000 slots. Convenient updates to resolve complaints such as turning off the helmet display and “fast travel without standing still”",
+        "link": "https://automaton-media.com/articles/newsjp/20260404-434620",
+        "date": 1775277170000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
       }
     ]
   },
@@ -1058,6 +1057,15 @@
     "hotScore": 1
   },
   {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -1075,15 +1083,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
@@ -1237,19 +1236,19 @@
         "isTranslated": true
       },
       {
-        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-        "date": 1775196005000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
         "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
         "link": "https://news.denfaminicogamer.jp/news/2604032s",
         "date": 1775202202000,
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+        "date": 1775196005000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
         "isTranslated": true
       },
       {
@@ -2162,6 +2161,15 @@
     "date": 1775179501000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "[7,368 yen → 0 yen for 2] Time melts! Two solid strategy games, “XCOM” and the Egyptian version of “Total War” are now available for free to Amazon Prime members [12 titles free in April]",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164720.html",
+    "date": 1775180104000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4349,7 +4357,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "State of Decay 3 springs back to life to announce alpha tests in May",
@@ -4357,6 +4365,14 @@
         "date": 1775232517000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
+        "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
+        "date": 1775232075000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -4386,7 +4402,17 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Starfield Features Enhanced Visuals on the PlayStation 5",
+        "link": "https://insider-gaming.com/starfield-features-enhanced-visuals-on-the-playstation-5",
+        "date": 1775232726000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "“Most influenced by PS2 “Getaway”” Live-action low-poly reproduction and interview behind the production of the much-talked-about commercial released",
@@ -4431,7 +4457,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Lenovo Legion Go 2 Prices Increase By Nearly 50%",
@@ -4624,25 +4660,6 @@
     ]
   },
   {
-    "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
-    "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
-    "date": 1775232075000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
-        "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
-        "date": 1775241120000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Nightbound: Cursed Merchant - Developer Log #2",
     "link": "https://www.indiedb.com/games/nightbound-cursed-merchant/news/nightbound-cursed-merchant-developer-log-2",
     "date": 1775232240000,
@@ -4668,25 +4685,6 @@
     "sourceName": "Kotaku",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Starfield Features Enhanced Visuals on the PlayStation 5",
-    "link": "https://insider-gaming.com/starfield-features-enhanced-visuals-on-the-playstation-5",
-    "date": 1775232726000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Starfield's PlayStation 5 Features Have Been Revealed",
-        "link": "https://www.thegamer.com/starfield-ps5-features-revealed",
-        "date": 1775254500000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "World of Reel: Zach Cregger’s ‘Resident Evil’ is 90 minutes and is “all gas, no brakes.” The film is said to be almost entirely built around tension, with one attendee describing it as a horror version of ‘Fury Road’ with barely any time to breathe.",
@@ -4850,17 +4848,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -5158,6 +5146,15 @@
     "date": 1775241050000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
+    "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
+    "date": 1775241120000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5628,6 +5625,15 @@
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Starfield's PlayStation 5 Features Have Been Revealed",
+    "link": "https://www.thegamer.com/starfield-ps5-features-revealed",
+    "date": 1775254500000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -6148,15 +6154,6 @@
     "date": 1775276820000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "[Special feature] Why do people keep diving into dungeons? 5 Recommended Dungeon Crawler Games that are so addictive that you can't stop no matter how many times you wipe them out",
-    "link": "http://www.gamespark.jp/article/2026/04/04/164770.html",
-    "date": 1775277004000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   },
