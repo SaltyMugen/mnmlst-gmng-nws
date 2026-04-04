@@ -61,7 +61,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Slay the Spire 2 early access review",
@@ -69,6 +69,14 @@
         "date": 1775206600000,
         "domain": "eurogamer.net",
         "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Slay the Spire 2 dev coyly teases a bunch of cool new features",
+        "link": "https://www.polygon.com/slay-the-spire-2-new-modes-character-multiplayer-competitive",
+        "date": 1775238869000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
         "isTranslated": false
       },
       {
@@ -1471,20 +1479,20 @@
     "hotScore": 1
   },
   {
-    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
-    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
-    "date": 1775214000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
     "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
     "date": 1775214000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
+    "date": 1775214000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2532,6 +2540,15 @@
     "hotScore": 1
   },
   {
+    "title": "State of Decay 3 update reveals playtests coming in May 2026",
+    "link": "https://www.polygon.com/state-of-decay-3-alpha-release-undead-labs",
+    "date": 1775236127000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
     "link": "https://www.gematsu.com/2026/04/snap-grab-launches-april-24-for-pc-later-for-consoles",
     "date": 1775236395000,
@@ -2591,6 +2608,15 @@
     "date": 1775237460000,
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "MTG's Secrets of Strixhaven is already discounted at Amazon",
+    "link": "https://www.polygon.com/mtg-secrets-of-strixhaven-discount",
+    "date": 1775237566000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2691,7 +2717,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 4,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "As House Flipper Remastered Collection's playtest gets going, the original is free to pick up for the weekend",
@@ -2700,22 +2726,6 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
-      },
-      {
-        "title": "The Steam version of the dirty room cleaning/renovation game ``House Flipper'' is being distributed free of charge for a limited time. A game with a regular price of 2,800 yen is now free",
-        "link": "https://automaton-media.com/articles/newsjp/20260404-434572",
-        "date": 1775255427000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "The Steam version of ``House Flipper'', a home renovation sim where you renovate an abandoned house with your own hands, is now available for free. A playtest of the remastered version with new graphics is also underway.",
-        "link": "https://news.denfaminicogamer.jp/news/260404a",
-        "date": 1775256113000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
       }
     ]
   },
@@ -3157,6 +3167,24 @@
     "date": 1775255404000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Steam version of the dirty room cleaning/renovation game ``House Flipper'' is being distributed free of charge for a limited time. A game with a regular price of 2,800 yen is now free",
+    "link": "https://automaton-media.com/articles/newsjp/20260404-434572",
+    "date": 1775255427000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "The Steam version of ``House Flipper'', a home renovation sim where you renovate an abandoned house with your own hands, is now available for free. A playtest of the remastered version with new graphics is also underway.",
+    "link": "https://news.denfaminicogamer.jp/news/260404a",
+    "date": 1775256113000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4090,19 +4118,19 @@
         "isTranslated": false
       },
       {
-        "title": "Mass Effect TV Show Could Be Written To ‘Appeal to Non-Gamers’",
-        "link": "https://insider-gaming.com/mass-effect-tv-show-written-appeal-non-gamers",
-        "date": 1775331943000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      },
-      {
         "title": "Mass Effect TV show ordered to rewrite scripts and make them \"more appealing to non-gamers\"",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1scc9rz/mass_effect_tv_show_ordered_to_rewrite_scripts",
         "date": 1775316795000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "Mass Effect TV Show Could Be Written To ‘Appeal to Non-Gamers’",
+        "link": "https://insider-gaming.com/mass-effect-tv-show-written-appeal-non-gamers",
+        "date": 1775331943000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -4189,6 +4217,15 @@
     "hotScore": 1
   },
   {
+    "title": "Mother 3’s anti-capitalist message still resonates two decades later",
+    "link": "https://www.polygon.com/mother-3-20th-anniversary",
+    "date": 1775304020000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Stop-motion animation and country music are soothing. Folklore motif ACT adventure “South of Midnight” PS5 version play report",
     "link": "http://www.gamespark.jp/article/2026/04/04/164785.html",
     "date": 1775304903000,
@@ -4216,20 +4253,20 @@
     "hotScore": 1
   },
   {
-    "title": "Shadow Lord is \"a whole 'nother level of character depth\" for Sam Witwer's Maul \"where you get to go into his mental psyche\"",
-    "link": "https://www.gamesradar.com/entertainment/star-wars-tv-shows/shadow-lord-creatives-talked-to-sam-witwer-all-the-time-about-his-star-wars-character-maul-this-is-a-whole-nother-level-of-character-depth",
-    "date": 1775307600000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Review: Bubblegum Galaxy Features a Fantastic Aesthetic",
     "link": "https://www.siliconera.com/review-bubblegum-galaxy-features-a-fantastic-aesthetic",
     "date": 1775307600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Shadow Lord is \"a whole 'nother level of character depth\" for Sam Witwer's Maul \"where you get to go into his mental psyche\"",
+    "link": "https://www.gamesradar.com/entertainment/star-wars-tv-shows/shadow-lord-creatives-talked-to-sam-witwer-all-the-time-about-his-star-wars-character-maul-this-is-a-whole-nother-level-of-character-depth",
+    "date": 1775307600000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4411,6 +4448,24 @@
     "hotScore": 1
   },
   {
+    "title": "10 Boss Battle Themes Worth Adding to Your Gym Playlist ASAP",
+    "link": "https://www.dualshockers.com/boss-battle-themes-worthy-of-landing-on-your-gym-playlist",
+    "date": 1775313016000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Darwin's Paradox is a killer Konami game that's not Metal Gear or Silent Hill",
+    "link": "https://www.polygon.com/darwins-paradox-recommendation",
+    "date": 1775314095000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "A look at the Clockwillows Voy Quest story",
     "link": "https://www.indiedb.com/games/clockwillows-voy-quest/features/a-look-at-the-clockwillows-voy-quest-story",
     "date": 1775314799000,
@@ -4502,6 +4557,15 @@
     "hotScore": 1
   },
   {
+    "title": "10 Great NES Games that are Fun Right Away",
+    "link": "https://www.dualshockers.com/great-nes-games-that-are-fun-from-the-start",
+    "date": 1775316673000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "YouTube’s Gaming Historian Explains Why He’s Stepping Away After 15 Years",
     "link": "https://kotaku.com/youtube-gaming-historian-steps-back-after-15-years-donkey-kong-2000684905",
     "date": 1775317970000,
@@ -4539,6 +4603,33 @@
     ]
   },
   {
+    "title": "Wyldheart co-op RPG preview shows a Fable-inspired D&D-style adventure",
+    "link": "https://www.polygon.com/wyldheart-demo-review-impressions",
+    "date": 1775318420000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Demon Tides is one of 2026's best platformers so far",
+    "link": "https://www.polygon.com/demon-tides-impressions",
+    "date": 1775318420000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "10 PS1 JRPGs That Are Fun Immediately",
+    "link": "https://www.dualshockers.com/ps1-jrpgs-that-are-fun-from-the-start",
+    "date": 1775320273000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Veteran Halo Developer Accuses Studio of ‘Numerous Unethical and Unlawful Acts’",
     "link": "https://insider-gaming.com/veteran-halo-developer-accuses-studio-of-numerous-unethical-and-unlawful-acts",
     "date": 1775321773000,
@@ -4554,7 +4645,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Fallout: New Vegas Mod Brings Awful PS3 Version To PC",
+        "link": "https://www.thegamer.com/fallout-new-vegas-ps3-ultimate-hits-version-pc-mod",
+        "date": 1775330570000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "I'm an RGB defender, and this Mario and Luigi Switch 2 controller is prime reason why",
@@ -4562,6 +4663,15 @@
     "date": 1775322000000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Ranking The Lush x Mario Galaxy Collection On How Likely It Is To Defeat Bowser",
+    "link": "https://www.thegamer.com/lush-x-super-mario-galaxy-movie-collection-ranked-bowser",
+    "date": 1775322019000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4600,6 +4710,24 @@
         "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Crimson Desert Reviewed Poorly Because of How Reviews Are Done, Not Because of the Game",
+    "link": "https://www.dualshockers.com/crimson-desert-a-game-for-the-players-not-the-reviewers",
+    "date": 1775323692000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Infinity Nikki's Most Useful Ability Outfits So Far",
+    "link": "https://www.dualshockers.com/most-useful-ability-outfits-in-infinity-nikki-so-far",
+    "date": 1775323814000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "This wildly successful indie gem is completely free on Steam—but only for another 48 hours",
@@ -4665,11 +4793,57 @@
     "hotScore": 1
   },
   {
-    "title": "The Super Mario Galaxy Movie Box Office Report And How Merch Sales Compare To Taylor Swift Movie",
-    "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
-    "date": 1775328900000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
+    "title": "The Super Mario Galaxy Movie: Best Easter Eggs And References",
+    "link": "https://www.thegamer.com/the-super-mario-galaxy-movie-cameos-easter-eggs-list",
+    "date": 1775326756000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Box Office Report And How Merch Sales Compare To Taylor Swift Movie",
+        "link": "https://www.gamespot.com/articles/the-super-mario-galaxy-movie-opens-huge-but-not-expected-to-beat-the-2023-movie/1100-6539174",
+        "date": 1775328900000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "Changes that Borderlands 4 Needs in Future Updates",
+    "link": "https://www.dualshockers.com/changes-that-borderlands-4-needs-in-future-updates",
+    "date": 1775327412000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Should You Break Wyll's Contract In Baldur's Gate 3?",
+    "link": "https://www.thegamer.com/baldurs-gate-3-wylls-contract-mizora-duke-quest-guide",
+    "date": 1775327418000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "https://www.ign.com/articles/mass-effect-prime-video-series-amazon-tv-boss-reportedly-requested-rewrites-to-make-it-more-appealing-to-non-gamers",
+    "link": "https://www.thegamer.com/mass-effect-amazon-prime-show-rewrite-requests",
+    "date": 1775327860000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Shanty Town PAX East Preview",
+    "link": "https://www.dualshockers.com/hands-on-preview-shanty-town",
+    "date": 1775328916000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4688,6 +4862,15 @@
     "date": 1775329200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "2 essential MTG decks for beginners are discounted",
+    "link": "https://www.polygon.com/mtg-beginner-deals-avatar-bx-foundations-starter",
+    "date": 1775329218000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4728,6 +4911,15 @@
     "hotScore": 1
   },
   {
+    "title": "Most Revolutionary Strategy Games Every Fan Should Experience",
+    "link": "https://www.dualshockers.com/most-revolutionary-strategy-games-every-fan-needs-to-experience",
+    "date": 1775331073000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "The Best Deals Today: Final Fantasy VII Remake Intergrade, Super Mario Galaxy + Super Mario Galaxy 2, and More",
     "link": "https://www.ign.com/articles/best-deals-for-april-4-2026",
     "date": 1775332169000,
@@ -4737,11 +4929,47 @@
     "hotScore": 1
   },
   {
+    "title": "GTA 5 continues a frustrating cycle with latest Xbox Game Pass exit",
+    "link": "https://www.polygon.com/gta-5-leaves-xbox-game-pass-again",
+    "date": 1775332269000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "'We Were Forced to Change': Sony CEO Outlines Shift to Entertainment, and Says PS5 Must Be the Best Place to Play",
     "link": "https://www.pushsquare.com/news/2026/04/we-were-forced-to-change-sony-ceo-outlines-shift-to-entertainment-and-says-ps5-must-be-the-best-place-to-play",
     "date": 1775332800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Dark Souls Beaten By A Fan Without Rolling, Getting Hit, Or Leveling Up",
+    "link": "https://www.thegamer.com/dark-souls-beaten-no-rolling-getting-hit",
+    "date": 1775332820000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Why Weapons Director Zach Cregger is the Perfect Pick for the New Resident Evil Movie",
+    "link": "https://gamerant.com/new-resident-evil-movie-director-zach-cregger",
+    "date": 1775332875000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "New Star Fox Switch 2 Game Detail Leaked",
+    "link": "https://gamerant.com/star-fox-switch-2-leaks",
+    "date": 1775333138000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4769,6 +4997,96 @@
     "date": 1775334600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Even If You Have Played Through Bloodborne Multiple Times, You Might Have Missed This Area",
+    "link": "https://gamerant.com/bloodborne-castle-hidden-area",
+    "date": 1775334615000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Issues Still Plaguing Borderlands 4 Players",
+    "link": "https://www.dualshockers.com/issues-still-plaguing-borderlands-4-players",
+    "date": 1775334673000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Crimson Desert OP Boss Build Guide",
+    "link": "https://gamerant.com/crimson-desert-critical-rate-op-boss-build",
+    "date": 1775334959000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Akane-banashi Episode 1 Review: Tragedy and Revenge",
+    "link": "https://gamerant.com/akane-banashi-episode-1-review",
+    "date": 1775335515000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "If the Leaks Are Real, Summer 2026 is Going to Be Absolutely Stacked for the Switch 2",
+    "link": "https://gamerant.com/switch-2-games-coming-out-2026",
+    "date": 1775336415000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "7 Anime That Are Way More Popular in Japan Than They Are Here",
+    "link": "https://gamerant.com/anime-more-popular-in-japan",
+    "date": 1775336415000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Baldur's Gate 3 Gets New Sorcerer Subclass With This Mod",
+    "link": "https://www.thegamer.com/baldurs-gate-3-new-sorcerer-subclass-spelljack",
+    "date": 1775336419000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Star Fox Reboot Might Focus On Humor",
+    "link": "https://www.thegamer.com/star-fox-reboot-humor-rumor-nintendo",
+    "date": 1775336723000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Tensura Season 4 Just Gave Spring 2026 Its Best Ending Sequence",
+    "link": "https://gamerant.com/tensura-season-4-best-ed-sequence-spring-2026",
+    "date": 1775337315000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Open-World RPGs That Are Bonafide 10/10 Masterpieces",
+    "link": "https://gamerant.com/best-masterpiece-open-world-rpgs",
+    "date": 1775337315000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   }
