@@ -448,33 +448,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "Quick thoughts about the Super Mario Galaxy movie",
-        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-        "date": 1775138132000,
-        "domain": "gamefile.news",
-        "sourceName": "Game File",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
@@ -549,20 +523,20 @@
     "hotScore": 1
   },
   {
-    "title": "Random: Jack Black Jokingly Suggests A Third Mario Movie Will Arrive In 2029",
-    "link": "https://www.nintendolife.com/news/2026/04/random-jack-black-jokingly-suggests-a-third-mario-movie-will-arrive-in-2029",
-    "date": 1775130300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Multiple Assassin's Creed Games Are Free To Play On Xbox This Week (April 2-6)",
     "link": "https://www.purexbox.com/news/2026/04/multiple-assassins-creed-games-are-free-to-play-on-xbox-this-week-april-2-6",
     "date": 1775130300000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Random: Jack Black Jokingly Suggests A Third Mario Movie Will Arrive In 2029",
+    "link": "https://www.nintendolife.com/news/2026/04/random-jack-black-jokingly-suggests-a-third-mario-movie-will-arrive-in-2029",
+    "date": 1775130300000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -828,6 +802,41 @@
     "hotScore": 1
   },
   {
+    "title": "Quick thoughts about the Super Mario Galaxy movie",
+    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+    "date": 1775138132000,
+    "domain": "gamefile.news",
+    "sourceName": "Game File",
+    "isTranslated": false,
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+        "date": 1775154625000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
     "link": "https://www.pcgamer.com/hardware/processors/amd-says-intels-interesting-choices-around-multithreading-could-help-epyc-cpus-gain-server-market-share",
     "date": 1775138202000,
@@ -946,20 +955,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1104,6 +1113,15 @@
     "hotScore": 1
   },
   {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -1121,15 +1139,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
@@ -1373,15 +1382,6 @@
     "hotScore": 1
   },
   {
-    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
-    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
-    "date": 1775145600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
     "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
     "date": 1775145600000,
@@ -1391,11 +1391,11 @@
     "hotScore": 1
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
+    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
     "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1405,6 +1405,15 @@
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1767,20 +1776,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
-    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
-    "date": 1775152800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
     "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
+    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
+    "date": 1775152800000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1815,15 +1824,6 @@
     "title": "French consumer advocacy group sues Ubisoft for taking The Crew offline, almost two years since Stop Killing Games first protested it",
     "link": "https://www.destructoid.com/ubisoft-the-crew-lawsuit",
     "date": 1775154446000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-    "date": 1775154625000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
@@ -2983,20 +2983,20 @@
     "hotScore": 1
   },
   {
-    "title": "Movic will pre-sell \"Harry Potter Card Game\" at \"Warner Bros. Studio Tour Tokyo\" from April 17th!",
-    "link": "https://gamebiz.jp/news/423789",
-    "date": 1775203200000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The synopsis and advance cut of the anime “Onegai Ipuri” episode 1 “Onegai! Become an Ipuri” have been released!",
     "link": "https://www.gamer.ne.jp/news/202604030028",
     "date": 1775203200000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Movic will pre-sell \"Harry Potter Card Game\" at \"Warner Bros. Studio Tour Tokyo\" from April 17th!",
+    "link": "https://gamebiz.jp/news/423789",
+    "date": 1775203200000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3910,6 +3910,15 @@
     "hotScore": 1
   },
   {
+    "title": "Xbox Relists Multiple Backwards Compatible Games, And Then Quickly Delists Them",
+    "link": "https://www.purexbox.com/news/2026/04/xbox-relists-multiple-backwards-compatible-games-and-then-quickly-delists-them",
+    "date": 1775217600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Review: Super Meat Boy 3D (Switch 2) - Not The Finest Cut, But Still Tasty",
     "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/super-meat-boy-3d",
     "date": 1775217600000,
@@ -3924,15 +3933,6 @@
     "date": 1775217600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Xbox Relists Multiple Backwards Compatible Games, And Then Quickly Delists Them",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-relists-multiple-backwards-compatible-games-and-then-quickly-delists-them",
-    "date": 1775217600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4189,25 +4189,6 @@
     "hotScore": 1
   },
   {
-    "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
-    "link": "https://gamebiz.jp/news/423805",
-    "date": 1775224800000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "``Collapsed City,'' a maritime city construction sim set in a submerged apocalyptic world, released on Steam. Stack materials while maintaining balance to avoid collapse.",
-        "link": "https://www.4gamer.net/games/875/G087523/20260403039",
-        "date": 1775224800000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "``Collapsed City'', a maritime city construction sim that collapses if you just pile it up, is now available on Steam! The game's appeal is that a sense of balance is important in two ways.",
     "link": "https://www.gamer.ne.jp/news/202604030047",
     "date": 1775224800000,
@@ -4230,6 +4211,25 @@
         "date": 1775254503000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
+    "link": "https://gamebiz.jp/news/423805",
+    "date": 1775224800000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "``Collapsed City,'' a maritime city construction sim set in a submerged apocalyptic world, released on Steam. Stack materials while maintaining balance to avoid collapse.",
+        "link": "https://www.4gamer.net/games/875/G087523/20260403039",
+        "date": 1775224800000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -4448,7 +4448,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -4456,14 +4456,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4475,7 +4467,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "State of Decay 3 springs back to life to announce alpha tests in May",
@@ -4483,6 +4475,14 @@
         "date": 1775232517000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
+        "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
+        "date": 1775232075000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -4557,7 +4557,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Lenovo Legion Go 2 Prices Increase By Nearly 50%",
@@ -4660,20 +4670,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Vote for Your PS5 Game of the Month (March 2026)",
-    "link": "https://www.pushsquare.com/features/poll-vote-for-your-ps5-game-of-the-month-march-2026",
-    "date": 1775232000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Tiny Bookshop Is Fantastic On Switch, And It's Coming To Xbox Game Pass Next Week",
     "link": "https://www.purexbox.com/news/2026/04/tiny-bookshop-is-fantastic-on-switch-and-its-coming-to-xbox-game-pass-next-week",
     "date": 1775232000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Vote for Your PS5 Game of the Month (March 2026)",
+    "link": "https://www.pushsquare.com/features/poll-vote-for-your-ps5-game-of-the-month-march-2026",
+    "date": 1775232000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4738,25 +4748,6 @@
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
         "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
-    "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
-    "date": 1775232075000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
-        "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
-        "date": 1775241120000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
       }
     ]
   },
@@ -4959,17 +4950,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -5290,6 +5271,15 @@
     "hotScore": 1
   },
   {
+    "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
+    "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
+    "date": 1775241120000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Jack Black Doubts Rockstar Will Ever Greenlight a Red Dead Redemption Movie, So He Has an Idea for the Perfect Character He'd Play in Red Dead Redemption 3",
     "link": "https://www.ign.com/articles/jack-black-doubts-rockstar-will-ever-greenlight-a-red-dead-redemption-movie-so-he-has-an-idea-for-the-perfect-character-hed-play-in-red-dead-redemption-3",
     "date": 1775242747000,
@@ -5548,6 +5538,15 @@
     "date": 1775249521000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
     "hotScore": 1
   },
