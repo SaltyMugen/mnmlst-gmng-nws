@@ -198,33 +198,6 @@
     "hotScore": 1
   },
   {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
-    "date": 1775138400000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
-        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
-        "date": 1775235180000,
-        "domain": "gamesbeat.com",
-        "sourceName": "GamesBeat",
-        "isTranslated": false
-      },
-      {
-        "title": "``Payment based on playing time is terrible'' Various voices say about $6.99 monthly indie game subscription - Is ``Indie Pass'' unpopular overseas? \"It takes away the opportunity to directly support developers,\" he said.",
-        "link": "http://www.gamespark.jp/article/2026/04/04/164782.html",
-        "date": 1775296804000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "KaraFun karaoke platform creates KaraFun Battle mobile game",
     "link": "https://gamesbeat.com/karafun-karaoke-platform-creates-karafun-battle-mobile-game",
     "date": 1775138400000,
@@ -248,6 +221,33 @@
         "date": 1775185545000,
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "date": 1775138400000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
+        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
+        "date": 1775235180000,
+        "domain": "gamesbeat.com",
+        "sourceName": "GamesBeat",
+        "isTranslated": false
+      },
+      {
+        "title": "``Payment based on playing time is terrible'' Various voices say about $6.99 monthly indie game subscription - Is ``Indie Pass'' unpopular overseas? \"It takes away the opportunity to directly support developers,\" he said.",
+        "link": "http://www.gamespark.jp/article/2026/04/04/164782.html",
+        "date": 1775296804000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
         "isTranslated": true
       }
     ]
@@ -506,7 +506,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "Cthulhu Cliff climbing roguelite \"Ascenders: Beyond the Peak\" announced. Climb the cliff that is surrounded by a “mysterious threat”, and even if you abandon your friends, you will climb anyway and aim for the top of the mountain.",
@@ -514,6 +514,14 @@
         "date": 1775186114000,
         "domain": "automaton-media.com",
         "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Announcement of \"Ascenders: Beyond the Peak,\" a Cthulhu myth x turn-based mountain climbing roguelite that challenges vertical despair. Early access starts in Q3 2026",
+        "link": "https://www.4gamer.net/games/996/G099631/20260403031",
+        "date": 1775202990000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -719,20 +727,20 @@
     "hotScore": 1
   },
   {
-    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
-    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
-    "date": 1775145600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
     "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
     "date": 1775145600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Grab These Resident Evil PSN Avatars for Free This Month",
+    "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
+    "date": 1775145600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -890,7 +898,7 @@
         "isTranslated": false
       },
       {
-        "title": "Dystopian high-speed slasher roguelite action game ``Morbid Metal'' will be released in early access on April 9th. Instantly switch characters and chop up enemies brilliantly",
+        "title": "Dystopian high-speed slashing rogue-lite action game ``Morbid Metal'' to be released in early access on April 9th. Instantly switch characters and chop up enemies brilliantly",
         "link": "https://automaton-media.com/articles/newsjp/morbid-metal-20260404-434632",
         "date": 1775281128000,
         "domain": "automaton-media.com",
@@ -967,6 +975,15 @@
     ]
   },
   {
+    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
+    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
+    "date": 1775149200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Guide: 100+ Switch 1 & 2 Games To Check Out In Nintendo's 'Find Save Play' Sale (Europe)",
     "link": "https://www.nintendolife.com/guides/100plus-switch-1-and-2-games-to-check-out-in-nintendos-find-save-play-sale-europe",
     "date": 1775149200000,
@@ -981,15 +998,6 @@
     "date": 1775149200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Licca-chan Frieren, Kuromi, and My Melody Dolls Appear in US",
-    "link": "https://www.siliconera.com/licca-chan-frieren-kuromi-and-my-melody-dolls-appear-in-us",
-    "date": 1775149200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1094,6 +1102,15 @@
     "hotScore": 1
   },
   {
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "date": 1775152800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Former Nintendo Sales Lead Thinks Switch 2 Price Increase Is \"Inevitable\"",
     "link": "https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable",
     "date": 1775152800000,
@@ -1108,15 +1125,6 @@
     "date": 1775152800000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
-    "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1384,19 +1392,19 @@
     "hotScore": 4,
     "groupMembers": [
       {
-        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
-        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
-        "date": 1775172600000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "Ingrid Erases a World in a Street Fighter 6 Trailer",
         "link": "https://www.siliconera.com/ingrid-erases-a-world-in-a-street-fighter-6-trailer",
         "date": 1775232000000,
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
+        "isTranslated": false
+      },
+      {
+        "title": "Street Fighter 6 Goes Batsh*t Crazy with Wild Ingrid World Tour Trailer",
+        "link": "https://www.pushsquare.com/news/2026/04/street-fighter-6-goes-batsht-crazy-with-wild-ingrid-world-tour-trailer",
+        "date": 1775172600000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -1757,7 +1765,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+    "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
     "link": "https://news.denfaminicogamer.jp/interview/260403s",
     "date": 1775192430000,
     "domain": "news.denfaminicogamer.jp",
@@ -1793,7 +1801,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following “Kamen Rider Zets” has been released",
+    "title": "“Kamen Rider Myce” announced! The title logo of the latest TV series following \"Kamen Rider Zets\" has been released",
     "link": "https://news.denfaminicogamer.jp/news/2604032h",
     "date": 1775193804000,
     "domain": "news.denfaminicogamer.jp",
@@ -1901,7 +1909,7 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "Unsettling deck-building roguelike ``Hitori Asobi'' released on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
+        "title": "The disturbing deck-building roguelike “Hitori Asobi” is now available on Steam. CV Mayu Sagara's timid girl plays a board game, \"Going to ■■ people\"",
         "link": "https://automaton-media.com/articles/newsjp/plameta-keeper-roguelike-20260403-434499",
         "date": 1775207002000,
         "domain": "automaton-media.com",
@@ -2029,7 +2037,7 @@
     "hotScore": 1
   },
   {
-    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen each” & 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
+    "title": "“Kyoshiro 2030” Kindle edition volumes 1 to 4 are on sale for “100 yen” each and 50% discount on all volumes. That work is famous for the scene \"Can I eat curry and rice?\"",
     "link": "https://news.denfaminicogamer.jp/news/2604032q",
     "date": 1775200799000,
     "domain": "news.denfaminicogamer.jp",
@@ -2095,15 +2103,6 @@
     "title": "A girlfriend who has a lot of love becomes an air conditioner or a router for her boyfriend. New casual game “Kaden Kanojo” released for smartphones",
     "link": "https://www.4gamer.net/games/996/G099627/20260403032",
     "date": 1775202941000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "Announcement of \"Ascenders: Beyond the Peak,\" a Cthulhu myth x turn-based mountaineering roguelite that challenges vertical despair. Early access starts in Q3 2026",
-    "link": "https://www.4gamer.net/games/996/G099631/20260403031",
-    "date": 1775202990000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
@@ -2210,20 +2209,20 @@
     ]
   },
   {
-    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
-    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
-    "date": 1775206800000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "One Of Switch's Very Best Indies Is Getting Physical 8 Years After Release",
     "link": "https://www.nintendolife.com/news/2026/04/one-of-switchs-very-best-indies-is-getting-physical-8-years-after-release",
     "date": 1775206800000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "date": 1775206800000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2573,7 +2572,7 @@
     "hotScore": 1
   },
   {
-    "title": "Chinese history survival ADV “Crying Geese” now available on Steam. \"Very popular\" ADV \"Hungry Lamb\" new work from the development team",
+    "title": "Chinese history survival ADV “Crying Geese” now available on Steam. \"Very well received\" ADV \"Hungry Lamb\" new work by the development team",
     "link": "http://www.gamespark.jp/article/2026/04/03/164740.html",
     "date": 1775212204000,
     "domain": "gamespark.jp",
@@ -2636,20 +2635,20 @@
     "hotScore": 1
   },
   {
-    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
-    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
-    "date": 1775214000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
     "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
     "date": 1775214000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
+    "date": 1775214000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2836,20 +2835,20 @@
     "hotScore": 1
   },
   {
-    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
-    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
-    "date": 1775217600000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Xbox Relists Multiple Backwards Compatible Games, And Then Quickly Delists Them",
     "link": "https://www.purexbox.com/news/2026/04/xbox-relists-multiple-backwards-compatible-games-and-then-quickly-delists-them",
     "date": 1775217600000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
+    "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
+    "date": 1775217600000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2953,6 +2952,15 @@
     "hotScore": 1
   },
   {
+    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
+    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
+    "date": 1775221200000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Best Buy Has A Neat Super Mario Bros. 40th Anniversary Game Case Up For Grabs (US)",
     "link": "https://www.nintendolife.com/news/2026/04/best-buy-has-a-neat-super-mario-bros-40th-anniversary-game-case-up-for-grabs-us",
     "date": 1775221200000,
@@ -2967,15 +2975,6 @@
     "date": 1775221200000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Review: Homura: The Crimson Warriors Is Another IFI Historical Otome",
-    "link": "https://www.siliconera.com/review-homura-the-crimson-warriors-is-another-ifi-historical-otome",
-    "date": 1775221200000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3297,6 +3296,15 @@
     "hotScore": 1
   },
   {
+    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
+    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
+    "date": 1775228400000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Review: Genki Covert Dock 3 And ShadowCast 3 - A Surprisingly Compact Mobile Capture Duo For Your Switch 2",
     "link": "https://www.nintendolife.com/reviews/genki-covert-dock-3-and-shadowcast-3-a-surprisingly-compact-mobile-capture-duo-for-your-switch-2",
     "date": 1775228400000,
@@ -3311,15 +3319,6 @@
     "date": 1775228400000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Cover Will Pull Back and End Some Holostars Male Vtubers Support",
-    "link": "https://www.siliconera.com/cover-will-pull-back-and-end-some-holostars-male-vtubers-support",
-    "date": 1775228400000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3561,20 +3560,20 @@
     "hotScore": 1
   },
   {
-    "title": "Poll: Vote for Your PS5 Game of the Month (March 2026)",
-    "link": "https://www.pushsquare.com/features/poll-vote-for-your-ps5-game-of-the-month-march-2026",
-    "date": 1775232000000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Tiny Bookshop Is Fantastic On Switch, And It's Coming To Xbox Game Pass Next Week",
     "link": "https://www.purexbox.com/news/2026/04/tiny-bookshop-is-fantastic-on-switch-and-its-coming-to-xbox-game-pass-next-week",
     "date": 1775232000000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Poll: Vote for Your PS5 Game of the Month (March 2026)",
+    "link": "https://www.pushsquare.com/features/poll-vote-for-your-ps5-game-of-the-month-march-2026",
+    "date": 1775232000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3624,7 +3623,7 @@
     "hotScore": 1
   },
   {
-    "title": "Latest zombie survival game “State of Decay 3” finally announces playtest – to be held from May 2026",
+    "title": "The latest zombie survival game “State of Decay 3” finally announces the playtest – to be held from May 2026",
     "link": "http://www.gamespark.jp/article/2026/04/04/164752.html",
     "date": 1775232055000,
     "domain": "gamespark.jp",
@@ -3923,15 +3922,6 @@
     "hotScore": 1
   },
   {
-    "title": "FromSoftware experts find evidence Hidetaka Miyazaki's breakout RPG Demon's Souls deleted the biggest middle finger in the series: giant birds that hurl you off cliffs",
-    "link": "https://www.gamesradar.com/games/action-rpg/fromsoftware-experts-find-evidence-hidetaka-miyazakis-breakout-rpg-demons-souls-deleted-the-biggest-middle-finger-in-the-series-giant-birds-that-hurl-you-off-cliffs",
-    "date": 1775238469000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Puzzle Spy International Deserves To Be Played By Way More People",
     "link": "https://kotaku.com/puzzle-spy-international-indie-steam-puzzle-game-2000684644",
     "date": 1775238643000,
@@ -3946,15 +3936,6 @@
     "date": 1775238801000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
-    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
-    "date": 1775239200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3984,6 +3965,15 @@
         "isTranslated": true
       }
     ]
+  },
+  {
+    "title": "Here's Why Starfield Will Be Best on PS5 When It Finally Releases Next Week",
+    "link": "https://www.pushsquare.com/news/2026/04/heres-why-starfield-will-be-best-on-ps5-when-it-finally-releases-next-week",
+    "date": 1775239200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Peak Devs Call Out Entitled Gamers Who Want Endless Free Updates",
@@ -4058,20 +4048,20 @@
     "hotScore": 1
   },
   {
-    "title": "For All the Talk About Crimson Desert, Nothing Beats MLB The Show on the US PS5 Chart",
-    "link": "https://www.pushsquare.com/news/2026/04/for-all-the-talk-about-crimson-desert-nothing-beats-mlb-the-show-on-the-us-ps5-chart",
-    "date": 1775242800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "US FFXIV Fan Festival 2026 Schedule Shared",
     "link": "https://www.siliconera.com/us-ffxiv-fan-festival-2026-schedule-shared",
     "date": 1775242800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "For All the Talk About Crimson Desert, Nothing Beats MLB The Show on the US PS5 Chart",
+    "link": "https://www.pushsquare.com/news/2026/04/for-all-the-talk-about-crimson-desert-nothing-beats-mlb-the-show-on-the-us-ps5-chart",
+    "date": 1775242800000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4185,20 +4175,20 @@
     ]
   },
   {
-    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
-    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
-    "date": 1775246400000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Dragon Quest Metal Slime Computer Mouse Returns With Bubble Slime",
     "link": "https://www.siliconera.com/dragon-quest-metal-slime-computer-mouse-returns-with-bubble-slime",
     "date": 1775246400000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Everyone's Talking About DriveClub Again, PS4's Underappreciated Racer",
+    "link": "https://www.pushsquare.com/news/2026/04/everyones-talking-about-driveclub-again-ps4s-underappreciated-racer",
+    "date": 1775246400000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4356,7 +4346,7 @@
     "hotScore": 1
   },
   {
-    "title": "The demo version of the apocalyptic horror game \"Breaking Armor\" where you fight monsters with a super-heavy tank where all operations are manual is now available!",
+    "title": "The demo version of the apocalyptic horror game \"Breaking Armor\" where you fight monsters with a super heavy tank with all manual operations released!",
     "link": "http://www.gamespark.jp/article/2026/04/04/164755.html",
     "date": 1775250003000,
     "domain": "gamespark.jp",
@@ -4581,7 +4571,7 @@
     "hotScore": 1,
     "groupMembers": [
       {
-        "title": "A trial report of the latest popular ADV work \"Staffer Retro: Psychic Mystery Quest\". A struggling girl tries her best in Sicily [Happinet Game Festival! 2026]",
+        "title": "A trial report of the latest popular ADV work \"Staffer Retro: Psychic Mystery Quest\". A struggling girl tries her best in Sicily [Happinet Game Festival! 2026】",
         "link": "http://www.gamespark.jp/article/2026/04/04/164762.html",
         "date": 1775259004000,
         "domain": "gamespark.jp",
@@ -4597,7 +4587,7 @@
         "isTranslated": true
       },
       {
-        "title": "The school RPG \"Villion:Code\" by Koushi Okada, the creator of \"Megami Tensei\" and \"Persona\", is the ultimate message to those who will lead the next generation [Happinet Game Festival! 2026]",
+        "title": "The school RPG \"Villion:Code\" by Koushi Okada, the creator of \"Megami Tensei\" and \"Persona\", is the ultimate message to those who will lead the next generation [Happinet Game Festival! 2026】",
         "link": "http://www.gamespark.jp/article/2026/04/04/164767.html",
         "date": 1775268004000,
         "domain": "gamespark.jp",
@@ -4605,7 +4595,7 @@
         "isTranslated": true
       },
       {
-        "title": "Drift! Flip! Have a combo! Complete everything and become a “train attacker” too! ! “Train Attack” [Happinet Game Festival! 2026]",
+        "title": "Drift! Flip! Have a combo! Complete everything and become a “train attacker” too! ! “Train Attack” [Happinet Game Festival! 2026】",
         "link": "http://www.gamespark.jp/article/2026/04/04/164768.html",
         "date": 1775271603000,
         "domain": "gamespark.jp",
@@ -4705,7 +4695,7 @@
     "hotScore": 1
   },
   {
-    "title": "Trial report of \"Super New Dimension Game Neptunia ∞\", the latest numbered work in 11 years that was suddenly announced on the occasion of the 15th anniversary [Happinet Game Festival! 2026]",
+    "title": "Trial report of \"Super New Dimension Game Neptunia ∞\", the latest numbered work in 11 years that was suddenly announced on the occasion of the 15th anniversary [Happinet Game Festival! 2026】",
     "link": "http://www.gamespark.jp/article/2026/04/04/164764.html",
     "date": 1775262603000,
     "domain": "gamespark.jp",
@@ -4856,33 +4846,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "Crimson Desert Gets More Storage Space, a Headgear Visibility Option, and Even a Toggle for Previous Movement Controls in Patch 1.02.00",
-        "link": "https://www.ign.com/articles/crimson-desert-gets-more-storage-space-a-headgear-visibility-option-and-even-a-toggle-for-previous-movement-controls-in-patch-10200",
-        "date": 1775291209000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert Update 1.02.00 Improves Movement",
-        "link": "https://www.thegamer.com/crimson-desert-patch-notes-april-4",
-        "date": 1775293839000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert Patch 1.02 Expands Storage and Improves Movement",
-        "link": "https://insider-gaming.com/crimson-desert-patch-1-02-notes-storage-movement",
-        "date": 1775286104000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "As a thank you and apology for the distribution of tickets that let you choose an SSR character in \"The Seven Deadly Sins: Origin.\" We appreciate your feedback and are working to improve the game.",
@@ -4912,7 +4876,7 @@
     "hotScore": 1
   },
   {
-    "title": "[Interview] MIXI's overseas support was designed based on voices from the indie game field. “The first step towards the world” supported by “LVLZero Tokyo”",
+    "title": "[Interview] MIXI's overseas support was designed based on voices from the indie game industry. “The first step towards the world” supported by “LVLZero Tokyo”",
     "link": "https://www.4gamer.net/games/999/G999905/20260331037",
     "date": 1775271600000,
     "domain": "4gamer.net",
@@ -5231,6 +5195,33 @@
     "hotScore": 1
   },
   {
+    "title": "Crimson Desert Patch 1.02 Expands Storage and Improves Movement",
+    "link": "https://insider-gaming.com/crimson-desert-patch-1-02-notes-storage-movement",
+    "date": 1775286104000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Crimson Desert Update 1.02.00 Improves Movement",
+        "link": "https://www.thegamer.com/crimson-desert-patch-notes-april-4",
+        "date": 1775293839000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert Gets More Storage Space, a Headgear Visibility Option, and Even a Toggle for Previous Movement Controls in Patch 1.02.00",
+        "link": "https://www.ign.com/articles/crimson-desert-gets-more-storage-space-a-headgear-visibility-option-and-even-a-toggle-for-previous-movement-controls-in-patch-10200",
+        "date": 1775291209000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "1st anniversary \"G Gene Eternal\" dominates the second half of the week - Review of App Store (3/28 - 4/3) sales rankings",
     "link": "https://gamebiz.jp/news/423785",
     "date": 1775286120000,
@@ -5348,19 +5339,19 @@
     "hotScore": 3,
     "groupMembers": [
       {
-        "title": "Talking Point: What Are You Playing This Weekend? - Issue 627",
-        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-627",
-        "date": 1775295000000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
-      {
         "title": "Talking Point: What Are You Playing This Weekend? (April 4-5)",
         "link": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-april-4-5",
         "date": 1775300400000,
         "domain": "purexbox.com",
         "sourceName": "Pure Xbox",
+        "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? - Issue 627",
+        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-627",
+        "date": 1775295000000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       }
     ]
@@ -5510,15 +5501,6 @@
     "hotScore": 1
   },
   {
-    "title": "Perfect Sonic Games That Are Still 10/10 Masterpieces In 2026",
-    "link": "https://gamerant.com/perfect-sonic-games-that-are-still-masterpieces",
-    "date": 1775300415000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Ghost of Yotei Legends' upcoming Raid won't launch with matchmaking, despite devs warning it's impossible to beat without 4-player co-op",
     "link": "https://www.gamesradar.com/games/open-world/ghost-of-yotei-legends-upcoming-raid-wont-launch-with-matchmaking-despite-devs-warning-its-impossible-to-beat-without-4-player-co-op",
     "date": 1775300579000,
@@ -5552,15 +5534,6 @@
     "date": 1775302200000,
     "domain": "ign.com",
     "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Best 'So Bad It's Good' Anime Movies of All Time",
-    "link": "https://gamerant.com/best-so-bad-its-good-anime-movies-of-all-time",
-    "date": 1775302215000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5701,6 +5674,24 @@
     "hotScore": 1
   },
   {
+    "title": "This Nightdive-remastered 3DO shooter shows why it took Halo to break PC gaming's FPS hegemony",
+    "link": "https://www.pcgamer.com/games/fps/this-nightdive-remastered-3do-shooter-shows-why-it-took-halo-to-break-pc-gamings-fps-hegemony",
+    "date": 1775307600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Shadow Lord is \"a whole 'nother level of character depth\" for Sam Witwer's Maul \"where you get to go into his mental psyche\"",
+    "link": "https://www.gamesradar.com/entertainment/star-wars-tv-shows/shadow-lord-creatives-talked-to-sam-witwer-all-the-time-about-his-star-wars-character-maul-this-is-a-whole-nother-level-of-character-depth",
+    "date": 1775307600000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Review: Bubblegum Galaxy Features a Fantastic Aesthetic",
     "link": "https://www.siliconera.com/review-bubblegum-galaxy-features-a-fantastic-aesthetic",
     "date": 1775307600000,
@@ -5724,6 +5715,15 @@
     "date": 1775307614000,
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Where to Find the Tarivian Necklace in Crimson Desert",
+    "link": "https://gamerant.com/crimson-desert-how-where-get-tarivian-necklace-music-box-puzzle",
+    "date": 1775307676000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 1
   }
