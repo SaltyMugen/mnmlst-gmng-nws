@@ -503,7 +503,33 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
@@ -656,15 +682,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "If Gigabyte's original X870E X3D Wood motherboard didn't do it for you, how about this moody 'Dark Wood' respin?",
-    "link": "https://www.pcgamer.com/hardware/motherboards/if-gigabytes-original-x870e-x3d-wood-motherboard-didnt-do-it-for-you-how-about-this-moody-dark-wood-respin",
-    "date": 1775133467000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -866,41 +883,6 @@
     "hotScore": 1
   },
   {
-    "title": "Quick thoughts about the Super Mario Galaxy movie",
-    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-    "date": 1775138132000,
-    "domain": "gamefile.news",
-    "sourceName": "Game File",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
     "link": "https://www.pcgamer.com/hardware/processors/amd-says-intels-interesting-choices-around-multithreading-could-help-epyc-cpus-gain-server-market-share",
     "date": 1775138202000,
@@ -916,15 +898,6 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
-    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
-    "date": 1775138400000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -952,6 +925,33 @@
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
         "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "A Game Pass for indie games: meet Indie Pass, a $6.99-a-month subscription launching with 70 titles",
+    "link": "https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month",
+    "date": 1775138400000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
+        "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
+        "date": 1775176816000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
+        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
+        "date": 1775235180000,
+        "domain": "gamesbeat.com",
+        "sourceName": "GamesBeat",
+        "isTranslated": false
       }
     ]
   },
@@ -1319,7 +1319,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 6,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -1328,38 +1328,6 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
-      },
-      {
-        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-        "link": "https://www.gamer.ne.jp/news/202604030048",
-        "date": 1775216040000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
-        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-        "link": "https://news.denfaminicogamer.jp/news/2604032s",
-        "date": 1775202202000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
-        "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
-        "date": 1775196005000,
-        "domain": "gamespark.jp",
-        "sourceName": "Game Spark",
-        "isTranslated": true
-      },
-      {
-        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-        "date": 1775189953000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -1446,20 +1414,20 @@
     "hotScore": 1
   },
   {
-    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
-    "date": 1775145600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Grab These Resident Evil PSN Avatars for Free This Month",
     "link": "https://www.pushsquare.com/news/2026/04/grab-these-resident-evil-psn-avatars-for-free-this-month",
     "date": 1775145600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Series X Is Even Better Than PS5 Pro For Assassin's Creed Unity, Suggests Report",
+    "link": "https://www.purexbox.com/news/2026/04/xbox-series-x-is-even-better-than-ps5-pro-for-assassins-creed-unity-suggests-report",
+    "date": 1775145600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1886,6 +1854,15 @@
     "hotScore": 1
   },
   {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "All Slot Cards in RACCOIN",
     "link": "https://www.destructoid.com/all-slot-cards-in-raccoin",
     "date": 1775155434000,
@@ -2248,15 +2225,6 @@
     "hotScore": 1
   },
   {
-    "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
-    "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
-    "date": 1775176816000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Tisse...? Arena shooter \"GAME\" where Sunsoft's \"that character\" may appear The strongest occupation is not a hero or a wise man, but an appraiser (tentative), right? ～Underground Labyrinth and Mysterious Girl～” Announcement",
     "link": "http://www.gamespark.jp/article/2026/04/03/164718.html",
     "date": 1775178004000,
@@ -2593,6 +2561,15 @@
     ]
   },
   {
+    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+    "date": 1775189953000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -2856,6 +2833,25 @@
     "hotScore": 1
   },
   {
+    "title": "“Xenonauts 2”, an “X-COM” style tactical strategy to resist alien invasion, is officially released!",
+    "link": "http://www.gamespark.jp/article/2026/04/03/164728.html",
+    "date": 1775196005000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+        "link": "https://www.gamer.ne.jp/news/202604030048",
+        "date": 1775216040000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "From love letters expressing your feelings to threatening letters demanding ransom. Medieval manuscript illustration studio sim “Scriptorium: Master of Manuscripts”, released on April 17, 2026",
     "link": "https://www.4gamer.net/games/833/G083395/20260403026",
     "date": 1775196253000,
@@ -3015,6 +3011,15 @@
     "date": 1775201405000,
     "domain": "gamespark.jp",
     "sourceName": "Game Spark",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+    "link": "https://news.denfaminicogamer.jp/news/2604032s",
+    "date": 1775202202000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -3319,20 +3324,20 @@
     ]
   },
   {
-    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
-    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
-    "date": 1775206800000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "One Of Switch's Very Best Indies Is Getting Physical 8 Years After Release",
     "link": "https://www.nintendolife.com/news/2026/04/one-of-switchs-very-best-indies-is-getting-physical-8-years-after-release",
     "date": 1775206800000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Reddit posts can be more important than data, and other lessons from maintaining Candy Crush as a forever game",
+    "link": "https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game",
+    "date": 1775206800000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -3801,20 +3806,20 @@
     "hotScore": 1
   },
   {
-    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
-    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
-    "date": 1775214000000,
-    "domain": "gamesindustry.biz",
-    "sourceName": "GamesIndustry.biz",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Following CEO's AI Doubts, Take-Two's AI Team Is Shrinking",
     "link": "https://www.pushsquare.com/news/2026/04/following-ceos-ai-doubts-take-twos-ai-team-is-shrinking",
     "date": 1775214000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Schrödinger's Switch 2: Is it failing or soaring? | Opinion",
+    "link": "https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion",
+    "date": 1775214000000,
+    "domain": "gamesindustry.biz",
+    "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4028,20 +4033,20 @@
     "hotScore": 1
   },
   {
-    "title": "Xbox Relists Multiple Backwards Compatible Games, And Then Quickly Delists Them",
-    "link": "https://www.purexbox.com/news/2026/04/xbox-relists-multiple-backwards-compatible-games-and-then-quickly-delists-them",
-    "date": 1775217600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Fans Reckon PS Studios Website Adjustments Hint at Sony's Move Away from PC",
     "link": "https://www.pushsquare.com/news/2026/04/fans-reckon-ps-studios-website-adjustments-hint-at-sonys-move-away-from-pc",
     "date": 1775217600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox Relists Multiple Backwards Compatible Games, And Then Quickly Delists Them",
+    "link": "https://www.purexbox.com/news/2026/04/xbox-relists-multiple-backwards-compatible-games-and-then-quickly-delists-them",
+    "date": 1775217600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4226,7 +4231,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Age of Empires IV\", latest DLC \"Yuefei's Legacy\" released on May 7th. A new civilization \"Golden Dynasty\" with a unique unit that can manipulate gunpowder appears",
+    "title": "\"Age of Empires IV\"'s latest DLC \"Yuefei's Legacy\" will be released on May 7th. A new civilization \"Golden Dynasty\" with a unique unit that can manipulate gunpowder appears",
     "link": "https://www.4gamer.net/games/391/G039193/20260403062",
     "date": 1775224504000,
     "domain": "4gamer.net",
@@ -4557,7 +4562,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -4565,14 +4570,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4777,20 +4774,20 @@
     "hotScore": 1
   },
   {
-    "title": "Tiny Bookshop Is Fantastic On Switch, And It's Coming To Xbox Game Pass Next Week",
-    "link": "https://www.purexbox.com/news/2026/04/tiny-bookshop-is-fantastic-on-switch-and-its-coming-to-xbox-game-pass-next-week",
-    "date": 1775232000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Poll: Vote for Your PS5 Game of the Month (March 2026)",
     "link": "https://www.pushsquare.com/features/poll-vote-for-your-ps5-game-of-the-month-march-2026",
     "date": 1775232000000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Tiny Bookshop Is Fantastic On Switch, And It's Coming To Xbox Game Pass Next Week",
+    "link": "https://www.purexbox.com/news/2026/04/tiny-bookshop-is-fantastic-on-switch-and-its-coming-to-xbox-game-pass-next-week",
+    "date": 1775232000000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5005,33 +5002,6 @@
     "hotScore": 1
   },
   {
-    "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
-    "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
-    "date": 1775235180000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
-        "link": "https://news.denfaminicogamer.jp/news/260403f",
-        "date": 1775187657000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
-        "link": "https://www.4gamer.net/games/996/G099632/20260403035",
-        "date": 1775204373000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "Our favorite open world FPS indie gem is getting New Game+, Spider-Man swinging, and wallrunning later this month",
     "link": "https://www.pcgamer.com/games/fps/our-favorite-open-world-fps-indie-gem-is-getting-new-game-spider-man-swinging-and-wallrunning-later-this-month",
     "date": 1775235562000,
@@ -5055,15 +5025,6 @@
     "date": 1775235600000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Crystalmancers PAX East Preview: Tetris Goes Rogue",
-    "link": "https://www.dualshockers.com/hands-on-preview-crystalmancers-is-a-perfect-new-take-on-a-classic-idea",
-    "date": 1775235694000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5750,6 +5711,15 @@
     "hotScore": 1
   },
   {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "A Shop at the Edge of Everything — Alpha Now Live",
     "link": "https://www.indiedb.com/games/aifrits-artifacts/news/a-shop-at-the-edge-of-everything-alpha-now-live",
     "date": 1775249712000,
@@ -5795,7 +5765,7 @@
     "hotScore": 1
   },
   {
-    "title": "The demo version of the apocalyptic horror game \"Breaking Armor\" where you fight monsters with a super heavy tank with all manual operations released!",
+    "title": "The demo version of the apocalyptic horror game \"Breaking Armor\" where you fight monsters with a super-heavy tank where all operations are manual is now available!",
     "link": "http://www.gamespark.jp/article/2026/04/04/164755.html",
     "date": 1775250003000,
     "domain": "gamespark.jp",
@@ -6189,5 +6159,41 @@
     "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
+  },
+  {
+    "title": "Gray Zone Warfare: Unlisted Flight Walkthrough",
+    "link": "https://www.dualshockers.com/gray-zone-warfare-unlisted-flight-quest-guide",
+    "date": 1775263974000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Subscription service for indie games gets a rough reception",
+    "link": "https://www.pcgamer.com/gaming-industry/subscription-service-for-indie-games-gets-a-rough-reception",
+    "date": 1775264011000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
+        "link": "https://news.denfaminicogamer.jp/news/260403f",
+        "date": 1775187657000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
+        "link": "https://www.4gamer.net/games/996/G099632/20260403035",
+        "date": 1775204373000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   }
 ]
