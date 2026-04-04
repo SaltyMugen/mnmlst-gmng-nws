@@ -268,7 +268,25 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
+        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
+        "date": 1775235180000,
+        "domain": "gamesbeat.com",
+        "sourceName": "GamesBeat",
+        "isTranslated": false
+      },
+      {
+        "title": "``Payment based on playing time is terrible'' Various voices say about $6.99 monthly indie game subscription - Is ``Indie Pass'' unpopular overseas? \"It takes away the opportunity to directly support developers,\" he said.",
+        "link": "http://www.gamespark.jp/article/2026/04/04/164782.html",
+        "date": 1775296804000,
+        "domain": "gamespark.jp",
+        "sourceName": "Game Spark",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Neptunia: Sisters VS Sisters was originally supposed to be developed as a mainline entry, but priorities switched to Unlimited so that the OG devs could be involved from day one",
@@ -444,15 +462,6 @@
     "hotScore": 1
   },
   {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Cofounder Brian Raffel retires from Call of Duty studio Raven Software",
     "link": "https://gamesbeat.com/cofounder-brian-raffel-retires-from-call-of-duty-multiplayer-studio-raven-software",
     "date": 1775142000000,
@@ -477,6 +486,15 @@
     "date": 1775142000000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -651,7 +669,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 5,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -660,6 +678,30 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
+      },
+      {
+        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+        "link": "https://www.gamer.ne.jp/news/202604030048",
+        "date": 1775216040000,
+        "domain": "gamer.ne.jp",
+        "sourceName": "Gamer.ne.jp",
+        "isTranslated": true
+      },
+      {
+        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+        "link": "https://news.denfaminicogamer.jp/news/2604032s",
+        "date": 1775202202000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+        "date": 1775189953000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
       }
     ]
   },
@@ -1121,20 +1163,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
-    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
-    "date": 1775152800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Former Nintendo Sales Lead Thinks Switch 2 Price Increase Is \"Inevitable\"",
     "link": "https://www.nintendolife.com/news/2026/04/former-nintendo-sales-lead-thinks-switch-2-price-increase-is-inevitable",
     "date": 1775152800000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
+    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
+    "date": 1775152800000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1684,15 +1726,6 @@
     ]
   },
   {
-    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-    "date": 1775189953000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -2098,15 +2131,6 @@
     "date": 1775201400000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-    "link": "https://news.denfaminicogamer.jp/news/2604032s",
-    "date": 1775202202000,
-    "domain": "news.denfaminicogamer.jp",
-    "sourceName": "Denfaminicogamer",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -2801,15 +2825,6 @@
     "hotScore": 1
   },
   {
-    "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-    "link": "https://www.gamer.ne.jp/news/202604030048",
-    "date": 1775216040000,
-    "domain": "gamer.ne.jp",
-    "sourceName": "Gamer.ne.jp",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "“Gakuen Idolmaster (Gakumasu)” will be on “Everyday Wednesday” again. Chaotic “Mainichi Gakuma Wednesday Final Season”",
     "link": "https://automaton-media.com/articles/newsjp/20260403-434542",
     "date": 1775216772000,
@@ -3412,7 +3427,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -3420,14 +3435,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -3820,25 +3827,6 @@
     "sourceName": "GameSpot",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
-    "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
-    "date": 1775235180000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
-        "link": "https://www.4gamer.net/games/996/G099632/20260403035",
-        "date": 1775204373000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
   },
   {
     "title": "Our favorite open world FPS indie gem is getting New Game+, Spider-Man swinging, and wallrunning later this month",
@@ -4374,6 +4362,15 @@
     "hotScore": 1
   },
   {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "A Shop at the Edge of Everything — Alpha Now Live",
     "link": "https://www.indiedb.com/games/aifrits-artifacts/news/a-shop-at-the-edge-of-everything-alpha-now-live",
     "date": 1775249712000,
@@ -4801,7 +4798,17 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
+        "link": "https://www.4gamer.net/games/996/G099632/20260403035",
+        "date": 1775204373000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "“Ultra” highly difficult SF strategy “Xenonauts 2” officially released, Japanese version now available. A merciless defense battle against aliens influenced by \"X-COM\" that is not \"XCOM\"",
@@ -4831,25 +4838,6 @@
     "hotScore": 1
   },
   {
-    "title": "Pro Tips And Tricks To Rank Up In Dissidia Duellum Final Fantasy",
-    "link": "https://www.thegamer.com/dissidia-duellum-final-fantasy-pro-tips-tricks-guide",
-    "date": 1775264420000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "All Active Gift Codes To Redeem In Dissidia Duellum Final Fantasy",
-        "link": "https://www.thegamer.com/dissidia-duellum-final-fantasy-active-gift-codes-redeem",
-        "date": 1775265319000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Dominus Automa is an MMO for People with a Life",
     "link": "https://www.dualshockers.com/hands-on-preview-dominus-automa-an-mmo-for-people-with-a-life",
     "date": 1775264504000,
@@ -4865,6 +4853,15 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "All Active Gift Codes To Redeem In Dissidia Duellum Final Fantasy",
+    "link": "https://www.thegamer.com/dissidia-duellum-final-fantasy-active-gift-codes-redeem",
+    "date": 1775265319000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
     "hotScore": 1
   },
   {
@@ -5511,15 +5508,6 @@
     "hotScore": 1
   },
   {
-    "title": "``Payment based on playing time is terrible'' Various voices say about $6.99 monthly indie game subscription - Is ``Indie Pass'' unpopular overseas? \"It takes away the opportunity to directly support developers,\" he said.",
-    "link": "http://www.gamespark.jp/article/2026/04/04/164782.html",
-    "date": 1775296804000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "'That's Still Under Bezos' Magical Halo' — The Lord of the Rings: The Rings of Power Reportedly Remains On-Track for 5 Seasons at Amazon as It Becomes TV's First $1 Billion Series",
     "link": "https://www.ign.com/articles/thats-still-under-bezos-magical-halo-the-lord-of-the-rings-the-rings-of-power-reportedly-remains-on-track-for-5-seasons-at-amazon-as-it-becomes-tvs-first-1-billion-series",
     "date": 1775297062000,
@@ -5598,7 +5586,17 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "Ghost Of Yotei Legends Raid Will Force You To Play With Friends",
+        "link": "https://www.thegamer.com/ghost-of-yotei-legends-raid-no-matchmaking-four-players",
+        "date": 1775306180000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "The Super Mario Galaxy Debunks Fox Legs Theory",
