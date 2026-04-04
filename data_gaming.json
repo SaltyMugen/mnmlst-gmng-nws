@@ -442,20 +442,20 @@
     "hotScore": 1
   },
   {
-    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
-    "date": 1775140497000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Crown: Sin Eater launches April 30",
     "link": "https://www.gematsu.com/2026/04/monster-crown-sin-eater-launches-april-30",
     "date": 1775140497000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Minecraft creator Notch says 'DLSS fundamentally makes no sense', but the X comments say 'um, actually'",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/minecraft-creator-notch-says-dlss-fundamentally-makes-no-sense-but-the-x-comments-say-um-actually",
+    "date": 1775140497000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -525,7 +525,7 @@
         "isTranslated": false
       },
       {
-        "title": "With the \"Crimson Desert\" update, the maximum capacity of your personal storage space has increased by approximately 4 times to 1000 slots. Convenient updates to resolve complaints such as turning off helmet display and “fast travel without standing still”",
+        "title": "With the \"Crimson Desert\" update, the maximum capacity of your personal storage space has increased by approximately 4 times to 1000 slots. Convenient updates to resolve complaints such as turning off the helmet display and “fast travel without standing still”",
         "link": "https://automaton-media.com/articles/newsjp/20260404-434620",
         "date": 1775277170000,
         "domain": "automaton-media.com",
@@ -650,7 +650,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Cthulhu Cliff climbing roguelite \"Ascenders: Beyond the Peak\" announced. Climb the cliff that is surrounded by a “mysterious threat”, and even if you abandon your friends, you will climb anyway and aim for the top of the mountain.",
@@ -658,14 +658,6 @@
         "date": 1775186114000,
         "domain": "automaton-media.com",
         "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "Announcement of \"Ascenders: Beyond the Peak,\" a Cthulhu myth x turn-based mountain climbing roguelite that challenges vertical despair. Early access starts in Q3 2026",
-        "link": "https://www.4gamer.net/games/996/G099631/20260403031",
-        "date": 1775202990000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -785,7 +777,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 5,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Xenonauts 2 hits 1.0 after almost three years of early access and paves the way for mods galore",
@@ -794,30 +786,6 @@
         "domain": "rockpapershotgun.com",
         "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
-      },
-      {
-        "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
-        "link": "https://www.gamer.ne.jp/news/202604030048",
-        "date": 1775216040000,
-        "domain": "gamer.ne.jp",
-        "sourceName": "Gamer.ne.jp",
-        "isTranslated": true
-      },
-      {
-        "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
-        "link": "https://news.denfaminicogamer.jp/news/2604032s",
-        "date": 1775202202000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
-        "link": "https://www.4gamer.net/games/717/G071732/20260403014",
-        "date": 1775189953000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -950,7 +918,7 @@
     ]
   },
   {
-    "title": "\"Fishbowl\" released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
+    "title": "“Fishbowl” released today. A heartwarming adventure game in which a woman, burdened with adult responsibilities and past scars, steps into the future with a magical fish.",
     "link": "https://www.4gamer.net/games/967/G096738/20260330042",
     "date": 1775145600000,
     "domain": "4gamer.net",
@@ -1859,6 +1827,15 @@
     ]
   },
   {
+    "title": "Xenonauts 2, a strategy game about resisting alien invasion, officially released. Early access version sold over 160,000 copies",
+    "link": "https://www.4gamer.net/games/717/G071732/20260403014",
+    "date": 1775189953000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“Animal Crossing: New Horizons”, Family Mart holds a campaign where you can win tote bags, etc.",
     "link": "https://www.4gamer.net/games/958/G095815/20260403016",
     "date": 1775189985000,
@@ -1960,7 +1937,7 @@
     "hotScore": 1
   },
   {
-    "title": "\"Goro Mashima,\" \"Dr. Eggman,\" and \"Death Adder\" will be added to the \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
+    "title": "\"Goro Majima\", \"Dr. Eggman\", and \"Death Adder\" will be added to \"SHINOBI Slash of Revenge\" DLC. Why are Sega's past bosses included in a serious ninja action game? → “Because it’s cool!” [Interview with a developer full of love for Sega]",
     "link": "https://news.denfaminicogamer.jp/interview/260403s",
     "date": 1775192430000,
     "domain": "news.denfaminicogamer.jp",
@@ -2268,6 +2245,15 @@
     "hotScore": 1
   },
   {
+    "title": "``Xenonauts 2'', a hard-nosed science fiction war simulation game that has been called a ``love letter to X-COM'', has gotten off to a good start with the official release. Veterans advise through reviews, ``Don't have feelings for soldiers.''",
+    "link": "https://news.denfaminicogamer.jp/news/2604032s",
+    "date": 1775202202000,
+    "domain": "news.denfaminicogamer.jp",
+    "sourceName": "Denfaminicogamer",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "Activision updated Blur's web domain last year, right on its 15th anniversary",
     "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sb774k/activision_updated_blurs_web_domain_last_year",
     "date": 1775202546000,
@@ -2289,6 +2275,15 @@
     "title": "A girlfriend who has a lot of love becomes an air conditioner or a router for her boyfriend. New casual game “Kaden Kanojo” released for smartphones",
     "link": "https://www.4gamer.net/games/996/G099627/20260403032",
     "date": 1775202941000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Announcement of \"Ascenders: Beyond the Peak,\" a Cthulhu myth x turn-based mountaineering roguelite that challenges vertical despair. Early access starts in Q3 2026",
+    "link": "https://www.4gamer.net/games/996/G099631/20260403031",
+    "date": 1775202990000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
@@ -2949,6 +2944,15 @@
     "hotScore": 1
   },
   {
+    "title": "“X-COM” style SF tactical strategy “Xenonauts 2” is officially released! Fight against the alien invasion and fight a war for the Earth.",
+    "link": "https://www.gamer.ne.jp/news/202604030048",
+    "date": 1775216040000,
+    "domain": "gamer.ne.jp",
+    "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
     "title": "“Gakuen Idolmaster (Gakumasu)” will be on “Everyday Wednesday” again. Chaotic “Mainichi Gakuma Wednesday Final Season”",
     "link": "https://automaton-media.com/articles/newsjp/20260403-434542",
     "date": 1775216772000,
@@ -3550,8 +3554,16 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
+      {
+        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+        "date": 1775249666000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
         "link": "https://www.gamespot.com/articles/uncharted-5-fans-believe-cryptic-naughty-dog-dev-post-is-teasing-the-game/1100-6539214",
@@ -3569,7 +3581,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2,
+    "hotScore": 3,
     "groupMembers": [
       {
         "title": "State of Decay 3 springs back to life to announce alpha tests in May",
@@ -3577,6 +3589,14 @@
         "date": 1775232517000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
+        "isTranslated": false
+      },
+      {
+        "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
+        "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
+        "date": 1775232075000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -3652,17 +3672,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Hell Let Loose Vietnam aims to redefine war shooters with “authentic” gameplay",
@@ -3800,7 +3810,7 @@
     "hotScore": 1
   },
   {
-    "title": "The latest zombie survival game “State of Decay 3” finally announces the playtest – to be held from May 2026",
+    "title": "Latest zombie survival game “State of Decay 3” finally announces playtest – to be held from May 2026",
     "link": "http://www.gamespark.jp/article/2026/04/04/164752.html",
     "date": 1775232055000,
     "domain": "gamespark.jp",
@@ -3823,25 +3833,6 @@
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
         "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "State of Decay 3 Alpha Playtests Go Live Next Month",
-    "link": "https://insider-gaming.com/state-of-decay-3-alpha-playtests-go-live-next-month",
-    "date": 1775232075000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
-        "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
-        "date": 1775241120000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
       }
     ]
   },
@@ -4015,7 +4006,17 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -4258,6 +4259,15 @@
     "date": 1775241050000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Xbox's State Of Decay 3 Finally Returns, Signups Now Live For Alpha Playtests",
+    "link": "https://www.purexbox.com/news/2026/04/xboxs-state-of-decay-3-finally-returns-signups-now-live-for-alpha-playtests",
+    "date": 1775241120000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -4514,15 +4524,6 @@
     "hotScore": 1
   },
   {
-    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-    "date": 1775249666000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "A Shop at the Edge of Everything — Alpha Now Live",
     "link": "https://www.indiedb.com/games/aifrits-artifacts/news/a-shop-at-the-edge-of-everything-alpha-now-live",
     "date": 1775249712000,
@@ -4753,15 +4754,6 @@
     "date": 1775256094000,
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
-    "title": "Pokemon Colosseum For Switch 2 Was Announced A Full Year Ago",
-    "link": "https://www.thegamer.com/pokemon-colosseum-nintendo-switch-2-announcement-year-later",
-    "date": 1775256809000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -5104,7 +5096,41 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 5,
+    "groupMembers": [
+      {
+        "title": "Crimson Desert Gets More Storage Space, a Headgear Visibility Option, and Even a Toggle for Previous Movement Controls in Patch 1.02.00",
+        "link": "https://www.ign.com/articles/crimson-desert-gets-more-storage-space-a-headgear-visibility-option-and-even-a-toggle-for-previous-movement-controls-in-patch-10200",
+        "date": 1775291209000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert Update 1.02.00 Improves Movement",
+        "link": "https://www.thegamer.com/crimson-desert-patch-notes-april-4",
+        "date": 1775293839000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Best Crimson Desert Mods",
+        "link": "https://gamerant.com/best-crimson-desert-mods",
+        "date": 1775296827000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
+        "isTranslated": false
+      },
+      {
+        "title": "Crimson Desert Patch 1.02 Expands Storage and Improves Movement",
+        "link": "https://insider-gaming.com/crimson-desert-patch-1-02-notes-storage-movement",
+        "date": 1775286104000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "As a thank you and apology for the distribution of tickets that let you choose an SSR character in \"The Seven Deadly Sins: Origin.\" We appreciate your feedback and are working to improve the game.",
@@ -5317,7 +5343,7 @@
     ]
   },
   {
-    "title": "All Kindle editions of \"World Trigger\" are being given 50% points back. \"Slow-acting science fiction\" depicting the battle between invaders from another dimension (Neighbours) and the border defense organization (Border) that opposes them. Campaign runs until April 5th",
+    "title": "All Kindle editions of \"World Trigger\" are being given 50% points back. \"Slow-acting science fiction\" depicting the battle between invaders from another dimension (Neighbors) and the border defense organization (Border) that opposes them. Campaign runs until April 5th",
     "link": "https://news.denfaminicogamer.jp/news/260404g",
     "date": 1775281008000,
     "domain": "news.denfaminicogamer.jp",
@@ -5451,41 +5477,6 @@
     "sourceName": "Eurogamer",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "Crimson Desert Patch 1.02 Expands Storage and Improves Movement",
-    "link": "https://insider-gaming.com/crimson-desert-patch-1-02-notes-storage-movement",
-    "date": 1775286104000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "Crimson Desert Update 1.02.00 Improves Movement",
-        "link": "https://www.thegamer.com/crimson-desert-patch-notes-april-4",
-        "date": 1775293839000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Crimson Desert Gets More Storage Space, a Headgear Visibility Option, and Even a Toggle for Previous Movement Controls in Patch 1.02.00",
-        "link": "https://www.ign.com/articles/crimson-desert-gets-more-storage-space-a-headgear-visibility-option-and-even-a-toggle-for-previous-movement-controls-in-patch-10200",
-        "date": 1775291209000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
-        "isTranslated": false
-      },
-      {
-        "title": "Best Crimson Desert Mods",
-        "link": "https://gamerant.com/best-crimson-desert-mods",
-        "date": 1775296827000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "1st anniversary \"G Gene Eternal\" dominates the second half of the week - Review of App Store (3/28 - 4/3) sales rankings",
@@ -5719,17 +5710,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 1,
-    "groupMembers": [
-      {
-        "title": "GameRant Daily Crossword (April 5, 2026)",
-        "link": "https://gamerant.com/game/gamerant-daily-crossword-2026-04-05",
-        "date": 1775296827000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "'That's Still Under Bezos' Magical Halo' — The Lord of the Rings: The Rings of Power Reportedly Remains On-Track for 5 Seasons at Amazon as It Becomes TV's First $1 Billion Series",
@@ -5836,6 +5817,33 @@
     "date": 1775300579000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Super Mario Galaxy Debunks Fox Legs Theory",
+    "link": "https://www.thegamer.com/the-super-mario-galaxy-movie-fox-amputated-legs-theory-shut-down",
+    "date": 1775301945000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Best 'So Bad It's Good' Anime Movies of All Time",
+    "link": "https://gamerant.com/best-so-bad-its-good-anime-movies-of-all-time",
+    "date": 1775302215000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Best Ring Combinations In Stardew Valley",
+    "link": "https://www.thegamer.com/stardew-valley-best-rings-combinations",
+    "date": 1775302219000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
     "isTranslated": false,
     "hotScore": 1
   }
