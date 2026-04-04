@@ -368,7 +368,33 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 4,
+    "groupMembers": [
+      {
+        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
+        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
+        "date": 1775176200000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "Quick thoughts about the Super Mario Galaxy movie",
+        "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
+        "date": 1775138132000,
+        "domain": "gamefile.news",
+        "sourceName": "Game File",
+        "isTranslated": false
+      },
+      {
+        "title": "“The Super Mario Galaxy Movie” Image Gallery",
+        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
+        "date": 1775127640000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Rumour: Halo's PS5 Debut Launches in June, According to Fanta-Related Fan Theory",
@@ -695,41 +721,6 @@
     "hotScore": 1
   },
   {
-    "title": "Quick thoughts about the Super Mario Galaxy movie",
-    "link": "https://www.gamefile.news/p/quick-thoughts-about-the-super-mario",
-    "date": 1775138132000,
-    "domain": "gamefile.news",
-    "sourceName": "Game File",
-    "isTranslated": false,
-    "hotScore": 4,
-    "groupMembers": [
-      {
-        "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
-        "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
-        "date": 1775154625000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
-        "title": "The Super Mario Galaxy Movie Opening Day Breaks Multiple Records Worldwide",
-        "link": "https://www.nintendolife.com/news/2026/04/the-super-mario-galaxy-movie-opening-day-breaks-multiple-records-worldwide",
-        "date": 1775176200000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
-        "title": "“The Super Mario Galaxy Movie” Image Gallery",
-        "link": "https://jp.ign.com/untitled-the-super-mario-bros-movie-sequel/83086/gallery",
-        "date": 1775127640000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "AMD says Intel's 'interesting choices' around multithreading could help Epyc CPUs gain server market share",
     "link": "https://www.pcgamer.com/hardware/processors/amd-says-intels-interesting-choices-around-multithreading-could-help-epyc-cpus-gain-server-market-share",
     "date": 1775138202000,
@@ -782,7 +773,25 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
+        "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
+        "date": 1775176816000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
+        "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
+        "date": 1775235180000,
+        "domain": "gamesbeat.com",
+        "sourceName": "GamesBeat",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Neptunia: Sisters VS Sisters was originally supposed to be developed as a mainline entry, but priorities switched to Unlimited so that the OG devs could be involved from day one",
@@ -968,15 +977,6 @@
     "hotScore": 1
   },
   {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Cofounder Brian Raffel retires from Call of Duty studio Raven Software",
     "link": "https://gamesbeat.com/cofounder-brian-raffel-retires-from-call-of-duty-multiplayer-studio-raven-software",
     "date": 1775142000000,
@@ -1001,6 +1001,15 @@
     "date": 1775142000000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1233,20 +1242,20 @@
     "hotScore": 1
   },
   {
-    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
-    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
-    "date": 1775145600000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "Monster Hunter Outlanders 2nd Closed Beta Sign-ups Open",
     "link": "https://www.siliconera.com/monster-hunter-outlanders-2nd-closed-beta-sign-ups-open",
     "date": 1775145600000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Indie Selects for April 2026: Big on Building, Strategy, and Action",
+    "link": "https://news.xbox.com/en-us/2026/04/02/indie-selects-id-xbox-april-2026",
+    "date": 1775145600000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1625,20 +1634,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
-    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
-    "date": 1775152800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
     "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
+    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
+    "date": 1775152800000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -1673,6 +1682,15 @@
     "title": "French consumer advocacy group sues Ubisoft for taking The Crew offline, almost two years since Stop Killing Games first protested it",
     "link": "https://www.destructoid.com/ubisoft-the-crew-lawsuit",
     "date": 1775154446000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The critics got it wrong: Super Mario Galaxy movie already had 2026’s best opening day",
+    "link": "https://www.destructoid.com/the-critics-got-it-wrong-super-mario-galaxy-movie-already-had-2026s-best-opening-day",
+    "date": 1775154625000,
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
@@ -1986,15 +2004,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Indie Pass, a subscription service specializing in indie games, announced, starting April 13th. Monthly fee is approximately 1100 yen",
-    "link": "https://automaton-media.com/articles/newsjp/indie-pass-20260403-434375",
-    "date": 1775176816000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
   },
   {
     "title": "GAME The Strongest Job Is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)! ~Dungeon and Mystery Girl~ announced for PS5, PS4, Switch, and PC",
@@ -2412,15 +2421,6 @@
     "date": 1775194176000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
-    "title": "New information on the 30th anniversary of the Tales of series will be released on April 3rd at 6pm! It was announced by ufotable, and there are expectations for anime and movie adaptation.",
-    "link": "http://www.gamespark.jp/article/2026/04/03/164727.html",
-    "date": 1775194204000,
-    "domain": "gamespark.jp",
-    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   },
@@ -4079,7 +4079,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Uncharted 5? Fans Believe Cryptic Naughty Dog Dev Post Is Teasing The Game",
@@ -4087,14 +4087,6 @@
         "date": 1775229720000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
-        "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
-        "date": 1775249666000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -4187,7 +4179,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Resident Evil Movie Reportedly Earns ‘Great’ Reaction at Early Test Screening",
@@ -4453,19 +4455,19 @@
     "hotScore": 2,
     "groupMembers": [
       {
-        "title": "Today’s Parseword hints and answer (April 2026)",
-        "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
-        "date": 1775258042000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      },
-      {
         "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
         "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
         "date": 1775258723000,
         "domain": "insider-gaming.com",
         "sourceName": "Insider Gaming",
+        "isTranslated": false
+      },
+      {
+        "title": "Today’s Parseword hints and answer (April 2026)",
+        "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
+        "date": 1775258042000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
       }
     ]
@@ -4526,33 +4528,6 @@
     "hotScore": 1
   },
   {
-    "title": "Indie.io announces Indie Pass subscription for indie games for $6.99 a month",
-    "link": "https://gamesbeat.com/indie-io-announces-indie-pass-subscription-for-indie-games-for-6-99-a-month",
-    "date": 1775235180000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 3,
-    "groupMembers": [
-      {
-        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
-        "link": "https://news.denfaminicogamer.jp/news/260403f",
-        "date": 1775187657000,
-        "domain": "news.denfaminicogamer.jp",
-        "sourceName": "Denfaminicogamer",
-        "isTranslated": true
-      },
-      {
-        "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
-        "link": "https://www.4gamer.net/games/996/G099632/20260403035",
-        "date": 1775204373000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "Our favorite open world FPS indie gem is getting New Game+, Spider-Man swinging, and wallrunning later this month",
     "link": "https://www.pcgamer.com/games/fps/our-favorite-open-world-fps-indie-gem-is-getting-new-game-spider-man-swinging-and-wallrunning-later-this-month",
     "date": 1775235562000,
@@ -4605,17 +4580,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -5188,6 +5153,15 @@
     "hotScore": 1
   },
   {
+    "title": "Naughty Dog Creative Director Is in Trinidad for 'Research' and a Lot of Fans Think It's for Uncharted 5",
+    "link": "https://www.ign.com/articles/naughty-dog-creative-director-is-in-trinidad-for-research-and-a-lot-of-fans-think-its-for-uncharted-5",
+    "date": 1775249666000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "A Shop at the Edge of Everything — Alpha Now Live",
     "link": "https://www.indiedb.com/games/aifrits-artifacts/news/a-shop-at-the-edge-of-everything-alpha-now-live",
     "date": 1775249712000,
@@ -5633,7 +5607,25 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 3,
+    "groupMembers": [
+      {
+        "title": "Indie Pass, a subscription service specializing in indie games, has been announced and will begin service on April 13th. Get unlimited access to indie games in our catalog for $6.99 per month. Currently only compatible with PC",
+        "link": "https://news.denfaminicogamer.jp/news/260403f",
+        "date": 1775187657000,
+        "domain": "news.denfaminicogamer.jp",
+        "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Indie Pass, a subscription service that allows you to play unlimited indie games, will be available for PC from April 13th",
+        "link": "https://www.4gamer.net/games/996/G099632/20260403035",
+        "date": 1775204373000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "“Ultra” highly difficult SF strategy “Xenonauts 2” officially released, Japanese version now available. A merciless defense battle against aliens influenced by \"X-COM\" that is not \"XCOM\"",
@@ -6185,6 +6177,15 @@
     "date": 1775286120000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "Introducing \"Intravenous 3\", a top-down stealth action game that tests your ability to respond in extreme conditions... in enemy territory!",
+    "link": "http://www.gamespark.jp/article/2026/04/04/164777.html",
+    "date": 1775286903000,
+    "domain": "gamespark.jp",
+    "sourceName": "Game Spark",
     "isTranslated": true,
     "hotScore": 1
   }
