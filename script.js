@@ -33,9 +33,10 @@ function getDomain(url) {
 
 function timeAgo(ts) {
     const diff = Date.now() - ts;
-    if (diff < 60000)    return "just now";
-    if (diff < 3600000)  return Math.floor(diff / 60000) + "m";
-    if (diff < 86400000) return Math.floor(diff / 3600000) + "h";
+    if (diff < 60000)     return "just now";
+    if (diff < 3600000)   return Math.floor(diff / 60000) + "m";
+    if (diff < 86400000)  return Math.floor(diff / 3600000) + "h";
+    if (diff < 172800000) return "yesterday";
     return Math.floor(diff / 86400000) + "d";
 }
 
@@ -79,7 +80,13 @@ function loadBookmarks() {
 }
 
 function saveBookmarks() {
-    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarks));
+    try {
+        localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarks));
+    } catch (e) {
+        // localStorage quota exceeded — notify user
+        console.warn("Bookmark storage full:", e);
+        alert("Bookmark storage is full. Please remove some bookmarks before adding new ones.");
+    }
 }
 
 function toggleBookmark(link, title, domain, sourceName, btn) {
@@ -168,6 +175,7 @@ function closeBookmarks() {
 // --- Theme ---
 
 const THEMES = ["day", "night", "forest"];
+const THEME_COLORS = { day: "#fafaf8", night: "#111110", forest: "#1e2f23" };
 
 function cycleTheme() {
     const root    = document.documentElement;
@@ -176,6 +184,9 @@ function cycleTheme() {
     root.setAttribute("data-theme", next);
     localStorage.setItem("om-theme", next);
     updateThemeDots(next);
+    // keep browser chrome colour in sync
+    const meta = document.getElementById("meta-theme-color");
+    if (meta) meta.setAttribute("content", THEME_COLORS[next] || "#fafaf8");
 }
 
 function updateThemeDots(theme) {
@@ -237,6 +248,7 @@ function filterFeed() {
     const clearBtn = document.getElementById("search-clear");
     if (clearBtn) clearBtn.style.display = q.length > 0 ? "flex" : "none";
 
+    let anyVisible = false;
     document.querySelectorAll(".item").forEach(item => {
         const title    = item.getAttribute("data-title").toLowerCase();
         const source   = item.getAttribute("data-source") || "";
@@ -253,8 +265,13 @@ function filterFeed() {
         if (activeFilter === "nintendo")    matchesTab = platform === "nintendo";
         if (activeFilter === "reddit")      matchesTab = platform === "reddit";
 
-        item.classList.toggle("hidden", !(matchesSearch && matchesTab && sourceVisible));
+        const visible = matchesSearch && matchesTab && sourceVisible;
+        item.classList.toggle("hidden", !visible);
+        if (visible) anyVisible = true;
     });
+
+    const emptyState = document.getElementById("feed-empty");
+    if (emptyState) emptyState.style.display = anyVisible ? "none" : "block";
 }
 
 // keyboard support — Enter or Space triggers filter buttons
@@ -372,15 +389,17 @@ function render(articles) {
     feed.innerHTML = "";
 
     articles.slice().sort((a, b) => b.date - a.date).forEach((a, i) => {
-        if (a.groupMember) return;
 
         const isNew      = (Date.now() - a.date) < NEW_THRESHOLD_MS;
         const isTrending = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
         const domain     = getDomain(a.link);
         const isReddit   = a.link.includes("reddit.com");
-        const isPS       = a.link.includes("playstation.com");
-        const isNintendo = a.link.includes("nintendo.com");
-        const isXbox     = a.link.includes(".xbox.com");
+        const isPS       = a.link.includes("playstation.com") ||
+                           /\b(playstation|ps5|ps4|psvr2?)\b/i.test(a.title);
+        const isNintendo = a.link.includes("nintendo.com") ||
+                           /\b(nintendo|switch\s*2?|switch oled)\b/i.test(a.title);
+        const isXbox     = a.link.includes(".xbox.com") ||
+                           /\b(xbox|game pass)\b/i.test(a.title);
         const hasGroup   = a.groupMembers && a.groupMembers.length > 0;
 
         // used by the platform + reddit filters
@@ -557,6 +576,18 @@ function render(articles) {
         setTimeout(() => li.classList.add("show"), i < 30 ? i * 15 : 0);
     });
 
+    // empty-state message — shown when filters/search produce no visible items
+    let emptyState = document.getElementById("feed-empty");
+    if (!emptyState) {
+        emptyState = document.createElement("li");
+        emptyState.id = "feed-empty";
+        emptyState.className = "feed-empty-state";
+        emptyState.textContent = "No articles match your current filters.";
+    }
+    feed.appendChild(emptyState);
+    // visibility is toggled by filterFeed(); hide it initially after a fresh render
+    emptyState.style.display = "none";
+
     buildSourcesMenu(allArticles);
     updateMutedCount();
 }
@@ -611,7 +642,34 @@ async function init() {
 function hardRefresh() {
     localStorage.removeItem(CACHE_KEY);
     lastHash = null;
-    silentRefresh();
+    const feed = document.getElementById("feed");
+
+    async function doRefresh() {
+        try {
+            const fresh = await fetchFresh();
+            if (!fresh || fresh.length === 0) return;
+            const hash = hashArticles(fresh);
+            if (hash !== lastHash) {
+                lastHash    = hash;
+                allArticles = fresh;
+                render(fresh);
+                localStorage.setItem(CACHE_KEY, JSON.stringify(fresh));
+            }
+        } catch (_) {
+            // Re-render from the existing in-memory articles so the feed isn't blank
+            if (allArticles.length > 0) {
+                render(allArticles);
+            } else {
+                const emptyState = document.getElementById("feed-empty");
+                if (emptyState) {
+                    emptyState.textContent = "Could not load feed. Please try again.";
+                    emptyState.style.display = "block";
+                }
+            }
+        }
+    }
+
+    doRefresh();
 }
 
 async function silentRefresh() {

@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="en" data-theme="forest">
+<html lang="en" data-theme="day">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fafaf8" id="meta-theme-color" />
 
     <title>OniMugen+ — Gaming News, Leaks & Rumours in One Feed</title>
     <meta name="description" content="OniMugen pulls gaming news, leaks, and rumours from 35+ sources into a single real-time feed. IGN, Kotaku, Eurogamer, Reddit leaks and more — all in one place." />
@@ -30,8 +31,13 @@
 
     <script>
       (function () {
-        const savedTheme = localStorage.getItem("om-theme") || "day";
-        document.documentElement.setAttribute("data-theme", savedTheme);
+        var saved = localStorage.getItem("om-theme");
+        var theme = saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "night" : "day");
+        document.documentElement.setAttribute("data-theme", theme);
+        // Sync the theme-color meta so the browser chrome matches
+        var themeColors = { day: "#fafaf8", night: "#111110", forest: "#1e2f23" };
+        var meta = document.getElementById("meta-theme-color");
+        if (meta) meta.setAttribute("content", themeColors[theme] || "#fafaf8");
       })();
     </script>
 

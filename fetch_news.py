@@ -143,7 +143,7 @@ SOURCES = [
     # automaton-media.com/en/ publishes in UTC with proper offsets — no correction needed.
     {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml",                                           "domain": "4gamer.net", "translate": True, "tz_jst": True},
     {"name": "Automaton Media",   "rss": "https://automaton-media.com/en/feed/",                                    "domain": "automaton-media.com"},
-    {"name": "Famitsu",           "rss": "https://famitsu.com",                                "domain": "famitsu.com",              "translate": True, "tz_jst": True},
+    {"name": "Famitsu",           "rss": "https://www.famitsu.com/feed",                           "domain": "famitsu.com",              "translate": True, "tz_jst": True},
     {"name": "Dengeki Online",    "rss": "https://dengekionline.com/index.xml",                                     "domain": "dengekionline.com",         "translate": True, "tz_jst": True},
     {"name": "GameBiz",           "rss": "https://gamebiz.jp/feed.rss",                                             "domain": "gamebiz.jp",                "translate": True, "tz_jst": True},
     {"name": "Denfaminicogamer",  "rss": "https://news.denfaminicogamer.jp/feed",                                   "domain": "news.denfaminicogamer.jp",  "translate": True, "tz_jst": True},
@@ -217,6 +217,13 @@ KEYWORDS = [
 "open world", "multiplayer", "single player", "co-op", "esports",
 
 ]
+
+# Pre-compile KEYWORDS into a single regex for O(1) per-title matching
+# (the naive `any(k in title for k in KEYWORDS)` is O(n*m) with 100+ keywords)
+_KEYWORDS_RE = re.compile(
+    "|".join(re.escape(k) for k in KEYWORDS),
+    re.IGNORECASE,
+)
 
 _CJK_RE = re.compile(r"[\u3000-\u9fff\uff00-\uffef]")
 
@@ -343,7 +350,11 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
         log.error("[%s] All attempts failed. Skipping.", name)
         return []
 
-    feed = feedparser.parse(resp.content)
+    try:
+        feed = feedparser.parse(resp.content, response_headers={"content-type": resp.headers.get("content-type", "application/xml")})
+    except Exception as exc:
+        log.error("[%s] feedparser failed to parse feed: %s", name, exc)
+        return []
 
     raw_titles = []
     raw_entries = []
@@ -357,7 +368,7 @@ def _fetch_source(src: dict, cutoff_ms: int) -> list[dict]:
         title = html.unescape(entry.title)
         title = _fix_mojibake(title)
 
-        if src.get("filter") and not any(k in title.lower() for k in KEYWORDS):
+        if src.get("filter") and not _KEYWORDS_RE.search(title):
             continue
 
         # drop blocked titles before translation (catches English titles)
@@ -417,13 +428,21 @@ def _extract_topic_key(title: str) -> str | None:
     to use as a topic grouping key. Returns None if no clear topic is found.
     Examples: "Crimson Desert", "Elden Ring", "GTA VI", "Call of Duty"
     """
-    # Match sequences of 2-4 title-cased or uppercase words (allows short words like 'of', 'in')
-    pattern = re.compile(r'\b([A-Z][a-zA-Z]+(?:\s+(?:of|in|the|a|an|to|for|and|or|vs|II|III|IV|VI|VII|VIII|IX|X|[A-Z][a-zA-Z]*))*\s+[A-Z][a-zA-Z]+)\b')
+    # Match sequences of 2-4 title-cased or uppercase words (allows short words like 'of', 'in').
+    # Each "content word" must be at least 2 chars to avoid matching isolated articles/prepositions.
+    pattern = re.compile(
+        r'\b([A-Z][a-zA-Z]{1,}(?:\s+(?:of|in|the|a|an|to|for|and|or|vs|II|III|IV|VI|VII|VIII|IX|X|[A-Z][a-zA-Z]{1,}))*\s+[A-Z][a-zA-Z]{1,})\b'
+    )
     matches = pattern.findall(title)
     if not matches:
         return None
+    # Filter out matches that are only common stop-word phrases (e.g. "The New")
+    STOP_WORDS = {"the", "a", "an", "of", "in", "to", "for", "and", "or", "vs", "new", "this", "that"}
+    valid = [m for m in matches if not all(w.lower() in STOP_WORDS for w in m.split())]
+    if not valid:
+        return None
     # Return the longest match as it's most likely the game/topic name
-    return max(matches, key=len).strip()
+    return max(valid, key=len).strip()
 
 
 def _group_articles(articles: list[dict]) -> list[dict]:
@@ -446,7 +465,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
                 continue
             if abs(articles[i]["date"] - articles[j]["date"]) > 86400000:
                 continue
-            score = score = fuzz.token_set_ratio(norms[i], norms[j])
+            score = fuzz.token_set_ratio(norms[i], norms[j])
             if score >= SIMILARITY_THRESHOLD:
                 group.append(articles[j])
                 used.add(j)
@@ -495,7 +514,12 @@ def _group_articles(articles: list[dict]) -> list[dict]:
         members = [m for m in group if m is not lead]
 
         unique_source_count = len({item["domain"] for item in group})
-        lead["hotScore"] = unique_source_count
+        # Apply time decay: score halves every 6 hours so old stories stop trending.
+        # age_hours is measured from the lead article's publish time.
+        now_ms = int(time.time() * 1000)
+        age_hours = max(0, (now_ms - lead["date"]) / (1000 * 60 * 60))
+        decay = 0.5 ** (age_hours / 6.0)
+        lead["hotScore"] = round(unique_source_count * decay, 3)
 
         if members:
             lead["groupMembers"] = members
