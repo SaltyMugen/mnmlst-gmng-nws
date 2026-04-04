@@ -33,11 +33,9 @@ function getDomain(url) {
 
 function timeAgo(ts) {
     const diff = Date.now() - ts;
-    if (diff < 60000)     return "just now";
-    if (diff < 3600000)   return Math.floor(diff / 60000) + "m";
-    if (diff < 86400000)  return Math.floor(diff / 3600000) + "h";
-    if (diff < 172800000) return "yesterday";
-    return Math.floor(diff / 86400000) + "d";
+    if (diff < 60000)    return "Now";
+    if (diff < 3600000)  return Math.floor(diff / 60000) + "m";
+    return Math.floor(diff / 3600000) + "h";
 }
 
 function badge(text, cls) {
@@ -366,6 +364,19 @@ function resetSources() {
     filterFeed();
 }
 
+function hideAllSources() {
+    document.querySelectorAll(".sources-menu-row").forEach(r => {
+        const label = r.querySelector(".sources-menu-label");
+        if (label) {
+            mutedSources[label.textContent] = true;
+            r.classList.remove("selected");
+        }
+    });
+    saveMutedSources();
+    updateMutedCount();
+    filterFeed();
+}
+
 function updateMutedCount() {
     const count = Object.keys(mutedSources).length;
     const el    = document.getElementById("sources-muted-count");
@@ -388,18 +399,17 @@ function render(articles) {
     const feed = document.getElementById("feed");
     feed.innerHTML = "";
 
+    const cutoff24h = Date.now() - 86400000;
     articles.slice().sort((a, b) => b.date - a.date).forEach((a, i) => {
+        if (a.date < cutoff24h) return;
 
         const isNew      = (Date.now() - a.date) < NEW_THRESHOLD_MS;
         const isTrending = a.hotScore != null && a.hotScore >= TRENDING_THRESHOLD;
         const domain     = getDomain(a.link);
         const isReddit   = a.link.includes("reddit.com");
-        const isPS       = a.link.includes("playstation.com") ||
-                           /\b(playstation|ps5|ps4|psvr2?)\b/i.test(a.title);
-        const isNintendo = a.link.includes("nintendo.com") ||
-                           /\b(nintendo|switch\s*2?|switch oled)\b/i.test(a.title);
-        const isXbox     = a.link.includes(".xbox.com") ||
-                           /\b(xbox|game pass)\b/i.test(a.title);
+        const isPS       = a.link.includes("playstation.com");
+        const isNintendo = a.link.includes("nintendo.com");
+        const isXbox     = a.link.includes(".xbox.com");
         const hasGroup   = a.groupMembers && a.groupMembers.length > 0;
 
         // used by the platform + reddit filters
