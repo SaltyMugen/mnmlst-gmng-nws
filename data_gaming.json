@@ -36,20 +36,20 @@
     "hotScore": 1
   },
   {
-    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
-    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
-    "date": 1775152800000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
     "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
     "date": 1775152800000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
+    "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
+    "date": 1775152800000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2762,7 +2762,25 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
+        "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
+        "date": 1775258723000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      },
+      {
+        "title": "Today’s Parseword hints and answer (April 2026)",
+        "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
+        "date": 1775322347000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "The Video Games You Should Play This Weekend – April 3",
@@ -3601,25 +3619,6 @@
     "sourceName": "Destructoid",
     "isTranslated": false,
     "hotScore": 1
-  },
-  {
-    "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
-    "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
-    "date": 1775258723000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Today’s Parseword hints and answer (April 2026)",
-        "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
-        "date": 1775322347000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
   },
   {
     "title": "[Sakatsuku 2026 Play Diary] Section 28 “Team Doctor is the Girl Who Leapt Through Time”",
