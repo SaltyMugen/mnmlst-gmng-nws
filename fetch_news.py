@@ -518,7 +518,7 @@ def _group_articles(articles: list[dict]) -> list[dict]:
         # age_hours is measured from the lead article's publish time.
         now_ms = int(time.time() * 1000)
         age_hours = max(0, (now_ms - lead["date"]) / (1000 * 60 * 60))
-        decay = 0.5 ** (age_hours / 6.0)
+        decay = 0.5 ** (age_hours / 13.0)
         lead["hotScore"] = round(unique_source_count * decay, 3)
 
         if members:
