@@ -2475,7 +2475,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Hell Let Loose Vietnam aims to redefine war shooters with “authentic” gameplay",
@@ -2718,7 +2728,25 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
+        "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
+        "date": 1775258723000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      },
+      {
+        "title": "Today’s Parseword hints and answer (April 2026)",
+        "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
+        "date": 1775322347000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "The Video Games You Should Play This Weekend – April 3",
@@ -2809,17 +2837,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -3576,25 +3594,6 @@
     "hotScore": 1
   },
   {
-    "title": "NYT Strands #761 Hints and Answers for Today, April 3, 2026",
-    "link": "https://insider-gaming.com/nyt-strands-761-hints-and-answers-for-today-april-3-2026",
-    "date": 1775258723000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "Today’s Parseword hints and answer (April 2026)",
-        "link": "https://www.destructoid.com/todays-parseword-hints-and-answer",
-        "date": 1775322347000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "[Sakatsuku 2026 Play Diary] Section 28 “Team Doctor is the Girl Who Leapt Through Time”",
     "link": "https://gamebiz.jp/news/423514",
     "date": 1775259120000,
@@ -4041,15 +4040,6 @@
     "hotScore": 1
   },
   {
-    "title": "\"Proseca\", Fraulein-Ojousama implemented in 5.5th anniversary song addition campaign",
-    "link": "https://www.4gamer.net/games/476/G047609/20260403054",
-    "date": 1775282400000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "Dark dungeon construction SLG “Demon Castle Story” Switch version will be released on April 9th! Switch 2 Edition compatible with 4K and Joy-Con 2 mouse operations will also be released at the same time.",
     "link": "https://www.gamer.ne.jp/news/202604040012",
     "date": 1775283300000,
@@ -4451,7 +4441,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 3,
+    "hotScore": 2,
     "groupMembers": [
       {
         "title": "Veteran Halo Developer Accuses Studio of ‘Numerous Unethical and Unlawful Acts’",
@@ -4460,16 +4450,17 @@
         "domain": "insider-gaming.com",
         "sourceName": "Insider Gaming",
         "isTranslated": false
-      },
-      {
-        "title": "Former Halo Studios art director Glenn Israel says he was subjected to blacklisting, fraud, rampant cronyism (manifesting as hiring- and career-growth interference), and multiple harassment campaigns designed to provoke the constructive discharge of “unwanted” employees otherwise in good standing.",
-        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sc7blm/former_halo_studios_art_director_glenn_israel",
-        "date": 1775303718000,
-        "domain": "reddit.com",
-        "sourceName": "Reddit Leaks",
-        "isTranslated": false
       }
     ]
+  },
+  {
+    "title": "Former Halo Studios art director Glenn Israel says he was subjected to blacklisting, fraud, rampant cronyism (manifesting as hiring- and career-growth interference), and multiple harassment campaigns designed to provoke the constructive discharge of “unwanted” employees otherwise in good standing.",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sc7blm/former_halo_studios_art_director_glenn_israel",
+    "date": 1775303718000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 1
   },
   {
     "title": "Review: The Midnight Walk (Switch 2) - Atmospheric Walking Sim Delivers A Haunting, Stop-Motion Nightmare",
@@ -4578,7 +4569,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 5,
+    "hotScore": 6,
     "groupMembers": [
       {
         "title": "The release date of “Another Eden Begins” is set for September 17th! Pre-orders for the package version have started, and the DLC “Additional Character Pack” has also been announced.",
@@ -4610,6 +4601,14 @@
         "date": 1775299097000,
         "domain": "news.denfaminicogamer.jp",
         "sourceName": "Denfaminicogamer",
+        "isTranslated": true
+      },
+      {
+        "title": "Home/PC new work “Another Eden Begins” to be released on September 17th! “Anaden” 9th anniversary campaign with mass distribution of “Kronos Stone” [Anaden Festival 2026 Spring]",
+        "link": "https://www.4gamer.net/games/476/G047609/20260403054",
+        "date": 1775282400000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -5108,6 +5107,15 @@
     "title": "6 LEGO One Piece Sets for August 2026 Leak Online",
     "link": "https://gamerant.com/lego-one-piece-2026-sets-leaked-images",
     "date": 1775324454000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "Say Goodbye to 5 of the Best Pokemon Ever in Pokemon Champions",
+    "link": "https://gamerant.com/pokemon-champions-unevolved-cut-dusclops-porygon2-clefairy",
+    "date": 1775324909000,
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
