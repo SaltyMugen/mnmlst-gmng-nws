@@ -37,6 +37,15 @@
     "hotScore": 1
   },
   {
+    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
+    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
+    "date": 1775142000000,
+    "domain": "gamesbeat.com",
+    "sourceName": "GamesBeat",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
     "title": "Free Play Days – Assassin’s Creed Takeover 2026",
     "link": "https://news.xbox.com/en-us/2026/04/02/free-play-days-04-02-2026",
     "date": 1775142000000,
@@ -54,15 +63,6 @@
         "isTranslated": false
       }
     ]
-  },
-  {
-    "title": "Latin America defies game stagnation with 372.3M players and $8.3B in 2025 revenues",
-    "link": "https://gamesbeat.com/latin-america-defies-game-stagnation-with-372-3m-players-and-8-3b-in-2025-revenues",
-    "date": 1775142000000,
-    "domain": "gamesbeat.com",
-    "sourceName": "GamesBeat",
-    "isTranslated": false,
-    "hotScore": 1
   },
   {
     "title": "Assassin's Creed Unity's PS5 Patch Is Put to the Test, with Some Surprising Results",
@@ -742,20 +742,20 @@
     "hotScore": 1
   },
   {
-    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
-    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
-    "date": 1775152800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 1
-  },
-  {
     "title": "FFXIV Online Store Gets Buy for a Friend Item Gifting Again",
     "link": "https://www.siliconera.com/ffxiv-online-store-gets-buy-for-a-friend-item-gifting-again",
     "date": 1775152800000,
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 1
+  },
+  {
+    "title": "The Elder Scrolls Online – Season Zero: Dawn and Dusk is Now Live",
+    "link": "https://www.elderscrollsonline.com/en-us/news/post/69629",
+    "date": 1775152800000,
+    "domain": "news.xbox.com",
+    "sourceName": "Xbox Wire",
     "isTranslated": false,
     "hotScore": 1
   },
@@ -2746,25 +2746,6 @@
     "hotScore": 1
   },
   {
-    "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
-    "link": "https://gamebiz.jp/news/423805",
-    "date": 1775224800000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "``Collapsed City,'' a maritime city construction sim set in a submerged apocalyptic world, released on Steam. Stack materials while maintaining balance to avoid collapse.",
-        "link": "https://www.4gamer.net/games/875/G087523/20260403039",
-        "date": 1775224800000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "``Collapsed City'', a maritime city construction sim that collapses if you just pile it up, is now available on Steam! The game's appeal is that a sense of balance is important in two ways.",
     "link": "https://www.gamer.ne.jp/news/202604030047",
     "date": 1775224800000,
@@ -2787,6 +2768,25 @@
         "date": 1775254503000,
         "domain": "gamespark.jp",
         "sourceName": "Game Spark",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "tinyBuild releases ``Collapsed City,'' a maritime city construction simulation game set in a post-apocalyptic world where the world is submerged in water.",
+    "link": "https://gamebiz.jp/news/423805",
+    "date": 1775224800000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "``Collapsed City,'' a maritime city construction sim set in a submerged apocalyptic world, released on Steam. Stack materials while maintaining balance to avoid collapse.",
+        "link": "https://www.4gamer.net/games/875/G087523/20260403039",
+        "date": 1775224800000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -3123,7 +3123,17 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1
+    "hotScore": 2,
+    "groupMembers": [
+      {
+        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
+        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
+        "date": 1775250303000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Hell Let Loose Vietnam aims to redefine war shooters with “authentic” gameplay",
@@ -3457,17 +3467,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 2,
-    "groupMembers": [
-      {
-        "title": "It only took 6 years, but Xbox's open-world zombie game State of Decay 3 is back from the dead with \"a series of alpha playtests\" starting in May",
-        "link": "https://www.gamesradar.com/games/survival/it-only-took-6-years-but-xboxs-open-world-zombie-game-state-of-decay-3-is-back-from-the-dead-with-a-series-of-alpha-playtests-starting-in-may",
-        "date": 1775250303000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 1
   },
   {
     "title": "Snap & Grab launches April 24 for PC, later for consoles",
@@ -4788,20 +4788,20 @@
     "hotScore": 1
   },
   {
-    "title": "1st anniversary \"G Gene Eternal\" dominates the second half of the week - Review of App Store (3/28 - 4/3) sales rankings",
-    "link": "https://gamebiz.jp/news/423785",
-    "date": 1775286120000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 1
-  },
-  {
     "title": "The 16th episode of the program \"Arknights no Susume\" by Hikaru Midorikawa and Yusuke Kobayashi, \"Let's enjoy the integrated strategy year's Kaizono Shii!\" will be premiered on April 6th at 20:00!",
     "link": "https://www.gamer.ne.jp/news/202604040015",
     "date": 1775286120000,
     "domain": "gamer.ne.jp",
     "sourceName": "Gamer.ne.jp",
+    "isTranslated": true,
+    "hotScore": 1
+  },
+  {
+    "title": "1st anniversary \"G Gene Eternal\" dominates the second half of the week - Review of App Store (3/28 - 4/3) sales rankings",
+    "link": "https://gamebiz.jp/news/423785",
+    "date": 1775286120000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
     "isTranslated": true,
     "hotScore": 1
   },
