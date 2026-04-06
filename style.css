@@ -1011,3 +1011,193 @@ footer {
 [data-theme="forest"] .theme-dot { border-color: #607744; }
 [data-theme="forest"] .theme-dot.active { border-color: #b39c4d; }
 
+
+/* ─── BACK TO TOP ────────────────────────────────────────────────── */
+#back-to-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 90;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--sub);
+    border: 1px solid var(--sub);
+    color: var(--dim);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px);
+    transition: opacity 0.2s, transform 0.2s, background 0.2s, color 0.2s;
+}
+#back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+#back-to-top:hover {
+    background: var(--hover-bg);
+    color: var(--ink);
+}
+#back-to-top svg {
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+}
+
+/* ─── LAST UPDATED INDICATOR ─────────────────────────────────────── */
+.header-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+#last-updated {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--dim);
+    opacity: 0.7;
+    transition: color 0.4s ease, opacity 0.4s ease;
+    white-space: nowrap;
+    min-height: 12px;
+}
+
+/* ─── KEYWORD MUTE BUTTON BADGE ──────────────────────────────────── */
+#keyword-btn {
+    position: relative;
+}
+#keyword-btn.has-muted::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--rumour);
+}
+
+/* ─── KEYWORD MUTE PANEL ─────────────────────────────────────────── */
+#keyword-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    backdrop-filter: blur(4px);
+}
+#keyword-panel {
+    background: var(--bg);
+    width: min(380px, 100vw);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--sub);
+    animation: slideIn 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background 0.4s ease, border-color 0.4s ease;
+}
+#keyword-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--sub);
+    flex-shrink: 0;
+    transition: border-color 0.4s ease;
+}
+#keyword-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--dim);
+}
+#keyword-input-row {
+    display: flex;
+    gap: 8px;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--sub);
+    flex-shrink: 0;
+    transition: border-color 0.4s ease;
+}
+#keyword-input {
+    flex: 1;
+    background: var(--sub);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: var(--ink);
+    font-family: "DM Sans";
+    font-size: 13px;
+    padding: 6px 10px;
+    outline: none;
+    transition: border-color 0.15s, background 0.4s ease, color 0.4s ease;
+}
+#keyword-input:focus {
+    border-color: var(--dim);
+}
+#keyword-add-btn {
+    background: var(--sub);
+    border: 1px solid var(--dim);
+    border-radius: 3px;
+    color: var(--ink);
+    font-family: "DM Sans";
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+#keyword-add-btn:hover {
+    background: var(--hover-bg);
+}
+#keyword-list {
+    list-style: none;
+    overflow-y: auto;
+    flex: 1;
+    padding: 8px 0;
+}
+#keyword-empty {
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--dim);
+    display: none;
+}
+.kw-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 20px;
+    border-bottom: 1px solid var(--sub);
+    transition: background 0.15s, border-color 0.4s ease;
+}
+.kw-item:hover {
+    background: var(--hover-bg);
+}
+.kw-label {
+    font-size: 13px;
+    color: var(--ink);
+    text-transform: lowercase;
+    transition: color 0.4s ease;
+}
+.kw-remove {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--dim);
+    font-size: 18px;
+    line-height: 1;
+    padding: 0 2px;
+    transition: color 0.15s;
+}
+.kw-remove:hover {
+    color: var(--ink);
+}

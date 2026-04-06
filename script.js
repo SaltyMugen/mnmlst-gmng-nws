@@ -8,17 +8,20 @@ const REFRESH_INTERVAL = 5 * 60 * 1000;
 // calculated in fetch_news.py using source count + time decay — keep in sync
 const TRENDING_THRESHOLD = 2.5;
 
-const CACHE_KEY         = "onimugen_v1_gaming";
-const BOOKMARKS_KEY     = "onimugen_v1_bookmarks";
-const READ_KEY          = "onimugen_v1_read";
-const MUTED_SOURCES_KEY = "onimugen_v1_muted_sources";
+const CACHE_KEY          = "onimugen_v1_gaming";
+const BOOKMARKS_KEY      = "onimugen_v1_bookmarks";
+const READ_KEY           = "onimugen_v1_read";
+const MUTED_SOURCES_KEY  = "onimugen_v1_muted_sources";
+const MUTED_KEYWORDS_KEY = "onimugen_v1_muted_keywords";
 
-let allArticles  = [];
-let activeFilter = "all";
-let lastHash     = null;
-let bookmarks    = {};
-let readLinks    = {};
-let mutedSources = {};
+let allArticles   = [];
+let activeFilter  = "all";
+let lastHash      = null;
+let bookmarks     = {};
+let readLinks     = {};
+let mutedSources  = {};
+let mutedKeywords = [];   // array of lowercase strings
+let lastUpdatedAt = null; // timestamp of last successful fetch
 
 
 // --- Tiny helpers ---
@@ -170,6 +173,85 @@ function closeBookmarks() {
 }
 
 
+// --- Keyword muting ---
+
+function loadMutedKeywords() {
+    try { mutedKeywords = JSON.parse(localStorage.getItem(MUTED_KEYWORDS_KEY)) || []; }
+    catch (_) { mutedKeywords = []; }
+}
+
+function saveMutedKeywords() {
+    localStorage.setItem(MUTED_KEYWORDS_KEY, JSON.stringify(mutedKeywords));
+}
+
+function openKeywords() {
+    renderKeywordList();
+    document.getElementById("keyword-overlay").style.display = "flex";
+    document.getElementById("keyword-input").focus();
+}
+
+function closeKeywords() {
+    document.getElementById("keyword-overlay").style.display = "none";
+}
+
+function addKeyword() {
+    const input = document.getElementById("keyword-input");
+    const val   = input.value.trim().toLowerCase();
+    if (!val || mutedKeywords.includes(val)) { input.value = ""; return; }
+    mutedKeywords.push(val);
+    saveMutedKeywords();
+    input.value = "";
+    renderKeywordList();
+    updateKeywordBadge();
+    filterFeed();
+}
+
+function removeKeyword(kw) {
+    mutedKeywords = mutedKeywords.filter(k => k !== kw);
+    saveMutedKeywords();
+    renderKeywordList();
+    updateKeywordBadge();
+    filterFeed();
+}
+
+function renderKeywordList() {
+    const list  = document.getElementById("keyword-list");
+    const empty = document.getElementById("keyword-empty");
+    list.innerHTML = "";
+    empty.style.display = mutedKeywords.length === 0 ? "block" : "none";
+    mutedKeywords.slice().sort().forEach(kw => {
+        const li  = document.createElement("li");
+        li.className = "kw-item";
+        const label = document.createElement("span");
+        label.className   = "kw-label";
+        label.textContent = kw;
+        const btn = document.createElement("button");
+        btn.className   = "kw-remove";
+        btn.innerHTML   = "&times;";
+        btn.onclick     = () => removeKeyword(kw);
+        li.appendChild(label);
+        li.appendChild(btn);
+        list.appendChild(li);
+    });
+}
+
+function updateKeywordBadge() {
+    const btn = document.getElementById("keyword-btn");
+    if (btn) btn.classList.toggle("has-muted", mutedKeywords.length > 0);
+}
+
+// allow pressing Enter in the keyword input to add
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("keyword-input")?.addEventListener("keydown", e => {
+        if (e.key === "Enter") addKeyword();
+    });
+    // close keyword panel on backdrop click
+    document.getElementById("keyword-overlay")?.addEventListener("click", e => {
+        if (e.target === document.getElementById("keyword-overlay")) closeKeywords();
+    });
+});
+
+
 // --- Theme ---
 
 const THEMES = ["day", "night", "forest"];
@@ -252,8 +334,9 @@ function filterFeed() {
         const source   = item.getAttribute("data-source") || "";
         const platform = item.getAttribute("data-platform") || "";
 
-        const matchesSearch = title.includes(q);
-        const sourceVisible = !mutedSources[source];
+        const matchesSearch  = title.includes(q);
+        const sourceVisible  = !mutedSources[source];
+        const keywordBlocked = mutedKeywords.length > 0 && mutedKeywords.some(kw => title.includes(kw));
 
         let matchesTab = true;
         if (activeFilter === "new")         matchesTab = item.getAttribute("data-new") === "true";
@@ -263,7 +346,7 @@ function filterFeed() {
         if (activeFilter === "nintendo")    matchesTab = platform === "nintendo";
         if (activeFilter === "reddit")      matchesTab = platform === "reddit";
 
-        const visible = matchesSearch && matchesTab && sourceVisible;
+        const visible = matchesSearch && matchesTab && sourceVisible && !keywordBlocked;
         item.classList.toggle("hidden", !visible);
         if (visible) anyVisible = true;
     });
@@ -388,7 +471,25 @@ function updateMutedCount() {
 
 window.addEventListener("scroll", () => {
     document.getElementById("main-header").classList.toggle("scrolled", window.scrollY > 20);
+    document.getElementById("back-to-top")?.classList.toggle("visible", window.scrollY > 400);
 });
+
+
+// --- Last updated indicator ---
+
+function updateLastUpdatedLabel() {
+    const el = document.getElementById("last-updated");
+    if (!el || !lastUpdatedAt) return;
+    const diff = Date.now() - lastUpdatedAt;
+    let label;
+    if (diff < 60000)       label = "Updated just now";
+    else if (diff < 3600000) label = "Updated " + Math.floor(diff / 60000) + "m ago";
+    else                     label = "Updated " + Math.floor(diff / 3600000) + "h ago";
+    el.textContent = label;
+}
+
+// tick the label every 30 seconds
+setInterval(updateLastUpdatedLabel, 30000);
 
 
 // --- Render ---
@@ -615,6 +716,8 @@ async function init() {
     loadBookmarks();
     loadRead();
     loadMutedSources();
+    loadMutedKeywords();
+    updateKeywordBadge();
 
     // show cached data immediately while we fetch fresh stuff
     const cached = localStorage.getItem(CACHE_KEY);
@@ -640,6 +743,8 @@ async function init() {
                 render(fresh);
                 localStorage.setItem(CACHE_KEY, JSON.stringify(fresh));
             }
+            lastUpdatedAt = Date.now();
+            updateLastUpdatedLabel();
         }
     } catch (e) {
         console.warn("fetch failed:", e.message);
@@ -693,6 +798,8 @@ async function silentRefresh() {
             render(fresh);
             localStorage.setItem(CACHE_KEY, JSON.stringify(fresh));
         }
+        lastUpdatedAt = Date.now();
+        updateLastUpdatedLabel();
     } catch (_) {}
 }
 
