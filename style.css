@@ -21,34 +21,34 @@
     --theme-icon: "☀";
 }
 [data-theme="night"] {
-    --bg: #111110;
-    --ink: #dedad4;
-    --dim: #55524e;
-    --sub: #252422;
-    --new-hl: rgba(0, 149, 255, 0.1);
-    --hot-hl: rgba(214, 59, 47, 0.1);
-    --hover-bg: #1a1a19;
-    --hover-ink: #4dabf7;
-    --header-bg: rgba(17, 17, 16, 0.95);
-    --hot-bg: #d63b2f;
-    --icon-color: #55524e;
-    --rumour: #f77f00;
-    --theme-icon: "☾";
+    --bg: #120a1a;
+    --ink: #f8f0ff;
+    --dim: #a389bd;
+    --sub: #251633;
+    --new-hl: rgba(255, 0, 127, 0.15);
+    --hot-hl: rgba(147, 112, 219, 0.25);
+    --hover-bg: #3b1d5c;
+    --hover-ink: #ff66b2;
+    --header-bg: rgba(18, 10, 26, 0.95);
+    --hot-bg: #e0115f;
+    --icon-color: #bb86fc;
+    --rumour: #ff007f;
+    --theme-icon: "GG";
 }
 [data-theme="forest"] {
-    --bg: #1e2f23;
-    --ink: #d4cfa8;
-    --dim: #607744;
-    --sub: #2e4430;
-    --new-hl: rgba(179, 156, 77, 0.12);
-    --hot-hl: rgba(118, 137, 72, 0.15);
-    --hover-bg: #263528;
-    --hover-ink: #b39c4d;
-    --header-bg: rgba(30, 47, 35, 0.96);
-    --hot-bg: #d63b2f;
-    --icon-color: #607744;
-    --rumour: #f77f00;
-    --theme-icon: "⟡";
+    --bg: #0b0e14;
+    --ink: #ffffff;
+    --dim: #6e6e80;
+    --sub: #161922;
+    --new-hl: rgba(0, 255, 153, 0.15);
+    --hot-hl: rgba(191, 0, 255, 0.25);
+    --hover-bg: #1f2330;
+    --hover-ink: #00ff99;
+    --header-bg: rgba(11, 14, 20, 0.95);
+    --hot-bg: #bf00ff;
+    --icon-color: #00d9ff;
+    --rumour: #ff0055;
+    --theme-icon: "GG2";
 }
 
 /* System dark-mode preference: set night theme variables before JS executes,
@@ -1004,8 +1004,8 @@ footer {
     transform: scale(1.25);
 }
 .theme-dot[data-t="day"]    { background: #fafaf8; }
-.theme-dot[data-t="night"]  { background: #111110; }
-.theme-dot[data-t="forest"] { background: #34623f; }
+.theme-dot[data-t="night"]  { background: #3b1d5c; }
+.theme-dot[data-t="forest"] { background: #bf00ff; }
 [data-theme="night"] .theme-dot[data-t="day"]    { border-color: #55524e; }
 [data-theme="night"] .theme-dot[data-t="day"].active { border-color: var(--ink); }
 [data-theme="forest"] .theme-dot { border-color: #607744; }
