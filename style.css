@@ -1004,8 +1004,8 @@ footer {
     transform: scale(1.25);
 }
 .theme-dot[data-t="day"]    { background: #fafaf8; }
-.theme-dot[data-t="night"]  { background: #3b1d5c; }
-.theme-dot[data-t="forest"] { background: #bf00ff; }
+.theme-dot[data-t="night"]  { background: #bf00ff; }
+.theme-dot[data-t="forest"] { background: #3b1d5c; }
 [data-theme="night"] .theme-dot[data-t="day"]    { border-color: #55524e; }
 [data-theme="night"] .theme-dot[data-t="day"].active { border-color: var(--ink); }
 [data-theme="forest"] .theme-dot { border-color: #607744; }
