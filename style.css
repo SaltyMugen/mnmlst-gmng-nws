@@ -121,7 +121,17 @@ h1 {
     font-family: "Micro 5";
     font-size: clamp(48px, 8vw, 58px);
     line-height: 0.8;
-    background: linear-gradient(to top, #fcbf49, #f77f00, #d62828, #003049);
+    background: linear-gradient(
+        165deg, 
+        #ff005a 0%, 
+        #ff005a 25%, 
+        #ff4d8d 25%, 
+        #ff4d8d 50%, 
+        #c20045 50%, 
+        #c20045 75%, 
+        #8a0031 75%, 
+        #8a0031 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
