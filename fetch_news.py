@@ -529,129 +529,6 @@ def _group_articles(articles: list[dict]) -> list[dict]:
     return result
 
 
-def _post_merge(result: list[dict]) -> list[dict]:
-    """
-    Pass 3 — runs after _group_articles on the already-resolved lead+members list.
-
-    Two sub-passes:
-      A) Group-vs-group: compare every pair of group leads. If their titles are
-         similar enough, merge the smaller group into the larger one (by unique
-         source count). The lead with more sources wins; on a tie the older one wins.
-      B) Group-vs-singleton: compare every group lead against every remaining
-         singleton. If similar enough, absorb the singleton into the group.
-
-    A lower similarity threshold (POST_MERGE_THRESHOLD) is used because we are
-    comparing already-chosen representative titles, which tend to be cleaner and
-    more concise than raw article titles.
-    """
-    POST_MERGE_THRESHOLD  = 62   # lower than Pass-1's 69 — lead titles are cleaner
-    POST_MERGE_WINDOW_MS  = 24 * 60 * 60 * 1000  # must be within 24 h of each other
-
-    def _source_count(article: dict) -> int:
-        """Unique domain count for a lead article."""
-        members = article.get("groupMembers", [])
-        return len({article.get("domain", "")} | {m.get("domain", "") for m in members})
-
-    def _all_members(article: dict) -> list[dict]:
-        """All articles in a group (lead + members), excluding the lead itself."""
-        return list(article.get("groupMembers", []))
-
-    def _merge_into(base: dict, absorbed: dict) -> None:
-        """
-        Merge `absorbed` and all its members into `base`.
-        The lead of the resulting group is whichever had more unique sources;
-        on a tie, the older article wins. `base` is mutated in place.
-        """
-        base_members   = _all_members(base)
-        absorbed_members = _all_members(absorbed)
-
-        # Combine everything: both leads + both member lists
-        all_articles = [base] + base_members + [absorbed] + absorbed_members
-
-        # Decide new lead: more sources wins; tie → older date wins
-        base_sc     = _source_count(base)
-        absorbed_sc = _source_count(absorbed)
-        if absorbed_sc > base_sc or (absorbed_sc == base_sc and absorbed["date"] < base["date"]):
-            new_lead = absorbed
-        else:
-            new_lead = base
-
-        new_members = [a for a in all_articles if a is not new_lead]
-
-        # Rewrite base in place so existing list references stay valid
-        base.clear()
-        base.update(new_lead)
-        if new_members:
-            base["groupMembers"] = new_members
-        elif "groupMembers" in base:
-            del base["groupMembers"]
-
-    # ------------------------------------------------------------------ #
-    # Sub-pass A: group-vs-group                                           #
-    # ------------------------------------------------------------------ #
-    merged_indices: set[int] = set()
-    n = len(result)
-
-    for i in range(n):
-        if i in merged_indices:
-            continue
-        # Only compare groups (leads with at least one member) against other groups
-        if not result[i].get("groupMembers"):
-            continue
-        norm_i = _norm_title(result[i]["title"])
-
-        for j in range(i + 1, n):
-            if j in merged_indices:
-                continue
-            if not result[j].get("groupMembers"):
-                continue
-            # Time-window guard
-            if abs(result[i]["date"] - result[j]["date"]) > POST_MERGE_WINDOW_MS:
-                continue
-            norm_j = _norm_title(result[j]["title"])
-            score  = fuzz.token_set_ratio(norm_i, norm_j)
-            if score >= POST_MERGE_THRESHOLD:
-                log.debug(
-                    "Pass3-A merging groups (score=%d): %r + %r",
-                    score, result[i]["title"], result[j]["title"],
-                )
-                _merge_into(result[i], result[j])
-                merged_indices.add(j)
-                # Update norm_i in case the lead changed
-                norm_i = _norm_title(result[i]["title"])
-
-    # Remove absorbed groups
-    result = [r for idx, r in enumerate(result) if idx not in merged_indices]
-
-    # ------------------------------------------------------------------ #
-    # Sub-pass B: group-vs-singleton                                       #
-    # ------------------------------------------------------------------ #
-    groups    = [r for r in result if r.get("groupMembers")]
-    singletons = [r for r in result if not r.get("groupMembers")]
-    absorbed_singletons: set[int] = set()
-
-    for group in groups:
-        norm_g = _norm_title(group["title"])
-        for si, singleton in enumerate(singletons):
-            if si in absorbed_singletons:
-                continue
-            if abs(group["date"] - singleton["date"]) > POST_MERGE_WINDOW_MS:
-                continue
-            norm_s = _norm_title(singleton["title"])
-            score  = fuzz.token_set_ratio(norm_g, norm_s)
-            if score >= POST_MERGE_THRESHOLD:
-                log.debug(
-                    "Pass3-B absorbing singleton (score=%d): group=%r singleton=%r",
-                    score, group["title"], singleton["title"],
-                )
-                existing_members = group.get("groupMembers", [])
-                group["groupMembers"] = existing_members + [singleton]
-                absorbed_singletons.add(si)
-
-    singletons = [s for si, s in enumerate(singletons) if si not in absorbed_singletons]
-    return groups + singletons
-
-
 def fetch_all() -> None:
     now_ms = int(time.time() * 1000)
     cutoff_ms = now_ms - (24 * 60 * 60 * 1000)
@@ -675,18 +552,7 @@ def fetch_all() -> None:
     # Phase 2: fuzzy-group articles covering the same story
     grouped = _group_articles(url_deduped)
 
-    # Phase 3: post-merge — group-vs-group and group-vs-singleton
-    merged = _post_merge(grouped)
-
-    # Recalculate hotScore after Phase 3 since source counts may have changed
-    for lead in merged:
-        all_members = [lead] + lead.get("groupMembers", [])
-        unique_source_count = len({item["domain"] for item in all_members})
-        age_hours = max(0, (now_ms - lead["date"]) / (1000 * 60 * 60))
-        decay = 0.5 ** (age_hours / 13.0)
-        lead["hotScore"] = round(unique_source_count * decay, 3)
-
-    sorted_data = sorted(merged, key=lambda x: x["date"], reverse=False)
+    sorted_data = sorted(grouped, key=lambda x: x["date"], reverse=False)
 
     dir_name = os.path.dirname(os.path.abspath(DATA_FILE)) or "."
     with tempfile.NamedTemporaryFile(
