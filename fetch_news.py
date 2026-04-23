@@ -106,7 +106,7 @@ SOURCES = [
     # --- NEWS MACHINES ---
     {"name": "Game Rant",         "rss": "https://gamerant.com/feed/",                                              "domain": "gamerant.com"},
     {"name": "Dexerto",           "rss": "https://www.dexerto.com/gaming/feed/",                                    "domain": "dexerto.com"},
-    {"name": "GamesRadar+",       "rss": "https://www.gamesradar.com/all-platforms/news/rss/",                                    "domain": "gamesradar.com"},
+    {"name": "GamesRadar+",       "rss": "https://www.gamesradar.com/uk/feeds/tag/games/",                                    "domain": "gamesradar.com"},
 
     # --- SPECIALISTS & LEAKS ---
     {"name": "Insider Gaming",    "rss": "https://insider-gaming.com/feed/",                                        "domain": "insider-gaming.com"},
