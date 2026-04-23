@@ -67,6 +67,7 @@ BLOCKED_TITLE_PATTERNS = [
     "8 best",
     "9 best",
     "10 best",
+    "all FC 2",
 ]
 
 HEADERS = {
