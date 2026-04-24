@@ -84,7 +84,10 @@ JST = timezone(timedelta(hours=9))
 
 SOURCES = [
     # --- BIG OUTLETS ---
-    {"name": "IGN Games",         "rss": "https://www.ign.com/rss/v2/articles/feed?categorySlug=games",             "domain": "ign.com"},
+    {"name": "IGN Games",         "rss": "https://www.ign.com/rss/v2/articles/feed?channel=playstation",            "domain": "ign.com"},
+    {"name": "IGN Games",         "rss": "https://www.ign.com/rss/v2/articles/feed?channel=xbox",                   "domain": "ign.com"},
+    {"name": "IGN Games",         "rss": "https://www.ign.com/rss/v2/articles/feed?channel=nintendo",               "domain": "ign.com"},
+    {"name": "IGN Games",         "rss": "https://www.ign.com/rss/v2/articles/feed?channel=xbox",                   "domain": "ign.com"},
     {"name": "GameSpot",          "rss": "https://www.gamespot.com/feeds/mashup/",                                  "domain": "gamespot.com"},
     {"name": "PC Gamer",          "rss": "https://www.pcgamer.com/rss/",                                            "domain": "pcgamer.com"},
     {"name": "Eurogamer",         "rss": "https://www.eurogamer.net/feed",                                          "domain": "eurogamer.net"},
