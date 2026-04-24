@@ -153,7 +153,7 @@ SOURCES = [
    # {"name": "Denfaminicogamer",  "rss": "https://news.denfaminicogamer.jp/feed",                                   "domain": "news.denfaminicogamer.jp",  "translate": True, "tz_jst": True},
    # {"name": "Game Spark",        "rss": "https://www.gamespark.jp/rss20/index.rdf",                                "domain": "gamespark.jp",              "translate": True, "tz_jst": True},
     #{"name": "Gamer.ne.jp",       "rss": "https://www.gamer.ne.jp/feed/news.rdf",                                   "domain": "gamer.ne.jp",               "translate": True, "tz_jst": True},
-   {"name": "IGN Japan",         "rss": "https://jp.ign.com/feed.xml",                                             "domain": "jp.ign.com",                "translate": True, "tz_jst": True},
+   {"name": "IGN Japan",         "rss": "https://jp.ign.com/games.xml",                                             "domain": "jp.ign.com",                "translate": True, "tz_jst": True},
    {"name": "Automaton Media JP","rss": "https://automaton-media.com/feed/",                                       "domain": "automaton-media.com",       "translate": True, "tz_jst": True},
 ]
 
