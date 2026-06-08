@@ -6,7 +6,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.279
   },
   {
     "title": "Vampire Survivors Announces Switch 2 Version, New DLC And Name Update",
@@ -15,7 +15,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.576,
+    "hotScore": 0.573,
     "groupMembers": [
       {
         "title": "Poncle to release new expansion pack \"Legacy of the Bloodmoon\" for \"Vampire Survivors\" this summer...Start of new label \"Survivaton\", opening of Japanese subsidiary, Switch 2 version also available",
@@ -34,16 +34,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.288
+    "hotScore": 0.287
   },
   {
-    "title": "\"Aniimo\" will hold its first closed beta test for Japan in early July. Recruitment of participants has started on each platform",
+    "title": "\"Aniimo\" will hold its first closed beta test in Japan in early July. Recruitment of participants has started on each platform",
     "link": "https://www.4gamer.net/games/918/G091819/20260606002",
     "date": 1780799400000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.296
+    "hotScore": 0.294
   },
   {
     "title": "A new development for \"Vampire Survivors\" has been revealed. Announcement of the launch of \"Survivaton\" and the establishment of Poncle Japan, whose representative is Sawaki Takeyasu, who has worked on El Shaddai etc.",
@@ -52,7 +52,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.3
+    "hotScore": 0.299
   },
   {
     "title": "Monster Hunter Wilds Confirmed for Nintendo Switch 2",
@@ -61,7 +61,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.317
+    "hotScore": 0.315
   },
   {
     "title": "Jeff Grubb: Gears of War not coming to PS5",
@@ -70,8 +70,16 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.961,
+    "hotScore": 0.957,
     "groupMembers": [
+      {
+        "title": "Gears of War: E-Day isn’t coming to the PS5",
+        "link": "https://www.theverge.com/entertainment/945269/gears-of-war-e-day-ps5-launch",
+        "date": 1780852136000,
+        "domain": "theverge.com",
+        "sourceName": "The Verge",
+        "isTranslated": false
+      },
       {
         "title": "Gears of War: E-Day reportedly no longer coming to PlayStation 5",
         "link": "https://www.eurogamer.net/gears-of-war-e-day-release-platform-skipping-ps5-rumour",
@@ -81,46 +89,11 @@
         "isTranslated": false
       },
       {
-        "title": "Gears of War: E-Day isn’t coming to the PS5",
-        "link": "https://www.theverge.com/entertainment/945269/gears-of-war-e-day-ps5-launch",
-        "date": 1780852136000,
-        "domain": "theverge.com",
-        "sourceName": "The Verge",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Jeff Grub - \"Gears of War E-Day was going to be on PS5, it's not anymore\"",
-    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tz1r6n/jeff_grub_gears_of_war_eday_was_going_to_be_on",
-    "date": 1780804933000,
-    "domain": "reddit.com",
-    "sourceName": "Reddit Leaks",
-    "isTranslated": false,
-    "hotScore": 0.963,
-    "groupMembers": [
-      {
-        "title": "The new Gears of War game, Gears of War: E-Day, will be released on October 6th. Chainsaw, the city that collapses on E-Day, the origin of the series, is also unveiled.",
-        "link": "https://automaton-media.com/articles/newsjp/20260608-448085",
-        "date": 1780852432000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "Microsoft kills PS5 version of Gears of War E-Day, finally announces October release date",
-        "link": "https://www.gamesradar.com/games/gears-of-war/microsoft-kills-ps5-version-of-gears-of-war-e-day-finally-announces-october-release-date",
-        "date": 1780852730000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "Gears of War: E-Day gives Marcus Fenix a makeover with \"more detail in his eyelashes than his entire character model did in the original Gears of War on Xbox 360\"",
-        "link": "https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-day-gives-marcus-fenix-a-makeover-with-more-detail-in-his-eyelashes-than-his-entire-character-model-did-in-the-original-gears-of-war-on-xbox-360",
-        "date": 1780860673000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
+        "title": "Jeff Grub - \"Gears of War E-Day was going to be on PS5, it's not anymore\"",
+        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tz1r6n/jeff_grub_gears_of_war_eday_was_going_to_be_on",
+        "date": 1780804933000,
+        "domain": "reddit.com",
+        "sourceName": "Reddit Leaks",
         "isTranslated": false
       }
     ]
@@ -132,7 +105,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.329
+    "hotScore": 0.327
   },
   {
     "title": "The latest DLC \"Last Variable\" for the sci-fi survival \"The Alters\" will be released on July 13th. Contains approximately 20 hours of content, featuring the protagonist \"Scientist Yang\" who remained on the planet.",
@@ -141,7 +114,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.336
+    "hotScore": 0.334
   },
   {
     "title": "“Washisu Mahjong Showdown” was held in collaboration with “Akagi” at “Maddam”. Team up with a professional mahjong player and aim for the top using special rules where transparent tiles fly around.",
@@ -150,7 +123,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.339
+    "hotScore": 0.338
   },
   {
     "title": "Remaster of \"Ryse: Son of Rome\" is in development",
@@ -159,7 +132,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.343
   },
   {
     "title": "“Zenless Zone Zero” Ver. 3.0 “Confessions of a Dreamer” will be distributed on June 17th. The main character \"Pyrois\" in battle form can be obtained for free. Steam version will also be released",
@@ -168,7 +141,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.691,
+    "hotScore": 0.688,
     "groupMembers": [
       {
         "title": "HoYoverse releases “Zenless Zone Zero” Ver. 3.0 “Confessions of a Dreamer” on June 17th",
@@ -187,7 +160,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.354
+    "hotScore": 0.352
   },
   {
     "title": "Horror Specialist Bloober Team Is Releasing A New Star Trek Game On Switch 2",
@@ -196,16 +169,16 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.356
+    "hotScore": 0.355
   },
   {
-    "title": "Visual novel \"Valkyrie Tune: Mechanical Eye\" will be released on Steam on July 23rd. Product version PV also released",
+    "title": "The visual novel \"Valkyrie Tune: Mechanical Eye\" will be released on Steam on July 23rd. Product version PV also released",
     "link": "https://www.4gamer.net/games/984/G098409/20260607010",
     "date": 1780814636000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.371
+    "hotScore": 0.369
   },
   {
     "title": "New PowerWash Simulator 2: Star Wars Pack Trailer Spotlights Classic Locations | IGN Live 2026",
@@ -214,7 +187,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.376
+    "hotScore": 0.374
   },
   {
     "title": "Persona 4 Revival Key Art Seemingly Posted Early and now Inaccessible",
@@ -223,7 +196,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.384
+    "hotScore": 0.383
   },
   {
     "title": "“Ace Combat 8 ​​WINGS OF THEVE” will be released on October 2nd. \"Monster Hunter Wilds\" major DLC unveiled. \"Pal World\" will finally be officially released on July 10th. 7 must-see gaming articles this week",
@@ -232,7 +205,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.388
+    "hotScore": 0.387
   },
   {
     "title": "A narrative adventure depicting the interaction between a barber and the customers who visit the barber has been announced.",
@@ -241,7 +214,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.399
+    "hotScore": 0.397
   },
   {
     "title": "Bruce Straley Game Coven Of The Chicken Foot. Was Initially Being Founded By Microsoft Before They Pull Of The Founding",
@@ -250,7 +223,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.409
+    "hotScore": 0.407
   },
   {
     "title": "Enjoy playing Ingrid in Street Fighter 6. “Slay the Spire 2” Did everyone have a problem with how much it costs? I was very excited at the collaboration cafe of “Mugen Meiro”. This week's gaming",
@@ -259,7 +232,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.412
+    "hotScore": 0.41
   },
   {
     "title": "Poll: Box Art Brawl - Duel: Rayman 3D",
@@ -268,7 +241,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.418
+    "hotScore": 0.416
   },
   {
     "title": "#379: Quick fire",
@@ -277,7 +250,7 @@
     "domain": "newsletter.hitpoints.co",
     "sourceName": "Hit Points",
     "isTranslated": false,
-    "hotScore": 0.418
+    "hotScore": 0.417
   },
   {
     "title": "We are now recruiting participants for the closed beta test of \"Animo,\" a monster collecting RPG with beautiful anime-style graphics and a system that allows you to transform into creatures.",
@@ -286,7 +259,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.419
+    "hotScore": 0.417
   },
   {
     "title": "Summary of service termination articles (June 1-5, 2016)",
@@ -295,7 +268,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.424
+    "hotScore": 0.422
   },
   {
     "title": "Genesis, giant gods, maps, and the first cervical vertebra: Explore the meaning behind the name \"gen ATLAS.\" We asked Fumihito Ueda about genDESIGN's new work.",
@@ -304,7 +277,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.428
+    "hotScore": 0.426
   },
   {
     "title": "Persona 4 Revival Teased for Xbox Showcase by Famitsu",
@@ -313,7 +286,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 3.073,
+    "hotScore": 1.749,
     "groupMembers": [
       {
         "title": "Persona 6 Revealed At The Xbox Game Showcase",
@@ -321,22 +294,6 @@
         "date": 1780855105000,
         "domain": "thegamer.com",
         "sourceName": "TheGamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Senua revealed: Ninja Theory announced a new action-adventure game at Xbox Games Showcase 2026 – and it isn't Hellblade 3",
-        "link": "https://www.gamesradar.com/games/adventure/senua-announced-xbox-games-showcase-ninja-theory",
-        "date": 1780853535000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "New Spyro the Dragon Game Announced at XBOX Showcase",
-        "link": "https://insider-gaming.com/new-spyro-the-dragon-game-announced-at-xbox-showcase",
-        "date": 1780855262000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
         "isTranslated": false
       },
       {
@@ -356,12 +313,12 @@
         "isTranslated": false
       },
       {
-        "title": "Summary of \"Xbox Games Showcase 2026\" where the latest works of popular series such as \"Persona 6\", \"Gears of War: E-Day\", \"Wo Long 2\", \"Crazy Taxi\" were announced",
-        "link": "https://www.4gamer.net/games/999/G999903/20260608025",
-        "date": 1780860615000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
+        "title": "21 Game Pass Titles Get New Announcements At The Xbox Showcase 2026",
+        "link": "https://www.purexbox.com/news/2026/06/21-game-pass-titles-get-new-announcements-at-the-xbox-showcase-2026",
+        "date": 1780858620000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
       }
     ]
   },
@@ -372,7 +329,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.441
+    "hotScore": 0.439
   },
   {
     "title": "Digital Extremes releases new trailer for fantasy adventure “Soulframe” in development",
@@ -381,7 +338,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.451
+    "hotScore": 0.449
   },
   {
     "title": "Drecom collaborates with Manga Box to launch a new comic label “DRE Box” specializing in otherworldly and fantasy works.",
@@ -390,7 +347,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.453
+    "hotScore": 0.451
   },
   {
     "title": "\"Out of Words\" created by a Danish stop-motion artist and poet, a co-op exclusive ADV that depicts a heartbreaking love story between a man and a woman who are childhood friends.",
@@ -399,7 +356,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.455
+    "hotScore": 0.453
   },
   {
     "title": "Steelkrill Studio announces psychological survival horror game 'Where Dolls Hang'",
@@ -408,7 +365,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.455
+    "hotScore": 0.453
   },
   {
     "title": "Xbox Film + TV division planned to be announced at Xbox showcase?",
@@ -417,7 +374,97 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.457
+    "hotScore": 4.548,
+    "groupMembers": [
+      {
+        "title": "Everything Announced at Xbox Games Showcase 2026",
+        "link": "https://www.ign.com/articles/xbox-games-showcase-2026-live-updates-every-game-announcement",
+        "date": 1780844400000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "Xbox Games Showcase 2026 Review: Huge games, strange messaging",
+        "link": "https://www.videogameschronicle.com/blog/podcast/xbox-games-showcase-2026-review-huge-games-strange-messaging",
+        "date": 1780868560000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      },
+      {
+        "title": "Xbox Games Showcase: Here’s everything announced during Xbox’s big show",
+        "link": "https://www.videogameschronicle.com/news/xbox-games-showcase-heres-everything-announced-during-xboxs-big-show",
+        "date": 1780857439000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      },
+      {
+        "title": "Xbox Games Showcase 2026: Every game trailer, reveal, and announcement",
+        "link": "https://www.polygon.com/everything-announced-xbox-games-showcase-june-2026",
+        "date": 1780857475000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      },
+      {
+        "title": "New Spyro Game Announced At Xbox Games Showcase",
+        "link": "https://www.thegamer.com/spyro-the-dragon-a-realm-beyond-toys-for-bob",
+        "date": 1780855229000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Xbox Games Showcase 2026: All the news and trailers",
+        "link": "https://www.theverge.com/entertainment/944191/xbox-games-showcase-2026-news-trailers",
+        "date": 1780850400000,
+        "domain": "theverge.com",
+        "sourceName": "The Verge",
+        "isTranslated": false
+      },
+      {
+        "title": "Everything Announced at Xbox Games Showcase 2026",
+        "link": "https://www.dexerto.com/gaming/everything-announced-at-xbox-games-showcase-2026-3372618",
+        "date": 1780851543000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      },
+      {
+        "title": "New Spyro the Dragon Game Announced at XBOX Showcase",
+        "link": "https://insider-gaming.com/new-spyro-the-dragon-game-announced-at-xbox-showcase",
+        "date": 1780855262000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      },
+      {
+        "title": "Feature: Here's Everything That Was Revealed At The Xbox Games Showcase 2026",
+        "link": "https://www.purexbox.com/features/heres-everything-that-was-revealed-at-the-xbox-games-showcase-2026",
+        "date": 1780856460000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
+      },
+      {
+        "title": "Live: Watch The Xbox Games Showcase 2026 Here",
+        "link": "https://www.purexbox.com/news/2026/06/live-watch-the-xbox-games-showcase-2026-here",
+        "date": 1780844400000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
+      },
+      {
+        "title": "Senua revealed: Ninja Theory announced a new action-adventure game at Xbox Games Showcase 2026 – and it isn't Hellblade 3",
+        "link": "https://www.gamesradar.com/games/adventure/senua-announced-xbox-games-showcase-ninja-theory",
+        "date": 1780853535000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Xbox Games Showcase 2026 live report - all the news and announcements as Asha Sharma presents for the first time",
@@ -426,7 +473,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.914,
+    "hotScore": 0.91,
     "groupMembers": [
       {
         "title": "Poll: How Would You Grade The Xbox Games Showcase 2026?",
@@ -445,7 +492,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.457
+    "hotScore": 0.455
   },
   {
     "title": "Domesticated Ant Games to release sequel to 2D action platformer Gravity Circuit, Gravity Circuit 2, in 2027",
@@ -454,7 +501,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.462
+    "hotScore": 0.46
   },
   {
     "title": "Slayblade Is A Y2K Beyblade-Inspired Roguelite From The Kardboard Kings Developer, And It Looks Amazing",
@@ -463,7 +510,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.464
+    "hotScore": 0.461
   },
   {
     "title": "Everflux Games to release action-adventure 'Edenfall: Legacy of the First Wardens' on Steam in Q4 2026",
@@ -472,7 +519,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.464
+    "hotScore": 0.462
   },
   {
     "title": "Exploration-type action ADV \"Chronoscript: The Endless End\" to be released in fall 2026. Mari Shimazaki and Yasunori Mitsuda also announced their participation.",
@@ -481,7 +528,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.466
+    "hotScore": 0.464
   },
   {
     "title": "Drop Rate Studio and Dear Villagers release 2D underwater roguelite ``DIVE or DIE - Children of Rain'' on July 21st",
@@ -490,7 +537,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.467
+    "hotScore": 0.465
   },
   {
     "title": "Bear Claw Games officially releases 2D platform puzzle game “Super Cat The Builder” on Steam store page",
@@ -499,7 +546,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.469
+    "hotScore": 0.467
   },
   {
     "title": "Brain Seal to release Dominus Gladiatus, a gladiator management simulation set in ancient Rome, in late 2026",
@@ -508,7 +555,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.471
+    "hotScore": 0.469
   },
   {
     "title": "Son Of Thanjai Is An Action Game Set In 11th-Century South India Coming To PS5, Xbox, And PC",
@@ -517,7 +564,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.476
+    "hotScore": 0.474
   },
   {
     "title": "I cleared the game without speaking to anyone - Playing \"SONIC PICO PARK\" at the SGF venue",
@@ -526,7 +573,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.478
+    "hotScore": 0.476
   },
   {
     "title": "Cloth Cat Games and Curveball Games launch trial version of multiplayer gardening combat game “Planted!”",
@@ -535,7 +582,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.482
+    "hotScore": 0.48
   },
   {
     "title": "Blood Message Hands-On Preview – Combat Shines In This Familiar Song And Dance",
@@ -544,7 +591,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.483
+    "hotScore": 0.481
   },
   {
     "title": "Opinion: Mario Kart World Deserves Its Flowers, So Let's Stop Comparing It To MK8 Deluxe",
@@ -553,7 +600,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.491
+    "hotScore": 0.489
   },
   {
     "title": "Here's What Might Leave Xbox Game Pass In July 2026",
@@ -562,7 +609,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.491
+    "hotScore": 0.489
   },
   {
     "title": "Billbil-kun: Preorders For Halo & Gears Of War will open tonight. Halo is $50 and Gears Of War is $70",
@@ -571,7 +618,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.494
+    "hotScore": 0.492
   },
   {
     "title": "Gears Of War: E-Day Launches As A Console Exclusive On Xbox Series X/S And PC This October",
@@ -580,7 +627,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.485,
+    "hotScore": 1.479,
     "groupMembers": [
       {
         "title": "Gears of War: E-Day Is Xbox Console Exclusive, Release Date Revealed",
@@ -607,7 +654,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.997,
+    "hotScore": 0.993,
     "groupMembers": [
       {
         "title": "Where winds meet is coming to Xbox in July",
@@ -634,7 +681,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.498,
+    "hotScore": 1.491,
     "groupMembers": [
       {
         "title": "Fable Trailer Reveals Release Date, Hayley Atwell as Its Villain",
@@ -661,7 +708,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.0,
+    "hotScore": 0.995,
     "groupMembers": [
       {
         "title": "Get ready for more puzzles and no rats as Resonance: A Plague Tale Legacy confirms its release date",
@@ -680,23 +727,47 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.51,
+    "hotScore": 3.008,
     "groupMembers": [
       {
-        "title": "Here’s Two Minutes Of What Halo: Campaign Evolved’s Unreal Engine 5 Makeover Looks Like And The Release Date",
-        "link": "https://kotaku.com/heres-two-minutes-of-what-halo-campaign-evolveds-unreal-engine-5-makeover-looks-like-and-the-release-date-2000703650",
-        "date": 1780853828000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
+        "title": "Halo: Campaign Evolved Reveals New Space Combat Missions, Imminent Release Date",
+        "link": "https://www.ign.com/articles/halo-campaign-evolved-reveals-new-space-combat-missions-imminent-release-date",
+        "date": 1780853090000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
         "isTranslated": false
       },
       {
-        "title": "FPS \"Halo: Campaign Evolved\" to be released on July 28th. The original Halo will be remade with Unreal Engine 5 and will be released on PS5",
-        "link": "https://automaton-media.com/articles/newsjp/20260608-448137",
-        "date": 1780855692000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
+        "title": "Halo: Campaign Evolved arrives July 28th",
+        "link": "https://www.theverge.com/games/939564/halo-campaign-evolved-xbox-games-showcase-2026",
+        "date": 1780852448000,
+        "domain": "theverge.com",
+        "sourceName": "The Verge",
+        "isTranslated": false
+      },
+      {
+        "title": "Halo: Campaign Evolved Just Revealed 3 Brand-New Missions",
+        "link": "https://gamerant.com/halo-campaign-evolved-new-missions",
+        "date": 1780878568000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
+        "isTranslated": false
+      },
+      {
+        "title": "Halo: Campaign Evolved release date and new missions revealed",
+        "link": "https://www.dexerto.com/halo/halo-campaign-evolved-release-date-and-new-missions-revealed-3372706",
+        "date": 1780854129000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      },
+      {
+        "title": "Halo: Campaign Evolved launches in July, and its all-new prequel missions have space combat",
+        "link": "https://www.gamesradar.com/games/halo/halo-campaign-evolved-launches-in-july-and-its-all-new-prequel-missions-have-space-combat",
+        "date": 1780853292000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
       }
     ]
   },
@@ -707,7 +778,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 4.038,
+    "hotScore": 4.021,
     "groupMembers": [
       {
         "title": "Persona 4 Revival Reveals February 2027 Release Date",
@@ -734,19 +805,19 @@
         "isTranslated": false
       },
       {
-        "title": "Persona 4 Revival finally gets a release date, and boy does it look good",
-        "link": "https://www.gamesradar.com/games/jrpg/persona-4-revival-finally-gets-a-release-date-and-boy-does-it-look-good",
-        "date": 1780854267000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
         "title": "Persona 4 revival launches February 18 2027",
         "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tzi1nt/persona_4_revival_launches_february_18_2027",
         "date": 1780852756000,
         "domain": "reddit.com",
         "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "Persona 4 Revival finally gets a release date, and boy does it look good",
+        "link": "https://www.gamesradar.com/games/jrpg/persona-4-revival-finally-gets-a-release-date-and-boy-does-it-look-good",
+        "date": 1780854267000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
         "isTranslated": false
       },
       {
@@ -774,7 +845,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.508
+    "hotScore": 0.506
   },
   {
     "title": "Senua Is An Action-Adventure Game In The Hellblade Universe",
@@ -783,7 +854,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.018,
+    "hotScore": 1.014,
     "groupMembers": [
       {
         "title": "Ninja Theory reveals Hellblade 3, except it's named Senua because it's evolved into something else - a full action-adventure game",
@@ -802,7 +873,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 2.037,
+    "hotScore": 2.028,
     "groupMembers": [
       {
         "title": "Crazy Taxi Is Officially Back, And It’s Going On A World Tour",
@@ -837,7 +908,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 2.043,
+    "hotScore": 2.034,
     "groupMembers": [
       {
         "title": "State of Decay 3 gameplay reveal and release window announced",
@@ -872,7 +943,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.514
+    "hotScore": 0.512
   },
   {
     "title": "Wo Long Is Getting A Sequel With Wings Of Ember",
@@ -881,7 +952,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.031,
+    "hotScore": 1.027,
     "groupMembers": [
       {
         "title": "Wo Long 2 announced – one of our favorite Soulslikes is getting a sequel in 2027",
@@ -900,7 +971,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.518
+    "hotScore": 0.515
   },
   {
     "title": "Persona 6 Finally Revealed, Though We Still Don't Know Much About It At All",
@@ -909,7 +980,17 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.518
+    "hotScore": 1.032,
+    "groupMembers": [
+      {
+        "title": "Persona 6 exists, and that’s all we know",
+        "link": "https://www.theverge.com/entertainment/945256/persona-6-teaser",
+        "date": 1780855241000,
+        "domain": "theverge.com",
+        "sourceName": "The Verge",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Spyro: A Realm Beyond Is A Brand New Spyro Adventure",
@@ -918,14 +999,14 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.041,
+    "hotScore": 1.036,
     "groupMembers": [
       {
-        "title": "Spyro: A Realm Beyond lets everyone's favorite dragon fly freely, which is \"such a significant addition\" devs have \"built a whole world around that promise\"",
-        "link": "https://www.gamesradar.com/games/platformer/spyro-a-realm-beyond-lets-everyones-favorite-dragon-fly-freely-which-is-such-a-significant-addition-devs-have-built-a-whole-world-around-that-promise",
-        "date": 1780862237000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
+        "title": "Spyro: A Realm Beyond Interview – A New Design, Full Flight, Tom Kenny Returns and More",
+        "link": "https://news.xbox.com/en-us/2026/06/07/spyro-a-realm-beyond-reveal-xbox-games-showcase-2026",
+        "date": 1780855105000,
+        "domain": "news.xbox.com",
+        "sourceName": "Xbox Wire",
         "isTranslated": false
       }
     ]
@@ -937,7 +1018,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 1.043,
+    "hotScore": 1.039,
     "groupMembers": [
       {
         "title": "The release date of \"Gears of War: E-Day\" has been decided on October 6, 2026. The origin battle that depicts young Marcus and Dom begins.",
@@ -956,22 +1037,22 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 3.144,
+    "hotScore": 3.13,
     "groupMembers": [
+      {
+        "title": "Castlevania: Belmont’s Curse Gets October 2026 Release Date",
+        "link": "https://insider-gaming.com/castlevania-belmonts-curse-gets-october-2026-release-date",
+        "date": 1780856196000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      },
       {
         "title": "Castlevania: Belmont’s Curse Release Date Set",
         "link": "https://www.siliconera.com/castlevania-belmonts-curse-release-date-set",
         "date": 1780855806000,
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
-        "isTranslated": false
-      },
-      {
-        "title": "Castlevania: Belmont's Curse gets October release date from Konami, right on time for Halloween",
-        "link": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-gets-october-release-date-from-konami-right-on-time-for-halloween",
-        "date": 1780855741000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
         "isTranslated": false
       },
       {
@@ -991,11 +1072,11 @@
         "isTranslated": false
       },
       {
-        "title": "Castlevania: Belmont’s Curse Gets October 2026 Release Date",
-        "link": "https://insider-gaming.com/castlevania-belmonts-curse-gets-october-2026-release-date",
-        "date": 1780856196000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
+        "title": "Castlevania: Belmont's Curse gets October release date from Konami, right on time for Halloween",
+        "link": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-gets-october-release-date-from-konami-right-on-time-for-halloween",
+        "date": 1780855741000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
         "isTranslated": false
       }
     ]
@@ -1007,7 +1088,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.061,
+    "hotScore": 1.056,
     "groupMembers": [
       {
         "title": "Xbox Series X25 Limited Edition Console & Controller Announced",
@@ -1026,7 +1107,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 5.852,
+    "hotScore": 5.826,
     "groupMembers": [
       {
         "title": "Xbox says Gears of War and Clockwork Revolution console exclusives ‘are not timed’",
@@ -1101,22 +1182,6 @@
         "isTranslated": false
       },
       {
-        "title": "Gears of War: E-Day and Clockwork Revolution \"are not timed exclusives,\" Xbox says, but everything \"already announced for multiplatform releases will stick to that plan\"",
-        "link": "https://www.gamesradar.com/games/action/gears-of-war-e-day-and-clockwork-revolution-are-not-timed-exclusives-xbox-says-but-everything-already-announced-for-multiplatform-releases-will-stick-to-that-plan",
-        "date": 1780861032000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "Fallout veterans' next RPG Clockwork Revolution is coming in 2027 as Xbox dabbles with console exclusives again",
-        "link": "https://www.gamesradar.com/games/rpg/fallout-veterans-next-rpg-clockwork-revolution-is-coming-in-2027-as-xbox-dabbles-with-console-exclusives-again",
-        "date": 1780858678000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
         "title": "'These Are Not Timed Exclusives': Xbox Says Gears of War, Clockwork Revolution Are Never Coming to PS5",
         "link": "https://www.pushsquare.com/news/2026/06/these-are-not-timed-exclusives-xbox-says-gears-of-war-clockwork-revolution-are-never-coming-to-ps5",
         "date": 1780852200000,
@@ -1149,6 +1214,22 @@
         "isTranslated": false
       },
       {
+        "title": "Gears of War: E-Day and Clockwork Revolution \"are not timed exclusives,\" Xbox says, but everything \"already announced for multiplatform releases will stick to that plan\"",
+        "link": "https://www.gamesradar.com/games/action/gears-of-war-e-day-and-clockwork-revolution-are-not-timed-exclusives-xbox-says-but-everything-already-announced-for-multiplatform-releases-will-stick-to-that-plan",
+        "date": 1780861032000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      },
+      {
+        "title": "Fallout veterans' next RPG Clockwork Revolution is coming in 2027 as Xbox dabbles with console exclusives again",
+        "link": "https://www.gamesradar.com/games/rpg/fallout-veterans-next-rpg-clockwork-revolution-is-coming-in-2027-as-xbox-dabbles-with-console-exclusives-again",
+        "date": 1780858678000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      },
+      {
         "title": "Xbox brings back exclusives * **",
         "link": "https://www.gamefile.news/p/xbox-brings-back-exclusives",
         "date": 1780868146000,
@@ -1165,7 +1246,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 3.217,
+    "hotScore": 3.203,
     "groupMembers": [
       {
         "title": "Call of Duty: Modern Warfare 4's Gritty Extraction Mode, DMZ, Gets First Gameplay",
@@ -1184,14 +1265,6 @@
         "isTranslated": false
       },
       {
-        "title": "Call of Duty: Modern Warfare 4 DMZ devs have been \"paying attention\" to other extraction shooters like Arc Raiders, but think they've got them beat on \"weapon feel\"",
-        "link": "https://www.gamesradar.com/games/call-of-duty/call-of-duty-modern-warfare-4-dmz-devs-have-been-paying-attention-to-other-extraction-shooters-like-arc-raiders-but-think-theyve-got-them-beat-on-weapon-feel",
-        "date": 1780864831000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
         "title": "Call of Duty: Modern Warfare 4’s DMZ mode revealed in trailer",
         "link": "https://gamesbeat.com/call-of-duty-modern-warfare-4s-dmz-mode-revealed-in-trailer",
         "date": 1780855860000,
@@ -1206,6 +1279,14 @@
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Call of Duty: Modern Warfare 4 DMZ devs have been \"paying attention\" to other extraction shooters like Arc Raiders, but think they've got them beat on \"weapon feel\"",
+        "link": "https://www.gamesradar.com/games/call-of-duty/call-of-duty-modern-warfare-4-dmz-devs-have-been-paying-attention-to-other-extraction-shooters-like-arc-raiders-but-think-theyve-got-them-beat-on-weapon-feel",
+        "date": 1780864831000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
       }
     ]
   },
@@ -1216,7 +1297,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.624,
+    "hotScore": 1.617,
     "groupMembers": [
       {
         "title": "Doom: The Dark Ages is getting a story DLC expansion coming this summer",
@@ -1243,7 +1324,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.548
+    "hotScore": 0.545
   },
   {
     "title": "New Metro 2039 Trailer Shows Off Impressive Visuals And Gameplay",
@@ -1252,50 +1333,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.55
-  },
-  {
-    "title": "Everything Announced at Xbox Games Showcase 2026",
-    "link": "https://www.ign.com/articles/xbox-games-showcase-2026-live-updates-every-game-announcement",
-    "date": 1780844400000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 2.879,
-    "groupMembers": [
-      {
-        "title": "Xbox Games Showcase 2026 Review: Huge games, strange messaging",
-        "link": "https://www.videogameschronicle.com/blog/podcast/xbox-games-showcase-2026-review-huge-games-strange-messaging",
-        "date": 1780868560000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "Xbox Games Showcase 2026: All the news and trailers",
-        "link": "https://www.theverge.com/entertainment/944191/xbox-games-showcase-2026-news-trailers",
-        "date": 1780850400000,
-        "domain": "theverge.com",
-        "sourceName": "The Verge",
-        "isTranslated": false
-      },
-      {
-        "title": "Everything Announced at Xbox Games Showcase 2026",
-        "link": "https://www.dexerto.com/gaming/everything-announced-at-xbox-games-showcase-2026-3372618",
-        "date": 1780851543000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      },
-      {
-        "title": "Live: Watch The Xbox Games Showcase 2026 Here",
-        "link": "https://www.purexbox.com/news/2026/06/live-watch-the-xbox-games-showcase-2026-here",
-        "date": 1780844400000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.547
   },
   {
     "title": "Signet City Is A New 'Fungalpunk' RPG From The Creator Of Citizen Sleeper Where You Play As A Parasite",
@@ -1304,14 +1342,22 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.152,
+    "hotScore": 1.72,
     "groupMembers": [
       {
-        "title": "Citizen Sleeper creator's new game is a \"fungalpunk\" RPG in which you're a parasite, infecting the lives of people in a city inspired by post-punk Britain",
-        "link": "https://www.eurogamer.net/citizen-sleeper-devs-new-game-signet-city",
-        "date": 1780869600000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
+        "title": "Citizen Sleeper creator announces first-person ‘fungalpunk’ RPG Signet City for PC",
+        "link": "https://www.gematsu.com/2026/06/citizen-sleeper-creator-announces-first-person-fungalpunk-rpg-signet-city-for-pc",
+        "date": 1780862267000,
+        "domain": "gematsu.com",
+        "sourceName": "Gematsu",
+        "isTranslated": false
+      },
+      {
+        "title": "Play a parasitic brain mushroom in Signet City, the first-person fungalpunk RPG from the creator of Citizen Sleeper",
+        "link": "https://www.rockpapershotgun.com/play-a-parasitic-brain-mushroom-in-signet-city-the-first-person-fungalpunk-rpg-from-the-creator-of-citizen-sleeper",
+        "date": 1780864200000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
         "isTranslated": false
       }
     ]
@@ -1323,7 +1369,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.576
+    "hotScore": 0.573
   },
   {
     "title": "Sega Confirms And Responds To Generative AI Content In New Crazy Taxi Game",
@@ -1332,7 +1378,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 2.888,
+    "hotScore": 2.876,
     "groupMembers": [
       {
         "title": "Crazy Taxi: World Tour Uses Generative AI, Sega Reveals",
@@ -1351,19 +1397,19 @@
         "isTranslated": false
       },
       {
-        "title": "Sega stuffed generative AI into Crazy Taxi: World Tour, slamming the brakes on all the excitement after a 3-year wait",
-        "link": "https://www.gamesradar.com/games/action/sega-stuffed-generative-ai-into-crazy-taxi-world-tour-slamming-the-brakes-on-all-the-excitement-after-a-3-year-wait",
-        "date": 1780861228000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
         "title": "SEGA Provides More Detail After Generative AI Sours Crazy Taxi: World Tour PS5 Announcement",
         "link": "https://www.pushsquare.com/news/2026/06/sega-provides-more-detail-after-generative-ai-sours-crazy-taxi-world-tour-ps5-announcement",
         "date": 1780877700000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
+        "title": "Sega stuffed generative AI into Crazy Taxi: World Tour, slamming the brakes on all the excitement after a 3-year wait",
+        "link": "https://www.gamesradar.com/games/action/sega-stuffed-generative-ai-into-crazy-taxi-world-tour-slamming-the-brakes-on-all-the-excitement-after-a-3-year-wait",
+        "date": 1780861228000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
         "isTranslated": false
       }
     ]
@@ -1375,7 +1421,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.581
+    "hotScore": 0.578
   },
   {
     "title": "Star Wars Zero Company, the XCOM-like strategy game, gets a release date",
@@ -1384,7 +1430,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.583
+    "hotScore": 0.58
   },
   {
     "title": "Mouthwashing Developer Wrong Organ Told Us Why Its Next Game, Carcass Clad, Is So Different",
@@ -1393,7 +1439,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.59
+    "hotScore": 0.587
   },
   {
     "title": "The Alters: Last Variable DLC pack introduces 20 hours of new content, including an \"entirely new progression loop\"",
@@ -1402,7 +1448,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.597
+    "hotScore": 0.595
   },
   {
     "title": "Here's Everything Announced During The 2026 Summer Xbox Games Showcase, From Gears Of War: E-Day To Persona 6 And More",
@@ -1411,14 +1457,14 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 3.586,
+    "hotScore": 6.545,
     "groupMembers": [
       {
-        "title": "Xbox Games Showcase: Here’s everything announced during Xbox’s big show",
-        "link": "https://www.videogameschronicle.com/news/xbox-games-showcase-heres-everything-announced-during-xboxs-big-show",
-        "date": 1780857439000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
+        "title": "Persona 6 Announced, Coming to Xbox Game Pass",
+        "link": "https://www.ign.com/articles/persona-6-announced-coming-to-xbox-game-pass",
+        "date": 1780855326000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
         "isTranslated": false
       },
       {
@@ -1430,19 +1476,19 @@
         "isTranslated": false
       },
       {
-        "title": "Everything We Saw At Xbox’s 2026 Summer Showcase",
-        "link": "https://kotaku.com/everything-we-saw-at-xboxs-2026-summer-showcase-2000703605",
-        "date": 1780856903000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
+        "title": "Everything coming to Game Pass from the Xbox Showcase",
+        "link": "https://www.polygon.com/xbox-games-showcase-announcements-2026-game-pass",
+        "date": 1780860191000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
         "isTranslated": false
       },
       {
-        "title": "New Spyro Game Announced At Xbox Games Showcase",
-        "link": "https://www.thegamer.com/spyro-the-dragon-a-realm-beyond-toys-for-bob",
-        "date": 1780855229000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
+        "title": "Persona 6 is real, coming to Xbox Series X/S, PS5 and PC, but that's about all we know",
+        "link": "https://www.eurogamer.net/persona-6-is-real-coming-to-xbox-series-xs-ps5-and-pc-but-thats-about-all-we-know",
+        "date": 1780855246000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
         "isTranslated": false
       },
       {
@@ -1454,12 +1500,52 @@
         "isTranslated": false
       },
       {
-        "title": "Feature: Here's Everything That Was Revealed At The Xbox Games Showcase 2026",
-        "link": "https://www.purexbox.com/features/heres-everything-that-was-revealed-at-the-xbox-games-showcase-2026",
-        "date": 1780856460000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
+        "title": "Persona 6 Announced",
+        "link": "https://www.siliconera.com/persona-6-announced",
+        "date": 1780855320000,
+        "domain": "siliconera.com",
+        "sourceName": "Siliconera",
         "isTranslated": false
+      },
+      {
+        "title": "Persona 6 has been announced!",
+        "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tzj1qx/persona_6_has_been_announced",
+        "date": 1780855029000,
+        "domain": "reddit.com",
+        "sourceName": "Reddit Leaks",
+        "isTranslated": false
+      },
+      {
+        "title": "“Persona 6” officially announced, Game Pass support revealed",
+        "link": "https://jp.ign.com/persona-6/83446/6-game-pass",
+        "date": 1780856740000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      },
+      {
+        "title": "Atlus releases teaser trailer for the latest series “Persona 6” Announced at “XBOX Games Showcase 2026”",
+        "link": "https://gamebiz.jp/news/427317",
+        "date": 1780878720000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
+      },
+      {
+        "title": "Summary of \"Xbox Games Showcase 2026\" where the latest works of popular series such as \"Persona 6\", \"Gears of War: E-Day\", \"Wo Long 2\", \"Crazy Taxi\" were announced",
+        "link": "https://www.4gamer.net/games/999/G999903/20260608025",
+        "date": 1780860615000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      },
+      {
+        "title": "\"Persona 6\" announced. Compatible with Xbox Series X|S, PS5, PC (Steam)",
+        "link": "https://www.4gamer.net/games/014/G101419/20260608012",
+        "date": 1780855619000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
       }
     ]
   },
@@ -1470,7 +1556,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.61
+    "hotScore": 0.607
   },
   {
     "title": "Watch Xbox’s Biggest Summer Gaming Showcase In Years Right Right Here",
@@ -1479,7 +1565,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.624
+    "hotScore": 0.621
   },
   {
     "title": "Surprise! Cult hit Vampire Survivors is getting a new name, Vampire Survivors - First Survivaton, plus a new free expansion pack",
@@ -1488,7 +1574,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.638
+    "hotScore": 0.635
   },
   {
     "title": "Gears Of War E-Day Gameplay Shows Off The Chaotic Moment Locust Arrived",
@@ -1497,7 +1583,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.644
+    "hotScore": 0.641
   },
   {
     "title": "DOOM: The Dark Ages' Campaign DLC Looks Sick, and It's Out Very Soon on PS5",
@@ -1506,7 +1592,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.645
+    "hotScore": 0.642
   },
   {
     "title": "Our 11 Favorite Games From the 2026 PC Gaming Show",
@@ -1515,7 +1601,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.645
+    "hotScore": 0.642
   },
   {
     "title": "Immersive Sim Clockwork Revolution Joins Gears of War in Skipping PS5",
@@ -1524,7 +1610,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.645
+    "hotScore": 0.642
   },
   {
     "title": "Gears of War: E-Day is XBOX Exclusive",
@@ -1533,7 +1619,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 1.292,
+    "hotScore": 1.287,
     "groupMembers": [
       {
         "title": "Gears Of War: E-Day Is Drastically Changing Movement For The First Time In The Series",
@@ -1552,7 +1638,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.941,
+    "hotScore": 1.288,
     "groupMembers": [
       {
         "title": "Spyro: A Realm Beyond is the series' first all-new game in 18 years, and it's launching early next year on PS5, Switch 2, Xbox Series X and PC",
@@ -1560,14 +1646,6 @@
         "date": 1780855538000,
         "domain": "gamesradar.com",
         "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "Spyro: A Realm Beyond Takes Flight On Xbox Series X|S In Spring 2027",
-        "link": "https://www.purexbox.com/news/2026/06/spyro-a-realm-beyond-takes-flight-on-xbox-series-xs-in-spring-2027",
-        "date": 1780861740000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
         "isTranslated": false
       }
     ]
@@ -1579,7 +1657,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.647
+    "hotScore": 0.645
   },
   {
     "title": "Resonance: A Plague Tale Legacy's PS5 Release Date Narrowly Avoids September Madness",
@@ -1588,34 +1666,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.649
-  },
-  {
-    "title": "Halo: Campaign Evolved arrives July 28th",
-    "link": "https://www.theverge.com/games/939564/halo-campaign-evolved-xbox-games-showcase-2026",
-    "date": 1780852448000,
-    "domain": "theverge.com",
-    "sourceName": "The Verge",
-    "isTranslated": false,
-    "hotScore": 1.946,
-    "groupMembers": [
-      {
-        "title": "Halo Campaign Evolved, Gears of War E-Day and Fable are all getting Collector’s Editions with statues",
-        "link": "https://www.videogameschronicle.com/news/halo-campaign-evolved-gears-of-war-e-day-and-fable-are-all-getting-collectors-editions-with-statues",
-        "date": 1780856473000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "Gears of War: E-Day, Halo: Campaign Evolved, and Fable's Collector's Edition Explained",
-        "link": "https://www.dualshockers.com/everything-included-in-gears-of-war-e-day-halo-campaign-evolved-fables-collectors-editions",
-        "date": 1780868147000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.646
   },
   {
     "title": "Sea of Thieves Season 20 Puts You at the Helm with Custom Seas Mode on PS5",
@@ -1624,7 +1675,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.649
+    "hotScore": 0.646
   },
   {
     "title": "First-Person Soulslike Valor Mortis Adds to PS5's September of Dread",
@@ -1633,39 +1684,12 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.299,
+    "hotScore": 1.294,
     "groupMembers": [
       {
         "title": "The release date of Soulslike \"Valor Mortis\" has been decided on September 24, 2026. Vincent Cassel cast as Napoleon",
         "link": "https://www.4gamer.net/games/949/G094900/20260608016",
         "date": 1780856565000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "Fable Reappears At Xbox Showcase With Confirmed February 2027 Release Date",
-    "link": "https://www.purexbox.com/news/2026/06/fable-reappears-at-xbox-showcase-with-confirmed-february-2027-release-date",
-    "date": 1780852620000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 1.951,
-    "groupMembers": [
-      {
-        "title": "Fable release date finally confirmed by Xbox after the RPG's recent delay, now set for February 2027",
-        "link": "https://www.gamesradar.com/games/rpg/fable-release-date-finally-confirmed-by-xbox-after-the-rpgs-recent-delay-now-set-for-february-2027",
-        "date": 1780852913000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "The release date of \"Fable\" is set for February 23, 2027. A reboot of the popular RPG series",
-        "link": "https://www.4gamer.net/games/520/G052094/20260607020",
-        "date": 1780853248000,
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
         "isTranslated": true
@@ -1679,7 +1703,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.301,
+    "hotScore": 1.295,
     "groupMembers": [
       {
         "title": "Castlevania: Belmond Curse, a completely new Castlevania movie, will be released on October 15th. An evolved “whip” action from the developer of “Dead Cells”",
@@ -1692,13 +1716,32 @@
     ]
   },
   {
+    "title": "Fable Reappears At Xbox Showcase With Confirmed February 2027 Release Date",
+    "link": "https://www.purexbox.com/news/2026/06/fable-reappears-at-xbox-showcase-with-confirmed-february-2027-release-date",
+    "date": 1780852620000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1.295,
+    "groupMembers": [
+      {
+        "title": "Fable release date finally confirmed by Xbox after the RPG's recent delay, now set for February 2027",
+        "link": "https://www.gamesradar.com/games/rpg/fable-release-date-finally-confirmed-by-xbox-after-the-rpgs-recent-delay-now-set-for-february-2027",
+        "date": 1780852913000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
     "title": "The Notorious Jack Of Blades Returns To Fable in February",
     "link": "https://kotaku.com/the-notorious-jack-of-blades-returns-to-fable-in-february-2000703620",
     "date": 1780852649000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.651
+    "hotScore": 0.648
   },
   {
     "title": "Metro 2039 Returns to the Series' Horror Roots in February 2027 on PS5",
@@ -1707,7 +1750,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.302,
+    "hotScore": 1.944,
     "groupMembers": [
       {
         "title": "Ruined Russian survival horror \"METRO 2039\" to be released in February next year. Return to “Moscow Metro” with one of the darkest new works in the series",
@@ -1715,6 +1758,14 @@
         "date": 1780853837000,
         "domain": "automaton-media.com",
         "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "The latest work in the series, \"METRO 2039\", will be released in February 2027. Latest footage including gameplay released",
+        "link": "https://www.4gamer.net/games/998/G099882/20260608010",
+        "date": 1780855314000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
         "isTranslated": true
       }
     ]
@@ -1726,7 +1777,34 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.651
+    "hotScore": 0.649
+  },
+  {
+    "title": "Microsoft kills PS5 version of Gears of War E-Day, finally announces October release date",
+    "link": "https://www.gamesradar.com/games/gears-of-war/microsoft-kills-ps5-version-of-gears-of-war-e-day-finally-announces-october-release-date",
+    "date": 1780852730000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1.297,
+    "groupMembers": [
+      {
+        "title": "The new Gears of War game, Gears of War: E-Day, will be released on October 6th. Chainsaw, the city that collapses on E-Day, the origin of the series, is also unveiled.",
+        "link": "https://automaton-media.com/articles/newsjp/20260608-448085",
+        "date": 1780852432000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Gears of War: E-Day gives Marcus Fenix a makeover with \"more detail in his eyelashes than his entire character model did in the original Gears of War on Xbox 360\"",
+        "link": "https://www.gamesradar.com/games/gears-of-war/gears-of-war-e-day-gives-marcus-fenix-a-makeover-with-more-detail-in-his-eyelashes-than-his-entire-character-model-did-in-the-original-gears-of-war-on-xbox-360",
+        "date": 1780860673000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Halo: Campaign Evolved Gets July 2026 Release Date For Xbox, PC & PS5",
@@ -1735,7 +1813,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 1.303,
+    "hotScore": 1.297,
     "groupMembers": [
       {
         "title": "Halo: Campaign Evolved arrives in July, and it's still coming to PS5 despite Xbox shake-ups",
@@ -1754,7 +1832,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.651
+    "hotScore": 0.649
   },
   {
     "title": "State of Decay 3: Answering the Biggest Questions After the First Gameplay Reveal",
@@ -1763,7 +1841,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.652
+    "hotScore": 0.649
   },
   {
     "title": "Create Your Own Cult in the Tongue-in-Cheek PS5 Survival Game Join Us",
@@ -1772,7 +1850,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.653
+    "hotScore": 0.65
   },
   {
     "title": "\"Persona 4 Revival\" to be released on February 18th. Plenty of fully remade footage will be shown as well.",
@@ -1781,7 +1859,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.653
+    "hotScore": 0.65
   },
   {
     "title": "All Your Favourite PS5 Live Service Games Are Getting Big Updates",
@@ -1790,7 +1868,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.653
+    "hotScore": 0.65
   },
   {
     "title": "Yep, Minecraft Dungeons 2 Is Coming to PS5 in September",
@@ -1799,7 +1877,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 5.884,
+    "hotScore": 5.858,
     "groupMembers": [
       {
         "title": "Minecraft Dungeons 2 is coming this September",
@@ -1818,11 +1896,11 @@
         "isTranslated": false
       },
       {
-        "title": "Minecraft Dungeons 2 joins every other game avoiding GTA 6 in releasing in September",
-        "link": "https://www.gamesradar.com/games/minecraft/minecraft-dungeons-2-joins-every-other-game-avoiding-gta-6-in-releasing-in-september",
-        "date": 1780855042000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
+        "title": "Minecraft Dungeons 2 Joins A Jam-Packed September Schedule",
+        "link": "https://www.nintendolife.com/news/2026/06/minecraft-dungeons-2-joins-a-jam-packed-september-schedule",
+        "date": 1780871400000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
         "isTranslated": false
       },
       {
@@ -1834,19 +1912,19 @@
         "isTranslated": false
       },
       {
-        "title": "Minecraft Dungeons 2 Joins A Jam-Packed September Schedule",
-        "link": "https://www.nintendolife.com/news/2026/06/minecraft-dungeons-2-joins-a-jam-packed-september-schedule",
-        "date": 1780871400000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      },
-      {
         "title": "Minecraft Dungeons 2 Slots Into September 2026, Release Date Confirmed By Xbox",
         "link": "https://www.purexbox.com/news/2026/06/minecraft-dungeons-2-slots-into-september-2026-release-date-confirmed-by-xbox",
         "date": 1780854060000,
         "domain": "purexbox.com",
         "sourceName": "Pure Xbox",
+        "isTranslated": false
+      },
+      {
+        "title": "Minecraft Dungeons 2 joins every other game avoiding GTA 6 in releasing in September",
+        "link": "https://www.gamesradar.com/games/minecraft/minecraft-dungeons-2-joins-every-other-game-avoiding-gta-6-in-releasing-in-september",
+        "date": 1780855042000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
         "isTranslated": false
       },
       {
@@ -1874,40 +1952,24 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.654
+    "hotScore": 0.652
   },
   {
-    "title": "Halo: Campaign Evolved Reveals New Space Combat Missions, Imminent Release Date",
-    "link": "https://www.ign.com/articles/halo-campaign-evolved-reveals-new-space-combat-missions-imminent-release-date",
-    "date": 1780853090000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 2.619,
+    "title": "The release date of \"Fable\" is set for February 23, 2027. A reboot of the popular RPG series",
+    "link": "https://www.4gamer.net/games/520/G052094/20260607020",
+    "date": 1780853248000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 1.307,
     "groupMembers": [
       {
-        "title": "Halo: Campaign Evolved Just Revealed 3 Brand-New Missions",
-        "link": "https://gamerant.com/halo-campaign-evolved-new-missions",
-        "date": 1780878568000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
-        "isTranslated": false
-      },
-      {
-        "title": "Halo: Campaign Evolved release date and new missions revealed",
-        "link": "https://www.dexerto.com/halo/halo-campaign-evolved-release-date-and-new-missions-revealed-3372706",
-        "date": 1780854129000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      },
-      {
-        "title": "Halo: Campaign Evolved launches in July, and its all-new prequel missions have space combat",
-        "link": "https://www.gamesradar.com/games/halo/halo-campaign-evolved-launches-in-july-and-its-all-new-prequel-missions-have-space-combat",
-        "date": 1780853292000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
+        "title": "Open world fantasy ARPG \"Fable\" to be released on February 24, 2027. A reboot of the popular series that lets you aim to become the “ideal hero” is finally here!",
+        "link": "https://automaton-media.com/articles/newsjp/20260608-448115",
+        "date": 1780854763000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
       }
     ]
   },
@@ -1918,7 +1980,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 1.313,
+    "hotScore": 1.308,
     "groupMembers": [
       {
         "title": "State of Decay 3 Confirmed for PS5 as Undead Labs Stops Short of Delivering Release Date",
@@ -1937,7 +1999,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1.975,
+    "hotScore": 1.967,
     "groupMembers": [
       {
         "title": "Metro 2039 arrives 12 years early as devs confirm February 2027 release window",
@@ -1964,7 +2026,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.659
+    "hotScore": 0.656
   },
   {
     "title": "Senua, Sequel to Hellblade 2, Revealed for 2027 Release",
@@ -1973,7 +2035,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.659
+    "hotScore": 0.657
   },
   {
     "title": "Dark Romance of the Three Kingdoms game \"Wo Long 2: Wings of Ember\" announced. Finally a sequel to Team NINJA's popular work",
@@ -1982,7 +2044,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1.319,
+    "hotScore": 1.314,
     "groupMembers": [
       {
         "title": "Romance of the Three Kingdoms Soul-like “Wo Long 2: Wings of Ember” announced, trailer also hints at an open world",
@@ -2001,7 +2063,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.661
+    "hotScore": 0.658
   },
   {
     "title": "DOOM: The Dark Ages | Revelations Arrives July 7",
@@ -2010,7 +2072,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 1.984,
+    "hotScore": 1.975,
     "groupMembers": [
       {
         "title": "Doom: The Dark Ages Revelations DLC Revealed With New Spear Weapon and July Release Date",
@@ -2031,13 +2093,13 @@
     ]
   },
   {
-    "title": "The release date of the latest work in the \"A Plague Tale\" series, \"Resonance: A Plague Tale Legacy\", is set for August 27, 2026. The past of the series is depicted with Sophia as the main character.",
+    "title": "The release date of the latest work in the \"A Plague Tale\" series, \"Resonance: A Plague Tale Legacy\", is set for August 27, 2026. Depicting the past of the series with Sophia as the main character",
     "link": "https://www.4gamer.net/games/918/G091808/20260608003",
     "date": 1780853797000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.662
+    "hotScore": 0.659
   },
   {
     "title": "Wo Long 2: Wings of Ember Appears in 2027",
@@ -2046,7 +2108,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 1.324,
+    "hotScore": 1.318,
     "groupMembers": [
       {
         "title": "Wo Long 2: Wings of Ember makes a scorching debut at the Xbox Games Showcase, set to release in early 2027",
@@ -2059,13 +2121,32 @@
     ]
   },
   {
+    "title": "Here’s Two Minutes Of What Halo: Campaign Evolved’s Unreal Engine 5 Makeover Looks Like And The Release Date",
+    "link": "https://kotaku.com/heres-two-minutes-of-what-halo-campaign-evolveds-unreal-engine-5-makeover-looks-like-and-the-release-date-2000703650",
+    "date": 1780853828000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1.318,
+    "groupMembers": [
+      {
+        "title": "FPS \"Halo: Campaign Evolved\" to be released on July 28th. The original Halo will be remade with Unreal Engine 5 and will be released on PS5",
+        "link": "https://automaton-media.com/articles/newsjp/20260608-448137",
+        "date": 1780855692000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "Hellblade franchise returns in 2027 with third game Senua",
     "link": "https://gamesbeat.com/hellblade-franchise-returns-in-2027-with-third-game-senua",
     "date": 1780853851000,
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.662
+    "hotScore": 0.659
   },
   {
     "title": "State of Decay 3 releases 2027, seven years after it was first announced",
@@ -2074,7 +2155,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1.989,
+    "hotScore": 1.981,
     "groupMembers": [
       {
         "title": "6 years on, Xbox's open-world survival game State of Decay 3 is set for release in 2027",
@@ -2101,7 +2182,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 1.99,
+    "hotScore": 1.981,
     "groupMembers": [
       {
         "title": "Xbox announces special edition anniversary console and controller for fall 2026",
@@ -2128,7 +2209,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.664
+    "hotScore": 0.661
   },
   {
     "title": "\"Halo: Campaign Evolved\" will be released on July 28th. Also the latest trailer introducing bonus missions",
@@ -2137,7 +2218,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.665
+    "hotScore": 0.662
   },
   {
     "title": "Microsoft unveils Age of Empires IV: Raiders of the North expansion",
@@ -2146,7 +2227,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.665
+    "hotScore": 0.663
   },
   {
     "title": "Persona 4 Revival Doesn’t Seem To Have That Much Life To It",
@@ -2155,7 +2236,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.666
+    "hotScore": 0.663
   },
   {
     "title": "Sega Announces Crazy Taxi: World Tour, Coming to PC and Consoles in 2027",
@@ -2164,7 +2245,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.332,
+    "hotScore": 1.326,
     "groupMembers": [
       {
         "title": "Crazy Taxi: World Tour Announced For Xbox, Releases In 2027",
@@ -2183,7 +2264,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 1.333,
+    "hotScore": 1.327,
     "groupMembers": [
       {
         "title": "“Crazy Taxi: World Tour” announced and released in 2027. A trailer featuring exciting driving with familiar BGM has also been released.",
@@ -2202,7 +2283,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.667
+    "hotScore": 0.664
   },
   {
     "title": "Solarpunk release countdown: Exact date and time",
@@ -2211,7 +2292,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.667
+    "hotScore": 0.664
   },
   {
     "title": "Microsoft’s Xbox 25th anniversary console comes in translucent green",
@@ -2220,7 +2301,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 2.001,
+    "hotScore": 1.993,
     "groupMembers": [
       {
         "title": "Microsoft is releasing a limited edition green 25th anniversary Xbox Series X",
@@ -2247,25 +2328,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.668
+    "hotScore": 0.665
   },
   {
-    "title": "The new action adventure “Senua” that follows the world view of “Hellblade” will be released in 2027",
+    "title": "The new action adventure \"Senua\" that follows the world view of \"Hellblade\" will be released in 2027",
     "link": "https://www.4gamer.net/games/014/G101416/20260608007",
     "date": 1780854595000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.67
-  },
-  {
-    "title": "Open world fantasy ARPG \"Fable\" to be released on February 24, 2027. A reboot of the popular series that lets you aim to become the “ideal hero” is finally here!",
-    "link": "https://automaton-media.com/articles/newsjp/20260608-448115",
-    "date": 1780854763000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 0.671
+    "hotScore": 0.667
   },
   {
     "title": "There’s A Translucent Green Xbox Series X That Looks So Awesome I Don’t Want To Know The Price",
@@ -2274,7 +2346,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.672
+    "hotScore": 0.669
   },
   {
     "title": "Plague Tale prequel Resonance pushes Sophia into the spotlight in its latest trailer, and it's launching this August",
@@ -2283,7 +2355,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.673
+    "hotScore": 0.671
   },
   {
     "title": "The large-scale DLC \"Revelations\" for \"DOOM: The Dark Ages\" will be released on July 7, 2026. A new battle against the Council of Hell begins.",
@@ -2292,58 +2364,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.674
-  },
-  {
-    "title": "Persona 6 has been announced!",
-    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tzj1qx/persona_6_has_been_announced",
-    "date": 1780855029000,
-    "domain": "reddit.com",
-    "sourceName": "Reddit Leaks",
-    "isTranslated": false,
-    "hotScore": 4.044,
-    "groupMembers": [
-      {
-        "title": "Persona 6 Announced",
-        "link": "https://www.siliconera.com/persona-6-announced",
-        "date": 1780855320000,
-        "domain": "siliconera.com",
-        "sourceName": "Siliconera",
-        "isTranslated": false
-      },
-      {
-        "title": "Persona 6 announced, and the vibes are a lot closer to Persona 3 so far",
-        "link": "https://www.gamesradar.com/games/jrpg/persona-6-announced-atlus-tells-us-absolutely-nothing-about-it",
-        "date": 1780855336000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "“Persona 6” officially announced, Game Pass support revealed",
-        "link": "https://jp.ign.com/persona-6/83446/6-game-pass",
-        "date": 1780856740000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      },
-      {
-        "title": "\"Persona 6\" announced. With meaningful dark footage",
-        "link": "https://automaton-media.com/articles/newsjp/20260608-448122",
-        "date": 1780855119000,
-        "domain": "automaton-media.com",
-        "sourceName": "Automaton Media JP",
-        "isTranslated": true
-      },
-      {
-        "title": "\"Persona 6\" announced. Compatible with Xbox Series X|S, PS5, PC (Steam)",
-        "link": "https://www.4gamer.net/games/014/G101419/20260608012",
-        "date": 1780855619000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 0.671
   },
   {
     "title": "New Hellblade Game Simply Titled Senua And Will Be Out Next Year",
@@ -2352,16 +2373,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.674
-  },
-  {
-    "title": "Spyro: A Realm Beyond Interview – A New Design, Full Flight, Tom Kenny Returns and More",
-    "link": "https://news.xbox.com/en-us/2026/06/07/spyro-a-realm-beyond-reveal-xbox-games-showcase-2026",
-    "date": 1780855105000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 0.675
+    "hotScore": 0.671
   },
   {
     "title": "Spyro: A Realm Beyond brings the beloved purple dragon back into the spotlight at the Xbox Games showcase",
@@ -2370,7 +2382,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1.349,
+    "hotScore": 1.344,
     "groupMembers": [
       {
         "title": "Spyro: A Realm Beyond brings the purple hero back in 2027",
@@ -2383,13 +2395,22 @@
     ]
   },
   {
+    "title": "\"Persona 6\" announced. With meaningful dark footage",
+    "link": "https://automaton-media.com/articles/newsjp/20260608-448122",
+    "date": 1780855119000,
+    "domain": "automaton-media.com",
+    "sourceName": "Automaton Media JP",
+    "isTranslated": true,
+    "hotScore": 0.672
+  },
+  {
     "title": "The first brand new Spyro the Dragon game in 18 years is being developed by Toys for Bob",
     "link": "https://www.videogameschronicle.com/news/the-first-brand-new-spyro-the-dragon-game-in-18-years-is-being-developed-by-toys-for-bob",
     "date": 1780855187000,
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.675
+    "hotScore": 0.673
   },
   {
     "title": "Clockwork Revolution: Burlesque, Bullets, and Butterfly Effects",
@@ -2398,7 +2419,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 2.027,
+    "hotScore": 2.018,
     "groupMembers": [
       {
         "title": "Microsoft announces Clockwork Revolution as an Xbox exclusive for 2027",
@@ -2409,31 +2430,12 @@
         "isTranslated": false
       },
       {
-        "title": "Steampunk and time travel themed action RPG \"Clockwork Revolution\" will be released in 2027 exclusively on Xbox consoles",
+        "title": "Steampunk and time travel themed action RPG \"Clockwork Revolution\" will be released in 2027 exclusively for Xbox consoles",
         "link": "https://www.4gamer.net/games/714/G071491/20260608017",
         "date": 1780856613000,
         "domain": "4gamer.net",
         "sourceName": "4Gamer.net",
         "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "Persona 6 exists, and that’s all we know",
-    "link": "https://www.theverge.com/entertainment/945256/persona-6-teaser",
-    "date": 1780855241000,
-    "domain": "theverge.com",
-    "sourceName": "The Verge",
-    "isTranslated": false,
-    "hotScore": 1.352,
-    "groupMembers": [
-      {
-        "title": "Persona 6 is real, coming to Xbox Series X/S, PS5 and PC, but that's about all we know",
-        "link": "https://www.eurogamer.net/persona-6-is-real-coming-to-xbox-series-xs-ps5-and-pc-but-thats-about-all-we-know",
-        "date": 1780855246000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
       }
     ]
   },
@@ -2444,7 +2446,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.676
+    "hotScore": 0.673
   },
   {
     "title": "Spyro: A Realm Beyond Announced, Features 'True Dragon Flight'",
@@ -2453,7 +2455,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.353,
+    "hotScore": 1.347,
     "groupMembers": [
       {
         "title": "New Spyro game announced (Spyro: A Realm Beyond, 2027)",
@@ -2466,23 +2468,13 @@
     ]
   },
   {
-    "title": "Persona 6 Announced, Coming to Xbox Game Pass",
-    "link": "https://www.ign.com/articles/persona-6-announced-coming-to-xbox-game-pass",
-    "date": 1780855326000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "title": "Persona 6 announced, and the vibes are a lot closer to Persona 3 so far",
+    "link": "https://www.gamesradar.com/games/jrpg/persona-6-announced-atlus-tells-us-absolutely-nothing-about-it",
+    "date": 1780855336000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1.354,
-    "groupMembers": [
-      {
-        "title": "Everything coming to Game Pass from the Xbox Showcase",
-        "link": "https://www.polygon.com/xbox-games-showcase-announcements-2026-game-pass",
-        "date": 1780860191000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.674
   },
   {
     "title": "Oh Nice, Spyro Is Back And Looks Great",
@@ -2491,7 +2483,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.677
+    "hotScore": 0.674
   },
   {
     "title": "Clockwork Revolution Release Window & XBOX Exclusivity Revealed During XBOX Games Showcase",
@@ -2500,7 +2492,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.678
+    "hotScore": 0.675
   },
   {
     "title": "\"Castlevania Belmond Curse\" will be released on October 15, 2026. The main character is Trevor's successor, Rose Belmont.",
@@ -2509,7 +2501,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.678
+    "hotScore": 0.676
   },
   {
     "title": "Persona 6 teaser trailer suggests a darker direction for the series",
@@ -2518,17 +2510,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 1.361,
-    "groupMembers": [
-      {
-        "title": "Atlus releases teaser trailer for the latest series “Persona 6” Announced at “XBOX Games Showcase 2026”",
-        "link": "https://gamebiz.jp/news/427317",
-        "date": 1780878720000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 0.678
   },
   {
     "title": "DMZ – New Intel on Call of Duty’s Extraction Shooter Experience",
@@ -2537,7 +2519,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.681
+    "hotScore": 0.678
   },
   {
     "title": "XBOX Games Showcase 2026 Recap: The Return of Exclusives, World Premieres, and Anniversary Hardware",
@@ -2546,7 +2528,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.682
+    "hotScore": 0.679
   },
   {
     "title": "Minecraft Dungeons II Gameplay Reveal and Release Date Announce",
@@ -2555,7 +2537,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 1.366,
+    "hotScore": 1.36,
     "groupMembers": [
       {
         "title": "Minecraft Dungeons 2 release date confirmed",
@@ -2574,7 +2556,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.685
+    "hotScore": 0.682
   },
   {
     "title": "Gears of War E-Day Pre-Orders Are Live; Game Edition Details Revealed",
@@ -2583,7 +2565,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.685
+    "hotScore": 0.682
   },
   {
     "title": "Valor Mortis SGF 2026 Hands-On Preview: A Genuine GOTY Contender",
@@ -2592,7 +2574,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.686
+    "hotScore": 0.683
   },
   {
     "title": "Persona 6: Everything we know about the new JRPG",
@@ -2601,7 +2583,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.687
+    "hotScore": 0.684
   },
   {
     "title": "\"Call of Duty: Modern Warfare 4\", the latest trailer for DMZ mode has been released. A harsh escape drama in the new stage “Hajin”",
@@ -2610,7 +2592,26 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.688
+    "hotScore": 0.685
+  },
+  {
+    "title": "Halo Campaign Evolved, Gears of War E-Day and Fable are all getting Collector’s Editions with statues",
+    "link": "https://www.videogameschronicle.com/news/halo-campaign-evolved-gears-of-war-e-day-and-fable-are-all-getting-collectors-editions-with-statues",
+    "date": 1780856473000,
+    "domain": "videogameschronicle.com",
+    "sourceName": "VGC",
+    "isTranslated": false,
+    "hotScore": 1.371,
+    "groupMembers": [
+      {
+        "title": "Gears of War: E-Day, Halo: Campaign Evolved, and Fable's Collector's Edition Explained",
+        "link": "https://www.dualshockers.com/everything-included-in-gears-of-war-e-day-halo-campaign-evolved-fables-collectors-editions",
+        "date": 1780868147000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Metro 2039 will break out of the bunker just in time to join the flood of games releasing in February 2027",
@@ -2619,17 +2620,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1.38,
-    "groupMembers": [
-      {
-        "title": "The latest work in the series, \"METRO 2039\", will be released in February 2027. Latest footage including gameplay released",
-        "link": "https://www.4gamer.net/games/998/G099882/20260608010",
-        "date": 1780855314000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 0.687
   },
   {
     "title": "FF14's Dancing Mad Ultimate World First Race Is Over",
@@ -2638,7 +2629,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.691
+    "hotScore": 0.688
   },
   {
     "title": "2026 video game release date calendar",
@@ -2647,7 +2638,26 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.692
+    "hotScore": 0.689
+  },
+  {
+    "title": "Everything We Saw At Xbox’s 2026 Summer Showcase",
+    "link": "https://kotaku.com/everything-we-saw-at-xboxs-2026-summer-showcase-2000703605",
+    "date": 1780856903000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 1.38,
+    "groupMembers": [
+      {
+        "title": "Xbox’s Showcase Wanted Exclusives To Be A Big Deal, But Made Everything More Confusing",
+        "link": "https://www.gamespot.com/articles/xboxs-showcase-wanted-exclusives-to-be-a-big-deal-but-made-everything-more-confusing",
+        "date": 1780860589000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "9 Elden Ring Features that Redefined the Standard for Open World RPGs",
@@ -2656,7 +2666,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.694
+    "hotScore": 0.691
   },
   {
     "title": "“Bad Magpie” will be released in 2027. A “one-winged magpie” with an eye for shiny objects causes chaos everywhere.",
@@ -2665,7 +2675,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.695
+    "hotScore": 0.692
   },
   {
     "title": "Why Do You Need Generative AI To Make Crazy Taxi?",
@@ -2674,7 +2684,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.695
+    "hotScore": 0.692
   },
   {
     "title": "New first-person action game \"Magicians: The Devil's Deal\" announced. The main character, a magician, fights using playing cards.",
@@ -2683,7 +2693,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.697
+    "hotScore": 0.694
   },
   {
     "title": "Xbox unveils retro-inspired console and controller to celebrate its 25th anniversary, and they're launching this November",
@@ -2692,7 +2702,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.698
+    "hotScore": 0.695
   },
   {
     "title": "Rebuilding Brotherhood: How Gears of War: E-Day Renews a Legendary Franchise",
@@ -2701,7 +2711,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.699
+    "hotScore": 0.696
   },
   {
     "title": "Gather believers, build a base, and start a cult! JOIN US, a survival action game with up to 4 people cooperation, will be released in March 2027",
@@ -2710,34 +2720,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.699
-  },
-  {
-    "title": "Xbox Games Showcase 2026: Every game trailer, reveal, and announcement",
-    "link": "https://www.polygon.com/everything-announced-xbox-games-showcase-june-2026",
-    "date": 1780857475000,
-    "domain": "polygon.com",
-    "sourceName": "Polygon",
-    "isTranslated": false,
-    "hotScore": 2.096,
-    "groupMembers": [
-      {
-        "title": "Every game, trailer, and announcement in the PC Gaming Show 2026",
-        "link": "https://www.pcgamer.com/gaming-industry/events-conferences/every-game-trailer-and-announcement-in-the-pc-gaming-show-2026",
-        "date": 1780864986000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "21 Game Pass Titles Get New Announcements At The Xbox Showcase 2026",
-        "link": "https://www.purexbox.com/news/2026/06/21-game-pass-titles-get-new-announcements-at-the-xbox-showcase-2026",
-        "date": 1780858620000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.696
   },
   {
     "title": "[Jeff Grubb] - \"So yeah, there's a basically finished version of Gears for PlayStation sitting on a drive.\"",
@@ -2746,7 +2729,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 1.398,
+    "hotScore": 1.392,
     "groupMembers": [
       {
         "title": "'There's a Finished Version of Gears of War PS5 Sitting on a Drive': New Game E-Day Was Almost Done",
@@ -2759,22 +2742,13 @@
     ]
   },
   {
-    "title": "The latest installment in the Spyro series, ``Spyro: A Realm Beyond,'' has been announced. Release scheduled for spring 2027",
-    "link": "https://www.4gamer.net/games/014/G101422/20260608020",
-    "date": 1780857517000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 0.699
-  },
-  {
     "title": "Time-Bending Action-RPG Clockwork Revolution Goes Full Steampunk Heist Mode In New Gameplay Trailer",
     "link": "https://kotaku.com/time-bending-action-rpg-clockwork-revolution-goes-full-steampunk-heist-mode-in-new-gameplay-trailer-2000703702",
     "date": 1780857587000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.7
+    "hotScore": 0.697
   },
   {
     "title": "``Persona 4 Revival'' is a remake of ``Persona 4 The Golden.'' Also includes “Marie” etc.",
@@ -2783,7 +2757,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.702
+    "hotScore": 0.699
   },
   {
     "title": "The 7 biggest storylines from Summer Game Fest 2026",
@@ -2792,7 +2766,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 1.407,
+    "hotScore": 1.401,
     "groupMembers": [
       {
         "title": "Round Up: All the PS5 Reveals from Summer Game Fest 2026",
@@ -2811,7 +2785,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.705
+    "hotScore": 0.702
   },
   {
     "title": "Microsoft Explains Its Reversal On Exclusives: ‘We Want People To Have A Reason To Buy An Xbox’",
@@ -2820,7 +2794,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.71
+    "hotScore": 0.707
   },
   {
     "title": "Spyro The Dragon Reignites With A Brand New Entry On Switch 2",
@@ -2829,7 +2803,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.713
+    "hotScore": 0.71
   },
   {
     "title": "Pokemon GO Fest Chicago 2026 Saw Six Couples Get Engaged",
@@ -2838,7 +2812,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.713
+    "hotScore": 0.71
   },
   {
     "title": "\"Plague Tale\" completely new work \"Resonance: A Plague Tale Legacy\" will be released on August 27th. A bold switch to full-fledged fantasy fighting action",
@@ -2847,7 +2821,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.713
+    "hotScore": 0.71
   },
   {
     "title": "Terrinoth: Heroes of Descent Review: An RPG That Streamlines Combat",
@@ -2856,16 +2830,26 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.713
+    "hotScore": 0.71
   },
   {
-    "title": "Narrative-driven outpost builder Star Trek: Outposts Unknown announced for PC",
-    "link": "https://www.gematsu.com/2026/06/narrative-driven-outpost-builder-star-trek-outposts-unknown-announced-for-pc",
-    "date": 1780859009000,
+    "title": "Company of Heroes: Definitive Edition announced for PC",
+    "link": "https://www.gematsu.com/2026/06/company-of-heroes-definitive-edition-announced-for-pc",
+    "date": 1780859216000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.715
+    "hotScore": 1.428,
+    "groupMembers": [
+      {
+        "title": "The \"Definitive Edition\", which combines the original \"Company of Heroes\" and the expanded version, has been announced. Visual enhancement and 64bit support implemented",
+        "link": "https://www.4gamer.net/games/014/G101433/20260608026",
+        "date": 1780860097000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "Vampire spies narrative RPG Red Kiss announced for PC",
@@ -2874,7 +2858,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.718
+    "hotScore": 0.715
   },
   {
     "title": "Xbox Fans Go Wild As Asha Sharma Gives Free Consoles To Everyone At FanFest LA",
@@ -2883,7 +2867,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.722
+    "hotScore": 0.719
   },
   {
     "title": "Announcement of \"Senua\", a battle action game that takes you on a journey through purgatory. A new work depicting the “after” of the “Hellblade” series, revamped with an emphasis on action",
@@ -2892,7 +2876,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.723
+    "hotScore": 0.72
   },
   {
     "title": "Abiotic Factor DLC ‘Entropic Break’ announced",
@@ -2901,16 +2885,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.726
-  },
-  {
-    "title": "The \"Definitive Edition\", which combines the original \"Company of Heroes\" and the expanded version, has been announced. Visual enhancement and 64bit support implemented",
-    "link": "https://www.4gamer.net/games/014/G101433/20260608026",
-    "date": 1780860097000,
-    "domain": "4gamer.net",
-    "sourceName": "4Gamer.net",
-    "isTranslated": true,
-    "hotScore": 0.726
+    "hotScore": 0.723
   },
   {
     "title": "Grounded 2 Heads Into the Unknown With Into The Abyss DLC | IGN Live",
@@ -2919,7 +2894,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.729
+    "hotScore": 0.726
   },
   {
     "title": "Multiplayer turn-based roguelike game Another Door announced for PC",
@@ -2928,7 +2903,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.46,
+    "hotScore": 1.454,
     "groupMembers": [
       {
         "title": "Another Door, a roguelike party game of betrayal and bargaining, has been announced. Demo version available on Steam",
@@ -2947,7 +2922,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.73
+    "hotScore": 0.727
   },
   {
     "title": "Gorgeous Slice-Of-Life Game Vivarium Brings That Old-School Anime Energy",
@@ -2956,7 +2931,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.73
+    "hotScore": 0.727
   },
   {
     "title": "A trailer introducing the demo version of the cooking-themed roguelike deck builder \"Arcane Eats\" has been released.",
@@ -2965,7 +2940,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.731
+    "hotScore": 0.727
   },
   {
     "title": "AfterQuest is a classic RPG roguelite where everyone's got oodles of lore—even your enemies",
@@ -2974,7 +2949,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.731
+    "hotScore": 0.728
   },
   {
     "title": "SlashZero – PC Gaming Show 2026 trailer, screenshots",
@@ -2983,7 +2958,17 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.731
+    "hotScore": 1.456,
+    "groupMembers": [
+      {
+        "title": "Every game, trailer, and announcement in the PC Gaming Show 2026",
+        "link": "https://www.pcgamer.com/gaming-industry/events-conferences/every-game-trailer-and-announcement-in-the-pc-gaming-show-2026",
+        "date": 1780864986000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Warhammer 40,000 Dark Heresy Gameplay Trailer Puts You In the Shoes of a Grim Sci-Fi Detective | IGN Live",
@@ -2992,7 +2977,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.732
+    "hotScore": 0.728
   },
   {
     "title": "Carve up foes with elemental combos in side-scrolling roguelite SlashZero",
@@ -3001,7 +2986,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.732
+    "hotScore": 0.728
   },
   {
     "title": "``Star Trek: Outpost Unknown'', an architectural strategy game set in the Star Trek world, has been announced. Demo version now available on Steam",
@@ -3010,16 +2995,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.732
-  },
-  {
-    "title": "Xbox’s Showcase Wanted Exclusives To Be A Big Deal, But Made Everything More Confusing",
-    "link": "https://www.gamespot.com/articles/xboxs-showcase-wanted-exclusives-to-be-a-big-deal-but-made-everything-more-confusing",
-    "date": 1780860589000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 0.732
+    "hotScore": 0.728
   },
   {
     "title": "SATED, a roguelite cooking game where you “cook with disgusting ingredients” in a cursed refrigerator, will be released soon",
@@ -3028,7 +3004,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.733
+    "hotScore": 0.729
   },
   {
     "title": "Cassette Beasts 2002 announced for PS5, Xbox Series, Switch 2, and PC",
@@ -3037,7 +3013,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.733,
+    "hotScore": 0.73,
     "groupMembers": [
       {
         "title": "El Paso, Elsewhere 2 announced for Xbox Series, PC",
@@ -3064,7 +3040,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2.198,
+    "hotScore": 2.189,
     "groupMembers": [
       {
         "title": "One of my favorite Pokemon-like RPGs is getting a sequel: Cassette Beasts 2002 shows off new monsters and the return of the incredible fusion mechanic",
@@ -3091,7 +3067,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.733
+    "hotScore": 0.73
   },
   {
     "title": "My favourite card-battling action brawler just got a sequel, and you can play it right now",
@@ -3100,7 +3076,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.734
+    "hotScore": 0.731
   },
   {
     "title": "Senua Brings A 'Different Kind' Of Hellblade Game To Xbox Game Pass In 2027",
@@ -3109,7 +3085,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.734
+    "hotScore": 0.731
   },
   {
     "title": "Serious Sam's latest work \"Serious Sam: Shatterverse\" has been announced to be playtested on Steam. Latest trailer released",
@@ -3118,7 +3094,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.735
+    "hotScore": 0.732
   },
   {
     "title": "Samantha Béart and Ben Starr headline a new Stronghold game coming to Steam later this year",
@@ -3127,7 +3103,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.736
+    "hotScore": 0.733
   },
   {
     "title": "Stronghold 4 announced for PC",
@@ -3136,7 +3112,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.736,
+    "hotScore": 0.733,
     "groupMembers": [
       {
         "title": "Studio Ghibli-inspired cozy adventure game Into the Wind announced for PC",
@@ -3155,7 +3131,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.736
+    "hotScore": 0.733
   },
   {
     "title": "Fable Reboot Story Expansion Announced 8 Months Before The Game Even Releases",
@@ -3164,7 +3140,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.737
+    "hotScore": 0.734
   },
   {
     "title": "Wardens of Avalon is knightly ARPG with an intriguing touch of… wait, city repair?",
@@ -3173,7 +3149,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.737
+    "hotScore": 0.734
   },
   {
     "title": "Empulse's frantic movement and giant mechs are giving me serious Xbox 360-era FPS nostalgia",
@@ -3182,7 +3158,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.74
+    "hotScore": 0.737
   },
   {
     "title": "All hail the real game of the show for Xbox: this anime-inspired life sim with some of the best art around",
@@ -3191,7 +3167,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.741
+    "hotScore": 0.738
   },
   {
     "title": "Time-bending RPG from Fallout veteran has choices that \"take a long time to catch up with you\"",
@@ -3200,7 +3176,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.742
+    "hotScore": 0.738
   },
   {
     "title": "Star Wars: Zero Company Creators Talk Canon, Character Customization and More | IGN Live 2026",
@@ -3209,7 +3185,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.742
+    "hotScore": 0.738
   },
   {
     "title": "How The New Spyro Is Handling The Big-Name Options For Its Lead Voice Actor",
@@ -3218,7 +3194,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.742
+    "hotScore": 0.739
   },
   {
     "title": "Hack '95, a hacking ADV set on the internet in the 1990s, has been announced. Dive into the depths of the internet in search of your missing best friend",
@@ -3227,7 +3203,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.743
+    "hotScore": 0.74
   },
   {
     "title": "Arkheron, an isometric Diablo-like battle royale where you ascend a tower, is getting a more forgiving Spire mode to prepare you for the big leagues",
@@ -3236,7 +3212,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.744
+    "hotScore": 0.74
   },
   {
     "title": "Castle construction RTS \"Stronghold 4\" announced. A return to the origins of medieval England, set several years before the original Stronghold.",
@@ -3245,7 +3221,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1.488,
+    "hotScore": 1.481,
     "groupMembers": [
       {
         "title": "Castle construction strategy \"Stronghold 4\" announced. First new numbering in the series in 15 years, epic siege battles with enhanced \"Medieval War Mechanics\"",
@@ -3264,7 +3240,26 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.744
+    "hotScore": 0.741
+  },
+  {
+    "title": "Spyro: A Realm Beyond Takes Flight On Xbox Series X|S In Spring 2027",
+    "link": "https://www.purexbox.com/news/2026/06/spyro-a-realm-beyond-takes-flight-on-xbox-series-xs-in-spring-2027",
+    "date": 1780861740000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 1.482,
+    "groupMembers": [
+      {
+        "title": "The latest installment in the Spyro series, ``Spyro: A Realm Beyond,'' has been announced. Release scheduled for spring 2027",
+        "link": "https://www.4gamer.net/games/014/G101422/20260608020",
+        "date": 1780857517000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "The latest trailer for \"Slash Zero\" has been released. Check out speedy battle scenes using a variety of combos",
@@ -3273,7 +3268,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.746
+    "hotScore": 0.742
   },
   {
     "title": "Wardogs looks like Battlefield with a persistent economy, and I'm fascinated by the consequences",
@@ -3282,7 +3277,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.746
+    "hotScore": 0.742
   },
   {
     "title": "Shroom and Gloom is a deckbuilding roguelike that has you growing together 2 different stacks of fungal cards",
@@ -3291,7 +3286,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.746
+    "hotScore": 0.743
   },
   {
     "title": "WWE Applied for Two New Gaming Trademarks in May 2026",
@@ -3300,7 +3295,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.746
+    "hotScore": 0.743
   },
   {
     "title": "Details of ``Persona 4 Revival'', new tactic ``Voko Ska Rush'' and full voice support have been revealed. Price and edition information also released",
@@ -3309,7 +3304,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.747
+    "hotScore": 0.743
   },
   {
     "title": "Xbox's big pitch for the future sure involves a lot of going backwards",
@@ -3318,7 +3313,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.747
+    "hotScore": 0.743
   },
   {
     "title": "Maximum Thunderness is a roguelike shoot-em-up that promises the same vibe 'of a Saturday morning cartoon'",
@@ -3327,7 +3322,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.748
+    "hotScore": 0.745
   },
   {
     "title": "Rivage is a time loop puzzle game where something's gone terribly wrong, power's at a premium, and your salvation's a mysterious arcade machine",
@@ -3336,7 +3331,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.748
+    "hotScore": 0.745
   },
   {
     "title": "Rivage launches August 13",
@@ -3345,7 +3340,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.496,
+    "hotScore": 1.49,
     "groupMembers": [
       {
         "title": "The release date of the SF puzzle adventure \"Rivage\" has been decided on August 13, 2026. Uncover the truth about a station trapped by a mysterious space phenomenon.",
@@ -3364,7 +3359,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.745
   },
   {
     "title": "Persona 6 store page tells us more about Atlus' next big JRPG: school setting, new romances, and \"a completely fresh, standalone story\"",
@@ -3373,7 +3368,16 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.746
+  },
+  {
+    "title": "Spyro: A Realm Beyond lets everyone's favorite dragon fly freely, which is \"such a significant addition\" devs have \"built a whole world around that promise\"",
+    "link": "https://www.gamesradar.com/games/platformer/spyro-a-realm-beyond-lets-everyones-favorite-dragon-fly-freely-which-is-such-a-significant-addition-devs-have-built-a-whole-world-around-that-promise",
+    "date": 1780862237000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.747
   },
   {
     "title": "Next Generation Gaming GPUs from Nvidia and AMD delayed by almost a year to late 2027-early 2028",
@@ -3382,7 +3386,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.75
+    "hotScore": 0.747
   },
   {
     "title": "Citizen Sleeper dev's next game looks nothing like it, and that's what makes me so excited",
@@ -3391,23 +3395,22 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.75
-  },
-  {
-    "title": "Citizen Sleeper creator announces first-person ‘fungalpunk’ RPG Signet City for PC",
-    "link": "https://www.gematsu.com/2026/06/citizen-sleeper-creator-announces-first-person-fungalpunk-rpg-signet-city-for-pc",
-    "date": 1780862267000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 1.5,
+    "hotScore": 2.24,
     "groupMembers": [
       {
-        "title": "Play a parasitic brain mushroom in Signet City, the first-person fungalpunk RPG from the creator of Citizen Sleeper",
-        "link": "https://www.rockpapershotgun.com/play-a-parasitic-brain-mushroom-in-signet-city-the-first-person-fungalpunk-rpg-from-the-creator-of-citizen-sleeper",
-        "date": 1780864200000,
-        "domain": "rockpapershotgun.com",
-        "sourceName": "Rock Paper Shotgun",
+        "title": "Announcement of “Signet City”, a “parasitic perspective” post-apocalyptic city RPG. \"Citizen Sleeper\" developer's new work also uses a TRPG-like system, where dice rolls and decisions change the fate of the \"host\"",
+        "link": "https://automaton-media.com/articles/newsjp/20260608-448254",
+        "date": 1780868012000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      },
+      {
+        "title": "Citizen Sleeper creator's new game is a \"fungalpunk\" RPG in which you're a parasite, infecting the lives of people in a city inspired by post-punk Britain",
+        "link": "https://www.eurogamer.net/citizen-sleeper-devs-new-game-signet-city",
+        "date": 1780869600000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
         "isTranslated": false
       }
     ]
@@ -3419,7 +3422,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.75
+    "hotScore": 0.747
   },
   {
     "title": "Mr. Magpie’s Harmless Card Game to be published by Behaviour Interactive and Gambit Digital",
@@ -3428,7 +3431,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.751
+    "hotScore": 0.747
   },
   {
     "title": "Crimson Desert's Disguises Don't Do What You Think They Do",
@@ -3437,7 +3440,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.752
+    "hotScore": 0.749
   },
   {
     "title": "Action RPG \"Outward 2\" announces transition to open beta test. A new video containing gameplay scenes has also been released.",
@@ -3446,7 +3449,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.752
+    "hotScore": 0.749
   },
   {
     "title": "Lovecraftian horrors and tough calls await you in roguelite climbing game Ascenders: Beyond the Peak",
@@ -3455,7 +3458,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.753
+    "hotScore": 0.75
   },
   {
     "title": "10 Games to Check Out if You Love Mina the Hollower",
@@ -3464,7 +3467,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.753
+    "hotScore": 0.75
   },
   {
     "title": "What Ugly Truth Will God Of War Laufey’s Faye See Reflected In Her Sword?",
@@ -3473,7 +3476,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.753
+    "hotScore": 0.75
   },
   {
     "title": "Fable’s Chicken Obsession Goes Even Deeper Than We Imagined",
@@ -3482,7 +3485,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.754
+    "hotScore": 0.75
   },
   {
     "title": "Outward 2, the sequel to a survival action RPG we gave an 89% to, is in open beta now",
@@ -3491,7 +3494,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1.509,
+    "hotScore": 1.502,
     "groupMembers": [
       {
         "title": "Outward 2 open beta test now available",
@@ -3510,7 +3513,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.754
+    "hotScore": 0.751
   },
   {
     "title": "Announcement of gross cooking roguelite \"SATED\". Treat the monster with abnormal dishes full of organs and insects, and if you mess up, you will become the cook.",
@@ -3519,7 +3522,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.755
+    "hotScore": 0.752
   },
   {
     "title": "6v6 team battle FPS “EMPULSE” starts early access on June 24th",
@@ -3528,7 +3531,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.755
+    "hotScore": 0.752
   },
   {
     "title": "Oh hell yes, Nightdive's next delicious remaster treat is Thief",
@@ -3537,7 +3540,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.755
+    "hotScore": 0.752
   },
   {
     "title": "NYT Strands #826 Hints and Answers for Today, June 7, 2026",
@@ -3546,7 +3549,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.756
+    "hotScore": 0.752
   },
   {
     "title": "Over 27 years later, Thief: The Dark Project is getting a remaster from retro revival specialist Nightdive Studios this winter",
@@ -3555,7 +3558,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1.512,
+    "hotScore": 1.505,
     "groupMembers": [
       {
         "title": "Stealth classic Thief: The Dark Project is getting the remaster treatment from retro specialist Nightdive Studios",
@@ -3574,7 +3577,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.758
+    "hotScore": 0.755
   },
   {
     "title": "We've just got a new look at 'the sequel to the award winning strategy game', Duskers 2.0, which promises higher stakes and a more emotive story",
@@ -3583,7 +3586,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.759
+    "hotScore": 0.755
   },
   {
     "title": "A shooter we called 'one of the boldest, freshest games' of 2023 is getting a sequel: El Paso, Elsewhere 2 sends a slo-mo vampire into the void",
@@ -3592,7 +3595,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.759
+    "hotScore": 0.756
   },
   {
     "title": "The early access version of the deck-building game \"2 Fights in 2 Tight Spaces\" is available starting today. Authentic sequel to “Fights in Tight Spaces”",
@@ -3601,7 +3604,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.761
+    "hotScore": 0.757
   },
   {
     "title": "Beast of Reincarnation has some stellar voice actors, but one has to play protagonist Emma completely devoid of emotion",
@@ -3610,7 +3613,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.761
+    "hotScore": 0.758
   },
   {
     "title": "Beast of Reincarnation reveals voice cast, new gameplay",
@@ -3619,7 +3622,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.761
+    "hotScore": 0.758
   },
   {
     "title": "The Persona series has sold 30 million copies, and an absurd chunk of that is from Persona 5",
@@ -3628,7 +3631,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.761
+    "hotScore": 0.758
   },
   {
     "title": "Co-op RPG Terrinoth: Heroes of Descent brings the board game to PC—and it's available to play right now",
@@ -3637,7 +3640,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 1.523,
+    "hotScore": 1.517,
     "groupMembers": [
       {
         "title": "Terrinoth: Heroes of Descent now available",
@@ -3656,7 +3659,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.762
+    "hotScore": 0.759
   },
   {
     "title": "New WarioLand Annoucement from Rayman/Spyro Leaker",
@@ -3665,7 +3668,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.763
+    "hotScore": 0.759
   },
   {
     "title": "Pipes.exe is a co-op horror game about the world's favourite screensaver",
@@ -3674,7 +3677,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.763
+    "hotScore": 0.76
   },
   {
     "title": "Climb a vertical cliff. The demo version of the exploration roguelite “Ascenders: Beyond the Peak” is now available",
@@ -3683,7 +3686,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.764
+    "hotScore": 0.76
   },
   {
     "title": "Indie climbing game rebrands and debuts unconventional tools like pogo sticks to help you reach the Sunset Summit",
@@ -3692,7 +3695,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.765
+    "hotScore": 0.762
   },
   {
     "title": "This co-op clown cacophony crams over 80 minigames into a single videogame",
@@ -3701,7 +3704,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.766
+    "hotScore": 0.762
   },
   {
     "title": "Final Fantasy 7 Revelation's story changes based on your choices, but director Naoki Hamaguchi says the JRPG will have a \"singular ending\"",
@@ -3710,7 +3713,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.766
+    "hotScore": 0.763
   },
   {
     "title": "Armatus launches this winter",
@@ -3719,7 +3722,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.533,
+    "hotScore": 1.526,
     "groupMembers": [
       {
         "title": "Armatus, the demonic roguelite where you start strong and just get stronger, is coming this winter",
@@ -3738,7 +3741,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.767
+    "hotScore": 0.764
   },
   {
     "title": "From the creators of Mouthwashing comes a co-op tank game with a disgusting twist",
@@ -3747,7 +3750,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.768
+    "hotScore": 0.764
   },
   {
     "title": "Persona 4 Revival avoids Persona 3 Reload's biggest mistake, and I'm so relieved this JRPG looks like a definitive remake",
@@ -3756,7 +3759,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.769
+    "hotScore": 0.766
   },
   {
     "title": "“Clock Tower” respected horror “Remothered: Tormented Fathers” will be distributed free of charge for one day only on Steam. A game with a regular price of 2050 yen is now free",
@@ -3765,7 +3768,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.771,
+    "hotScore": 0.768,
     "groupMembers": [
       {
         "title": "``Clock Tower'' respected horror sequel ``Remothered: Broken Porcelain'' is available for free for one day only on GOG.com. Free games with a list price of 3090 yen",
@@ -3784,7 +3787,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 1.544,
+    "hotScore": 1.537,
     "groupMembers": [
       {
         "title": "El Paso, Elsewhere 2 revealed with PC Gaming Show trailer",
@@ -3803,7 +3806,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.772
+    "hotScore": 0.769
   },
   {
     "title": "We got a fresh look at Total War: Warhammer 40k and, friends, I'm already on board to do some horrible things to millions of spacemen",
@@ -3812,7 +3815,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.773
+    "hotScore": 0.769
   },
   {
     "title": "About Fishing keeps reeling me in further with its creepy, nostalgic vibes",
@@ -3821,7 +3824,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.773
+    "hotScore": 0.77
   },
   {
     "title": "Announcement of cooperative multiplayer roguelike assassination game ``Gone Feral.'' Kill targets with weapons, turkey legs, guitars, and more in a voxel assassination sim created by a veteran former Bethesda developer.",
@@ -3830,7 +3833,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.774
+    "hotScore": 0.771
   },
   {
     "title": "Gears of War: E-Day gets the official Cliff Bleszinski seal of approval",
@@ -3839,7 +3842,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.775
+    "hotScore": 0.771
   },
   {
     "title": "We're getting a new Vampire: The Masquerade game and, hell yes, it's a 'narrative-driven CRPG' with big Disco Elysium vibes",
@@ -3848,7 +3851,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 2.324,
+    "hotScore": 2.314,
     "groupMembers": [
       {
         "title": "Vampire: The Masquerade - Eternal Whispers is a new, Disco Elysium-like CRPG",
@@ -3875,7 +3878,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.775
+    "hotScore": 0.771
   },
   {
     "title": "After half a decade, Valheim 1.0 finally has a release date",
@@ -3884,7 +3887,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.776
+    "hotScore": 0.772
   },
   {
     "title": "Everything I saw on my trip to Valheim's final biome, the Deep North: from ghost vikings to rampaging moose",
@@ -3893,7 +3896,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.776
+    "hotScore": 0.773
   },
   {
     "title": "Valheim launches September 9",
@@ -3902,7 +3905,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 3.104,
+    "hotScore": 3.091,
     "groupMembers": [
       {
         "title": "After over 5 years in early access, Valheim 1.0 launches in September with its final biome update, Deep North",
@@ -3937,7 +3940,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.777
+    "hotScore": 0.773
   },
   {
     "title": "Spyro Devs Don’t See Many Comparisons To Its Flying, Except Iron Man Or Flight Sims",
@@ -3946,7 +3949,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.777
+    "hotScore": 0.773
   },
   {
     "title": "If you've ever wanted to play Geoguessr with a narrative twist, Locator: The Search for Abigail is what you've been waiting for",
@@ -3955,7 +3958,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.777
+    "hotScore": 0.774
   },
   {
     "title": "Sunset Summit, a climbing action game in which old men aim to reach the top with an ice ax in hand, has been announced. Supports cooperative play with up to 8 people",
@@ -3964,7 +3967,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.778
+    "hotScore": 0.775
   },
   {
     "title": "Robots and matter-altering powers help you get the edge in combat and exploration, in a new Exodus extended gameplay reveal",
@@ -3973,7 +3976,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.779
+    "hotScore": 0.775
   },
   {
     "title": "``Exo Rally Championship'', a racing game set on a harsh remote planet, is released today. Launch trailer also released",
@@ -3982,7 +3985,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.779
+    "hotScore": 0.776
   },
   {
     "title": "Oh, yep, that's a pregnant nun chasing you in the gameplay trailer for Remothered: Red Nun's Legacy",
@@ -3991,7 +3994,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.78
+    "hotScore": 0.776
   },
   {
     "title": "Into the Wind is a gorgeous, Ghibli-esque adventure about taking over your missing uncle's delivery service, but with more dogfighting in your aeroplane bike",
@@ -4000,7 +4003,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.781
+    "hotScore": 0.777
   },
   {
     "title": "Everything We Learned From The Gears Of War: E-Day Direct",
@@ -4009,7 +4012,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.782
+    "hotScore": 0.779
   },
   {
     "title": "Valheim 1.0 release date announced, so prepare to ward off \"ancient evils and lurking threats\" in its treacherously icy final biome",
@@ -4018,7 +4021,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.782
+    "hotScore": 0.779
   },
   {
     "title": "Announcement of new cooperative horror \"Pipes.exe\". Live-action trailer with disturbing atmosphere released",
@@ -4027,7 +4030,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.783
+    "hotScore": 0.78
   },
   {
     "title": "The new Crazy Taxi has a generative AI disclosure on its Steam page, and people are not happy",
@@ -4036,7 +4039,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.783
+    "hotScore": 0.78
   },
   {
     "title": "Matt Booty Explains Xbox's Plans For Exclusive Games Going Forward",
@@ -4045,7 +4048,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.789
+    "hotScore": 0.786
   },
   {
     "title": "One of Subnautica 2's ousted execs is now working on a sequel to ship-scavenging horror game Duskers",
@@ -4054,7 +4057,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.793
+    "hotScore": 0.789
   },
   {
     "title": "\"It is alive\": the makers of 2024 horror GOTY Mouthwashing are back with perhaps the most dreadful World War tank sim you'll ever play",
@@ -4063,7 +4066,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.793
+    "hotScore": 0.789
   },
   {
     "title": "Exodus narrative director dives into its inspirations from Interstellar to Star Wars to, yes, Mass Effect",
@@ -4072,7 +4075,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.793
+    "hotScore": 0.789
   },
   {
     "title": "Planet Zoo 2 Preview: It's Time to Monkey Around",
@@ -4081,7 +4084,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.793
+    "hotScore": 0.79
   },
   {
     "title": "Planet Zoo 2 Gives The Community What It’s Always Wanted: Aquariums, Aviaries, And More Creativity",
@@ -4090,7 +4093,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.793
+    "hotScore": 0.79
   },
   {
     "title": "Third-person rogue-lite shooter \"Armatus\" to be released this winter on PC, PS5, XBOX, and Nintendo Switch 2",
@@ -4099,7 +4102,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.796
+    "hotScore": 0.792
   },
   {
     "title": "The demo version of the fishing mystery \"About Fishing\" is now available. The latest disturbing trailer",
@@ -4108,7 +4111,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.796
+    "hotScore": 0.793
   },
   {
     "title": "MMORPG \"The Elder Scrolls Online\" Season 1 announced. A new story for “Thieves Guild” after a long time",
@@ -4117,7 +4120,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.802
+    "hotScore": 0.799
   },
   {
     "title": "There's suddenly a terrifying number of games releasing this fall",
@@ -4126,7 +4129,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.808
+    "hotScore": 0.805
   },
   {
     "title": "“Carcass Clad”, a “tank horror” game exclusively for 3 players, announced. A new work from the developer of the popular horror game ``Mouthwashing'' featuring intense tank battles in which teams of three must escape from a strange town.",
@@ -4135,7 +4138,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.81
+    "hotScore": 0.807
   },
   {
     "title": "Stage Tour ‘Developer Spotlight’ trailer, latest details",
@@ -4144,7 +4147,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.812
+    "hotScore": 0.808
   },
   {
     "title": "Xbox Clarifies Its Exclusivity Strategy Moving Forward, Wants You To Buy An Xbox",
@@ -4153,7 +4156,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.813
+    "hotScore": 0.809
   },
   {
     "title": "10 Great Games Ahead Of Their Time",
@@ -4162,16 +4165,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.815
-  },
-  {
-    "title": "Announcement of “Signet City”, a “parasitic perspective” post-apocalyptic city RPG. The new game from the ``Citizen Sleeper'' developer also uses a TRPG-like system, where dice rolls and decisions change the fate of the ``host''",
-    "link": "https://automaton-media.com/articles/newsjp/20260608-448254",
-    "date": 1780868012000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 0.817
+    "hotScore": 0.811
   },
   {
     "title": "How Gothic Remake Works to Give You an Especially Immersive Open World | IGN Live 2026",
@@ -4180,7 +4174,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.827
+    "hotScore": 0.823
   },
   {
     "title": "The Simpsons: Hit And Run Remake Hinted At By Insider",
@@ -4189,7 +4183,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.835
+    "hotScore": 0.832
   },
   {
     "title": "Round Up: All the PS5 Reveals from Sony's State of Play for June 2026",
@@ -4198,7 +4192,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.836
+    "hotScore": 0.833
   },
   {
     "title": "\"Weekly 4Gamer\" looking back at 4Gamer's week, June 1st to June 7th, 2026",
@@ -4207,7 +4201,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.836
+    "hotScore": 0.833
   },
   {
     "title": "Exodus Has Nailed Mass Effect's Combat, But I'm Worried About The Roleplaying",
@@ -4216,7 +4210,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.837
+    "hotScore": 0.834
   },
   {
     "title": "VTM's Disco Elysium-Inspired CRPG Seeks Redemption from Bloodlines 2 Fans",
@@ -4225,7 +4219,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.843
+    "hotScore": 0.84
   },
   {
     "title": "Korean Marines Are Picking Out Call of Duty: Modern Warfare 4 Inaccuracies Ahead of Release",
@@ -4234,7 +4228,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.845
+    "hotScore": 0.842
   },
   {
     "title": "A few seconds of gameplay for the OD \"Knock\" trailer seems to have leaked",
@@ -4243,7 +4237,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.849
+    "hotScore": 0.845
   },
   {
     "title": "10 Greatest Indie Games of the 2000s",
@@ -4252,7 +4246,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.859
+    "hotScore": 0.855
   },
   {
     "title": "“Amphibious bike” open world “Into the Wind” announced. A delivery game where you race across islands with a motorcycle as your partner and battle against sky pirates.",
@@ -4261,7 +4255,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.869
+    "hotScore": 0.865
   },
   {
     "title": "Persona 6 Details Confirm Japanese School Setting, 'Supernatural Adventure', and 'Bold Story'",
@@ -4270,7 +4264,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.882
+    "hotScore": 0.878
   },
   {
     "title": "[This week's motivation] The latest series \"Powerful Professional Baseball 2026-2027\" and survival craft \"Solar Punk: Island in the Sky\" will be released June 8, 2026 - June 14, 2026",
@@ -4279,7 +4273,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.882
+    "hotScore": 0.878
   },
   {
     "title": "End of Abyss Is A Fantastic (And Hard) Addition To A New Era Of Survival Horror",
@@ -4288,7 +4282,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.883,
+    "hotScore": 0.879,
     "groupMembers": [
       {
         "title": "End of Abyss Is A Fantastic (And Hard) Addition To A New Era Of Survival Horror",
@@ -4307,7 +4301,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.89
+    "hotScore": 0.886
   },
   {
     "title": "Jordan Middler on the VGC podcast seemingly suggests a new Uncharted is on the way",
@@ -4316,7 +4310,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.89
+    "hotScore": 0.886
   },
   {
     "title": "Nvidia, SK Hynix Seal Multi-Year Pact to Develop AI Chips",
@@ -4325,7 +4319,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.903
+    "hotScore": 0.899
   },
   {
     "title": "9 Details From The Final Fantasy 7 Revelation Reveal Trailer We Can’t Stop Thinking About",
@@ -4334,7 +4328,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.903
+    "hotScore": 0.899
   },
   {
     "title": "Future Xbox Exclusivity Will Be 'Case-by-Case', PS5 Ports Will Be Revealed Alongside Release Dates",
@@ -4343,7 +4337,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.902
   },
   {
     "title": "10 Hard to Beat PS2 JRPGs",
@@ -4352,7 +4346,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.902
   },
   {
     "title": "[From inexperienced to editor] It's not just major companies that can create books! What is a realistic route for people from other industries to enter?",
@@ -4361,7 +4355,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.907
+    "hotScore": 0.904
   },
   {
     "title": "Alix Wilton Regan on Becoming Lara Croft in Tomb Raider: Legacy of Atlantis | IGN Live 2026",
@@ -4370,7 +4364,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.912
+    "hotScore": 0.908
   },
   {
     "title": "Best Sprites in Fortnite Chapter 7 Season 3",
@@ -4379,7 +4373,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.918
+    "hotScore": 0.914
   },
   {
     "title": "Until the remake of ``Resident Evil CODE: Veronica'' came out, the person who had ``declared to lock up grandma'' released her. But I still can't go out yet.",
@@ -4388,7 +4382,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.919
+    "hotScore": 0.915
   },
   {
     "title": "VV Ultimatum Best Race Tier List",
@@ -4397,7 +4391,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.926,
+    "hotScore": 0.922,
     "groupMembers": [
       {
         "title": "VV ULTIMATUM Beginners Guide (Materials List)",
@@ -4416,7 +4410,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.93
+    "hotScore": 0.926
   },
   {
     "title": "[Stocks] Tay Two continues to grow significantly; monthly sales in May 2026 increased by 66% due to strong sales of games and trading cards",
@@ -4425,7 +4419,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.95
+    "hotScore": 0.946
   },
   {
     "title": "Best Sorcerer build in TBH: Task Bar Hero",
@@ -4434,7 +4428,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.953
+    "hotScore": 0.949
   },
   {
     "title": "Stellar Blade Dev Explains New Hero Design, Praises Sony's Publishing Support",
@@ -4443,7 +4437,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.955
+    "hotScore": 0.951
   },
   {
     "title": "Death Note: 10 Anime Detectives Who Would Have Caught Light Before L",
@@ -4452,16 +4446,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.956
-  },
-  {
-    "title": "[Network Maintenance Notice] Network maintenance will be carried out on the [Nintendo Store] from approximately 02:00 to 07:00 on 9 June. Please note that the service may be unavailable during this period.",
-    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tzt4mq/network_maintenance_notice_network_maintenance",
-    "date": 1780879557000,
-    "domain": "reddit.com",
-    "sourceName": "Reddit Leaks",
-    "isTranslated": false,
-    "hotScore": 0.969
+    "hotScore": 0.952
   },
   {
     "title": "Studio Ghibli and Stardew Valley fans need to wishlist Xbox's Vivarium",
@@ -4470,7 +4455,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.972
+    "hotScore": 0.968
   },
   {
     "title": "There are plans for bolder Star Trek video games",
@@ -4479,7 +4464,7 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 0.984
+    "hotScore": 0.979
   },
   {
     "title": "The server enhancement update for the highly congested ``Taskbar Hero'' has been postponed because it ``doesn't fundamentally solve the problem.'' New listings on the market will soon be suspended",
@@ -4488,7 +4473,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.994
+    "hotScore": 0.99
   },
   {
     "title": "[What day is it today? ] Level-5 releases “Professor Layton and the Mysterious Town EXHD for Smartphone” (June 8, 2018)",
@@ -4497,6 +4482,6 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.994
+    "hotScore": 0.99
   }
 ]
