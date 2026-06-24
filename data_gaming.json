@@ -1,57 +1,12 @@
 [
   {
-    "title": "“Deer and Boy”, a bonding journey game with “no lines”, released today. A runaway boy and a fawn support each other on a quiet journey of \"one person and one animal\"",
-    "link": "https://automaton-media.com/articles/newsjp/20260623-451158",
-    "date": 1782219674000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 0.278
-  },
-  {
-    "title": "Monster Hunter Stories studio Marvelous in trouble as Tencent reportedly seeks to back away from Japanese studio investments",
-    "link": "https://www.eurogamer.net/tencent-selling-stakes-japanese-studios-marvelous",
-    "date": 1782219716000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 0.278
-  },
-  {
-    "title": "THQ Nordic Digital Showcase 2026 set for August 7",
-    "link": "https://www.gematsu.com/2026/06/thq-nordic-digital-showcase-2026-set-for-august-7",
-    "date": 1782219911000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 0.837,
-    "groupMembers": [
-      {
-        "title": "Xbox Game Pass Title To Be Spotlighted At THQ Nordic Showcase This August",
-        "link": "https://www.purexbox.com/news/2026/06/xbox-game-pass-title-to-be-spotlighted-at-thq-nordic-showcase-this-august",
-        "date": 1782241200000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
-      },
-      {
-        "title": "THQ Nordic Digital Showcase 2026 will be broadcast from 4:00 on August 8th. Plans to release the latest information on \"Titan Quest II\", \"Wreckfest 2\", etc.",
-        "link": "https://www.4gamer.net/games/730/G073013/20260624008",
-        "date": 1782269717000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
     "title": "Valorant’s 13.00 patch notes bring massive Agent overhauls and Bandit changes",
     "link": "https://www.dexerto.com/valorant/valorants-13-00-patch-notes-bring-massive-agent-overhauls-and-bandit-changes-3378484",
     "date": 1782219977000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.279
+    "hotScore": 0.278
   },
   {
     "title": "CULTIC coming to PS5, Xbox Series, and Switch 2 on July 23",
@@ -60,7 +15,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.279
   },
   {
     "title": "Final Fantasy 7 Revelation lead says \"the way we design games also needs to evolve\" as streaming over buying becomes more common, even if he does \"fully support\" content creators",
@@ -69,7 +24,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.84,
+    "hotScore": 0.836,
     "groupMembers": [
       {
         "title": "Final Fantasy 14 has done something I did not expect—it's actually fixed one of the most annoying things about its newest ultimate raid",
@@ -96,7 +51,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.279
   },
   {
     "title": "‘Cassette futuristic’ pixel art CRPG Wind Up Deadman to be published by NEOWIZ",
@@ -105,7 +60,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.279
   },
   {
     "title": "Resident Evil Requiem Drops to $56 on Amazon, Including First-Ever Nintendo Switch 2 Discount",
@@ -114,7 +69,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.283
+    "hotScore": 0.282
   },
   {
     "title": "Xbox is publishing Kojima's mysterious horror game OD because apparently no one else wanted it - they didn't understand the concept",
@@ -123,16 +78,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.283
-  },
-  {
-    "title": "8BitDo Celebrates N64 In Style With New Controller And Keyboard",
-    "link": "https://www.nintendolife.com/news/2026/06/8bitdo-celebrates-n64-in-style-with-new-controller-and-keyboard",
-    "date": 1782221400000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.285
+    "hotScore": 0.282
   },
   {
     "title": "See So Many More AA PS5 Games in THQ Nordic's Showcase This August",
@@ -141,7 +87,26 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.285
+    "hotScore": 0.568,
+    "groupMembers": [
+      {
+        "title": "Xbox Game Pass Title To Be Spotlighted At THQ Nordic Showcase This August",
+        "link": "https://www.purexbox.com/news/2026/06/xbox-game-pass-title-to-be-spotlighted-at-thq-nordic-showcase-this-august",
+        "date": 1782241200000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "8BitDo Celebrates N64 In Style With New Controller And Keyboard",
+    "link": "https://www.nintendolife.com/news/2026/06/8bitdo-celebrates-n64-in-style-with-new-controller-and-keyboard",
+    "date": 1782221400000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 0.284
   },
   {
     "title": "New Marvel gacha game leak reveals co-op ARPG with Genshin Impact-style mechanics",
@@ -150,7 +115,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.288
+    "hotScore": 0.287
   },
   {
     "title": "\"This crisis was avoidable, but our bosses chose to drive blindly towards disaster\": French videogame union STJV call for national industry strike day",
@@ -159,7 +124,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.291
+    "hotScore": 0.29
   },
   {
     "title": "Best Darktide Skitarii build",
@@ -168,7 +133,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.879,
+    "hotScore": 0.875,
     "groupMembers": [
       {
         "title": "Warhammer 40,000: Darktide Gets Free Update Alongside Skitarii Class, Adds a New Enemy",
@@ -195,7 +160,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "Games Workshop never detailed how the Skitarii's most iconic weapon reloads, so Fatshark helped model it after a gaming classic",
@@ -204,7 +169,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "'Absolutely Terrible Idea': Nobody Likes Sony's New PS Plus Experiment",
@@ -213,7 +178,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "'Sea of Thieves' Movie Joins 'Gears Of War' In Xbox's Hollywood Push",
@@ -222,7 +187,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "Psychological horror visual novel Monologin follows a cashier who finds comfort in a dying MMORPG",
@@ -231,7 +196,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "“Deer and Boy,” a cinematic platformer that depicts the journey of a boy and a deer that deepen their bond without exchanging words, is released today.",
@@ -240,7 +205,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "Resident Evil Requiem Singing Zombie Can Be Your Bride",
@@ -249,7 +214,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
     "title": "We could've had a 'very Dream Daddy-inspired' Destiny dating sim, but management said no fun",
@@ -258,16 +223,16 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.293
+    "hotScore": 0.292
   },
   {
-    "title": "The blockbuster multiplayer survival craft ``RuneScape: Dragonwilds'' finally has Japanese support with a major update. The last big expansion for early access, including a desert area where “the sun kills lives”",
+    "title": "The blockbuster multiplayer survival craft ``RuneScape: Dragonwilds'' finally has Japanese support with a major update. The last big expansion for early access, including desert areas where “the sun kills lives”",
     "link": "https://automaton-media.com/articles/newsjp/20260623-451375",
     "date": 1782223358000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.294
+    "hotScore": 0.292
   },
   {
     "title": "Sonic Frontiers Definitive Edition Sprints To Switch 2 Today",
@@ -276,7 +241,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 1.764,
+    "hotScore": 1.757,
     "groupMembers": [
       {
         "title": "Sonic Frontiers’ Switch 2 ‘Definitive Edition’ is finally announced – and it’s out now",
@@ -327,7 +292,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.592,
+    "hotScore": 0.59,
     "groupMembers": [
       {
         "title": "Dragon Ball Xenoverse 3 Shows West City Characters Like Bulma",
@@ -346,7 +311,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.89,
+    "hotScore": 0.886,
     "groupMembers": [
       {
         "title": "\"It didn't look like things were going to change anytime soon\": Valve insist price worries were never behind Steam Machine delays",
@@ -381,7 +346,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.299
+    "hotScore": 0.298
   },
   {
     "title": "Marvel’s Wolverine star and other actors confirm new GTA 6 roles",
@@ -390,7 +355,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.3
+    "hotScore": 0.299
   },
   {
     "title": "One of PS5's Most Promising Open World Games Is Finally Being Showcased in August",
@@ -399,7 +364,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.301
+    "hotScore": 0.3
   },
   {
     "title": "Hideo Kojima says his pitch for OD sounded \"crazy\" to every publisher except Xbox",
@@ -408,7 +373,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.303
+    "hotScore": 0.302
   },
   {
     "title": "The grim industry summer continues as EA lays off staff ahead of $55 billion sale to Saudi Arabia, likely to soothe the sting of its $20 billion debt",
@@ -417,7 +382,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.305
+    "hotScore": 0.304
   },
   {
     "title": "Palworld fans are already thirsting over upcoming Pal ‘Sekhmet’",
@@ -426,7 +391,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.306
+    "hotScore": 0.305
   },
   {
     "title": "Star Wars: Galactic Racer – The First Preview",
@@ -435,7 +400,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.927,
+    "hotScore": 2.769,
     "groupMembers": [
       {
         "title": "I think Star Wars: Galactic Racer might be the Burnout revival I’ve waited decades for",
@@ -446,43 +411,45 @@
         "isTranslated": false
       },
       {
+        "title": "\"It's like lightning in a bottle\" - Star Wars Galactic Racer devs spill the beans on why it's so hard to make a game as good as Burnout Paradise",
+        "link": "https://www.eurogamer.net/burnout-paradise-galactic-racer-interview-lightning-in-a-bottle",
+        "date": 1782226814000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "Star Wars: Galactic Racer let me play podracer ping-pong, though its high-stakes roguelike gauntlet feels more tuned for pace-focused speeder freaks",
+        "link": "https://www.rockpapershotgun.com/star-wars-galactic-racer-let-me-play-podracer-ping-pong-though-its-high-stakes-roguelike-gauntlet-feels-more-tuned-for-pace-focused-speeder-freaks",
+        "date": 1782226800000,
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "How Star Wars: Galactic Racer Turns Podracing into a Challenging Roguelite",
+        "link": "https://news.xbox.com/en-us/2026/06/23/star-wars-galactic-racer-turns-podracing-into-roguelite",
+        "date": 1782226800000,
+        "domain": "news.xbox.com",
+        "sourceName": "Xbox Wire",
+        "isTranslated": false
+      },
+      {
+        "title": "Preview: 5 Things That Surprised Me Playing Star Wars: Galactic Racer on PS5",
+        "link": "https://www.pushsquare.com/previews/5-things-that-surprised-me-playing-star-wars-galactic-racer-on-ps5",
+        "date": 1782226800000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
         "title": "Round Up: The Previews Are In For Star Wars: Galactic Racer",
         "link": "https://www.purexbox.com/news/2026/06/round-up-the-previews-are-in-for-star-wars-galactic-racer",
         "date": 1782293400000,
         "domain": "purexbox.com",
         "sourceName": "Pure Xbox",
         "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Dragon Ball Xenoverse 3 Invites You to Experience Age 1000 for Yourself | IGN Preview",
-    "link": "https://www.ign.com/articles/dragon-ball-xenoverse-3-preview-age-1000",
-    "date": 1782226800000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 0.618,
-    "groupMembers": [
-      {
-        "title": "“Dragon Ball Xenoverse 3” Preview & Interview Experience the battle with Broly in AGE 1000 and more",
-        "link": "https://jp.ign.com/dragon-ball-xenoverse-3/83585/3-age-1000",
-        "date": 1782277025000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
-  },
-  {
-    "title": "Star Wars: Galactic Racer let me play podracer ping-pong, though its high-stakes roguelike gauntlet feels more tuned for pace-focused speeder freaks",
-    "link": "https://www.rockpapershotgun.com/star-wars-galactic-racer-let-me-play-podracer-ping-pong-though-its-high-stakes-roguelike-gauntlet-feels-more-tuned-for-pace-focused-speeder-freaks",
-    "date": 1782226800000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 0.927,
-    "groupMembers": [
+      },
       {
         "title": "Star Wars: Galactic Racer proves that roguelikes and racing are \"a match made in heaven,\" and it's bringing white knuckle consequences back to the genre",
         "link": "https://www.gamesradar.com/games/racing/star-wars-galactic-racer-proves-that-roguelikes-and-racing-are-a-match-made-in-heaven-and-its-bringing-white-knuckle-consequences-back-to-the-genre",
@@ -502,13 +469,40 @@
     ]
   },
   {
+    "title": "Dragon Ball Xenoverse 3 Invites You to Experience Age 1000 for Yourself | IGN Preview",
+    "link": "https://www.ign.com/articles/dragon-ball-xenoverse-3-preview-age-1000",
+    "date": 1782226800000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 0.615,
+    "groupMembers": [
+      {
+        "title": "\"Dragon Ball Xenoverse 3\" screenshot",
+        "link": "https://jp.ign.com/dragon-ball-xenoverse-3/83586/3",
+        "date": 1782277025000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      },
+      {
+        "title": "“Dragon Ball Xenoverse 3” Preview & Interview Experience the battle with Broly in AGE 1000 and more",
+        "link": "https://jp.ign.com/dragon-ball-xenoverse-3/83585/3-age-1000",
+        "date": 1782277025000,
+        "domain": "jp.ign.com",
+        "sourceName": "IGN Japan",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
     "title": "Senior EA Exec Credits Generative AI For A \"Real Rise In Creativity\"",
     "link": "https://www.purexbox.com/news/2026/06/senior-ea-exec-credits-generative-ai-for-a-real-rise-in-creativity",
     "date": 1782226800000,
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.618,
+    "hotScore": 0.615,
     "groupMembers": [
       {
         "title": "EA exec says AI has helped drive 'a real rise of creativity' at its studios",
@@ -521,40 +515,13 @@
     ]
   },
   {
-    "title": "How Star Wars: Galactic Racer Turns Podracing into a Challenging Roguelite",
-    "link": "https://news.xbox.com/en-us/2026/06/23/star-wars-galactic-racer-turns-podracing-into-roguelite",
-    "date": 1782226800000,
-    "domain": "news.xbox.com",
-    "sourceName": "Xbox Wire",
-    "isTranslated": false,
-    "hotScore": 0.309
-  },
-  {
     "title": "Feature: I Lent Out My N64 Like A (Deku) Dealer",
     "link": "https://www.nintendolife.com/features/i-lent-out-my-n64-like-a-deku-dealer",
     "date": 1782226800000,
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.309
-  },
-  {
-    "title": "Preview: 5 Things That Surprised Me Playing Star Wars: Galactic Racer on PS5",
-    "link": "https://www.pushsquare.com/previews/5-things-that-surprised-me-playing-star-wars-galactic-racer-on-ps5",
-    "date": 1782226800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 0.309
-  },
-  {
-    "title": "\"It's like lightning in a bottle\" - Star Wars Galactic Racer devs spill the beans on why it's so hard to make a game as good as Burnout Paradise",
-    "link": "https://www.eurogamer.net/burnout-paradise-galactic-racer-interview-lightning-in-a-bottle",
-    "date": 1782226814000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 0.309
+    "hotScore": 0.308
   },
   {
     "title": "Hear the One Piece Heroines Anime Theme Song in a New Trailer",
@@ -563,7 +530,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.309
+    "hotScore": 0.308
   },
   {
     "title": "Nicolas Cage becomes a Call of Duty skin in what may be one last hurrah for goofy collaborations",
@@ -572,7 +539,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.311
+    "hotScore": 0.31
   },
   {
     "title": "Cupid Parasite for PC launches September 22",
@@ -581,7 +548,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.312
+    "hotScore": 0.31
   },
   {
     "title": "Meccha Chameleon beginner’s tips and tricks for Painters and Hunters",
@@ -590,7 +557,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.316
+    "hotScore": 0.315
   },
   {
     "title": "Here comes a new launcher for Warhammer 40,000: Rogue Trader, annnnd there goes the new launcher after a day of backlash from roaring traders",
@@ -599,7 +566,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.317
+    "hotScore": 0.316
   },
   {
     "title": "Preview: Dragon Ball XenoVerse 3 Could Be the Bigger Budget Sequel the Series Needs",
@@ -608,7 +575,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.317
+    "hotScore": 0.316
   },
   {
     "title": "Uta no Prince-sama: Shining Live for Nintendo Switch launches December 17 in Japan",
@@ -617,7 +584,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.318
+    "hotScore": 0.316
   },
   {
     "title": "How Tencent sees AI and UGC lowering game dev costs and leading to new kinds of games | Tian Xiao fireside chat",
@@ -626,7 +593,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.32
+    "hotScore": 0.319
   },
   {
     "title": "Sonic Frontiers Has Sold Just Shy Of 5 Million Copies",
@@ -635,7 +602,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.322
+    "hotScore": 0.32
   },
   {
     "title": "Destiny 2 devs repeatedly pitched a dating sim, Bungie veterans say, \"but leadership was very Hard No that nobody wanted romance or silliness\"",
@@ -644,7 +611,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.977,
+    "hotScore": 0.973,
     "groupMembers": [
       {
         "title": "Bungie Developers Repeatedly Pitched a Destiny Dating Sim, but Leadership Rejected It",
@@ -671,7 +638,17 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.649,
+    "groupMembers": [
+      {
+        "title": "Round Up: The Previews Are In For Resonance: A Plague Tale Legacy",
+        "link": "https://www.purexbox.com/news/2026/06/round-up-the-previews-are-in-for-resonance-a-plague-tale-legacy",
+        "date": 1782306000000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Italy's second-largest independent game studio buys its freedom from Embracer",
@@ -680,7 +657,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.325
   },
   {
     "title": "Farming Life Sim Kynseed Heads to Switch, PS4, PS5, and Xbox",
@@ -689,25 +666,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.326
-  },
-  {
-    "title": "To celebrate Sonic the Hedgehog's 35th anniversary, I've gathered some of the best merch based on the beloved blue blur - from Lego sets to Loungefly bags",
-    "link": "https://www.gamesradar.com/toys-collectibles/to-celebrate-sonic-the-hedgehogs-35th-anniversary-ive-gathered-some-of-the-best-merch-based-on-the-beloved-blue-blur-from-lego-sets-to-loungefly-bags",
-    "date": 1782230400000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 0.326
-  },
-  {
-    "title": "\"There are only so many buttons on a controller\": How Pragmata overcame huge design challenges to deliver a \"memorable and satisfying\" action game",
-    "link": "https://www.gamesradar.com/games/third-person-shooter/there-are-only-so-many-buttons-on-a-controller-how-pragmata-overcame-huge-design-challenges-to-deliver-a-memorable-and-satisfying-action-game",
-    "date": 1782230400000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.325
   },
   {
     "title": "One of 2026's Most Fiendishly Addictive PS5 Games Is Getting Even Bigger and Better",
@@ -716,7 +675,25 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.325
+  },
+  {
+    "title": "To celebrate Sonic the Hedgehog's 35th anniversary, I've gathered some of the best merch based on the beloved blue blur - from Lego sets to Loungefly bags",
+    "link": "https://www.gamesradar.com/toys-collectibles/to-celebrate-sonic-the-hedgehogs-35th-anniversary-ive-gathered-some-of-the-best-merch-based-on-the-beloved-blue-blur-from-lego-sets-to-loungefly-bags",
+    "date": 1782230400000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.325
+  },
+  {
+    "title": "\"There are only so many buttons on a controller\": How Pragmata overcame huge design challenges to deliver a \"memorable and satisfying\" action game",
+    "link": "https://www.gamesradar.com/games/third-person-shooter/there-are-only-so-many-buttons-on-a-controller-how-pragmata-overcame-huge-design-challenges-to-deliver-a-memorable-and-satisfying-action-game",
+    "date": 1782230400000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.325
   },
   {
     "title": "Developer of Papers, Please-like customs simulator XenoFeels had to clarify “there’s no hentai” in the game following Steam user tag confusion",
@@ -725,7 +702,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.325
   },
   {
     "title": "Jersey Jack Pinball and Sega announce the official Sonic the Hedgehog Pinball Machine",
@@ -734,7 +711,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.325
   },
   {
     "title": "Video: Here’s 30 minutes of Resonance: A Plague Tale Legacy gameplay",
@@ -743,7 +720,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.326
+    "hotScore": 0.325
   },
   {
     "title": "Best overall, offensive and defensive schools in College Football 27",
@@ -752,7 +729,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.329
+    "hotScore": 0.328
   },
   {
     "title": "Despite Sega's Mario Kart World shade, rival racer Sonic Racing: CrossWorlds has \"fallen short\" of expectations, and compared to Nintendo's sales I can see why",
@@ -761,7 +738,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.33
+    "hotScore": 0.329
   },
   {
     "title": "Dusk Golem: \"There isn't any drive to do a RE5 remake at Capcom\"'",
@@ -770,7 +747,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.332
+    "hotScore": 0.331
   },
   {
     "title": "Happy 35th, Sonic: Sonic Team boss on anniversary plans and how Mania inspired new indie collab",
@@ -779,7 +756,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.332
+    "hotScore": 0.331
   },
   {
     "title": "Path of Exile co-creator \"would have scoffed at something like Baldur's Gate 3\" 10 years ago, but now he knows why live service isn't necessarily \"the future\"",
@@ -788,7 +765,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.667,
+    "hotScore": 0.664,
     "groupMembers": [
       {
         "title": "Path of Exile co-creator used to think 'live service was entirely upside, in all cases', but 10 years of experience and games like Baldur's Gate 3 have shown him another way",
@@ -807,7 +784,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.338
+    "hotScore": 0.336
   },
   {
     "title": "Fan revolt forces RPG studio to kill its new launcher just 19 hours after release",
@@ -816,7 +793,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.34
+    "hotScore": 0.339
   },
   {
     "title": "Grand Theft Auto 6 'VIP early access' scam sites are already popping up, Malwarebytes warns",
@@ -825,7 +802,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.681,
+    "hotScore": 0.678,
     "groupMembers": [
       {
         "title": "Grand Theft Auto 6 pre-orders begin at midnight, there's no disc in the box, and physical editions are going out five days early",
@@ -852,7 +829,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.341
+    "hotScore": 0.34
   },
   {
     "title": "\"The combinations are in the trillions\": Star Wars Galactic Racer’s creative director on speeder specialisation, storycrafting, and having “a bit of a smash”",
@@ -861,7 +838,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.344
+    "hotScore": 0.342
   },
   {
     "title": "Rhythm Heaven Groove Starter Demo Drops on Switch",
@@ -870,7 +847,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.344
+    "hotScore": 0.342
   },
   {
     "title": "Invincible VS: Universa and The Immortal Join the Roster on June 30",
@@ -879,7 +856,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.344
+    "hotScore": 0.342
   },
   {
     "title": "There's A Capcom Showcase Happening This Week",
@@ -888,7 +865,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.344
+    "hotScore": 0.342
   },
   {
     "title": "Minecraft x Herschel collab brings limited edition bags and a game changing inventory add-on",
@@ -897,7 +874,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.343
   },
   {
     "title": "An 11th-Hour ARG Clue Is Upending A Year’s Worth Of Deltarune Fan Theories",
@@ -906,7 +883,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.347
+    "hotScore": 0.345
   },
   {
     "title": "HEAVYDELIC is a hand drawn, VHS tape and comic art infused platformer from an alternate timeline with roots in Slavic mythology",
@@ -915,7 +892,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.353
+    "hotScore": 0.351
   },
   {
     "title": "Best players for FC 26 Own the Box Evolution",
@@ -924,7 +901,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.354
+    "hotScore": 0.353
   },
   {
     "title": "Ghost Recon Project OVR scope cut to meet new deadlines - Insider Gaming",
@@ -933,7 +910,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.355
+    "hotScore": 0.354
   },
   {
     "title": "Hololive Fuwawa and Mococo Fuwamoco Nendoroids Only Sold Separately",
@@ -942,7 +919,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.363
+    "hotScore": 0.361
   },
   {
     "title": "Hands On: RayNeo Air 4 Pro - Be The Batman With These Switch 2-Compatible XR Glasses",
@@ -951,7 +928,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.363
+    "hotScore": 0.361
   },
   {
     "title": "Dimhaven - The Lost Source invites you and your camera to look for your missing uncle on a strange island today",
@@ -960,7 +937,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.369
+    "hotScore": 0.368
   },
   {
     "title": "\"Dragon Ball Xenoverse 3\", first PV released. Check out the new story and the new action “Soul Change” that contains the power of veteran warriors and fights.",
@@ -969,7 +946,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.37
+    "hotScore": 0.368
   },
   {
     "title": "Valve Says The Companies Making RAM Give Them A Price And If They Say No, They ‘Never Talk To Us Again’",
@@ -978,7 +955,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.744,
+    "hotScore": 0.741,
     "groupMembers": [
       {
         "title": "Well, that explains the expensive Steam Machine: Valve can't negotiate with RAM companies for better prices because \"if we say no, then they never talk to us again\"",
@@ -997,7 +974,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.372
+    "hotScore": 0.371
   },
   {
     "title": "Sonic Racing: CrossWorlds free character updates Classic Sonic, Axel, and Amigo announced",
@@ -1006,7 +983,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.12,
+    "hotScore": 1.115,
     "groupMembers": [
       {
         "title": "Sega is adding free Classic Sonic and Crazy Taxi DLC to Sonic Racing: CrossWorlds",
@@ -1033,7 +1010,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.747,
+    "hotScore": 0.744,
     "groupMembers": [
       {
         "title": "Valve admits Steam Machine is \"more expensive\" than it hoped",
@@ -1052,45 +1029,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.752,
-    "groupMembers": [
-      {
-        "title": "Lords Of The Fallen 2 Bails On A ‘Highly Competitive Holiday Period’ With New Delay",
-        "link": "https://kotaku.com/lords-of-the-fallen-2-bails-on-a-highly-competitive-holiday-period-with-new-delay-2000709606",
-        "date": 1782243909000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Apex Legends Season 29 Split 2 patch notes: All legend changes and more",
-    "link": "https://www.destructoid.com/apex-legends-season-29-split-2-patch-notes",
-    "date": 1782240165000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 0.377,
-    "groupMembers": [
-      {
-        "title": "Best Legends and weapons to use in Apex Legends Season 29 Split 2",
-        "link": "https://www.destructoid.com/best-legends-and-weapons-to-use-in-apex-legends-season-29-split-2",
-        "date": 1782254009000,
-        "domain": "destructoid.com",
-        "sourceName": "Destructoid",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Lords of the Fallen II delayed to Q1 2027",
-    "link": "https://www.gematsu.com/2026/06/lords-of-the-fallen-ii-delayed-to-q1-2027",
-    "date": 1782240250000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 1.508,
+    "hotScore": 2.995,
     "groupMembers": [
       {
         "title": "Lords of the Fallen 2 dodges crowded fall 2026, delayed to 2027",
@@ -1098,6 +1037,22 @@
         "date": 1782245201000,
         "domain": "polygon.com",
         "sourceName": "Polygon",
+        "isTranslated": false
+      },
+      {
+        "title": "Lords Of The Fallen 2 Bails On A ‘Highly Competitive Holiday Period’ With New Delay",
+        "link": "https://kotaku.com/lords-of-the-fallen-2-bails-on-a-highly-competitive-holiday-period-with-new-delay-2000709606",
+        "date": 1782243909000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      },
+      {
+        "title": "Lords of the Fallen II delayed to Q1 2027",
+        "link": "https://www.gematsu.com/2026/06/lords-of-the-fallen-ii-delayed-to-q1-2027",
+        "date": 1782240250000,
+        "domain": "gematsu.com",
+        "sourceName": "Gematsu",
         "isTranslated": false
       },
       {
@@ -1115,6 +1070,41 @@
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
         "isTranslated": false
+      },
+      {
+        "title": "Lords Of The Fallen 2 Escapes A Stacked September Release Date, Skulks Into 2027",
+        "link": "https://www.purexbox.com/news/2026/06/lords-of-the-fallen-2-escapes-a-stacked-september-release-date-skulks-into-2027",
+        "date": 1782304200000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
+      },
+      {
+        "title": "The release of the much-anticipated new Souls-like game ``Lords of the Fallen 2'' will be postponed from January to March next year. The industry's usual \"avoidance of GTA 6\" is already a fierce battleground even at the beginning of the year",
+        "link": "https://automaton-media.com/articles/newsjp/20260624-451428",
+        "date": 1782269592000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "Apex Legends Season 29 Split 2 patch notes: All legend changes and more",
+    "link": "https://www.destructoid.com/apex-legends-season-29-split-2-patch-notes",
+    "date": 1782240165000,
+    "domain": "destructoid.com",
+    "sourceName": "Destructoid",
+    "isTranslated": false,
+    "hotScore": 0.375,
+    "groupMembers": [
+      {
+        "title": "Best Legends and weapons to use in Apex Legends Season 29 Split 2",
+        "link": "https://www.destructoid.com/best-legends-and-weapons-to-use-in-apex-legends-season-29-split-2",
+        "date": 1782254009000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
       }
     ]
   },
@@ -1125,7 +1115,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.377
+    "hotScore": 0.376
   },
   {
     "title": "Call Of Duty’s Persona 5 Skins Are The Stuff Of Crossover Nightmares",
@@ -1134,7 +1124,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.378
+    "hotScore": 0.376
   },
   {
     "title": "Steam store page for new title ``Penguin Lifter'' for people who want to make a living just by waking up fallen penguins is now available",
@@ -1143,7 +1133,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.381
+    "hotScore": 0.379
   },
   {
     "title": "GTA 6's leaked prices are \"possible and plausible,\" analysts say, but a high barrier to entry \"would be penny-wise and pound-foolish\"",
@@ -1152,7 +1142,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.383
+    "hotScore": 0.381
   },
   {
     "title": "SEGA Celebrates 35 Years of Sonic with a Stylish Pinball Machine",
@@ -1161,7 +1151,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.383
+    "hotScore": 0.381
   },
   {
     "title": "Dragon Ball Xenoverse 3 Looks And Sounds Like A Big Improvement Over The First Two Games",
@@ -1170,17 +1160,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.767,
-    "groupMembers": [
-      {
-        "title": "\"Dragon Ball Xenoverse 3\" screenshot",
-        "link": "https://jp.ign.com/dragon-ball-xenoverse-3/83586/3",
-        "date": 1782277025000,
-        "domain": "jp.ign.com",
-        "sourceName": "IGN Japan",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 0.382
   },
   {
     "title": "A Star Fox review appears to have been published early by a Norwegian outlet before being removed",
@@ -1189,7 +1169,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.77,
+    "hotScore": 0.767,
     "groupMembers": [
       {
         "title": "Walmart may have sold Star Fox to a customer early (box on lap image)",
@@ -1216,7 +1196,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.387
+    "hotScore": 0.385
   },
   {
     "title": "Sonic Racing: CrossWorlds May Not Have Sold Well, But It Gets More Awesome by the Month",
@@ -1225,7 +1205,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.388
+    "hotScore": 0.386
   },
   {
     "title": "EA Exec Believes GenAI Can Help Developers Make Games Faster: ‘I Think There’s A Real Rise Of Creativity’",
@@ -1234,7 +1214,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.393
+    "hotScore": 0.391
   },
   {
     "title": "Who 'won' June 2026's Steam Next Fest?",
@@ -1243,7 +1223,7 @@
     "domain": "newsletter.gamediscover.co",
     "sourceName": "GameDiscoverCo",
     "isTranslated": false,
-    "hotScore": 0.393
+    "hotScore": 0.392
   },
   {
     "title": "Konami Is Suing To Unmask Whoever’s Responsible For The Major Metal Gear Solid 2 Source Code Leak",
@@ -1252,7 +1232,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.394
+    "hotScore": 0.392
   },
   {
     "title": "The Steam Machine's Companion Cube case is big, expensive, and based on a 19-year-old joke, so I hate how well-made it is",
@@ -1261,7 +1241,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.398
+    "hotScore": 0.396
   },
   {
     "title": "Next Helldivers 2 Warbond \"needs more time to cook,\" Arrowhead says, so it's getting indefinitely delayed",
@@ -1270,7 +1250,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.4
+    "hotScore": 0.399
   },
   {
     "title": "Sega is re-releasing the original Sonic Genesis games on $100 cartridges",
@@ -1279,7 +1259,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.401
+    "hotScore": 0.4
   },
   {
     "title": "New Japanese Disney Mobile Game Is Sparklink Stars",
@@ -1288,7 +1268,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.807,
+    "hotScore": 0.803,
     "groupMembers": [
       {
         "title": "coly releases teaser PV for new smartphone game “Disney Sparklink Stars” using Disney IP",
@@ -1307,7 +1287,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.403
+    "hotScore": 0.402
   },
   {
     "title": "A24 Fans Mourn Its Death After The Backrooms Studio Signs $75 Million Google AI Deal: ‘Membership Cancelled’",
@@ -1316,7 +1296,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.406
+    "hotScore": 0.405
   },
   {
     "title": "CD Projekt is Changing its Name Following Shareholder Vote",
@@ -1325,7 +1305,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.41
+    "hotScore": 0.408
   },
   {
     "title": "GTA 6 will have a Quality and Performance mode, according to an FAQ posted by Media Markt Poland",
@@ -1334,7 +1314,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.41
+    "hotScore": 0.409
   },
   {
     "title": "\"Like New\" PlayStation 5 Slim Disc Edition Consoles Are Going for $499 During Amazon Prime Day",
@@ -1343,7 +1323,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.411
+    "hotScore": 0.409
   },
   {
     "title": "Steam Client Beta - June 23rd",
@@ -1352,7 +1332,7 @@
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 0.411,
+    "hotScore": 0.409,
     "groupMembers": [
       {
         "title": "Steam Client Update - June 23rd",
@@ -1387,7 +1367,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.414
+    "hotScore": 0.413
   },
   {
     "title": "After upsetting everyone by threatening to ruin Diablo 4's most powerful loot in its next season, Blizzard has decided that maybe it wasn't such a good idea after all",
@@ -1396,7 +1376,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.417
+    "hotScore": 0.415
   },
   {
     "title": "\"Truthfully, it's heartbreaking\": Warframe dev on the hole that Destiny 2 leaves behind",
@@ -1405,7 +1385,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.418
+    "hotScore": 0.416
   },
   {
     "title": "☀️Discussion, News, and Request Thread - Week Beginning 06/22/26☀️",
@@ -1414,7 +1394,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.418
+    "hotScore": 0.417
   },
   {
     "title": "A DLC/Character Pack for Assassin's Creed Black Flag Resynced has Leaked",
@@ -1423,7 +1403,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.42
+    "hotScore": 0.418
   },
   {
     "title": "Battlefield Devs Are Betting on a New Indie Engine",
@@ -1432,7 +1412,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.422
+    "hotScore": 0.42
   },
   {
     "title": "Netflix Reveals Surprisingly Gory Game From The Makers Of Oxenfree That Stars Zoë Kravitz And Sadie Sink",
@@ -1441,7 +1421,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.422
+    "hotScore": 0.42
   },
   {
     "title": "Marathon’s First PVE-Only Mode Sounds Sick And Is Designed For Solo Players",
@@ -1450,7 +1430,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.427
+    "hotScore": 0.425
   },
   {
     "title": "Amidst mounting fears of Xbox closures, Todd Howard says Arkane is 'doing a really, really good job' on Blade",
@@ -1459,7 +1439,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.434
+    "hotScore": 0.432
   },
   {
     "title": "Marathon's Vault Breaker PvE mode is coming in July, and here's the twist: You leave your loot behind",
@@ -1468,7 +1448,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.437
+    "hotScore": 0.435
   },
   {
     "title": "Neopets are back and coming to Fortnite",
@@ -1477,7 +1457,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.439
+    "hotScore": 0.437
   },
   {
     "title": "The Studio Behind A 2025 Xbox Showcase Surprise Just Went Bankrupt",
@@ -1486,7 +1466,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.439
+    "hotScore": 0.437
   },
   {
     "title": "Pokemon merch you won't want to run away from this Prime Day",
@@ -1495,7 +1475,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.879,
+    "hotScore": 0.876,
     "groupMembers": [
       {
         "title": "This year's Prime Day board game deals are ridiculously good, with major discounts on some of our top-rated games",
@@ -1522,7 +1502,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.446
+    "hotScore": 0.444
   },
   {
     "title": "Marathon's mid-season 2 update brings in an experimental PvE mode that will let solo and duo runners take on Cryo Archive",
@@ -1531,7 +1511,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.446
+    "hotScore": 0.444
   },
   {
     "title": "Vampire Crawlers 2026 Roadmap Teases New Characters, Cards, and Stages",
@@ -1540,7 +1520,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.449
+    "hotScore": 0.447
   },
   {
     "title": "Nex and Sega team up to release Sonic Forces game on Nex Playground in Q4",
@@ -1549,7 +1529,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.449
+    "hotScore": 0.447
   },
   {
     "title": "Toy Story Producer Reacts To Possibility Of Disney Doing A Live-Action Remake: ‘Please God, No!’",
@@ -1558,7 +1538,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.449
+    "hotScore": 0.447
   },
   {
     "title": "Marathon Confirms New PvE Mode Release Date, Season 3 Begins September 2026",
@@ -1567,7 +1547,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.449
+    "hotScore": 0.448
   },
   {
     "title": "One Of 2026’s Most Delightful Metroidvanias Couldn’t Save Its Indie Developers",
@@ -1576,7 +1556,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.461
+    "hotScore": 0.459
   },
   {
     "title": "'It May Seem Like We're Only Doing It for Attention': Stranger Than Heaven Dev Discusses Celebrity Castings, Including Tupac",
@@ -1585,7 +1565,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.473
+    "hotScore": 0.471
   },
   {
     "title": "Big companies told Hideo Kojima he's 'crazy' for making OD: 'It's something that no one has ever seen before'",
@@ -1594,7 +1574,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.479
+    "hotScore": 0.477
   },
   {
     "title": "AO3 Readers Take Note: Supernatural The Complete Series Is On Sale For Prime Day",
@@ -1603,7 +1583,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.485
+    "hotScore": 0.483
   },
   {
     "title": "These Are The XBOX Game Pass Games Everyone’s Playing Right Now",
@@ -1612,7 +1592,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.486
+    "hotScore": 0.484
   },
   {
     "title": "Sega Announces Two Sonic Game Collections For Switch",
@@ -1621,7 +1601,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.486
+    "hotScore": 0.484
   },
   {
     "title": "This Comfy Switch 2 Grip Is On Sale For Prime Day",
@@ -1630,7 +1610,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.488
+    "hotScore": 0.486
   },
   {
     "title": "Pokémon Legends: Z-A Switch 2 Edition Gets Its First Major Price Cut at Amazon",
@@ -1639,7 +1619,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.488
+    "hotScore": 0.486
   },
   {
     "title": "Delays Haven't Stopped Fable From Selling Out",
@@ -1648,7 +1628,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.489
+    "hotScore": 0.487
   },
   {
     "title": "\"Minecraft\" new snapshot implements autumn leaves biome \"speckled forest\". Wool stairs and half blocks are finally here, so you can try out lots of new elements.",
@@ -1657,7 +1637,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.491
+    "hotScore": 0.489
   },
   {
     "title": "The Best (And Most Affordable) Family Gaming Console Is Now Even Cheaper",
@@ -1666,7 +1646,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.491
+    "hotScore": 0.489
   },
   {
     "title": "The Adventures of Elliot: The Millennium Tales Review: Effortlessly and Extraordinarily Delightful",
@@ -1675,7 +1655,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.492
+    "hotScore": 0.49
   },
   {
     "title": "\"RAIDEN FIGHTERS REMIX COLLECTION\", update Ver.1.2 released that adds smoothing function and fixes bugs",
@@ -1684,7 +1664,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.499
+    "hotScore": 0.497
   },
   {
     "title": "Sony’s Best-In-Class ANC Headphones Are $82 Off For Prime Day",
@@ -1693,7 +1673,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.501
+    "hotScore": 0.499
   },
   {
     "title": "Fallout designer Tim Cain \"fumbled\" through his career and \"didn't think about a sequel\" to the first apocalyptic RPG or Arcanum while making them",
@@ -1702,7 +1682,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.509
+    "hotScore": 0.507
   },
   {
     "title": "Netflix proposes a different kind of single-player video game: 40 minutes long, scary, streamed to your TV",
@@ -1711,7 +1691,7 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 0.511
+    "hotScore": 0.509
   },
   {
     "title": "Marathon Mid-Season Update Introduces New Endgame PvE Mode",
@@ -1720,7 +1700,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.526
+    "hotScore": 0.524
   },
   {
     "title": "In ``Rhythm Heaven Miracle Stars'', ``ignoring the rhythm and pressing repeatedly'' does not work. \"Just press it only when necessary,\" he replied seriously.",
@@ -1729,7 +1709,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.526
+    "hotScore": 0.524
   },
   {
     "title": "Dave the Diver’s In the Jungle expansion is “basically Dave the Diver 1.7,” says director. “Even players who usually skip DLC should give it a try”",
@@ -1738,7 +1718,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.528
+    "hotScore": 0.526
   },
   {
     "title": "The Witcher developer will change its company name to CD PROJEKT RED. Actually, it was different until now.",
@@ -1747,7 +1727,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.562
+    "hotScore": 0.559
   },
   {
     "title": "\"Destroy All Humans!\" Switch 2 version is now available. Supports up to 1440p display and enhanced drawing expressions",
@@ -1756,7 +1736,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.565
+    "hotScore": 0.563
   },
   {
     "title": "‘Japanese psycho-thriller’ game Wasabi announced for PC",
@@ -1765,7 +1745,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.567
+    "hotScore": 0.564
   },
   {
     "title": "A proper vampire class is coming to D&D via a Vampire: The Masquerade tie-in",
@@ -1774,16 +1754,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.58
-  },
-  {
-    "title": "The release of the much-anticipated new Souls-like game ``Lords of the Fallen 2'' will be postponed from January to March next year. The industry's usual \"avoidance of GTA 6\" is already a fierce battleground even at the beginning of the year",
-    "link": "https://automaton-media.com/articles/newsjp/20260624-451428",
-    "date": 1782269592000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 0.582
+    "hotScore": 0.578
   },
   {
     "title": "Sonic Racing: CrossWorlds Version 1.4.1 Is Now Live, Here Are The Full Patch Notes",
@@ -1792,7 +1763,16 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.583
+    "hotScore": 0.581
+  },
+  {
+    "title": "THQ Nordic Digital Showcase 2026 will be broadcast from 4:00 on August 8th. Plans to release the latest information on \"Titan Quest II\", \"Wreckfest 2\", etc.",
+    "link": "https://www.4gamer.net/games/730/G073013/20260624008",
+    "date": 1782269717000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 0.581
   },
   {
     "title": "“Weekly VTuber File” File.126: Jui Kanari [Yunireido! ]",
@@ -1801,7 +1781,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.586
+    "hotScore": 0.583
   },
   {
     "title": "In the Sengoku MMOSLG ``Nobunaga's Ambition: Road to the World'', players from all over the country are divided into 3 factions and clash, and the ``war to make the favorite streamer the ruler of the world'' has begun. A fun festival is being held, including free distribution of SSR “Hashiba Hideyoshi”",
@@ -1810,7 +1790,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.586
+    "hotScore": 0.584
   },
   {
     "title": "“Uta no☆Prince-sama♪ Dolce Vita” will be released in 2027. Eight new pieces of information released in conjunction with the 16th anniversary of the series",
@@ -1819,7 +1799,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.588
+    "hotScore": 0.586
   },
   {
     "title": "Teaser PV of new mecha girl battle action \"Maia: Meltdown\" released. The theme song was performed by Hiroyuki Sawano.",
@@ -1828,7 +1808,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.588
+    "hotScore": 0.586
   },
   {
     "title": "In \"Saka Tsuku 2026\", which is hot with the soccer World Cup and large-scale updates, I tried to turn Antanshen into a \"1000 points\" monster. With love and tenacity, the “Ultimate Untanshen” is born, a forbidden research",
@@ -1837,7 +1817,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.594
+    "hotScore": 0.592
   },
   {
     "title": "“BTS”’s “experience-based music content” will be distributed on the controller-free game system “Nex Playground.” “Kinect-like” device scheduled for domestic rollout in 2027",
@@ -1846,7 +1826,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.601
+    "hotScore": 0.599
   },
   {
     "title": "Azure Striker Gunvolt Trilogy Enhanced – Nintendo Switch 2 Edition launches October 22",
@@ -1855,7 +1835,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.803,
+    "hotScore": 1.796,
     "groupMembers": [
       {
         "title": "Azure Striker Gunvolt Trilogy Enhanced - Switch 2 Edition Launches October, Upgrade Confirmed",
@@ -1882,7 +1862,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.603
+    "hotScore": 0.6
   },
   {
     "title": "Muv-Luv: Tactics – Kalidasa at Nightmare launches in 2027 for PC",
@@ -1891,7 +1871,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.83,
+    "hotScore": 1.823,
     "groupMembers": [
       {
         "title": "\"Muv-Luv\"'s tactical SRPG \"Muv-Luv: Tactics Nightmare of Kalidasa\" has finally been unveiled on Steam and will be released in 2027. A ``exciting'' extreme battle experience where you command a tactical aircraft unit and fight against ``BETA''",
@@ -1918,7 +1898,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.612
+    "hotScore": 0.61
   },
   {
     "title": "\"NTE: Neverness to Everness\", implemented the good young man \"Chaos\" of E.T.D 6th Platoon. ``Fight Club,'' a 4-person hand-to-hand battle at a security detention center, is also available.",
@@ -1927,7 +1907,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.614
+    "hotScore": 0.611
   },
   {
     "title": "11 new emotes have been added to the popular drawing hide-and-seek game \"Meccha Chameleon\". New poses expand the range of ways to hide",
@@ -1936,7 +1916,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1.229,
+    "hotScore": 1.224,
     "groupMembers": [
       {
         "title": "Update 1.8.0 of the hide-and-seek game \"Meccha Chameleon\" that mimics the background has been released. Added 11 types of emotes",
@@ -1955,7 +1935,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.617
+    "hotScore": 0.614
   },
   {
     "title": "The ``Destiny 2'' development team has been seriously trying to create a ``love dating sim'' every year. But it's always rejected and turned into an illusion",
@@ -1964,7 +1944,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.623
+    "hotScore": 0.62
   },
   {
     "title": "Rural occult incident horror \"Wasabi\" announced. A mysterious case investigation that relies on the “spiritual power hidden in wasabi” presented by a talented and edgy game studio",
@@ -1973,7 +1953,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.63
+    "hotScore": 0.628
   },
   {
     "title": "Ticket sales for the ``050-5893-5336 Exhibition'', an everyday erosion type event of the Fourth Boundary, have begun. Let's listen to the voice left on the phone using the \"space-time phone card\"",
@@ -1982,7 +1962,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.639
+    "hotScore": 0.636
   },
   {
     "title": "Mouse Computer unveils upcoming products for gamers, including organic EL displays and entry-level notebook PCs",
@@ -1991,7 +1971,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.644
+    "hotScore": 0.641
   },
   {
     "title": "TRPG Rurubu unlimited reading app \"Rulebook App\" was finally released on June 26th, and the first month is free. The copy and paste function makes it easy to create characters, and you can easily reference them from your smartphone or the web.",
@@ -2000,7 +1980,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.647
+    "hotScore": 0.644
   },
   {
     "title": "FUNBOX, a thin lever-less arcade computer that uses a low-profile magnetic key switch, is now on sale in Japan. Also compatible with rapid trigger and SOCD",
@@ -2009,7 +1989,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.648
+    "hotScore": 0.646
   },
   {
     "title": "DEBRISVERSE, a debt repayment game where you destroy space junk, will be released on July 29th. A full-fledged incremental story that doesn't end even after paying off the debt, delving into the machinations of a giant corporation",
@@ -2018,7 +1998,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.664
+    "hotScore": 0.662
   },
   {
     "title": "Monster Fantasy announced for PC – action RPG with cozy life simulation elements",
@@ -2027,7 +2007,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.995,
+    "hotScore": 1.987,
     "groupMembers": [
       {
         "title": "Play \"MONSTER FANTASY\", a combination of \"Monster Hunter\" and \"Animal Crossing\". An ambitious work that combines hunting action with life sim elements.",
@@ -2062,7 +2042,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.676
+    "hotScore": 0.673
   },
   {
     "title": "Announcement of “Steel Maiden”, a beautiful girl roguelite ACT that fights “left or right”. Operation is \"just 2 buttons on the left and right\", super simple and super fast action",
@@ -2071,7 +2051,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.677
+    "hotScore": 0.675
   },
   {
     "title": "Team Ninja details which Dead or Alive 6 DLC costumes and save data can be transferred to Last Round",
@@ -2080,7 +2060,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 2.045,
+    "hotScore": 2.037,
     "groupMembers": [
       {
         "title": "Dead or Alive 6 Last Round Review So Far",
@@ -2107,7 +2087,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1.372,
+    "hotScore": 1.366,
     "groupMembers": [
       {
         "title": "2K starts distributing paid content “Bunbu Ryodo” collection for “Sid Meier’s Civilization VII”…New leader “Toyotomi Hideyoshi” appears",
@@ -2126,7 +2106,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1.375,
+    "hotScore": 1.369,
     "groupMembers": [
       {
         "title": "Full-scale launch for the release of \"MIRESI: Invisible Future\", a free-to-play time travel beautiful girl RPG. “Goddess of Victory: NIKKE” Pre-registration begins for the notable work presented by former creators",
@@ -2145,7 +2125,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.691
+    "hotScore": 0.688
   },
   {
     "title": "A sushi hero saves the dirty kitchen! Cleaning ADV “Mold Washer” now available",
@@ -2154,7 +2134,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.693
+    "hotScore": 0.69
   },
   {
     "title": "The Steam store page for Wasabi, a psychological investigation horror ADV set in Nagano in the 1990s, is now open. Latest trailer also released",
@@ -2163,7 +2143,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.721
+    "hotScore": 0.719
   },
   {
     "title": "Star Fox (2026) Review - Mission Complete",
@@ -2172,7 +2152,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.725
+    "hotScore": 0.722
   },
   {
     "title": "Gameplay Livestream of Action-Driving Game Clutch Will Be Showcased This Week",
@@ -2181,7 +2161,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.733
+    "hotScore": 0.73
   },
   {
     "title": "\"CLUTCH\", gameplay presentation to answer questions along with actual play will be distributed from 0:00 on June 26th",
@@ -2190,7 +2170,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.742
+    "hotScore": 0.739
   },
   {
     "title": "Reuters reports that Kadokawa CEO faces shareholder battle as investors criticise the company’s handling of Elden Ring’s success",
@@ -2199,7 +2179,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 1.495,
+    "hotScore": 1.489,
     "groupMembers": [
       {
         "title": "Elden Ring owner faces tense CEO clash as a battle between Kadokawa and activist shareholders rages on",
@@ -2218,7 +2198,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 2.245,
+    "hotScore": 2.236,
     "groupMembers": [
       {
         "title": "The Steam version of Kazuma Kaneko's deck-building roguelike ``KAZUMA KANEKO'S Tsukuyomi'' has been announced and will be released on July 24th. A strategic card battle where you climb the tower and take on the “God and Demon”",
@@ -2245,7 +2225,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.751
+    "hotScore": 0.748
   },
   {
     "title": "Yoshinoya and \"Dragon Quest Walk\" collaborate. We are developing limited products such as specially designed slamichi and original slime figures.",
@@ -2254,7 +2234,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.753
+    "hotScore": 0.749
   },
   {
     "title": "Steam 2-player cooperative action game ``Sixth Force'' will be available for free immediately after distribution begins. Free for a limited time",
@@ -2263,7 +2243,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.754
+    "hotScore": 0.751
   },
   {
     "title": "New Project Motor Racing DLC Adds 9 Historic Cars, New Track",
@@ -2272,7 +2252,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.517,
+    "hotScore": 1.51,
     "groupMembers": [
       {
         "title": "\"Project Motor Racing\", DLC \"GT Icons Pack\" distribution started. Includes 9 famous cars from the 1960s and 1970s, including Porsche and Corvette, and a new circuit",
@@ -2291,7 +2271,50 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.759
+    "hotScore": 0.756
+  },
+  {
+    "title": "Grand Theft Auto VI Price And Ultimate Edition Revealed, Physical Version Will Not Include A Disc",
+    "link": "https://gameinformer.com/2026/06/24/grand-theft-auto-vi-price-and-ultimate-edition-revealed-physical-version-will-not",
+    "date": 1782287640000,
+    "domain": "gameinformer.com",
+    "sourceName": "Game Informer",
+    "isTranslated": false,
+    "hotScore": 3.788,
+    "groupMembers": [
+      {
+        "title": "Grand Theft Auto 6 Physical Copies Won't Include a Disc, Will Just Be a Code in a Box",
+        "link": "https://www.ign.com/articles/grand-theft-auto-6-physical-copies-wont-include-a-disc-will-just-be-a-code-in-a-box",
+        "date": 1782296674000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "‘Physical’ Copies Of GTA 6 Will Just Be A Code In A Box With No Disc At Launch",
+        "link": "https://kotaku.com/physical-copies-of-gta-6-will-just-be-a-code-in-a-box-with-no-disc-at-launch-2000709919",
+        "date": 1782301100000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      },
+      {
+        "title": "GTA 6 Physical Copies Won’t Include Discs, Just Download Codes",
+        "link": "https://www.gamespot.com/articles/gta-6-physical-copies-wont-include-discs-just-download-codes",
+        "date": 1782300141000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "GTA 6 physical copies are a code in a box, as Rockstar confirms they won't come with a disk",
+        "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-physical-copies-are-a-code-in-a-box-as-rockstar-confirms-they-wont-come-with-a-disk",
+        "date": 1782296915000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "\"Arcade Archives 2 Tekken\", released on June 25th. Namco's 3D fighting game \"Tekken\" is reprinted for current consoles",
@@ -2300,10 +2323,10 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.765,
+    "hotScore": 0.762,
     "groupMembers": [
       {
-        "title": "“Arcade Archives 2 Moon Shuttle” will be released on June 25th. Nichibutsu's classic shooting game that appeared in 1981 can be enjoyed on current consoles.",
+        "title": "“Arcade Archives 2 Moon Shuttle” will be released on June 25th. You can enjoy Nichibutsu's classic shooting game released in 1981 on current consoles.",
         "link": "https://www.4gamer.net/games/019/G101976/20260624021",
         "date": 1782291600000,
         "domain": "4gamer.net",
@@ -2319,7 +2342,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.77,
+    "hotScore": 0.767,
     "groupMembers": [
       {
         "title": "Avex Pictures, “Welcome to the Exile Diner! “Order Rush” service will end on July 24, 2026.",
@@ -2338,7 +2361,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.771,
+    "hotScore": 0.768,
     "groupMembers": [
       {
         "title": "Nintendo Systems' financial results for the fiscal year ending March 2026 show increased sales and profits, with sales increasing 14.7% to 5,077 million yen and operating income increasing 11.8% to 232 million yen.",
@@ -2357,7 +2380,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.544,
+    "hotScore": 1.537,
     "groupMembers": [
       {
         "title": "Console Archives Bokosuka Wars launches June 25",
@@ -2384,7 +2407,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.772
+    "hotScore": 0.769
   },
   {
     "title": "Human lifespans are getting too long, and the performance quota in the underworld is in serious trouble. Roguelike action game “Hell Slapstick Operation” that wipes out the surging enemies, released on July 22, 2026",
@@ -2393,7 +2416,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.778
+    "hotScore": 0.775
   },
   {
     "title": "The collaboration between “Zenless Zone Zero” and “Sushiro” starts today. Products with various goods are now available",
@@ -2402,7 +2425,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.783
+    "hotScore": 0.78
   },
   {
     "title": "The production of the near-future SF original anime “Rebel Robotica” has been decided! Mika Pikazo is in charge of the story and character design.",
@@ -2411,7 +2434,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.789
+    "hotScore": 0.786
   },
   {
     "title": "The new ``Kanji quiz'' game ``Kanji de GOGO!'' will be released on June 26th. This time, answer by “writing” the kanji.",
@@ -2420,7 +2443,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1.589,
+    "hotScore": 1.582,
     "groupMembers": [
       {
         "title": "In the new “Kanji de GO!”, the “writing” of kanji will be put to the test. “Kanji de GOGO!” to be released on June 26th",
@@ -2439,16 +2462,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.795
+    "hotScore": 0.792
   },
   {
-    "title": "Announcement of the “AI Law Violating Girl” restraint ADV “Humanity Optimization Plan Eden Protocol”. Voice actors and other cast members of “Acacia”, a mysterious new work depicting an AI-controlled dystopia, also released",
+    "title": "“AI Law Violating Girl” restraint ADV “Humanity Optimization Plan Eden Protocol” announced. Voice actors and other cast members of “Acacia”, a mysterious new work depicting an AI-controlled dystopia, also released",
     "link": "https://automaton-media.com/articles/newsjp/20260624-451620",
     "date": 1782290995000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.8
+    "hotScore": 0.796
   },
   {
     "title": "The original arcade version of Tekken is getting a console release this week",
@@ -2457,7 +2480,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.801
+    "hotScore": 0.797
   },
   {
     "title": "Sonic Returns To His Roots With New Sega Genesis Cartridges",
@@ -2466,7 +2489,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.807
+    "hotScore": 0.803
   },
   {
     "title": "Individually developed D.IKUSHIMA releases free games that were released about 20 years ago on Steam, all of which have a total of over 1.6 million downloads.",
@@ -2475,7 +2498,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.807
+    "hotScore": 0.803
   },
   {
     "title": "“Demon Kill Demon ~Yomi 1984~” will be updated on June 25th to add “unusual” equipment with overwhelming performance",
@@ -2484,7 +2507,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.807
+    "hotScore": 0.803
   },
   {
     "title": "``Perchang World'' is a Pytagora-like action game where you carry a rolling ball to the goal (Start today, Apple Arcade #74)",
@@ -2493,7 +2516,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.807
+    "hotScore": 0.803
   },
   {
     "title": "Kadokawa Should Be Making More Money From Elden Ring, Activist Investor Says as CEO Survives Shareholder Vote",
@@ -2502,7 +2525,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.815
+    "hotScore": 0.812
   },
   {
     "title": "BS Nippon TV will air “BanG Dream!” in July 2026. “I saw Yume∞” and “There was a match. A lineup of 14 new anime titles including ``",
@@ -2511,7 +2534,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.816
+    "hotScore": 0.813
   },
   {
     "title": "gumi will give out a QUO card worth 500 yen as a shareholder benefit to shareholders as of the end of October 2026. Benefits for the interim period from next term onwards are \"undecided\"",
@@ -2520,7 +2543,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.818
+    "hotScore": 0.815
   },
   {
     "title": "Magic x Bureaucracy RPG Astrae Oratio showcases cast of eccentric magician girls, including an urban legend hunter who throws candy at enemies",
@@ -2529,7 +2552,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.822
+    "hotScore": 0.819
   },
   {
     "title": "Istanbul UGC90 releases early access version of \"Gacha Capsule Shop Simulator - Akihabara\"...SLG who runs a gacha shop in Akihabara",
@@ -2538,7 +2561,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.826
+    "hotScore": 0.823
   },
   {
     "title": "Magic: The Gathering Arena devs' union officially elected, following claims Wizards of the Coast were dragging their heels on voluntary recognition",
@@ -2547,7 +2570,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.828
+    "hotScore": 0.824
   },
   {
     "title": "[Interview] From being on the verge of canceling development to becoming a huge hit with 2 million copies sold - How was \"Pragmata\" reborn? P. Oyama and D. Cho talk about the development philosophy",
@@ -2556,7 +2579,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.83
+    "hotScore": 0.827
   },
   {
     "title": "Tekken Is Coming To Switch 2, But Not The One You Think",
@@ -2565,7 +2588,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.84
+    "hotScore": 0.836
   },
   {
     "title": "The Switch version of acclaimed James Bond game 007 First Light is \"seeing really good progress\" and isn't very far away",
@@ -2574,7 +2597,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1.68,
+    "hotScore": 1.673,
     "groupMembers": [
       {
         "title": "007 First Light For Switch 2 Is Apparently \"Seeing Really Good Progress\"",
@@ -2593,7 +2616,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.841
+    "hotScore": 0.837
   },
   {
     "title": "“Sakatsuku RTW” holds scouting event featuring superstars from North America, Europe, and Asia",
@@ -2602,7 +2625,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.847
+    "hotScore": 0.843
   },
   {
     "title": "With Deltarune Chapter 5 upon us, Toby Fox says \"enjoy this crazy thing I thought up 10 years ago\" as the team moves on to the RPG's \"next chapter\"",
@@ -2611,7 +2634,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.847
+    "hotScore": 0.844
   },
   {
     "title": "Crowdfunding campaign for portable game PC “OneXPlayer 3” starts",
@@ -2620,7 +2643,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.848
+    "hotScore": 0.845
   },
   {
     "title": "Silver Lining Interactive releases packaged version of open world horseback riding adventure “HORSE CLUB Ride West” on October 9th",
@@ -2629,7 +2652,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.849
+    "hotScore": 0.846
   },
   {
     "title": "The Studio Behind This Acclaimed PS5 Metroidvania Is Closing Its Doors",
@@ -2638,7 +2661,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.851
+    "hotScore": 0.847
   },
   {
     "title": "Unpacking is a perfect cozy game binge play",
@@ -2647,7 +2670,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.852
+    "hotScore": 0.848
   },
   {
     "title": "Gamebook style RPG \"AINOA -your tale-\" is available for free on smartphones. The amnesiac protagonist explores the ruins.",
@@ -2656,7 +2679,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.853
+    "hotScore": 0.85
   },
   {
     "title": "GTA 6 Preorders Kick Off Midnight Local Time on June 25, Ultimate Edition and Preorder Bonuses Confirmed",
@@ -2665,7 +2688,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 4.282,
+    "hotScore": 4.264,
     "groupMembers": [
       {
         "title": "GTA 6 price confirmed as Rockstar reveals Ultimate Edition pre-orders",
@@ -2687,14 +2710,6 @@
         "title": "GTA 6 Pre-Orders - Should You Buy the Ultimate Edition?",
         "link": "https://gamerant.com/gta-6-editions-prices-buyers-guide",
         "date": 1782303382000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 Price and Ultimate Edition Officially Revealed Ahead of Pre-Orders",
-        "link": "https://gamerant.com/gta-6-price-ultimate-edition-pre-orders-news-june-25-2026",
-        "date": 1782297323000,
         "domain": "gamerant.com",
         "sourceName": "Game Rant",
         "isTranslated": false
@@ -2724,7 +2739,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 3.442,
+    "hotScore": 3.428,
     "groupMembers": [
       {
         "title": "Grand Theft Auto 6 Will Cost $80 And Have A $100 Ultimate Edition With ‘Premium’ Bonuses At Launch",
@@ -2743,12 +2758,12 @@
         "isTranslated": false
       },
       {
-        "title": "GTA 6 Will Cost $80, $100 For Ultimate Edition",
-        "link": "https://www.thegamer.com/gta-6-price-reveal",
-        "date": 1782296631000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
+        "title": "Rockstar Games begins pre-orders for Grand Theft Auto VI and Ultimate Edition starting June 25th",
+        "link": "https://gamebiz.jp/news/428387",
+        "date": 1782304800000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
       }
     ]
   },
@@ -2759,7 +2774,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.862
+    "hotScore": 0.858
   },
   {
     "title": "It has been reported that Konami has sued the leaker following the leak of the ``Metal Gear Solid 2'' source code. First of all, we are preparing to pursue thoroughly to “identify the leaker”",
@@ -2768,7 +2783,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.862
+    "hotScore": 0.858
   },
   {
     "title": "Rockstar confirms there will be no disc version of GTA 6 at launch",
@@ -2777,7 +2792,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.863
+    "hotScore": 0.859
   },
   {
     "title": "Borderlands 4 A Zane to Kill For release countdown: Exact date and time",
@@ -2786,7 +2801,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.863
+    "hotScore": 0.859
   },
   {
     "title": "\"Grand Theft Auto VI\" will start accepting reservations at 0:00 on June 25th. The price for overseas is $79.99 (approximately 13,000 yen)",
@@ -2795,7 +2810,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.866
+    "hotScore": 0.863
   },
   {
     "title": "\"Fate/Grand Order (FGO)\" new event \"Waiting for you at the end of spring\" announced, scheduled to start in early July. A moment of spring in a singularity with a “work experience amusement park”",
@@ -2804,47 +2819,23 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.868
+    "hotScore": 0.864
   },
   {
-    "title": "Grand Theft Auto 6 Physical Copies Won't Include a Disc, Will Just Be a Code in a Box",
-    "link": "https://www.ign.com/articles/grand-theft-auto-6-physical-copies-wont-include-a-disc-will-just-be-a-code-in-a-box",
-    "date": 1782296674000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "title": "GTA 6 Will Cost $80, $100 For Ultimate Edition",
+    "link": "https://www.thegamer.com/gta-6-price-reveal",
+    "date": 1782296631000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 4.348,
+    "hotScore": 1.731,
     "groupMembers": [
       {
-        "title": "‘Physical’ Copies Of GTA 6 Will Just Be A Code In A Box With No Disc At Launch",
-        "link": "https://kotaku.com/physical-copies-of-gta-6-will-just-be-a-code-in-a-box-with-no-disc-at-launch-2000709919",
-        "date": 1782301100000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 Disappoints Fans With Physical Copies Only Being A Code In A Box",
-        "link": "https://www.dualshockers.com/grand-theft-auto-6-disappoints-fans-physical-copies-code-in-a-box",
-        "date": 1782297456000,
-        "domain": "dualshockers.com",
-        "sourceName": "DualShockers",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 physical copies are a code in a box, as Rockstar confirms they won't come with a disk",
-        "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-physical-copies-are-a-code-in-a-box-as-rockstar-confirms-they-wont-come-with-a-disk",
-        "date": 1782296915000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 Physical Edition Doesn't Come with Discs, It's a Code in the Box",
-        "link": "https://www.pushsquare.com/news/2026/06/gta-6-physical-edition-doesnt-come-with-discs-its-a-code-in-the-box",
-        "date": 1782297000000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
+        "title": "GTA 6's Ultimate Edition Locks Off Exclusive Mission and Shops, But How Will it Work?",
+        "link": "https://www.ign.com/articles/gta-6s-ultimate-edition-locks-off-exclusive-mission-and-shops-but-how-will-it-work",
+        "date": 1782301594000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
         "isTranslated": false
       }
     ]
@@ -2856,7 +2847,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.87
+    "hotScore": 0.866
   },
   {
     "title": "GTA 6 Ultimate Edition and More Detailed Ahead of Pre-Orders Going Live",
@@ -2865,7 +2856,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.87
+    "hotScore": 0.867
   },
   {
     "title": "New horror game starring Sadie Sink, Zoe Kravitz & Troy Baker is coming to Netflix",
@@ -2874,7 +2865,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.873
+    "hotScore": 0.869
   },
   {
     "title": "GTA VI finally gets a price tag",
@@ -2883,7 +2874,52 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 0.873
+    "hotScore": 2.609,
+    "groupMembers": [
+      {
+        "title": "GTA 6 Price Finally Confirmed, Features a 'Single-Player Experience' at Launch",
+        "link": "https://www.ign.com/articles/gta-6-price-finally-confirmed-features-a-single-player-experience-at-launch",
+        "date": 1782297365000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "GTA 6 Is a 'Single-Player Experience,' Rockstar Confirms — What Now for GTA Online?",
+        "link": "https://www.ign.com/articles/gta-6-is-a-single-player-experience-rockstar-confirms-what-now-for-gta-online",
+        "date": 1782305570000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "GTA 6 Costs $80, Described As A 'Single-Player Experience'",
+        "link": "https://www.purexbox.com/news/2026/06/gta-6-costs-usd80-described-as-a-single-player-experience",
+        "date": 1782299700000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "GTA 6 Physical Edition Doesn't Come with Discs, It's a Code in the Box",
+    "link": "https://www.pushsquare.com/news/2026/06/gta-6-physical-edition-doesnt-come-with-discs-its-a-code-in-the-box",
+    "date": 1782297000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 1.741,
+    "groupMembers": [
+      {
+        "title": "GTA 6 physical edition is code in a box, will have early release date for preloading",
+        "link": "https://www.polygon.com/gta-6-physical-code-in-box-preloading",
+        "date": 1782305149000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "A collection title featuring works by Spanish arcade game maker Gaelco has been announced. You can also play rare games not yet released in Japan.",
@@ -2892,16 +2928,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.874
-  },
-  {
-    "title": "Boruto: 8 Strongest Characters Above Naruto's Level",
-    "link": "https://gamerant.com/boruto-strongest-characters-above-naruto-level",
-    "date": 1782297031000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 0.874
+    "hotScore": 0.871
   },
   {
     "title": "GTA 6 Confirmed to Be an $80 Game",
@@ -2910,7 +2937,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.756,
+    "hotScore": 1.748,
     "groupMembers": [
       {
         "title": "GTA 6 price confirmed: the standard edition will set you back $80, but on the bright side at least us PC players have plenty of time to save up",
@@ -2929,58 +2956,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.879
-  },
-  {
-    "title": "GTA 6 Price Finally Confirmed, Features a 'Single-Player Experience' at Launch",
-    "link": "https://www.ign.com/articles/gta-6-price-finally-confirmed-features-a-single-player-experience-at-launch",
-    "date": 1782297365000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 4.393,
-    "groupMembers": [
-      {
-        "title": "Rockstar Saying Grand Theft Auto 6 ‘Features A Single-Player Experience’ Has Fans Wondering About The New GTA Online",
-        "link": "https://kotaku.com/rockstar-grand-theft-auto-6-single-player-gta-online-2-2000709933",
-        "date": 1782301981000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      },
-      {
-        "title": "Grand Theft Auto 6: Rockstar Releases 63 New Screenshots",
-        "link": "https://www.ign.com/articles/grand-theft-auto-6-rockstar-releases-63-new-screenshots",
-        "date": 1782299514000,
-        "domain": "ign.com",
-        "sourceName": "IGN Games",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 is a ‘Single-Player Experience’ With No Mention of GTA Online",
-        "link": "https://insider-gaming.com/gta-6-single-player-experience-gta-online",
-        "date": 1782300436000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 Online looks unlikely for launch as Rockstar refers to the game as a \"single-player experience\"",
-        "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-online-looks-unlikely-for-launch-as-rockstar-refers-to-the-game-as-a-single-player-experience",
-        "date": 1782298842000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "GTA 6 Costs $80, Described As A 'Single-Player Experience'",
-        "link": "https://www.purexbox.com/news/2026/06/gta-6-costs-usd80-described-as-a-single-player-experience",
-        "date": 1782299700000,
-        "domain": "purexbox.com",
-        "sourceName": "Pure Xbox",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.875
   },
   {
     "title": "Xbox CEO says gaming is becoming “unaffordable” for many players",
@@ -2989,7 +2965,16 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.88
+    "hotScore": 0.876
+  },
+  {
+    "title": "GTA 6 Disappoints Fans With Physical Copies Only Being A Code In A Box",
+    "link": "https://www.dualshockers.com/grand-theft-auto-6-disappoints-fans-physical-copies-code-in-a-box",
+    "date": 1782297456000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 0.876
   },
   {
     "title": "Train trick action game “Densha Attack” releases gameplay trailer that includes the battle with the first boss “Yoshie”",
@@ -2998,7 +2983,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.88
+    "hotScore": 0.876
   },
   {
     "title": "Every Confirmed Animal Revealed for Planet Zoo 2 So Far",
@@ -3007,7 +2992,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.88
+    "hotScore": 0.877
   },
   {
     "title": "Umamusume is turning fan-favorite horse girl puppet into real merch",
@@ -3016,7 +3001,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.881
+    "hotScore": 0.877
   },
   {
     "title": "Anime Squadron codes (June 2026) for Gems, Stat Reroll cubes, and more",
@@ -3025,7 +3010,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.882
+    "hotScore": 0.878
   },
   {
     "title": "GTA 6 will seemingly only launch with the single-player campaign in November",
@@ -3034,7 +3019,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.882
+    "hotScore": 0.879
   },
   {
     "title": "GTA 6 price officially confirmed, and at $80 fears that Rockstar would break the $100 barrier were unfounded",
@@ -3043,7 +3028,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.884
+    "hotScore": 0.881
   },
   {
     "title": "\"Puyo Quest\", Puwarp special league support campaign held. “Hotarubi Yuu-chan & Rei-kun” also implemented",
@@ -3052,7 +3037,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.885
+    "hotScore": 0.881
   },
   {
     "title": "Everything Included In GTA 6 Ultimate Edition & Price",
@@ -3061,7 +3046,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 2.663,
+    "hotScore": 2.652,
     "groupMembers": [
       {
         "title": "Exclusive Vehicles, Guns, And More: Here’s Everything Included In The Grand Theft Auto 6 Ultimate Edition",
@@ -3088,7 +3073,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.888
+    "hotScore": 0.884
   },
   {
     "title": "All Exotic Quests in Destiny 2 (& Rewards)",
@@ -3097,7 +3082,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.892
+    "hotScore": 0.888
   },
   {
     "title": "kann zaubern releases medieval farm management simulation “Agricola – The King’s Farmer” on June 30, 2026",
@@ -3106,7 +3091,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.892
+    "hotScore": 0.888
   },
   {
     "title": "“8000km/h” solar system racing game “BRAYZ” officially announced. 64 cars battle it out on the anti-gravity course, opening the \"fastest Mach race in human history\"",
@@ -3115,7 +3100,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.893
+    "hotScore": 0.889
   },
   {
     "title": "Here's when GTA 6 pre-orders go live in your timezone",
@@ -3124,7 +3109,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.894
+    "hotScore": 0.89
   },
   {
     "title": "GTA 6 Locks Five Single-Player Stores Behind $100 Price-Tag",
@@ -3133,7 +3118,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.894
+    "hotScore": 0.891
   },
   {
     "title": "Grand Theft Auto VI Prices Officially Announced: $79.99 for Standard, $99.99 for Ultimate Edition; No Disc in Physical Copies",
@@ -3142,7 +3127,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.897
+    "hotScore": 0.893
   },
   {
     "title": "The download version of \"Sonic Frontier Super Deluxe\" optimized for Switch2 is now available. Enjoy more beautiful and smooth play",
@@ -3151,7 +3136,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.897
+    "hotScore": 0.893
   },
   {
     "title": "Appcharge: Direct-to-consumer market worth around $17bn today",
@@ -3160,7 +3145,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.897
+    "hotScore": 0.894
   },
   {
     "title": "GameStop CEO Abandons $35 Billion Bonus To Concentrate On…Oh For Crying Out Loud…Buying eBay",
@@ -3169,7 +3154,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.898
+    "hotScore": 0.894
   },
   {
     "title": "Grand Theft Auto VI plays best on PS5 November 19",
@@ -3178,7 +3163,7 @@
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 2.693,
+    "hotScore": 2.682,
     "groupMembers": [
       {
         "title": "Grand Theft Auto 6 'Plays Best on PS5,' Sony Boasts — Here's Why",
@@ -3205,7 +3190,34 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.898
+    "hotScore": 0.894
+  },
+  {
+    "title": "GTA 6 Online looks unlikely for launch as Rockstar refers to the game as a \"single-player experience\"",
+    "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-online-looks-unlikely-for-launch-as-rockstar-refers-to-the-game-as-a-single-player-experience",
+    "date": 1782298842000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 2.683,
+    "groupMembers": [
+      {
+        "title": "GTA 6 is a ‘Single-Player Experience’ With No Mention of GTA Online",
+        "link": "https://insider-gaming.com/gta-6-single-player-experience-gta-online",
+        "date": 1782300436000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
+        "isTranslated": false
+      },
+      {
+        "title": "GTA 6 Is a 'Single Player Experience', No Word on GTA Online at Launch",
+        "link": "https://www.pushsquare.com/news/2026/06/gta-6-is-a-single-player-experience-no-word-on-gta-online-at-launch",
+        "date": 1782301500000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "\"We have to have free human expression in some capacity\": Patreon CEO shares frustrations about getting adult content past payment processors",
@@ -3214,7 +3226,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.899
+    "hotScore": 0.895
   },
   {
     "title": "Warhammer 40,000: Rogue Trader physical ‘Voidfarer Edition’ announced for PS5, Switch 2",
@@ -3223,7 +3235,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.902
+    "hotScore": 0.898
   },
   {
     "title": "GTA 6 pre-loads open exactly 1 week before Rockstar's long-awaited sequel comes out, Take-Two finally confirms",
@@ -3232,7 +3244,34 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.903
+  },
+  {
+    "title": "Grand Theft Auto 6: Rockstar Releases 63 New Screenshots",
+    "link": "https://www.ign.com/articles/grand-theft-auto-6-rockstar-releases-63-new-screenshots",
+    "date": 1782299514000,
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
+    "isTranslated": false,
+    "hotScore": 2.71,
+    "groupMembers": [
+      {
+        "title": "Rockstar Saying Grand Theft Auto 6 ‘Features A Single-Player Experience’ Has Fans Wondering About The New GTA Online",
+        "link": "https://kotaku.com/rockstar-grand-theft-auto-6-single-player-gta-online-2-2000709933",
+        "date": 1782301981000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      },
+      {
+        "title": "Rockstar dropped 63 new GTA 6 screenshots, here's all of them",
+        "link": "https://www.pcgamer.com/games/action/rockstar-dropped-63-new-gta-6-screenshots-heres-all-of-them",
+        "date": 1782300987000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Possible new GTA 6 details continue to come early from European retailers as another says Rockstar's next game has performance and quality modes, but I'm not buying it",
@@ -3241,7 +3280,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.908
+    "hotScore": 0.904
   },
   {
     "title": "GTA 6 Physical Editions Won’t Include Discs, Just Download Codes",
@@ -3250,17 +3289,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 1.817,
-    "groupMembers": [
-      {
-        "title": "GTA 6 Physical Copies Won’t Include Discs, Just Download Codes",
-        "link": "https://www.gamespot.com/articles/gta-6-physical-copies-wont-include-discs-just-download-codes",
-        "date": 1782300141000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.905
   },
   {
     "title": "GTA 6 'Plays Best on PS5', All Console Features Revealed",
@@ -3269,7 +3298,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 2.729,
+    "hotScore": 2.718,
     "groupMembers": [
       {
         "title": "GTA 6 \"Plays Best\" On PS5, PlayStation Says",
@@ -3296,7 +3325,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.911
+    "hotScore": 0.907
   },
   {
     "title": "In order to protect a happy controlled society, detain criminals as collaborators of the AI ​​mechanism. \"Humanity Optimization Plan Eden Protocol - Order of 2125\" announced",
@@ -3305,7 +3334,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.911
+    "hotScore": 0.907
   },
   {
     "title": "Radeon RX 7000 series now supports \"FSR Upscaling 4.1\" with \"AMD Software 26.6.2\"",
@@ -3314,7 +3343,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.911
+    "hotScore": 0.908
   },
   {
     "title": "\"NGS ver.2\", trial \"Gret Rappy Subjugation\" is occurring in the Nameless City entertainment section investigation",
@@ -3323,7 +3352,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.912
+    "hotScore": 0.908
   },
   {
     "title": "GTA 6 will launch at $79.99 and will be download only",
@@ -3332,7 +3361,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.912
+    "hotScore": 0.909
   },
   {
     "title": "Bungie made Destiny 2 dating sim but couldn’t get it released despite years of trying",
@@ -3341,7 +3370,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.915
+    "hotScore": 0.911
   },
   {
     "title": "Diablo 4's next season has been fully detailed and dated, and there's a free Warlock trial on the way and an Overwatch collab coming",
@@ -3350,7 +3379,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.917
+    "hotScore": 0.913
   },
   {
     "title": "“99 Glooms” implemented in collaboration with “Proseca” and [DEEMO×Cytus series]",
@@ -3359,7 +3388,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.918
+    "hotScore": 0.914
   },
   {
     "title": "GTA 6 Has Practically No Loading Screens on PS5",
@@ -3368,7 +3397,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.923
+    "hotScore": 0.919
   },
   {
     "title": "PS Plus Monthly Games for July 2026 Wish List",
@@ -3377,7 +3406,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.925
+    "hotScore": 0.922
   },
   {
     "title": "In the Middle Ages, when an unidentified plague is rampant, he runs a monastery on the verge of collapse. Announcement of \"Morvus\", a colony management sim that decides who to accept",
@@ -3386,16 +3415,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.926
-  },
-  {
-    "title": "Rockstar dropped 63 new GTA 6 screenshots, here's all of them",
-    "link": "https://www.pcgamer.com/games/action/rockstar-dropped-63-new-gta-6-screenshots-heres-all-of-them",
-    "date": 1782300987000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.922
   },
   {
     "title": "Evomon codes (June 2026) for Coins, Balls, and Fruit",
@@ -3404,7 +3424,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.93
+    "hotScore": 0.926
   },
   {
     "title": "All Wish Upon a Jirachi event rewards in Pokopia",
@@ -3413,16 +3433,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.933
-  },
-  {
-    "title": "GTA 6 Is a 'Single Player Experience', No Word on GTA Online at Launch",
-    "link": "https://www.pushsquare.com/news/2026/06/gta-6-is-a-single-player-experience-no-word-on-gta-online-at-launch",
-    "date": 1782301500000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 0.934
+    "hotScore": 0.929
   },
   {
     "title": "Cat Chess, a fluffy chess game that you can enjoy surrounded by cats, will be released on July 8th. A demo version that allows online battles is now available",
@@ -3431,7 +3442,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.935
+    "hotScore": 0.931
   },
   {
     "title": "Pre-orders are now being accepted for the new game “Overserved: Food Fighters!,” which is compatible with various hardware such as NINTENDO 64, NEOGEO, Dreamcast, and Sega Saturn.",
@@ -3440,16 +3451,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.935
-  },
-  {
-    "title": "GTA 6's Ultimate Edition Locks Off Exclusive Mission and Shops, But How Will it Work?",
-    "link": "https://www.ign.com/articles/gta-6s-ultimate-edition-locks-off-exclusive-mission-and-shops-but-how-will-it-work",
-    "date": 1782301594000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 0.935
+    "hotScore": 0.931
   },
   {
     "title": "Playstation's GTA6 Q&A could imply that the next iteration of GTA Online could be sold separetely or at least not included with GTA6.",
@@ -3458,7 +3460,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.938
+    "hotScore": 0.934
   },
   {
     "title": "Animal Crossing and Baskin-Robbins collab brings island-inspired ice cream",
@@ -3467,7 +3469,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 1.877,
+    "hotScore": 1.869,
     "groupMembers": [
       {
         "title": "Animal Crossing Baskin-Robbins Collab Appears in July 2026",
@@ -3486,7 +3488,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.944
+    "hotScore": 0.94
   },
   {
     "title": "GTA 6 Will Not Offer Early Access Incentive",
@@ -3495,7 +3497,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.946
+    "hotScore": 0.942
   },
   {
     "title": "GTA 6 ‘600 GB’ File Size Image is Likely Fake",
@@ -3504,7 +3506,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.946
+    "hotScore": 0.943
   },
   {
     "title": "Star Fox review",
@@ -3513,34 +3515,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 2.84,
-    "groupMembers": [
-      {
-        "title": "Star Fox Review: Stunning Lylat Wars revival isn’t quite a perfect remake",
-        "link": "https://www.videogameschronicle.com/review/star-fox-review",
-        "date": 1782302421000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "Star Fox Remake Review Round-Up",
-        "link": "https://www.thegamer.com/star-fox-switch-2-remake-review-scores",
-        "date": 1782305120000,
-        "domain": "thegamer.com",
-        "sourceName": "TheGamer",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
-    "title": "Star Fox review: \"Soars on the Nintendo Switch 2\"",
-    "link": "https://www.gamesradar.com/games/action/star-fox-review",
-    "date": 1782302400000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 2.84,
+    "hotScore": 4.714,
     "groupMembers": [
       {
         "title": "Star Fox review: Switch 2 remake doesn't outfly a Nintendo 64 classic",
@@ -3551,11 +3526,27 @@
         "isTranslated": false
       },
       {
+        "title": "Star Fox Remake Review Round-Up",
+        "link": "https://www.thegamer.com/star-fox-switch-2-remake-review-scores",
+        "date": 1782305120000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      },
+      {
         "title": "Review: Multiplayer Is a Highlight in Star Fox Switch 2 Remake",
         "link": "https://www.siliconera.com/review-multiplayer-is-a-highlight-in-star-fox-switch-2-remake",
         "date": 1782302460000,
         "domain": "siliconera.com",
         "sourceName": "Siliconera",
+        "isTranslated": false
+      },
+      {
+        "title": "Star Fox review: \"Soars on the Nintendo Switch 2\"",
+        "link": "https://www.gamesradar.com/games/action/star-fox-review",
+        "date": 1782302400000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
         "isTranslated": false
       }
     ]
@@ -3567,7 +3558,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.947,
+    "hotScore": 0.943,
     "groupMembers": [
       {
         "title": "Star Fox Is A New Beginning That Undermines Itself",
@@ -3586,7 +3577,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.943
   },
   {
     "title": "Review: Star Fox (Switch 2) - Stays On The Rails, But Absolutely Hits The Target",
@@ -3595,7 +3586,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.943
   },
   {
     "title": "Japanese government to launch a centralized organization to support the global expansion of games, anime and manga",
@@ -3604,7 +3595,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.943
   },
   {
     "title": "Star Fox Review: The Arwing soars again",
@@ -3613,7 +3604,16 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.943
+  },
+  {
+    "title": "Star Fox Review: Stunning Lylat Wars revival isn’t quite a perfect remake",
+    "link": "https://www.videogameschronicle.com/review/star-fox-review",
+    "date": 1782302421000,
+    "domain": "videogameschronicle.com",
+    "sourceName": "VGC",
+    "isTranslated": false,
+    "hotScore": 0.943
   },
   {
     "title": "GreedFall: The Dying World Cannot Get More Updates After Studio Closure",
@@ -3622,7 +3622,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.943
   },
   {
     "title": "Qualcomm to Buy Modular For $3.9 Billion to Help AI Push",
@@ -3631,7 +3631,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.943
   },
   {
     "title": "Where To Find The Troll Canyon Telekinesis Spell In Gothic 1 Remake",
@@ -3640,7 +3640,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.948
+    "hotScore": 0.944
   },
   {
     "title": "GTA 6 is following Red Dead Redemption 2's footsteps in how it breaks up the story, Rockstar teases",
@@ -3649,7 +3649,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.948
+    "hotScore": 0.944
   },
   {
     "title": "Some Fear GTA 6 Physical Version Marks the End of the Video Game Disc",
@@ -3658,7 +3658,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.952
+    "hotScore": 0.948
   },
   {
     "title": "\"Mabinogi Mobile\" service started in Taiwan, Hong Kong, and Macau on July 22nd. Scheduled to be released in Japan in 2026",
@@ -3667,7 +3667,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.956
+    "hotScore": 0.952
   },
   {
     "title": "Guide: Where to Pre-Order GTA 6 on PS5",
@@ -3676,7 +3676,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.959
+    "hotScore": 0.955
   },
   {
     "title": "Co-Op Extraction Shooter on Steam Looks Like Project Zomboid But Plays Like Tarkov",
@@ -3685,7 +3685,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.961
+    "hotScore": 0.957
   },
   {
     "title": "Hideo Kojima Wants OD to go ‘Beyond The Limit’ of Scariness",
@@ -3694,7 +3694,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.962
+    "hotScore": 0.958
   },
   {
     "title": "With GTA 6 prices out, here’s how you can secure a vintage 80’s look",
@@ -3703,7 +3703,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.96
   },
   {
     "title": "\"Characters will come and go\": Total War: Medieval 3 won't have skill trees because Creative Assembly want you to think in terms of dynasties",
@@ -3712,16 +3712,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.967
-  },
-  {
-    "title": "Lords Of The Fallen 2 Escapes A Stacked September Release Date, Skulks Into 2027",
-    "link": "https://www.purexbox.com/news/2026/06/lords-of-the-fallen-2-escapes-a-stacked-september-release-date-skulks-into-2027",
-    "date": 1782304200000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 0.972
+    "hotScore": 0.963
   },
   {
     "title": "Fallout: New Vegas Decisions That Feel Much Worse the Second Time You Pl",
@@ -3730,7 +3721,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.972
+    "hotScore": 0.968
   },
   {
     "title": "GTA 6 Won't Launch With Its Online Mode",
@@ -3739,7 +3730,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.973
+    "hotScore": 0.969
   },
   {
     "title": "TV anime “Persona 4”, episode 1 screening will be held on Atlus official YouTube channel from 20:00 on June 26th",
@@ -3748,7 +3739,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.976
+    "hotScore": 0.972
   },
   {
     "title": "GTA 6 Crosses a Line by Paywalling 'Pimp My Ride' Mode and Customization",
@@ -3757,16 +3748,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.976
-  },
-  {
-    "title": "Rockstar Games begins pre-orders for Grand Theft Auto VI and Ultimate Edition starting June 25th",
-    "link": "https://gamebiz.jp/news/428387",
-    "date": 1782304800000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 0.981
+    "hotScore": 0.972
   },
   {
     "title": "‘Grand Theft Auto VI’ Priced at $80, in Line With Most Games",
@@ -3775,7 +3757,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.982
+    "hotScore": 0.978
   },
   {
     "title": "Round Up: The Reviews For Star Fox On Switch 2 Are In",
@@ -3784,16 +3766,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.985
-  },
-  {
-    "title": "GTA 6 physical edition is code in a box, will have early release date for preloading",
-    "link": "https://www.polygon.com/gta-6-physical-code-in-box-preloading",
-    "date": 1782305149000,
-    "domain": "polygon.com",
-    "sourceName": "Polygon",
-    "isTranslated": false,
-    "hotScore": 0.986
+    "hotScore": 0.981
   },
   {
     "title": "You’d Be Insane Not To Pay $100 for Grand Theft Auto 6 Now",
@@ -3802,7 +3775,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.987
+    "hotScore": 0.983
   },
   {
     "title": "PlayStation Store New Zealand is up with GTA VI pre orders",
@@ -3811,7 +3784,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.989
+    "hotScore": 0.985
   },
   {
     "title": "New GTA 6 activities, customization, and gameplay details revealed alongside 63 gorgeous screenshots",
@@ -3820,7 +3793,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.991
+    "hotScore": 0.987
   },
   {
     "title": "Gamecraft Studios begins first public playtest for PC open-world cooperative simulation Zombuds",
@@ -3829,7 +3802,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.992
+    "hotScore": 0.988
   },
   {
     "title": "A data analysis report shows that there are fewer reviews on Steam when there is a statement in ``disclosure of use of AI-generated content''",
@@ -3838,7 +3811,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.993
+    "hotScore": 0.989
   },
   {
     "title": "Mamdani’s Picks Sweep, Oil Falls Below $75, More",
@@ -3847,7 +3820,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.993
+    "hotScore": 0.989
   },
   {
     "title": "Valve Blames RAM Suppliers For Steam Machine Pricing",
@@ -3856,7 +3829,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.991
   },
   {
     "title": "The Internet Reacts To Grand Theft Auto 6’s Price And Missing Physical Disc",
@@ -3865,16 +3838,25 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.997
+    "hotScore": 0.993
   },
   {
-    "title": "Citizen Sleeper creator explains why they're taking a swing with their new RPG",
-    "link": "https://www.rockpapershotgun.com/citizen-sleeper-creator-explains-why-theyre-taking-a-swing-with-their-new-rpg",
+    "title": "Tim Sweeney Interview: Epic Games CEO on AI in UE6 and Why Games Struggle to Find Success",
+    "link": "https://www.ign.com/articles/tim-sweeney-interview-epic-games-ceo-on-ai-in-ue6-and-why-games-struggle-to-find-success",
     "date": 1782306000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
+    "domain": "ign.com",
+    "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.998
+    "hotScore": 0.994
+  },
+  {
+    "title": "OpenAI and Broadcom Unveil AI Chip to Run Models Faster, Cheaper",
+    "link": "https://www.bloomberg.com/news/articles/2026-06-24/openai-and-broadcom-unveil-ai-chip-to-run-models-faster-cheaper",
+    "date": 1782306000000,
+    "domain": "bloomberg.com",
+    "sourceName": "Bloomberg",
+    "isTranslated": false,
+    "hotScore": 0.994
   },
   {
     "title": "Knight of the Old Republic 2 was great because it peeled back Star Wars' black-and-white morality",
@@ -3883,7 +3865,25 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.998
+    "hotScore": 0.994
+  },
+  {
+    "title": "Citizen Sleeper creator explains why they're taking a swing with their new RPG",
+    "link": "https://www.rockpapershotgun.com/citizen-sleeper-creator-explains-why-theyre-taking-a-swing-with-their-new-rpg",
+    "date": 1782306000000,
+    "domain": "rockpapershotgun.com",
+    "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 0.994
+  },
+  {
+    "title": "Gallery: GTA 6 Looks Phenomenal in Dozens of New PS5 Screenshots",
+    "link": "https://www.pushsquare.com/features/gallery-gta-6-looks-phenomenal-in-dozens-of-new-ps5-screenshots",
+    "date": 1782306000000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 0.994
   },
   {
     "title": "Megami Tensei artist Kazuma Kaneko thinks AI replacing parts of game dev is “inevitable,” but games still need the “impure desires” of human creators to be great",
@@ -3892,7 +3892,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.998
+    "hotScore": 0.994
   },
   {
     "title": "GTA 6 Locks Customisation, Locations, And Activities Behind The Ultimate Edition",
@@ -3901,6 +3901,33 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.999
+    "hotScore": 0.995
+  },
+  {
+    "title": "GTA 6 Needs to Make GTA Online Free-to-Play",
+    "link": "https://gamerant.com/gta-6-gta-online-free-to-play",
+    "date": 1782306076000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.996
+  },
+  {
+    "title": "Hasbro Games Junior Collection announced for PS5, Xbox Series, Switch 2, PS4, Switch, and PC",
+    "link": "https://www.gematsu.com/2026/06/hasbro-games-junior-collection-announced-for-ps5-xbox-series-switch-2-ps4-switch-and-pc",
+    "date": 1782306147000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 0.997
+  },
+  {
+    "title": "After 3 Years, One Piece Officially Reveals Trailer For Anime Remake",
+    "link": "https://gamerant.com/the-one-piece-trailer-wit-studio-netflix-remake",
+    "date": 1782306168000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.997
   }
 ]
