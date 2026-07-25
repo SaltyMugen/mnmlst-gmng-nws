@@ -1,21 +1,22 @@
 [
   {
-    "title": "10 Coolest Hatsune Miku Cameos in Games",
-    "link": "https://www.dualshockers.com/coolest-hatsune-miku-cameos-in-games",
-    "date": 1784913305000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 0.279
-  },
-  {
     "title": "Sponge Break launches July 30",
     "link": "https://www.gematsu.com/2026/07/sponge-break-launches-july-30",
     "date": 1784914443000,
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.565,
+    "groupMembers": [
+      {
+        "title": "Multi-compatible, extremely dangerous river rafting game “Sponge Break” to be released on July 31st. Passing over falling rocks and “raft-gnawing beavers”, we navigate through a waterway that is bound to capsize.",
+        "link": "https://automaton-media.com/articles/newsjp/sponge-break-20260725-456640",
+        "date": 1784957946000,
+        "domain": "automaton-media.com",
+        "sourceName": "Automaton Media JP",
+        "isTranslated": true
+      }
+    ]
   },
   {
     "title": "GTA 6 Is The First Game I’ve Seen With A Best-Before Date",
@@ -24,7 +25,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "Tomb Raider: Catalyst Delayed To 2028 Which Means No Disc On PlayStation",
@@ -33,7 +34,17 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.566,
+    "groupMembers": [
+      {
+        "title": "Tomb Raider: Catalyst delayed to 2028",
+        "link": "https://www.pcgamer.com/games/action/tomb-raider-catalyst-delayed-to-2028",
+        "date": 1784920122000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "GTA 6 digital codes have an expiration date in this one country",
@@ -42,7 +53,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "Best players for FC 26 The Metronome Evolution",
@@ -51,7 +62,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.285,
+    "hotScore": 0.284,
     "groupMembers": [
       {
         "title": "Best players for FC 26 No Way Through Evolution",
@@ -94,7 +105,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.291
+    "hotScore": 0.289
   },
   {
     "title": "All FC 26 1 of 4 93+ Festival of Football Player Pick SBC rewards",
@@ -103,7 +114,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.296
+    "hotScore": 0.295
   },
   {
     "title": "Halo: Campaign Evolved Secret Ending Seems To Tease A Halo 2 Remake",
@@ -112,7 +123,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.594,
+    "hotScore": 0.591,
     "groupMembers": [
       {
         "title": "Halo: Campaign Evolved Secret Ending Cutscene Suggests a Halo 2 Remake Is on the Way",
@@ -131,7 +142,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.296
   },
   {
     "title": "'See You in the Sequel': Halo 2 Remake All But Confirmed",
@@ -140,7 +151,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.297
   },
   {
     "title": "SEGA & Ubisoft Leaders Share Their Thoughts On The Future Of Physical Games",
@@ -149,7 +160,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.297
   },
   {
     "title": "10 Classic Video Games That Were Never Replicated",
@@ -158,7 +169,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.297
   },
   {
     "title": "Tomb Raider: Catalyst – Amazon Games boss suggests 2028 delay, but publisher says ‘no updates’",
@@ -167,17 +178,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.601,
-    "groupMembers": [
-      {
-        "title": "Tomb Raider: Catalyst delayed to 2028",
-        "link": "https://www.pcgamer.com/games/action/tomb-raider-catalyst-delayed-to-2028",
-        "date": 1784920122000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.299
   },
   {
     "title": "Everything We Know About Pokémon Winds And Waves",
@@ -186,7 +187,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.302,
+    "hotScore": 0.301,
     "groupMembers": [
       {
         "title": "Everything We Know About Grand Theft Auto 6",
@@ -205,7 +206,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.303
+    "hotScore": 0.302
   },
   {
     "title": "A complicated game",
@@ -214,7 +215,7 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 0.304
+    "hotScore": 0.303
   },
   {
     "title": "Saudi Arabia's takeover of EA gets approval from European Commission",
@@ -223,7 +224,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.306
+    "hotScore": 0.304
   },
   {
     "title": "Tales of 30th Anniversary Cafe Will Sell Merchandise, Mapo Curry",
@@ -232,7 +233,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.306
+    "hotScore": 0.305
   },
   {
     "title": "007: First Light’s First Major Update Adds Two New Missions, Weapons, and Fixes Over 200 Issues",
@@ -241,7 +242,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.307
   },
   {
     "title": "Resident Evil Movie Trailer On PlayStation’s YouTube Page Is Full Of People Asking Sony To Change Course On Discs",
@@ -250,7 +251,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.307
   },
   {
     "title": "Jimothy, The Viral Raccoon, Is Becoming An Earnable WoW Pet",
@@ -259,7 +260,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.309
+    "hotScore": 0.308
   },
   {
     "title": "Marvel Tokon – Blade vs Green Goblin High Level CPU Gameplay",
@@ -268,7 +269,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.313
+    "hotScore": 0.311
   },
   {
     "title": "Meta just created a moderation nightmare for its smart glasses",
@@ -277,7 +278,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 0.313
+    "hotScore": 0.312
   },
   {
     "title": "How Much Longer Can PlayStation Stay In The Bunker Hiding From ‘No Disc, No Buy?’",
@@ -286,7 +287,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.317
+    "hotScore": 0.316
   },
   {
     "title": "6 games that shouldn’t work in your browser, but do",
@@ -295,7 +296,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.32
+    "hotScore": 0.319
   },
   {
     "title": "Warhorse trademarks 'Kingdom Come Salvation' as fans pray in unison for another open-world RPG",
@@ -304,7 +305,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.321
+    "hotScore": 0.32
   },
   {
     "title": "Dissidia Duellum Final Fantasy Gets Celes From FFVI",
@@ -313,7 +314,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.323
+    "hotScore": 0.322
   },
   {
     "title": "Nintendo added a bizarre \"anti-brother romance failsafe\" to NES Remix to stop Mario from getting too close with Luigi on Wii U, expert says",
@@ -322,7 +323,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.324
+    "hotScore": 0.322
   },
   {
     "title": "We need games like Clair Obscur: Expedition 33, Balatro, and Peak as a cure for the \"fear\" in the industry, say experts",
@@ -331,7 +332,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.33
+    "hotScore": 0.329
   },
   {
     "title": "Even Japan's patent officials seem exhausted with Nintendo's antics as they refuse its 'absurd' defense of a rejected Pokémon patent",
@@ -340,7 +341,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.332
+    "hotScore": 0.331
   },
   {
     "title": "Doom: The Dark Ages’ Big DLC Expansion Is A Fun But Flawed Finale For This Era Of The Series",
@@ -349,7 +350,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.333
+    "hotScore": 0.331
   },
   {
     "title": "7 Splatoon Raiders Tips To Help You Get Your Sea Legs",
@@ -358,7 +359,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.34
+    "hotScore": 0.338
   },
   {
     "title": "In the history of video games, I don't think anyone else has ever pulled off the artistic feat of the coolest new game on Steam",
@@ -367,7 +368,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.341
+    "hotScore": 0.339
   },
   {
     "title": "Hello Kitty Party Land Trailer Shows Some of Sanrio’s 145 Featured Characters",
@@ -376,7 +377,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.341
+    "hotScore": 0.339
   },
   {
     "title": "Paramount-Warner Bros. Merger Officially Placed on Hold",
@@ -385,7 +386,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.341
+    "hotScore": 0.34
   },
   {
     "title": "MMO life sim Seed's AI-powered avatars prove once again that nothing shatters immersion quicker than crappy chatbot dialogue",
@@ -394,7 +395,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.344
   },
   {
     "title": "Don't Play Halo: Campaign Evolved on Steam Deck or Xbox Ally",
@@ -403,7 +404,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.344
   },
   {
     "title": "T-Pain Names Mario Kart As His Favorite Nintendo Game Series",
@@ -412,7 +413,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.351
   },
   {
     "title": "Three Fantastic Games You Can Play For Free This Weekend",
@@ -421,7 +422,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.36
+    "hotScore": 0.358
   },
   {
     "title": "Hell Let Loose: Vietnam is open to all this weekend for a free playtest",
@@ -430,7 +431,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.36
+    "hotScore": 0.358
   },
   {
     "title": "Nintendo awakens JRPG hopes after 20 years as Xenosaga gets a fresh cameo in Xenoblade Chronicles 2 on Switch 2",
@@ -439,7 +440,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.361
+    "hotScore": 0.36
   },
   {
     "title": "San Diego Comic-Con 2026: Everything Announced So Far | Comic Con 2026",
@@ -448,7 +449,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.366,
+    "hotScore": 0.364,
     "groupMembers": [
       {
         "title": "Everything Announced at the God of War Laufey SDCC Panel | Comic Con 2026",
@@ -467,7 +468,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.369
+    "hotScore": 0.368
   },
   {
     "title": "It Is Always Morally Correct To Say ‘Booyah’ In Splatoon",
@@ -476,16 +477,16 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.37
+    "hotScore": 0.368
   },
   {
-    "title": "“Path of Exile” major update “Curse of the Allflame” released today. A new adventure at sea begins with a “new crafting system” and a “revival of the mercenary companion system”",
+    "title": "“Path of Exile” major update “Curse of the Allflame” released today. A new adventure at sea begins with a ``new craft system'' and ``resurrection of the mercenary companion system''",
     "link": "https://automaton-media.com/articles/newsjp/path-of-exile-20260725-456603",
     "date": 1784932890000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.373
+    "hotScore": 0.371
   },
   {
     "title": "Johnny Depp Promoting A Christmas Carol Prequel In July At Comic-Con Is Incredibly Embarrassing",
@@ -494,7 +495,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.38
+    "hotScore": 0.378
   },
   {
     "title": "Steam Client Beta - July 24th",
@@ -503,7 +504,7 @@
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 0.39,
+    "hotScore": 0.388,
     "groupMembers": [
       {
         "title": "Steam Beta Client Update: July 24th",
@@ -522,7 +523,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.394
+    "hotScore": 0.393
   },
   {
     "title": "Final Fantasy 7 Remake Director Says Gamers Are Facing Open-World Fatigue",
@@ -531,7 +532,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.397
+    "hotScore": 0.395
   },
   {
     "title": "Palworld Review",
@@ -540,7 +541,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.8,
+    "hotScore": 0.797,
     "groupMembers": [
       {
         "title": "Palworld Funniest Steam Reviews",
@@ -559,7 +560,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.4
+    "hotScore": 0.398
   },
   {
     "title": "Dataminers Discover Xbox Backward Compatibility On PC Can Run Xbox 360 Games",
@@ -568,7 +569,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.4
+    "hotScore": 0.398
   },
   {
     "title": "Cloud Gaming Could Benefit From $1,000 Consoles, Says Amazon",
@@ -577,7 +578,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.403
+    "hotScore": 0.402
   },
   {
     "title": "Technical Halo leaks future Halo plans/projects",
@@ -586,7 +587,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.407
+    "hotScore": 0.405
   },
   {
     "title": "Next Kratos-Led God of War Game Is Coming After Laufey, and Connects Directly to Her Story | Comic Con 2026",
@@ -595,7 +596,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.839,
+    "hotScore": 0.835,
     "groupMembers": [
       {
         "title": "Next Kratos-Led God of War Story Will Follow Laufey’s Directly",
@@ -614,7 +615,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.422
+    "hotScore": 0.42
   },
   {
     "title": "The Next God Of War Is In Development, Stars Kratos, Will Tie Directly To Laufey",
@@ -623,8 +624,32 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 1.268,
+    "hotScore": 2.524,
     "groupMembers": [
+      {
+        "title": "Kratos’ Next God Of War Game Will Pick Up Where Laufey Leaves Off",
+        "link": "https://www.gamespot.com/articles/kratos-next-god-of-war-game-will-pick-up-where-laufey-leaves-off",
+        "date": 1784965280000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "PlayStation confirms God of War Laufey release date and return of Kratos in next game",
+        "link": "https://www.videogameschronicle.com/news/playstation-confirms-god-of-war-laufey-release-date-and-return-of-kratos-in-next-game",
+        "date": 1784946023000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
+        "isTranslated": false
+      },
+      {
+        "title": "Kratos is officially returning in new God of War game after Laufey",
+        "link": "https://www.dexerto.com/gaming/kratos-is-officially-returning-in-new-god-of-war-game-after-laufey-3391098",
+        "date": 1784998548000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
+        "isTranslated": false
+      },
       {
         "title": "The next God of War game will have Kratos as its lead",
         "link": "https://www.destructoid.com/the-next-god-of-war-game-will-have-kratos-as-its-lead",
@@ -644,22 +669,22 @@
     ]
   },
   {
-    "title": "「ウマ娘」新シナリオはラーメンが主役！東京代表「ガッツリ豚ラーメン」を本気で再現。俺のコラボカフェ：Menu 090",
+    "title": "Ramen is the main character in the new “Uma Musume” scenario! A serious reproduction of Tokyo's representative \"gutsuri pork ramen\". My collaboration cafe: Menu 090",
     "link": "https://www.4gamer.net/games/448/G044868/20260724047",
     "date": 1784942100000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.428
+    "hotScore": 0.426
   },
   {
-    "title": "\"Gamble With Your Friends\", a cooperative gambling game with up to 6 players, is now available in Japanese with a major update. Great gambling challenge by “sharing wallet”, item explanations, etc. are much easier to understand",
+    "title": "\"Gamble With Your Friends\", a cooperative gambling game with up to 6 players, is now available in Japanese with a major update. Great gambling by “sharing your wallet”, item explanations, etc. are much easier to understand",
     "link": "https://automaton-media.com/articles/newsjp/20260725-456621",
     "date": 1784942299000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.429
+    "hotScore": 0.427
   },
   {
     "title": "God of War Laufey Release Date Announced | Comic Con 2026",
@@ -668,20 +693,12 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.764,
+    "hotScore": 1.317,
     "groupMembers": [
       {
-        "title": "PlayStation confirms God of War Laufey release date and return of Kratos in next game",
-        "link": "https://www.videogameschronicle.com/news/playstation-confirms-god-of-war-laufey-release-date-and-return-of-kratos-in-next-game",
-        "date": 1784946023000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
-      {
-        "title": "Kratos’ Next God Of War Game Will Pick Up Where Laufey Leaves Off",
-        "link": "https://www.gamespot.com/articles/kratos-next-god-of-war-game-will-pick-up-where-laufey-leaves-off",
-        "date": 1784965280000,
+        "title": "Surprise: God Of War Laufey Has A Release Date, And Its Kratos-Led Sequel Has Been Announced",
+        "link": "https://www.gamespot.com/articles/surprise-god-of-war-laufey-has-a-release-date-and-its-kratos-led-sequel-has-been-announced",
+        "date": 1784964747000,
         "domain": "gamespot.com",
         "sourceName": "GameSpot",
         "isTranslated": false
@@ -703,8 +720,16 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 2.647,
+    "hotScore": 1.757,
     "groupMembers": [
+      {
+        "title": "God Of War Laufey Joins The Growing Pile Of February 2027 Game Releases",
+        "link": "https://kotaku.com/god-of-war-laufey-joins-the-growing-pile-of-february-2027-game-releases-2000719291",
+        "date": 1784964441000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      },
       {
         "title": "God of War Laufey release date adds to a crowded February 2027 game lineup",
         "link": "https://www.polygon.com/god-of-war-laufey-release-date",
@@ -720,30 +745,6 @@
         "domain": "gematsu.com",
         "sourceName": "Gematsu",
         "isTranslated": false
-      },
-      {
-        "title": "PlayStation announces God of War Laufey release date set for February, joining another packed month for video games",
-        "link": "https://www.gamesradar.com/games/god-of-war/playstation-announces-god-of-war-laufey-release-date-set-for-february-joining-another-packed-month-for-video-games",
-        "date": 1784968359000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "“God of War Laufey”, scheduled for release on February 16, 2027. The latest work in the \"God of War\" series depicting the battle of Kratos' wife Laufey.",
-        "link": "https://www.4gamer.net/games/012/G101200/20260725004",
-        "date": 1784967271000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      },
-      {
-        "title": "God Of War Laufey Joins The Growing Pile Of February 2027 Game Releases",
-        "link": "https://kotaku.com/god-of-war-laufey-joins-the-growing-pile-of-february-2027-game-releases-2000719291",
-        "date": 1784964441000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
       }
     ]
   },
@@ -754,7 +755,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.449
+    "hotScore": 0.447
   },
   {
     "title": "Today’s NYT Strands #873 Hints, Spangram and Answers",
@@ -763,7 +764,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.46,
+    "hotScore": 0.458,
     "groupMembers": [
       {
         "title": "Today’s NYT Strands #874 Hints, Spangram and Answers",
@@ -776,31 +777,31 @@
     ]
   },
   {
-    "title": "Toptoon's popular manga and rapidly rising manga are updated weekly, with a thorough introduction of popular secrets and the charm of the service.",
+    "title": "Popular manga and rapidly rising manga from ``TOPTOON'' are updated weekly, and the secrets of popularity and the charm of the service are thoroughly introduced.",
     "link": "https://gamebiz.jp/news/352585",
     "date": 1784949240000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.475
+    "hotScore": 0.473
   },
   {
-    "title": "[Weekly Cygames] \"Granblue Fantasy\" x \"BLEACH Millennium Blood War\" collaboration, new training horse girl \"Ruler Ship\" appearance, etc. (July 18th to 24th, 2016)",
+    "title": "[Weekly Cygames] \"Granblue Fantasy\" x \"BLEACH Millennium Blood War\" collaboration, new training horse girl \"Ruler Ship\" appearance, etc. (July 18th to 24th, 2026)",
     "link": "https://gamebiz.jp/news/429894",
     "date": 1784950260000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.483
+    "hotScore": 0.48
   },
   {
-    "title": "We investigated whether ``Forza Horizon 6'' can be played comfortably on an entry-level gaming notebook PC. I was able to play. \"DLSS 4.5\" allows smooth operation of WQHD 165fps, beautiful Japan running at super high speed",
+    "title": "We tested whether ``Forza Horizon 6'' can be played comfortably on an entry-level gaming notebook PC. I was able to play. \"DLSS 4.5\" allows smooth operation of WQHD 165fps, beautiful Japan running at super high speed",
     "link": "https://automaton-media.com/articles/columnjp/20260725-456609",
     "date": 1784953374000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.505
+    "hotScore": 0.503
   },
   {
     "title": "Koei Tecmo Games begins pre-orders for Steam version of “Romance of the Three Kingdoms 14 with PUK Complete Edition”",
@@ -809,7 +810,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.514
+    "hotScore": 0.512
   },
   {
     "title": "Random: Splatoon Raiders' Interactive Loading Screen Secret Can Crash The Game",
@@ -818,34 +819,16 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.515
+    "hotScore": 0.513
   },
   {
-    "title": "ダットジャパン、ローグライク型ターンRPG『アリーナリメイク』をSwitchとSteamで26年冬頃に配信決定…90年代の人気PCゲームが30年を経て復活",
+    "title": "Datto Japan will release roguelike-type turn RPG \"Arena Remake\" on Switch and Steam around winter 2026...The popular PC game of the 90s will be revived after 30 years",
     "link": "https://gamebiz.jp/news/429947",
     "date": 1784955600000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.522
-  },
-  {
-    "title": "26年7月18日～24日のアクセスランキング…注目作『ホロドリ』関連の情報が複数上位に、ゲームロフト日本法人の解散も",
-    "link": "https://gamebiz.jp/news/429916",
-    "date": 1784957400000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 0.536
-  },
-  {
-    "title": "マルチ対応・超危険イカダ川下りゲーム『Sponge Break』7月31日配信へ。落石や“イカダかじりビーバー”などを越え、転覆必至の水路を進む",
-    "link": "https://automaton-media.com/articles/newsjp/sponge-break-20260725-456640",
-    "date": 1784957946000,
-    "domain": "automaton-media.com",
-    "sourceName": "Automaton Media JP",
-    "isTranslated": true,
-    "hotScore": 0.541
+    "hotScore": 0.52
   },
   {
     "title": "PS5's Next Big Exclusive Dated, and It's Closer Than You Think",
@@ -854,7 +837,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.551
+    "hotScore": 0.548
   },
   {
     "title": "Baten Kaitos Remaster Dev Helped Out With Xenoblade Chronicles' Switch 2 Edition",
@@ -863,7 +846,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.566
+    "hotScore": 0.563
   },
   {
     "title": "What we've been playing - \"Gosh I had a really fun 30 minutes with Marvel Tokon before PSN went down\"",
@@ -872,7 +855,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.581
+    "hotScore": 0.578
   },
   {
     "title": "What are we all playing this weekend?",
@@ -881,7 +864,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 2.326,
+    "hotScore": 2.316,
     "groupMembers": [
       {
         "title": "Talking Point: What Are You Playing This Weekend? (25th July)",
@@ -916,7 +899,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.582
+    "hotScore": 0.579
   },
   {
     "title": "NYT Connections Hints Today (#1140)—Answers for Saturday, July 25",
@@ -925,25 +908,16 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.584
+    "hotScore": 0.581
   },
   {
-    "title": "Surprise: God Of War Laufey Has A Release Date, And Its Kratos-Led Sequel Has Been Announced",
-    "link": "https://www.gamespot.com/articles/surprise-god-of-war-laufey-has-a-release-date-and-its-kratos-led-sequel-has-been-announced",
-    "date": 1784964747000,
-    "domain": "gamespot.com",
-    "sourceName": "GameSpot",
-    "isTranslated": false,
-    "hotScore": 0.598
-  },
-  {
-    "title": "Steamユーザーの約半数は、レビューが「賛否両論」以下だと購入をためらうという調査結果。“レビューステータス”はやっぱり売上への影響大きめ",
+    "title": "Survey results show that about half of Steam users hesitate to purchase a product if the reviews are less than ``mixed''. “Review status” has a big impact on sales.",
     "link": "https://automaton-media.com/articles/newsjp/20260725-456647",
     "date": 1784964832000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.599
+    "hotScore": 0.596
   },
   {
     "title": "DragonSword: Awakening Familiars tier list",
@@ -952,16 +926,16 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.613
+    "hotScore": 0.611
   },
   {
-    "title": "『モンスト』『アークナイツ』『NIKKE』が分け合う　GooglePlay(7/18～7/24)売上ランキング振り返り",
+    "title": "Looking back at Google Play (7/18-7/24) sales rankings shared by “Monster Strike,” “Arknights,” and “NIKKE”",
     "link": "https://gamebiz.jp/news/429921",
     "date": 1784966760000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.616
+    "hotScore": 0.613
   },
   {
     "title": "``A Game About Penguins'', a multi-player penguin interaction sandbox for up to 12 people, will be released on August 10th. A freedom playground where you can do everything from relaxing fishing to having a snowball fight.",
@@ -970,7 +944,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.616
+    "hotScore": 0.614
   },
   {
     "title": "The Bastion is Final Fantasy 14's first new job for Evercold, a hulking tank with a shield and gun on each arm",
@@ -979,16 +953,43 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.627
+    "hotScore": 0.624
   },
   {
-    "title": "「FFXIV：白銀のワンダラー」で登場する最新ジョブ“バスティオン”発表。魔甲と呼ばれる武器で戦うタンクだ",
+    "title": "PlayStation announces God of War Laufey release date set for February, joining another packed month for video games",
+    "link": "https://www.gamesradar.com/games/god-of-war/playstation-announces-god-of-war-laufey-release-date-set-for-february-joining-another-packed-month-for-video-games",
+    "date": 1784968359000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 1.884,
+    "groupMembers": [
+      {
+        "title": "“God of War Laufey”, scheduled for release on February 16, 2027. The latest work in the \"God of War\" series depicting the battle of Kratos' wife Laufey.",
+        "link": "https://www.4gamer.net/games/012/G101200/20260725004",
+        "date": 1784967271000,
+        "domain": "4gamer.net",
+        "sourceName": "4Gamer.net",
+        "isTranslated": true
+      },
+      {
+        "title": "God of War Laufey finally gets a release date - here's when you'll be able to play it",
+        "link": "https://www.eurogamer.net/god-of-war-laufey-release-date-confirmed",
+        "date": 1784993290000,
+        "domain": "eurogamer.net",
+        "sourceName": "Eurogamer",
+        "isTranslated": false
+      }
+    ]
+  },
+  {
+    "title": "The latest job “Bastion” appearing in “FFXIV: Silver Wanderer” has been announced. A tank that fights with a weapon called a magic armor.",
     "link": "https://www.4gamer.net/games/199/G019924/20260725003",
     "date": 1784968537000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.633
+    "hotScore": 0.63
   },
   {
     "title": "The Marvel fighting game ``MARVEL Tōkon: Fighting Souls'' quickly attracted 30,000 users on Steam during its open beta. 4v4 heated battle between heroes and villains",
@@ -997,7 +998,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.64
+    "hotScore": 0.637
   },
   {
     "title": "Weekly Steam Plaza No. 163: Large-scale strategic action “Conqueror’s Blade Mikuni” and “Scrap Mechanic” to be released",
@@ -1006,7 +1007,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.646
+    "hotScore": 0.644
   },
   {
     "title": "India Youth Protests End as Modi Bows to Group’s Demands",
@@ -1015,16 +1016,16 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.647
+    "hotScore": 0.645
   },
   {
-    "title": "\"Counter-Strike 2\" takes the lead, new releases such as \"Dragon Sword\", \"Holodori\", and \"Queen's Blade RB\" make progress. Steam (7/18-7/24) sales ranking review",
+    "title": "\"Counter-Strike 2\" takes the lead, new releases such as \"Dragon Sword\", \"Holodori\", and \"Queen's Blade RB\" are making great progress. Looking back at the sales rankings on Steam (7/18-7/24)",
     "link": "https://gamebiz.jp/news/429922",
     "date": 1784970780000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.654
+    "hotScore": 0.651
   },
   {
     "title": "Rockstar co-founder Dan Houser says if people want games on disc ‘companies should provide it’",
@@ -1033,7 +1034,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 1.315,
+    "hotScore": 1.31,
     "groupMembers": [
       {
         "title": "Rockstar Co-Founder Dan Houser Says Companies Should Provide Game Discs",
@@ -1052,7 +1053,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.682
+    "hotScore": 0.679
   },
   {
     "title": "Final Fantasy XIV: Evercold expansion extended teaser trailer and latest details, Switch 2 version launches August 4",
@@ -1061,7 +1062,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.682
+    "hotScore": 0.679
   },
   {
     "title": "Klukva Games releases tactical roguelite game “Dead Weight” on Steam",
@@ -1070,7 +1071,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.684
+    "hotScore": 0.681
   },
   {
     "title": "A new God of War game starring Kratos is already officially in development and \"directly connects to the events of the Laufey game\"",
@@ -1079,17 +1080,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1.384,
-    "groupMembers": [
-      {
-        "title": "Kratos is officially returning in new God of War game after Laufey",
-        "link": "https://www.dexerto.com/gaming/kratos-is-officially-returning-in-new-god-of-war-game-after-laufey-3391098",
-        "date": 1784998548000,
-        "domain": "dexerto.com",
-        "sourceName": "Dexerto",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.689
   },
   {
     "title": "Kwalee and Flash Cat Games to release deck-building roguelike ADV “Talespinner” on August 6, 2026",
@@ -1098,7 +1089,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.695
+    "hotScore": 0.692
   },
   {
     "title": "The Final Fantasy 7 Remake series comes to Final Fantasy 14 as part of Evercold's new raid series, and veterans of the OG JRPG are involved",
@@ -1107,7 +1098,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.698
+    "hotScore": 0.695
   },
   {
     "title": "Nano Knight Studio releases “Table Soccer Frenzy,” a party game that elevates traditional table soccer into an unpredictable and chaotic experience",
@@ -1116,7 +1107,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.701
+    "hotScore": 0.698
+  },
+  {
+    "title": "MindsEye has multiplayer and a grenade football mode now, which the handful of people still playing it will no doubt be thrilled to hear",
+    "link": "https://www.pcgamer.com/games/action/mindseye-has-multiplayer-and-a-grenade-football-mode-now-which-the-handful-of-people-still-playing-it-will-no-doubt-be-thrilled-to-hear",
+    "date": 1784977200000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 0.716
   },
   {
     "title": "Guide: These 18+ PS5 Games Are Coming Out Next Week (27th-2nd August)",
@@ -1125,7 +1125,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.438,
+    "hotScore": 1.432,
     "groupMembers": [
       {
         "title": "PS5 Has 10 Big New Games Coming Out in August 2026",
@@ -1138,22 +1138,13 @@
     ]
   },
   {
-    "title": "MindsEye has multiplayer and a grenade football mode now, which the handful of people still playing it will no doubt be thrilled to hear",
-    "link": "https://www.pcgamer.com/games/action/mindseye-has-multiplayer-and-a-grenade-football-mode-now-which-the-handful-of-people-still-playing-it-will-no-doubt-be-thrilled-to-hear",
-    "date": 1784977200000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.719
-  },
-  {
-    "title": "「アノマリス／ANOMALITH」「クライムライト／CRYMELIGHT」，8月1日にSteamでスタートする「Six One Demo Days」に出展決定",
+    "title": "“ANOMALITH” and “CRYMELIGHT” will be exhibited at “Six One Demo Days” starting on August 1st on Steam",
     "link": "https://www.4gamer.net/games/008/G100858/20260724033",
     "date": 1784977200000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.719
+    "hotScore": 0.716
   },
   {
     "title": "The trial version of Furyu's new survival TPS \"Anomaris\" will be available from August 1st. Gameplay that was popular among “non-Furu fans” can be tried for a limited time",
@@ -1162,7 +1153,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.719
+    "hotScore": 0.716
   },
   {
     "title": "ByteRockers' Games releases tactical roguelike deck builder Solnox - Grimoire of Seasons",
@@ -1171,7 +1162,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.72
+    "hotScore": 0.717
   },
   {
     "title": "Assassin's Creed Black Flag Resynced director isn't ruling out a Mirage-style challenge system: \"We've looked into this one quite a bit\"",
@@ -1180,7 +1171,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1.447,
+    "hotScore": 1.44,
     "groupMembers": [
       {
         "title": "Assassin's Creed Black Flag Resynced: Where to Find All Portraits",
@@ -1199,7 +1190,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.726
+    "hotScore": 0.723
   },
   {
     "title": "Cyber752 Games releases delivery adventure game “Cargo, Please!” for PC on August 5, 2026",
@@ -1208,7 +1199,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.735
+    "hotScore": 0.731
   },
   {
     "title": "Maximum Entertainment releases sports action game 'Instant Sports 2' for PS5 and Switch",
@@ -1217,7 +1208,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.745
+    "hotScore": 0.741
   },
   {
     "title": "Zach Northrop and Mason Sabharwal will release Warming from Home, a PC job simulation game, on Steam on September 4th",
@@ -1226,16 +1217,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.748
+    "hotScore": 0.745
   },
   {
-    "title": "Outersloth、レトロな3Dソウルライクアクションゲーム『Memoirium』をSteamで2026年8月13日に発売",
+    "title": "Outersloth releases retro 3D soul-like action game “Memoirium” on Steam on August 13, 2026",
     "link": "https://gamebiz.jp/news/429956",
     "date": 1784980260000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.752
+    "hotScore": 0.749
   },
   {
     "title": "Dream Dock and Digital Vortex will release a demo version of the dark first-person fishing ADV “DREADMOOR” on October 6th",
@@ -1244,7 +1235,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.756
+    "hotScore": 0.753
   },
   {
     "title": "Modding wizard creates Grand Theft Auto multiverse that lets players travel instantly between Rockstar's first three games: 'We got inter-GTA portals before GTA 6'",
@@ -1253,7 +1244,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.759
+    "hotScore": 0.755
   },
   {
     "title": "Feature: These 30+ Games Are Coming To Xbox Next Week (July 27-31)",
@@ -1262,16 +1253,16 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.759
+    "hotScore": 0.755
   },
   {
-    "title": "「地獄降輪」，ボイスドラマEpisode1を公開。血の池（CV：沢城千春），海（CV：高橋怜也），龍巻（CV：森久保祥太郎）が登場",
+    "title": "\"Jigokufurin\" voice drama Episode 1 released. Pond of Blood (CV: Chiharu Sawashiro), Umi (CV: Reiya Takahashi), and Tatsumaki (CV: Shotaro Morikubo) appear",
     "link": "https://www.4gamer.net/games/010/G101096/20260724051",
     "date": 1784980800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.759
+    "hotScore": 0.755
   },
   {
     "title": "Nintendo needs more Splatoons, and to get out of its comfort zone more",
@@ -1280,7 +1271,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.759
+    "hotScore": 0.755
   },
   {
     "title": "Beep Japan releases absurd apocalyptic adventure game “Roman Sands RE:Build” on September 17, 2026",
@@ -1289,7 +1280,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.767
+    "hotScore": 0.764
   },
   {
     "title": "\"The desire for a world you can escape to is stronger than ever\": How MMORPGs are flourishing in a multiplayer landscape dominated by live-service shooters",
@@ -1298,16 +1289,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.779
-  },
-  {
-    "title": "Marvel Tokon: Fighting Souls Players Are Really Struggling To Run It On PC",
-    "link": "https://www.thegamer.com/marvel-tokon-fighting-souls-pc-performance-stutter-issues-slammed",
-    "date": 1784982611000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
-    "isTranslated": false,
-    "hotScore": 0.779
+    "hotScore": 0.776
   },
   {
     "title": "10 Strategy Games You Should Definitely Avoid",
@@ -1316,16 +1298,16 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.779
+    "hotScore": 0.776
   },
   {
-    "title": "Team17、掃除ゴブリンとして冒険者が荒らしたダンジョンを片付ける協力SLG『Goblin Cleanup』を2027年にリリース",
+    "title": "Team17 will release “Goblin Cleanup” in 2027, a cooperation SLG where you play as a cleaning goblin and clean up dungeons that have been destroyed by adventurers.",
     "link": "https://gamebiz.jp/news/429959",
     "date": 1784982780000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.781
+    "hotScore": 0.778
   },
   {
     "title": "Halo: Campaign Evolved shows love for Craig, the ugly brute who became an internet meme after Halo Infinite's controversial first demo",
@@ -1334,7 +1316,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.79
+    "hotScore": 0.786
   },
   {
     "title": "There's only one Jedi Operator in Star Wars Zero Company, and reckless players may end up with none at all: 'Be careful that nothing unfortunate happens to her!'",
@@ -1343,7 +1325,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.8
+    "hotScore": 0.797
   },
   {
     "title": "Star Ocean: The Second Story R Switch 2 Port Is Standard Fare",
@@ -1352,7 +1334,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.8
+    "hotScore": 0.797
   },
   {
     "title": "The Alters Last Variable review: new expansion ditches the delightful stressors of the base game",
@@ -1361,7 +1343,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.8
+    "hotScore": 0.797
   },
   {
     "title": "Until Dawn 2 Theory Suggests Everyone Can Be A Monster",
@@ -1370,7 +1352,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.813
+    "hotScore": 0.81
   },
   {
     "title": "Inside Insomniac Games’ Approach To An X-Men Icon: ‘Our Wolverine Is Cynical, He’s Candid, He Keeps People At A Distance’",
@@ -1379,7 +1361,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.815
+    "hotScore": 0.812
   },
   {
     "title": "FF14 Throws FF7 Revelation Fans A Bone With Crossover Raid",
@@ -1388,7 +1370,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.817
+    "hotScore": 0.814
   },
   {
     "title": "Final Fantasy XIV Online Releases For Switch 2 On 4th August 2026",
@@ -1397,7 +1379,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 2.465,
+    "hotScore": 2.454,
     "groupMembers": [
       {
         "title": "Final Fantasy 14 Sets Nintendo Switch 2 Release Date for Early August",
@@ -1424,7 +1406,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.822
+    "hotScore": 0.818
   },
   {
     "title": "Chirazu Art's new snow shoveling horror game ``Snowed Under'' announced. “Various things” sleep under the snow heading towards the steel tower.",
@@ -1433,7 +1415,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.828
+    "hotScore": 0.825
   },
   {
     "title": "Former PlayStation head says the rise of AAA games shut down Japan Studio because Sony \"wanted to drive hardware sales with games like God of War and Uncharted\"",
@@ -1442,7 +1424,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.844
+    "hotScore": 0.84
   },
   {
     "title": "Marvel Tōkon’s Open Beta On PC Is A Mess",
@@ -1451,7 +1433,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.844
+    "hotScore": 0.84
   },
   {
     "title": "Games Workshop Won't Make My Dream Warhammer Army, So I'm Doing It Myself",
@@ -1460,7 +1442,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.844
+    "hotScore": 0.84
   },
   {
     "title": "Fable 2 Fans Are Praying For A PC Port Through Xbox Backwards Compatibility",
@@ -1469,7 +1451,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.844
+    "hotScore": 0.841
   },
   {
     "title": "FC 26 FC Pro World Championship Mystery Nation revealed (Knockouts Day 2)",
@@ -1478,7 +1460,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.858
+    "hotScore": 0.854
   },
   {
     "title": "Halo: Campaign Evolved Already Has Mixed Steam Reviews",
@@ -1487,7 +1469,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.861
+    "hotScore": 0.857
   },
   {
     "title": "10 Metroidvanias That Feel More Rewarding the Less They Explain",
@@ -1496,7 +1478,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.867
+    "hotScore": 0.863
   },
   {
     "title": "Bloomberg Tech: Nvidia CEO Jensen Huang on South Korea (Podcast)",
@@ -1505,7 +1487,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.87
+    "hotScore": 0.866
   },
   {
     "title": "Guide: Xbox Game Pass Essential: Full List Of Games (July 2026 Update)",
@@ -1514,7 +1496,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.871
+    "hotScore": 0.867
   },
   {
     "title": "Discussion time: Have you ever said goodbye to an MMO you've played for 1,000s of hours?",
@@ -1523,7 +1505,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.89
+    "hotScore": 0.886
   },
   {
     "title": "Attending MagicCon Is The Best Way To Shut Out Online MTG Negativity",
@@ -1532,16 +1514,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.89
-  },
-  {
-    "title": "God of War Laufey finally gets a release date - here's when you'll be able to play it",
-    "link": "https://www.eurogamer.net/god-of-war-laufey-release-date-confirmed",
-    "date": 1784993290000,
-    "domain": "eurogamer.net",
-    "sourceName": "Eurogamer",
-    "isTranslated": false,
-    "hotScore": 0.913
+    "hotScore": 0.886
   },
   {
     "title": "7 reveals about MTG’s Nauctis, Zhalfir, Kamigawa: Titanbreach, and more",
@@ -1550,7 +1523,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.914
+    "hotScore": 0.91
   },
   {
     "title": "Modders finally got a high-quality third-person camera working in Baldur's Gate 3 for all you Dragon Age sickos",
@@ -1559,7 +1532,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.917
+    "hotScore": 0.913
   },
   {
     "title": "Square Enix debuts new FFXIV Evercold tank job Bastion at Berlin Fan Fest",
@@ -1568,7 +1541,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.922
+    "hotScore": 0.918
   },
   {
     "title": "It's taken 13 years, but Final Fantasy 14 has finally broken the Sephiroth-shaped emergency glass",
@@ -1577,7 +1550,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.934
+    "hotScore": 0.93
   },
   {
     "title": "GTA 6 Trailer 3 Could Drop August 6, Insider Thinks",
@@ -1586,7 +1559,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.938
+    "hotScore": 0.934
   },
   {
     "title": "With Doomsday Approaching, Grab A Cheap Marvel Tokon: Fighting Souls Steam Key With This Preorder Deal",
@@ -1595,7 +1568,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.939
+    "hotScore": 0.935
   },
   {
     "title": "Conceived in a secure military facility, this Jedi Knight fansite has been running consistently for almost 30 years: 'It looks really close to what it did back in 1998'",
@@ -1604,7 +1577,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.939
+    "hotScore": 0.935
   },
   {
     "title": "Castlevania: Belmont's Curse Will Run At 30fps On Switch",
@@ -1613,7 +1586,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.939
+    "hotScore": 0.935
   },
   {
     "title": "The Nintendo Switch 2's power boost is finally starting to pay off",
@@ -1622,7 +1595,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.939
+    "hotScore": 0.935
   },
   {
     "title": "Dragon Age And Ultima Should Go Back To Their Creators",
@@ -1631,7 +1604,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.94
+    "hotScore": 0.936
   },
   {
     "title": "Heavy Burden Collectibles Guide - Halo Campaign Evolved",
@@ -1640,7 +1613,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.948
+    "hotScore": 0.944
   },
   {
     "title": "Game Of Thrones Author George R. R. Martin Working On New Dunk And Egg Book",
@@ -1649,7 +1622,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.948
+    "hotScore": 0.944
   },
   {
     "title": "What is C.H.A.O.S. Signal Lost in Clash Royale?",
@@ -1658,7 +1631,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.961
+    "hotScore": 0.957
   },
   {
     "title": "Pokemon Krispy Kreme doughnuts leak ahead of grocery store launch",
@@ -1667,7 +1640,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.959
   },
   {
     "title": "Steam’s best new Animal Crossing clone is a perfect way to beat the summer heat",
@@ -1676,7 +1649,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.96
   },
   {
     "title": "Pokemon: Lapras Pre-Evolution Appears Online After 20 Years",
@@ -1685,7 +1658,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.96
   },
   {
     "title": "Boruto Officially Confirms The End Of The Seventh Hokage",
@@ -1694,7 +1667,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.96
   },
   {
     "title": "10 FireRed & LeafGreen Pokémon Available Weirdly Late in Game",
@@ -1703,7 +1676,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.96
   },
   {
     "title": "All COD Warzone Season 5 Win Streak Camos",
@@ -1712,7 +1685,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.965
+    "hotScore": 0.961
   },
   {
     "title": "Conker, Lobo, Charles Martinet’s Donkey Kong Voice And Other Splendors Of Bygone E3 Booths",
@@ -1721,7 +1694,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.967
+    "hotScore": 0.963
   },
   {
     "title": "Aliens: Fireteam Elite 2 confirms release date and it's closer than you think",
@@ -1730,7 +1703,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.972
+    "hotScore": 0.968
   },
   {
     "title": "Silent Hill f producer says its writers were pushed 'to read at least 100 to 200 books a year'",
@@ -1739,7 +1712,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.976
+    "hotScore": 0.972
   },
   {
     "title": "New Official Borderlands Release Confirmed for July 30",
@@ -1748,7 +1721,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.978
+    "hotScore": 0.974
   },
   {
     "title": "How FFXIV Evercold will change the MMO's outdated features",
@@ -1757,7 +1730,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.979
+    "hotScore": 0.975
   },
   {
     "title": "One excellent, unforgettable expansion has fixed Doom: The Dark Ages",
@@ -1766,7 +1739,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.99
+    "hotScore": 0.986
   },
   {
     "title": "Talking Point: How Much Noise Do Your Xbox Consoles Make After All These Years?",
@@ -1775,7 +1748,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.99
+    "hotScore": 0.986
   },
   {
     "title": "Classic Atari Games to Be Turned Into Movies",
@@ -1784,7 +1757,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.99
+    "hotScore": 0.986
   },
   {
     "title": "All Curse of the Allflame Mechanics & Rewards in PoE 1",
@@ -1793,7 +1766,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.99
+    "hotScore": 0.986
   },
   {
     "title": "An animator at Ghost of Yotei studio Sucker Punch just released his own action RPG on Steam, and he can't believe its success: \"36,000 COPIES SOLD IN 24 HOURS\"",
@@ -1802,6 +1775,24 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.99
+  },
+  {
+    "title": "007 First Light Reverses Denuvo DRM Inclusion",
+    "link": "https://www.thegamer.com/007-first-light-latest-update-removes-denuvo-drm-controversial",
+    "date": 1784999543000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.997
+  },
+  {
+    "title": "FFXIV Switch 2 Release Date and Pre-orders Open",
+    "link": "https://www.siliconera.com/ffxiv-switch-2-release-date-and-pre-orders-open",
+    "date": 1784999700000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 0.999
   }
 ]
