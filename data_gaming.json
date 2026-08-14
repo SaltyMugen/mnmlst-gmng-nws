@@ -6,7 +6,7 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.279
   },
   {
     "title": "Best players for FC 26 Back to the Silver Age Evolution",
@@ -15,8 +15,16 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.281,
+    "hotScore": 0.279,
     "groupMembers": [
+      {
+        "title": "Best players for FC 26 97 Times Evolution",
+        "link": "https://www.destructoid.com/best-players-for-fc-26-97-times-evolution",
+        "date": 1786728497000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
       {
         "title": "Best players for the FC 26 Two-Way Titan Evolution",
         "link": "https://www.destructoid.com/best-players-for-the-fc-26-two-way-titan-evolution",
@@ -34,7 +42,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "Saber CEO puts out worst AI-brained response ever after developer claims she was replaced by ChatGPT",
@@ -43,7 +51,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.285
+    "hotScore": 0.284
   },
   {
     "title": "Tales of Eternia Remastered Video Shows Off WHIS Card Game",
@@ -52,7 +60,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.287
+    "hotScore": 0.285
   },
   {
     "title": "Battlefield 1942 Vs. Medal Of Honor: Allied Assault: Which Is The Better WW2 Shooter?",
@@ -61,7 +69,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.287
+    "hotScore": 0.285
   },
   {
     "title": "New data shows 89% of pre-orders for GTA 6 are for the $100 ultimate edition",
@@ -70,7 +78,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.287
+    "hotScore": 0.286
   },
   {
     "title": "‘I have never seen a 90 percent premium share before:’ Only one in ten players preordered GTA 6’s standard edition, proving fans are willing to stomach the $100 price",
@@ -79,7 +87,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.289
+    "hotScore": 0.288
   },
   {
     "title": "Best Hell Let Loose: Vietnam graphics settings for no lag and max FPS",
@@ -88,7 +96,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.291
   },
   {
     "title": "The Elder Scrolls 6 finally showing signs of life won't deter the Bethesda fan who is 132 days into making their own Daggerfall-style RPG",
@@ -97,7 +105,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.294
+    "hotScore": 0.292
   },
   {
     "title": "Netflix to shut down two more game studios",
@@ -106,16 +114,36 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 1.196,
+    "hotScore": 0.595,
     "groupMembers": [
       {
-        "title": "Netflix to close Night School Studios, Moonloot Games",
-        "link": "https://www.gematsu.com/2026/08/netflix-to-close-night-school-studios-moonloot-games",
-        "date": 1786647036000,
-        "domain": "gematsu.com",
-        "sourceName": "Gematsu",
+        "title": "Netflix’s gaming branch ain’t doing so good as two more studios are getting shut down",
+        "link": "https://www.destructoid.com/netflix-shuts-down-two-more-studios",
+        "date": 1786656346000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
         "isTranslated": false
-      },
+      }
+    ]
+  },
+  {
+    "title": "High On Life VR announced for PS VR2, PC, and Quest",
+    "link": "https://www.gematsu.com/2026/08/high-on-life-vr-announced-for-ps-vr2-pc-and-quest",
+    "date": 1786647023000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 0.298
+  },
+  {
+    "title": "Netflix to close Night School Studios, Moonloot Games",
+    "link": "https://www.gematsu.com/2026/08/netflix-to-close-night-school-studios-moonloot-games",
+    "date": 1786647036000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 0.895,
+    "groupMembers": [
       {
         "title": "Netflix shutters 2 game studios, including Unhinged maker Night School",
         "link": "https://gamesbeat.com/netflix-shutters-2-game-studios-including-unhinged-maker-night-school",
@@ -135,22 +163,13 @@
     ]
   },
   {
-    "title": "High On Life VR announced for PS VR2, PC, and Quest",
-    "link": "https://www.gematsu.com/2026/08/high-on-life-vr-announced-for-ps-vr2-pc-and-quest",
-    "date": 1786647023000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 0.3
-  },
-  {
     "title": "The Lords of the End Times are landing in Total War: Warhammer 3 on September 24, and everything's coming up rat men",
     "link": "https://www.pcgamer.com/games/strategy/the-lords-of-the-end-times-are-landing-in-total-war-warhammer-3-on-september-24-and-everythings-coming-up-rat-men",
     "date": 1786647173000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.601,
+    "hotScore": 0.598,
     "groupMembers": [
       {
         "title": "Total War: Warhammer 3 is getting a big free vampiric update in September, alongside the epithet-stuffed Lords of the End Times DLC",
@@ -169,7 +188,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.602,
+    "hotScore": 0.6,
     "groupMembers": [
       {
         "title": "Round Up: The Final Previews Are In For Fire Emblem: Fortune's Weave On Switch 2",
@@ -182,22 +201,22 @@
     ]
   },
   {
-    "title": "4 More Kagurabachi Characters Join Chokonose Figures Line",
-    "link": "https://www.siliconera.com/4-more-kagurabachi-characters-join-chokonose-figures-line",
-    "date": 1786647600000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 0.302
-  },
-  {
     "title": "The Gears of War: E-Day Open Beta is Available Now for Everyone",
     "link": "https://www.xbox.com/en-US/games/store/gears-of-war-e-day-multiplayer-beta/9nhlzs3g6d8h",
     "date": 1786647600000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.302
+    "hotScore": 0.301
+  },
+  {
+    "title": "4 More Kagurabachi Characters Join Chokonose Figures Line",
+    "link": "https://www.siliconera.com/4-more-kagurabachi-characters-join-chokonose-figures-line",
+    "date": 1786647600000,
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
+    "isTranslated": false,
+    "hotScore": 0.301
   },
   {
     "title": "Metal Gear Solid Δ: Snake Eater Receives Permanent Price Drop On The Xbox Store",
@@ -206,7 +225,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.302
+    "hotScore": 0.301
   },
   {
     "title": "“Puzzle & Dragons” begins broadcasting new TV commercial “I Love You All the Time” starring Kazunari Ninomiya, who serves as the image character",
@@ -215,7 +234,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.302
+    "hotScore": 0.301
   },
   {
     "title": "Phasmophobia devs Kinetic Games mosey into publishing with a witchy delivery game, a parasitic Metroidvania, and more",
@@ -224,7 +243,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.303
+    "hotScore": 0.301
   },
   {
     "title": "Netflix Shuts Down Studio Behind Beloved Narrative Adventure Oxenfree",
@@ -233,7 +252,17 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.309
+    "hotScore": 0.616,
+    "groupMembers": [
+      {
+        "title": "Netflix Shuts Down Oxenfree Developer Night School Studio",
+        "link": "https://www.nintendolife.com/news/2026/08/netflix-shuts-down-oxenfree-developer-night-school-studio",
+        "date": 1786700700000,
+        "domain": "nintendolife.com",
+        "sourceName": "Nintendo Life",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Netflix’s GTA 6 Extended Look could be multiple episodes as Rockstar boss hints at more",
@@ -242,7 +271,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.313
+    "hotScore": 0.311
   },
   {
     "title": "WB Is Releasing Its First NC-17 Movie In Over 20 Years This October",
@@ -251,7 +280,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.316
+    "hotScore": 0.314
   },
   {
     "title": "You Can Buy a FFXIV Job Perfume or Emet Selch Earring",
@@ -260,7 +289,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.319
+    "hotScore": 0.317
   },
   {
     "title": "I Definitely Do Not Like March From Fields Of Mistria And Absolutely Will Not Be Marrying Him Under Any Circumstances",
@@ -269,7 +298,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.958,
+    "hotScore": 0.953,
     "groupMembers": [
       {
         "title": "Fields of Mistria review",
@@ -296,7 +325,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.321
+    "hotScore": 0.319
   },
   {
     "title": "Path of Idle: Old Gods Rising class tier list",
@@ -305,7 +334,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.322
+    "hotScore": 0.32
   },
   {
     "title": "Judge Throws Out ‘Mortal Kombat Stabbing’ Lawsuit On Free Speech Grounds",
@@ -314,7 +343,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.324
+    "hotScore": 0.323
   },
   {
     "title": "Netflix closes Oxenfree developer Night School, just a month after praising its new game as one of the company's 'most successful cloud game debuts'",
@@ -323,7 +352,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.327
+    "hotScore": 0.325
   },
   {
     "title": "Five years after acquiring Oxenfree developer Night School Studio, Netflix are shutting them down",
@@ -332,7 +361,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.655,
+    "hotScore": 0.978,
     "groupMembers": [
       {
         "title": "Netflix Kills Oxenfree Studio Right After New Release",
@@ -340,6 +369,14 @@
         "date": 1786653330000,
         "domain": "dualshockers.com",
         "sourceName": "DualShockers",
+        "isTranslated": false
+      },
+      {
+        "title": "Netflix Shuts Down Oxenfree Dev Night School Studio as It Downscales In-House Game Teams",
+        "link": "https://www.pushsquare.com/news/2026/08/netflix-shuts-down-oxenfree-dev-night-school-studio-as-it-downscales-in-house-game-teams",
+        "date": 1786699800000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       }
     ]
@@ -351,7 +388,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.328
+    "hotScore": 0.326
   },
   {
     "title": "The 'father of Master Chief' doesn't like the new Halo's new halos",
@@ -360,7 +397,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.334
+    "hotScore": 0.333
   },
   {
     "title": "GTA 6’s preview on Netflix could be divided into a mini-series of 3 episodes",
@@ -369,7 +406,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.336
+    "hotScore": 0.335
   },
   {
     "title": "FFVII Revelation PAX West Panel Will Be at the Con and Online",
@@ -378,7 +415,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.336
+    "hotScore": 0.335
   },
   {
     "title": "If you're not paying attention to retro game recompilations, you're missing the most exciting thing in gaming right now",
@@ -387,7 +424,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.337
+    "hotScore": 0.335
   },
   {
     "title": "Insomniac’s Explanation For Why Wolverine’s Suit Heals Itself Is Simple And Honest",
@@ -396,7 +433,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.338
+    "hotScore": 0.337
   },
   {
     "title": "Bully Spiritual Successor Responds to Harsh Launch Like a True School Principal",
@@ -405,7 +442,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.341
+    "hotScore": 0.34
   },
   {
     "title": "The developer of ``Human Fall Flat'' has announced a new ``physical calculation VR game'' called ``Tiny Flock.'' If you can't solve a puzzle, use physics to solve it, a brain-teasing game",
@@ -414,16 +451,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.342
-  },
-  {
-    "title": "Netflix’s gaming branch ain’t doing so good as two more studios are getting shut down",
-    "link": "https://www.destructoid.com/netflix-shuts-down-two-more-studios",
-    "date": 1786656346000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 0.344
+    "hotScore": 0.34
   },
   {
     "title": "Marvel Tokon sold 485,000 copies in a week but it could have been \"closer to 1M\" with a better PC port and Steam reviews, analyst says",
@@ -432,7 +460,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.344
+    "hotScore": 0.343
   },
   {
     "title": "Nexon reports ARC Raiders surpassed 16.3M sold to date in June quarter",
@@ -441,7 +469,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 1.035,
+    "hotScore": 1.03,
     "groupMembers": [
       {
         "title": "Arc Raiders generates $114.9m during Nexon's Q2, sells an additional 800,000 units",
@@ -468,7 +496,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.344
   },
   {
     "title": "This spy game is a dream come true if you love spending time in character creators",
@@ -477,7 +505,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.346
+    "hotScore": 0.344
   },
   {
     "title": "'It Doesn't Make Sense' — Uncharted Designer Doesn't Want a Remake of Drake's Fortune",
@@ -486,7 +514,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.35
   },
   {
     "title": "Nightdive's System Shock remake is coming to VR",
@@ -495,7 +523,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.351
   },
   {
     "title": "Invisum Piscium 嫌魚 is a dreamlike walking sim about fragments of conversations and a deep craving for water fish haven't procreated in",
@@ -504,7 +532,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.353
+    "hotScore": 0.352
   },
   {
     "title": "Skatesterre: Where Classic Arcade Skateboarding Meets a New Generation",
@@ -513,7 +541,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.355
+    "hotScore": 0.353
   },
   {
     "title": "Bring your luck into your hands with technology! “Dungeon Clawler+” is a fusion of crane game and deck-building roguelike (Start today, Apple Arcade #79)",
@@ -522,7 +550,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.355
+    "hotScore": 0.353
   },
   {
     "title": "Viral Pokemon PC port Gen1Recomp gets Gold support, as dev says it's \"not vibe coded\" even though \"AI helped\" with development",
@@ -531,7 +559,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.355
+    "hotScore": 0.353
   },
   {
     "title": "An Uncharted remake would feel \"like a cash grab,\" says OG designer who thinks Naughty Dog should make a new prequel instead",
@@ -540,7 +568,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.356
+    "hotScore": 0.354
   },
   {
     "title": "Shoutout to this particular skeleton, who researchers believe is the first confirmed case of being totally obliterated by a trebuchet",
@@ -549,7 +577,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.356
+    "hotScore": 0.354
   },
   {
     "title": "MapleStory maker Nexon returns $2B to shareholders",
@@ -558,7 +586,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.366
+    "hotScore": 0.364
   },
   {
     "title": "Night School Staff Speak Out After Netflix Shuts Down Developer Following 'Top Tier' Launch of Unhinged",
@@ -567,17 +595,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.737,
-    "groupMembers": [
-      {
-        "title": "Netflix Shuts Down Oxenfree Developer Night School Studio",
-        "link": "https://www.nintendolife.com/news/2026/08/netflix-shuts-down-oxenfree-developer-night-school-studio",
-        "date": 1786700700000,
-        "domain": "nintendolife.com",
-        "sourceName": "Nintendo Life",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.367
   },
   {
     "title": "Gritty Action RPGs Will Soon Have Big Budget Competition from One of the World's Most Popular Devs",
@@ -586,7 +604,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.374
+    "hotScore": 0.373
   },
   {
     "title": "Will he defeat Dracula, or will he be consumed by blood and be wiped out? ``Dracula Game'' with a fierce Chuchu battle Showa and Heisei Retro Board Game Encyclopedia No. 18",
@@ -595,7 +613,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.374
+    "hotScore": 0.373
   },
   {
     "title": "\"Infection District White Paper\" looks like the original Bio, but is actually a turn-based horror (Akane's Steam Pick Up!)",
@@ -604,7 +622,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.374
+    "hotScore": 0.373
   },
   {
     "title": "Steam Client Beta - August 13th",
@@ -613,7 +631,7 @@
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 0.383,
+    "hotScore": 0.382,
     "groupMembers": [
       {
         "title": "Steam Beta Client Update: August 13th",
@@ -632,7 +650,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.392
+    "hotScore": 0.39
   },
   {
     "title": "Rusty Lake's latest work, \"Servant of the Lake,\" set in the Vanderboom mansion, will be released on August 13th. Solve puzzles to help Aldous and William in their ambitions",
@@ -641,7 +659,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.395
+    "hotScore": 0.393
   },
   {
     "title": "Pokemon Pokopia sales top five million",
@@ -650,7 +668,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.19,
+    "hotScore": 1.185,
     "groupMembers": [
       {
         "title": "Pokémon Pokopia Sales Surpass Five Million Units Globally In \"Just Over Four Months\"",
@@ -677,7 +695,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.401
+    "hotScore": 0.399
   },
   {
     "title": "Nintendo and The Pokémon Company say Pokémon Pokopia hits 5M sold",
@@ -686,7 +704,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.811,
+    "hotScore": 0.807,
     "groupMembers": [
       {
         "title": "Nintendo announces Pokémon Pokopia has sold over 5m copies, meaning that roughly one in four Switch 2 users now owns the game",
@@ -699,13 +717,13 @@
     ]
   },
   {
-    "title": "「Discord」無料アップロード上限が「20MB」に倍増。クリップ動画や高画質画像を上げやすく",
+    "title": "\"Discord\" free upload limit has been doubled to \"20MB\". Easy to upload clip videos and high-quality images",
     "link": "https://automaton-media.com/articles/newsjp/20260814-460120",
     "date": 1786667656000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.407
+    "hotScore": 0.405
   },
   {
     "title": "Marvel Tokon: Fighting Souls Has Raised The Bar For Tag Fighters – Review",
@@ -714,50 +732,16 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1.222,
-    "groupMembers": [
-      {
-        "title": "Marvel Tōkon: Fighting Souls review",
-        "link": "https://www.eurogamer.net/marvel-tokon-fighting-souls-review",
-        "date": 1786706904000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "Marvel Tōkon: Fighting Souls looks to have sold almost half a million copies in a week",
-        "link": "https://www.eurogamer.net/marvel-tokon-fighting-souls-half-a-million-sales-one-week",
-        "date": 1786698456000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
-        "isTranslated": false
-      },
-      {
-        "title": "102 Deadpool References in Marvel Tokon: Fighting Souls",
-        "link": "https://www.gamespot.com/videos/102-deadpool-references-in-marvel-tokon-fighting-souls",
-        "date": 1786716000000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
-        "isTranslated": false
-      },
-      {
-        "title": "Marvel Tokon: Fighting Souls review",
-        "link": "https://www.pcgamer.com/games/fighting/marvel-tokon-fighting-souls-review",
-        "date": 1786713797000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.405
   },
   {
-    "title": "『ぽこ あ ポケモン』約4か月で世界販売本数500万本突破。のんびりポケモン生活が大好評、DLCも絶賛展開中",
+    "title": "\"Pokoa Pokemon\" has sold over 5 million copies worldwide in about 4 months. Leisurely Pokemon Life is very popular, and DLC is also being rolled out to rave reviews",
     "link": "https://automaton-media.com/articles/newsjp/20260814-460124",
     "date": 1786668514000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.412
+    "hotScore": 0.41
   },
   {
     "title": "Netflix shuts down two studios it acquired and established in order to make a full-scale entry into the game business. Rapid change in game strategy in just 5 years",
@@ -766,7 +750,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.422
+    "hotScore": 0.42
   },
   {
     "title": "``Doggy Don't Care'', an extremely free house-sitting dog game, will be released on September 24th. A dog sim that can urinate anywhere and does all the things you shouldn't do.",
@@ -775,7 +759,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.428
+    "hotScore": 0.426
   },
   {
     "title": "Xbox's Separation from Compulsion Games Seems Complete as Studio Is Listed as the Publisher of South of Midnight on Steam",
@@ -784,22 +768,22 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.301,
+    "hotScore": 1.295,
     "groupMembers": [
-      {
-        "title": "South of Midnight is now self-published on Steam after Compulsion Games cut ties with Microsoft",
-        "link": "https://www.videogameschronicle.com/news/south-of-midnight-is-now-self-published-on-steam-after-cutting-ties-with-microsoft",
-        "date": 1786719856000,
-        "domain": "videogameschronicle.com",
-        "sourceName": "VGC",
-        "isTranslated": false
-      },
       {
         "title": "Compulsion Games becomes publisher of South of Midnight on Steam, suggesting departure from Xbox amid major restructuring is now complete",
         "link": "https://www.eurogamer.net/compulsion-games-south-of-midnight-publisher-xbox-restructuring",
         "date": 1786717064000,
         "domain": "eurogamer.net",
         "sourceName": "Eurogamer",
+        "isTranslated": false
+      },
+      {
+        "title": "South of Midnight is now self-published on Steam after Compulsion Games cut ties with Microsoft",
+        "link": "https://www.videogameschronicle.com/news/south-of-midnight-is-now-self-published-on-steam-after-cutting-ties-with-microsoft",
+        "date": 1786719856000,
+        "domain": "videogameschronicle.com",
+        "sourceName": "VGC",
         "isTranslated": false
       }
     ]
@@ -811,7 +795,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.435
+    "hotScore": 0.433
   },
   {
     "title": "It's Official, Sonic Frontiers Has Now Sold More Than Five Million Copies",
@@ -820,7 +804,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.875,
+    "hotScore": 0.87,
     "groupMembers": [
       {
         "title": "Sonic Frontiers Surpasses 5 Million Copies Sold as Fans Await What Comes Next",
@@ -833,31 +817,31 @@
     ]
   },
   {
-    "title": "“Leviathan: Rhino”, a rural village “end-of-life” horror movie, will be released on September 14th. Life goes on as usual in a village that will soon be destroyed by a giant monster.",
+    "title": "Rural village “end of life” horror “Leviathan: Rhino” to be released on September 14th. Life goes on as usual in a village that will soon be destroyed by a giant monster.",
     "link": "https://automaton-media.com/articles/newsjp/leviathan-rhino-20260814-460143",
     "date": 1786673063000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.441
+    "hotScore": 0.439
   },
   {
-    "title": "\"Slay the Spire 2\" new beta update brings a different rework to Aikura's \"Premonition of Battle\". Various weakening + enemy strengthening makes climbing even more difficult",
+    "title": "\"Slay the Spire 2\" new beta update brings a different rework to Aikura's \"Premonition of Battle\". Various weakening + enemy reinforcement makes climbing even more difficult",
     "link": "https://automaton-media.com/articles/newsjp/20260814-460151",
     "date": 1786673597000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.444
+    "hotScore": 0.442
   },
   {
-    "title": "Chilla's Art's latest work \"Snowed Under\" is now available on Steam. Dig up the snow little by little with a shovel and aim for the radio tower",
+    "title": "Chilla's Artの最新作「Snowed Under | 雪葬」，Steamで配信開始。シャベルで少しずつ雪を掘り進め，電波塔を目指す",
     "link": "https://www.4gamer.net/games/027/G102771/20260814004",
     "date": 1786673964000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.447
+    "hotScore": 0.445
   },
   {
     "title": "\"NIKKE\" releases exhibition information for Comic Market 108",
@@ -866,7 +850,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.447
+    "hotScore": 0.445
   },
   {
     "title": "“Steam Machine”, which continues to be “out of stock immediately”, will be restocked on August 18th. Limited to one per person",
@@ -875,7 +859,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.452
+    "hotScore": 0.45
   },
   {
     "title": "A new villain from a new organization appears in “Handsome Villain: Evil Love Opens in the Dark Night”! Interview with new cast members Kengo Kasai, Kento Ito, and Tomoaki Maeno",
@@ -884,16 +868,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.463
+    "hotScore": 0.461
   },
   {
-    "title": "記憶を失った5人が，無数の部屋からなる謎の空間を探索。SFアドベンチャー「プラトニカ・スペース」，Steam版が本日配信",
+    "title": "Five people who have lost their memories explore a mysterious space consisting of countless rooms. SF adventure “Platonica Space”, Steam version released today",
     "link": "https://www.4gamer.net/games/928/G092866/20260813040",
     "date": 1786676400000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.463
+    "hotScore": 0.461
   },
   {
     "title": "``Momotaro Dentetsu World'', which you want to visit during summer vacation, is only 3,950 yen! The PC version of “Ghost Recon Breakpoint” costs 462 yen! \"This week's slip sale information\"",
@@ -902,7 +886,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.463
+    "hotScore": 0.461
   },
   {
     "title": "\"Pokémon Bank\" service will end at 12:00 on February 26, 2027. The Pokémon moving function will also end on the same day.",
@@ -911,7 +895,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.464
+    "hotScore": 0.462
   },
   {
     "title": "The next stage is the Vietnam War in the jungle. Large-scale tactical shooter “Hell Let Loose: Vietnam” officially released today",
@@ -920,7 +904,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.466
+    "hotScore": 0.464
   },
   {
     "title": "Cthulhu PvPvE escape shooter \"Waste the Fallen\" announced. Survive a three-way fight with monsters and other players while having your sanity eroded",
@@ -929,7 +913,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.471
+    "hotScore": 0.468
   },
   {
     "title": "Early access version of \"Sandustry\" is now available. \"Pixel Factory Automation Simulation\" aims to build an industrial factory on an unknown planet and uncover the mysteries hidden in the underground world.",
@@ -938,7 +922,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.479
+    "hotScore": 0.476
   },
   {
     "title": "Pokémon HOME October Premium Plan Update Expands Storage Capacity To 9,000 Pokémon",
@@ -947,7 +931,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.482
+    "hotScore": 0.48
   },
   {
     "title": "``DIG Raiders: Anomaly Extraction'', a cooperative game for up to four players with ``all the popular features'' will be released on September 11th. \"Greedy set\" games such as hole digging, back room, frustrating mountain climbing, automation, etc.",
@@ -956,7 +940,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.487
+    "hotScore": 0.485
   },
   {
     "title": "'Marvel's Wolverine' Preview: While the combat perfectly embodies the spirit of Wolverine, there are concerns about whether it will be able to maintain its charm until the end.",
@@ -965,7 +949,7 @@
     "domain": "jp.ign.com",
     "sourceName": "IGN Japan",
     "isTranslated": true,
-    "hotScore": 0.497
+    "hotScore": 0.494
   },
   {
     "title": "You can get \"Celebi\" by completing the picture book! “Pokémon HOME” and “Pokémon Fire Red/Leaf Green” will collaborate from October 2026",
@@ -974,16 +958,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.499
+    "hotScore": 0.497
   },
   {
-    "title": "“訳アリ一家”の秘密を暴く謎解きゲーム『Servant of the Lake』、いきなり「圧倒的に好評」のロケットスタート。ラスティレイクが“10年温めた”新作、ファンの期待に応える",
+    "title": "``Servant of the Lake'', a mystery-solving game that uncovers the secrets of the ``Ant Family'', has suddenly gotten off to a rocket start with ``overwhelmingly positive reviews''. Rusty Lake's new work \"10 years in the making\" meets fans' expectations",
     "link": "https://automaton-media.com/articles/newsjp/servant-of-the-lake-20260814-460174",
     "date": 1786681790000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.502
+    "hotScore": 0.499
   },
   {
     "title": "``Game Shop Panic'', which lets you clean up a messy game shop without using supernatural powers or magic, is now available on Steam. Release commemorative sale is also underway",
@@ -992,7 +976,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.508
+    "hotScore": 0.505
   },
   {
     "title": "Blue Archive permanently bans over 122,000 global players in biggest cheater crackdown to date",
@@ -1001,7 +985,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.511
+    "hotScore": 0.509
   },
   {
     "title": "Embracer Group reveals release window for Tomb Raider: Catalyst",
@@ -1010,7 +994,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.511
+    "hotScore": 0.509
   },
   {
     "title": "Pokémon Pokopia Hits Huge Sales Milestone as Major New Content Drops",
@@ -1019,7 +1003,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 1.028,
+    "hotScore": 1.023,
     "groupMembers": [
       {
         "title": "Pokemon Pokopia Smashes Another Major Milestone",
@@ -1032,13 +1016,13 @@
     ]
   },
   {
-    "title": "Free-to-play beautiful girl RPG \"Telbis\" will be exhibited at \"Comic Market 108\" this weekend. You can receive a variety of limited edition goods and highly anticipated works with a “strong focus on animation”",
+    "title": "The basic free-to-play beautiful girl RPG \"Telbis\" will be exhibited at \"Comic Market 108\" this weekend. You can get a variety of limited goods from highly anticipated works that are focused on animation.",
     "link": "https://automaton-media.com/articles/newsjp/20260814-460187",
     "date": 1786683584000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.515
+    "hotScore": 0.513
   },
   {
     "title": "Link! Like! Love Live! developer goes bankrupt amidst $65 million debt following the game’s closure",
@@ -1047,34 +1031,34 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.518
+    "hotScore": 0.516
   },
   {
-    "title": "PS Store DL rankings for July 2026 have been released. “Call of Duty: Black Ops II” ranks first on both PS5 and PS4",
+    "title": "2026年7月のPS Store DLランキングを公開。PS5/PS4ともに「Call of Duty: Black Ops II」が1位に",
     "link": "https://www.4gamer.net/games/085/G008540/20260814013",
     "date": 1786684170000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.52
+    "hotScore": 0.517
   },
   {
-    "title": "The trial version of \"Faturia: Pioneer of the Trade Routes\" is now available on Steam. A nautical strategy that combines Sugoroku and trade in a world inspired by the Age of Exploration.",
+    "title": "The trial version of \"Faturia: Pioneer of the Trade Routes\" is now available on Steam. A nautical strategy that combines sugoroku, trade, etc. in a world inspired by the Age of Exploration.",
     "link": "https://www.4gamer.net/games/033/G103320/20260814014",
     "date": 1786684903000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.525
+    "hotScore": 0.523
   },
   {
-    "title": "Physics cable untangling game ``Knode: Untangle & Connect'' announced, to be released on September 12th. A healing penance that carefully unravels the hellish “tangles”",
+    "title": "Physics cable untangling game ``Knode: Untangle & Connect'' announced, to be released on September 12th. A healing penance that carefully unravels the hellish tangles.",
     "link": "https://automaton-media.com/articles/newsjp/20260814-460197",
     "date": 1786685574000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.531
+    "hotScore": 0.528
   },
   {
     "title": "“Zenless Zone Zero” releases a video “Exhibition “Guidelines that don’t suit horses” depicting Sigrid (CV: Yuko Kaida)”",
@@ -1083,7 +1067,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.531
+    "hotScore": 0.528
   },
   {
     "title": "``Horse Magnifier: The Full Horse,'' a strange game that ``distorts'' horses, has reached ``overwhelmingly positive'' with a 100% popularity rate. A strange horse-playing puzzle that stirs a mysterious craze.",
@@ -1092,7 +1076,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.545
+    "hotScore": 0.542
   },
   {
     "title": "\"Showa America Story\" will be exhibited at gamescom 2026. 4Divinity releases 6 titles including “The Defiant” and begins full-scale expansion into European and American markets",
@@ -1101,16 +1085,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.55
+    "hotScore": 0.548
   },
   {
-    "title": "The new STG \"Wild Blue Skies\" created by the developer of the original Star Fox is now available. A modern reimagining of the classic 90's rail shooter",
+    "title": "The new STG ``Wild Blue Skies'' by the developer of the original Star Fox is now available. A modern reimagining of the classic 90's rail shooter",
     "link": "https://www.4gamer.net/games/891/G089126/20260814016",
     "date": 1786688065000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.551
+    "hotScore": 0.548
   },
   {
     "title": "We are currently selling goods with motifs of ``Atsumori,'' ``Resort Hotel,'' and ``Dodo Airlines.'' Introducing snow globes, key chain sets, etc.",
@@ -1119,7 +1103,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.557
+    "hotScore": 0.555
   },
   {
     "title": "Kingdom Hearts Is A \"Billion-Dollar\" Franchise, According To Disney",
@@ -1128,7 +1112,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 1.675,
+    "hotScore": 1.667,
     "groupMembers": [
       {
         "title": "Kingdom Hearts Is a Billion-Dollar Franchise, Disney Declares Ahead of Hotly Anticipated D23 Panel",
@@ -1155,7 +1139,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.567
+    "hotScore": 0.565
   },
   {
     "title": "``Sundustry,'' a factory automation sim that makes every grain of sand useful, is exploding in popularity with a 98% positive rating. Extremely developed sandbox play with unlimited equipment creation",
@@ -1164,7 +1148,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.572
+    "hotScore": 0.569
   },
   {
     "title": "Modest Sales Predicted for Sony's Critically Acclaimed New Fighter",
@@ -1173,7 +1157,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.589
+    "hotScore": 0.586
   },
   {
     "title": "Announcing \"Out of Office!,\" a \"friendship forced\" cooperative game by laid-off former UBI staff. Survival in the wilderness, completing training for an unspeakably “outdated tech company”",
@@ -1182,7 +1166,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.589
+    "hotScore": 0.586
   },
   {
     "title": "「Human: Fall Flat」のクリエイター陣が手がける新作「Tiny Flock」が発表に。さまざまなものを使って羊を誘導するVRパズルADV",
@@ -1191,7 +1175,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.598
+    "hotScore": 0.595
   },
   {
     "title": "After the Pokemon Bank service ends, there are rumors that Patchell will be locked out. The only route for Tabby Panda, which is banned from Pokemon Home from the current game, will also disappear",
@@ -1200,7 +1184,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.6
+    "hotScore": 0.598
   },
   {
     "title": "'The Game Feels Super Smooth': Wolverine Will Run at 60fps with Ray Tracing on Base PS5",
@@ -1209,16 +1193,16 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.605
+    "hotScore": 0.602
   },
   {
-    "title": "There is no “next time” in this basement. Grit Shot, a life-threatening basketball roguelite where even a single mistake is not an option, now available on Steam",
+    "title": "この地下室に“次”はない。一投のミスも許されない命懸けのバスケットボール・ローグライト「Grit Shot」，Steamで配信開始",
     "link": "https://www.4gamer.net/games/033/G103329/20260814021",
     "date": 1786694422000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.605
+    "hotScore": 0.602
   },
   {
     "title": "On the Cusp of Kingdom Hearts 4 Blowout, Disney Says Series Is a Billion-Dollar Brand",
@@ -1227,7 +1211,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.621
+    "hotScore": 0.618
   },
   {
     "title": "monoAI technology enters the physical AI business, deploying XR/digital twin and \"Monobit Engine\" to the robot field",
@@ -1236,7 +1220,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.629
+    "hotScore": 0.626
   },
   {
     "title": "Palworld TCG developers apologize as the game sells out across retailers amidst higher-than-anticipated demand",
@@ -1245,7 +1229,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.63
+    "hotScore": 0.627
   },
   {
     "title": "coly opens special site for \"Hello, Rooty! New Conductor Consultation Room\" at \"Disney Sparklink Stars\" & adds pre-registration method",
@@ -1254,7 +1238,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.631
+    "hotScore": 0.628
   },
   {
     "title": "Sega, new SP players will appear in “Sakatsuku 2026” from August 19th",
@@ -1263,7 +1247,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.633
+    "hotScore": 0.63
   },
   {
     "title": "\"I don't see why people are scared of it\" –  ShipShaper developer Tomas Sala on why indies shouldn't be stressing about GTA6",
@@ -1272,7 +1256,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.637
+    "hotScore": 0.634
   },
   {
     "title": "Carve Some Time Out Of A Busy September For This Adorable-Looking 3D Puzzler",
@@ -1281,16 +1265,16 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.638
+    "hotScore": 0.635
   },
   {
-    "title": "[Entertainment industry job change] Latest job information for \"Entertainment\" The theme is \"Technical Artist\" Introducing job information for Aiming, f4samurai, DONUTS, QualiArts, WFS",
+    "title": "【エンタメ業界転職】「エンターエンタ」最新求人情報　テーマは「テクニカルアーティスト」　Aiming、f4samurai、DONUTS、QualiArts、WFSの求人情報を紹介",
     "link": "https://gamebiz.jp/news/431126",
     "date": 1786698000000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.638
+    "hotScore": 0.635
   },
   {
     "title": "The final trailer for the novel game \"COCORO\" that gets to the heart of the story has been released. The appearance of the heroine Kokoro played by Hina Hitsujimiya",
@@ -1299,16 +1283,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.638
+    "hotScore": 0.635
   },
   {
-    "title": "「逆異世界もの」少女冒険ビジュアルノベル『Sign: 砕冠編』体験版が配信開始。魔女と女子高生が行く冒険の旅を、ひと足先にお試しできる",
+    "title": "The trial version of the “reverse otherworldly” girl’s adventure visual novel “Sign: Breaking Crown Edition” is now available. You can try out the adventure journey of a witch and a high school girl ahead of time.",
     "link": "https://automaton-media.com/articles/newsjp/sign-20260814-460245",
     "date": 1786698019000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.638
+    "hotScore": 0.635
   },
   {
     "title": "Good Smile Company and Front Wing release final trailer for new novel game “COCORO”",
@@ -1317,7 +1301,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.642
+    "hotScore": 0.639
+  },
+  {
+    "title": "Marvel Tōkon: Fighting Souls looks to have sold almost half a million copies in a week",
+    "link": "https://www.eurogamer.net/marvel-tokon-fighting-souls-half-a-million-sales-one-week",
+    "date": 1786698456000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 0.639
   },
   {
     "title": "YHKT ENTERTAINMENT's oriental fantasy ARPG \"Bringa\" will be unveiled overseas for the first time at gamescom. Scheduled to be released for PC, mobile, and PlayStation 5",
@@ -1326,7 +1319,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.645
+    "hotScore": 0.642
   },
   {
     "title": "Former WB director says Lord of the Rings: War in the North should never have released at the same time as Skyrim",
@@ -1335,25 +1328,25 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.647
+    "hotScore": 0.644
   },
   {
-    "title": "「Caravan SandWitch」がEpic Games Storeで無料配布中。戦闘や死が存在しない終末世界探索アドベンチャー",
+    "title": "\"Caravan SandWitch\" is now available for free on the Epic Games Store. A post-apocalyptic adventure where there is no combat or death.",
     "link": "https://www.4gamer.net/games/803/G080386/20260814027",
     "date": 1786698936000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.647
+    "hotScore": 0.644
   },
   {
-    "title": "まんだらけ、第3四半期決算は営業益41％増の18億円と大幅増益　既存店のリニューアルやイベント好調　新規店舗も収益貢献",
+    "title": "Mandarake's 3rd quarter financial results show a significant increase in operating profit to 1.8 billion yen, a 41% increase in operating profit. Existing store renewals and events were strong. New stores also contributed to profits.",
     "link": "https://gamebiz.jp/news/431118",
     "date": 1786699020000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.648
+    "hotScore": 0.645
   },
   {
     "title": "Halo Campaign Evolved: All Silent Cartographer Skull and Terminal locations",
@@ -1362,7 +1355,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.648,
+    "hotScore": 0.645,
     "groupMembers": [
       {
         "title": "Halo Campaign Evolved: All The Maw Skull and Terminal locations",
@@ -1415,13 +1408,13 @@
     ]
   },
   {
-    "title": "「パールインブルー」のティザーPVが公開に。本作の世界観の核心である「真珠（パール）」と「騎士」にフォーカス",
+    "title": "The teaser PV for \"Pearl in Blue\" has been released. Focus on \"pearls\" and \"knights\", which are the core of the worldview of this work",
     "link": "https://www.4gamer.net/games/026/G102600/20260814028",
     "date": 1786699066000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.648
+    "hotScore": 0.645
   },
   {
     "title": "Apple trained its own AI model for China with help from Alibaba",
@@ -1430,7 +1423,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 0.65
+    "hotScore": 0.647
   },
   {
     "title": "From Shanghai to the world - How COREBLAZER Game Fest connects Chinese indie games with publishers around the world [PR]",
@@ -1439,7 +1432,7 @@
     "domain": "jp.ign.com",
     "sourceName": "IGN Japan",
     "isTranslated": true,
-    "hotScore": 0.652
+    "hotScore": 0.648
   },
   {
     "title": "Cygames will broadcast the official \"Uma Musume\" live streaming program \"Paka Live TV' #6 5.5th Anniversary Special!\" from 7pm on August 22nd! Delivering special content such as new Uma Musume announcement!",
@@ -1448,7 +1441,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 1.306,
+    "hotScore": 1.3,
     "groupMembers": [
       {
         "title": "\"Uma Musume\" official live broadcast \"Paka Live TV' #6 5.5th Anniversary Special!\" will be distributed on August 22nd at 19:00. Information on new Uma Musume and “5.5th Anniversary Campaign” revealed",
@@ -1461,22 +1454,13 @@
     ]
   },
   {
-    "title": "Netflix Shuts Down Oxenfree Dev Night School Studio as It Downscales In-House Game Teams",
-    "link": "https://www.pushsquare.com/news/2026/08/netflix-shuts-down-oxenfree-dev-night-school-studio-as-it-downscales-in-house-game-teams",
-    "date": 1786699800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 0.655
-  },
-  {
     "title": "Nearly 80% of Atelier fans vote in favor of Atelier Karia’s heroine being able to change into a plumper body shape",
     "link": "https://automaton-media.com/en/news/nearly-80-of-atelier-fans-vote-in-favor-of-atelier-karias-heroine-being-able-to-change-into-a-plumper-body-shape",
     "date": 1786699815000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.655
+    "hotScore": 0.652
   },
   {
     "title": "BeGree has revised its earnings forecast for the fiscal year ending December 2026 downward, with a complete reversal from increased sales and profits to lower sales and profits. Both Manga Kingdom and the content business are below expectations.",
@@ -1485,7 +1469,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.658
+    "hotScore": 0.655
   },
   {
     "title": "Ebon Crown Games to release trial version of office-based psychological horror “Past Due: Midnight” in Q1 2027",
@@ -1494,16 +1478,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.671
+    "hotScore": 0.668
   },
   {
-    "title": "『カリアのアトリエ』の「主人公が太る要素はありかなしか？」のアンケート、80%弱が「あり」と回答。ふくよか主人公モード肯定勢が票を制圧、特に英語圏で",
+    "title": "In a survey of ``Atelier Kalia'' asking ``Is there an element where the main character gains weight?'', just under 80% answered ``Yes.'' Support for the plump protagonist mode dominates votes, especially in English-speaking countries",
     "link": "https://automaton-media.com/articles/newsjp/karia-20260814-460255",
     "date": 1786701572000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.673
+    "hotScore": 0.669
   },
   {
     "title": "Halo Studios Reveals Five Main Highlights In Campaign Evolved's Next Update",
@@ -1512,7 +1496,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.673
+    "hotScore": 0.67
   },
   {
     "title": "Cygames' \"Shadow WB\" official program \"Shadow Bass Channel Beyond\" will be distributed on August 22nd! New card pack information added on the 27th has been released!",
@@ -1521,7 +1505,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 1.346,
+    "hotScore": 1.339,
     "groupMembers": [
       {
         "title": "“Shadobus Channel Beyond 9th Card Pack Information Released!” to be held on August 22nd",
@@ -1540,7 +1524,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.673
+    "hotScore": 0.67
   },
   {
     "title": "Basic play free, beautiful girl RPG fighting evil ``Pearl in Blue'' video released. The first appearance of a 3D model that gives a glimpse of our commitment, and it has been decided that it will be exhibited at TGS",
@@ -1549,7 +1533,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.676
+    "hotScore": 0.672
   },
   {
     "title": "Minata Entertainment starts open beta for real-time MMO strategy game “Veyrasol” from October 19th",
@@ -1558,16 +1542,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.679
+    "hotScore": 0.676
   },
   {
-    "title": "クロックパンクの世界をさまざまなアクションで冒険する3DプラットフォームADV「Duskfade」，配信開始",
+    "title": "3D platform ADV “Duskfade”, which explores the world of clockpunk with various actions, is now available",
     "link": "https://www.4gamer.net/games/900/G090093/20260814031",
     "date": 1786702380000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.681
+    "hotScore": 0.677
   },
   {
     "title": "Testimony says that the number of contracts in the game industry that include a ``prohibition of the use of generated AI'' has been rapidly increasing over the past year. Fixed text is now spreading from major publishers to small publishers",
@@ -1576,7 +1560,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.685
+    "hotScore": 0.682
   },
   {
     "title": "A new weapon \"PET Shooter Replica\" has appeared in \"Splatoon 3\". Can be obtained if you have clear data for \"Splatoon Raiders\"",
@@ -1585,16 +1569,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.691
+    "hotScore": 0.688
   },
   {
-    "title": "Qdan、同じ場所にいる人たちが1台のスマートフォンを手渡しながら遊べるパーティーゲーム『PartyAt』をリリース",
+    "title": "Qdan releases party game ``PartyAt'' that allows people in the same location to play while handing over a single smartphone",
     "link": "https://gamebiz.jp/news/431135",
     "date": 1786703460000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.692
+    "hotScore": 0.688
   },
   {
     "title": "Halo: Campaign Evolved studio outlines five key updates that'll drop with next week's big patch",
@@ -1603,7 +1587,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 1.389,
+    "hotScore": 1.382,
     "groupMembers": [
       {
         "title": "Halo: Campaign Evolved PS5 Update Lands Next Week with Tech Fixes",
@@ -1622,7 +1606,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.695
+    "hotScore": 0.691
   },
   {
     "title": "DanielRPK says there will be a Kingdom Hearts announcement at tonight’s D23 “Disney Entertainment Showcase” panel",
@@ -1631,7 +1615,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.695
+    "hotScore": 0.691
   },
   {
     "title": "Gears of War: E-Day's Steam player count has once again blown past the series all-time peak thanks to the beta's second week",
@@ -1640,7 +1624,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.695
+    "hotScore": 0.692
   },
   {
     "title": "All Fetching Scales for Feebas event rewards in Pokopia",
@@ -1649,7 +1633,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.696
+    "hotScore": 0.693
   },
   {
     "title": "The developer of the Steam version of ``GIANTESS PLAYGROUND,'' a city-destroying game about giant beauties, also made an angry statement, saying, ``It was released without permission by a former co-developer.'' Quagmire of conflict leads to legal action",
@@ -1658,7 +1642,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.696
+    "hotScore": 0.693
   },
   {
     "title": "Netflix's gaming \"secret weapon\" is no more - Oxenfree studio Night School is to close",
@@ -1667,16 +1651,16 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.698
+    "hotScore": 0.694
   },
   {
-    "title": "Kotobukiya's operating income for the fiscal year ending June 2026 is 52% down to 764 million yen. A weak yen and rising raw material prices put pressure on profits. Aiming to improve recognition with the adaptation of \"Arcanadia\" into an anime and game.",
+    "title": "Kotobukiya's operating income for the fiscal year ending June 2026 is 52% down to 764 million yen. A weaker yen and rising raw material prices put pressure on profits. Aiming to improve recognition by making \"Arcanadia\" into an anime and game.",
     "link": "https://gamebiz.jp/news/431111",
     "date": 1786704120000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.698
+    "hotScore": 0.695
   },
   {
     "title": "God of War has lasted so long because Sony Santa Monica \"actually respects the fans,\" says Kratos actor Christopher Judge: \"People invite you into their homes, the least you can do is respect what they have to say\"",
@@ -1685,16 +1669,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.699
-  },
-  {
-    "title": "Indie Publisher Nakana.io Is Closing, All Games Now Heavily Discounted",
-    "link": "https://www.nintendolife.com/news/2026/08/indie-publisher-nakana-io-is-closing-all-games-now-heavily-discounted",
-    "date": 1786704300000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.7
+    "hotScore": 0.696
   },
   {
     "title": "System Shock, High on Life, More Are Breathing New Life into PSVR2",
@@ -1703,7 +1678,16 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.7
+    "hotScore": 0.697
+  },
+  {
+    "title": "Indie Publisher Nakana.io Is Closing, All Games Now Heavily Discounted",
+    "link": "https://www.nintendolife.com/news/2026/08/indie-publisher-nakana-io-is-closing-all-games-now-heavily-discounted",
+    "date": 1786704300000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 0.697
   },
   {
     "title": "Come September, you won't need a single Total War: Warhammer game to play its colossal, trilogy-spanning Immortal Empires campaign",
@@ -1712,16 +1696,16 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.701
+    "hotScore": 0.698
   },
   {
-    "title": "キーボードを打ち込んで“貪り食う”ホラータイピングゲーム「KEYKRUNCHER」の無料デモ版が配信中",
+    "title": "Free demo version of “KEYKRUNCHER”, a horror typing game where you type on the keyboard and “devour” it, is now available",
     "link": "https://www.4gamer.net/games/022/G102207/20260814036",
     "date": 1786705012000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.708
+    "hotScore": 0.704
   },
   {
     "title": "The MSI Claw EX is the most important PC handheld since Steam Deck — I still wouldn’t buy one",
@@ -1730,7 +1714,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 0.71
+    "hotScore": 0.706
   },
   {
     "title": "Xbox Adds Gorgeous New Dynamic Background Ahead Of August 20th Release",
@@ -1739,43 +1723,43 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.71
+    "hotScore": 0.706
   },
   {
-    "title": "The front face is a Chinese restaurant, the secret face is a mafia. The short anime “Rakuraku Hanten” will be distributed on YouTube in September 2026. Teaser PV released",
+    "title": "The front face is a Chinese restaurant, the secret face is a mafia. Short animation “Rakuraku Hanten” will be distributed on YouTube in September 2026. Teaser PV released",
     "link": "https://www.4gamer.net/games/991/G999103/20260814022",
     "date": 1786705200000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.71
+    "hotScore": 0.706
   },
   {
-    "title": "A complete version of the text ADV ``MARY - The Recapture of Princess Mary'' that changes the story by adding a single character to a button has been decided to be produced for Steam. Expanded over 400 ways of branching by more than 5 times",
+    "title": "A complete version of the text ADV ``MARY - The Recapture of Princess Mary'' that changes the story by adding one letter to a button has been decided to be produced for Steam. Expanded over 400 ways of branching by more than 5 times",
     "link": "https://www.4gamer.net/games/033/G103335/20260814029",
     "date": 1786705200000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.71
+    "hotScore": 0.706
   },
   {
-    "title": "Future Friends Games、物理演算を使ったサンドボックスゲーム『Sandcastle』体験版をSteamでリリース",
+    "title": "Future Friends Games releases trial version of Sandcastle, a sandbox game using physics, on Steam",
     "link": "https://gamebiz.jp/news/431137",
     "date": 1786705260000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.71
+    "hotScore": 0.707
   },
   {
-    "title": "“HOT TOYS SUMMER 2026 SHOWCASE” will be held at Belle Salle Akihabara from August 15th. Event-limited items will also be sold at the Hot Toys new exhibit.",
+    "title": "“HOT TOYS SUMMER 2026 SHOWCASE” will be held at Bellesalle Akihabara from August 15th. Event-limited items will also be sold at the Hot Toys new exhibit.",
     "link": "https://www.4gamer.net/games/983/G098313/20260814035",
     "date": 1786705292000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.711
+    "hotScore": 0.707
   },
   {
     "title": "2K establishes AAA sports developer Small Axe Studios",
@@ -1784,7 +1768,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.714
+    "hotScore": 0.711
   },
   {
     "title": "Where to buy Pokemon TCG 30th Celebration, the highly-anticipated anniversary set",
@@ -1793,7 +1777,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.714
+    "hotScore": 0.711
   },
   {
     "title": "Microsoft's blobby AI companion has begun his ascent to the heavens to join Clippy and Cortana. Okay, he's being booted to another platform",
@@ -1802,7 +1786,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.715
+    "hotScore": 0.711
   },
   {
     "title": "“Proseca” and the song “Ayano’s Theory of Happiness” appear in the game",
@@ -1811,7 +1795,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.715
+    "hotScore": 0.712
   },
   {
     "title": "I love the Dark Soulful architecture of The Canon of Balls, a rolling open world game inspired by Sega, Fumito Ueda and Minecraft parkour",
@@ -1820,7 +1804,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.724
+    "hotScore": 0.721
   },
   {
     "title": "PS5/PC large-scale fantasy ARPG \"Bringa\" announced. An epic world adventure filled with giant beasts, drawn with high-speed combat and \"movie-grade animation\"",
@@ -1829,7 +1813,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.726
+    "hotScore": 0.722
   },
   {
     "title": "Four Minutes Of Spider-Man: Beyond The Spider-Verse Leak Online, And They Look Amazing",
@@ -1838,7 +1822,34 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.727
+    "hotScore": 0.723
+  },
+  {
+    "title": "Marvel Tōkon: Fighting Souls review",
+    "link": "https://www.eurogamer.net/marvel-tokon-fighting-souls-review",
+    "date": 1786706904000,
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
+    "isTranslated": false,
+    "hotScore": 2.173,
+    "groupMembers": [
+      {
+        "title": "102 Deadpool References in Marvel Tokon: Fighting Souls",
+        "link": "https://www.gamespot.com/videos/102-deadpool-references-in-marvel-tokon-fighting-souls",
+        "date": 1786716000000,
+        "domain": "gamespot.com",
+        "sourceName": "GameSpot",
+        "isTranslated": false
+      },
+      {
+        "title": "Marvel Tokon: Fighting Souls review",
+        "link": "https://www.pcgamer.com/games/fighting/marvel-tokon-fighting-souls-review",
+        "date": 1786713797000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "\"Discord\" increases the file upload limit for free accounts from 10MB to 20MB. The method for determining file size has been changed in the smartphone version.",
@@ -1847,7 +1858,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.734
+    "hotScore": 0.731
   },
   {
     "title": "US Senate launches investigation into Roblox over child safety concerns",
@@ -1856,22 +1867,14 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 2.221,
+    "hotScore": 1.474,
     "groupMembers": [
       {
-        "title": "Congress Is Opening an Investigation Into ‘Roblox’ Over Child Exploitation",
-        "link": "https://www.polygon.com/roblox-senate-investigation-2026",
-        "date": 1786726251000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      },
-      {
-        "title": "Roblox Is Now The Target Of A Congressional Investigation: “Children Are Hurting”",
-        "link": "https://www.gamespot.com/articles/roblox-is-now-the-target-of-a-congressional-investigation-children-are-hurting",
-        "date": 1786718980000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
+        "title": "Roblox Is Now Under Investigation By The U.S. Senate Over Child Safety",
+        "link": "https://kotaku.com/roblox-is-now-under-investigation-by-the-u-s-senate-over-child-safety-2000724465",
+        "date": 1786722434000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
         "isTranslated": false
       }
     ]
@@ -1883,16 +1886,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.744
-  },
-  {
-    "title": "Review: Duskfade (Switch 2) - A Very Likeable Kingdom Hearts-Inspired Platformer That's Not Quite There",
-    "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/duskfade",
-    "date": 1786708800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.741
   },
   {
     "title": "You'll Have to Wait Until 2028 to Play PS5's Shiniest, Jankiest Sci-Fi Adventure",
@@ -1901,7 +1895,16 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.745
+  },
+  {
+    "title": "Review: Duskfade (Switch 2) - A Very Likeable Kingdom Hearts-Inspired Platformer That's Not Quite There",
+    "link": "https://www.nintendolife.com/reviews/nintendo-switch-2/duskfade",
+    "date": 1786708800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 0.745
   },
   {
     "title": "Hell Let Loose: Vietnam Comparison Shows Difference Between Xbox Series X And Series S",
@@ -1910,7 +1913,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.745
   },
   {
     "title": "Marvel's Wolverine will make sure squeamish players never have to see blood and gore: \"We don't want to surprise anyone\"",
@@ -1919,16 +1922,16 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.745
   },
   {
-    "title": "3180 videotapes to the correct shelves. Multiplayer tidying up game “I have a lot of treasure video tapes♪” released today",
+    "title": "3180本のビデオテープを正しい棚へ。マルチプレイお片付けゲーム「お宝ビデオテープ、いっぱい持ってるよん♪」本日発売",
     "link": "https://www.4gamer.net/games/033/G103333/20260814034",
     "date": 1786708800000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.749
+    "hotScore": 0.745
   },
   {
     "title": "Asus ROG Harpe II Extreme Edition 20 review",
@@ -1937,7 +1940,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.751
+    "hotScore": 0.748
   },
   {
     "title": "Waste The Fallen, a PvPvE escape shooter with a cosmic horror theme, has been announced. Also releasing the trailer",
@@ -1946,7 +1949,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.754
+    "hotScore": 0.751
   },
   {
     "title": "After a public scrap between CEO and former writer, Saber Interactive finally adds AI disclaimer to Steam page and doubles down: 'AI can and should help shape gamer experiences'",
@@ -1955,7 +1958,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.755
+    "hotScore": 0.752
   },
   {
     "title": "2K Games Is Making A New Sports Franchise, And All Signs Point To Soccer",
@@ -1964,7 +1967,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.758
+    "hotScore": 0.755
   },
   {
     "title": "Legal expert says Stop Killing Games aim is more “complicated” than people think",
@@ -1973,7 +1976,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.76
+    "hotScore": 0.757
   },
   {
     "title": "Have your say on the RPS Supporter program with this short, yet deeply opinion-absorbent survey",
@@ -1982,7 +1985,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.767
+    "hotScore": 0.764
   },
   {
     "title": "Xbox Trading Cards Are Real, But You'll Probably Never Get Them",
@@ -1991,7 +1994,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.768
+    "hotScore": 0.764
   },
   {
     "title": "Takoyaki At ‘Disastrous’ Deltarune Fan Event Leaves Attendees With Food Poisoning",
@@ -2000,7 +2003,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.783
+    "hotScore": 0.779
   },
   {
     "title": "Lego Marvel games reportedly put on hold for the foreseeable future",
@@ -2009,7 +2012,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.784
+    "hotScore": 0.78
   },
   {
     "title": "Review: Kynseed Packs a Lot of Life Sim Into One Switch Game",
@@ -2018,7 +2021,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.79
+    "hotScore": 0.786
   },
   {
     "title": "Honkai: Star Rail version 4.5 update ‘To Roll the Stars in Astropolis’ launches August 26",
@@ -2027,7 +2030,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.58,
+    "hotScore": 1.573,
     "groupMembers": [
       {
         "title": "Honkai Star Rail version 4.5 livestream codes",
@@ -2046,7 +2049,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.799
+    "hotScore": 0.795
   },
   {
     "title": "2011 Lord Of The Rings Game Didn’t Get A “Fair Shake” Launching Near Skyrim, Former WB Boss Says",
@@ -2055,7 +2058,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.799
+    "hotScore": 0.795
   },
   {
     "title": "Browser quiz where you guess games from their patch notes is the ultimate test of gaming knowledge",
@@ -2064,7 +2067,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.799
+    "hotScore": 0.796
   },
   {
     "title": "Mafia Remake Joins The Old Country on PS5 in Full Series Collection with 60FPS, Visual Upgrades",
@@ -2073,7 +2076,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.8
+    "hotScore": 0.796
   },
   {
     "title": "1986 Amiga Classic Gets Rebuilt With Two New Game Modes For Xbox Series X|S",
@@ -2082,7 +2085,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.8
+    "hotScore": 0.796
   },
   {
     "title": "Baldur's Gate 3 Hidden Voice Line Found By Fans",
@@ -2091,7 +2094,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.801
+    "hotScore": 0.797
   },
   {
     "title": "The Lord of the Rings: War in the North Dev Warned Warner Bros. Not to Go Up Against Skyrim Back in 2011",
@@ -2100,7 +2103,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.608,
+    "hotScore": 1.601,
     "groupMembers": [
       {
         "title": "A dev tried to warn WB Games not to launch Lord of the Rings: War in the North 10 days before Skyrim, but was 'overruled'",
@@ -2119,7 +2122,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.805
+    "hotScore": 0.801
   },
   {
     "title": "Matthew McConaughey On Why He Turned Down The Role Of Joel From The Last Of Us Show: ‘It Wasn’t For Me At The Time’",
@@ -2128,7 +2131,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.808
+    "hotScore": 0.804
   },
   {
     "title": "ICMYI: This Week in IGN Game Previews: Wolverine, Star Wars: Zero Company, and More!",
@@ -2137,7 +2140,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.811
+    "hotScore": 0.807
   },
   {
     "title": "Best coach type in Madden NFL 27 Franchise Mode",
@@ -2146,7 +2149,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.811
+    "hotScore": 0.807
   },
   {
     "title": "Slay the Spire 2 Mechanics That Keep Runs Unpredictable",
@@ -2155,7 +2158,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.811
+    "hotScore": 0.807
   },
   {
     "title": "High On Life Is Coming To VR, And Yes, You Can Stroke Your Weird Guns",
@@ -2164,7 +2167,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1.625,
+    "hotScore": 1.617,
     "groupMembers": [
       {
         "title": "High on Life VR lets you stroke your talking guns",
@@ -2177,13 +2180,13 @@
     ]
   },
   {
-    "title": "話題博した「1文字足す」ゲーム『MARY – メアリ姫の奪還』Steam向け完全版発表。“足したらだいたい反応してくれる”ゲーム、分岐数千通りに底なし進化",
+    "title": "The complete version of the much-talked-about ``add one letter'' game ``MARY - The Recapture of Princess Mary'' has been released for Steam. A game that “reacts roughly when you add it” has endless evolution with thousands of branches.",
     "link": "https://automaton-media.com/articles/newsjp/20260814-460293",
     "date": 1786714742000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.817
+    "hotScore": 0.814
   },
   {
     "title": "\"Collapse: Star Rail\", Ver. 4.5 \"Chip for a Thousand Stars\" was released on August 26th. “Robin: Summer Sky Song” and “Aventurine: Summer Playing with the Waves” are now available.",
@@ -2192,7 +2195,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.821
+    "hotScore": 0.817
   },
   {
     "title": "How Two Film Grads, A TiVo Set And GameTrailers.com Changed Video Game Hype Forever",
@@ -2201,7 +2204,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.822
+    "hotScore": 0.818
   },
   {
     "title": "Niko Partners: India games market exceeds $1bn, forecast to reach $1.2bn by end of 2026",
@@ -2210,7 +2213,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.823
+    "hotScore": 0.819
   },
   {
     "title": "Palworld fans 'do not realize the sheer number of collabs we've rejected' even with the survival game's 'fun-first approach'",
@@ -2219,7 +2222,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.824
+    "hotScore": 0.82
   },
   {
     "title": "Grand Theft Auto 2 – The Legacy Review",
@@ -2228,7 +2231,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.666,
+    "hotScore": 1.658,
     "groupMembers": [
       {
         "title": "The women of Grand Theft Auto: How film noir shaped (and limited) Rockstar's female characters",
@@ -2241,31 +2244,22 @@
     ]
   },
   {
-    "title": "Madoka Magica Walpurgisnacht Rising Movie Spoilers Notice Shared",
-    "link": "https://www.siliconera.com/madoka-magica-walpurgisnacht-rising-movie-spoilers-notice-shared",
-    "date": 1786716000000,
-    "domain": "siliconera.com",
-    "sourceName": "Siliconera",
-    "isTranslated": false,
-    "hotScore": 0.833
-  },
-  {
     "title": "Next Week on XBOX: New Games for August 17 to 21",
     "link": "https://news.xbox.com/en-us/2026/08/14/next-week-on-xbox-new-games-for-august-17-to-21",
     "date": 1786716000000,
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.833
+    "hotScore": 0.829
   },
   {
-    "title": "What game genres are women allowed to play?",
-    "link": "https://www.gamesradar.com/games/what-game-genres-are-women-allowed-to-play",
+    "title": "Madoka Magica Walpurgisnacht Rising Movie Spoilers Notice Shared",
+    "link": "https://www.siliconera.com/madoka-magica-walpurgisnacht-rising-movie-spoilers-notice-shared",
     "date": 1786716000000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
+    "domain": "siliconera.com",
+    "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.833
+    "hotScore": 0.829
   },
   {
     "title": "Game of the Week – Marvel Tokon is a heroic fighter that's easy to get into, and villainous to master",
@@ -2274,7 +2268,16 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.833
+    "hotScore": 0.829
+  },
+  {
+    "title": "What game genres are women allowed to play?",
+    "link": "https://www.gamesradar.com/games/what-game-genres-are-women-allowed-to-play",
+    "date": 1786716000000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.829
   },
   {
     "title": "Sony Wants to Create an Original Character IP to Rival Hello Kitty — and a Stressed-Out Insomniac Bear Is in the Running",
@@ -2283,7 +2286,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.836
+    "hotScore": 0.832
   },
   {
     "title": "Warzone and Modern Warfare 4’s campaign are coming to the beta",
@@ -2292,7 +2295,25 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.837
+    "hotScore": 2.499,
+    "groupMembers": [
+      {
+        "title": "Modern Warfare 4 Beta Will Include Campaign and Warzone In Series First",
+        "link": "https://www.polygon.com/modern-warfare-4-beta-campaign-mission",
+        "date": 1786721972000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      },
+      {
+        "title": "Call of Duty: Modern Warfare 4's PS5 Beta Includes Campaign Mission for the First Time",
+        "link": "https://www.pushsquare.com/news/2026/08/call-of-duty-modern-warfare-4s-ps5-beta-includes-campaign-mission-for-the-first-time",
+        "date": 1786717800000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "‘Out of scale, no mystery, damn ugly’ Halo’s original art director shares his thoughts on Campaign Evolved’s architecture",
@@ -2301,7 +2322,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.839
+    "hotScore": 0.835
   },
   {
     "title": "Tyr Actor May Have Teased God Of War Laufey Role Months Ago",
@@ -2310,7 +2331,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.839
+    "hotScore": 0.835
   },
   {
     "title": "Skyrim eclipsed Lord of the Rings: War in the North's launch 15 years ago, so the WB Games lead who \"argued vociferously\" against the release is happy to see it get a second shot",
@@ -2319,7 +2340,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.84
+    "hotScore": 0.836
   },
   {
     "title": "UK video game industry charity football match raises over £63,000 for physically disabled gamers",
@@ -2328,7 +2349,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.849
+    "hotScore": 0.845
   },
   {
     "title": "New LEGO Disney game being made, in the same style as the TT Games but by a different studio (via @LEGOTtNewsI)",
@@ -2337,7 +2358,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.85
+    "hotScore": 0.846
   },
   {
     "title": "Modern Warfare 4 has CoD’s beefiest beta yet, but it doesn’t include what some players want most",
@@ -2346,7 +2367,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.85
+    "hotScore": 0.846
   },
   {
     "title": "Disney Has 9 Gaming Franchises That Have Generated $1 Billion+ At Retail, Including Kingdom Hearts",
@@ -2355,7 +2376,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.853
+    "hotScore": 0.849
   },
   {
     "title": "Raw Fury releases Tower Defense X Survivor “Monsters are Coming!” on Xbox Series X|S",
@@ -2364,7 +2385,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.853
+    "hotScore": 0.849
   },
   {
     "title": "'Fortnite'’s Most Prized Collectible Is Easier Than Ever to Get, but for a Limited Time",
@@ -2373,16 +2394,79 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.854
+    "hotScore": 0.85
   },
   {
-    "title": "Call of Duty: Modern Warfare 4's PS5 Beta Includes Campaign Mission for the First Time",
-    "link": "https://www.pushsquare.com/news/2026/08/call-of-duty-modern-warfare-4s-ps5-beta-includes-campaign-mission-for-the-first-time",
+    "title": "Cancelled First-Party Xbox Title Shows Up In A Random Fishing Game",
+    "link": "https://www.purexbox.com/news/2026/08/cancelled-first-party-xbox-title-shows-up-in-a-random-fishing-game",
     "date": 1786717800000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 3.421,
+    "hotScore": 0.851
+  },
+  {
+    "title": "2024's Overlooked Action Masterpiece Is Waiting to Be Rediscovered on PS Plus and Game Pass",
+    "link": "https://www.polygon.com/banishers-ghosts-of-new-eden-ps-plus-game-pass",
+    "date": 1786717812000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.851
+  },
+  {
+    "title": "Games That Need An Upgrade",
+    "link": "https://www.dualshockers.com/games-that-need-an-upgrade",
+    "date": 1786717875000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 0.852
+  },
+  {
+    "title": "Palworld’s Brand New Trading Card Game Is Out Of Stock And Plagued By Scalpers",
+    "link": "https://kotaku.com/palworld-official-card-game-tcg-pocketpair-bushiroad-scalpers-2000724457",
+    "date": 1786718213000,
+    "domain": "kotaku.com",
+    "sourceName": "Kotaku",
+    "isTranslated": false,
+    "hotScore": 0.857
+  },
+  {
+    "title": "The Epic Games Launcher will be available on Linux 'soon' says dev, after it's had a bit of work",
+    "link": "https://www.pcgamer.com/hardware/the-epic-games-launcher-will-be-available-on-linux-soon-says-dev-after-its-had-a-bit-of-work",
+    "date": 1786718227000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 0.857
+  },
+  {
+    "title": "'To own a Razer Artisan Keycap is to display one’s allegiance, a mark of belonging within the Cult of Razer' says the PR nonsense behind this $90 coil of snakes",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/to-own-a-razer-artisan-keycap-is-to-display-ones-allegiance-a-mark-of-belonging-within-the-cult-of-razer-says-the-pr-nonsense-behind-this-usd90-coil-of-snakes",
+    "date": 1786718706000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 0.863
+  },
+  {
+    "title": "Eve Sense begins pre-registration for online competitive board game “GALAST”",
+    "link": "https://gamebiz.jp/news/431139",
+    "date": 1786718880000,
+    "domain": "gamebiz.jp",
+    "sourceName": "GameBiz",
+    "isTranslated": true,
+    "hotScore": 0.865
+  },
+  {
+    "title": "Call Of Duty: Modern Warfare 4 Beta Will Do Something No Previous CoD Beta Has",
+    "link": "https://www.gamespot.com/articles/call-of-duty-modern-warfare-4-beta-will-do-something-no-previous-cod-beta-has",
+    "date": 1786718888000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
+    "isTranslated": false,
+    "hotScore": 2.595,
     "groupMembers": [
       {
         "title": "Xbox Confirms Call of Duty: Modern Warfare 4 Beta Will Feature Single-Player Campaign Mission for the First Time",
@@ -2393,85 +2477,33 @@
         "isTranslated": false
       },
       {
-        "title": "Modern Warfare 4 Beta Will Include Campaign and Warzone In Series First",
-        "link": "https://www.polygon.com/modern-warfare-4-beta-campaign-mission",
-        "date": 1786721972000,
-        "domain": "polygon.com",
-        "sourceName": "Polygon",
-        "isTranslated": false
-      },
-      {
-        "title": "Call Of Duty: Modern Warfare 4 Beta Will Do Something No Previous CoD Beta Has",
-        "link": "https://www.gamespot.com/articles/call-of-duty-modern-warfare-4-beta-will-do-something-no-previous-cod-beta-has",
-        "date": 1786718888000,
-        "domain": "gamespot.com",
-        "sourceName": "GameSpot",
+        "title": "Call of Duty: Modern Warfare 4 Beta Includes Some Surprise Game Modes",
+        "link": "https://gamerant.com/cod-mw4-beta-modes-warzone-campaign",
+        "date": 1786725420000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
         "isTranslated": false
       }
     ]
   },
   {
-    "title": "Cancelled First-Party Xbox Title Shows Up In A Random Fishing Game",
-    "link": "https://www.purexbox.com/news/2026/08/cancelled-first-party-xbox-title-shows-up-in-a-random-fishing-game",
-    "date": 1786717800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
+    "title": "Roblox Is Now The Target Of A Congressional Investigation: “Children Are Hurting”",
+    "link": "https://www.gamespot.com/articles/roblox-is-now-the-target-of-a-congressional-investigation-children-are-hurting",
+    "date": 1786718980000,
+    "domain": "gamespot.com",
+    "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.855
-  },
-  {
-    "title": "2024's Overlooked Action Masterpiece Is Waiting to Be Rediscovered on PS Plus and Game Pass",
-    "link": "https://www.polygon.com/banishers-ghosts-of-new-eden-ps-plus-game-pass",
-    "date": 1786717812000,
-    "domain": "polygon.com",
-    "sourceName": "Polygon",
-    "isTranslated": false,
-    "hotScore": 0.855
-  },
-  {
-    "title": "Games That Need An Upgrade",
-    "link": "https://www.dualshockers.com/games-that-need-an-upgrade",
-    "date": 1786717875000,
-    "domain": "dualshockers.com",
-    "sourceName": "DualShockers",
-    "isTranslated": false,
-    "hotScore": 0.856
-  },
-  {
-    "title": "Palworld’s Brand New Trading Card Game Is Out Of Stock And Plagued By Scalpers",
-    "link": "https://kotaku.com/palworld-official-card-game-tcg-pocketpair-bushiroad-scalpers-2000724457",
-    "date": 1786718213000,
-    "domain": "kotaku.com",
-    "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 0.861
-  },
-  {
-    "title": "The Epic Games Launcher will be available on Linux 'soon' says dev, after it's had a bit of work",
-    "link": "https://www.pcgamer.com/hardware/the-epic-games-launcher-will-be-available-on-linux-soon-says-dev-after-its-had-a-bit-of-work",
-    "date": 1786718227000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.861
-  },
-  {
-    "title": "'To own a Razer Artisan Keycap is to display one’s allegiance, a mark of belonging within the Cult of Razer' says the PR nonsense behind this $90 coil of snakes",
-    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/to-own-a-razer-artisan-keycap-is-to-display-ones-allegiance-a-mark-of-belonging-within-the-cult-of-razer-says-the-pr-nonsense-behind-this-usd90-coil-of-snakes",
-    "date": 1786718706000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.867
-  },
-  {
-    "title": "Evesense begins pre-registration for online competitive board game “GALAST”",
-    "link": "https://gamebiz.jp/news/431139",
-    "date": 1786718880000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 0.869
+    "hotScore": 1.733,
+    "groupMembers": [
+      {
+        "title": "Congress Is Opening an Investigation Into ‘Roblox’ Over Child Exploitation",
+        "link": "https://www.polygon.com/roblox-senate-investigation-2026",
+        "date": 1786726251000,
+        "domain": "polygon.com",
+        "sourceName": "Polygon",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Kingdom Hearts Is Now The Poster Boy For Disney And Pixar Games",
@@ -2480,16 +2512,16 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.872
+    "hotScore": 0.868
   },
   {
-    "title": "cclaim and Rowan Edmondson release action roguelike 'Ground Zero Hero' on August 20th",
+    "title": "cclaimとRowan Edmondson、アクションローグライク『Ground Zero Hero』を8月20日にリリース",
     "link": "https://gamebiz.jp/news/431140",
     "date": 1786719240000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.874
+    "hotScore": 0.87
   },
   {
     "title": "JoJo's Bizarre Adventure Golden Spirit codes (August 2026) for Astrogems, Coins, Cards, and more",
@@ -2498,7 +2530,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 1.756,
+    "hotScore": 1.748,
     "groupMembers": [
       {
         "title": "JoJo’s Bizarre Adventure: Golden Spirit character tier list",
@@ -2517,7 +2549,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.878
+    "hotScore": 0.874
   },
   {
     "title": "Feature: One Year On, Is Anyone Still Playing Drag x Drive?",
@@ -2526,7 +2558,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.878
+    "hotScore": 0.874
   },
   {
     "title": "Beast of Reincarnation is a Pokémon-inspired soulslike without the cruelty of Dark Souls – and it's better for it",
@@ -2535,7 +2567,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.878
+    "hotScore": 0.874
   },
   {
     "title": "Playing Baldur's Gate 3 with no weapons at all forced me to progress my story in a very specific way",
@@ -2544,25 +2576,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.878
-  },
-  {
-    "title": "New $359 Dark Souls Release Confirmed for 2027",
-    "link": "https://gamerant.com/dark-souls-3-soul-of-cinder-statue",
-    "date": 1786719673000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 0.879
-  },
-  {
-    "title": "10 Essential GameCube Games Switch 2 Needs ASAP",
-    "link": "https://gamerant.com/essential-gamecube-games-switch-2-needs-top-10-best-nintendo",
-    "date": 1786719673000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 0.879
+    "hotScore": 0.874
   },
   {
     "title": "HypeTrain Digital and RedRuins Softworks release early access version of space survival adventure 'Breathedge 2' on August 31st",
@@ -2571,7 +2585,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.88
+    "hotScore": 0.876
   },
   {
     "title": "It’s Time To Give Mario A Gun",
@@ -2580,7 +2594,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.881
+    "hotScore": 0.877
   },
   {
     "title": "Blizzard takes rare World of Warcraft mount from players as the MMO's latest crack down on real-money transactions continues",
@@ -2589,7 +2603,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.893
+    "hotScore": 0.889
   },
   {
     "title": "\"S.T.A.L.K.E.R. 2\", Update 2.0 released on August 20th. The graphics have been revamped, enemy behavior has been improved, difficulty has been fine-tuned, etc.",
@@ -2598,7 +2612,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.896
+    "hotScore": 0.892
   },
   {
     "title": "GTA 6 fans don't \"go around buying nerdy niche\" games, indie says, so fellow devs don't really need to get out of Rockstar's way",
@@ -2607,7 +2621,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.897
+    "hotScore": 0.893
   },
   {
     "title": "XX_750000 has shared more photos of the Zelda 40th anniversary Switch 2 Pro Controller box, including an image with a censored third Nintendo product coming that he cannot reveal yet",
@@ -2616,7 +2630,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.897
+    "hotScore": 0.893
   },
   {
     "title": "Palworld TCG Creators Apologize For Stock Shortage",
@@ -2625,7 +2639,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.898
+    "hotScore": 0.894
   },
   {
     "title": "Rideshare Stimulator finally gets its genAI disclosure after much Saber-rattling, and it turns out the game also uses the tech for in-game music",
@@ -2634,7 +2648,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.899
+    "hotScore": 0.895
   },
   {
     "title": "Inside Is the Closest Thing to a ‘Perfect’ Game I’ve Ever Played",
@@ -2643,7 +2657,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.902
+    "hotScore": 0.898
   },
   {
     "title": "Unique New Extraction Game on Steam is Pokemon Meets ARC Raiders",
@@ -2652,7 +2666,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.903
+    "hotScore": 0.899
   },
   {
     "title": "One Piece Officially Sets Up Luffy's New Flame Gear",
@@ -2661,7 +2675,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.903
+    "hotScore": 0.899
   },
   {
     "title": "'Marvel Tokon' Reportedly Moves 500K Units In First Week, Kicking Off Sales Figures Debate",
@@ -2670,7 +2684,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.902
   },
   {
     "title": "Wolverine Gameplay Footage Is Being Compared To A Ben 10 Game",
@@ -2679,16 +2693,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.915
-  },
-  {
-    "title": "Become An Anime Billionaire Codes (August 2026)",
-    "link": "https://insider-gaming.com/roblox-become-an-anime-billionaire-codes",
-    "date": 1786722366000,
-    "domain": "insider-gaming.com",
-    "sourceName": "Insider Gaming",
-    "isTranslated": false,
-    "hotScore": 0.915
+    "hotScore": 0.91
   },
   {
     "title": "First Look at Warzone’s New Zodiac Map Revealed",
@@ -2697,16 +2702,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.915
-  },
-  {
-    "title": "Roblox Is Now Under Investigation By The U.S. Senate Over Child Safety",
-    "link": "https://kotaku.com/roblox-is-now-under-investigation-by-the-u-s-senate-over-child-safety-2000724465",
-    "date": 1786722434000,
-    "domain": "kotaku.com",
-    "sourceName": "Kotaku",
-    "isTranslated": false,
-    "hotScore": 0.916
+    "hotScore": 0.911
   },
   {
     "title": "Pass Or Explode Codes (August 2026)",
@@ -2715,7 +2711,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.916
+    "hotScore": 0.912
   },
   {
     "title": "Watch God Of War Laufey Star Smash The Last Of Us Golf Club Prop On Her First Day",
@@ -2724,7 +2720,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.917
+    "hotScore": 0.913
   },
   {
     "title": "Mutant Plants Base Defense Codes (August 2026)",
@@ -2733,7 +2729,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.92
+    "hotScore": 0.916
   },
   {
     "title": "\"Battlefield 6\" x \"Top Gun\" collaboration, game mode introduction video released. Introducing a 32 vs 32 game mode where you aim to destroy enemy aircraft carriers.",
@@ -2742,7 +2738,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.922
+    "hotScore": 0.918
   },
   {
     "title": "Car Flipper Codes (August 2026)",
@@ -2751,7 +2747,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.923,
+    "hotScore": 0.918,
     "groupMembers": [
       {
         "title": "Night At The Infirmary Codes (August 2026)",
@@ -2786,7 +2782,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.926
+    "hotScore": 0.921
   },
   {
     "title": "Control Resonant: Exclusive Boss Fight Gameplay - IGN First",
@@ -2795,7 +2791,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.922
   },
   {
     "title": "Splatoon 3 Gets Splatoon Raiders Plastic-Bottle Splattershot",
@@ -2804,7 +2800,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.922
   },
   {
     "title": "Four New Indie Games Are Proving Highly Popular On Xbox Right Now",
@@ -2813,7 +2809,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.922
   },
   {
     "title": "Share of the Week: Big Walk",
@@ -2822,7 +2818,7 @@
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.922
   },
   {
     "title": "Marvel's Wolverine Won't Be Repeating Divisive Spider-Man 2 Feature",
@@ -2831,7 +2827,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.922
   },
   {
     "title": "#391: Saber rattling",
@@ -2840,7 +2836,7 @@
     "domain": "newsletter.hitpoints.co",
     "sourceName": "Hit Points",
     "isTranslated": false,
-    "hotScore": 0.927
+    "hotScore": 0.923
   },
   {
     "title": "With The Shutdown Of Pokémon Bank, Some Cool Elements From Old Games Are Being Lost",
@@ -2849,7 +2845,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.93
+    "hotScore": 0.926
   },
   {
     "title": "10 years after its messy launch, No Man’s Sky boss Sean Murray wishes he could warn his younger self \"don’t do all the press\"",
@@ -2858,7 +2854,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.932
+    "hotScore": 0.928
   },
   {
     "title": "STALKER 2: Cost of Hope and 2.0 Update Get Imminent Release Date",
@@ -2867,7 +2863,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.939
+    "hotScore": 0.935
   },
   {
     "title": "OG Gears of War lead says \"wallbouncing in Gears\" is like his cult classic platformer helping turn fans into furries: \"It wasn't the intended nor desired effect, yet here we are\"",
@@ -2876,7 +2872,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.941
+    "hotScore": 0.937
   },
   {
     "title": "‘Absolutely F*cking Not!’ Black Mirror Director’s Perfect Response To An Invite To Direct HBO’s Harry Potter",
@@ -2885,7 +2881,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.943
+    "hotScore": 0.939
   },
   {
     "title": "The official Rockstar Games store on MercadoLivre, a retailer in Brazil, has an updated description of GTA VI",
@@ -2894,7 +2890,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.947
+    "hotScore": 0.942
   },
   {
     "title": "Today’s NYT Strands #894 Hints, Answers, and Spangram for August 14",
@@ -2903,7 +2899,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.949
+    "hotScore": 0.945
   },
   {
     "title": "We've been tracking graphics card prices for exactly one year and it's never been worse than this",
@@ -2912,7 +2908,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.949
+    "hotScore": 0.945
   },
   {
     "title": "Halo Campaign Evolved Not Having PvP Was ‘Poor Planning’, Says Franchise Creator",
@@ -2921,7 +2917,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.95
+    "hotScore": 0.945
   },
   {
     "title": "Everything New In The 1.0 Update In No More Room In Hell 2",
@@ -2930,7 +2926,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.951
+    "hotScore": 0.947
   },
   {
     "title": "Majora's Mask Gets a Sci-Fi Twist in This Cozy 2023 RPG",
@@ -2939,7 +2935,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.952
+    "hotScore": 0.947
   },
   {
     "title": "Boruto Officially Confirms New Konoha Ninja Stronger Than Naruto & Sasuke",
@@ -2948,7 +2944,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.952
+    "hotScore": 0.947
   },
   {
     "title": "GTA 6 isn't too expensive for superfans, as 90% opt for the pricier $100 copy according to analysts: \"It lives in a league of its own\"",
@@ -2957,7 +2953,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.952
+    "hotScore": 0.948
   },
   {
     "title": "8 JRPGs That Completely Change Gameplay Rules Late in the Story",
@@ -2966,7 +2962,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.953
+    "hotScore": 0.948
   },
   {
     "title": "2K Announces New Studio Led By Former EA Sports Devs",
@@ -2975,7 +2971,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.953
+    "hotScore": 0.949
   },
   {
     "title": "\"Just buy the game on Steam\": Indie publisher behind a recent banger that sold 300k copies in its first week warns against key resellers after canceling hundreds of scalped keys",
@@ -2984,7 +2980,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.956
+    "hotScore": 0.951
   },
   {
     "title": "Patchdle is the Toughest Wordle-like for Gamers",
@@ -2993,7 +2989,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.956
+    "hotScore": 0.952
   },
   {
     "title": "Toy Story 3 On Xbox Is Being Delisted To Make Way For The Remaster",
@@ -3002,16 +2998,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.957
-  },
-  {
-    "title": "Call of Duty: Modern Warfare 4 Beta Includes Some Surprise Game Modes",
-    "link": "https://gamerant.com/cod-mw4-beta-modes-warzone-campaign",
-    "date": 1786725420000,
-    "domain": "gamerant.com",
-    "sourceName": "Game Rant",
-    "isTranslated": false,
-    "hotScore": 0.957
+    "hotScore": 0.952
   },
   {
     "title": "Modern consumers crave \"events\", and the games industry needs to provide them | Opinion",
@@ -3020,7 +3007,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.96
+    "hotScore": 0.956
   },
   {
     "title": "Thimbleweed Park 2 Is Being Funded By A Sole 'Wealthy Outsider'",
@@ -3029,7 +3016,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.964
+    "hotScore": 0.96
   },
   {
     "title": "Ahead of GTA 6, Rockstar ramps up GTA Online roleplay as nopixel V prepares for exclusive Closed Beta launch in September",
@@ -3038,7 +3025,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.966
+    "hotScore": 0.961
   },
   {
     "title": "KPop Demon Hunters’ Criterion Blu-Ray Set Looks Incredible",
@@ -3047,7 +3034,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.969
+    "hotScore": 0.964
   },
   {
     "title": "Official PlayStation Podcast Episode 545: Walk and Talk",
@@ -3056,7 +3043,7 @@
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 0.97
+    "hotScore": 0.965
   },
   {
     "title": "Want More Story In Your Stardew? Fields Of Mistria Is Right Up Your Valley",
@@ -3065,7 +3052,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.975
+    "hotScore": 0.971
   },
   {
     "title": "New Frieren Gacha Features Figures of Her Sleeping",
@@ -3074,7 +3061,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.977
+    "hotScore": 0.973
   },
   {
     "title": "Talking Point: Amid Rising Console Prices, What Would You Do If Your Xbox Broke Tomorrow?",
@@ -3083,7 +3070,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.977
+    "hotScore": 0.973
   },
   {
     "title": "Nintendo Switch Online Only Has 1 More GameCube Classic Confirmed",
@@ -3092,7 +3079,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.977
+    "hotScore": 0.973
   },
   {
     "title": "MP1st: It seems [SPOILER] will indeed be in God of War Laufey, backing up previous leaks we ran",
@@ -3101,7 +3088,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.978
+    "hotScore": 0.973
   },
   {
     "title": "25 Years of Mafia Video Games: An Oral History",
@@ -3110,7 +3097,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.979
+    "hotScore": 0.974
   },
   {
     "title": "All FC 26 FUTTIES Best of Re-Release Batch 4 players",
@@ -3119,7 +3106,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.979
+    "hotScore": 0.975
   },
   {
     "title": "One Piece Is Coming to McDonald’s, but There’s a Twist",
@@ -3128,7 +3115,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.98
+    "hotScore": 0.976
   },
   {
     "title": "God Of War Laufey Star Accidentally Destroyed Joel's Murder Weapon",
@@ -3137,7 +3124,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.981
+    "hotScore": 0.977
   },
   {
     "title": "New study says just 81 percent of parents are ‘concerned’ about their kids’ safety in online games",
@@ -3146,7 +3133,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.984
+    "hotScore": 0.98
   },
   {
     "title": "EA Sports FC finally gets a real rival as 2K hires one of its former executive producers",
@@ -3155,7 +3142,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.997
+    "hotScore": 0.992
   },
   {
     "title": "World Of Warcraft Players Claim Their Characters Keep Fighting Bosses On Their Own After Disconnecting",
@@ -3164,6 +3151,24 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.998
+    "hotScore": 0.993
+  },
+  {
+    "title": "Injustice 2 Has Sold Over 9 Million Copies Since Launch",
+    "link": "https://insider-gaming.com/injustice-2-has-sold-9-million-copies-since-launch",
+    "date": 1786728389000,
+    "domain": "insider-gaming.com",
+    "sourceName": "Insider Gaming",
+    "isTranslated": false,
+    "hotScore": 0.996
+  },
+  {
+    "title": "Phantom Blade Zero's State of Play Has One Incredibly Simple Job",
+    "link": "https://gamerant.com/phantom-blade-zero-state-of-play-simple-job",
+    "date": 1786728613000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.999
   }
 ]
