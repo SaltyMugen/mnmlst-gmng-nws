@@ -1,48 +1,21 @@
 [
   {
-    "title": "Team Junkfish releases dinosaur survival horror game 'Wilderdark' on Steam on November 3rd",
-    "link": "https://gamebiz.jp/news/431526",
-    "date": 1787322960000,
-    "domain": "gamebiz.jp",
-    "sourceName": "GameBiz",
-    "isTranslated": true,
-    "hotScore": 0.278
-  },
-  {
-    "title": "Cyberleek's still at it: Another GTA 6 leak shows 2 full minutes of high speed driving, surprisingly few crashes",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/cyberleeks-still-at-it-another-gta-6-leak-shows-2-full-minutes-of-high-speed-driving-surprisingly-few-crashes",
-    "date": 1787323083000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.279
-  },
-  {
-    "title": "You Can Help Decide Double Fine's Next Project In Its Upcoming Game Jam Livestream",
-    "link": "https://gameinformer.com/2026/08/21/you-can-help-decide-double-fines-next-project-in-its-upcoming-game-jam-livestream",
-    "date": 1787323200000,
-    "domain": "gameinformer.com",
-    "sourceName": "Game Informer",
-    "isTranslated": false,
-    "hotScore": 0.279
-  },
-  {
     "title": "Archive Of Our Own Isn’t Worried About The Wattpad User Exodus And You Shouldn’t Be Either",
     "link": "https://kotaku.com/archive-of-our-own-wattpad-smut-ban-fanfiction-2000726632",
     "date": 1787323549000,
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.281
+    "hotScore": 0.279
   },
   {
-    "title": "Moonpyre and Grindstone release first public demo version of Hellforged on Steam",
+    "title": "MoonpyreとGrindstone、『Hellforged』初のパブリックデモ版をSteamでリリース",
     "link": "https://gamebiz.jp/news/431527",
     "date": 1787323680000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.281
+    "hotScore": 0.28
   },
   {
     "title": "Black Ops 7 Zombies Final Map Ending Cutscene Leaked",
@@ -51,7 +24,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.281
+    "hotScore": 0.28
   },
   {
     "title": "To \"obtain the identity\" of GTA 6 leaker, Rockstar parent Take-Two subpoenas Microsoft and Discord as yet more gameplay footage is posted",
@@ -60,22 +33,30 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.565,
+    "hotScore": 1.125,
     "groupMembers": [
       {
-        "title": "The GTA 6 leaker is selling ads now",
-        "link": "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-leaker-is-selling-ads-now",
-        "date": 1787350579000,
-        "domain": "pcgamer.com",
-        "sourceName": "PC Gamer",
+        "title": "Microsoft and Discord subpoenaed over GTA VI gameplay leaks",
+        "link": "https://www.theverge.com/games/983323/grand-theft-auto-vi-gta-leaks-microsoft-discord-subpoenaed",
+        "date": 1787331176000,
+        "domain": "theverge.com",
+        "sourceName": "The Verge",
         "isTranslated": false
       },
       {
-        "title": "GTA 6 leaker Cyberleek is now charging a $165,000 fee for a chance to buy ad space on additional leaks",
-        "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-leaker-cyberleek-is-now-charging-a-usd165-000-fee-for-a-chance-to-buy-ad-space-on-additional-leaks",
-        "date": 1787346036000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
+        "title": "GTA 6 Leaks Put Discord and Microsoft Under Federal Subpoena",
+        "link": "https://www.dualshockers.com/gta-6-leaks-put-discord-and-microsoft-under-federal-subpoena",
+        "date": 1787328541000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      },
+      {
+        "title": "NY Court Approves Take-Two Subpoenas Microsoft and Discord Over GTA 6 Leaks",
+        "link": "https://insider-gaming.com/take-two-subpoenas-microsoft-discord-gta-6-leaks",
+        "date": 1787362326000,
+        "domain": "insider-gaming.com",
+        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -87,7 +68,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.568,
+    "hotScore": 0.566,
     "groupMembers": [
       {
         "title": "Take-Two's legal action to find GTA 6 leaker begins, as it subpoenas Microsoft and Discord for any data \"sufficient to identify the users person\"",
@@ -106,7 +87,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.853,
+    "hotScore": 0.849,
     "groupMembers": [
       {
         "title": "Blood of the Dawnwalker console footage confirms no 60fps mode at launch",
@@ -133,7 +114,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.853,
+    "hotScore": 0.849,
     "groupMembers": [
       {
         "title": "Tails of Iron II: Whiskers of Winter free expansion ‘Blood & Brine’ now available",
@@ -160,16 +141,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.284
-  },
-  {
-    "title": "Dark Souls creator Hidetaka Miyazaki has good news for anyone worried about PvP in The Duskbloods: he sucks at it too, and you don't \"have to be great at PvP in order to win\"",
-    "link": "https://www.gamesradar.com/games/action/dark-souls-creator-hidetaka-miyazaki-has-good-news-for-anyone-worried-about-pvp-in-the-duskbloods-he-sucks-at-it-too-and-you-dont-have-to-be-great-at-pvp-in-order-to-win",
-    "date": 1787324400000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "After over 1,000 hours in Cyberpunk 2077, I'm convinced the Nomads are the best group and lifepath in the RPG",
@@ -178,7 +150,16 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
+  },
+  {
+    "title": "Dark Souls creator Hidetaka Miyazaki has good news for anyone worried about PvP in The Duskbloods: he sucks at it too, and you don't \"have to be great at PvP in order to win\"",
+    "link": "https://www.gamesradar.com/games/action/dark-souls-creator-hidetaka-miyazaki-has-good-news-for-anyone-worried-about-pvp-in-the-duskbloods-he-sucks-at-it-too-and-you-dont-have-to-be-great-at-pvp-in-order-to-win",
+    "date": 1787324400000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.283
   },
   {
     "title": "My Baldur's Gate 3 no weapons run descended into chaos when Lae'zel got kidnapped, so I reshaped my party around it",
@@ -187,7 +168,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "Japanese creepy-cute Gothic exploration adventure Tea Party at the Extinction Museum coming to Steam in 2026",
@@ -196,7 +177,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "Marvel’s Wolverine goes gold",
@@ -205,7 +186,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.569,
+    "hotScore": 0.566,
     "groupMembers": [
       {
         "title": "Marvel's Wolverine: 6 Comics to Read to Prepare for the Game",
@@ -224,7 +205,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "GTA 6 Leaker Continues Taunting With Fresh Footage Of Hyper-Realistic Streets",
@@ -233,7 +214,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.285
+    "hotScore": 0.283
   },
   {
     "title": "Nintendo wipes out 400 more Switch emulator repositories on GitHub as it continues its fight on piracy",
@@ -242,7 +223,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.571,
+    "hotScore": 0.569,
     "groupMembers": [
       {
         "title": "Nintendo Wipes Out Hundreds Of Switch Emulator Repositories",
@@ -261,7 +242,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.286
+    "hotScore": 0.285
   },
   {
     "title": "All known songs in GTA VI",
@@ -270,7 +251,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.287
+    "hotScore": 0.286
   },
   {
     "title": "Dark Souls fans got this one right: new Soulslike where you play as a Sif-coded dog with a sword is now and forever \"Bark Souls\"",
@@ -279,7 +260,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.575,
+    "hotScore": 0.572,
     "groupMembers": [
       {
         "title": "In This Soulslike, The Dog Will Pet You Back…With A Sword",
@@ -298,7 +279,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.291
   },
   {
     "title": "AI-Generated Image Found In Spider-Man: Brand New Day Art Book As Film Crosses $2 Billion At The Box Office",
@@ -307,7 +288,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.291
   },
   {
     "title": "Yes, the GTA 6 leaked footage was probably running on PC, and no, that doesn't tell us a whole lot about the eventual release",
@@ -316,7 +297,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.294
+    "hotScore": 0.292
   },
   {
     "title": "Thanks to this Final Fantasy 14 roleplayer survey, I know exactly how basic my Warrior of Light's backstory is",
@@ -325,7 +306,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.296
+    "hotScore": 0.294
   },
   {
     "title": "GTA 6 leaker hunt is on, as Rockstar owners Take-Two file subpoenas asking Microsoft and Discord for records",
@@ -334,7 +315,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.887,
+    "hotScore": 0.589,
     "groupMembers": [
       {
         "title": "Take-Two kicks off GTA 6 leaker hunt with subpoenas demanding records from Microsoft and Discord",
@@ -342,14 +323,6 @@
         "date": 1787328658000,
         "domain": "pcgamer.com",
         "sourceName": "PC Gamer",
-        "isTranslated": false
-      },
-      {
-        "title": "NY Court Approves Take-Two Subpoenas Microsoft and Discord Over GTA 6 Leaks",
-        "link": "https://insider-gaming.com/take-two-subpoenas-microsoft-discord-gta-6-leaks",
-        "date": 1787362326000,
-        "domain": "insider-gaming.com",
-        "sourceName": "Insider Gaming",
         "isTranslated": false
       }
     ]
@@ -361,7 +334,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.296
+    "hotScore": 0.295
   },
   {
     "title": "Dave Bautista is confirmed as the new Kratos for Amazon's God of War series",
@@ -370,7 +343,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.297
+    "hotScore": 0.296
   },
   {
     "title": "Will The Duskbloods be on PC and consoles?",
@@ -379,7 +352,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.296
   },
   {
     "title": "Metal Gear Solid 4's most famous joke gets updated in Master Collection Vol. 2, with Konami even bringing back the original voice actor",
@@ -388,7 +361,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.299
+    "hotScore": 0.298
   },
   {
     "title": "Even more projekt z gameplay leaked this time showing the Free-roam mode!",
@@ -397,7 +370,17 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.299
+    "hotScore": 0.596,
+    "groupMembers": [
+      {
+        "title": "GTA 6 Gameplay Leaked For The Seventh Time This Week",
+        "link": "https://www.thegamer.com/gta-6-seventh-leak-released-website-offline-cyberleek-still-active",
+        "date": 1787399395000,
+        "domain": "thegamer.com",
+        "sourceName": "TheGamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "13 Movie, Game, and TV Trailers You Might Have Missed This Week",
@@ -406,7 +389,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.3
+    "hotScore": 0.298
   },
   {
     "title": "Pre-order Call of Duty: Modern Warfare 4 and Play the Beta Today",
@@ -415,7 +398,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.6,
+    "hotScore": 0.597,
     "groupMembers": [
       {
         "title": "Call of Duty: Modern Warfare 4 on Switch 2 actually looks to be running and playing really well",
@@ -434,7 +417,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.3
+    "hotScore": 0.298
   },
   {
     "title": "Next Major PS5 Exclusive Is Ready to Release, Wolverine Goes Gold",
@@ -443,7 +426,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.3
+    "hotScore": 0.298
   },
   {
     "title": "I've fallen for GTA RP, and it shows what the future of GTA 6 Online could be",
@@ -452,7 +435,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.3
+    "hotScore": 0.298
   },
   {
     "title": "#392: Cheers",
@@ -461,7 +444,7 @@
     "domain": "newsletter.hitpoints.co",
     "sourceName": "Hit Points",
     "isTranslated": false,
-    "hotScore": 0.3
+    "hotScore": 0.299
   },
   {
     "title": "Shroom and Gloom launches in Early Access on September 10",
@@ -470,7 +453,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.301
+    "hotScore": 0.3
   },
   {
     "title": "New Call of Duty: Black Ops 1 and 2 PS5 update turns the ports into Modern Warfare 4 ads",
@@ -479,7 +462,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.302
+    "hotScore": 0.3
   },
   {
     "title": "Lone game dev builds an explorable cyberpunk city almost entirely out of ASCII characters",
@@ -488,7 +471,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.304
+    "hotScore": 0.303
   },
   {
     "title": "Marvel Tokon debuts with less than 3,000 physical copies sold in Japan, well under Arc Systems' Guilty Gear and BlazBlue fighters",
@@ -497,7 +480,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.304
+    "hotScore": 0.303
   },
   {
     "title": "11-year-old loses over 1 million baht after falling for rare Pokemon card scam",
@@ -506,7 +489,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.305
+    "hotScore": 0.304
   },
   {
     "title": "YouTuber Named in Take-Two GTA 6 Leaker Subpoena Insists He Did Nothing Wrong",
@@ -515,7 +498,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.306
   },
   {
     "title": "The Blood Of Dawnwalker Has Two Performance Modes On Xbox Series X, But No 60FPS",
@@ -524,7 +507,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.306
   },
   {
     "title": "Marvel's Wolverine has finally \"gone gold\" after a 5-year wait tarnished by leaks, Insomniac confirms ahead of release next month",
@@ -533,7 +516,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.307
   },
   {
     "title": "Intergalactic: The Heretic Prophet Cast Expands With Uncharted, The Last of Us Veteran",
@@ -542,7 +525,17 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.31
+    "hotScore": 0.618,
+    "groupMembers": [
+      {
+        "title": "Intergalactic: The Heretic Prophet Adds Metal Gear Solid and Uncharted Legend to Cast",
+        "link": "https://www.dualshockers.com/intergalactic-the-heretic-prophet-adds-metal-gear-solid-and-uncharted-legend-to-cast",
+        "date": 1787341955000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Baldur's Gate 3 mod adds 6-hour campaign all about Astarion, featuring new companions, 4 different endings, and \"a kitty that potentially accepts scritches\"",
@@ -551,7 +544,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.311
+    "hotScore": 0.31
   },
   {
     "title": "Is The Duskbloods multiplayer and PvP only?",
@@ -560,7 +553,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.311
+    "hotScore": 0.31
   },
   {
     "title": "Compulsion Games Is Now Officially An Ex-Xbox Studio",
@@ -569,25 +562,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.312
-  },
-  {
-    "title": "Microsoft and Discord subpoenaed over GTA VI gameplay leaks",
-    "link": "https://www.theverge.com/games/983323/grand-theft-auto-vi-gta-leaks-microsoft-discord-subpoenaed",
-    "date": 1787331176000,
-    "domain": "theverge.com",
-    "sourceName": "The Verge",
-    "isTranslated": false,
-    "hotScore": 0.314
-  },
-  {
-    "title": "Don't tell Nintendo, but I turned GTA 5 into Pokémon Go using a mod",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/dont-tell-nintendo-but-i-turned-gta-5-into-pokemon-go-using-a-mod",
-    "date": 1787331600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.316
+    "hotScore": 0.311
   },
   {
     "title": "Sandustry is the first factory simulation game I've played that gets heaps right",
@@ -596,7 +571,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.316
+    "hotScore": 0.315
   },
   {
     "title": "Dragon Quest Monsters: The Withered World Supporting Characters and Waterwing Can Shown",
@@ -605,7 +580,16 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.316
+    "hotScore": 0.315
+  },
+  {
+    "title": "Don't tell Nintendo, but I turned GTA 5 into Pokémon Go using a mod",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/dont-tell-nintendo-but-i-turned-gta-5-into-pokemon-go-using-a-mod",
+    "date": 1787331600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 0.315
   },
   {
     "title": "Share of the Week: Katana",
@@ -614,7 +598,7 @@
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 0.316
+    "hotScore": 0.315
   },
   {
     "title": "Rizz Dungeon: Skeleton Key to My Heart delayed to 2027",
@@ -623,7 +607,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.635,
+    "hotScore": 0.632,
     "groupMembers": [
       {
         "title": "The release of the popular monster girl romance RPG \"Rizz Dungeon: Skeleton Key to My Heart\" has been postponed to 2027. “We now have enough development funds” to postpone the positive outlook, and we will polish it up without compromising.",
@@ -642,7 +626,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.318,
+    "hotScore": 0.317,
     "groupMembers": [
       {
         "title": "All FC 26 3 of 20 SBC Rewind Player Pick rewards",
@@ -661,7 +645,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.319
+    "hotScore": 0.318
   },
   {
     "title": "Samsung has raised the price of 8nm wafers by 10%, per Reuters sources (this node is used for the T239 SoC found in the Nintendo Switch 2)",
@@ -670,7 +654,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.32
+    "hotScore": 0.319
   },
   {
     "title": "Arc Raiders is shutting down Expeditions \"until early 2027\" to make \"major improvements\" after mountains of feedback",
@@ -679,7 +663,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.642,
+    "hotScore": 0.639,
     "groupMembers": [
       {
         "title": "Arc Raiders is halting Expeditions until 2027 so it can make 'major improvements' to the system",
@@ -698,7 +682,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.323
+    "hotScore": 0.321
   },
   {
     "title": "All Modern Warfare 4 Mastery camos – Multiplayer, DMZ, and Warzone",
@@ -707,7 +691,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.971,
+    "hotScore": 0.966,
     "groupMembers": [
       {
         "title": "Call of Duty: Modern Warfare 4 – Inside the Maps and Movement of Multiplayer",
@@ -742,7 +726,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.324
+    "hotScore": 0.322
   },
   {
     "title": "Your Mortal Shell 2 Weapons Don’t Have To Get You Killed",
@@ -751,7 +735,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.323
   },
   {
     "title": "The best ways to farm Gloom and Gold in Mortal Shell 2",
@@ -760,7 +744,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.324
   },
   {
     "title": "Best players for FC 26 Endgame Echoes Evolution",
@@ -769,7 +753,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.326,
+    "hotScore": 0.324,
     "groupMembers": [
       {
         "title": "Best players for FC 26 Eagle Eyed Evolution",
@@ -788,7 +772,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.328
+    "hotScore": 0.326
   },
   {
     "title": "Naughty Dog’s Intergalactic Adds An Actor From The Last Of Us And Uncharted",
@@ -797,7 +781,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.33
+    "hotScore": 0.329
   },
   {
     "title": "FromSoftware shutters The Duskbloods’ first public playtest after just a few hours due to ‘server issues’",
@@ -806,7 +790,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1.0,
+    "hotScore": 0.996,
     "groupMembers": [
       {
         "title": "FromSoftware knows what it's doing with The Duskbloods character Zork, the internet's new obsession: \"I have developed a powerful, almost maternal affection\"",
@@ -833,7 +817,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.333
+    "hotScore": 0.332
   },
   {
     "title": "Chainsmoker Cat Yanineko Figma Figure Arrives After Anime",
@@ -842,7 +826,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.334
+    "hotScore": 0.332
   },
   {
     "title": "Kingdom Hearts 4 Director Tetsuya Nomura Sends Fans Spiraling With World Ends With You T-Shirt",
@@ -851,7 +835,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.334
+    "hotScore": 0.332
   },
   {
     "title": "Modern Warfare 4 Open Beta: Everything You Need to Know",
@@ -860,7 +844,17 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.334
+    "hotScore": 0.665,
+    "groupMembers": [
+      {
+        "title": "Everything You Need to Know About the GTA 6 Leaks",
+        "link": "https://www.dualshockers.com/everything-you-need-to-know-about-the-gta-6-leaks",
+        "date": 1787337276000,
+        "domain": "dualshockers.com",
+        "sourceName": "DualShockers",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Cyberpunk: Edgerunners 2 locks in October premiere date",
@@ -869,7 +863,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.335
+    "hotScore": 0.333
   },
   {
     "title": "Has Anyone Seen My Son Lifeweaver Overwatch?",
@@ -878,7 +872,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.335
+    "hotScore": 0.333
   },
   {
     "title": "The Duskbloods Preview | The Game Informer Show",
@@ -887,7 +881,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.336
+    "hotScore": 0.334
   },
   {
     "title": "Double Fine Is Bringing Back Its Beloved Game Jam As A Kickstarter So Fans Can Vote On Its Next Project",
@@ -896,7 +890,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.339
+    "hotScore": 0.338
   },
   {
     "title": "Indecently cool FPS platformer Cicadamata\" is out now - please get yourself down that rabbit hole",
@@ -904,6 +898,15 @@
     "date": 1787337328000,
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
+    "isTranslated": false,
+    "hotScore": 0.343
+  },
+  {
+    "title": "Baldur's Gate 3's Tadpole Powers Are Coming To D&D",
+    "link": "https://www.dualshockers.com/baldurs-gate-3-tadpole-powers-dungeons-dragons",
+    "date": 1787337632000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
     "isTranslated": false,
     "hotScore": 0.344
   },
@@ -914,7 +917,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.346
+    "hotScore": 0.344
   },
   {
     "title": "Pokemon Gold and Silver keep getting referenced by official accounts, and I'm willing myself to believe the classic DS remakes are coming to Switch",
@@ -923,7 +926,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.349
+    "hotScore": 0.348
   },
   {
     "title": "Want a Gears of War Lancer Replica? You Can Preorder One Now",
@@ -932,7 +935,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.35
+    "hotScore": 0.348
   },
   {
     "title": "Jason Schreier: Rockstar has not yet figured out who was behind this week's widespread Grand Theft Auto VI leaks, nor how it happened, sources say. No plans to move next week's Netflix premiere. Inside the company: frustration, exhaustion, anger.",
@@ -941,7 +944,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.35
+    "hotScore": 0.348
   },
   {
     "title": "Psychonauts Dev Now Owns All Its Games Made Under Xbox And Their Publishing Rights: ‘Buying Any Of Our Games Helps Support The Studio’",
@@ -950,7 +953,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 1.053,
+    "hotScore": 1.048,
     "groupMembers": [
       {
         "title": "Double Fine confirms it owns all its games' IP and publishing rights after Xbox split",
@@ -977,7 +980,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.35
   },
   {
     "title": "Here's What The New Stalker 2.0 Update Looks Like On Xbox Series X|S",
@@ -986,7 +989,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.351
   },
   {
     "title": "CoD: MW4 DLC Honors Real-Life Medal Of Honor Recipient Who Lost His Eye And Teeth In Grenade Blast",
@@ -995,7 +998,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.353
+    "hotScore": 0.352
   },
   {
     "title": "Will Big Walk’s 1m+ sales usher in a ‘co-op only’ game era?",
@@ -1004,7 +1007,7 @@
     "domain": "newsletter.gamediscover.co",
     "sourceName": "GameDiscoverCo",
     "isTranslated": false,
-    "hotScore": 0.357
+    "hotScore": 0.356
   },
   {
     "title": "Roblox YouTuber MeganPlays flooded with donations after best friend apologizes for affair with husband",
@@ -1013,7 +1016,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.358
+    "hotScore": 0.356
   },
   {
     "title": "Rockstar Games Reportedly Remains In The Dark About Who’s Leaking GTA 6 But Still Moving Ahead With Netflix Reveal",
@@ -1022,7 +1025,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.358
+    "hotScore": 0.357
   },
   {
     "title": "ARC Raiders players just can’t catch a break as Expeditions are delayed into 2027",
@@ -1031,7 +1034,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.358
+    "hotScore": 0.357
   },
   {
     "title": "GTA 6 Leaker Has Not Been Identified Yet – Report",
@@ -1040,7 +1043,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.361
+    "hotScore": 0.359
   },
   {
     "title": "We Aren’t Talking Enough About All That Hayden Panettiere Brought To Video Games",
@@ -1049,7 +1052,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.364
+    "hotScore": 0.363
   },
   {
     "title": "Cyberleek's GTA 6 leaks won't change Rockstar's Netflix reveal plans, report says",
@@ -1058,7 +1061,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.73,
+    "hotScore": 0.726,
     "groupMembers": [
       {
         "title": "Rockstar reportedly furious by GTA 6 leaks but won’t change Netflix premiere date",
@@ -1077,7 +1080,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.366
+    "hotScore": 0.364
   },
   {
     "title": "Coco Opens Kingdom Hearts 4 To These Potential Disney Worlds",
@@ -1086,7 +1089,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.367
+    "hotScore": 0.365
   },
   {
     "title": "2 Steam top sellers, 2 simultaneous betas, 2 very different shooters: It's Wardogs & Modern Warfare weekend",
@@ -1095,7 +1098,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.37
+    "hotScore": 0.368
   },
   {
     "title": "New NieR: Automata Pop Up Parade Figures Are of 2B and 9S",
@@ -1104,7 +1107,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.371
+    "hotScore": 0.369
   },
   {
     "title": "People With Eyes Accuse System 3 Devs Of Using Gen AI On Its James Pond Reboot",
@@ -1113,7 +1116,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.371
+    "hotScore": 0.369
   },
   {
     "title": "Call Of Duty’s Most Controversial Item Is Back In Modern Warfare 4, But With Some Major Changes",
@@ -1122,7 +1125,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.372
+    "hotScore": 0.37
   },
   {
     "title": "Jason Schreier: Rockstar Introduced Strict Security Measures in 2024 Following GTA 6 Leak",
@@ -1131,7 +1134,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.373
+    "hotScore": 0.371
   },
   {
     "title": "more information about the ps1 lego set",
@@ -1140,7 +1143,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.38,
+    "hotScore": 0.379,
     "groupMembers": [
       {
         "title": "Projekt z leaker has possibly revealed information about reanimals next 2 dlcs (this is the LN 1 and 2 devs new game it has 2 dlcs coming in 2026 and 2027",
@@ -1153,13 +1156,22 @@
     ]
   },
   {
+    "title": "Saddest Boss Battles Nobody Wants to Fight",
+    "link": "https://www.dualshockers.com/saddest-boss-battles-nobody-wants-to-fight",
+    "date": 1787344211000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 0.379
+  },
+  {
     "title": "Free from Xbox, Double Fine returns to Kickstarter to ask fans what its next \"small\" game should be",
     "link": "https://www.gamesradar.com/games/free-from-xbox-double-fine-returns-to-kickstarter-to-ask-fans-what-its-next-small-game-should-be",
     "date": 1787344216000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.381
+    "hotScore": 0.379
   },
   {
     "title": "Pokémon’s Battle System May Not Be Turn-Based For Much Longer",
@@ -1168,7 +1180,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.381
+    "hotScore": 0.38
   },
   {
     "title": "Racing Miku 2026 Figma Figure Will Follow Nendoroid",
@@ -1177,7 +1189,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.391
+    "hotScore": 0.39
   },
   {
     "title": "First Mortal Shell 2 balance patch stacks the deck for players: refunds for anyone who wasted Glimpses, bosses nerfed, and gold drops buffed massively",
@@ -1186,7 +1198,26 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.392
+    "hotScore": 0.39
+  },
+  {
+    "title": "GTA 6 leaker Cyberleek is now charging a $165,000 fee for a chance to buy ad space on additional leaks",
+    "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-leaker-cyberleek-is-now-charging-a-usd165-000-fee-for-a-chance-to-buy-ad-space-on-additional-leaks",
+    "date": 1787346036000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.78,
+    "groupMembers": [
+      {
+        "title": "The GTA 6 leaker is selling ads now",
+        "link": "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-leaker-is-selling-ads-now",
+        "date": 1787350579000,
+        "domain": "pcgamer.com",
+        "sourceName": "PC Gamer",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Clanker Runs Full Speed Into A Wall And Then Snaps In Half After Stumbling Backwards Like A Looney Toons Character",
@@ -1195,7 +1226,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.392
+    "hotScore": 0.39
   },
   {
     "title": "The newly independent Psychonauts dev now earns all the revenue when you buy games it made under Xbox: 'Buying any of our games helps support the studio'",
@@ -1204,7 +1235,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.393
+    "hotScore": 0.391
   },
   {
     "title": "007 First Light reaches 4 million units sold in first three months",
@@ -1213,7 +1244,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.394
+    "hotScore": 0.392
   },
   {
     "title": "Someone Cleared All 1,000 Levels Of Splatoon Raiders’ ‘Bottomless Buffet’ And Got Nothing For It",
@@ -1222,7 +1253,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.402
+    "hotScore": 0.4
   },
   {
     "title": "Xbox CTO Issues Brief Statement On GTA 6 Leaks",
@@ -1231,7 +1262,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.403
+    "hotScore": 0.401
   },
   {
     "title": "GTA 6 U.S. Army Deal Has Already Convinced at Least 20 Soldiers to Reenlist",
@@ -1240,7 +1271,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.406
+    "hotScore": 0.404
   },
   {
     "title": "Modern gamers aren’t ready for Metal Gear Solid 4’s return",
@@ -1249,7 +1280,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.412
+    "hotScore": 0.41
   },
   {
     "title": "Robot Olympics runner bravely sprints headfirst into wall and collapses in shower of sparks, is not a metaphor",
@@ -1258,7 +1289,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.416
+    "hotScore": 0.414
   },
   {
     "title": "HoverAir’s transforming modular drone has already been halted in the US",
@@ -1267,7 +1298,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 0.418
+    "hotScore": 0.416
   },
   {
     "title": "GTA VI’s week of leaks",
@@ -1276,7 +1307,7 @@
     "domain": "gamefile.news",
     "sourceName": "Game File",
     "isTranslated": false,
-    "hotScore": 0.854,
+    "hotScore": 0.851,
     "groupMembers": [
       {
         "title": "Is this the end of the GTA 6 leaks? Take-Two's legal crusade appears to shut down the hubs behind them",
@@ -1295,7 +1326,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.435
+    "hotScore": 0.433
   },
   {
     "title": "\"IDOLiSH7 VISIBLIVE TOUR \"4WARD JOURNEY\"\" has begun. Posting a report and photos of the Makuhari performance where 16 people gathered",
@@ -1304,7 +1335,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.435
+    "hotScore": 0.433
   },
   {
     "title": "Rockstar employees frustrated by GTA 6 leaks, though they may have only whet appetites for the reveal",
@@ -1313,7 +1344,34 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.45
+    "hotScore": 0.448
+  },
+  {
+    "title": "ARC Raiders Puts Expeditions on Hold Until Next Year",
+    "link": "https://www.dualshockers.com/arc-raiders-expeditions-hold",
+    "date": 1787355711000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 1.35,
+    "groupMembers": [
+      {
+        "title": "'Hoping for a Huge October Surprise, But Not Holding My Breath' — Arc Raiders Players Torn After Embark Delays Future Expeditions Until Early 2027",
+        "link": "https://www.ign.com/articles/hoping-for-a-huge-october-surprise-but-not-holding-my-breath-arc-raiders-players-torn-after-embark-delays-future-expeditions-until-early-2027",
+        "date": 1787357416000,
+        "domain": "ign.com",
+        "sourceName": "IGN Games",
+        "isTranslated": false
+      },
+      {
+        "title": "ARC Raiders Is Pausing Expeditions Until 2027",
+        "link": "https://gamerant.com/arc-raiders-no-more-expeditions-until-2027",
+        "date": 1787402902000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Still more GTA 6 details from the latest leaked video: traffic cameras, car trackers, and drivers that put up a fight",
@@ -1322,7 +1380,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.452
+    "hotScore": 0.45
   },
   {
     "title": "Xbox is \"working closely\" with GTA 6 makers Take-Two and Rockstar following leaks, tech chief says, \"to support efforts to protect creative works\"",
@@ -1331,34 +1389,34 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.456
+    "hotScore": 0.454
   },
   {
-    "title": "Nuntius Games、トップダウンアクションシューティング『Ghetto Zombies: Graffiti Squad』を8月27日に発売",
+    "title": "'Pokémon' Free August 2026 DLC Confirmed for Pokémon Worlds",
+    "link": "https://www.polygon.com/pokemon-worlds-twitch-drops-how-to-get-tcg-pikachu-card-astronaut",
+    "date": 1787356813000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.457
+  },
+  {
+    "title": "Nuntius Games releases top-down action shooter 'Ghetto Zombies: Graffiti Squad' on August 27th",
     "link": "https://gamebiz.jp/news/431528",
     "date": 1787357040000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.461
+    "hotScore": 0.459
   },
   {
-    "title": "'Hoping for a Huge October Surprise, But Not Holding My Breath' — Arc Raiders Players Torn After Embark Delays Future Expeditions Until Early 2027",
-    "link": "https://www.ign.com/articles/hoping-for-a-huge-october-surprise-but-not-holding-my-breath-arc-raiders-players-torn-after-embark-delays-future-expeditions-until-early-2027",
-    "date": 1787357416000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
-    "isTranslated": false,
-    "hotScore": 0.463
-  },
-  {
-    "title": "Future Friends Games releases mobile version of fantasy roguelike 'Slots & Daggers'",
+    "title": "Future Friends Games、ファンタジー・ローグライク『Slots & Daggers』モバイル版をリリース",
     "link": "https://gamebiz.jp/news/431529",
     "date": 1787358900000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.474
+    "hotScore": 0.472
   },
   {
     "title": "The Sinking City 2 Review",
@@ -1367,26 +1425,25 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.948,
-    "groupMembers": [
-      {
-        "title": "Weekly Steam Plaza No. 167: Lovecraftian survival horror “The Sinking City 2” and action RPG “Mortal Shell II” to be released",
-        "link": "https://www.4gamer.net/games/038/G003821/20260822003",
-        "date": 1787389200000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
-      }
-    ]
+    "hotScore": 0.472
   },
   {
-    "title": "『Vampire Survivors』新DLC「Legacy of the Blood Moon」、8月28日リリースへ。キャラ・武器・ステージどっさり追加、暴走カルト教団の秘密に迫る新たな旅",
+    "title": "\"Vampire Survivors\" new DLC \"Legacy of the Blood Moon\" to be released on August 28th. A new journey to uncover the secrets of a runaway cult with the addition of characters, weapons, and stages.",
     "link": "https://automaton-media.com/articles/newsjp/vampire-survivors-20260822-461930",
     "date": 1787359284000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.476
+    "hotScore": 0.474
+  },
+  {
+    "title": "New Dystopia Unlocked: You Can Now Advertise on GTA 6 Leaked Clips",
+    "link": "https://www.dualshockers.com/new-dystopia-unlocked-you-can-now-advertise-gta-6-leaked-clips",
+    "date": 1787360028000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 0.48
   },
   {
     "title": "[Present] The A prize is MSI's portable game PC \"Claw 8 AI+ A2VM\". We are running a giveaway project where you can win Alienware's ultra wide gaming display etc.",
@@ -1395,7 +1452,16 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.484
+    "hotScore": 0.482
+  },
+  {
+    "title": "5 Must-Play New Steam Games to Try This Weekend",
+    "link": "https://www.polygon.com/new-steam-games-august-21-2026",
+    "date": 1787360415000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.482
   },
   {
     "title": "[What day is it today? ] Aniplex releases \"Magia Record Puella Magi Madoka Magica Gaiden\"...Developed by f4samurai (August 22, 2017)",
@@ -1404,16 +1470,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.491
+    "hotScore": 0.489
   },
   {
-    "title": "Ichiken releases line defense RPG “Yurumon Advance Battle” for iOS",
+    "title": "いちけん、iOS向けラインディフェンスRPG『ゆるモン進軍バトル』をリリース",
     "link": "https://gamebiz.jp/news/431530",
     "date": 1787361660000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.494
+    "hotScore": 0.491
   },
   {
     "title": "Nozomu Games releases narrative card game 'Burn With Me' on Steam on October 12th",
@@ -1422,7 +1488,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.506
+    "hotScore": 0.504
   },
   {
     "title": "Steam's free mysterious crime investigation game \"No Results Found\" is very popular with \"overwhelmingly positive reviews\". A thorough “search” to uncover the truth about the new religion that caused the “227 deaths” incident",
@@ -1431,7 +1497,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.513
+    "hotScore": 0.511
   },
   {
     "title": "[Weekly Bushiroad] Half Anniversary event at \"Nensaba\", \"Hour Notes\" pre-registration number of 1.2 million people globally, etc. (August 15th to 21st, 2026)",
@@ -1440,16 +1506,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.522
+    "hotScore": 0.52
   },
   {
-    "title": "TV anime \"Fate/strange Fake\", new series production decided. Key visual and announcement trailer released",
+    "title": "TVアニメ「Fate/strange Fake」，新シリーズ制作決定。キービジュアルと告知トレイラー公開",
     "link": "https://www.4gamer.net/games/266/G026651/20260822001",
     "date": 1787366866000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.533
+    "hotScore": 0.531
   },
   {
     "title": "Dream Operator releases Tukoni: Forest Keepers, a point-and-click puzzle adventure with hand-drawn art style",
@@ -1458,7 +1524,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.534
+    "hotScore": 0.532
   },
   {
     "title": "Potential selection screen leaked of Dead or alive 7",
@@ -1467,16 +1533,16 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.536
+    "hotScore": 0.534
   },
   {
-    "title": "I watched the movie “Odyssey” first!  Thinking about what “The Story of a Difficult Return Home” is trying to convey, using games such as “RDR2” and “HADES”",
+    "title": "映画「オデュッセイア」を一足先に観た！  “困難な帰路の物語”は何を伝えようとするのか，「RDR2」「HADES」などのゲームを交えて考える",
     "link": "https://www.4gamer.net/games/991/G999102/20260821024",
     "date": 1787367600000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.539
+    "hotScore": 0.536
   },
   {
     "title": "I read director Hideo Kojima's book. What kind of game am I made of? An e-sports caster thought about it",
@@ -1485,16 +1551,16 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.542
+    "hotScore": 0.539
   },
   {
-    "title": "Miquta Studios、一人称視点の心理的サバイバルホラーゲーム『Project Night』のSteamストアページを公開",
+    "title": "Miquta Studios releases Steam store page for first-person psychological survival horror game “Project Night”",
     "link": "https://gamebiz.jp/news/431533",
     "date": 1787368680000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.548
+    "hotScore": 0.545
   },
   {
     "title": "[Weekly Cygames] \"Shadow WB\" Latin American version decided to be distributed, \"5.5th anniversary! Congratulations CP from DMM GAMES\" etc. in \"Uma Musume\" (August 15th to 21st, 2016)",
@@ -1503,16 +1569,16 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.554
+    "hotScore": 0.551
   },
   {
-    "title": "\"The Seven Deadly Sins: Origin\" will finally have \"Ban\" in the next major update, and the Seven Deadly Sins will be all set. 0.5th anniversary update with lots of additions including new solo content",
+    "title": "『七つの大罪：Origin』、次回大型アプデでついに「バン」登場で＜七つの大罪＞そろい踏み。新ソロ向けコンテンツなど、追加どっさりの0.5周年記念アプデ",
     "link": "https://automaton-media.com/articles/newsjp/20260822-461944",
     "date": 1787369641000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.555
+    "hotScore": 0.553
   },
   {
     "title": "Introducing the features, appeal, prices, and popular works of the manga distribution service \"TOPTOON\". Rankings are also updated weekly.",
@@ -1521,7 +1587,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.564
+    "hotScore": 0.562
   },
   {
     "title": "Call Of Duty: Modern Warfare 4 Switch 2 Partner Developer Revealed By Activision",
@@ -1530,43 +1596,43 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.568
+    "hotScore": 0.566
   },
   {
-    "title": "DRAGO、酒場経営ｘ乱闘シミュレーションゲーム『Roadhouse Simulator』を9月21日に正式リリース",
+    "title": "DRAGO officially releases bar management x brawl simulation game “Roadhouse Simulator” on September 21st",
     "link": "https://gamebiz.jp/news/431534",
     "date": 1787371740000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.573
+    "hotScore": 0.57
   },
   {
-    "title": "\"Epic Seven\" Steam version will be released in 2026 and new servers will be opened. Four events will be held, including a wishlist addition event.",
+    "title": "「エピックセブン」，Steam版を2026年内にリリース＆新規サーバーも開設決定。ウィッシュリスト追加イベントなど，4つのイベントを開催",
     "link": "https://www.4gamer.net/games/035/G103540/20260822002",
     "date": 1787373899000,
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.592
+    "hotScore": 0.589
   },
   {
-    "title": "Enthariel Games releases Steam page for The Sky Project: Land of Noris, a monster-collecting RPG with hand-drawn art style",
+    "title": "Enthariel Games、手描きのアートスタイルを採用したモンスター収集RPG『The Sky Project: Land of Noris』のSteamページを公開",
     "link": "https://gamebiz.jp/news/431535",
     "date": 1787373900000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.592
+    "hotScore": 0.589
   },
   {
-    "title": "``Gladio Mori'', a super free sword fighting action game with up to 4 players, will be officially released on September 16th. Create and battle unconventional, bizarre free-motion warriors",
+    "title": "最大4人対戦・超自由剣戟決闘アクション『Gladio Mori』9月16日正式リリースへ。常識にとらわれない、奇怪自由モーション戦士を作ってバトル",
     "link": "https://automaton-media.com/articles/newsjp/20260822-461951",
     "date": 1787375705000,
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.608
+    "hotScore": 0.605
   },
   {
     "title": "Access ranking from August 15th to 21st, 2016...SNK and Palworld TCG's shortage information and financial results information are at the top",
@@ -1575,7 +1641,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.625
+    "hotScore": 0.622
   },
   {
     "title": "Round Up: The First Impressions Of Call Of Duty: Modern Warfare 4 Switch 2 Are In",
@@ -1584,7 +1650,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.632
+    "hotScore": 0.63
   },
   {
     "title": "Steamにおける“売れるジャンル”、ずっとサンドボックスが強い説。「10万本分」のデータから見る、Steamでの売れ筋分析",
@@ -1593,7 +1659,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.641
+    "hotScore": 0.638
   },
   {
     "title": "What we've been playing - \"We're in danger of making this a regular thing\"",
@@ -1602,7 +1668,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.667
+    "hotScore": 0.664
   },
   {
     "title": "What are we all playing this weekend?",
@@ -1611,22 +1677,22 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 2.668,
+    "hotScore": 2.656,
     "groupMembers": [
-      {
-        "title": "Talking Point: What Are You Playing This Weekend? - Issue 647",
-        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-647",
-        "date": 1787391000000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
-      },
       {
         "title": "Talking Point: What Are You Playing This Weekend? (22nd August)",
         "link": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-22nd-august",
         "date": 1787389200000,
         "domain": "nintendolife.com",
         "sourceName": "Nintendo Life",
+        "isTranslated": false
+      },
+      {
+        "title": "Talking Point: What Are You Playing This Weekend? - Issue 647",
+        "link": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-647",
+        "date": 1787391000000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
         "isTranslated": false
       },
       {
@@ -1646,7 +1712,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.668
+    "hotScore": 0.665
   },
   {
     "title": "NYT Connections Hints Today (#1168)—Answers for Saturday, August 22",
@@ -1655,7 +1721,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.677
+    "hotScore": 0.674
   },
   {
     "title": "Escape from Tarkov’s Nikita Talks About ‘Lowering The Entry Barrier’ To The Game",
@@ -1664,7 +1730,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.687
+    "hotScore": 0.684
   },
   {
     "title": "WARDOGS Playtest Soars on Steam and Twitch, Challenging Modern Warfare 4 Beta",
@@ -1673,7 +1739,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.696
+    "hotScore": 0.693
   },
   {
     "title": "Infinity Ward Confirms The MW4 Beta Problems It’s Tackling First",
@@ -1682,7 +1748,25 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.702
+    "hotScore": 0.699
+  },
+  {
+    "title": "Nintendo Blurred the Lines Between Handhelds and Consoles Decades Before the Switch",
+    "link": "https://www.polygon.com/super-game-boy-retrospective",
+    "date": 1787385675000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.701
+  },
+  {
+    "title": "Fire Emblem Fortune’s Weave Is Getting Some Serious Competition Next Month",
+    "link": "https://www.polygon.com/trails-in-the-sky-2nd-chapter-release-date-september-rpgs",
+    "date": 1787385675000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.701
   },
   {
     "title": "“FGO” continues to dominate this week with “Holodori” and “Genshin” at bay. Looking back at Google Play (8/15-8/21) sales rankings",
@@ -1691,7 +1775,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.707
+    "hotScore": 0.704
   },
   {
     "title": "PlayStation Blackout Starts Tomorrow, But Are You Taking Part?",
@@ -1700,7 +1784,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.712
+    "hotScore": 0.709
   },
   {
     "title": "\"Mobile Suit Gundam EXVS.2 IB\", new aircraft \"Gundam Ashtalon Hermit Club\" and \"Black Knight Squad Carla\" decided to participate",
@@ -1709,7 +1793,25 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.742
+    "hotScore": 0.739
+  },
+  {
+    "title": "週刊Steam広場 第167号：ラヴクラフトなサバイバルホラー「The Sinking City 2」や，アクションRPG「Mortal Shell II」が発売に",
+    "link": "https://www.4gamer.net/games/038/G003821/20260822003",
+    "date": 1787389200000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 0.739
+  },
+  {
+    "title": "League of Legends Spinoff Cancellation Leaves Players Fuming",
+    "link": "https://www.polygon.com/riot-games-2xko-cancellation-reactions",
+    "date": 1787389215000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.739
   },
   {
     "title": "61 video game things that spark joy",
@@ -1718,16 +1820,16 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.749
+    "hotScore": 0.746
   },
   {
-    "title": "“Apex” has been in the top spot for 15 days in a row, showing its strength despite being stopped. “Wings of the Star” and “NTE” are in the top spot in the second half. Looking back at the Steam (8/15-8/21) sales rankings",
+    "title": "『エーペックス』は連続首位15日でストップも強さ発揮　『星の翼』『NTE』は後半首位に　Steam(8/15～8/21)売上ランキング振り返り",
     "link": "https://gamebiz.jp/news/431488",
     "date": 1787389980000,
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.751
+    "hotScore": 0.747
   },
   {
     "title": "The latest cooperative craze is a physics-based fishing simulator where you can launch your catch into the air and no-scope it with a sniper rifle",
@@ -1736,7 +1838,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.767
+    "hotScore": 0.764
   },
   {
     "title": "Xbox responds after judge grants GTA 6 subpoena request",
@@ -1745,7 +1847,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.8
+    "hotScore": 0.797
   },
   {
     "title": "Double Fine announces fans will be able to vote for its next game, following Xbox split",
@@ -1754,7 +1856,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.802
+    "hotScore": 0.798
   },
   {
     "title": "Dishonored was a last-ditch effort by Arkane Studios after years of fruitless contract work, according to the game's co-creator: 'I think we had four months of money left'",
@@ -1763,7 +1865,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.815
+    "hotScore": 0.811
   },
   {
     "title": "“I didn’t do much” – donk on Destroying Vitality at EWC 2026",
@@ -1772,7 +1874,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.819
+    "hotScore": 0.816
   },
   {
     "title": "Guide: These 26+ PS5 and PS Plus Games Are Coming Out Next Week (24th-30th August)",
@@ -1781,7 +1883,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.651,
+    "hotScore": 1.644,
     "groupMembers": [
       {
         "title": "Feature: These 30+ Games Are Coming To Xbox Next Week (August 24-28)",
@@ -1794,13 +1896,22 @@
     ]
   },
   {
+    "title": "30 Years Ago, One Console and Two Games Changed My Life",
+    "link": "https://www.polygon.com/switchboard-snes-personal-history-super-mario-world-kart",
+    "date": 1787396414000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.822
+  },
+  {
     "title": "DanielRPK: Sonic the Hedgehog 4 Could Involve Time or Multiverse Travel",
     "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vv9ilw/danielrpk_sonic_the_hedgehog_4_could_involve_time",
     "date": 1787396789000,
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.83
+    "hotScore": 0.827
   },
   {
     "title": "Kingdom Hearts modder turns an indie love letter to the JRPG series into an even more blatant Kingdom Hearts-like",
@@ -1809,7 +1920,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.843
+    "hotScore": 0.839
   },
   {
     "title": "Hypercar PT 2. Released (GTA VI)",
@@ -1818,7 +1929,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.851
+    "hotScore": 0.847
   },
   {
     "title": "7th GTA VI Leak Out",
@@ -1827,7 +1938,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.854
+    "hotScore": 0.85
   },
   {
     "title": "Silent Hill: Townfall's new gameplay trailer quietly confirms how long its PS5 exclusivity will last",
@@ -1836,7 +1947,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.865
+    "hotScore": 0.861
   },
   {
     "title": "Grand Theft Auto 6’s Latest Leak Told Me All I Need To Know",
@@ -1845,7 +1956,25 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.871
+    "hotScore": 0.867
+  },
+  {
+    "title": "GTA 6 Leak and Wolverine Rage Are Symptoms of Gaming's Summer of Hate",
+    "link": "https://www.polygon.com/patch-notes-gta-6-leak-wolverine-summer",
+    "date": 1787400015000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.867
+  },
+  {
+    "title": "What Carries Over Between Missions In No More Room In Hell 2?",
+    "link": "https://www.thegamer.com/no-more-room-in-hell-2-progression-system-currency-info",
+    "date": 1787400127000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.869
   },
   {
     "title": "GTA 6 Leaker Posts 7th Gameplay Video, Shows More Cars and The Strip Club",
@@ -1854,7 +1983,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.876
+    "hotScore": 0.872
   },
   {
     "title": "All GTA 6 CYBERLEEK Leaks So Far—Map, Honor System & Gameplay Videos",
@@ -1863,7 +1992,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.877
+    "hotScore": 0.873
   },
   {
     "title": "Parts of The Duskbloods are \"very similar to a lot of RPG elements you might find in a tabletop RPG,\" says FromSoftware boss Hidetaka Miyazaki",
@@ -1872,7 +2001,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.879
+    "hotScore": 0.875
   },
   {
     "title": "I Compiled a Spotify Playlist of All the Music From This Month’s GTA VI Leaks + Some From the 2022 Leaks",
@@ -1881,7 +2010,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.884
+    "hotScore": 0.88
   },
   {
     "title": "Chinese AI Models Gain Ground on Price and Use",
@@ -1890,7 +2019,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.885
+    "hotScore": 0.881
   },
   {
     "title": "GTA 6 Day and Night Cycle lenght has leaked",
@@ -1899,16 +2028,34 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.891
+    "hotScore": 0.887
   },
   {
-    "title": "This mod transforms Doom into a terrifying tactical shooter, and it's partly inspired by another PC gaming classic",
-    "link": "https://www.pcgamer.com/games/fps/this-mod-transforms-doom-into-a-terrifying-tactical-shooter-and-its-partly-inspired-by-another-pc-gaming-classic",
-    "date": 1787403600000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
+    "title": "Grave Seasons Just Got an Encouraging Update",
+    "link": "https://gamerant.com/grave-seasons-release-date-news-update",
+    "date": 1787401812000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.918
+    "hotScore": 0.89
+  },
+  {
+    "title": "Every Game Mode In No More Room In Hell 2, Explained",
+    "link": "https://www.thegamer.com/no-more-room-in-hell-2-survival-objective-modes-explained",
+    "date": 1787401814000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.89
+  },
+  {
+    "title": "Modern Warfare 4 Is Once Again Plagued By AI Slop",
+    "link": "https://www.thegamer.com/call-of-duty-modern-warfare-4-ai-art",
+    "date": 1787403137000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.908
   },
   {
     "title": "ANA Mofusand Pilot and Flight Attendant Plush Feel Like Display Pieces",
@@ -1917,7 +2064,16 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.918
+    "hotScore": 0.914
+  },
+  {
+    "title": "This mod transforms Doom into a terrifying tactical shooter, and it's partly inspired by another PC gaming classic",
+    "link": "https://www.pcgamer.com/games/fps/this-mod-transforms-doom-into-a-terrifying-tactical-shooter-and-its-partly-inspired-by-another-pc-gaming-classic",
+    "date": 1787403600000,
+    "domain": "pcgamer.com",
+    "sourceName": "PC Gamer",
+    "isTranslated": false,
+    "hotScore": 0.914
   },
   {
     "title": "\"They don't make 'em like they used to\": How flash player games defined an era of indie horror",
@@ -1926,7 +2082,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.918
+    "hotScore": 0.914
   },
   {
     "title": "Watching AI Scam Bots Having A Breakdown Is My New Guilty Pleasure",
@@ -1935,7 +2091,25 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.919
+    "hotScore": 0.915
+  },
+  {
+    "title": "The Best New Card From Magic's Hobbit Set Made My Dr. Eggman Deck Unstoppable",
+    "link": "https://www.polygon.com/magic-mtg-hobbit-card-dr-eggman-deck",
+    "date": 1787403615000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.915
+  },
+  {
+    "title": "Best Places To Find CRC Supplies In No More Room In Hell 2",
+    "link": "https://www.thegamer.com/no-more-room-in-hell-2-crc-supply-best-locations",
+    "date": 1787403615000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.915
   },
   {
     "title": "“Uma Musume” will have the long-awaited “skill set” feature added in the September 11th update. Skills can be acquired with just a few taps, making it easier for everyone from beginners to laps.",
@@ -1944,7 +2118,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.92
+    "hotScore": 0.916
   },
   {
     "title": "No Law next trailer´s frame , coming 2027",
@@ -1952,6 +2126,33 @@
     "date": 1787404513000,
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 0.927
+  },
+  {
+    "title": "Pokemon's Combat Will Officially Change In Future Mainline Games",
+    "link": "https://www.thegamer.com/pokemon-devs-confirm-combat-changes-future-games-champions",
+    "date": 1787404514000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.927
+  },
+  {
+    "title": "Here Are The Cheapest Commander Precons To Buy In 2026",
+    "link": "https://www.thegamer.com/magic-the-gathering-cheapest-commander-precons",
+    "date": 1787404764000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.93
+  },
+  {
+    "title": "Rex Infernus Zombie Intel Guide (Black Ops 7 Zombies)",
+    "link": "https://gamerant.com/rex-infernus-zombie-intel-black-ops-7-zombies",
+    "date": 1787404798000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
     "isTranslated": false,
     "hotScore": 0.931
   },
@@ -1962,7 +2163,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.936
+    "hotScore": 0.932
   },
   {
     "title": "50+ Xbox Games Are Reduced By 90-95% In August's Latest Xbox Sales",
@@ -1971,7 +2172,52 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
+    "hotScore": 0.939
+  },
+  {
+    "title": "Dragon Ball Officially Brings Back The Best DBZ Villain",
+    "link": "https://gamerant.com/dragon-ball-z-cell-akira-toriyama-rare-art",
+    "date": 1787405412000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.939
+  },
+  {
+    "title": "All August 2026 Free Games You Can Claim",
+    "link": "https://gamerant.com/free-games-august-2026-steam-epic-amazon-prime-gaming",
+    "date": 1787405413000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.939
+  },
+  {
+    "title": "Where To Catch Dumud Gild In Palworld",
+    "link": "https://www.thegamer.com/palworld-find-catch-dumud-gild-location-guide",
+    "date": 1787405415000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.939
+  },
+  {
+    "title": "GTA 6 Leaker Has Approval From One Of The Most Famous Hacking Groups",
+    "link": "https://www.thegamer.com/gta-6-hacker-anonymous-support",
+    "date": 1787405705000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
     "hotScore": 0.943
+  },
+  {
+    "title": "Double Fine Boss Breaks Silence on 'Brütal Legend 2'",
+    "link": "https://www.polygon.com/brutal-legend-2-not-in-development",
+    "date": 1787406229000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.951
   },
   {
     "title": "Gameplay information from the 7th GTA VI clip",
@@ -1980,7 +2226,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.96
+    "hotScore": 0.956
   },
   {
     "title": "GTA 6 Leaker Takes Fans To A Strip Club In Seventh Gameplay Dump As Netflix Tries To Act Normal About The Whole Thing",
@@ -1989,7 +2235,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.965
+    "hotScore": 0.96
   },
   {
     "title": "GTA 6 leaks persist despite Take-Two taking action, and the hacker's now dangling strip club footage in front of Rockstar",
@@ -1998,7 +2244,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.969
+    "hotScore": 0.964
   },
   {
     "title": "Star Wars Galactic Racer Exclusive Multiplayer Overview Trailer",
@@ -2007,7 +2253,25 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.969
+    "hotScore": 0.964
+  },
+  {
+    "title": "6 Hugely Popular Video Games We'd Love to See in Fortnite's New Season",
+    "link": "https://www.polygon.com/fortnite-chapter-7-season-4-next-video-games",
+    "date": 1787407214000,
+    "domain": "polygon.com",
+    "sourceName": "Polygon",
+    "isTranslated": false,
+    "hotScore": 0.965
+  },
+  {
+    "title": "How Does Infection Work In No More Room In Hell 2",
+    "link": "https://www.thegamer.com/no-more-room-infection-info-guide",
+    "date": 1787407215000,
+    "domain": "thegamer.com",
+    "sourceName": "TheGamer",
+    "isTranslated": false,
+    "hotScore": 0.965
   },
   {
     "title": "GTA 6 Leaker Threatens To Give Build to ‘Millions of Gamers Around the Globe’",
@@ -2016,7 +2280,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.974
+    "hotScore": 0.969
   },
   {
     "title": "Why Moderna’s Cancer Vaccine Is a Breakthrough for mRNA",
@@ -2025,6 +2289,51 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.99
+  },
+  {
+    "title": "10 Indie Games Where the User Score is Higher Than the Critic Score",
+    "link": "https://www.dualshockers.com/indie-games-where-the-user-score-is-higher-than-the-critic-score",
+    "date": 1787409011000,
+    "domain": "dualshockers.com",
+    "sourceName": "DualShockers",
+    "isTranslated": false,
+    "hotScore": 0.991
+  },
+  {
+    "title": "New $2,299 God of War Release Officially Confirmed for 2028",
+    "link": "https://gamerant.com/god-of-war-ragnarok-atreus-statue-2028",
+    "date": 1787409012000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.991
+  },
+  {
+    "title": "Digimon: 10 Darkest Moments in the Franchise That Came Out of Nowhere",
+    "link": "https://gamerant.com/digimon-franchise-darkest-moments",
+    "date": 1787409012000,
+    "domain": "gamerant.com",
+    "sourceName": "Game Rant",
+    "isTranslated": false,
+    "hotScore": 0.991
+  },
+  {
+    "title": "Nintendo deletes 400+ Switch emulator repos in a day but it probably won’t stick",
+    "link": "https://www.dexerto.com/gaming/nintendo-deletes-400-switch-emulator-repos-in-a-day-but-it-probably-wont-stick-3401138",
+    "date": 1787409354000,
+    "domain": "dexerto.com",
+    "sourceName": "Dexerto",
+    "isTranslated": false,
+    "hotScore": 0.996
+  },
+  {
+    "title": "Potential GTA 6 build has allegedly appeared on torrent sites",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vve3i8/potential_gta_6_build_has_allegedly_appeared_on",
+    "date": 1787409418000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 0.997
   }
 ]
