@@ -1,21 +1,12 @@
 [
   {
-    "title": "Micron, the trillion-dollar memory company, refused to replace a crucial drive for current market value until Reddit got mad",
-    "link": "https://www.pcgamer.com/hardware/storage/micron-the-trillion-dollar-memory-company-refused-to-replace-a-crucial-drive-for-current-market-value-until-reddit-got-mad",
-    "date": 1787757018000,
-    "domain": "pcgamer.com",
-    "sourceName": "PC Gamer",
-    "isTranslated": false,
-    "hotScore": 0.279
-  },
-  {
     "title": "Metro 2039 devs say the ongoing war in Ukraine has changed how they write morality: 'The franchise's very nature is getting too close to reality'",
     "link": "https://www.pcgamer.com/games/fps/metro-2039-devs-say-the-ongoing-war-in-ukraine-has-changed-how-they-write-morality-the-franchises-very-nature-is-getting-too-close-to-reality",
     "date": 1787757176000,
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.278
   },
   {
     "title": "Microsoft Confirms Xbox Disc-to-Digital Program in the Wake of Sony Decision to End PlayStation Discs",
@@ -24,7 +15,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.28
+    "hotScore": 0.279
   },
   {
     "title": "Xbox’s new Disc to Digital feature brings physical libraries into the cloud",
@@ -33,7 +24,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.281
+    "hotScore": 0.28
   },
   {
     "title": "GTA VI Lucia Prologue Leak",
@@ -42,12 +33,20 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.563,
+    "hotScore": 0.56,
     "groupMembers": [
       {
         "title": "GTA 6 leaker turns to story spoilers: Cyberleek uploads 4-minute Lucia prologue clip hours after Rockstar says the leaks are \"heartbreaking\"",
         "link": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-leaker-turns-to-story-spoilers-cyberleek-uploads-4-minute-lucia-prologue-clip-hours-after-rockstar-says-the-leaks-are-heartbreaking",
         "date": 1787763417000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      },
+      {
+        "title": "New GTA 6 leak takes to the streets of Vice City for a chaotic nighttime police chase, and teases a cutscene featuring Lucia",
+        "link": "https://www.gamesradar.com/games/grand-theft-auto/new-gta-6-leak-takes-to-the-streets-of-vice-city-for-a-chaotic-nighttime-police-chase-and-teases-a-cutscene-featuring-lucia",
+        "date": 1787763197000,
         "domain": "gamesradar.com",
         "sourceName": "GamesRadar+",
         "isTranslated": false
@@ -61,7 +60,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.282
+    "hotScore": 0.281
   },
   {
     "title": "Xbox adds ‘digital entitlement’ for physical games next week, but I have questions about how it will all work",
@@ -70,7 +69,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.282
+    "hotScore": 0.281
   },
   {
     "title": "GTA 6 story spoilers leaked after Rockstar responds ahead of Netflix Extended Look",
@@ -79,7 +78,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.848,
+    "hotScore": 0.844,
     "groupMembers": [
       {
         "title": "Rockstar reveals a swathe of new GTA 6 details ahead of the Netflix Extended Look",
@@ -100,31 +99,13 @@
     ]
   },
   {
-    "title": "Round Up: The Reviews For Elden Ring: Tarnished Edition On Switch 2 Are In",
-    "link": "https://www.nintendolife.com/news/2026/08/round-up-the-reviews-for-elden-ring-tarnished-edition-on-switch-2-are-in",
-    "date": 1787758200000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.284
-  },
-  {
-    "title": "PS Plus Essential Games for September 2026 Announced",
-    "link": "https://www.pushsquare.com/news/2026/08/ps-plus-essential-games-for-september-2026-announced",
-    "date": 1787758200000,
-    "domain": "pushsquare.com",
-    "sourceName": "Push Square",
-    "isTranslated": false,
-    "hotScore": 0.284
-  },
-  {
     "title": "PlayStation Plus Monthly Games for September – Sniper Elite: Resistance, MLB The Show 26, Wobbly Life, Chained Echoes",
     "link": "https://blog.playstation.com/2026/08/26/playstation-plus-monthly-games-for-september-sniper-elite-resistance-mlb-the-show-26-wobbly-life-chained-echoes",
     "date": 1787758200000,
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 0.568,
+    "hotScore": 0.565,
     "groupMembers": [
       {
         "title": "PS Plus September free play, \"Sniper Elite: Resistance\", \"MLB The Show 26\", \"Wobbly Life\", \"Chained Echoes\" distributed",
@@ -137,13 +118,31 @@
     ]
   },
   {
+    "title": "PS Plus Essential Games for September 2026 Announced",
+    "link": "https://www.pushsquare.com/news/2026/08/ps-plus-essential-games-for-september-2026-announced",
+    "date": 1787758200000,
+    "domain": "pushsquare.com",
+    "sourceName": "Push Square",
+    "isTranslated": false,
+    "hotScore": 0.283
+  },
+  {
+    "title": "Round Up: The Reviews For Elden Ring: Tarnished Edition On Switch 2 Are In",
+    "link": "https://www.nintendolife.com/news/2026/08/round-up-the-reviews-for-elden-ring-tarnished-edition-on-switch-2-are-in",
+    "date": 1787758200000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 0.283
+  },
+  {
     "title": "Ubisoft apologizes for forgetting to include the actual game in new Steam release",
     "link": "https://www.dexerto.com/gaming/ubisoft-forgot-to-include-a-game-in-the-steam-download-3402503",
     "date": 1787758289000,
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.284
+    "hotScore": 0.283
   },
   {
     "title": "CD Projekt Red reveals extended gameplay of The Witcher 3 Remastered and Songs of the Past DLC",
@@ -152,8 +151,16 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.859,
+    "hotScore": 0.855,
     "groupMembers": [
+      {
+        "title": "Here's 13 Minutes of Witcher 3: Songs of the Past DLC Gameplay",
+        "link": "https://www.pushsquare.com/news/2026/08/heres-13-minutes-of-witcher-3-songs-of-the-past-dlc-gameplay",
+        "date": 1787832000000,
+        "domain": "pushsquare.com",
+        "sourceName": "Push Square",
+        "isTranslated": false
+      },
       {
         "title": "The Witcher 3 hasn't had an expansion in 10 years because \"good things take time\" and Songs of the Past was dead for a while, says CD Projekt Red dev",
         "link": "https://www.gamesradar.com/games/the-witcher/the-witcher-3-hasnt-had-an-expansion-in-10-years-because-good-things-take-time-and-songs-of-the-past-was-dead-for-a-while-says-cd-projekt-red-dev",
@@ -169,14 +176,6 @@
         "domain": "gamesradar.com",
         "sourceName": "GamesRadar+",
         "isTranslated": false
-      },
-      {
-        "title": "Here's 13 Minutes of Witcher 3: Songs of the Past DLC Gameplay",
-        "link": "https://www.pushsquare.com/news/2026/08/heres-13-minutes-of-witcher-3-songs-of-the-past-dlc-gameplay",
-        "date": 1787832000000,
-        "domain": "pushsquare.com",
-        "sourceName": "Push Square",
-        "isTranslated": false
       }
     ]
   },
@@ -187,7 +186,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.579,
+    "hotScore": 0.576,
     "groupMembers": [
       {
         "title": "XBOX Disc Drive Supply Chain Is ‘Collapsing’",
@@ -206,7 +205,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.29
+    "hotScore": 0.289
   },
   {
     "title": "Every LEGO Game on the Nintendo Switch and Switch 2 in 2026",
@@ -215,7 +214,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.291
+    "hotScore": 0.29
   },
   {
     "title": "Call of Duty: Modern Warfare A4 preorders start for Nintendo Switch 2",
@@ -224,7 +223,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.875,
+    "hotScore": 0.871,
     "groupMembers": [
       {
         "title": "Call of Duty: Modern Warfare 4 for Switch 2 Is Up for Preorder",
@@ -253,29 +252,36 @@
     ]
   },
   {
-    "title": "I've Tried Star Wars Zero Company on Five Different PCs, and It's Been a Nightmare",
-    "link": "https://www.ign.com/articles/star-wars-zero-company-is-a-mess-on-pc",
+    "title": "Resonance: A Plague Tale Legacy review",
+    "link": "https://www.eurogamer.net/resonance-a-plague-tale-legacy-review",
     "date": 1787760000000,
-    "domain": "ign.com",
-    "sourceName": "IGN Games",
+    "domain": "eurogamer.net",
+    "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.292
-  },
-  {
-    "title": "Resonance: A Plague Tale Legacy review – a competent action game spinoff that loses what made its predecessors unique",
-    "link": "https://www.rockpapershotgun.com/resonance-a-plague-tale-legacy-review-a-competent-action-game-spinoff-that-loses-what-made-its-predecessors-unique",
-    "date": 1787760000000,
-    "domain": "rockpapershotgun.com",
-    "sourceName": "Rock Paper Shotgun",
-    "isTranslated": false,
-    "hotScore": 0.875,
+    "hotScore": 1.742,
     "groupMembers": [
       {
-        "title": "Resonance: A Plague Tale Legacy review",
-        "link": "https://www.eurogamer.net/resonance-a-plague-tale-legacy-review",
+        "title": "Resonance: A Plague Tale Legacy review – a competent action game spinoff that loses what made its predecessors unique",
+        "link": "https://www.rockpapershotgun.com/resonance-a-plague-tale-legacy-review-a-competent-action-game-spinoff-that-loses-what-made-its-predecessors-unique",
         "date": 1787760000000,
-        "domain": "eurogamer.net",
-        "sourceName": "Eurogamer",
+        "domain": "rockpapershotgun.com",
+        "sourceName": "Rock Paper Shotgun",
+        "isTranslated": false
+      },
+      {
+        "title": "Resonance: A Plague Tale Legacy review – Iconic series breeds a brilliant new nightmare",
+        "link": "https://www.destructoid.com/reviews/resonance-a-plague-tale-legacy-review",
+        "date": 1787763142000,
+        "domain": "destructoid.com",
+        "sourceName": "Destructoid",
+        "isTranslated": false
+      },
+      {
+        "title": "Resonance: A Plague Tale Legacy review – An Uncharted twist on the horror genre",
+        "link": "https://www.dexerto.com/gaming/resonance-a-plague-tale-legacy-review-an-uncharted-twist-on-the-horror-genre-3399581",
+        "date": 1787760000000,
+        "domain": "dexerto.com",
+        "sourceName": "Dexerto",
         "isTranslated": false
       },
       {
@@ -284,6 +290,14 @@
         "date": 1787760000000,
         "domain": "pushsquare.com",
         "sourceName": "Push Square",
+        "isTranslated": false
+      },
+      {
+        "title": "Review: Resonance: A Plague Tale Legacy (Xbox) - A Fantastic Evolution Of Action, Stealth & Exploration",
+        "link": "https://www.purexbox.com/reviews/xbox-series-x/resonance-a-plague-tale-legacy",
+        "date": 1787760000000,
+        "domain": "purexbox.com",
+        "sourceName": "Pure Xbox",
         "isTranslated": false
       }
     ]
@@ -295,7 +309,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.29
   },
   {
     "title": "Before Crisis Final Fantasy VII Story Ends in FFVII Ever Crisis",
@@ -304,16 +318,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.292
-  },
-  {
-    "title": "Resonance: A Plague Tale Legacy review – An Uncharted twist on the horror genre",
-    "link": "https://www.dexerto.com/gaming/resonance-a-plague-tale-legacy-review-an-uncharted-twist-on-the-horror-genre-3399581",
-    "date": 1787760000000,
-    "domain": "dexerto.com",
-    "sourceName": "Dexerto",
-    "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.29
   },
   {
     "title": "NetEase’s Where Winds Meet tops 100M players worldwide",
@@ -322,16 +327,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.292
-  },
-  {
-    "title": "Review: Resonance: A Plague Tale Legacy (Xbox) - A Fantastic Evolution Of Action, Stealth & Exploration",
-    "link": "https://www.purexbox.com/reviews/xbox-series-x/resonance-a-plague-tale-legacy",
-    "date": 1787760000000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.29
   },
   {
     "title": "She Doesn’t Know is a moody visual novel set in 1999 Japan following two high school girls who are both childhood friends and lovers, coming to Steam",
@@ -340,7 +336,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.29
   },
   {
     "title": "Is $80 the new normal for video games?",
@@ -349,7 +345,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.29
   },
   {
     "title": "New D&D RPG Warlock is an open world spell-collecting game with a touch of Far Cry, and that's just fine by me, actually",
@@ -358,7 +354,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.292
+    "hotScore": 0.291
   },
   {
     "title": "Move over Gamescom, Konami is heading to CatCon and it's bringing Metal Gear Solid-themed cat toys with it",
@@ -367,7 +363,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.88,
+    "hotScore": 0.876,
     "groupMembers": [
       {
         "title": "\"METAL GEAR SOLID 4\" \"Octocam\" fashion snap. Check out the snake's special attire as it wears the scenery.",
@@ -388,22 +384,32 @@
     ]
   },
   {
-    "title": "Random: This Zelda: TOTK Podracing Build Has Us Craving Galactic Racer On Switch 2",
-    "link": "https://www.nintendolife.com/news/2026/08/random-this-zelda-totk-podracing-build-has-us-craving-galactic-racer-on-switch-2",
-    "date": 1787760900000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.296
-  },
-  {
     "title": "Persona 4 Revival's Story Trailer Is Packing Loads of New Footage",
     "link": "https://www.pushsquare.com/news/2026/08/persona-4-revivals-story-trailer-is-packing-loads-of-new-footage",
     "date": 1787760900000,
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.296
+    "hotScore": 0.589,
+    "groupMembers": [
+      {
+        "title": "Atlus releases “Persona 4 Revival” story trailer",
+        "link": "https://gamebiz.jp/news/431838",
+        "date": 1787842380000,
+        "domain": "gamebiz.jp",
+        "sourceName": "GameBiz",
+        "isTranslated": true
+      }
+    ]
+  },
+  {
+    "title": "Random: This Zelda: TOTK Podracing Build Has Us Craving Galactic Racer On Switch 2",
+    "link": "https://www.nintendolife.com/news/2026/08/random-this-zelda-totk-podracing-build-has-us-craving-galactic-racer-on-switch-2",
+    "date": 1787760900000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 0.294
   },
   {
     "title": "Xbox to let Insiders convert physical game discs into digital entitlements later this month",
@@ -412,16 +418,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.296
-  },
-  {
-    "title": "Rockstar had to fight to get people to care about GTA 3 at E3, former lead recalls, and now GTA 6 is the most anticipated game of the generation",
-    "link": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-had-to-fight-to-get-people-to-care-about-gta-3-at-e3-former-lead-recalls-and-now-gta-6-is-the-most-anticipated-game-of-the-generation",
-    "date": 1787761392000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.295
   },
   {
     "title": "Baldur's Gate 3 is \"a great game,\" but Warlock devs say their own virtual D&D experience is \"very different\" from Larian's RPG",
@@ -430,7 +427,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.297
   },
   {
     "title": "God help us, they overclocked Mega Man",
@@ -439,7 +436,34 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.298
+    "hotScore": 0.297
+  },
+  {
+    "title": "Asha Sharma Says 'Efficiency' And 'Affordability' Are Top Of Mind For Xbox Project Helix",
+    "link": "https://www.purexbox.com/news/2026/08/asha-sharma-says-efficiency-and-affordability-are-top-of-mind-for-xbox-project-helix",
+    "date": 1787761800000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 0.895,
+    "groupMembers": [
+      {
+        "title": "Xbox CEO Won’t Say If Project Helix Has A Disc Drive: ‘We Have To Be Thinking About Efficiency And Affordability’",
+        "link": "https://kotaku.com/xbox-ceo-wont-say-if-project-helix-has-a-disc-drive-we-have-to-be-thinking-about-efficiency-and-affordability-2000728488",
+        "date": 1787766613000,
+        "domain": "kotaku.com",
+        "sourceName": "Kotaku",
+        "isTranslated": false
+      },
+      {
+        "title": "Xbox boss Asha Sharma won't confirm whether Project Helix has a disc drive: \"We have to be thinking about efficiency and affordability\"",
+        "link": "https://www.gamesradar.com/games/xbox-boss-asha-sharma-wont-confirm-whether-project-helix-has-a-disc-drive-we-have-to-be-thinking-about-efficiency-and-affordability",
+        "date": 1787766585000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "The Wolf Among Us Remastered Brings Back a Telltale Classic This October on PS5",
@@ -448,7 +472,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 1.198,
+    "hotScore": 1.193,
     "groupMembers": [
       {
         "title": "The Wolf Among Us Remastered gets a new Noir Mode when it launches this October",
@@ -477,40 +501,13 @@
     ]
   },
   {
-    "title": "Asha Sharma Says 'Efficiency' And 'Affordability' Are Top Of Mind For Xbox Project Helix",
-    "link": "https://www.purexbox.com/news/2026/08/asha-sharma-says-efficiency-and-affordability-are-top-of-mind-for-xbox-project-helix",
-    "date": 1787761800000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 0.899,
-    "groupMembers": [
-      {
-        "title": "Xbox CEO Won’t Say If Project Helix Has A Disc Drive: ‘We Have To Be Thinking About Efficiency And Affordability’",
-        "link": "https://kotaku.com/xbox-ceo-wont-say-if-project-helix-has-a-disc-drive-we-have-to-be-thinking-about-efficiency-and-affordability-2000728488",
-        "date": 1787766613000,
-        "domain": "kotaku.com",
-        "sourceName": "Kotaku",
-        "isTranslated": false
-      },
-      {
-        "title": "Xbox boss Asha Sharma won't confirm whether Project Helix has a disc drive: \"We have to be thinking about efficiency and affordability\"",
-        "link": "https://www.gamesradar.com/games/xbox-boss-asha-sharma-wont-confirm-whether-project-helix-has-a-disc-drive-we-have-to-be-thinking-about-efficiency-and-affordability",
-        "date": 1787766585000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
-  },
-  {
     "title": "Tides of Annihilation devs took inspiration from Berserk, Final Fantasy, and, uh, JoJo's Bizarre Adventure: \"We love JoJo\"",
     "link": "https://www.gamesradar.com/games/action/tides-of-annihilation-devs-took-inspiration-from-berserk-final-fantasy-and-uh-jojos-bizarre-adventure-we-love-jojo",
     "date": 1787762314000,
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.302
+    "hotScore": 0.3
   },
   {
     "title": "Switch 2 Footage Is Coming Out Of Gamescom, And It's Looking Tasty",
@@ -519,16 +516,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.304
-  },
-  {
-    "title": "Resonance: A Plague Tale Legacy review – Iconic series breeds a brilliant new nightmare",
-    "link": "https://www.destructoid.com/reviews/resonance-a-plague-tale-legacy-review",
-    "date": 1787763142000,
-    "domain": "destructoid.com",
-    "sourceName": "Destructoid",
-    "isTranslated": false,
-    "hotScore": 0.306
+    "hotScore": 0.302
   },
   {
     "title": "Xbox's First Gamescom 2026 Stream Included Two Massive Reveals & Multiple New Games",
@@ -537,16 +525,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.306
-  },
-  {
-    "title": "New GTA 6 leak takes to the streets of Vice City for a chaotic nighttime police chase, and teases a cutscene featuring Lucia",
-    "link": "https://www.gamesradar.com/games/grand-theft-auto/new-gta-6-leak-takes-to-the-streets-of-vice-city-for-a-chaotic-nighttime-police-chase-and-teases-a-cutscene-featuring-lucia",
-    "date": 1787763197000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 0.306
+    "hotScore": 0.304
   },
   {
     "title": "New Crimson Desert Enhanced update meant to \"improve the narrative flow\" actually makes it feel \"like a different game,\" fans say",
@@ -555,7 +534,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.306
+    "hotScore": 0.305
   },
   {
     "title": "The Division 2: Echoes of Central Park Announced",
@@ -564,7 +543,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.923,
+    "hotScore": 0.919,
     "groupMembers": [
       {
         "title": "The Division 2 Finally Takes You Into Central Park with New DLC",
@@ -591,7 +570,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.306
   },
   {
     "title": "Bloodstained: The Scarlet Engagement Won’t Appear Until Next Year",
@@ -600,7 +579,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.306
   },
   {
     "title": "Warlock escapes Baldur's Gate 3's long shadow with a very different take on D&D that I'm happy to roll my dice on",
@@ -609,7 +588,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.306
   },
   {
     "title": "HoYoverse's Nodusfall is free to play but isn't a typical gacha game: 'Characters are not obtained through random draws'",
@@ -618,7 +597,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.308
+    "hotScore": 0.307
   },
   {
     "title": "GTA 6 confirms realistic NPCs, deeper relationships, body changes, social media system & more",
@@ -627,7 +606,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.31
+    "hotScore": 0.308
   },
   {
     "title": "Fable Looks Absolutely Incredible In New 18-Minute Quest Gameplay",
@@ -636,7 +615,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.31
+    "hotScore": 0.308
   },
   {
     "title": "Grand Theft Auto 6 Will Have RPG Mechanics Like Eating, Exercising, and More",
@@ -645,7 +624,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.311
+    "hotScore": 0.309
   },
   {
     "title": "Konami wants Silent Hill to have \"an annual release of new games,\" and it's already working on \"many\" unannounced projects",
@@ -654,7 +633,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.946,
+    "hotScore": 0.942,
     "groupMembers": [
       {
         "title": "Konami wants annual Silent Hill games and is working on “many” unannounced projects",
@@ -681,7 +660,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.632,
+    "hotScore": 0.629,
     "groupMembers": [
       {
         "title": "Free Play Days –  Call of Duty Modern Warfare 4 Open Beta, Control Ultimate Edition, Fatal Fury: City of the Wolves, and More",
@@ -708,7 +687,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.318,
+    "hotScore": 0.316,
     "groupMembers": [
       {
         "title": "Live: Watch Xbox At Gamescom 2026 (Day Two) Here",
@@ -735,7 +714,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.318
+    "hotScore": 0.317
   },
   {
     "title": "Vaewolf is a half-breed hack-and-slash power fantasy",
@@ -744,7 +723,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.319
+    "hotScore": 0.317
   },
   {
     "title": "Rockstar Games responds to GTA 6 leaks",
@@ -753,7 +732,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.638,
+    "hotScore": 0.635,
     "groupMembers": [
       {
         "title": "Rockstar Games’ LA-based studio is ‘dedicated almost solely’ to the design of GTA 6’s NPCs",
@@ -772,7 +751,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.32
+    "hotScore": 0.318
   },
   {
     "title": "New GTA 6 character swapping details revealed: Jason and Lucia can 'play as a couple, or go off and cause chaos independently'",
@@ -781,7 +760,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.321
+    "hotScore": 0.32
   },
   {
     "title": "Rockstar Confirms GTA 6 Is Bringing Back San Andreas’ Weight System",
@@ -790,7 +769,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.321
+    "hotScore": 0.32
   },
   {
     "title": "GTA 6 Doesn’t Take Kindly To Open Carry",
@@ -799,7 +778,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.323
+    "hotScore": 0.322
   },
   {
     "title": "I got my greasy mitts on a host of RTX Spark laptops running, what else, games at Gamescom 2026—and there's a couple I really want to take home",
@@ -808,7 +787,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.324
+    "hotScore": 0.323
   },
   {
     "title": "Game Of Thrones: War For Westeros Might Finally Give Us A Game Of Thrones Game Worth Remembering",
@@ -817,7 +796,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.323
   },
   {
     "title": "Game of Thrones: War for Westeros isn't even out yet and it already feels ancient",
@@ -826,7 +805,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.323
   },
   {
     "title": "Inside the Vault: Join the Fallout 76 XBOX Series Public Test Server",
@@ -835,7 +814,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.323
   },
   {
     "title": "Grapht Will Sell Danganronpa Merchandise at TGS 2026",
@@ -844,7 +823,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.323
   },
   {
     "title": "Game of Thrones: War for Westeros Preview: A Bloody Fun Tactical Adventure",
@@ -853,7 +832,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.325
+    "hotScore": 0.323
   },
   {
     "title": "IGDA Incubation SIG to unveil first global census of game incubators and accelerators at Gamescom",
@@ -862,7 +841,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.328
+    "hotScore": 0.326
   },
   {
     "title": "Rocky Horror and Command & Conquer Legend Tim Curry Has Passed Away",
@@ -871,7 +850,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.328
+    "hotScore": 0.326
   },
   {
     "title": "GTA 6 leaker escalates spoilers, releases 4 minutes of Lucia's prologue",
@@ -880,7 +859,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.33
+    "hotScore": 0.328
   },
   {
     "title": "New Official GTA 6 Details Point Out How It Will Change How We Play GTA",
@@ -889,7 +868,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.331
+    "hotScore": 0.329
   },
   {
     "title": "For GTA 6, Rockstar has more than doubled in size since Red Dead Redemption 2, and has an entire Los Angeles branch dedicated to realistic NPCs",
@@ -898,7 +877,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.331
+    "hotScore": 0.329
   },
   {
     "title": "Final Fantasy VII Revelation Gets Pending Mature 17+ Rating, and Fan Theories Are Already Going Wild",
@@ -907,7 +886,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.662,
+    "hotScore": 0.659,
     "groupMembers": [
       {
         "title": "Final Fantasy VII Revelation Has A Pending Mature 17+ Rating And Fans Think It Might Mean Cloud And Tifa Bone",
@@ -926,7 +905,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.664,
+    "hotScore": 0.661,
     "groupMembers": [
       {
         "title": "GTA 6 Netflix extended look live report - all the gameplay and revelations from Rockstar's Grand Theft Auto 6 premiere",
@@ -945,7 +924,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.667,
+    "hotScore": 0.664,
     "groupMembers": [
       {
         "title": "FPS \"Guns of Eschaton\" play report for the most masochistic fan in Soulslike history [gamescom 2026]",
@@ -964,7 +943,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.333
+    "hotScore": 0.332
   },
   {
     "title": "A New D&D Game Will Let You Live Every Adventurer's Dream",
@@ -973,7 +952,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.333
+    "hotScore": 0.332
   },
   {
     "title": "Danganronpa 2×2 Switch 2 Pre-Orders Canceled After It’s Forced To Be A Game-Key Card For ‘Unavoidable Reasons’",
@@ -982,7 +961,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.668,
+    "hotScore": 0.665,
     "groupMembers": [
       {
         "title": "Danganronpa 2×2 is cancelling preorders because it won’t get a physical release for “unavoidable reasons”",
@@ -1001,7 +980,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.337
+    "hotScore": 0.335
   },
   {
     "title": "Train Sim World 7 Will Come to PS5 Weeks Before the Japanese Route I've Spent Years Writing About",
@@ -1010,34 +989,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.338
-  },
-  {
-    "title": "Neon Abyss 2 launches this fall for PS5, Xbox Series, Switch, and PC",
-    "link": "https://www.gematsu.com/2026/08/neon-abyss-2-launches-this-fall-for-ps5-xbox-series-switch-and-pc",
-    "date": 1787769926000,
-    "domain": "gematsu.com",
-    "sourceName": "Gematsu",
-    "isTranslated": false,
-    "hotScore": 0.338,
-    "groupMembers": [
-      {
-        "title": "Fast-paced roguelite action game Rogue Fortune announced for PS5, Xbox Series, Switch 2, and PC",
-        "link": "https://www.gematsu.com/2026/08/fast-paced-roguelite-action-game-rogue-fortune-announced-for-ps5-xbox-series-switch-2-and-pc",
-        "date": 1787839336000,
-        "domain": "gematsu.com",
-        "sourceName": "Gematsu",
-        "isTranslated": false
-      },
-      {
-        "title": "‘Super2D turn-based RPG’ Amphibian announced for PS5, Xbox Series, Switch, and PC",
-        "link": "https://www.gematsu.com/2026/08/super2d-turn-based-rpg-amphibian-announced-for-ps5-xbox-series-switch-and-pc",
-        "date": 1787770553000,
-        "domain": "gematsu.com",
-        "sourceName": "Gematsu",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.336
   },
   {
     "title": "‘First-person narrative-driven horror breakup simulator’ Sweetheart announced for PS5, Xbox Series, Switch, and PC",
@@ -1046,7 +998,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.34
+    "hotScore": 0.338
   },
   {
     "title": "GTA 6's First Official Preview Reveals 5 Juicy New Details",
@@ -1055,7 +1007,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.34
+    "hotScore": 0.339
   },
   {
     "title": "First League Classic Council Vote Includes Game Length and Zz’Rot",
@@ -1064,7 +1016,26 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.341
+    "hotScore": 0.339
+  },
+  {
+    "title": "‘Super2D turn-based RPG’ Amphibian announced for PS5, Xbox Series, Switch, and PC",
+    "link": "https://www.gematsu.com/2026/08/super2d-turn-based-rpg-amphibian-announced-for-ps5-xbox-series-switch-and-pc",
+    "date": 1787770553000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 0.339,
+    "groupMembers": [
+      {
+        "title": "Fast-paced roguelite action game Rogue Fortune announced for PS5, Xbox Series, Switch 2, and PC",
+        "link": "https://www.gematsu.com/2026/08/fast-paced-roguelite-action-game-rogue-fortune-announced-for-ps5-xbox-series-switch-2-and-pc",
+        "date": 1787839336000,
+        "domain": "gematsu.com",
+        "sourceName": "Gematsu",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Poppy Playtime studio reveals its next survival horror game, and this time it's co-op",
@@ -1073,7 +1044,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.342
+    "hotScore": 0.34
   },
   {
     "title": "GTA 6 brings back a fan-favorite San Andreas feature: you'll get chubby if you eat a lot",
@@ -1082,7 +1053,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.342
+    "hotScore": 0.341
   },
   {
     "title": "Star Wars Zero Company Tips for Tactics Padawans",
@@ -1091,7 +1062,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.685,
+    "hotScore": 0.681,
     "groupMembers": [
       {
         "title": "10 Star Wars Zero Company beginner's tips and tricks",
@@ -1110,16 +1081,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.342
-  },
-  {
-    "title": "Danganronpa 2x2 No Longer Getting A Full Cartridge Release On Switch 2",
-    "link": "https://www.nintendolife.com/news/2026/08/danganronpa-2x2-no-longer-getting-a-full-cartridge-release-on-switch-2",
-    "date": 1787770800000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.342
+    "hotScore": 0.341
   },
   {
     "title": "Next-Gen Xbox Prioritises 'Affordability' as Rumours of Stupidly Expensive PS6 Continue",
@@ -1128,7 +1090,16 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.342
+    "hotScore": 0.341
+  },
+  {
+    "title": "Danganronpa 2x2 No Longer Getting A Full Cartridge Release On Switch 2",
+    "link": "https://www.nintendolife.com/news/2026/08/danganronpa-2x2-no-longer-getting-a-full-cartridge-release-on-switch-2",
+    "date": 1787770800000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
+    "isTranslated": false,
+    "hotScore": 0.341
   },
   {
     "title": "Patrol the Streets In the Newly Announced Police Simulator",
@@ -1137,7 +1108,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.342
+    "hotScore": 0.341
   },
   {
     "title": "BG3 Fans, We've Been Pronouncing Astarion's Name Wrong",
@@ -1146,7 +1117,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.342
+    "hotScore": 0.341
   },
   {
     "title": "Why A Game Originally Prototyped For Game Boy Color Is Going Head-To-Head With GTA 6",
@@ -1155,7 +1126,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.343
+    "hotScore": 0.341
   },
   {
     "title": "Roblox Officially Cracks Down on Doomscrolling-Reward Games After Controversy",
@@ -1164,7 +1135,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.343
+    "hotScore": 0.341
   },
   {
     "title": "HOARDER launches in 2027",
@@ -1173,7 +1144,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.344,
+    "hotScore": 0.342,
     "groupMembers": [
       {
         "title": "Armatus launches January 7, 2027",
@@ -1192,7 +1163,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.343
   },
   {
     "title": "All NBA 2K27 2KTV answers: Episode 1",
@@ -1201,7 +1172,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.345
+    "hotScore": 0.344
   },
   {
     "title": "1047 Games ends active development on Empulse and Splitgate: Arena Reloaded, says it's moving away from live service shooters",
@@ -1210,7 +1181,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.346
+    "hotScore": 0.344
   },
   {
     "title": "Dune: Awakening Gets Movie Tie-In and Highly Anticipated Console Features",
@@ -1219,7 +1190,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.346
+    "hotScore": 0.344
   },
   {
     "title": "Everything announced at FGS Live From Gamescom 2026",
@@ -1228,7 +1199,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.347
+    "hotScore": 0.345
   },
   {
     "title": "How Switching Between GTA 6’s Two Protagonists Works",
@@ -1237,7 +1208,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.348
+    "hotScore": 0.347
   },
   {
     "title": "Unlike The Big Console Makers, Playdate Is Refunding You Those Tariff Fees",
@@ -1246,7 +1217,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.351
+    "hotScore": 0.35
   },
   {
     "title": "Doom Composer Mick Gordon Contributes New Track to Warhammer 40,000: Boltgun 2",
@@ -1255,7 +1226,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.35
   },
   {
     "title": "Crazy Taxi: World Tour Makes a Stop in Germany, as Series Goes Global on PS5",
@@ -1264,7 +1235,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.35
   },
   {
     "title": "FPS Games Where Every Choice Matters",
@@ -1273,7 +1244,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.35
   },
   {
     "title": "Tim Curry, the OG Hollywood video game voice actor, has passed away",
@@ -1282,7 +1253,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.352
+    "hotScore": 0.35
   },
   {
     "title": "Roundup: All The Xbox Reveals From The Future Games Show At Gamescom 2026",
@@ -1291,7 +1262,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.705,
+    "hotScore": 0.702,
     "groupMembers": [
       {
         "title": "7 PS5 Trailers Worth Watching from the Future Games Show at Gamescom 2026",
@@ -1310,7 +1281,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.354
+    "hotScore": 0.352
   },
   {
     "title": "Pokemon Go Twilight Trails season guide: Dates, events, Raids & more",
@@ -1319,7 +1290,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.355
+    "hotScore": 0.353
   },
   {
     "title": "All Mortal Shell 2 Night Mode secrets and changes",
@@ -1328,7 +1299,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.356
+    "hotScore": 0.354
   },
   {
     "title": "Gamescom 2026 live hub: The latest news and previews from the biggest gaming event of the year",
@@ -1337,7 +1308,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.359
+    "hotScore": 0.357
   },
   {
     "title": "The Witcher 3 Remastered: Everything new coming in the big free upgrade",
@@ -1346,7 +1317,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.721,
+    "hotScore": 0.717,
     "groupMembers": [
       {
         "title": "The Witcher 3 Remastered makes the original's best HD mod obsolete, but only because that same modder's been working on the real deal",
@@ -1373,7 +1344,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.36
+    "hotScore": 0.359
   },
   {
     "title": "I've played Heroes of Might and Magic 3: Remake, and I still can't believe we're getting 2 HoMMs in the same year",
@@ -1382,7 +1353,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.361
+    "hotScore": 0.359
   },
   {
     "title": "Danganronpa 2×2 Physical Copies Now Game-Key Card Carts",
@@ -1391,7 +1362,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.361
+    "hotScore": 0.359
   },
   {
     "title": "Experience the Horrors of Playtime Co. as a Toy in Escape From Playtime",
@@ -1400,7 +1371,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 0.361
+    "hotScore": 0.359
   },
   {
     "title": "Magic: The Gathering’s Weirdest New Set Features A Card Showing A Graded Version Of Itself",
@@ -1409,7 +1380,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.361
+    "hotScore": 0.36
   },
   {
     "title": "Ubisoft’s Botched Release of Classic Might and Magic Game Was a Hilarious Blunder",
@@ -1418,7 +1389,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.368
+    "hotScore": 0.367
   },
   {
     "title": "GTA 6 Wants You To Reconsider Doing What Everyone Does In Grand Theft Auto",
@@ -1427,7 +1398,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.37
+    "hotScore": 0.369
   },
   {
     "title": "Oh No, Disney Is Paying Attention To Kingdom Hearts Now",
@@ -1436,7 +1407,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.371
+    "hotScore": 0.369
   },
   {
     "title": "Tim Curry, Red Alert 3 star and camp icon of stage and screen, dies aged 80",
@@ -1445,7 +1416,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.371
+    "hotScore": 0.37
   },
   {
     "title": "Warlock Preview: The New D&D Action-RPG Is Not Afraid To Ditch Tradition",
@@ -1454,7 +1425,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.372
+    "hotScore": 0.37
   },
   {
     "title": "Xbox Is Handling the Transition From Physical Media to Digital Much Better Than PlayStation Is",
@@ -1463,7 +1434,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.372
+    "hotScore": 0.37
   },
   {
     "title": "Best Series 1 Collection teams to pick in NBA 2K27 MyTeam",
@@ -1472,7 +1443,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.373
+    "hotScore": 0.371
   },
   {
     "title": "All The Goth Girlies Who Loved American McGee’s Alice Need To See This Game",
@@ -1481,7 +1452,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.375
+    "hotScore": 0.373
   },
   {
     "title": "Dictatorship country management sim ``Tropico 7'' will be released on January 29th next year. The great Presidente returns with the largest field in the series.",
@@ -1490,7 +1461,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.377
+    "hotScore": 0.375
   },
   {
     "title": "Best Yet Another Zombie Survivors 1.0 class tier list",
@@ -1499,7 +1470,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.377,
+    "hotScore": 0.376,
     "groupMembers": [
       {
         "title": "Best Shadow Dungeon class tier list",
@@ -1518,7 +1489,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 1.523,
+    "hotScore": 0.758,
     "groupMembers": [
       {
         "title": "ZOOPUNK extended Gamescom 2026 trailer",
@@ -1527,22 +1498,6 @@
         "domain": "gematsu.com",
         "sourceName": "Gematsu",
         "isTranslated": false
-      },
-      {
-        "title": "Atlus releases “Persona 4 Revival” story trailer",
-        "link": "https://gamebiz.jp/news/431838",
-        "date": 1787842380000,
-        "domain": "gamebiz.jp",
-        "sourceName": "GameBiz",
-        "isTranslated": true
-      },
-      {
-        "title": "Information and story trailer for Kanji Tatsumi, Kuma, and Naoto Shirakane who appear in \"Persona 4 Revival\" have been released",
-        "link": "https://www.4gamer.net/games/918/G091829/20260827040",
-        "date": 1787825425000,
-        "domain": "4gamer.net",
-        "sourceName": "4Gamer.net",
-        "isTranslated": true
       }
     ]
   },
@@ -1553,7 +1508,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.382
+    "hotScore": 0.38
   },
   {
     "title": "The Witcher 3: Songs of the Past expansion doesn't have to make the RPG \"feel different\" because it's still \"relevant\" after 11 years, says CD Projekt Red dev",
@@ -1562,7 +1517,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.384
+    "hotScore": 0.383
   },
   {
     "title": "Dark Slow Life Graveyard Keeper Life Sim \"Graveyard Keeper 2\" to be released on September 22nd. Make effective use of zombies to rebuild the town, and use them conveniently from production to battle.",
@@ -1571,7 +1526,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.77,
+    "hotScore": 0.766,
     "groupMembers": [
       {
         "title": "Manage a cemetery and command an army of zombies to defend your city. “Graveyard Keeper 2” to be released on September 22nd",
@@ -1590,7 +1545,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.385
+    "hotScore": 0.384
   },
   {
     "title": "The developer of \"Poppy Playtime\" announced the collaboration horror game \"Escape from Playtime\" for up to four people. Everyone escapes from an abandoned factory where familiar \"failed toys\" roam.",
@@ -1599,7 +1554,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.386
+    "hotScore": 0.384
   },
   {
     "title": "Animal Human Battle Royale “DNA NEMESIS” announced, to be released in December. Snake, octopus, shark, elephant, use the power of the wild to survive",
@@ -1608,7 +1563,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.39
+    "hotScore": 0.388
   },
   {
     "title": "Here Are The Opening Night Live Games You Can Ignore Because Of GenAI Slop",
@@ -1617,7 +1572,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.391
+    "hotScore": 0.39
   },
   {
     "title": "Riot Games Job Listing Hints at Digital Riftbound TCG",
@@ -1626,7 +1581,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.395
+    "hotScore": 0.393
   },
   {
     "title": "Proving Kingdom Come: Deliverance 2's authenticity, Warhorse's biggest fan hikes through Czechia \"by foot\" to make 3D maps of the RPG's historical locations",
@@ -1635,7 +1590,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.398
+    "hotScore": 0.396
   },
   {
     "title": "Crimson Desert updates are slowing down in \"scope, scale, and pace\" as Pearl Abyss shifts focus to the DLC",
@@ -1644,7 +1599,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.798,
+    "hotScore": 0.795,
     "groupMembers": [
       {
         "title": "Crimson Desert will be slowing down its free updates in preparation for its paid DLC, and I'm just glad Pearl Abyss is finally pacing itself",
@@ -1663,7 +1618,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.401
+    "hotScore": 0.399
   },
   {
     "title": "Devolver and Doinksoft Making an Actual Volvy Game",
@@ -1672,7 +1627,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.402
+    "hotScore": 0.4
   },
   {
     "title": "``We Are So Cooked,'' a cooperative multi-physics calculation ``corpse transport'' game, will be released on October 15th. A limp corpse that is too difficult to transport can be transported without being discovered and the evidence destroyed.",
@@ -1681,7 +1636,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.404
+    "hotScore": 0.402
   },
   {
     "title": "Tech Stocks Rise as Nvidia’s Outlook Fuels AI Bets: Markets Wrap",
@@ -1690,7 +1645,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.406
+    "hotScore": 0.404
   },
   {
     "title": "'I Think That Was a Big Flaw' — Uncharted 3 Designer Says the Game Was Hindered by Too Many Set Pieces",
@@ -1699,7 +1654,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.406
+    "hotScore": 0.405
   },
   {
     "title": "The popular assassin double life game ``BLACKWOOD'' will be released on September 17th. A variety of gun-fu people say is ``like John Wick,'' and he spends the money he earns at DVD stores on assassination equipment.",
@@ -1708,7 +1663,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.408
+    "hotScore": 0.406
   },
   {
     "title": "Fable – A New Look At Combat",
@@ -1717,7 +1672,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.825,
+    "hotScore": 0.821,
     "groupMembers": [
       {
         "title": "Fable Gets Another 30 Minutes Of Raw Gameplay Footage In New Combat Video",
@@ -1736,7 +1691,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.413
+    "hotScore": 0.411
   },
   {
     "title": "Kingdom running defense simulation \"Kingdom III: Rising Realms\" announced. The latest work in the popular minimal SLG series where you become a king who protects the country from monsters.",
@@ -1745,7 +1700,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.415
+    "hotScore": 0.413
   },
   {
     "title": "Announcement of \"Police Simulator\", a multi-player police officer experience game. There are a variety of police dogs that you can take with you for a variety of tasks, from crackdowns on littering to clashes with armed criminals.",
@@ -1754,7 +1709,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.415
+    "hotScore": 0.413
   },
   {
     "title": "Silent Hill Producer Says Konami Wants to Release a New Game in the Series Every Year",
@@ -1763,7 +1718,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.84,
+    "hotScore": 0.836,
     "groupMembers": [
       {
         "title": "Konami is aiming for a new Silent Hill game every year with producer Motoi Okamoto trying to quell fears by promising fans that they 'will be able to provide positive kinds of surprises'",
@@ -1782,7 +1737,7 @@
     "domain": "gamesbeat.com",
     "sourceName": "GamesBeat",
     "isTranslated": false,
-    "hotScore": 0.424
+    "hotScore": 0.422
   },
   {
     "title": "[Interview] The monetization of the urban open world \"NTE\" is \"charging for love\", and the challenge is a gacha that can't be missed. We spoke to Hotta Studio's representative and producer.",
@@ -1791,7 +1746,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.424
+    "hotScore": 0.422
   },
   {
     "title": "Some Early Star Wars Zero Company Reviews Call It A Potential GOTY Contender",
@@ -1800,7 +1755,33 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.424
+    "hotScore": 1.266,
+    "groupMembers": [
+      {
+        "title": "Star Wars Zero Company Permadeath Guide",
+        "link": "https://gamerant.com/star-wars-zero-company-permadeath-disable-enable",
+        "date": 1787842813000,
+        "domain": "gamerant.com",
+        "sourceName": "Game Rant",
+        "isTranslated": false
+      },
+      {
+        "title": "Best weapons in Star Wars Zero Company",
+        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-weapons",
+        "date": 1787842800000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      },
+      {
+        "title": "Best Talents in Star Wars Zero Company",
+        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-talents",
+        "date": 1787842800000,
+        "domain": "gamesradar.com",
+        "sourceName": "GamesRadar+",
+        "isTranslated": false
+      }
+    ]
   },
   {
     "title": "Development of the struggling FPS games ``Splitgate: Arena Reloaded'' and ``EMPULSE'' has ended. Unable to cover server maintenance costs anymore, developer announces “change of direction”",
@@ -1809,7 +1790,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.424
+    "hotScore": 0.422
   },
   {
     "title": "How many games can you identify just from a screenshot of their water?",
@@ -1818,7 +1799,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.433
+    "hotScore": 0.431
   },
   {
     "title": "Double Fine Productions Makes Brutal Legend Free for 666 Minutes to Honor Tim Curry",
@@ -1827,7 +1808,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.87,
+    "hotScore": 0.866,
     "groupMembers": [
       {
         "title": "Double Fine made Brutal Legend free for a fitting 666 minutes in tribute to Tim Curry, who played the game's antagonist",
@@ -1846,7 +1827,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.442
+    "hotScore": 0.44
   },
   {
     "title": "“Guns of Escaton”, a Western soul-like FPS about a “multi-armed gunman”, will be released in 2026. Shoot through strange enemies with a “one bullet at a time” build",
@@ -1855,7 +1836,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.444
+    "hotScore": 0.442
   },
   {
     "title": "Amid the friendslop renaissance, $5 co-op fishing game hits 370,000 peak players on Steam in 5 days",
@@ -1864,7 +1845,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.446
+    "hotScore": 0.444
   },
   {
     "title": "It’s A Good Week If You Like Games That Let You Play As An Animal",
@@ -1873,7 +1854,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.447
+    "hotScore": 0.445
   },
   {
     "title": "Mobile game sales analysis (August 13, 2026 - August 19, 2026). This week's number one is \"FGO\". Introducing the highest earning titles from April to June in each country",
@@ -1882,7 +1863,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.447
+    "hotScore": 0.445
   },
   {
     "title": "The latest installment of the popular tower defense game ``PixelJunk Monsters 3'' has been announced. The sequel, which has sold over 1 million copies in the series, uses roguelike elements, greatly improving strategy and replayability.",
@@ -1891,7 +1872,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.894,
+    "hotScore": 0.89,
     "groupMembers": [
       {
         "title": "The latest installment of the tower defense series, \"PixelJunk Monsters 3,\" has been announced. A playtest of the 20th anniversary of the series will be held from September 4th.",
@@ -1910,7 +1891,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.455
+    "hotScore": 0.453
   },
   {
     "title": "Warhammer 40K FPS 'Boltgun' Locks In Sequel For Switch 2",
@@ -1919,7 +1900,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.918,
+    "hotScore": 0.914,
     "groupMembers": [
       {
         "title": "Warhammer 40,000: Boltgun 2, a retro FPS sequel where you mow down enemies, will be released on October 14th. New elements such as playable characters added, crush enemies with overwhelming violence",
@@ -1938,7 +1919,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.471
+    "hotScore": 0.469
   },
   {
     "title": "RPG Maker U2U key visual revealed, Steam page opened",
@@ -1947,7 +1928,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.943,
+    "hotScore": 0.939,
     "groupMembers": [
       {
         "title": "\"RPG Maker U2U\" Steam store page opened. The key visual for the game has also been released.",
@@ -1966,7 +1947,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.951,
+    "hotScore": 0.946,
     "groupMembers": [
       {
         "title": "Heavy metal action \"Brütal Legend\" will be distributed free of charge for \"666 minutes only\" on itch.io. Tim Curry, who played the role of the Evil Emperor, dedicates ``The Devil's Number'' after news of his death",
@@ -1985,7 +1966,7 @@
     "domain": "store.steampowered.com",
     "sourceName": "Steam News",
     "isTranslated": false,
-    "hotScore": 0.482,
+    "hotScore": 0.479,
     "groupMembers": [
       {
         "title": "Steam Client Beta - August 26th",
@@ -2004,7 +1985,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.484
+    "hotScore": 0.482
   },
   {
     "title": "``Sweetheart'', a horror story about a couple breaking up in 2015, announced, to be released in 2027. Escape from the “monster girlfriend” in the longed-for love nest that has turned into another world.",
@@ -2013,7 +1994,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.496
+    "hotScore": 0.494
   },
   {
     "title": "Danshoku Dino's Game Hihyo Zero: Episode 904 \"I've been living a real life\"",
@@ -2022,7 +2003,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.497
+    "hotScore": 0.495
   },
   {
     "title": "Gnosia Is Streaming Its Among Us-Like, Fully Improvised Stage Show For Free",
@@ -2031,7 +2012,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.497
+    "hotScore": 0.495
   },
   {
     "title": "Announcement of the game ``Volvy's Adventure Relimed,'' which boasts that it will be released on the same day as ``GTA 6.'' Devolver's \"Challenge\" is finally unveiled, and the mysterious mascot Volvy makes his debut in the game with much fanfare",
@@ -2040,7 +2021,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.501
+    "hotScore": 0.499
   },
   {
     "title": "Aeruta for PS5, PS4, and Switch launches December 10",
@@ -2049,7 +2030,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.501
+    "hotScore": 0.499
   },
   {
     "title": "``Crazy Taxi: World Tour'', information on new map ``Germany'' released. Cathedrals, castles, and autobahns appear",
@@ -2058,7 +2039,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.504
+    "hotScore": 0.502
   },
   {
     "title": "NBA 2K27 Confirms 60 FPS Performance Mode For Switch 2",
@@ -2067,7 +2048,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.511
+    "hotScore": 0.508
   },
   {
     "title": "Nomura: Kingdom Hearts 4 Trades Disney Worlds for More Detail",
@@ -2076,7 +2057,7 @@
     "domain": "dualshockers.com",
     "sourceName": "DualShockers",
     "isTranslated": false,
-    "hotScore": 1.027,
+    "hotScore": 1.022,
     "groupMembers": [
       {
         "title": "Tetsuya Nomura Says Kingdom Hearts 4 Will Have Fewer Worlds Than Previous Games Because Each One Is More Detailed Than Ever",
@@ -2095,7 +2076,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.515
+    "hotScore": 0.513
   },
   {
     "title": "\"METAL GEAR SOLID: MASTER COLLECTION Vol.2\" released today. In addition to \"MGS4\", \"MGSPW\", and \"MGGB\", a wealth of digital content is also included.",
@@ -2104,7 +2085,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.516
+    "hotScore": 0.514
   },
   {
     "title": "General sales of the professional version of \"Hiragana Mahjong Hiragajan\" began in September. A full-scale set compatible with fully automatic mahjong tables for home use with 28mm tiles.",
@@ -2113,7 +2094,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.517
+    "hotScore": 0.514
   },
   {
     "title": "An ambitious work that combines a microscopic colony sim with a macroscopic 4X strategy. “CONQUISTA: Tide of Wills” advance play [gamescom]",
@@ -2122,7 +2103,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1.049,
+    "hotScore": 1.044,
     "groupMembers": [
       {
         "title": "Announcement of ``Conquista: Tide of Wills'', a national strategy in which each citizen has a ``will''. Rumors lead to rebellion, war grudges become the next spark, and the people create a nation that drives history.",
@@ -2149,7 +2130,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.524
+    "hotScore": 0.522
   },
   {
     "title": "Announcement of occult horror “Shikai”, a “ghost story that involves players”. Stories of “mysteries” that cannot be explained by science, told by science ADV staff such as “STEINS;GATE”",
@@ -2158,7 +2139,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.524
+    "hotScore": 0.522
   },
   {
     "title": "\"PS Plus Free Play\" for PS5/PS4 will distribute the popular 16-bit style RPG \"Chained Echoes\" in September. Fluffy open world free living games are also included in Flip",
@@ -2167,7 +2148,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.525
+    "hotScore": 0.523
   },
   {
     "title": "A new feature has been announced for Xbox that allows you to digitally license your physical discs. Testing starts for XBOX Insiders from August 31st",
@@ -2176,7 +2157,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.528
+    "hotScore": 0.526
   },
   {
     "title": "The Metroidvania ``Chronoscript'', which runs ``inside manuscript paper,'' has a gorgeous and extravagant production. I traveled through super detailed art consisting of a 2D labyrinth and a 3D Western-style mansion.",
@@ -2185,7 +2166,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.53
+    "hotScore": 0.527
   },
   {
     "title": "“Crazy Taxi: World Tour” hits full throttle with “Ya-Ya-Ya-Ya-Ya,” but it also stalls in the “World” part.",
@@ -2194,7 +2175,7 @@
     "domain": "jp.ign.com",
     "sourceName": "IGN Japan",
     "isTranslated": true,
-    "hotScore": 0.534
+    "hotScore": 0.532
   },
   {
     "title": "In the soul-swapping horror film ``UN:Me'', you will be exposed to someone else's trauma head-on. A terrifying labyrinth that moves forward while swapping souls in the body, which soul will you leave behind at the end?",
@@ -2203,7 +2184,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.535
+    "hotScore": 0.533
   },
   {
     "title": "Donutal launches September 3",
@@ -2212,7 +2193,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.077,
+    "hotScore": 1.072,
     "groupMembers": [
       {
         "title": "“Donutal”, an alien examination adventure that reveals the true identity through “dialogue”, will be released on Steam on September 4th",
@@ -2231,7 +2212,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.539
+    "hotScore": 0.536
   },
   {
     "title": "Monster breeding survival craft \"Wild Wild Eden\" is more fantasy and self-paced than expected. Automation & adventure life with your favorite child",
@@ -2240,7 +2221,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.54
+    "hotScore": 0.538
   },
   {
     "title": "MAGES. announces occult suspense visual novel Seeker Eye for PS5, Switch",
@@ -2249,7 +2230,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.541
+    "hotScore": 0.539
   },
   {
     "title": "“Aloft” releases major content update “Discovery & Ancestry”. Introducing wind spirits, new biomes, and more",
@@ -2258,7 +2239,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.545
+    "hotScore": 0.543
   },
   {
     "title": "The high-speed battle ball game action game ``BAKUDO'' was a ball game, but it was so difficult that it made you feel like you were dying. A ball sport where spears and lightning rain down for some reason, testing your reflexes",
@@ -2267,7 +2248,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.547
+    "hotScore": 0.545
   },
   {
     "title": "\"Pizza Delivery\" released today. A narrative adventure that unravels the story of people living in a mysterious world while sharing pizza.",
@@ -2276,7 +2257,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.548
+    "hotScore": 0.545
   },
   {
     "title": "Fantasy war simulation \"Brigandine Abyss\" released today. At TGS 2026, we will carry out a special project to diagnose recommended forces using AR monitor",
@@ -2285,7 +2266,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.553
+    "hotScore": 0.55
   },
   {
     "title": "Alchemy RPG \"Atelier Wrestleriana\" service will end on November 25th. A large collection of characters from the past at Atelier, a story spanning about 3 years comes to an end.",
@@ -2294,7 +2275,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 1.111,
+    "hotScore": 1.106,
     "groupMembers": [
       {
         "title": "\"Atelier Wrestleriana\" service ends at 16:00 on November 25th",
@@ -2313,7 +2294,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.556
+    "hotScore": 0.553
   },
   {
     "title": "Make good use of strange phenomena to liven up your broadcast!　Horror SLG “On Streaming”, Steam store page released",
@@ -2322,7 +2303,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.557
+    "hotScore": 0.554
   },
   {
     "title": "Total sales of the Harsh Girl's Defense STG series ``Molten Marfusha'' and ``Sunejinka of Salvation'' exceeded 500,000 units. It sold slowly and finally reached half a million.",
@@ -2331,7 +2312,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.561
+    "hotScore": 0.558
   },
   {
     "title": "Coordination inspired by Disney characters such as “Onegai Ipuri” and “Ipuri Reverse” will be available this winter. The first one is Mickey Mouse and Minnie Mouse",
@@ -2340,7 +2321,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.571
+    "hotScore": 0.568
   },
   {
     "title": "\"Chronicles: Medieval\" preview: As rich and complex as it looks - a medieval tactics simulator packed with history geeks' dreams | gamescom 2026",
@@ -2349,7 +2330,7 @@
     "domain": "jp.ign.com",
     "sourceName": "IGN Japan",
     "isTranslated": true,
-    "hotScore": 0.574
+    "hotScore": 0.572
   },
   {
     "title": "Completely new work \"Peeking Monster\" will be released this winter. “Non” scientific suspense ADV produced by staff such as “STEINS;GATE”",
@@ -2358,7 +2339,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.576
+    "hotScore": 0.573
   },
   {
     "title": "Announcement of \"Dumpster Gang\", a cooperative multi-player burglary game. Experience a raccoon that loves humans by stealing roots, destroying homes, and attacking exterminators.",
@@ -2367,7 +2348,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.576
+    "hotScore": 0.574
   },
   {
     "title": "“Used price over 40,000 yen” RPG “Buzz!” “Magical World” will be reprinted for the first time in a Dengeki series. Character designer Akihiro Yamada's hidden popular work is revived for Nintendo Switch",
@@ -2376,7 +2357,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.581
+    "hotScore": 0.579
   },
   {
     "title": "The stage features the corpse of the giant who created the world. Action RPG based on Chinese creation myths, “Ancient God: Nen’u” aims to be a “Chinese version of God of War” [gamescom]",
@@ -2385,7 +2366,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.581
+    "hotScore": 0.579
   },
   {
     "title": "Thatgamecompany, creators of ``Sky: Children of the Stars'' and ``Kaze no Tabibito,'' has established a publishing label. Specializing in ambitious games that appeal to emotions",
@@ -2394,7 +2375,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.586
+    "hotScore": 0.583
   },
   {
     "title": "Bakery management x dungeon exploration ARPG \"Aeruta\" Switch/PS5/PS4 version will be released on December 10th. 'Very well-received' kemomimi girl comes to consoles",
@@ -2403,7 +2384,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.59
+    "hotScore": 0.588
   },
   {
     "title": "Koei Tecmo’s Atelier Resleriana to end services in Japan on November 25",
@@ -2412,7 +2393,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.591
+    "hotScore": 0.588
   },
   {
     "title": "Large-scale update distribution for Sky Island Survival Craft “Aloft” “last before official release”. Finally, a “completely open world” and free air travel",
@@ -2421,7 +2402,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.598
+    "hotScore": 0.595
   },
   {
     "title": "\"EGG Console Puyo Puyo PC-9801\" distribution started. Reproduce the specifications unique to the PC-9801 version, where the notice Puyo is lined up on the left and right edges",
@@ -2430,7 +2411,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.599
+    "hotScore": 0.596
   },
   {
     "title": "Alien “Star Entrance Examination” Game “Donnatal” to be released on September 4th. Arc System Works releases an examination to determine the true identity of ``dangerous aliens'' based on their conversation and attitude",
@@ -2439,7 +2420,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.6
+    "hotScore": 0.597
   },
   {
     "title": "13Z: The Zodiac Trials coming to PS5, Switch 2 on January 14, 2027",
@@ -2448,7 +2429,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.199,
+    "hotScore": 1.194,
     "groupMembers": [
       {
         "title": "Up to 4-player cooperative roguelike action game ``13Z -Jūsanza Senki-'' will be released on January 14th next year for Switch 2/PS5. Take on the challenges of the zodiac as a fox-eared girl or a panda",
@@ -2467,7 +2448,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.605
+    "hotScore": 0.602
   },
   {
     "title": "“Debt of Life”, a “life extension” sim about a wealthy man with only a short time left to live, will be released on September 4th. Sacrificing something important to raise the cost of treatment, days of conflict over ``life span or family''",
@@ -2476,7 +2457,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.61
+    "hotScore": 0.607
   },
   {
     "title": "\"Genshin\" style dark fantasy action - HoYoverse's highly anticipated \"Nodus Fall\" hands-on preview [gamescom 2026]",
@@ -2485,7 +2466,7 @@
     "domain": "jp.ign.com",
     "sourceName": "IGN Japan",
     "isTranslated": true,
-    "hotScore": 0.616
+    "hotScore": 0.613
   },
   {
     "title": "Which is the best NBA 2K27 MyCareer difficulty",
@@ -2494,7 +2475,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.616
+    "hotScore": 0.613
   },
   {
     "title": "“GCEXPO 2026 in Nagoya”, a joint company information session connecting gamer job hunters and companies, will be held on October 4th. Co-hosted by ctc, JeSU Aichi, and FENNEL",
@@ -2503,7 +2484,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.62
+    "hotScore": 0.617
   },
   {
     "title": "Next to the murderer is the evil god Cthulhu!? The shadow of an evil cult stands in the way of the love between these girls. Injumura Horror Romance ADV “Blood Lily Cthulhu Mythos” announced",
@@ -2512,7 +2493,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.623
+    "hotScore": 0.62
   },
   {
     "title": "Happinet announces TGS 2026 lineup",
@@ -2521,7 +2502,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.624,
+    "hotScore": 0.621,
     "groupMembers": [
       {
         "title": "Konami announces TGS 2026 lineup",
@@ -2548,7 +2529,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.63
+    "hotScore": 0.627
   },
   {
     "title": "Basic free-to-play “Taipa-focused” monster training RPG “Ruumi Master” will be officially released on September 17th. Easy to operate and train, ``over 100 types'' Ruumi battle & development life",
@@ -2557,7 +2538,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.641
+    "hotScore": 0.638
   },
   {
     "title": "Crazy Taxi World Tour feels like the offspring of the original Crazy Taxi and Forza Horizon, in the best way",
@@ -2566,7 +2547,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.641
+    "hotScore": 0.638
   },
   {
     "title": "Heroes are \"those who work in the field.\" Presentation and hands-on report of “Exterminauts”, a cooperative shooter who goes to work on a dangerous planet [gamescom]",
@@ -2575,7 +2556,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.659
+    "hotScore": 0.656
   },
   {
     "title": "LG's 24.5-inch display \"25G590B-B\" compatible with full HD up to 1000Hz display will be released on October 1st",
@@ -2584,7 +2565,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.661
+    "hotScore": 0.658
   },
   {
     "title": "When and where to watch the GTA 6 gameplay reveal on August 27",
@@ -2593,7 +2574,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.667
+    "hotScore": 0.664
   },
   {
     "title": "Silicon Studio establishes \"Government Business Promotion Office\" on September 1st to strengthen business development and proposal activities in government offices and the public sector",
@@ -2602,7 +2583,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.673
+    "hotScore": 0.669
   },
   {
     "title": "A free large-scale update for the uncle brawl party action game “BLOKES on BLOCKS!” will be released on September 3rd. “Everyone is an old man” on the screen, a fierce middle-aged battle",
@@ -2611,7 +2592,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.673
+    "hotScore": 0.67
   },
   {
     "title": "Xbox to focus on \"efficiency and affordability alongside performance\" for next-gen console amid rising hardware costs and innovations in AI",
@@ -2620,7 +2601,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.678
+    "hotScore": 0.675
   },
   {
     "title": "Sony Pictures' \"Spider-Man: Brand New Day\" exceeds 5 billion yen in domestic box office revenue; global box office revenue will soon exceed that of \"Titanic\"",
@@ -2629,7 +2610,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.679
+    "hotScore": 0.675
   },
   {
     "title": "“Touhou: Lost Branch of Legend” released today. A Touhou derivative roguelike where you build a deck with 5 characters and a variety of cards.",
@@ -2638,7 +2619,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1.369,
+    "hotScore": 1.363,
     "groupMembers": [
       {
         "title": "Phoenixx releases “Touhou: Lost Branch of Legend” for Switch today! A deck-building roguelike card game woven from Touhou derivative works.",
@@ -2657,7 +2638,7 @@
     "domain": "polygon.com",
     "sourceName": "Polygon",
     "isTranslated": false,
-    "hotScore": 0.685
+    "hotScore": 0.682
   },
   {
     "title": "Square Enix's \"7th Anniversary Set\" which includes \"Slime Uiro\" and \"Slime Manju\" will be on sale from September 12th",
@@ -2666,7 +2647,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.686
+    "hotScore": 0.683
   },
   {
     "title": "Persona 4 Revival with Kazuhisa Wada: Rebuilding a Classic for Today | Official XBOX Podcast",
@@ -2675,7 +2656,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.688
+    "hotScore": 0.685
   },
   {
     "title": "[Personnel] Voltage establishes a new Director and CFO position with the aim of enhancing financial strategy. Yusuke Kawanishi, Audit and Supervisory Committee Member (part-time), has been appointed.",
@@ -2684,7 +2665,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.691
+    "hotScore": 0.688
   },
   {
     "title": "Game development studio Icycozy will release cat room simulation “Neko Room Biyori” in fall 2026. Slowly create a room for cats",
@@ -2693,7 +2674,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.695
+    "hotScore": 0.692
   },
   {
     "title": "Burdened with $1 million in debt, the only thing he can rely on is his disco ball. Steam store page for \"Disco Ball Simulator 2000\", an incremental game that lets you make money by exciting the dance floor, is now available",
@@ -2702,7 +2683,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.696
+    "hotScore": 0.692
   },
   {
     "title": "LogicLinks adds \"Dot Abyss\" as content eligible for count-free option of MVNO service \"LinksMate\"",
@@ -2711,7 +2692,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.705
+    "hotScore": 0.702
   },
   {
     "title": "coly holds a special real gift campaign as the number of pre-registered users for \"Disney Sparklink Stars\" exceeds 500,000",
@@ -2720,7 +2701,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.706
+    "hotScore": 0.703
   },
   {
     "title": "Basic free game history management tool \"PULSE\" large update now supports \"PSN synchronization\". Quickly record your impressions and receive personalized news.",
@@ -2729,7 +2710,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.707
+    "hotScore": 0.704
   },
   {
     "title": "TGS 2026, special website for Sega/Atlas booth has been released. Developing multiple titles including new titles such as “STRANGER THAN HEAVEN” and “Persona 4 Revival”",
@@ -2738,7 +2719,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 1.424,
+    "hotScore": 1.417,
     "groupMembers": [
       {
         "title": "Sega/Atlus releases special website for “Tokyo Game Show 2026”…Many titles including “STRANGER THAN HEAVEN” and “Persona 4 Revival” will be exhibited",
@@ -2757,7 +2738,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.714
+    "hotScore": 0.711
   },
   {
     "title": "World's fastest trial of HoYoverse's new work \"Nodus Fall\"! A collaborative action action game where you challenge beasts and dragons with divine skills [gamescom]",
@@ -2766,7 +2747,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.715
+    "hotScore": 0.712
   },
   {
     "title": "GTA 6 life simulation elements confirmed: thank god, we can turn the offensively hot Jason and Lucia into exhausted slobs like the rest of us",
@@ -2775,7 +2756,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.717
+    "hotScore": 0.714
   },
   {
     "title": "The ``Narushio'' concert was also a story. “Those feelings” come back to life with beautiful music and a passionate set list.",
@@ -2784,7 +2765,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.718
+    "hotScore": 0.715
   },
   {
     "title": "PSA: Modern Warfare 4's Switch 2 Retail Version Is A Code-In-A-Box",
@@ -2793,7 +2774,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.722
+    "hotScore": 0.719
   },
   {
     "title": "I Played Exodus, And My Favorite Part Was The Talking Space Frogs",
@@ -2802,7 +2783,7 @@
     "domain": "gameinformer.com",
     "sourceName": "Game Informer",
     "isTranslated": false,
-    "hotScore": 0.722
+    "hotScore": 0.719
   },
   {
     "title": "The official August newsletter for Steam’s chaotic roguelike Elin has been released. Little Sister-roids combine into a giant Little Sister called “Imoutomaton” and attack!",
@@ -2811,7 +2792,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.722,
+    "hotScore": 0.719,
     "groupMembers": [
       {
         "title": "Steam free roguelike “Elin” official newsletter August issue released. Sister Lloyd merges, giant “sister” “Immortmaton” attacks",
@@ -2830,7 +2811,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.722
+    "hotScore": 0.719
   },
   {
     "title": "European Games Developer Federation announces 2026-28 board, Hendrik Lesser re-elected as president",
@@ -2839,7 +2820,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.726
+    "hotScore": 0.722
   },
   {
     "title": "The final chapter of \"Before Crisis\" will be released in \"FF7 Ever Crisis\". Relive the flip phone RPG from over 20 years ago, and you'll only be able to see everything about FF7 in about a month",
@@ -2848,7 +2829,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.727
+    "hotScore": 0.724
   },
   {
     "title": "TOKYO MX and FIXER jointly develop “GaiXer Review Agent”, an AI review system compatible with long-form TV programs and TV commercials",
@@ -2857,7 +2838,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.727
+    "hotScore": 0.724
   },
   {
     "title": "Level Infinite and Behavior Interactive Introduce Exterminauts, New Cooperative TPS PvE Shooter for PC and Consoles",
@@ -2866,7 +2847,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.729
+    "hotScore": 0.726
   },
   {
     "title": "[Summary of financial results ②] In the April-June 2016 financial results of 36 game-related companies, the number of operating deficits decreased to 7 companies. Cave returned to profitability after liquidating unprofitable titles. Coy advanced development costs for new game \"Sparik\"",
@@ -2875,7 +2856,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.731
+    "hotScore": 0.727
   },
   {
     "title": "Play the long-awaited latest series \"Gears of War: E-Day\" at the fastest speed. Depicts the confusion of humanity in the face of an unknown tragedy [gamescom]",
@@ -2884,7 +2865,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.731
+    "hotScore": 0.728
   },
   {
     "title": "Distribution of robot girl ADV “COCORO” starring Hina Hitsujimiya begins. A summer of boys and girls in a world where AI has gone out of control, written by the scenario writer of “ATRI” and “GINKA”",
@@ -2893,7 +2874,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.737
+    "hotScore": 0.733
   },
   {
     "title": "2026 Demacia Cup Global Invitational To See Mid-Table Teams Compete in International Tournament",
@@ -2902,7 +2883,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.74
+    "hotScore": 0.737
   },
   {
     "title": "The Witcher 3 Remastered includes work from a top modder, as CD Projekt Red follow the path they walked with the RPG's next-gen update",
@@ -2911,7 +2892,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 1.483,
+    "hotScore": 1.476,
     "groupMembers": [
       {
         "title": "The Witcher 3 Remastered features community-made mods, modder speaks about working with CD Projekt Red",
@@ -2930,7 +2911,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.743
+    "hotScore": 0.739
   },
   {
     "title": "Xiaomi introduces the middle-class smartphone \"REDMI Note 17 Pro Max 5G\" with a built-in 10000mAh battery equivalent to a mobile battery",
@@ -2939,7 +2920,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.743
+    "hotScore": 0.739
   },
   {
     "title": "Bethesda Is Giving Away Free Copies of The Elder Scrolls Online with This New Fantasy Novel",
@@ -2948,7 +2929,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.743
+    "hotScore": 0.739
   },
   {
     "title": "Bushiroad Creative will hold “Love Live! Series Official Card Game POP UP STORE ~Royal Holiday~” from September 11th (Friday)",
@@ -2957,7 +2938,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.744
+    "hotScore": 0.74
   },
   {
     "title": "Steins;Gate’s studio unveils new “non-science” occult visual novel based on an in-house ghost story, set to release this winter",
@@ -2966,7 +2947,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.746
+    "hotScore": 0.742
   },
   {
     "title": "All Phasmophobia Brownstone High School Restricted Cursed Possession locations",
@@ -2975,7 +2956,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 1.493,
+    "hotScore": 1.486,
     "groupMembers": [
       {
         "title": "All Restricted Map Cursed Object Locations In Phasmophobia",
@@ -3002,7 +2983,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.746
+    "hotScore": 0.743
   },
   {
     "title": "It is predicted that ``Grand Theft Auto VI (GTA 6)'' alone will cause ``a strong rise in the console market this year.'' Global one-time game sales are likely to grow by about 18%",
@@ -3011,7 +2992,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.747
+    "hotScore": 0.744
   },
   {
     "title": "GTA 6 officially has character weight and exercise systems, and even \"multi-day benders\" reportedly have a visible effect",
@@ -3020,7 +3001,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.748
+    "hotScore": 0.745
   },
   {
     "title": "Witcher 3 devs actually used the game’s most popular mods for the remaster",
@@ -3029,7 +3010,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.751
+    "hotScore": 0.748
   },
   {
     "title": "Stellar Blade Will Be Playable On Switch 2 At Tokyo Game Show 2026",
@@ -3038,7 +3019,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.752
+    "hotScore": 0.748
   },
   {
     "title": "Konami Arcade Games is holding a collaboration event between the “BEMANI” series and “Hololive Dreams”!",
@@ -3047,7 +3028,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.752
+    "hotScore": 0.748
   },
   {
     "title": "\"Dragon's Dogma 2\" free large update will be released on September 2nd. Pawns are smart and custom skill range expansion expands the range of play, and recovery items appear in \"Dragon Possession\"",
@@ -3056,7 +3037,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.754
+    "hotScore": 0.751
   },
   {
     "title": "GTA 6 gameplay details revealed in new preview, including seamless character switching, playing as a couple and more",
@@ -3065,7 +3046,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.756
+    "hotScore": 0.752
   },
   {
     "title": "GTA 6 promises big consequences for your actions that go beyond Red Dead Redemption 2's honor system",
@@ -3074,7 +3055,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.757
+    "hotScore": 0.754
   },
   {
     "title": "Japanese dystopian shooter series Sentinel Girls sells over 500k copies, coinciding with the first game’s 5th anniversary",
@@ -3083,7 +3064,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.757
+    "hotScore": 0.754
   },
   {
     "title": "Switch2 version \"Stellar Blade Complete Edition\", world's first public trial exhibition at TGS 2026. Kim Hyun Tae's special stage will also be held.",
@@ -3092,7 +3073,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.757
+    "hotScore": 0.754
   },
   {
     "title": "From rifles to positron cannons, destroy hordes of enemies while evolving your mecha. Vansava action game “Iron Grave: Planet 9”, Steam store page released",
@@ -3101,7 +3082,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.759
+    "hotScore": 0.756
   },
   {
     "title": "RAFTON will release the latest videos of 5 new titles scheduled for release at \"gamescom 2026\"",
@@ -3110,7 +3091,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 1.521,
+    "hotScore": 1.514,
     "groupMembers": [
       {
         "title": "KRAFTON releases the latest videos of 5 new titles at gamescom 2026",
@@ -3129,7 +3110,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.762
+    "hotScore": 0.758
   },
   {
     "title": "Feature: 15 New Xbox Games Are Releasing Today, Plus A Day One Game Pass Launch",
@@ -3138,7 +3119,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.763
+    "hotScore": 0.76
   },
   {
     "title": "The retro-style dark hack and slash game ``Shadow Dungeon'' was a huge success from the first day. Easy to use multiple skills with one button, unstoppable digging of “over 100 million types” of equipment",
@@ -3147,7 +3128,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.763
+    "hotScore": 0.76
   },
   {
     "title": "Xbox announces disc-to-digital feature that lets you digitise physical Xbox One and Series X games",
@@ -3156,7 +3137,16 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.764
+    "hotScore": 0.761
+  },
+  {
+    "title": "Information and story trailer for Kanji Tatsumi, Kuma, and Naoto Shirakane who appear in \"Persona 4 Revival\" have been released",
+    "link": "https://www.4gamer.net/games/918/G091829/20260827040",
+    "date": 1787825425000,
+    "domain": "4gamer.net",
+    "sourceName": "4Gamer.net",
+    "isTranslated": true,
+    "hotScore": 0.765
   },
   {
     "title": "EXNOA releases store service “GAMES STORE” for iOS on August 31st",
@@ -3165,7 +3155,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.769
+    "hotScore": 0.766
   },
   {
     "title": "``Procure products on your own'' Dungeon Hack & Slash x Store Management ``Fell & Sell'' is an immediate success on Steam. If you die, you're lost, a roguelike where the shop owner risks his own life to purchase items.",
@@ -3174,7 +3164,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.77
+    "hotScore": 0.766
   },
   {
     "title": "Kingdom Hearts 4 \"will be ready well before the release date,\" Tetsuya Nomura says, as the JRPG's development is going smoother than it has \"in the history\" of the series",
@@ -3183,7 +3173,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 2.312,
+    "hotScore": 2.301,
     "groupMembers": [
       {
         "title": "Kingdom Hearts 4 script \"almost twice as big\" as KH3's, Tetsuya Nomura says: \"There were more parts that I wanted to include, but I was already pushing it\"",
@@ -3218,7 +3208,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 0.772
+    "hotScore": 0.768
   },
   {
     "title": "The Witcher 3 Remastered sees CD Projekt Red work with one of the RPG's most beloved modders to make his work \"officially available in the game\"",
@@ -3227,7 +3217,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.772
+    "hotScore": 0.769
   },
   {
     "title": "“1666: Amsterdam” is a long-awaited work that has been in the works for 15 years, and Mr. Desiree, the creator of “Asakuri”, talks about its revival and one-year plans [gamescom]",
@@ -3236,7 +3226,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.774
+    "hotScore": 0.77
   },
   {
     "title": "After Olden Era, Ubisoft says Heroes of Might and Magic 3 Remake is \"part of a bigger strategy\" to revive the \"dormant\" strategy series",
@@ -3245,7 +3235,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.776
+    "hotScore": 0.772
   },
   {
     "title": "Total War: Warhammer 40k will let you stuff your 'almost dead' Space Marine characters into Dreadnoughts so they can keep fighting",
@@ -3254,7 +3244,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.779
+    "hotScore": 0.776
   },
   {
     "title": "Dispatch Is Getting A Super Steelbook Release On Switch 2",
@@ -3263,7 +3253,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.782
+    "hotScore": 0.779
   },
   {
     "title": "After giving up its amusement facilities, SEGA's next \"real contact point\" will be a store... \"SEGA STORE OSAKA\" to open in October",
@@ -3272,7 +3262,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.782
+    "hotScore": 0.779
   },
   {
     "title": "“Shadow WB”, new card pack “Azvolt Revenant” added today. Contains the characters ``Gujin'' and ``Enforcer'' who were popular in the previous work.",
@@ -3281,7 +3271,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.784
+    "hotScore": 0.78
   },
   {
     "title": "\"We view AI as a sliding scale. There will always be a human in the loop; that's our ethos\": Why Side has signed an MOU with Modl.ai to use AI for QA",
@@ -3290,7 +3280,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.785
+    "hotScore": 0.782
   },
   {
     "title": "\"Disney Pop Town\" service will end at 11:00 on October 28, 2026. We have stopped selling paid rubies and started accepting refunds.",
@@ -3299,7 +3289,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.788
+    "hotScore": 0.784
   },
   {
     "title": "Com2uS Japan officially releases Metroidvania ``Fatal Claw'' on Steam, which explores an unknown underground world",
@@ -3308,7 +3298,7 @@
     "domain": "gamebiz.jp",
     "sourceName": "GameBiz",
     "isTranslated": true,
-    "hotScore": 0.792
+    "hotScore": 0.788
   },
   {
     "title": "Roblox to establish Saudi Arabia headquarters to support MENA creators",
@@ -3317,7 +3307,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.792
+    "hotScore": 0.789
   },
   {
     "title": "In the first major update for Elden Ring in a while, the Great Shield is being strengthened, strengthened, and lightened. Various adjustments such as parry reinforcement and Ryomon weapon firepower increase",
@@ -3326,7 +3316,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.793
+    "hotScore": 0.789
   },
   {
     "title": "Jump up and down, peck at it, hold it in your mouth, and make a sound. “Bad Magpie” is a magpie’s love of glitter that moves the world [gamescom]",
@@ -3335,7 +3325,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.794
+    "hotScore": 0.79
   },
   {
     "title": "Is there a murderer among these? SFADV “Platonica Space”, in which people who have lost their memories aim to escape from a room with no exit, releases Switch version",
@@ -3344,7 +3334,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.795
+    "hotScore": 0.791
   },
   {
     "title": "Nvidia says it would be making a whole lot more money if it weren't for the memory crisis it's contributing to",
@@ -3353,7 +3343,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.796
+    "hotScore": 0.792
   },
   {
     "title": "Rumored to release \"bi-fold iPhone\" Apple announces online event on September 10th",
@@ -3362,7 +3352,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.796
+    "hotScore": 0.792
   },
   {
     "title": "\"Proseca\" releases various new information including provision of newly written songs by Amala Amara and Satsuki",
@@ -3371,7 +3361,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.799
+    "hotScore": 0.795
   },
   {
     "title": "There are rumors that ``Final Fantasy VII: Revelation'' is likely to have scenes for adults. Paranoia over “temporary 17+ rating”",
@@ -3380,7 +3370,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.801
+    "hotScore": 0.797
   },
   {
     "title": "Gravhounds Revealed: Co-op Chaos with Bio-Engineered Dogs in Space",
@@ -3389,7 +3379,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.803
+    "hotScore": 0.8
   },
   {
     "title": "In Washagana TV's latest video, we invite novelist Shoji Gato as a guest to introduce his latest work \"Kidou Tensei\"",
@@ -3398,7 +3388,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.803
+    "hotScore": 0.8
   },
   {
     "title": "Nijisanji's new livers, Taiga Kaminaga and Ryuichiro Yamada, made their debut today. Active as the unit “RhyZyGy”",
@@ -3407,7 +3397,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.804
+    "hotScore": 0.8
   },
   {
     "title": "Project Motor Racing Adding Nine New Cars, New Track Next Month",
@@ -3416,7 +3406,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.805
+    "hotScore": 0.802
   },
   {
     "title": "A New, Fictional Superplane in Ace Combat 8 Has Partially Leaked",
@@ -3425,7 +3415,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.806
+    "hotScore": 0.803
   },
   {
     "title": "\"Cenkuro\", main story \"Fina and the Scarlet Chronicles Part 2\" added",
@@ -3434,7 +3424,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.808
+    "hotScore": 0.804
   },
   {
     "title": "\"The things that we based our assumptions on have changed fundamentally\": Arrowhead CEO Shams Jorjani on the games industry's rapid transformation",
@@ -3443,7 +3433,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.811
+    "hotScore": 0.807
   },
   {
     "title": "Final Fantasy 7 Revelation is heading for a more mature rating than Remake and Rebirth, and I'm willing to bet Cid's ceaseless swearing has something to do with it",
@@ -3452,7 +3442,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.812
+    "hotScore": 0.808
   },
   {
     "title": "Nodusfall isn't a gacha game, Mihoyo confirms, because unlike Genshin Impact you'll unlock characters \"through continued play\" instead",
@@ -3461,7 +3451,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.814
+    "hotScore": 0.81
   },
   {
     "title": "Mr. Records Could Be The Next Indie Sleeper Hit On Switch 2",
@@ -3470,7 +3460,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.814
+    "hotScore": 0.81
   },
   {
     "title": "\"All of the industry needs to start to innovate on affordability and efficiency\" - Xbox's Asha Sharma wants change and \"more choice\" for people buying consoles",
@@ -3479,7 +3469,7 @@
     "domain": "eurogamer.net",
     "sourceName": "Eurogamer",
     "isTranslated": false,
-    "hotScore": 0.815
+    "hotScore": 0.811
   },
   {
     "title": "An elementary school girl plays hide-and-seek with her childhood friend and discovers that something is wrong with the town. Mystery horror ADV “Hide and Seek”, main part now available for free",
@@ -3488,7 +3478,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.818
+    "hotScore": 0.814
   },
   {
     "title": "Large drone show “ODAIBA DRONE SHOW 2026” will be held from September 4th",
@@ -3497,7 +3487,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.821
+    "hotScore": 0.817
   },
   {
     "title": "\"We're not doing something that everyone [would] do\": After Cost of Hope, Stalker 2 devs are working on multiplayer which won't be \"session-based\" like Counter Strike",
@@ -3506,7 +3496,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.821
+    "hotScore": 0.818
   },
   {
     "title": "\"Tensei Insurance Co., Ltd. R.I.P\", official version Ver. 1.0 released on September 16th. Added close-range specialized agent “Ling” and endless mode.",
@@ -3515,7 +3505,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.822
+    "hotScore": 0.818
   },
   {
     "title": "Dragon's Dogma 2's Game-Changing PS5 Patch Dated, But Slightly Delayed",
@@ -3524,7 +3514,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.825
+    "hotScore": 0.821
   },
   {
     "title": "Vitality Stunned by Inner Circle on jL’s Vitality Debut",
@@ -3533,7 +3523,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.826
+    "hotScore": 0.822
   },
   {
     "title": "\"GeForce 616.56 Driver\" compatible with \"STAR WARS Zero Company\" etc. is now available",
@@ -3542,7 +3532,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.828
+    "hotScore": 0.825
   },
   {
     "title": "Of course Samsung made a 1,100Hz gaming monitor",
@@ -3551,7 +3541,7 @@
     "domain": "theverge.com",
     "sourceName": "The Verge",
     "isTranslated": false,
-    "hotScore": 0.831
+    "hotScore": 0.827
   },
   {
     "title": "I barely remember the last time Nvidia mentioned gaming at all in an earnings call",
@@ -3560,7 +3550,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.832
+    "hotScore": 0.828
   },
   {
     "title": "Former PlayStation Studios President Praises Xbox’s Solution To A Digital-Only Future",
@@ -3569,7 +3559,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.832
+    "hotScore": 0.828
   },
   {
     "title": "``Road Kings'', a truck simulator that allows you to navigate even rough roads buried in collapsed roads and floods, will be released on March 11, 2027",
@@ -3578,7 +3568,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.832
+    "hotScore": 0.828
   },
   {
     "title": "Towards an era when monarchs fight on their own. Raw Fury's latest side-scrolling strategy simulation game \"Kingdom III: Rising Realms\" has evolved into an aggressive game while maintaining its intuitive controls and beautiful pixel art [gamescom]",
@@ -3587,7 +3577,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.836
+    "hotScore": 0.832
   },
   {
     "title": "The operator of the ``Atelier Ryza'' chat AI app ``RyzaChat:AI'' warns, ``Talk to Ryza within the terms of use.'' In response to the immediate rampant use of “prohibited acts”",
@@ -3596,7 +3586,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.837
+    "hotScore": 0.833
   },
   {
     "title": "I Turned a Skeleton Into a Roast Chicken in Fable, and I’d Do It Again | gamescom 2026",
@@ -3605,7 +3595,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.839
+    "hotScore": 0.835
   },
   {
     "title": "Speedrunner turns one of Metal Gear Solid 4's biggest bosses into a total pushover using the power of Master Collection Vol 2's enhanced framerate",
@@ -3614,7 +3604,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.839
+    "hotScore": 0.836
   },
   {
     "title": "Tides of Annihilation devs are \"continuously monitoring new developments\" in AI technology, but will be using the techniques they \"are the best at\" in development instead",
@@ -3623,7 +3613,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.842
+    "hotScore": 0.838
   },
   {
     "title": "GTA 6 leaker Cyberleek cashing out over $250k from meme coin ahead of Netflix reveal",
@@ -3632,7 +3622,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.845
+    "hotScore": 0.841
   },
   {
     "title": "The Sinking City 2 Salt Storage code",
@@ -3641,7 +3631,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.847,
+    "hotScore": 0.843,
     "groupMembers": [
       {
         "title": "The Sinking City 2 locker room safe code",
@@ -3660,7 +3650,7 @@
     "domain": "news.xbox.com",
     "sourceName": "Xbox Wire",
     "isTranslated": false,
-    "hotScore": 0.847
+    "hotScore": 0.843
   },
   {
     "title": "Review: The Lord Of The Rings: War In The North - Legacy Edition (Switch 2) - A Middling Return To Middle-Earth",
@@ -3669,7 +3659,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.847
+    "hotScore": 0.843
   },
   {
     "title": "The Witcher 3's Phenomenal DLC Is Now Completely Free On Xbox Ahead Of Remaster",
@@ -3678,7 +3668,7 @@
     "domain": "purexbox.com",
     "sourceName": "Pure Xbox",
     "isTranslated": false,
-    "hotScore": 0.847
+    "hotScore": 0.843
   },
   {
     "title": "Drive In The Rain, a Japanese horror road trip simulator with realistic driving mechanics, gets Steam store page",
@@ -3687,7 +3677,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.847
+    "hotScore": 0.843
   },
   {
     "title": "I Spent Hours Tracking Down Big Walk’s Mysterious Flying Folk Hero To Learn His Secret",
@@ -3696,7 +3686,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.848
+    "hotScore": 0.844
   },
   {
     "title": "GTA 6 Wants To Remind You That Looks Matter In The Influencer Hustle Of Vice City",
@@ -3705,7 +3695,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.853
+    "hotScore": 0.849
   },
   {
     "title": "Icon Blue DualSense Controllers Are Finally Available to Purchase in the UK",
@@ -3714,7 +3704,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.855
+    "hotScore": 0.851
   },
   {
     "title": "The release date of the first-person action ADV “Alien Deathstorm” that explores a devastated alien colony is set for spring 2027",
@@ -3723,7 +3713,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.859
+    "hotScore": 0.855
   },
   {
     "title": "On the surface, it's a theme park that exhibits zombies and vampires, but behind the scenes it's a cult operation. Trial version of Monster Park Tycoon, a dark comedy management sim in which not-so-smart people work behind the scenes, is now available",
@@ -3732,7 +3722,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.862
+    "hotScore": 0.858
   },
   {
     "title": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants – Ninja Edition coming to Switch 2 on September 4",
@@ -3741,7 +3731,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 1.727,
+    "hotScore": 1.719,
     "groupMembers": [
       {
         "title": "Beat 'Em Up 'TMNT: Wrath Of The Mutants' Gets A Switch 2 'Ninja Edition' Next Month",
@@ -3760,7 +3750,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.864
+    "hotScore": 0.86
   },
   {
     "title": "Exodus will likely win the Mass Effect spiritual successor war, thanks partly to its Cool Octopus, but I think it has a boring hero problem",
@@ -3769,7 +3759,7 @@
     "domain": "rockpapershotgun.com",
     "sourceName": "Rock Paper Shotgun",
     "isTranslated": false,
-    "hotScore": 0.87
+    "hotScore": 0.866
   },
   {
     "title": "Could NAVI’s EWC Club Championship Success Save Their CS2 Roster?",
@@ -3778,7 +3768,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.872
+    "hotScore": 0.867
   },
   {
     "title": "After rave reviews, Zero Company dev says it would love to make more Star Wars games",
@@ -3787,33 +3777,7 @@
     "domain": "videogameschronicle.com",
     "sourceName": "VGC",
     "isTranslated": false,
-    "hotScore": 2.626,
-    "groupMembers": [
-      {
-        "title": "Star Wars Zero Company Permadeath Guide",
-        "link": "https://gamerant.com/star-wars-zero-company-permadeath-disable-enable",
-        "date": 1787842813000,
-        "domain": "gamerant.com",
-        "sourceName": "Game Rant",
-        "isTranslated": false
-      },
-      {
-        "title": "Best weapons in Star Wars Zero Company",
-        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-weapons",
-        "date": 1787842800000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      },
-      {
-        "title": "Best Talents in Star Wars Zero Company",
-        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-talents",
-        "date": 1787842800000,
-        "domain": "gamesradar.com",
-        "sourceName": "GamesRadar+",
-        "isTranslated": false
-      }
-    ]
+    "hotScore": 0.871
   },
   {
     "title": "All Mean Girls and Clueless kit items in The Sims 4",
@@ -3822,7 +3786,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.876
+    "hotScore": 0.871
   },
   {
     "title": "Xbox Won’t Say If Project Helix Has A Disc Drive, But It’s Not Giving Up On Physical Games Yet",
@@ -3831,7 +3795,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.88
+    "hotScore": 0.876
   },
   {
     "title": "Basic free-to-play open world \"Infinity ANANTA\" advance play impressions. A super high-class gaming experience filled with AAA-class flashy productions",
@@ -3840,7 +3804,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media JP",
     "isTranslated": true,
-    "hotScore": 0.881
+    "hotScore": 0.877
   },
   {
     "title": "Elden Ring’s Messmer The Impaler Actor Is Reportedly In The Running To Be The Next James Bond",
@@ -3849,16 +3813,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.881
-  },
-  {
-    "title": "Critically-Acclaimed The Séance Of Blake Manor Is Coming To Switch 2",
-    "link": "https://www.nintendolife.com/news/2026/08/critically-acclaimed-the-seance-of-blake-manor-is-coming-to-switch-2",
-    "date": 1787834700000,
-    "domain": "nintendolife.com",
-    "sourceName": "Nintendo Life",
-    "isTranslated": false,
-    "hotScore": 0.882
+    "hotScore": 0.877
   },
   {
     "title": "The Battle of the Mass Effect-Likes Continues, as The Expanse: Osiris Reborn Drops New Gameplay",
@@ -3867,16 +3822,16 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.882
+    "hotScore": 0.878
   },
   {
-    "title": "Morrowind RTX Remaster Looks Like Complete Slop",
-    "link": "https://www.thegamer.com/morrowind-rtx-remaster-backlash",
-    "date": 1787835355000,
-    "domain": "thegamer.com",
-    "sourceName": "TheGamer",
+    "title": "Critically-Acclaimed The Séance Of Blake Manor Is Coming To Switch 2",
+    "link": "https://www.nintendolife.com/news/2026/08/critically-acclaimed-the-seance-of-blake-manor-is-coming-to-switch-2",
+    "date": 1787834700000,
+    "domain": "nintendolife.com",
+    "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.891
+    "hotScore": 0.878
   },
   {
     "title": "Linus Torvalds details his 'debug session from hell' pushing an AI to fix an error it repeatedly said was 'impossible and unsolvable'. He then made it write the report",
@@ -3885,7 +3840,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.891
+    "hotScore": 0.887
   },
   {
     "title": "The Switch 2 Version of Starsand Island Doesn’t Feel Ready Yet",
@@ -3894,25 +3849,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.894
-  },
-  {
-    "title": "\"I think some of the team were a little shocked by the tabloid response,\" says original GTA dev: \"We'd made a game that gamers, critics, and the people actually playing all thought was pretty bloody good\"",
-    "link": "https://www.gamesradar.com/games/grand-theft-auto/i-think-some-of-the-team-were-a-little-shocked-by-the-tabloid-response-says-original-gta-dev-wed-made-a-game-that-gamers-critics-and-the-people-actually-playing-all-thought-was-pretty-bloody-good",
-    "date": 1787835600000,
-    "domain": "gamesradar.com",
-    "sourceName": "GamesRadar+",
-    "isTranslated": false,
-    "hotScore": 0.894
-  },
-  {
-    "title": "Feature: Xbox Disc To Digital FAQ - Five Of The Most Common Questions We're Seeing So Far",
-    "link": "https://www.purexbox.com/features/xbox-disc-to-digital-faq-five-of-the-most-common-questions-were-seeing-so-far",
-    "date": 1787835600000,
-    "domain": "purexbox.com",
-    "sourceName": "Pure Xbox",
-    "isTranslated": false,
-    "hotScore": 0.894
+    "hotScore": 0.89
   },
   {
     "title": "Feature: 40+ PS5, PS4 Games to Buy in PS Store's Gamescom Sale",
@@ -3921,7 +3858,25 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.894
+    "hotScore": 0.89
+  },
+  {
+    "title": "Feature: Xbox Disc To Digital FAQ - Five Of The Most Common Questions We're Seeing So Far",
+    "link": "https://www.purexbox.com/features/xbox-disc-to-digital-faq-five-of-the-most-common-questions-were-seeing-so-far",
+    "date": 1787835600000,
+    "domain": "purexbox.com",
+    "sourceName": "Pure Xbox",
+    "isTranslated": false,
+    "hotScore": 0.89
+  },
+  {
+    "title": "\"I think some of the team were a little shocked by the tabloid response,\" says original GTA dev: \"We'd made a game that gamers, critics, and the people actually playing all thought was pretty bloody good\"",
+    "link": "https://www.gamesradar.com/games/grand-theft-auto/i-think-some-of-the-team-were-a-little-shocked-by-the-tabloid-response-says-original-gta-dev-wed-made-a-game-that-gamers-critics-and-the-people-actually-playing-all-thought-was-pretty-bloody-good",
+    "date": 1787835600000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.89
   },
   {
     "title": "Major update “Frostburn” for the “very popular” cooperative FPS “Far Far West” released today. Many new elements such as shields and ice magic appear",
@@ -3930,7 +3885,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.894
+    "hotScore": 0.89
   },
   {
     "title": "Famitsu Sales: 8/17/26 – 8/23/26",
@@ -3939,7 +3894,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.898
+    "hotScore": 0.894
   },
   {
     "title": "Tom Warren: \"I'm not expecting to see Forza Horizon 6 on PS5 in 2026\"",
@@ -3948,7 +3903,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.9
+    "hotScore": 0.896
   },
   {
     "title": "Forza Horizon 6 PS5 Launch Reportedly Scrubbed for 2026",
@@ -3957,7 +3912,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.901
+    "hotScore": 0.897
   },
   {
     "title": "GTA 6 Extended Look: Start Time, Where To Watch, And What To Expect",
@@ -3966,7 +3921,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.902
+    "hotScore": 0.898
   },
   {
     "title": "Once Human Isles of the Abyss Expansion Preview: Venturing Into the Unknown",
@@ -3975,7 +3930,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.902
   },
   {
     "title": "Is Forza Horizon 6 on PS5 Still on Course for Release in 2026?",
@@ -3984,7 +3939,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.902
   },
   {
     "title": "The Witcher 3 DLC Is Seemingly Adding A New Love Interest For You To Ignore",
@@ -3993,7 +3948,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.906
+    "hotScore": 0.902
   },
   {
     "title": "GTA 6 Netflix Trailer’s Beefy Runtime Revealed, Footage Captured On PS5",
@@ -4002,7 +3957,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 1.816,
+    "hotScore": 1.808,
     "groupMembers": [
       {
         "title": "Grand Theft Auto 6: An Extended Look Runtime Revealed, Features Footage Captured on PS5",
@@ -4021,7 +3976,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.912
+    "hotScore": 0.907
   },
   {
     "title": "GTA 6‘s Netflix Special Is Over 20 Minutes Long And Was Captured On A PS5",
@@ -4030,7 +3985,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.913
+    "hotScore": 0.908
   },
   {
     "title": "Content Creators Nearly Crash Out Over The Netflix GTA 6 Reveal’s Confusing Streaming Guidelines",
@@ -4039,7 +3994,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.914
+    "hotScore": 0.909
   },
   {
     "title": "If You Thought Console Prices Were Too High, Things Could Get Even Worse",
@@ -4048,7 +4003,7 @@
     "domain": "gamespot.com",
     "sourceName": "GameSpot",
     "isTranslated": false,
-    "hotScore": 0.915
+    "hotScore": 0.911
   },
   {
     "title": "GTA 6 Hacker Group Is Reportedly Cashing Out",
@@ -4057,7 +4012,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.918
+    "hotScore": 0.914
   },
   {
     "title": "Warlock's take on D&D magic might make me willing to sell my soul",
@@ -4066,7 +4021,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.918
+    "hotScore": 0.914
   },
   {
     "title": "'It's just not our money to keep': Handheld console maker Panic is refunding US tariff fees to its customers",
@@ -4075,7 +4030,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.923
+    "hotScore": 0.919
   },
   {
     "title": "Persona 6 producer doesn't want \"to make games for the global market,\" only something \"we ourselves genuinely find exciting\"",
@@ -4084,7 +4039,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.925
+    "hotScore": 0.921
   },
   {
     "title": "European games industry revenue reached €30bn in 2025",
@@ -4093,7 +4048,7 @@
     "domain": "gamesindustry.biz",
     "sourceName": "GamesIndustry.biz",
     "isTranslated": false,
-    "hotScore": 0.926
+    "hotScore": 0.921
   },
   {
     "title": "Gaming Consoles Likely To Get Even More Expensive In The US",
@@ -4102,7 +4057,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.93
+    "hotScore": 0.925
   },
   {
     "title": "“ELDEN RING”, update file “Ver.1.17” distributed. Compatibility with the DLC \"Tarnished Pack\" and major adjustments to game balance were made.",
@@ -4111,7 +4066,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.934
+    "hotScore": 0.929
   },
   {
     "title": "Xbox Series X - X25 Limited Edition: Where to Buy",
@@ -4120,7 +4075,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 1.868,
+    "hotScore": 1.859,
     "groupMembers": [
       {
         "title": "Guide: The Xbox Series X25 Is Now Available To Pre-Order, And Here's Where You Can Buy It",
@@ -4139,7 +4094,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.938
+    "hotScore": 0.934
   },
   {
     "title": "As something inhuman approaches his home, he must also respond to frequent messages from his lover. Survival horror with only stress “Sleepless Night with the Devil and Girlfriend”, playtest underway",
@@ -4148,7 +4103,7 @@
     "domain": "4gamer.net",
     "sourceName": "4Gamer.net",
     "isTranslated": true,
-    "hotScore": 0.938
+    "hotScore": 0.934
   },
   {
     "title": "What's the best starting class in Star Wars Zero Company?",
@@ -4157,7 +4112,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 3.771,
+    "hotScore": 3.754,
     "groupMembers": [
       {
         "title": "Which class specialization should you pick in Star Wars Zero Company?",
@@ -4184,16 +4139,16 @@
         "isTranslated": false
       },
       {
-        "title": "Should you hire Cly in Star Wars Zero Company?",
-        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-hire-cly-choice",
+        "title": "What's the best specialization class for Hawks in Star Wars Zero Company?",
+        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-specialization-class",
         "date": 1787842800000,
         "domain": "gamesradar.com",
         "sourceName": "GamesRadar+",
         "isTranslated": false
       },
       {
-        "title": "What's the best specialization class for Hawks in Star Wars Zero Company?",
-        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-specialization-class",
+        "title": "Should you hire Cly in Star Wars Zero Company?",
+        "link": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-hire-cly-choice",
         "date": 1787842800000,
         "domain": "gamesradar.com",
         "sourceName": "GamesRadar+",
@@ -4208,7 +4163,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.943
+    "hotScore": 0.938
   },
   {
     "title": "Disgaea: Hour of Darkness didn’t pursue 3D graphics because NIS would have “suffered serious damage” if it had tried to imitate Final Fantasy 7, according to series creator",
@@ -4217,7 +4172,7 @@
     "domain": "automaton-media.com",
     "sourceName": "Automaton Media",
     "isTranslated": false,
-    "hotScore": 0.943
+    "hotScore": 0.938
   },
   {
     "title": "Dolly Parton’s Tennessee Theme Park Is Creating A New Mountain Mythology",
@@ -4226,7 +4181,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.943
+    "hotScore": 0.939
   },
   {
     "title": "Alienware AW3926QW review",
@@ -4235,7 +4190,7 @@
     "domain": "pcgamer.com",
     "sourceName": "PC Gamer",
     "isTranslated": false,
-    "hotScore": 0.943
+    "hotScore": 0.939
   },
   {
     "title": "Whisper of the House opens its doors on PS5 today",
@@ -4244,7 +4199,7 @@
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 0.943
+    "hotScore": 0.939
   },
   {
     "title": "Anime Stars Tier List – Best Heroes, Gamepasses & More",
@@ -4253,7 +4208,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.953
+    "hotScore": 0.949
   },
   {
     "title": "All Fusion Recipes In Fortnite Droid Tycoon",
@@ -4262,7 +4217,7 @@
     "domain": "thegamer.com",
     "sourceName": "TheGamer",
     "isTranslated": false,
-    "hotScore": 0.956
+    "hotScore": 0.952
   },
   {
     "title": "“I for sure can commit to a team. I’m ready to sacrifice everything” – jL on the Hunt for a Permanent Move",
@@ -4271,7 +4226,7 @@
     "domain": "insider-gaming.com",
     "sourceName": "Insider Gaming",
     "isTranslated": false,
-    "hotScore": 0.961
+    "hotScore": 0.957
   },
   {
     "title": "Cassette Beasts 2002 launches in March 2027",
@@ -4280,7 +4235,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.968
+    "hotScore": 0.963
   },
   {
     "title": "Possible GTA 6 hands-on experience happened at Rockstar North",
@@ -4289,7 +4244,7 @@
     "domain": "reddit.com",
     "sourceName": "Reddit Leaks",
     "isTranslated": false,
-    "hotScore": 0.968
+    "hotScore": 0.963
   },
   {
     "title": "GTA 6 Extended Look Will Show Nearly 30 Minutes of Gameplay, Captured on PS5",
@@ -4298,7 +4253,7 @@
     "domain": "pushsquare.com",
     "sourceName": "Push Square",
     "isTranslated": false,
-    "hotScore": 0.968
+    "hotScore": 0.964
   },
   {
     "title": "Fable Was Previously Aiming for an October Launch, Director Reveals, Insisting That The Game's Delay Wasn't Due to Being 'Scared of Other Big Games'",
@@ -4307,7 +4262,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.969
+    "hotScore": 0.965
   },
   {
     "title": "Stuntman: Hollywood adds Jurassic World-inspired action sequences",
@@ -4316,7 +4271,7 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.97
+    "hotScore": 0.965
   },
   {
     "title": "Netflix Issues New Official Statement on GTA 6 Extended Look",
@@ -4325,7 +4280,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.973
+    "hotScore": 0.968
   },
   {
     "title": "As if gaming isn’t pricy enough, the US government is reportedly once again considering more tech industry tariffs",
@@ -4334,7 +4289,7 @@
     "domain": "destructoid.com",
     "sourceName": "Destructoid",
     "isTranslated": false,
-    "hotScore": 0.973
+    "hotScore": 0.969
   },
   {
     "title": "Nvidia's Outlook Boosts Tech, Bond Traders Await Warsh, More",
@@ -4343,7 +4298,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.977
+    "hotScore": 0.973
   },
   {
     "title": "Crumbl launches Minecraft collab with Creeper cookies and collectible Mystery Spoons",
@@ -4352,7 +4307,7 @@
     "domain": "dexerto.com",
     "sourceName": "Dexerto",
     "isTranslated": false,
-    "hotScore": 0.979
+    "hotScore": 0.974
   },
   {
     "title": "Japanese Charts: Nintendo's Trio Of 2026 Smash Hits Keep It On Top",
@@ -4361,7 +4316,7 @@
     "domain": "nintendolife.com",
     "sourceName": "Nintendo Life",
     "isTranslated": false,
-    "hotScore": 0.981
+    "hotScore": 0.977
   },
   {
     "title": "How Involved Was Dolly Parton on Buffy the Vampire Slayer?",
@@ -4370,7 +4325,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.981
+    "hotScore": 0.977
   },
   {
     "title": "Possibly the last major Elden Ring patch buffs a ton of weapons and seems to fix one of the biggest complaints since launch",
@@ -4379,7 +4334,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.983
+    "hotScore": 0.979
   },
   {
     "title": "Metro 2039 is a \"journey back into Hell\" and darker than you've ever seen the series: \"You're in a completely different system\"",
@@ -4388,7 +4343,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.984
+    "hotScore": 0.979
   },
   {
     "title": "Peter Cullen, Legendary Voice Of Optimus Prime, Has Died Aged 85",
@@ -4397,7 +4352,7 @@
     "domain": "kotaku.com",
     "sourceName": "Kotaku",
     "isTranslated": false,
-    "hotScore": 0.984
+    "hotScore": 0.979
   },
   {
     "title": "Data Center Opposition Could Hurt Nvidia, Ferragu Says",
@@ -4406,7 +4361,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.986
+    "hotScore": 0.981
   },
   {
     "title": "LIVE: Rockstar Set to Finally Reveal Official GTA 6 Gameplay",
@@ -4415,7 +4370,7 @@
     "domain": "ign.com",
     "sourceName": "IGN Games",
     "isTranslated": false,
-    "hotScore": 0.99
+    "hotScore": 0.986
   },
   {
     "title": "Dragon Quest's Yuji Horii realized his JRPG series was a \"cultural phenomenon\" when DQ3 had fans \"lined up all night in the cold\"",
@@ -4424,7 +4379,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.991
+    "hotScore": 0.986
   },
   {
     "title": "Nvidia Sees AI-Fueled Demand Boosting Sales 70% Next Year",
@@ -4433,7 +4388,7 @@
     "domain": "bloomberg.com",
     "sourceName": "Bloomberg",
     "isTranslated": false,
-    "hotScore": 0.994
+    "hotScore": 0.989
   },
   {
     "title": "Konami TGS 2026 Games Include Castlevania, Silent Hill, and Suikoden",
@@ -4442,7 +4397,7 @@
     "domain": "siliconera.com",
     "sourceName": "Siliconera",
     "isTranslated": false,
-    "hotScore": 0.994
+    "hotScore": 0.99
   },
   {
     "title": "Best characters and team comp in Star Wars Zero Company",
@@ -4451,7 +4406,7 @@
     "domain": "gamesradar.com",
     "sourceName": "GamesRadar+",
     "isTranslated": false,
-    "hotScore": 0.994,
+    "hotScore": 0.99,
     "groupMembers": [
       {
         "title": "Best choice for Gorga's Revenge in Star Wars Zero Company",
@@ -4470,7 +4425,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.99
   },
   {
     "title": "Star Wars Zero Company Chapter List (All Main Story Missions)",
@@ -4479,7 +4434,7 @@
     "domain": "gamerant.com",
     "sourceName": "Game Rant",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.99
   },
   {
     "title": "Scott Pilgrim EX: Bringing three new heroes to life in Back in the Band DLC",
@@ -4488,7 +4443,7 @@
     "domain": "blog.playstation.com",
     "sourceName": "PlayStation Blog",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.99
   },
   {
     "title": "Joe & Mac Retro Collection launches October 29",
@@ -4497,6 +4452,33 @@
     "domain": "gematsu.com",
     "sourceName": "Gematsu",
     "isTranslated": false,
-    "hotScore": 0.995
+    "hotScore": 0.991
+  },
+  {
+    "title": "Deep Dish Dungeon launches October 13",
+    "link": "https://www.gematsu.com/2026/08/deep-dish-dungeon-launches-october-13",
+    "date": 1787843069000,
+    "domain": "gematsu.com",
+    "sourceName": "Gematsu",
+    "isTranslated": false,
+    "hotScore": 0.994
+  },
+  {
+    "title": "CYBERLEEK appears to be cashing out. GtaForums user Vice Cit discovered two people have cashed out roughly $268k in transaction fees for $CYBERLEEK.",
+    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzwlzb/cyberleek_appears_to_be_cashing_out_gtaforums",
+    "date": 1787843259000,
+    "domain": "reddit.com",
+    "sourceName": "Reddit Leaks",
+    "isTranslated": false,
+    "hotScore": 0.997
+  },
+  {
+    "title": "Persona 4 Revival is a faithful JRPG remake because the original's only gotten more relevant: \"We live in an age where information is everywhere\"",
+    "link": "https://www.gamesradar.com/games/persona/persona-4-revival-is-a-faithful-jrpg-remake-because-the-originals-only-gotten-more-relevant-we-live-in-an-age-where-information-is-everywhere",
+    "date": 1787843331000,
+    "domain": "gamesradar.com",
+    "sourceName": "GamesRadar+",
+    "isTranslated": false,
+    "hotScore": 0.998
   }
 ]
