@@ -2,54 +2,44 @@
 
 // --- Settings ---
 
-const NEW_MS = 15 * 60e3;          // a story counts as "New" for 15 minutes
-const REFRESH_MS = 5 * 60e3;       // background check for fresh data
-const TICK_MS = 30e3;              // update ages, New and Trending
+const NEW_MS = 15 * 60e3;         // a story counts as New for 15 minutes
+const REFRESH_MS = 5 * 60e3;      // background check for fresh data
+const TICK_MS = 30e3;             // update ages, New and Trending
 const DAY_MS = 864e5;
-const READ_TTL_MS = 7 * DAY_MS;    // forget read links after a week
-const ANIMATED_ROWS = 20;          // only rows on the first screen fade in
-const THEMES = { day: "#fafaf8", night: "#120a1a", forest: "#0b0e14" };
+const READ_TTL_MS = 7 * DAY_MS;   // forget read links after a week
+const FIRST_PAINT = 40;           // rows drawn before the rest, so the top of the page appears at once
+const THEMES = { poden: "#000000", mono: "#000000", blossom: "#ffedf5" };
 const KEYS = {
-  feed: "onimugen_v2_feed",
+  feed: "onimugen_v3_feed",
   bookmarks: "onimugen_v1_bookmarks",
   read: "onimugen_v1_read",
   sources: "onimugen_v1_muted_sources",
   keywords: "onimugen_v1_muted_keywords",
+  filter: "om-filter",
   theme: "om-theme",
 };
-const BADGES = [  // [label, class, test]
-  ["New", "badge-new", () => true],                         // shown by CSS only while .is-new
-  ["Rumour", "badge-rumour", s => has(s, "reddit")],
-  ["PlayStation", "badge-ps", s => s.official && has(s, "playstation")],
-  ["Xbox", "badge-xbox", s => s.official && has(s, "xbox")],
-  ["Nintendo", "badge-nintendo", s => s.official && has(s, "nintendo")],
-  ["Trending", "badge-hot", () => true],                    // shown by CSS only while .is-hot
-  ["JP-EN", "badge-jp", s => s.translated],
-];
-const BOOKMARK_ICON = '<svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>';
+const TAG_LABELS = { playstation: "PlayStation", xbox: "Xbox", nintendo: "Nintendo", pc: "PC" };
+const ICON_SAVE = '<svg viewBox="0 0 24 24"><path d="M18 21l-6-4-6 4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/></svg>';
+const ICON_CHEVRON = '<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>';
 
 
-// --- Storage ---
+// --- Storage and state ---
 
 const store = {
-  get(key, fallback) {
-    try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; }
-  },
-  set(key, value) {
-    try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; }
-  },
+  get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } },
+  set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } },
 };
 
 const state = {
-  data: null,       // { generatedAt, trendingThreshold, halfLifeHours, articles }
-  rows: [],         // one entry per rendered story
-  rowByItem: new WeakMap(),
-  filter: "all",
+  data: null,
+  rows: [],               // { s: story, el, save, time, text, outlets, isNew, isHot }
+  rowById: new Map(),
+  filter: store.get(KEYS.filter, "all"),
   query: "",
   keywordRe: null,
   bookmarks: store.get(KEYS.bookmarks, {}),
   read: loadRead(),
-  mutedSources: new Set(Object.keys(store.get(KEYS.sources, {}))),
+  muted: new Set(Object.keys(store.get(KEYS.sources, {}))),
   keywords: store.get(KEYS.keywords, []),
   lastCheck: 0,
 };
@@ -58,114 +48,70 @@ const state = {
 // --- Helpers ---
 
 const $ = id => document.getElementById(id);
-const has = (story, tag) => !!story.tags?.includes(tag);
+const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+const esc = s => String(s).replace(/[&<>"']/g, c => ESC[c]);
 const safeUrl = url => (/^https?:\/\//i.test(url) ? url : "#");
-
-function el(tag, className, text) {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (text != null) node.textContent = text;
-  return node;
-}
-
-function link(url, text) {
-  const a = el("a", null, text);
-  a.href = safeUrl(url);
-  a.target = "_blank";
-  a.rel = "noopener noreferrer";
-  return a;
-}
+const has = (s, tag) => !!s.tags && s.tags.includes(tag);
 
 function ago(ts, now) {
   const m = Math.floor((now - ts) / 60e3);
-  return m < 1 ? "Now" : m < 60 ? m + "m" : Math.floor(m / 60) + "h";
+  return m < 1 ? "now" : m < 60 ? m + "m" : Math.floor(m / 60) + "h";
 }
 
 function loadRead() {
-  const now = Date.now();
-  const read = {};
+  const now = Date.now(), read = {};
   for (const [url, ts] of Object.entries(store.get(KEYS.read, {}))) {
-    const t = ts === true ? now : ts;  // the old site stored `true`
+    const t = ts === true ? now : ts;  // the first version stored `true`
     if (now - t < READ_TTL_MS) read[url] = t;
   }
   store.set(KEYS.read, read);
   return read;
 }
 
-
-// --- Favicons ---
-// Google's favicon service, with a coloured letter when a site has no usable icon.
-// Once a domain fails it goes straight to the letter for the rest of the visit.
-
-const badIcons = new Set();
-
-function logo(domain, name, className) {
-  const initial = (name || "?").charAt(0).toUpperCase();
-  if (!domain || badIcons.has(domain)) return el("span", className + " letter", initial);
-  const img = el("img", className);
-  img.alt = "";
-  img.loading = "lazy";
-  img.decoding = "async";
-  img.dataset.initial = initial;
-  img.dataset.domain = domain;
-  img.src = "https://www.google.com/s2/favicons?sz=64&domain=" + encodeURIComponent(domain);
-  return img;
+// Site icons are published with the site (icons/<domain>.png); a letter when there is none.
+function iconHtml(src, cls = "") {
+  const o = state.data.sources[src];
+  return o && o.icon
+    ? `<img class="fav ${cls}" src="icons/${esc(o.domain)}.png" alt="" width="20" height="20" loading="lazy" decoding="async">`
+    : `<span class="letter ${cls}" aria-hidden="true">${esc((o ? o.name : "?").charAt(0))}</span>`;
 }
 
-function useLetter(img) {
-  badIcons.add(img.dataset.domain);
-  img.replaceWith(el("span", img.className + " letter", img.dataset.initial));
+const sourceName = i => state.data.sources[i]?.name || "";
+
+
+// --- Rendering ---
+
+function rowHtml(s) {
+  const tags = [];
+  if (has(s, "rumour")) tags.push('<span class="tag rumour">Rumour</span>');
+  for (const t of ["playstation", "xbox", "nintendo", "pc"]) if (has(s, t)) tags.push(`<span class="tag">${TAG_LABELS[t]}</span>`);
+  if (s.translated) tags.push('<span class="tag">JP → EN</span>');
+
+  const group = s.group
+    ? `<button type="button" class="more" aria-expanded="false">${s.sources > 1 ? s.sources + " sources" : s.group.length + 1 + " articles"}${ICON_CHEVRON}</button>`
+    : "";
+  return `${iconHtml(s.src)}<a class="title" href="${esc(safeUrl(s.link))}" target="_blank" rel="noopener">${esc(s.title)}</a>` +
+    `<button type="button" class="save${state.bookmarks[s.link] ? " on" : ""}" aria-label="Bookmark">${ICON_SAVE}</button>` +
+    `<div class="meta"><span class="src">${esc(sourceName(s.src))}</span><time></time>` +
+    `<span class="tag new" hidden>New</span><span class="tag hot" hidden>Trending</span>${tags.join("")}${group}</div>`;
 }
 
-// Image events do not bubble, so listen in the capture phase once for the whole page.
-document.addEventListener("error", e => { if (e.target.dataset?.initial) useLetter(e.target); }, true);
-document.addEventListener("load", e => {
-  // Unknown sites get a 16px globe; treat that as missing.
-  if (e.target.dataset?.initial && e.target.naturalWidth <= 16) useLetter(e.target);
-}, true);
-
-
-// --- Feed rendering ---
-
-function buildRow(story, index) {
-  const item = el("li", "item");
-  const outlets = [story.source, ...(story.group || []).map(m => m.source)];
-
-  if (index < ANIMATED_ROWS) {
-    item.classList.add("enter");
-    item.style.animationDelay = index * 15 + "ms";
-  }
-  if (state.read[story.link]) item.classList.add("read");
-
-  const time = el("time", "item-date");
-  const body = el("div", "item-body");
-  const title = link(story.link, story.title);
-  for (const [label, cls, test] of BADGES) if (test(story)) title.append(el("span", "badge " + cls, label));
-  body.append(title);
-
-  const side = el("span", "item-side");
-  if (story.group) {
-    item.classList.add("has-group");
-    const label = story.sources > 1 ? story.sources + " Sources " : story.group.length + 1 + " Articles ";
-    const toggle = el("button", "group-toggle", label);
-    toggle.type = "button";
-    toggle.setAttribute("aria-expanded", "false");
-    toggle.append(el("span", "chevron", "▾"));
-    side.append(toggle);
-  } else {
-    side.append(logo(story.domain, story.source, "item-logo"));
-  }
-
-  const bm = el("button", "bm-btn");
-  bm.type = "button";
-  bm.setAttribute("aria-label", "Bookmark");
-  bm.innerHTML = BOOKMARK_ICON;
-  bm.classList.toggle("on", !!state.bookmarks[story.link]);
-
-  item.append(time, body, side, bm);
+function buildRow(s, i) {
+  const el = document.createElement("li");
+  el.className = "row";
+  el.dataset.i = i;
+  if (state.read[s.link]) el.classList.add("read");
+  el.innerHTML = rowHtml(s);
+  const outlets = [s.src, ...(s.group || []).map(m => m.src)];
+  const tags = el.querySelectorAll(".meta .tag");
   return {
-    story, item, bm, time, outlets,
-    text: (story.title + " " + outlets.join(" ")).toLowerCase(),
+    s, el,
+    save: el.querySelector(".save"),
+    time: el.querySelector("time"),
+    newTag: tags[0],
+    hotTag: tags[1],
+    outlets,
+    text: (s.title + " " + outlets.map(sourceName).join(" ")).toLowerCase(),
     isNew: false,
     isHot: false,
   };
@@ -175,177 +121,176 @@ function render() {
   const cutoff = Date.now() - DAY_MS;
   const stories = state.data.articles.filter(s => s.date >= cutoff).sort((a, b) => b.date - a.date);
   state.rows = stories.map(buildRow);
-  state.rowByItem = new WeakMap(state.rows.map(r => [r.item, r]));
+  const feed = $("feed");
 
-  const frag = document.createDocumentFragment();
-  for (const r of state.rows) frag.append(r.item);
-  $("feed").replaceChildren(frag);
-
-  buildSourcesMenu();
+  // Draw the first screen now and the rest straight after, so the page is readable before all rows exist.
+  // A timer rather than requestAnimationFrame: that never fires in background tabs.
+  const first = document.createDocumentFragment();
+  for (const r of state.rows.slice(0, FIRST_PAINT)) first.append(r.el);
+  feed.replaceChildren(first);
   tick();
+  const rows = state.rows;
+  setTimeout(() => {
+    if (rows !== state.rows) return;  // a newer render already replaced these
+    const rest = document.createDocumentFragment();
+    for (const r of rows.slice(FIRST_PAINT)) rest.append(r.el);
+    feed.append(rest);
+    applyFilter();
+  }, 0);
+
+  renderNotice();
+  renderSources();
 }
 
-// The list of every article in a group is only built the first time it is opened.
-function buildDrawer(row) {
-  const now = Date.now();
-  const drawer = el("div", "drawer");
-  for (const src of [row.story, ...row.story.group].sort((a, b) => a.date - b.date)) {
-    const line = el("div", "drawer-row");
-    line.append(logo(src.domain, src.source, "drawer-logo"), link(src.link, src.title), el("span", "drawer-date", ago(src.date, now)));
-    drawer.append(line);
+// Every article in a grouped story; built the first time it's opened.
+function openGroup(row, btn) {
+  let list = row.el.querySelector(".group");
+  if (!list) {
+    const now = Date.now();
+    list = document.createElement("ol");
+    list.className = "group";
+    list.innerHTML = [row.s, ...row.s.group].sort((a, b) => a.date - b.date).map(a =>
+      `<li>${iconHtml(a.src)}<a href="${esc(safeUrl(a.link))}" target="_blank" rel="noopener">${esc(a.title)}` +
+      `<span class="sr"> — ${esc(sourceName(a.src))}</span></a><time>${ago(a.date, now)}</time></li>`).join("");
+    list.hidden = true;
+    row.el.append(list);
   }
-  row.item.append(drawer);
-  return drawer;
+  list.hidden = !list.hidden;
+  row.el.classList.toggle("open", !list.hidden);
+  btn.setAttribute("aria-expanded", String(!list.hidden));
 }
 
 // Everything that depends on the current time, so nothing goes stale between fetches.
 function tick() {
   if (!state.data) return;
   const now = Date.now();
-  const { trendingThreshold, halfLifeHours } = state.data;
+  const { trendingThreshold: limit, halfLifeHours: half } = state.data;
   for (const r of state.rows) {
-    const s = r.story;
+    const s = r.s;
     const label = ago(s.date, now);
     if (r.time.textContent !== label) r.time.textContent = label;
-    r.isNew = now - s.date < NEW_MS;
-    r.isHot = s.sources * 0.5 ** ((now - s.date) / 36e5 / halfLifeHours) >= trendingThreshold;
-    r.item.classList.toggle("is-new", r.isNew);
-    r.item.classList.toggle("is-hot", r.isHot);
+    const isNew = now - s.date < NEW_MS;
+    const isHot = s.sources * 0.5 ** ((now - s.date) / 36e5 / half) >= limit;
+    if (isNew !== r.isNew) { r.isNew = isNew; r.newTag.hidden = !isNew; }
+    if (isHot !== r.isHot) { r.isHot = isHot; r.hotTag.hidden = !isHot; r.el.classList.toggle("hot", isHot); }
   }
   const age = Math.floor((now - state.data.generatedAt) / 60e3);
-  $("last-updated").textContent =
-    "Updated " + (age < 1 ? "just now" : age < 60 ? age + "m ago" : Math.floor(age / 60) + "h ago");
+  const status = $("status");
+  status.textContent = "Updated " + (age < 1 ? "just now" : age < 60 ? age + " min ago" : Math.floor(age / 60) + " h ago");
+  status.classList.toggle("warn", age > 60);  // the updater has stopped
   applyFilter();
 }
 
 
 // --- Filtering ---
 
-function matchesFilter(r) {
+function matches(r) {
   switch (state.filter) {
     case "all": return true;
     case "new": return r.isNew;
     case "trending": return r.isHot;
-    case "saved": return !!state.bookmarks[r.story.link];
-    default: return has(r.story, state.filter);
+    case "jp": return !!r.s.jp;
+    default: return has(r.s, state.filter);
   }
 }
 
 function applyFilter() {
-  const { query, keywordRe, mutedSources } = state;
+  const { query, keywordRe, muted } = state;
+  const counts = { all: 0, new: 0, trending: 0, rumour: 0, playstation: 0, xbox: 0, nintendo: 0, pc: 0, jp: 0 };
   let shown = 0;
   for (const r of state.rows) {
-    const visible =
-      (!query || r.text.includes(query)) &&
-      !(keywordRe && keywordRe.test(r.story.title)) &&
-      !r.outlets.every(o => mutedSources.has(o)) &&  // stays while any covering outlet is shown
-      matchesFilter(r);
-    r.item.hidden = !visible;
+    // A story stays while any outlet that covered it is shown.
+    const allowed = (!query || r.text.includes(query)) && !(keywordRe && keywordRe.test(r.s.title)) &&
+      !r.outlets.every(o => muted.has(sourceName(o)));
+    if (allowed) {
+      counts.all++;
+      if (r.isNew) counts.new++;
+      if (r.isHot) counts.trending++;
+      if (r.s.jp) counts.jp++;
+      if (r.s.tags) for (const t of r.s.tags) counts[t]++;
+    }
+    const visible = allowed && matches(r);
+    if (r.el.hidden === visible) r.el.hidden = !visible;
     shown += visible;
   }
-  $("feed-empty").hidden = shown > 0 || !state.data;
+  for (const chip of $("filters").children) {
+    const n = counts[chip.dataset.f];
+    const span = chip.querySelector(".n") || chip.appendChild(Object.assign(document.createElement("span"), { className: "n" }));
+    span.textContent = n || "";
+    chip.classList.toggle("zero", !n);
+  }
+  $("empty").hidden = shown > 0 || !state.data;
+}
+
+function setFilter(f) {
+  state.filter = f;
+  store.set(KEYS.filter, f);
+  for (const c of $("filters").children) {
+    c.classList.toggle("on", c.dataset.f === f);
+    c.setAttribute("aria-pressed", String(c.dataset.f === f));
+  }
+  applyFilter();
 }
 
 function compileKeywords() {
   // Whole words only, so muting "ea" does not hide "death".
-  const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   state.keywordRe = state.keywords.length
-    ? new RegExp("(?<![\\p{L}\\p{N}])(?:" + state.keywords.map(escape).join("|") + ")(?![\\p{L}\\p{N}])", "iu")
+    ? new RegExp("(?<![\\p{L}\\p{N}])(?:" + state.keywords.map(escRe).join("|") + ")(?![\\p{L}\\p{N}])", "iu")
     : null;
-  $("keyword-btn").classList.toggle("has-muted", state.keywords.length > 0);
+  $("settings-btn").classList.toggle("dot", state.keywords.length > 0 || state.muted.size > 0);
 }
 
 
-// --- Sources menu ---
+// --- Source status, notices and settings ---
 
-function buildSourcesMenu() {
-  const domains = new Map();
-  for (const r of state.rows) {
-    for (const s of [r.story, ...(r.story.group || [])]) if (!domains.has(s.source)) domains.set(s.source, s.domain);
+function renderNotice() {
+  const d = state.data, parts = [];
+  const failing = d.sources.filter(o => !o.ok);
+  if (d.translation && !d.translation.ok && d.translation.untranslated) {
+    parts.push(`<b>${d.translation.untranslated} Japanese headlines</b> couldn't be translated this time and are shown as published.`);
   }
-  // Keep outlets the reader hid even when they have nothing in today's feed, so they can be shown again.
-  for (const name of state.mutedSources) if (!domains.has(name)) domains.set(name, "");
+  if (failing.length >= 5) parts.push(`<b>${failing.length} sources</b> aren't responding right now.`);
+  $("notice").innerHTML = parts.join(" ");
+  $("notice").hidden = !parts.length;
+}
 
-  const frag = document.createDocumentFragment();
-  for (const name of [...domains.keys()].sort((a, b) => a.localeCompare(b))) {
-    const row = el("button", "source-row");
-    row.type = "button";
-    row.dataset.name = name;
-    row.append(logo(domains.get(name), name, "source-logo"), el("span", "source-name", name), el("span", "source-check", "✓"));
-    frag.append(row);
+function renderSources() {
+  const now = Date.now();
+  // Not responding first, so problems are seen straight away.
+  const order = state.data.sources.map((o, i) => i).sort((a, b) => state.data.sources[a].ok - state.data.sources[b].ok);
+  const list = order.map(i => {
+    const o = state.data.sources[i];
+    const on = !state.muted.has(o.name);
+    const sub = o.ok
+      ? `${o.count} ${o.count === 1 ? "story" : "stories"} today`
+      : `Not responding${o.lastOk ? " · last worked " + ago(o.lastOk, now) + " ago" : ""}`;
+    return `<li><button type="button" role="switch" aria-checked="${on}" data-name="${esc(o.name)}">${iconHtml(i)}` +
+      `<span class="main"><span class="name">${esc(o.name)}</span><span class="sub${o.ok ? "" : " bad"}">${sub}</span></span>` +
+      `<span class="switch" aria-hidden="true"></span></button></li>`;
+  });
+  // Outlets the reader hid that no longer exist stay listed, so they can be shown again.
+  for (const name of state.muted) {
+    if (!state.data.sources.some(o => o.name === name)) {
+      list.push(`<li><button type="button" role="switch" aria-checked="false" data-name="${esc(name)}"><span class="letter">${esc(name.charAt(0))}</span>` +
+        `<span class="main"><span class="name">${esc(name)}</span><span class="sub">No longer in the feed</span></span><span class="switch"></span></button></li>`);
+    }
   }
-  $("sources-list").replaceChildren(frag);
-  syncSources();
+  $("src-list").innerHTML = list.join("");
+  const failing = state.data.sources.filter(o => !o.ok).length;
+  $("src-count").textContent = `${state.data.sources.length} · ${state.muted.size} hidden${failing ? ` · ${failing} not responding` : ""}`;
 }
 
-function syncSources() {
-  for (const row of $("sources-list").children) row.classList.toggle("on", !state.mutedSources.has(row.dataset.name));
-  const n = state.mutedSources.size;
-  $("sources-count").textContent = n ? "(" + n + " hidden)" : "";
-}
-
-function saveSources() {
-  store.set(KEYS.sources, Object.fromEntries([...state.mutedSources].map(n => [n, true])));
-  syncSources();
+function saveMuted() {
+  store.set(KEYS.sources, Object.fromEntries([...state.muted].map(n => [n, true])));
+  compileKeywords();
+  if (state.data) renderSources();
   applyFilter();
 }
 
-
-// --- Bookmarks, read history, keywords ---
-
-function toggleBookmark(row) {
-  const s = row.story;
-  if (state.bookmarks[s.link]) delete state.bookmarks[s.link];
-  else state.bookmarks[s.link] = { title: s.title, link: s.link, domain: s.domain, sourceName: s.source, savedAt: Date.now() };
-  if (!store.set(KEYS.bookmarks, state.bookmarks)) alert("Bookmark storage is full. Remove some bookmarks and try again.");
-  row.bm.classList.toggle("on", !!state.bookmarks[s.link]);
-  if (state.filter === "saved") applyFilter();
-}
-
-function removeBookmark(url) {
-  delete state.bookmarks[url];
-  store.set(KEYS.bookmarks, state.bookmarks);
-  for (const r of state.rows) if (r.story.link === url) r.bm.classList.remove("on");
-  if (state.filter === "saved") applyFilter();
-}
-
-function markRead(row) {
-  state.read[row.story.link] = Date.now();
-  store.set(KEYS.read, state.read);
-  row.item.classList.add("read");
-}
-
-function renderBookmarks() {
-  const saved = Object.values(state.bookmarks).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
-  const frag = document.createDocumentFragment();
-  for (const b of saved) {
-    const li = el("li", "panel-row");
-    const main = el("div", "panel-main");
-    main.append(link(b.link, b.title), el("span", "panel-sub", b.sourceName || b.domain || ""));
-    const remove = el("button", "remove", "×");
-    remove.type = "button";
-    remove.dataset.link = b.link;
-    remove.setAttribute("aria-label", "Remove bookmark");
-    li.append(logo(b.domain, b.sourceName, "panel-logo"), main, remove);
-    frag.append(li);
-  }
-  $("bookmarks-list").replaceChildren(frag);
-  $("bookmarks-empty").hidden = saved.length > 0;
-}
-
 function renderKeywords() {
-  const frag = document.createDocumentFragment();
-  for (const kw of [...state.keywords].sort()) {
-    const li = el("li", "panel-row");
-    const remove = el("button", "remove", "×");
-    remove.type = "button";
-    remove.dataset.kw = kw;
-    remove.setAttribute("aria-label", "Unmute " + kw);
-    li.append(el("span", "panel-main", kw), remove);
-    frag.append(li);
-  }
-  $("keyword-list").replaceChildren(frag);
-  $("keyword-empty").hidden = state.keywords.length > 0;
+  $("mute-list").innerHTML = [...state.keywords].sort()
+    .map(k => `<button type="button" data-kw="${esc(k)}" aria-label="Unmute ${esc(k)}">${esc(k)}</button>`).join("");
 }
 
 function setKeywords(list) {
@@ -356,50 +301,60 @@ function setKeywords(list) {
   applyFilter();
 }
 
-
-// --- Menus, panels, theme ---
-
-const MENUS = [["filter-menu", "filter-btn"], ["sources-menu", "sources-btn"]];
-
-function closeMenus(except) {
-  for (const [menu, btn] of MENUS) {
-    if (menu === except) continue;
-    $(menu).classList.remove("open");
-    $(btn).setAttribute("aria-expanded", "false");
-  }
-  if (except !== "search-wrap" && !state.query) $("search-wrap").classList.remove("open");
+function renderBookmarks() {
+  const saved = Object.values(state.bookmarks).sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+  $("saved-list").innerHTML = saved.map(b =>
+    `<li><span class="main"><a href="${esc(safeUrl(b.link))}" target="_blank" rel="noopener">${esc(b.title)}</a>` +
+    `<span class="sub">${esc(b.sourceName || b.domain || "")}</span></span>` +
+    `<button type="button" class="x" data-link="${esc(b.link)}" aria-label="Remove bookmark">×</button></li>`).join("");
+  $("saved-empty").hidden = saved.length > 0;
 }
 
-function toggleMenu(menu, btn) {
-  closeMenus(menu);
-  const open = $(menu).classList.toggle("open");
-  $(btn).setAttribute("aria-expanded", String(open));
+function toggleBookmark(row) {
+  const s = row.s;
+  if (state.bookmarks[s.link]) delete state.bookmarks[s.link];
+  else state.bookmarks[s.link] = { title: s.title, link: s.link, sourceName: sourceName(s.src), savedAt: Date.now() };
+  if (!store.set(KEYS.bookmarks, state.bookmarks)) alert("Bookmark storage is full. Remove some bookmarks and try again.");
+  row.save.classList.toggle("on", !!state.bookmarks[s.link]);
 }
 
-let panelOpener = null;
+function markRead(row) {
+  state.read[row.s.link] = Date.now();
+  store.set(KEYS.read, state.read);
+  row.el.classList.add("read");
+}
 
-function openPanel(name, opener) {
-  closeMenus();
-  panelOpener = opener;
-  if (name === "bookmarks") renderBookmarks();
+function setTheme(t) {
+  // Switch instantly: with transitions on, colours already mid-transition keep the old theme.
+  const root = document.documentElement;
+  root.classList.add("no-anim");
+  root.dataset.theme = t;
+  getComputedStyle(root).color;  // apply the new colours before transitions come back
+  requestAnimationFrame(() => root.classList.remove("no-anim"));
+  $("theme-color").content = THEMES[t];
+  for (const b of $("themes").children) b.setAttribute("aria-checked", String(b.dataset.t === t));
+}
+
+
+// --- Sheets ---
+
+let opener = null;
+
+function openSheet(id, from) {
+  opener = from;
+  if (id === "saved") renderBookmarks();
   else renderKeywords();
-  $(name + "-overlay").hidden = false;
+  $(id).hidden = false;
   document.body.classList.add("locked");
-  (name === "keywords" ? $("keyword-input") : $(name + "-overlay").querySelector("[data-close]")).focus();
+  $(id).querySelector("[data-close]").focus();
 }
 
-function closePanels() {
-  const open = document.querySelector(".overlay:not([hidden])");
+function closeSheet() {
+  const open = document.querySelector(".sheet-wrap:not([hidden])");
   if (!open) return;
   open.hidden = true;
   document.body.classList.remove("locked");
-  panelOpener?.focus();  // return focus to the button that opened the panel
-}
-
-function setTheme(theme) {
-  document.documentElement.dataset.theme = theme;
-  $("meta-theme-color").content = THEMES[theme];
-  for (const dot of document.querySelectorAll(".dot")) dot.classList.toggle("active", dot.dataset.t === theme);
+  opener?.focus();
 }
 
 
@@ -412,7 +367,7 @@ async function load(force = false) {
     const res = await fetch("data.json", { cache: force ? "reload" : "no-cache" });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
-    if (!Array.isArray(data.articles)) throw new Error("unexpected data format");
+    if (!Array.isArray(data.articles) || !Array.isArray(data.sources)) throw new Error("unexpected data format");
     if (data.generatedAt !== state.data?.generatedAt) {
       state.data = data;
       render();
@@ -423,169 +378,132 @@ async function load(force = false) {
   } catch (err) {
     console.warn("Feed load failed:", err.message);
     if (!state.data) {
-      $("feed-empty").textContent = "Could not load the feed. Please try again.";
-      $("feed-empty").hidden = false;
+      $("empty").textContent = "The feed couldn't be loaded. Check your connection and try again.";
+      $("empty").hidden = false;
     }
-  } finally {
-    hideSplash();
   }
 }
 
-function hideSplash() {
-  const splash = $("splash");
-  if (!splash || splash.classList.contains("fade")) return;
-  splash.addEventListener("transitionend", () => splash.remove(), { once: true });
-  setTimeout(() => splash.remove(), 1000);  // in case transitions are switched off
-  splash.classList.add("fade");
-}
 
-
-// --- Events: one delegated listener per area, wired once ---
+// --- Events: one delegated listener per area ---
 
 function wire() {
   const feed = $("feed");
-  const rowOf = node => state.rowByItem.get(node.closest(".item"));
+  const rowOf = el => state.rows[el.closest(".row")?.dataset.i];
 
   feed.addEventListener("click", e => {
-    const row = e.target.closest(".item") && rowOf(e.target);
+    const row = rowOf(e.target);
     if (!row) return;
-    if (e.target.closest(".bm-btn")) return toggleBookmark(row);
-    const toggle = e.target.closest(".group-toggle");
-    if (toggle) {
-      const drawer = row.item.querySelector(".drawer") || buildDrawer(row);
-      toggle.setAttribute("aria-expanded", String(drawer.classList.toggle("open")));
-      return;
-    }
-    if (e.target.closest(".item-body a")) markRead(row);
+    if (e.target.closest(".save")) return toggleBookmark(row);
+    const more = e.target.closest(".more");
+    if (more) return openGroup(row, more);
+    if (e.target.closest(".title")) markRead(row);
   });
   feed.addEventListener("auxclick", e => {  // middle-click opens a tab too
-    if (e.button === 1 && e.target.closest(".item-body a")) markRead(rowOf(e.target));
+    if (e.button === 1 && e.target.closest(".title")) markRead(rowOf(e.target));
   });
 
-  $("refresh-btn").addEventListener("click", () => load(true));
-
-  $("search-btn").addEventListener("click", () => {
-    closeMenus("search-wrap");
-    if ($("search-wrap").classList.toggle("open")) $("search-input").focus();
-  });
-  $("search-input").addEventListener("input", e => {
-    state.query = e.target.value.trim().toLowerCase();
-    applyFilter();
+  $("filters").addEventListener("click", e => {
+    const chip = e.target.closest(".chip");
+    if (chip) setFilter(chip.dataset.f);
   });
 
-  $("filter-btn").addEventListener("click", () => toggleMenu("filter-menu", "filter-btn"));
-  $("filter-menu").addEventListener("click", e => {
-    const opt = e.target.closest(".opt");
-    if (!opt) return;
-    for (const o of $("filter-menu").children) o.classList.toggle("active", o === opt);
-    state.filter = opt.dataset.filter;
-    closeMenus();
-    applyFilter();
+  let typing;
+  $("q").addEventListener("input", e => {
+    clearTimeout(typing);
+    typing = setTimeout(() => { state.query = e.target.value.trim().toLowerCase(); applyFilter(); }, 60);
   });
 
-  $("sources-btn").addEventListener("click", () => toggleMenu("sources-menu", "sources-btn"));
-  $("sources-menu").addEventListener("click", e => {
-    const row = e.target.closest(".source-row");
-    const bulk = e.target.closest("[data-sources]");
-    if (row) {
-      const name = row.dataset.name;
-      if (!state.mutedSources.delete(name)) state.mutedSources.add(name);
-    } else if (bulk) {
-      state.mutedSources = bulk.dataset.sources === "hide"
-        ? new Set([...$("sources-list").children].map(r => r.dataset.name))
-        : new Set();
-    } else {
-      return;
-    }
-    saveSources();
-  });
+  $("refresh").addEventListener("click", () => { scrollTo({ top: 0 }); load(true); });
 
-  for (const btn of document.querySelectorAll("[data-open]")) {
-    btn.addEventListener("click", () => openPanel(btn.dataset.open, btn));
-  }
-  for (const overlay of document.querySelectorAll(".overlay")) {
-    overlay.addEventListener("click", e => {
-      if (e.target === overlay || e.target.closest("[data-close]")) closePanels();
-    });
+  for (const b of document.querySelectorAll("[data-open]")) b.addEventListener("click", () => openSheet(b.dataset.open, b));
+  for (const w of document.querySelectorAll(".sheet-wrap")) {
+    w.addEventListener("click", e => { if (e.target === w || e.target.closest("[data-close]")) closeSheet(); });
   }
 
-  $("bookmarks-list").addEventListener("click", e => {
-    const btn = e.target.closest(".remove");
-    if (!btn) return;
-    removeBookmark(btn.dataset.link);
-    btn.closest("li").remove();
-    $("bookmarks-empty").hidden = $("bookmarks-list").children.length > 0;
+  $("saved-list").addEventListener("click", e => {
+    const x = e.target.closest(".x");
+    if (!x) return;
+    delete state.bookmarks[x.dataset.link];
+    store.set(KEYS.bookmarks, state.bookmarks);
+    x.closest("li").remove();
+    $("saved-empty").hidden = $("saved-list").children.length > 0;
+    for (const r of state.rows) if (r.s.link === x.dataset.link) r.save.classList.remove("on");
   });
 
-  $("keyword-form").addEventListener("submit", e => {
+  $("themes").addEventListener("click", e => {
+    const b = e.target.closest("[data-t]");
+    if (!b) return;
+    localStorage.setItem(KEYS.theme, b.dataset.t);
+    setTheme(b.dataset.t);
+  });
+
+  $("mute-form").addEventListener("submit", e => {
     e.preventDefault();
-    const input = $("keyword-input");
-    const kw = input.value.trim().toLowerCase();
-    input.value = "";
+    const kw = $("mute-input").value.trim().toLowerCase();
+    $("mute-input").value = "";
     if (kw && !state.keywords.includes(kw)) setKeywords([...state.keywords, kw]);
   });
-  $("keyword-list").addEventListener("click", e => {
-    const btn = e.target.closest(".remove");
-    if (btn) setKeywords(state.keywords.filter(k => k !== btn.dataset.kw));
+  $("mute-list").addEventListener("click", e => {
+    const b = e.target.closest("[data-kw]");
+    if (b) setKeywords(state.keywords.filter(k => k !== b.dataset.kw));
   });
 
-  $("theme-btn").addEventListener("click", () => {
-    const names = Object.keys(THEMES);
-    const next = names[(names.indexOf(document.documentElement.dataset.theme) + 1) % names.length];
-    localStorage.setItem(KEYS.theme, next);
-    setTheme(next);
+  $("src-list").addEventListener("click", e => {
+    const b = e.target.closest("[data-name]");
+    if (!b) return;
+    if (!state.muted.delete(b.dataset.name)) state.muted.add(b.dataset.name);
+    saveMuted();
+  });
+  document.querySelector(".src-actions").addEventListener("click", e => {
+    const b = e.target.closest("[data-all]");
+    if (!b || !state.data) return;
+    state.muted = b.dataset.all === "hide" ? new Set(state.data.sources.map(o => o.name)) : new Set();
+    saveMuted();
   });
 
-  $("back-to-top").addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
-
-  document.addEventListener("click", e => {
-    if (!e.target.closest?.(".controls, #sources-bar")) closeMenus();
-  });
   document.addEventListener("keydown", e => {
-    if (e.key === "Escape") { closeMenus(); closePanels(); }
-    // "/" jumps to search, like many news sites
-    if (e.key === "/" && !e.target.closest?.("input, textarea")) {
+    if (e.key === "Escape") {
+      if (document.activeElement === $("q") && $("q").value) { $("q").value = ""; $("q").dispatchEvent(new Event("input")); }
+      closeSheet();
+    }
+    if (e.key === "/" && !e.target.closest?.("input, textarea") && document.querySelector(".sheet-wrap:not([hidden])") === null) {
       e.preventDefault();
-      closeMenus("search-wrap");
-      $("search-wrap").classList.add("open");
-      $("search-input").focus();
+      $("q").focus();
     }
   });
 
-  let scrollQueued = false;
+  let queued = false;
   addEventListener("scroll", () => {
-    if (scrollQueued) return;
-    scrollQueued = true;
-    requestAnimationFrame(() => {
-      scrollQueued = false;
-      $("main-header").classList.toggle("scrolled", scrollY > 20);
-      $("back-to-top").classList.toggle("visible", scrollY > 400);
-    });
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(() => { queued = false; $("to-top").classList.toggle("show", scrollY > 600); });
   }, { passive: true });
+  $("to-top").addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
 
-  // Pause background work while the tab is hidden, and catch up as soon as it is visible again.
+  // Pause background work while the tab is hidden; catch up as soon as it's visible again.
   setInterval(() => { if (!document.hidden) tick(); }, TICK_MS);
   setInterval(() => { if (!document.hidden) load(); }, REFRESH_MS);
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) return;
-    if (Date.now() - state.lastCheck > REFRESH_MS) load();
-    else tick();
+    if (Date.now() - state.lastCheck > REFRESH_MS) load(); else tick();
   });
 }
 
 
 // --- Start ---
 
-setTheme(THEMES[document.documentElement.dataset.theme] ? document.documentElement.dataset.theme : "day");
+setTheme(THEMES[document.documentElement.dataset.theme] ? document.documentElement.dataset.theme : "poden");
+if (!$("filters").querySelector(`[data-f="${state.filter}"]`)) state.filter = "all";
+setFilter(state.filter);
 compileKeywords();
 wire();
 
 // Show the last copy straight away, then check for a newer one.
 const cached = store.get(KEYS.feed, null);
-if (Array.isArray(cached?.articles)) {
+if (Array.isArray(cached?.articles) && Array.isArray(cached?.sources)) {
   state.data = cached;
   render();
-  hideSplash();
 }
-localStorage.removeItem("onimugen_v1_gaming");  // saved feed from the old site's format
+for (const old of ["onimugen_v1_gaming", "onimugen_v2_feed"]) localStorage.removeItem(old);
 load();
