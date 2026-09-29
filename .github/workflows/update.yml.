@@ -1,0 +1,57 @@
+name: Update feed
+
+on:
+  workflow_dispatch:          # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+  schedule:
+    - cron: "*/10 * * * *"    # every 10 minutes; GitHub sometimes starts these a few minutes late
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Feed ETags and translated titles carry over between runs.
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: fetch-state-${{ github.run_id }}
+          restore-keys: fetch-state-
+
+      - name: Fetch news
+        run: python fetch_news.py
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp index.html style.css script.js favicon.svg data.json robots.txt sitemap.xml _site/
+          [ -f CNAME ] && cp CNAME _site/ || true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
