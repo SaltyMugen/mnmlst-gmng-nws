@@ -247,12 +247,23 @@ function compileKeywords() {
 function renderNotice() {
   const d = state.data, parts = [];
   const failing = d.sources.filter(o => !o.ok);
-  if (d.translation && !d.translation.ok && d.translation.untranslated) {
-    parts.push(`<b>${d.translation.untranslated} Japanese headlines</b> couldn't be translated this time and are shown as published.`);
+  if (d.translation && d.translation.untranslated) {
+    const n = d.translation.untranslated;
+    parts.push(`<b>${n} Japanese headline${n === 1 ? "" : "s"}</b> couldn't be translated yet and ${n === 1 ? "is" : "are"} shown as published.`);
   }
   if (failing.length >= 5) parts.push(`<b>${failing.length} sources</b> aren't responding right now.`);
   $("notice").innerHTML = parts.join(" ");
   $("notice").hidden = !parts.length;
+}
+
+// How a source was read when its own feed failed, and plain-language reasons for failures.
+const VIA = { alternate: "backup address", discovered: "new feed address", googlenews: "via Google News" };
+function reason(error) {
+  const code = /HTTP (\d+)/.exec(error)?.[1];
+  if (code === "404" || code === "410") return "feed removed";
+  if (code === "401" || code === "403" || code === "429") return "blocked";
+  if (code && code >= 500) return "site error";
+  return error;
 }
 
 function renderSources() {
@@ -263,8 +274,8 @@ function renderSources() {
     const o = state.data.sources[i];
     const on = !state.muted.has(o.name);
     const sub = o.ok
-      ? `${o.count} ${o.count === 1 ? "story" : "stories"} today`
-      : `Not responding${o.lastOk ? " · last worked " + ago(o.lastOk, now) + " ago" : ""}`;
+      ? `${o.count} ${o.count === 1 ? "story" : "stories"} today${VIA[o.via] ? " · " + VIA[o.via] : ""}`
+      : `Not responding${o.error ? ` (${esc(reason(o.error))})` : ""}${o.lastOk ? " · last worked " + ago(o.lastOk, now) + " ago" : ""}`;
     return `<li><button type="button" role="switch" aria-checked="${on}" data-name="${esc(o.name)}">${iconHtml(i)}` +
       `<span class="main"><span class="name">${esc(o.name)}</span><span class="sub${o.ok ? "" : " bad"}">${sub}</span></span>` +
       `<span class="switch" aria-hidden="true"></span></button></li>`;

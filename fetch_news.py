@@ -6,8 +6,9 @@ Run by .github/workflows/update.yml every 10 minutes. State kept between runs in
   translations.json  Japanese title -> English, so each title is translated once.
   icons/             One small PNG per site, refreshed every two weeks and published with the site.
 
-Translation uses Google Cloud Translation when the GOOGLE_TRANSLATE_API_KEY secret is set
-(dependable, free at this volume), otherwise Google's public endpoint (may be blocked).
+Translation tries, in order: Google Cloud (GOOGLE_TRANSLATE_API_KEY secret), DeepL (DEEPL_API_KEY
+secret), then Microsoft's, Google's and MyMemory's free services. When a feed fails, alternate
+addresses, the feed listed on the site's home page, and Google News for that site are tried.
 """
 
 import calendar
@@ -22,7 +23,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import quote, urljoin, urlsplit, urlunsplit
 
 import feedparser
 import requests
@@ -52,12 +53,27 @@ TOPIC_WINDOW_MS = 12 * HOUR_MS       # ...all published within 12 hours
 
 MAX_WORKERS = 12
 TIMEOUT = 15
-FREE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
-CLOUD_TRANSLATE_URL = "https://translation.googleapis.com/language/translate/v2"
-TRANSLATE_BATCH_CHARS = 1500         # characters per request on the free endpoint (~25 titles)
-CLOUD_BATCH_SIZE = 100               # titles per request on Cloud Translation (limit 128)
-TRANSLATE_DELAY = 0.5                # pause between free-endpoint requests
 ICON_URL = "https://www.google.com/s2/favicons?sz=64&domain="
+
+# Feeds: some sites refuse requests that look like a browser script but allow feed readers.
+FEED_HEADERS = {
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+    "Accept-Language": "en-GB,en;q=0.9,ja;q=0.8",
+}
+READER_UA = "Mozilla/5.0 (compatible; OniMugenBot/2.0; +https://onimugen.com)"
+BLOCKED_CODES = {401, 403, 406, 429}
+DISCOVERY_EVERY_MS = 6 * HOUR_MS     # look for a site's own feed address at most every 6 hours
+FEED_LINK_RE = re.compile(r"<link\b[^>]*>", re.IGNORECASE)
+GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl}:{lang}"
+
+# Translation providers, tried in order until one works. Keys are optional repository secrets.
+CLOUD_TRANSLATE_URL = "https://translation.googleapis.com/language/translate/v2"
+DEEPL_URL = "https://api{free}.deepl.com/v2/translate"
+MS_AUTH_URL = "https://edge.microsoft.com/translate/auth"
+MS_TRANSLATE_URL = "https://api-edge.cognitive.microsofttranslator.com/translate"
+FREE_GOOGLE_URL = "https://translate.googleapis.com/translate_a/single"
+MYMEMORY_URL = "https://api.mymemory.translated.net/get"
+TRANSLATE_DELAY = 0.3                # pause between requests to the free providers
 
 JST = timezone(timedelta(hours=9))
 CJK_RE = re.compile(r"[\u3000-\u9fff\uff00-\uffef]")
@@ -182,45 +198,41 @@ class Rules:
 
 
 # --- Fetching ---
+# For each source, in order: its feed address, any "alt" addresses in sources.json, the last address
+# that worked, the feed the site advertises on its home page, then Google News for that site.
+# Sources marked "fallback": false (feeds for one section of a bigger site) skip the last two.
 
-def fetch_feed(src: dict, feed_cache: dict) -> tuple[list[dict], dict]:
-    """Return ([{title, link, date}], status) for one feed. Falls back to the cached copy on failure."""
-    url, name = src["rss"], src["name"]
-    cached = feed_cache.setdefault(url, {})
-    headers = {}
-    if cached.get("etag"):
-        headers["If-None-Match"] = cached["etag"]
-    if cached.get("modified"):
-        headers["If-Modified-Since"] = cached["modified"]
-
-    def failed(reason: str):
-        log.warning("[%s] %s", name, reason)
-        return cached.get("entries", []), {"ok": False, "error": reason, "lastOk": cached.get("lastOk")}
-
-    resp, error = None, "no response"
+def http_get(url: str, headers: dict | None = None):
+    """GET with retries. Returns (response, None) or (None, error). A block gets one retry as a feed reader."""
+    error, as_reader = "no response", False
     for attempt in range(3):
+        h = {**FEED_HEADERS, **(headers or {})}
+        if as_reader:
+            h["User-Agent"] = READER_UA
+        status = None
         try:
-            resp = SESSION.get(url, headers=headers, timeout=TIMEOUT)
-            if resp.status_code == 304:
-                cached["lastOk"] = now_ms()
-                return cached.get("entries", []), {"ok": True, "lastOk": cached["lastOk"]}
-            resp.raise_for_status()
-            break
+            resp = SESSION.get(url, headers=h, timeout=TIMEOUT)
+            status = resp.status_code
+            if status < 400:
+                return resp, None
+            error = f"HTTP {status}"
         except requests.RequestException as exc:
-            status = getattr(getattr(exc, "response", None), "status_code", None)
-            error = f"HTTP {status}" if status else type(exc).__name__
-            resp = None
-            if status and status < 500 and status != 429:
-                break  # 403/404 and similar will not fix themselves on retry
-            if attempt < 2:
-                time.sleep(2 ** attempt)
-    if resp is None or resp.status_code >= 300:
-        return failed(error)
+            error = "timed out" if isinstance(exc, requests.Timeout) else type(exc).__name__
+        if status in BLOCKED_CODES and not as_reader:
+            as_reader = True
+            continue
+        if status and status < 500 and status != 429:
+            break  # 404 and similar will not fix themselves on retry
+        if attempt < 2:
+            time.sleep(2 ** attempt)
+    return None, error
 
+
+def parse_entries(resp, src: dict, via: str) -> list[dict] | None:
+    """Entries from the last 24 hours, or None if the response isn't a feed."""
     feed = feedparser.parse(resp.content)
-    if not feed.entries:
-        return failed("feed is empty or unreadable")
-
+    if not feed.entries and not feed.get("version"):
+        return None
     fetched_at = now_ms()
     assume_jst = src.get("lang") == "ja"
     entries = []
@@ -229,74 +241,207 @@ def fetch_feed(src: dict, feed_cache: dict) -> tuple[list[dict], dict]:
         if not e.get("title") or not link.lower().startswith(("http://", "https://")):
             continue  # also rejects javascript: and other unsafe links
         date = parse_date(e, assume_jst, fetched_at)
-        if date >= fetched_at - WINDOW_MS:
-            entries.append({"title": clean_title(e.get("title")), "link": normalise_url(link), "date": date})
+        if date < fetched_at - WINDOW_MS:
+            continue
+        title = clean_title(e.get("title"))
+        if via == "googlenews" and " - " in title:
+            title = title.rsplit(" - ", 1)[0]  # Google News adds " - Publisher"
+        entries.append({"title": title, "link": normalise_url(link), "date": date})
+    return entries
 
-    cached.update(etag=resp.headers.get("ETag"), modified=resp.headers.get("Last-Modified"),
-                  entries=entries, lastOk=fetched_at)
-    return entries, {"ok": True, "lastOk": fetched_at}
+
+def discover_feeds(domain: str) -> list[str]:
+    """Feed addresses the site lists in its home page (<link rel="alternate" type="application/rss+xml">)."""
+    resp, _ = http_get(f"https://{domain}/", {"Accept": "text/html,application/xhtml+xml"})
+    if resp is None:
+        return []
+    page = resp.content[:400_000].decode("utf-8", "ignore")
+    found = []
+    for tag in FEED_LINK_RE.findall(page):
+        if re.search(r"""type\s*=\s*["']application/(?:rss|atom)\+xml""", tag, re.IGNORECASE):
+            href = re.search(r"""href\s*=\s*["']([^"']+)""", tag, re.IGNORECASE)
+            if href:
+                found.append(urljoin(getattr(resp, "url", None) or f"https://{domain}/", html.unescape(href.group(1))))
+    return list(dict.fromkeys(found))[:3]
+
+
+def google_news_url(src: dict) -> str:
+    ja = src.get("lang") == "ja"
+    return GOOGLE_NEWS_URL.format(q=quote(f"site:{src['domain']} when:1d"), hl="ja" if ja else "en-GB",
+                                  gl="JP" if ja else "GB", lang="ja" if ja else "en")
+
+
+def fetch_feed(src: dict, feed_cache: dict) -> tuple[list[dict], dict]:
+    """Return ([{title, link, date}], status) for one source, trying fallbacks when its feed fails."""
+    name = src["name"]
+    cached = feed_cache.setdefault(src["rss"], {})
+    now = now_ms()
+    tried: set[str] = set()
+    errors: list[str] = []
+
+    def attempt(url: str, via: str) -> list[dict] | None:
+        if not url or url in tried:
+            return None
+        tried.add(url)
+        headers = {}
+        if cached.get("url") == url:  # conditional request, so an unchanged feed is a tiny 304
+            if cached.get("etag"):
+                headers["If-None-Match"] = cached["etag"]
+            if cached.get("modified"):
+                headers["If-Modified-Since"] = cached["modified"]
+        resp, error = http_get(url, headers)
+        if resp is not None and resp.status_code == 304:
+            return cached.get("entries", [])
+        entries = parse_entries(resp, src, via) if resp is not None else None
+        if entries is None or (via == "googlenews" and not entries):
+            errors.append(error or ("no articles" if via == "googlenews" else "not a feed"))
+            return None
+        cached.update(url=url, via=via, etag=resp.headers.get("ETag"),
+                      modified=resp.headers.get("Last-Modified"), entries=entries)
+        return entries
+
+    def ok(entries: list[dict], via: str):
+        cached["lastOk"] = now
+        if via != "direct":
+            log.warning("[%s] feed %s failed (%s); using %s%s", name, src["rss"], errors[0] if errors else "?",
+                        {"alternate": "alternate address", "discovered": "the feed listed on the site",
+                         "googlenews": "Google News"}.get(via, via),
+                        f": {cached['url']} (worth putting in sources.json)" if via == "discovered" else "")
+        status = {"ok": True}
+        if via != "direct":
+            status["via"] = via
+        return entries, status
+
+    plan = [(src["rss"], "direct")] + [(u, "alternate") for u in src.get("alt", [])]
+    if cached.get("url") and cached.get("via") in ("alternate", "discovered"):
+        plan.append((cached["url"], cached["via"]))
+    for url, via in plan:
+        if (entries := attempt(url, via)) is not None:
+            return ok(entries, via)
+
+    if src.get("fallback", True):
+        if now - cached.get("discoveredAt", 0) > DISCOVERY_EVERY_MS:
+            cached["discoveredAt"] = now
+            for url in discover_feeds(src["domain"]):
+                if (entries := attempt(url, "discovered")) is not None:
+                    return ok(entries, "discovered")
+        if (entries := attempt(google_news_url(src), "googlenews")) is not None:
+            return ok(entries, "googlenews")
+
+    error = errors[0] if errors else "no response"
+    log.warning("[%s] not responding: %s", name, "; ".join(dict.fromkeys(errors)) or error)
+    return cached.get("entries", []), {"ok": False, "error": error, "lastOk": cached.get("lastOk")}
 
 
 # --- Translation ---
+# Providers in order: Google Cloud and DeepL when their keys are set (dependable), then three free
+# services. When one fails, the same titles go to the next. Each title is translated once and cached.
 
-def translate_free(titles: list[str]) -> list[str]:
-    """Google's public endpoint. Titles go one per line; falls back to one by one if lines merge."""
+def translate_cloud(titles: list[str], key: str) -> list[str]:
+    resp = SESSION.post(CLOUD_TRANSLATE_URL, params={"key": key},
+                        json={"q": titles, "source": "ja", "target": "en", "format": "text"}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    return [html.unescape(t["translatedText"]) for t in resp.json()["data"]["translations"]]
+
+
+def translate_deepl(titles: list[str], key: str) -> list[str]:
+    url = DEEPL_URL.format(free="-free" if key.endswith(":fx") else "")
+    resp = SESSION.post(url, headers={"Authorization": f"DeepL-Auth-Key {key}"},
+                        json={"text": titles, "source_lang": "JA", "target_lang": "EN-GB"}, timeout=TIMEOUT)
+    resp.raise_for_status()
+    return [t["text"] for t in resp.json()["translations"]]
+
+
+def microsoft_translator():
+    """Microsoft's free translator (used by the Edge browser): a short-lived token, then batches of titles."""
+    token: dict[str, str] = {}
+
+    def run(titles: list[str]) -> list[str]:
+        if "value" not in token:
+            auth = SESSION.get(MS_AUTH_URL, timeout=TIMEOUT)
+            auth.raise_for_status()
+            token["value"] = auth.text.strip()
+        resp = SESSION.post(MS_TRANSLATE_URL, params={"from": "ja", "to": "en", "api-version": "3.0"},
+                            headers={"Authorization": f"Bearer {token['value']}"},
+                            json=[{"Text": t} for t in titles], timeout=TIMEOUT)
+        resp.raise_for_status()
+        return [item["translations"][0]["text"] for item in resp.json()]
+    return run
+
+
+def translate_google_free(titles: list[str]) -> list[str]:
+    """Google's public endpoint. Titles go one per line; one by one if the lines come back merged."""
     def call(text: str) -> str:
-        resp = SESSION.post(FREE_TRANSLATE_URL, params={"client": "gtx", "sl": "ja", "tl": "en", "dt": "t"},
-                            data={"q": text}, timeout=TIMEOUT)
+        resp = SESSION.get(FREE_GOOGLE_URL, params={"client": "gtx", "sl": "ja", "tl": "en", "dt": "t", "q": text},
+                           timeout=TIMEOUT)
         resp.raise_for_status()
         return "".join(seg[0] for seg in resp.json()[0] if seg and seg[0])
 
     lines = [line.strip() for line in call("\n".join(titles)).split("\n")]
     if len(lines) == len(titles) and all(lines):
         return lines
-    return [call(t).strip() for t in titles]
+    return [call(t) for t in titles]
 
 
-def translate_cloud(titles: list[str], key: str) -> list[str]:
-    """Google Cloud Translation v2: one request per batch, results in the same order."""
-    resp = SESSION.post(CLOUD_TRANSLATE_URL, params={"key": key},
-                        json={"q": titles, "source": "ja", "target": "en", "format": "text"}, timeout=TIMEOUT)
-    resp.raise_for_status()
-    out = [html.unescape(t["translatedText"]).strip() for t in resp.json()["data"]["translations"]]
-    if len(out) != len(titles):
-        raise ValueError("translation count mismatch")
+def translate_mymemory(titles: list[str]) -> list[str]:
+    """MyMemory: free, one title per request, limited per day. Last resort."""
+    out = []
+    for t in titles:
+        resp = SESSION.get(MYMEMORY_URL, params={"q": t, "langpair": "ja|en"}, timeout=TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        text = html.unescape((data.get("responseData") or {}).get("translatedText") or "")
+        if int(data.get("responseStatus") or 0) != 200 or text.upper().startswith("MYMEMORY WARNING"):
+            raise ValueError(data.get("responseDetails") or "daily limit reached")
+        out.append(text)
     return out
 
 
-def batches(titles: list[str], cloud: bool) -> list[list[str]]:
-    if cloud:
-        return [titles[i:i + CLOUD_BATCH_SIZE] for i in range(0, len(titles), CLOUD_BATCH_SIZE)]
-    out, batch, size = [], [], 0
-    for t in titles:
-        if batch and size + len(t) > TRANSLATE_BATCH_CHARS:
-            out.append(batch)
-            batch, size = [], 0
-        batch.append(t)
-        size += len(t) + 1
-    return out + ([batch] if batch else [])
+def translators() -> list[tuple[str, object, int, int]]:
+    """(name, function, most titles per request, most characters per request), in the order to try."""
+    chain = []
+    if key := os.environ.get("GOOGLE_TRANSLATE_API_KEY", "").strip():
+        chain.append(("Google Cloud", lambda b: translate_cloud(b, key), 100, 20_000))
+    if key := os.environ.get("DEEPL_API_KEY", "").strip():
+        chain.append(("DeepL", lambda b: translate_deepl(b, key), 50, 20_000))
+    chain += [("Microsoft", microsoft_translator(), 50, 10_000),
+              ("Google", translate_google_free, 25, 600),
+              ("MyMemory", translate_mymemory, 10, 5_000)]
+    return chain
 
 
 def translate_titles(articles: list[dict], cache: dict, now: int) -> dict:
     """Translate Japanese titles in place (cached). Returns a status for the site."""
-    key = os.environ.get("GOOGLE_TRANSLATE_API_KEY", "").strip()
-    mode = "cloud" if key else "free"
     pending = sorted({a["title"] for a in articles
                       if a.get("lang") == "ja" and CJK_RE.search(a["title"]) and a["title"] not in cache})
-    error = None
-    for batch in batches(pending, cloud=bool(key)):
+    chain, used, errors = translators(), [], {}
+    while pending and chain:
+        name, run, most, chars = chain[0]
+        batch, size = [], 0
+        for t in pending:
+            if batch and (len(batch) >= most or size + len(t) > chars):
+                break
+            batch.append(t)
+            size += len(t) + 1
         try:
-            result = translate_cloud(batch, key) if key else translate_free(batch)
-            for original, english in zip(batch, result):
-                if english:
-                    cache[original] = [english, now]
-            if not key:
+            result = [r.strip() for r in run(batch)]
+            if len(result) != len(batch):
+                raise ValueError("wrong number of translations")
+            done = {o: r for o, r in zip(batch, result) if r and r != o}
+            if not done:
+                raise ValueError("returned the text untranslated")
+            for original, english in done.items():
+                cache[original] = [english, now]
+            pending = pending[len(batch):]
+            if name not in used:
+                used.append(name)
+            if name not in ("Google Cloud", "DeepL"):
                 time.sleep(TRANSLATE_DELAY)
-        except (requests.RequestException, ValueError, KeyError, IndexError, TypeError) as exc:
+        except (requests.RequestException, ValueError, KeyError, IndexError, TypeError, AttributeError) as exc:
             status = getattr(getattr(exc, "response", None), "status_code", None)
-            error = f"HTTP {status}" if status else type(exc).__name__
-            log.warning("Translation (%s) failed: %s", mode, exc)
-            break
+            errors[name] = f"HTTP {status}" if status else str(exc)[:80] or type(exc).__name__
+            log.warning("Translation via %s failed (%s); trying the next service", name, errors[name])
+            chain.pop(0)
 
     untranslated = 0
     for a in articles:
@@ -309,10 +454,13 @@ def translate_titles(articles: list[dict], cache: dict, now: int) -> dict:
             a["translated"] = True
         else:
             untranslated += 1
-    log.info("Translation (%s): %d titles still in Japanese%s", mode, untranslated, f", error {error}" if error else "")
-    status = {"mode": mode, "ok": error is None, "untranslated": untranslated}
-    if error:
-        status["error"] = error
+    log.info("Translation: %d titles still in Japanese; used %s%s", untranslated, ", ".join(used) or "cache only",
+             "; failed: " + ", ".join(f"{k} ({v})" for k, v in errors.items()) if errors else "")
+    status = {"ok": untranslated == 0, "untranslated": untranslated}
+    if used:
+        status["via"] = used
+    if errors:
+        status["errors"] = errors
     return status
 
 
@@ -481,6 +629,8 @@ def main() -> None:
         log.info("[%s] %d articles%s", src["name"], len(kept), "" if status["ok"] else f" (failing: {status['error']})")
         o = outlets.setdefault(src["name"], {"name": src["name"], "domain": src["domain"], "feeds": 0, "failed": 0, "count": 0})
         o["feeds"] += 1
+        if status.get("via"):
+            o["via"] = status["via"]
         if not status["ok"]:
             o["failed"] += 1
             o.setdefault("error", status["error"])

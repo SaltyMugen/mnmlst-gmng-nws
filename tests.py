@@ -35,6 +35,10 @@ class Resp:
             err.response = self
             raise err
 
+    @property
+    def text(self):
+        return self.content.decode("utf-8", "ignore")
+
     def json(self):
         return self._payload
 
@@ -117,7 +121,6 @@ class Pipeline(unittest.TestCase):
         mock.patch.object(fn, "TRANSLATE_DELAY", 0).start()
         self.now = fn.now_ms()
         self.calls = {"feed": 0, "translate": 0, "icon": 0}
-        self.translate_status = 200
         self.feeds = {}
         sources = [
             {"name": "Push Square", "rss": "https://feeds.test/ps", "domain": "pushsquare.com", "tags": ["playstation"]},
@@ -142,29 +145,57 @@ class Pipeline(unittest.TestCase):
                                          ("Valve's new Steam Deck is here", "https://theverge.com/deck", n - 60_000)],
         }
 
-        def get(url, headers=None, timeout=None):
+        self.blocked_unless_reader = set()
+        self.home_pages = {}
+        self.google_news = {}
+        self.ms_status = 200
+        self.google_status = 200
+
+        def rss(items):
+            body = "".join(f"<item><title>{t}</title><link>{l}</link><pubDate>{rfc(d)}</pubDate></item>" for t, l, d in items)
+            return f"<rss version='2.0'><channel>{body}</channel></rss>".encode()
+
+        def get(url, headers=None, timeout=None, params=None):
+            headers = headers or {}
             if url.startswith(fn.ICON_URL):
                 self.calls["icon"] += 1
                 png = b"\x89PNG\r\n\x1a\n" + b"\0" * 8 + (64).to_bytes(4, "big") + b"\0" * 20
                 return Resp(200, png)
+            if url == fn.MS_AUTH_URL:
+                return Resp(self.ms_status, b"token", payload=None) if self.ms_status != 200 else Resp(200, b"token")
+            if url == fn.FREE_GOOGLE_URL:
+                self.calls["translate"] += 1
+                if self.google_status != 200:
+                    return Resp(self.google_status)
+                lines = params["q"].split("\n")
+                return Resp(200, payload=[[["\n".join("EN " + str(len(l)) for l in lines), "x"]]])
+            if url.startswith("https://news.google.com/"):
+                for domain, items in self.google_news.items():
+                    if fn.quote("site:" + domain) in url:
+                        return Resp(200, rss(items))
+                return Resp(200, rss([]))
+            if url in self.home_pages:
+                return Resp(200, self.home_pages[url].encode())
             self.calls["feed"] += 1
-            if headers and headers.get("If-None-Match") == "v1":
+            if url in self.blocked_unless_reader and headers.get("User-Agent") != fn.READER_UA:
+                return Resp(403)
+            if headers.get("If-None-Match") == "v1":
                 return Resp(304)
             if url not in self.feeds:
                 return Resp(404)
-            items = "".join(f"<item><title>{t}</title><link>{l}</link><pubDate>{rfc(d)}</pubDate></item>"
-                            for t, l, d in self.feeds[url])
-            return Resp(200, f"<rss><channel>{items}</channel></rss>".encode(), {"ETag": "v1"})
+            return Resp(200, rss(self.feeds[url]), {"ETag": "v1"})
 
-        def post(url, params=None, data=None, json=None, timeout=None):
+        def post(url, params=None, data=None, json=None, timeout=None, headers=None):
             self.calls["translate"] += 1
-            if self.translate_status != 200:
-                return Resp(self.translate_status)
-            lines = data["q"].split("\n")
-            return Resp(200, payload=[[["\n".join("EN " + str(len(l)) for l in lines), "x"]]])
+            if url == fn.MS_TRANSLATE_URL:
+                if self.ms_status != 200:
+                    return Resp(self.ms_status)
+                return Resp(200, payload=[{"translations": [{"text": "MS " + str(len(i["Text"]))}]} for i in json])
+            return Resp(404)
 
         mock.patch.object(fn.SESSION, "get", side_effect=get).start()
         mock.patch.object(fn.SESSION, "post", side_effect=post).start()
+        mock.patch.dict("os.environ", {"GOOGLE_TRANSLATE_API_KEY": "", "DEEPL_API_KEY": ""}).start()
 
     def tearDown(self):
         mock.patch.stopall()
@@ -175,8 +206,7 @@ class Pipeline(unittest.TestCase):
         return json.loads((self.tmp / "data.json").read_text())
 
     def test_end_to_end(self):
-        with mock.patch.dict("os.environ", {"GOOGLE_TRANSLATE_API_KEY": ""}):
-            out = self.run_main()
+        out = self.run_main()
         arts = out["articles"]
         every = [a for s in arts for a in [s, *s.get("group", [])]]
         titles = {a["title"] for a in every}
@@ -199,12 +229,13 @@ class Pipeline(unittest.TestCase):
         self.assertIn("rumour", leak["tags"])
 
         jp = next(a for a in every if a["link"] == "https://famitsu.com/1")
-        self.assertTrue(jp["title"].startswith("EN ") and jp.get("translated"))
+        self.assertTrue(jp["title"].startswith("MS ") and jp.get("translated"))
         self.assertTrue(out["translation"]["ok"])
+        self.assertEqual(out["translation"]["via"], ["Microsoft"])
 
         dead = out["sources"][names.index("Dead Feed")]
         self.assertFalse(dead["ok"])
-        self.assertEqual(dead["error"], "HTTP 404")
+        self.assertEqual(dead["error"], "HTTP 404")  # its feed, its home page and Google News all failed
         self.assertTrue(all(o["ok"] for o in out["sources"] if o["name"] != "Dead Feed"))
         self.assertTrue(all(o["icon"] for o in out["sources"]))
         self.assertTrue(all(0 <= a["src"] < len(names) for a in every))
@@ -216,16 +247,52 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(self.calls["translate"], 0)
         self.assertEqual(self.calls["icon"], 0)
 
+    def test_translation_falls_through_to_next_service(self):
+        self.ms_status = 403
+        out = self.run_main()
+        jp = next(a for s in out["articles"] for a in [s, *s.get("group", [])] if a["link"] == "https://famitsu.com/1")
+        self.assertTrue(jp["title"].startswith("EN "), jp["title"])
+        self.assertEqual(out["translation"]["via"], ["Google"])
+        self.assertIn("Microsoft", out["translation"]["errors"])
+        self.assertTrue(out["translation"]["ok"])
+
     def test_translation_failure_is_reported(self):
-        self.translate_status = 429
-        with mock.patch.dict("os.environ", {"GOOGLE_TRANSLATE_API_KEY": ""}):
+        self.ms_status = self.google_status = 429
+        with mock.patch.object(fn, "translate_mymemory", side_effect=ValueError("daily limit reached")):
             out = self.run_main()
         self.assertFalse(out["translation"]["ok"])
         self.assertEqual(out["translation"]["untranslated"], 1)
-        self.assertEqual(self.calls["translate"], 1)
+        self.assertEqual(set(out["translation"]["errors"]), {"Microsoft", "Google", "MyMemory"})
+
+    def test_blocked_feed_retried_as_feed_reader(self):
+        self.blocked_unless_reader.add("https://feeds.test/kotaku")
+        out = self.run_main()
+        kotaku = next(o for o in out["sources"] if o["name"] == "Kotaku")
+        self.assertTrue(kotaku["ok"])
+        self.assertNotIn("via", kotaku)
+
+    def test_dead_feed_found_on_home_page(self):
+        n = self.now
+        self.home_pages["https://dead.test/"] = ('<html><head><link rel="alternate" type="application/rss+xml" '
+                                                 'href="/new-feed.xml"></head></html>')
+        self.feeds["https://dead.test/new-feed.xml"] = [("Revived story", "https://dead.test/1", n - 60_000)]
+        out = self.run_main()
+        dead = next(o for o in out["sources"] if o["name"] == "Dead Feed")
+        self.assertTrue(dead["ok"])
+        self.assertEqual(dead["via"], "discovered")
+        self.assertIn("Revived story", {s["title"] for s in out["articles"]})
+
+    def test_dead_feed_falls_back_to_google_news(self):
+        self.google_news["dead.test"] = [("Story via Google - Dead Feed", "https://dead.test/2", self.now - 60_000)]
+        out = self.run_main()
+        dead = next(o for o in out["sources"] if o["name"] == "Dead Feed")
+        self.assertTrue(dead["ok"])
+        self.assertEqual(dead["via"], "googlenews")
+        self.assertIn("Story via Google", {s["title"] for s in out["articles"]})  # " - Publisher" removed
 
     def test_nothing_fetched_keeps_site(self):
         self.feeds = {}
+        self.home_pages = {}
         with self.assertRaises(SystemExit):
             self.run_main()
         self.assertFalse((self.tmp / "data.json").exists())
@@ -240,6 +307,7 @@ class Files(unittest.TestCase):
                 self.assertTrue(s["rss"].startswith("https://"))
                 self.assertTrue(s["domain"] and "/" not in s["domain"])
                 self.assertLessEqual(set(s.get("tags", [])), known)
+                self.assertTrue(all(u.startswith("https://") for u in s.get("alt", [])))
         rss = [s["rss"] for s in sources]
         self.assertEqual(len(rss), len(set(rss)), "a feed is listed twice")
 
