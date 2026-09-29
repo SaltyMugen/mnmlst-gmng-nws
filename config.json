@@ -1,5 +1,5 @@
 {
-  "_help": "Plain phrases, matched as whole words and ignoring case. In blockedTitles, # stands for any number.",
+  "_help": "Plain phrases, matched as whole words and ignoring case. In blockedTitles, # stands for any number. Platform tags (PlayStation, Xbox, Nintendo, Steam) come only from the official sources in sources.json.",
   "trendingThreshold": 2.5,
   "halfLifeHours": 13,
   "blockedTitles": [
@@ -19,96 +19,6 @@
     "all fc"
   ],
   "tags": {
-    "playstation": {
-      "match": [
-        "playstation",
-        "ps5",
-        "ps5 pro",
-        "ps4",
-        "ps plus",
-        "psvr",
-        "psvr2",
-        "psvr 2",
-        "dualsense",
-        "state of play",
-        "sony interactive"
-      ]
-    },
-    "xbox": {
-      "match": [
-        "xbox",
-        "game pass",
-        "series x",
-        "series s",
-        "microsoft gaming"
-      ]
-    },
-    "nintendo": {
-      "match": [
-        "nintendo",
-        "switch 2",
-        "on switch",
-        "for switch",
-        "switch port",
-        "switch version",
-        "switch online",
-        "switch release",
-        "switch edition",
-        "switch sales",
-        "eshop",
-        "mario",
-        "zelda",
-        "metroid",
-        "kirby",
-        "splatoon",
-        "donkey kong",
-        "animal crossing",
-        "pikmin",
-        "fire emblem",
-        "xenoblade",
-        "smash bros",
-        "pokemon",
-        "pokémon"
-      ],
-      "exclude": [
-        "pokemon go",
-        "pokémon go",
-        "pokemon tcg",
-        "pokémon tcg",
-        "pokemon cards",
-        "pokémon cards",
-        "pokemon card",
-        "pokémon card",
-        "pokemon happy meals",
-        "pokémon happy meals",
-        "pokemon vgc",
-        "pokémon vgc",
-        "pokemon movie",
-        "pokémon movie",
-        "mario movie",
-        "zelda movie"
-      ]
-    },
-    "pc": {
-      "match": [
-        "pc",
-        "pc port",
-        "steam",
-        "steam deck",
-        "epic games store",
-        "gog",
-        "nvidia",
-        "geforce",
-        "rtx",
-        "radeon",
-        "dlss"
-      ],
-      "exclude": [
-        "out of steam",
-        "full steam",
-        "pc gamer"
-      ]
-    },
     "rumour": {
       "match": [
         "rumour",

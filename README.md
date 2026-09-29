@@ -12,7 +12,7 @@ headlines, groups stories that several sites covered, saves each site's icon, th
 | `sources.json` | The feeds. Add `"tags": ["playstation"]` for platform-only sites, `"lang": "ja"` for Japanese ones, `"alt": ["https://..."]` for backup feed addresses, `"enabled": false` to switch one off. |
 | `config.json` | Tag rules (which words mean PlayStation, Xbox, Nintendo, PC or Rumour), blocked headlines, Trending settings, and names that shouldn't group unrelated stories. |
 
-Everything else (`index.html`, `style.css`, `script.js`, `fetch_news.py`, `tests.py`) is the site and the updater.
+Everything else is the site (`index.html`, `style.css`, `script.js`), the updater (`fetch_news.py`), the page builder (`build_site.py`) and the checks (`tests.py`).
 
 ## Publishing by upload
 
@@ -54,3 +54,15 @@ address was found, put it in `sources.json`.
 
 GitHub switches off scheduled workflows after 60 days without a commit. On the 1st of each month
 the workflow updates the date in `sitemap.xml` and commits it, which keeps the schedule running.
+
+## Search engines
+
+Each run, `build_site.py` writes the newest 40 stories into the page as real links, with structured data
+(schema.org WebSite, CollectionPage and ItemList), a description built from the latest headlines,
+`feed.xml` (RSS), `sitemap.xml`, an Apple touch icon, Safari's pinned-tab icon and a web app manifest.
+
+Once, after the first deploy:
+1. **Google Search Console** (search.google.com/search-console): add `onimugen.com`, verify it, submit
+   `https://onimugen.com/sitemap.xml`. Safari on the Mac uses Google by default.
+2. **Bing Webmaster Tools** (bing.com/webmasters): import from Google Search Console. This also covers DuckDuckGo.
+3. Applebot (Spotlight and Siri suggestions on Mac, iPhone and iPad) is allowed by `robots.txt`; nothing to do.

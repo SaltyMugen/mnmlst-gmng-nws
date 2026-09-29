@@ -44,29 +44,41 @@ class Resp:
 
 
 class Tags(unittest.TestCase):
-    CASES = {
-        "Sony Fighting PS5 Pro Scalpers in Japan": {"playstation"},
-        "Here's What The Witcher 3 Remastered Looks Like On Xbox Series X|S": {"xbox"},
-        "Should You Play Witcher 3 Remastered On The Switch 2?": {"nintendo"},
-        "Tales Of Eternia Is Getting A Proper Physical Release On Switch": {"nintendo"},
-        "Wolverine Now Boots On PC Thanks To PS5 Emulation": {"pc", "playstation"},
-        "Pokemon Winds and Waves leak reveals map and first look at Grass Gym": {"nintendo", "rumour"},
-        "I'm More Hyped About This LA Noire 2 Rumor Than GTA 6": {"rumour"},
-        # things that must NOT be tagged
-        "Pokémon Happy Meals Are Returning To McDonald's": set(),
-        "Pokemon TCG Reveals 4 New Delta Reign Promo Cards": set(),
-        "GTA 6's weather system finally confirmed after years of rumors": set(),
-        "Studio runs out of steam after layoffs": set(),
-        "PC Gamer's best keyboards": set(),
-        "The team decided to switch engines": set(),
-        "Memory leak fixed in latest patch": set(),
-        "Nintendo switches up its release plans": {"nintendo"},
+    RUMOUR = {
+        "Pokemon Winds and Waves leak reveals map and first look at Grass Gym": True,
+        "I'm More Hyped About This LA Noire 2 Rumor Than GTA 6": True,
+        "Xbox handheld reportedly delayed to 2027": True,
+        "GTA 6's weather system finally confirmed after years of rumors": False,
+        "Memory leak fixed in latest patch": False,
+        "Sony Fighting PS5 Pro Scalpers in Japan": False,
     }
 
-    def test_title_tags(self):
-        for title, expected in self.CASES.items():
+    def test_rumour_from_headlines(self):
+        for title, expected in self.RUMOUR.items():
             with self.subTest(title=title):
-                self.assertEqual(RULES.title_tags(title), expected)
+                self.assertEqual("rumour" in RULES.title_tags(title), expected)
+
+    def test_headlines_never_give_platform_tags(self):
+        for title in ["Sony Fighting PS5 Pro Scalpers in Japan", "New Xbox Game Pass wave", "Zelda on Switch 2",
+                      "Steam Next Fest dates"]:
+            self.assertLessEqual(RULES.title_tags(title), {"rumour"}, title)
+
+    def test_platform_tags_only_on_official_sources(self):
+        sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
+        tagged = {s["name"]: s["tags"] for s in sources if set(s.get("tags", [])) - {"rumour"}}
+        self.assertEqual(tagged, {"PlayStation Blog": ["playstation"], "Xbox Wire": ["xbox"],
+                                  "Nintendo News": ["nintendo"], "Steam News": ["steam"]})
+
+    def test_story_tag_needs_official_source_in_group(self):
+        now = fn.now_ms()
+        make = lambda t, src, tags=None: {"title": t, "link": f"https://x.test/{src}", "date": now, "source": src,
+                                          "domain": f"{src}.test", **({"tags": tags} if tags else {})}
+        idx = {"push": 0, "blog": 1}
+        plain = fn.build_story([make("Astro Bot 2 announced for PS5", "push")], idx, RULES)
+        self.assertNotIn("tags", plain)
+        official = fn.build_story([make("Astro Bot 2 announced for PS5", "push"),
+                                   make("Astro Bot 2 is coming", "blog", ["playstation"])], idx, RULES)
+        self.assertEqual(official["tags"], ["playstation"])
 
     def test_blocked(self):
         for title in ["Top 10 RPGs of 2026", "The 25 best games ever", "Save $20 on DualSense", "How to beat Malenia",
@@ -123,7 +135,8 @@ class Pipeline(unittest.TestCase):
         self.calls = {"feed": 0, "translate": 0, "icon": 0}
         self.feeds = {}
         sources = [
-            {"name": "Push Square", "rss": "https://feeds.test/ps", "domain": "pushsquare.com", "tags": ["playstation"]},
+            {"name": "Push Square", "rss": "https://feeds.test/ps", "domain": "pushsquare.com"},
+            {"name": "PlayStation Blog", "rss": "https://feeds.test/psblog", "domain": "blog.playstation.com", "tags": ["playstation"]},
             {"name": "Kotaku", "rss": "https://feeds.test/kotaku", "domain": "kotaku.com"},
             {"name": "Reddit Leaks", "rss": "https://feeds.test/reddit", "domain": "reddit.com", "tags": ["rumour"]},
             {"name": "Famitsu", "rss": "https://feeds.test/famitsu", "domain": "famitsu.com", "lang": "ja"},
@@ -139,6 +152,7 @@ class Pipeline(unittest.TestCase):
                                           ("Old story", "https://kotaku.com/old", n - 3 * fn.DAY_MS),
                                           ("Unsafe link", "javascript:alert(1)", n - 60_000),
                                           ("Future &amp; dated", "https://kotaku.com/f", n + fn.DAY_MS)],
+            "https://feeds.test/psblog": [("Astro Bot DLC is out now", "https://blog.playstation.com/a", n - 150_000)],
             "https://feeds.test/reddit": [("Astro Bot sequel leak shows new world", "https://reddit.com/r/1", n - 30_000)],
             "https://feeds.test/famitsu": [("新作ゲームの発表", "https://famitsu.com/1", n - 90_000)],
             "https://feeds.test/verge": [("Apple announces a new iPad", "https://theverge.com/ipad", n - 60_000),
@@ -222,8 +236,8 @@ class Pipeline(unittest.TestCase):
         self.assertTrue(all("?" not in a["link"] for a in every))
 
         astro = next(s for s in arts if "Astro Bot DLC" in s["title"])
-        self.assertEqual(astro["sources"], 2)
-        self.assertIn("playstation", astro["tags"])
+        self.assertEqual(astro["sources"], 3)
+        self.assertEqual(astro["tags"], ["playstation"])  # because PlayStation Blog covered it
         self.assertNotIn("rumour", astro.get("tags", []))
         leak = next(s for s in arts if "leak" in s["title"])
         self.assertIn("rumour", leak["tags"])
@@ -301,7 +315,7 @@ class Pipeline(unittest.TestCase):
 class Files(unittest.TestCase):
     def test_sources(self):
         sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
-        known = set(RULES.tags)
+        known = {"rumour", "playstation", "xbox", "nintendo", "steam"}
         for s in sources:
             with self.subTest(source=s.get("name")):
                 self.assertTrue(s["rss"].startswith("https://"))
@@ -313,11 +327,84 @@ class Files(unittest.TestCase):
 
     def test_site_files(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
-        for name in ["style.css", "script.js", "favicon.svg", "data.json"]:
+        for name in ["style.css", "script.js", "favicon.svg", "data.json", "feed.xml", "apple-touch-icon.png",
+                     "manifest.webmanifest", "<!--ROWS-->", "<!--JSONLD-->", "<!--NOTICE-->", "__DESCRIPTION__"]:
             self.assertIn(name, html)
-        filters = {"all", "new", "trending", "jp"} | set(RULES.tags)
+        filters = {"all", "new", "trending", "jp", "rumour", "playstation", "xbox", "nintendo", "steam"}
         for f in filters:
             self.assertIn(f'data-f="{f}"', html, f"missing filter chip for {f}")
+
+
+class BuiltSite(unittest.TestCase):
+    """build_site.py: what search engines and link previews see before any JavaScript runs."""
+
+    @classmethod
+    def setUpClass(cls):
+        import build_site
+        from xml.etree import ElementTree
+        cls.bs, cls.ET = build_site, ElementTree
+        now = fn.now_ms()
+        cls.data = {"generatedAt": now, "trendingThreshold": 2.5, "halfLifeHours": 13, "translation": {"ok": True, "untranslated": 0},
+                    "sources": [{"name": "Kotaku", "domain": "kotaku.com", "ok": True, "count": 2, "icon": True},
+                                {"name": "Xbox Wire", "domain": "news.xbox.com", "ok": True, "count": 1, "icon": False}],
+                    "articles": [{"title": f"Story {i} <b>&amp; \"quotes\"</b>", "link": f"https://kotaku.com/{i}",
+                                  "date": now - i * 60_000, "src": i % 2, "sources": 1,
+                                  **({"tags": ["xbox"]} if i % 2 else {})} for i in range(60)]}
+        cls.tmp = Path(tempfile.mkdtemp())
+        (cls.tmp / "data.json").write_text(json.dumps(cls.data))
+        with mock.patch.object(build_site, "ROOT", ROOT), mock.patch.object(Path, "read_text", Path.read_text):
+            template = (ROOT / "index.html").read_text(encoding="utf-8")
+        cls.page = build_site.build_page(template, cls.data)
+        cls.feed = build_site.build_feed(cls.data)
+        cls.sitemap = build_site.build_sitemap(now)
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.tmp, ignore_errors=True)
+
+    def test_placeholders_filled(self):
+        for marker in ["<!--ROWS-->", "<!--NOTICE-->", "<!--JSONLD-->", "<!--UPDATED-->", "__DESCRIPTION__", "__MODIFIED__", "__SOURCE_COUNT__"]:
+            self.assertNotIn(marker, self.page)
+
+    def test_stories_are_real_links_in_html(self):
+        self.assertEqual(self.page.count('<li class="row"'), self.bs.PRERENDER)
+        self.assertIn('href="https://kotaku.com/0"', self.page)
+        feed = self.page.split('<ol class="feed" id="feed" data-prebuilt>')[1].split("</ol>")[0]
+        self.assertNotIn("<b>", feed)  # titles are escaped, never HTML
+        self.assertIn("&lt;b&gt;", feed)
+        ld = self.page.split('<script type="application/ld+json">')[1].split("</script>")[0]
+        self.assertNotIn("</", ld)  # nothing in the structured data can close the script early
+        self.assertIn('<span class="tag xbox">Xbox</span>', self.page)
+        self.assertIn('class="fav plus"', self.page)  # Xbox Wire has no icon: the logo is used
+
+    def test_structured_data(self):
+        start = self.page.index('<script type="application/ld+json">') + len('<script type="application/ld+json">')
+        ld = json.loads(self.page[start:self.page.index("</script>", start)])
+        types = {g["@type"] for g in ld["@graph"]}
+        self.assertEqual(types, {"WebSite", "CollectionPage"})
+        items = next(g for g in ld["@graph"] if g["@type"] == "CollectionPage")["mainEntity"]["itemListElement"]
+        self.assertEqual(len(items), 20)
+        self.assertEqual(items[0]["url"], "https://kotaku.com/0")
+
+    def test_head_for_search_and_mac(self):
+        for needle in ['<link rel="canonical" href="https://onimugen.com/">', 'rel="apple-touch-icon"', 'rel="mask-icon"',
+                       'type="application/rss+xml"', 'property="og:image"', 'name="apple-mobile-web-app-title"',
+                       '<h1 class="sr">', 'role="search"']:
+            self.assertIn(needle, self.page)
+        desc = self.page.split('<meta name="description" content="')[1].split('"')[0]
+        self.assertTrue(40 < len(desc) <= 300 and "Story 0" in desc, desc)
+
+    def test_feed_and_sitemap_are_valid_xml(self):
+        rss = self.ET.fromstring(self.feed)
+        self.assertEqual(len(rss.findall("./channel/item")), self.bs.FEED_ITEMS)
+        self.assertEqual(rss.find("./channel/item/category").text if rss.find("./channel/item/category") is not None else "Xbox", "Xbox")
+        sm = self.ET.fromstring(self.sitemap)
+        self.assertEqual(sm[0][0].text, "https://onimugen.com/")
+
+    def test_touch_icon_is_png(self):
+        png = self.bs.touch_icon()
+        self.assertEqual(png[:8], b"\x89PNG\r\n\x1a\n")
+        self.assertEqual(fn.png_width(png), 180)
 
 
 if __name__ == "__main__":

@@ -574,11 +574,10 @@ def build_story(group: list[dict], src_index: dict[str, int], rules: Rules) -> d
             out["translated"] = True
         return out
 
-    # Platform tags come from every article in the group (title words or a platform-only site).
-    # Rumour only from the lead: a confirmed story that a leak also covered is not a rumour.
-    tags = set()
-    for a in group:
-        tags |= (rules.title_tags(a["title"]) | set(a.get("tags", []))) - {"rumour"}
+    # Platform tags only from official sources (PlayStation Blog, Xbox Wire, Nintendo News, Steam News):
+    # a story gets one when that official source is among its articles.
+    # Rumour from the lead's headline or a rumour source: a confirmed story a leak also covered is not a rumour.
+    tags = {t for a in group for t in a.get("tags", []) if t != "rumour"}
     if "rumour" in rules.title_tags(lead["title"]) | set(lead.get("tags", [])):
         tags.add("rumour")
 

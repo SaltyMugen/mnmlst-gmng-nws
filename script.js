@@ -8,7 +8,7 @@ const TICK_MS = 30e3;             // update ages, New and Trending
 const DAY_MS = 864e5;
 const READ_TTL_MS = 7 * DAY_MS;   // forget read links after a week
 const FIRST_PAINT = 40;           // rows drawn before the rest, so the top of the page appears at once
-const THEMES = { poden: "#000000", mono: "#000000", blossom: "#ffedf5" };
+const THEMES = { poden: "#000000", arcade: "#0b0a1a", blossom: "#ffedf5" };
 const KEYS = {
   feed: "onimugen_v3_feed",
   bookmarks: "onimugen_v1_bookmarks",
@@ -18,7 +18,7 @@ const KEYS = {
   filter: "om-filter",
   theme: "om-theme",
 };
-const TAG_LABELS = { playstation: "PlayStation", xbox: "Xbox", nintendo: "Nintendo", pc: "PC" };
+const PLATFORMS = { playstation: "PlayStation", xbox: "Xbox", nintendo: "Nintendo", steam: "Steam" };
 const ICON_SAVE = '<svg viewBox="0 0 24 24"><path d="M18 21l-6-4-6 4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/></svg>';
 const ICON_CHEVRON = '<svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>';
 
@@ -68,12 +68,13 @@ function loadRead() {
   return read;
 }
 
-// Site icons are published with the site (icons/<domain>.png); a letter when there is none.
-function iconHtml(src, cls = "") {
+// Site icons are published with the site (icons/<domain>.png); the OniMugen+ logo when a site has none.
+const PLUS = '<span class="fav plus" aria-hidden="true"></span>';
+function iconHtml(src) {
   const o = state.data.sources[src];
   return o && o.icon
-    ? `<img class="fav ${cls}" src="icons/${esc(o.domain)}.png" alt="" width="20" height="20" loading="lazy" decoding="async">`
-    : `<span class="letter ${cls}" aria-hidden="true">${esc((o ? o.name : "?").charAt(0))}</span>`;
+    ? `<img class="fav" src="icons/${esc(o.domain)}.png" alt="" width="20" height="20" loading="lazy" decoding="async">`
+    : PLUS;
 }
 
 const sourceName = i => state.data.sources[i]?.name || "";
@@ -84,7 +85,7 @@ const sourceName = i => state.data.sources[i]?.name || "";
 function rowHtml(s) {
   const tags = [];
   if (has(s, "rumour")) tags.push('<span class="tag rumour">Rumour</span>');
-  for (const t of ["playstation", "xbox", "nintendo", "pc"]) if (has(s, t)) tags.push(`<span class="tag">${TAG_LABELS[t]}</span>`);
+  for (const t in PLATFORMS) if (has(s, t)) tags.push(`<span class="tag ${t}">${PLATFORMS[t]}</span>`);
   if (s.translated) tags.push('<span class="tag">JP → EN</span>');
 
   const group = s.group
@@ -92,7 +93,7 @@ function rowHtml(s) {
     : "";
   return `${iconHtml(s.src)}<a class="title" href="${esc(safeUrl(s.link))}" target="_blank" rel="noopener">${esc(s.title)}</a>` +
     `<button type="button" class="save${state.bookmarks[s.link] ? " on" : ""}" aria-label="Bookmark">${ICON_SAVE}</button>` +
-    `<div class="meta"><span class="src">${esc(sourceName(s.src))}</span><time></time>` +
+    `<div class="meta"><span class="src">${esc(sourceName(s.src))}</span><time datetime="${new Date(s.date).toISOString().replace(/\.\d+Z$/, "Z")}"></time>` +
     `<span class="tag new" hidden>New</span><span class="tag hot" hidden>Trending</span>${tags.join("")}${group}</div>`;
 }
 
@@ -122,18 +123,30 @@ function render() {
   const stories = state.data.articles.filter(s => s.date >= cutoff).sort((a, b) => b.date - a.date);
   state.rows = stories.map(buildRow);
   const feed = $("feed");
+  // First load only: build_site.py already wrote the newest stories into the page (data-prebuilt).
+  const shown = feed.dataset.prebuilt !== undefined ? feed.children : [];
+  delete feed.dataset.prebuilt;
+  const same = shown.length > 0 && shown.length <= state.rows.length &&
+    [...shown].every((li, i) => li.querySelector(".title")?.getAttribute("href") === state.rows[i].s.link);
 
   // Draw the first screen now and the rest straight after, so the page is readable before all rows exist.
   // A timer rather than requestAnimationFrame: that never fires in background tabs.
-  const first = document.createDocumentFragment();
-  for (const r of state.rows.slice(0, FIRST_PAINT)) first.append(r.el);
-  feed.replaceChildren(first);
+  let start = FIRST_PAINT;
+  if (same) {
+    // The page already shows these stories (written in by build_site.py): swap them one for one, no reflow.
+    feed.replaceChildren(...state.rows.slice(0, shown.length).map(r => r.el));
+    start = shown.length;
+  } else {
+    const first = document.createDocumentFragment();
+    for (const r of state.rows.slice(0, FIRST_PAINT)) first.append(r.el);
+    feed.replaceChildren(first);
+  }
   tick();
   const rows = state.rows;
   setTimeout(() => {
     if (rows !== state.rows) return;  // a newer render already replaced these
     const rest = document.createDocumentFragment();
-    for (const r of rows.slice(FIRST_PAINT)) rest.append(r.el);
+    for (const r of rows.slice(start)) rest.append(r.el);
     feed.append(rest);
     applyFilter();
   }, 0);
@@ -196,7 +209,7 @@ function matches(r) {
 
 function applyFilter() {
   const { query, keywordRe, muted } = state;
-  const counts = { all: 0, new: 0, trending: 0, rumour: 0, playstation: 0, xbox: 0, nintendo: 0, pc: 0, jp: 0 };
+  const counts = { all: 0, new: 0, trending: 0, rumour: 0, playstation: 0, xbox: 0, nintendo: 0, steam: 0, jp: 0 };
   let shown = 0;
   for (const r of state.rows) {
     // A story stays while any outlet that covered it is shown.
@@ -207,7 +220,7 @@ function applyFilter() {
       if (r.isNew) counts.new++;
       if (r.isHot) counts.trending++;
       if (r.s.jp) counts.jp++;
-      if (r.s.tags) for (const t of r.s.tags) counts[t]++;
+      if (r.s.tags) for (const t of r.s.tags) if (t in counts) counts[t]++;
     }
     const visible = allowed && matches(r);
     if (r.el.hidden === visible) r.el.hidden = !visible;
@@ -222,9 +235,18 @@ function applyFilter() {
   $("empty").hidden = shown > 0 || !state.data;
 }
 
+function syncUrl() {
+  const p = new URLSearchParams();
+  if (state.filter !== "all") p.set("f", state.filter);
+  if (state.query) p.set("q", state.query);
+  const url = location.pathname + (p.size ? "?" + p : "");
+  if (url !== location.pathname + location.search) history.replaceState(null, "", url);
+}
+
 function setFilter(f) {
   state.filter = f;
   store.set(KEYS.filter, f);
+  syncUrl();
   for (const c of $("filters").children) {
     c.classList.toggle("on", c.dataset.f === f);
     c.setAttribute("aria-pressed", String(c.dataset.f === f));
@@ -283,7 +305,7 @@ function renderSources() {
   // Outlets the reader hid that no longer exist stay listed, so they can be shown again.
   for (const name of state.muted) {
     if (!state.data.sources.some(o => o.name === name)) {
-      list.push(`<li><button type="button" role="switch" aria-checked="false" data-name="${esc(name)}"><span class="letter">${esc(name.charAt(0))}</span>` +
+      list.push(`<li><button type="button" role="switch" aria-checked="false" data-name="${esc(name)}">${PLUS}` +
         `<span class="main"><span class="name">${esc(name)}</span><span class="sub">No longer in the feed</span></span><span class="switch"></span></button></li>`);
     }
   }
@@ -422,10 +444,10 @@ function wire() {
   let typing;
   $("q").addEventListener("input", e => {
     clearTimeout(typing);
-    typing = setTimeout(() => { state.query = e.target.value.trim().toLowerCase(); applyFilter(); }, 60);
+    typing = setTimeout(() => { state.query = e.target.value.trim().toLowerCase(); applyFilter(); syncUrl(); }, 60);
   });
 
-  $("refresh").addEventListener("click", () => { scrollTo({ top: 0 }); load(true); });
+  $("refresh").addEventListener("click", e => { e.preventDefault(); scrollTo({ top: 0 }); load(true); });
 
   for (const b of document.querySelectorAll("[data-open]")) b.addEventListener("click", () => openSheet(b.dataset.open, b));
   for (const w of document.querySelectorAll(".sheet-wrap")) {
@@ -505,6 +527,11 @@ function wire() {
 // --- Start ---
 
 setTheme(THEMES[document.documentElement.dataset.theme] ? document.documentElement.dataset.theme : "poden");
+if (localStorage.getItem(KEYS.theme) === "mono") localStorage.setItem(KEYS.theme, "arcade");
+// An address like ?f=nintendo or ?q=zelda (shared links, search results) wins over the saved filter.
+const params = new URLSearchParams(location.search);
+if (params.has("f")) state.filter = params.get("f");
+if (params.has("q")) { state.query = params.get("q").trim().toLowerCase(); $("q").value = params.get("q"); }
 if (!$("filters").querySelector(`[data-f="${state.filter}"]`)) state.filter = "all";
 setFilter(state.filter);
 compileKeywords();

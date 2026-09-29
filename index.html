@@ -1,50 +1,75 @@
 <!doctype html>
-<html lang="en" data-theme="poden">
+<html lang="en-GB" data-theme="poden">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OniMugen+ · Gaming News, Leaks & Rumours in One Fast Feed</title>
+<meta name="description" content="__DESCRIPTION__">
+<link rel="canonical" href="https://onimugen.com/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#000000" id="theme-color">
 <meta name="color-scheme" content="dark light">
 <script>
   // Saved theme before first paint, so the page never flashes the wrong colours.
   (function () {
-    var bg = { poden: "#000000", mono: "#000000", blossom: "#ffedf5" };
+    var bg = { poden: "#000000", arcade: "#0b0a1a", blossom: "#ffedf5" };
     var t = localStorage.getItem("om-theme");
+    if (t === "mono") t = "arcade";  // Mono was replaced by Arcade
     if (!bg[t]) t = "poden";
     document.documentElement.dataset.theme = t;
     document.getElementById("theme-color").content = bg[t];
   })();
 </script>
-<title>OniMugen+ — Gaming News, Leaks & Rumours in One Feed</title>
-<meta name="description" content="Gaming news, leaks and rumours from 45+ sources in one fast, compact feed. IGN, Kotaku, Eurogamer, VGC, Reddit leaks, Japanese press and more.">
-<link rel="canonical" href="https://onimugen.com/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="OniMugen+">
-<meta property="og:url" content="https://onimugen.com/">
-<meta property="og:title" content="OniMugen+ — Gaming News, Leaks & Rumours in One Feed">
-<meta property="og:description" content="45+ sources. One feed. Gaming news, leaks and rumours, updated every 10 minutes.">
-<meta name="twitter:card" content="summary">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preload" href="data.json" as="fetch" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <script src="script.js" defer></script>
+
+<!-- Link previews (Messages, Slack, Discord, X, Facebook) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OniMugen+">
+<meta property="og:url" content="https://onimugen.com/">
+<meta property="og:title" content="OniMugen+ · Gaming News, Leaks & Rumours">
+<meta property="og:description" content="__DESCRIPTION__">
+<meta property="og:image" content="https://onimugen.com/apple-touch-icon.png">
+<meta property="og:image:width" content="180">
+<meta property="og:image:height" content="180">
+<meta property="og:image:alt" content="OniMugen+ logo: a yellow circle with a plus">
+<meta property="og:locale" content="en_GB">
+<meta property="og:updated_time" content="__MODIFIED__">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OniMugen+ · Gaming News, Leaks & Rumours">
+<meta name="twitter:description" content="__DESCRIPTION__">
+<meta name="twitter:image" content="https://onimugen.com/apple-touch-icon.png">
+
+<!-- Icons: browser tab, iPhone/iPad home screen, Safari pinned tab on the Mac -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffd100">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="OniMugen+">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+
+<!-- RSS for feed readers, and for Safari's and NetNewsWire's subscribe buttons on the Mac -->
+<link rel="alternate" type="application/rss+xml" title="OniMugen+ latest stories" href="feed.xml">
+<script type="application/ld+json"><!--JSONLD--></script>
 </head>
 <body>
-<noscript><p class="empty">JavaScript is needed to load the feed.</p></noscript>
-
 <header class="top">
   <div class="top-row">
-    <button type="button" class="brand" id="refresh" title="Refresh">
+    <a class="brand" id="refresh" href="/" title="Refresh">
       <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11"/><path d="M12 7v10M7 12h10"/></svg>
       <span class="brand-text">OniMugen<i>+</i></span>
-    </button>
-    <span class="status" id="status" aria-live="polite"></span>
+    </a>
+    <span class="status" id="status" aria-live="polite"><!--UPDATED--></span>
     <div class="tools">
-      <label class="search">
+      <form class="search" role="search" action="/" onsubmit="return false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input type="search" id="q" placeholder="Search" aria-label="Search headlines" autocomplete="off" spellcheck="false">
+        <input type="search" id="q" name="q" placeholder="Search" aria-label="Search headlines" autocomplete="off" spellcheck="false" enterkeyhint="search">
         <kbd>/</kbd>
-      </label>
+      </form>
       <button type="button" class="icon" data-open="saved" title="Bookmarks" aria-label="Bookmarks">
         <svg viewBox="0 0 24 24"><path d="M18 21l-6-4-6 4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/></svg>
       </button>
@@ -53,7 +78,7 @@
       </button>
     </div>
   </div>
-  <nav class="chips" id="filters" aria-label="Filter">
+  <nav class="chips" id="filters" aria-label="Filter stories">
     <button type="button" class="chip on" data-f="all">All</button>
     <button type="button" class="chip" data-f="trending">Trending</button>
     <button type="button" class="chip" data-f="new">New</button>
@@ -61,19 +86,24 @@
     <button type="button" class="chip" data-f="playstation">PlayStation</button>
     <button type="button" class="chip" data-f="xbox">Xbox</button>
     <button type="button" class="chip" data-f="nintendo">Nintendo</button>
-    <button type="button" class="chip" data-f="pc">PC</button>
+    <button type="button" class="chip" data-f="steam">Steam</button>
     <button type="button" class="chip" data-f="jp">Japan</button>
   </nav>
 </header>
 
-<main>
-  <div class="notice" id="notice" hidden></div>
-  <ol class="feed" id="feed" aria-live="off"></ol>
+<main id="main">
+  <h1 class="sr">Latest gaming news, leaks and rumours</h1>
+  <!--NOTICE-->
+  <ol class="feed" id="feed" data-prebuilt><!--ROWS--></ol>
   <p class="empty" id="empty" hidden>Nothing matches these filters.</p>
+  <noscript><p class="empty">Showing the newest stories. Turn on JavaScript for the full feed, filters and bookmarks.</p></noscript>
 </main>
 
 <footer>
-  OniMugen+ collects headlines from 45+ sites. Every story belongs to its publisher.
+  <p>OniMugen+ collects gaming headlines from __SOURCE_COUNT__ sites, including IGN, GameSpot, Eurogamer, VGC, Kotaku,
+  PlayStation Blog, Xbox Wire, Nintendo, Steam, Reddit leaks and the Japanese press, and updates every 10 minutes.
+  Every story belongs to its publisher.</p>
+  <p><a href="feed.xml">RSS feed</a></p>
 </footer>
 
 <button type="button" class="to-top" id="to-top" aria-label="Back to top">
@@ -101,7 +131,7 @@
       <h3>Theme</h3>
       <div class="segmented" id="themes" role="radiogroup" aria-label="Theme">
         <button type="button" data-t="poden" role="radio">Poden+</button>
-        <button type="button" data-t="mono" role="radio">Mono</button>
+        <button type="button" data-t="arcade" role="radio">Arcade</button>
         <button type="button" data-t="blossom" role="radio">Blossom</button>
       </div>
 
