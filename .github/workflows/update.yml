@@ -46,8 +46,9 @@ jobs:
 
       - name: Fetch news
         env:
-          # Optional. Add it under Settings > Secrets and variables > Actions for dependable translation.
+          # Optional. Add either under Settings > Secrets and variables > Actions for dependable translation.
           GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: python fetch_news.py
 
       - name: Assemble site
