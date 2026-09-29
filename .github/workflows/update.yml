@@ -6,9 +6,10 @@ on:
     branches: [main]
   schedule:
     - cron: "*/10 * * * *"    # every 10 minutes; GitHub sometimes starts these a few minutes late
+    - cron: "17 4 1 * *"      # monthly keep-alive (see the last step)
 
 permissions:
-  contents: read
+  contents: write             # only used by the monthly keep-alive commit
   pages: write
   id-token: write
 
@@ -33,20 +34,27 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Feed ETags and translated titles carry over between runs.
+      # Feed state, translated titles and site icons carry over between runs.
       - uses: actions/cache@v4
         with:
           path: .cache
           key: fetch-state-${{ github.run_id }}
           restore-keys: fetch-state-
 
+      - name: Test
+        run: python tests.py
+
       - name: Fetch news
+        env:
+          # Optional. Add it under Settings > Secrets and variables > Actions for dependable translation.
+          GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
         run: python fetch_news.py
 
       - name: Assemble site
         run: |
-          mkdir _site
+          mkdir -p _site/icons
           cp index.html style.css script.js favicon.svg data.json robots.txt sitemap.xml _site/
+          cp .cache/icons/*.png _site/icons/ 2>/dev/null || true
           [ -f CNAME ] && cp CNAME _site/ || true
 
       - uses: actions/upload-pages-artifact@v3
@@ -55,3 +63,13 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      # GitHub turns off scheduled workflows after 60 days without a commit. Once a month this
+      # updates the sitemap date, which keeps the schedule running.
+      - name: Monthly keep-alive
+        if: github.event.schedule == '17 4 1 * *'
+        run: |
+          sed -i "s|<lastmod>.*</lastmod>|<lastmod>$(date -u +%F)</lastmod>|" sitemap.xml
+          git config user.name "OniMugen bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Keep the schedule running" && git push || true
