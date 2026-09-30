@@ -102,6 +102,19 @@ to up vs was were what when where who why will with your you after before first 
 TEMPLATE_RE = re.compile(r"\b(?:release countdown|exact date and time|location|locations|where to find|how to get|"
                          r"tier list|best builds?|deals?|prime day|walkthrough|all answers|right answers|codes?|"
                          r"should you|guide|explained)\b", re.IGNORECASE)
+# Dates and times: "September 30" appears in many unrelated headlines on the same day.
+DATE_WORDS = set("""
+january february march april may june july august september october november december
+jan feb mar apr jun jul aug sep sept oct nov dec monday tuesday wednesday thursday friday saturday sunday
+today tonight tomorrow yesterday weekend week month year morning evening
+""".split())
+# Everyday headline words that say nothing about which story it is.
+FILLER_WORDS = set("""
+including includes include available now also still every more most many much other another here
+there these those some such than then very just only even ever out off one two three four five six seven
+eight nine ten latest big huge major officially limited original special full complete finishing
+going look looks looking take takes know need want make makes made way
+""".split())
 # Words too common in games news to show two titles are about the same story.
 GENERIC_WORDS = set("""
 game games gaming nintendo switch xbox playstation ps5 ps4 pc steam series review reviews trailer update
@@ -546,7 +559,8 @@ def subjects(title: str, rules: Rules) -> set[str]:
                     part.pop()
                 real = [p for p in part if p.lower() not in NAME_JOINERS]
                 name = " ".join(part).lower()
-                if len(real) >= 2 and name not in rules.common_topics:
+                meaningful = [p for p in real if p.lower() not in DATE_WORDS | FILLER_WORDS and not p.isdigit()]
+                if len(real) >= 2 and len(meaningful) >= 2 and name not in rules.common_topics:
                     found.add(name)
                 part = []
             else:
@@ -555,12 +569,12 @@ def subjects(title: str, rules: Rules) -> set[str]:
 
 
 def group_articles(articles: list[dict], rules: Rules) -> list[list[dict]]:
-    ignore = STOPWORDS | GENERIC_WORDS | rules.common_words
+    ignore = STOPWORDS | GENERIC_WORDS | DATE_WORDS | FILLER_WORDS | rules.common_words
     norms, words, templated = [], [], []
     for a in articles:
         tokens = WORD_RE.findall(a["title"].lower())
         norms.append(" ".join(tokens))
-        words.append({w for w in tokens if len(w) > 2 and w not in ignore})
+        words.append({w for w in tokens if len(w) > 2 and w not in ignore and not w.isdigit()})
         templated.append(bool(TEMPLATE_RE.search(a["title"])))
 
     def same_story(i: int, j: int) -> bool:

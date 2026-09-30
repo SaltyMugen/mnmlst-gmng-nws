@@ -135,6 +135,25 @@ class Grouping(unittest.TestCase):
                                               ("IGN", "Hollow Knight Silksong patch adds a new boss fight")]), RULES):
             self.assertEqual(len({a["source"] for a in g}), len(g))
 
+    def test_todays_date_does_not_join_stories(self):
+        # Screenshot, 30 September: an art book, Xbox releases and Witcher 3 mods were one "5 sources" story.
+        groups = fn.group_articles(self.arts([
+            ("Famitsu", "The official art book for *Culdcept Begins* goes on sale today, 30 September. A limited edition "
+                        "featuring a canvas board with an original cover illustration by lead designer Sei Matsuura is also now available!"),
+            ("Dengeki Online", "The official art book for *Culdcept Begins* goes on sale today, 30 September. A limited edition "
+                               "featuring a canvas board with an original cover illustration by lead designer Sei Matsuura is also now available!"),
+            ("GameBiz", "KADOKAWA releases the 'Culdcept Begins Official Art Book' today! Packed with highlights, including an "
+                        "original cover illustration by Sei Matsuura and previously unseen sketches."),
+            ("Pure Xbox", "Five New Xbox Games Are Finishing Off The Month, Including A Free-To-Play Shadow Drop (September 30)"),
+            ("Game Rant", "The Witcher 3: All Mods Now Available On Console, September 30"),
+        ]), RULES)
+        by_source = {a["source"]: n for n, g in enumerate(groups) for a in g}
+        self.assertEqual(by_source["Famitsu"], by_source["GameBiz"])         # the art book is one story
+        self.assertEqual(by_source["Famitsu"], by_source["Dengeki Online"])
+        self.assertNotEqual(by_source["Famitsu"], by_source["Pure Xbox"])    # the date alone joins nothing
+        self.assertNotEqual(by_source["Pure Xbox"], by_source["Game Rant"])
+        self.assertEqual(len(groups), 3)
+
     def test_merges_need_close_dates(self):
         titles = [("Gematsu", "Intergalactic: The Heretic Prophet to be fully revealed in 2027"),
                   ("VGC", "Naughty Dog will fully reveal Intergalactic in 2027"),
