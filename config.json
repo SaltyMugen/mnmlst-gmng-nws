@@ -1,7 +1,5 @@
 {
-  "_help": "Plain phrases, matched as whole words and ignoring case. In blockedTitles, # stands for any number. Platform tags (PlayStation, Xbox, Nintendo, Steam) come only from the official sources in sources.json.",
-  "trendingThreshold": 2.5,
-  "halfLifeHours": 13,
+  "_help": "Plain phrases, matched as whole words and ignoring case. In blockedTitles, # stands for any number. Tags come only from sources.json: PlayStation, Xbox, Nintendo and Steam from their official sites, Rumour from the Reddit leaks board.",
   "blockedTitles": [
     "top #",
     "# best",
@@ -16,38 +14,12 @@
     "save $",
     "just $",
     "music video",
-    "all fc"
+    "all fc",
+    "best new games",
+    "best video games",
+    "best new video games",
+    "games of 20#"
   ],
-  "tags": {
-    "rumour": {
-      "match": [
-        "rumour",
-        "rumor",
-        "rumours",
-        "rumors",
-        "rumoured",
-        "rumored",
-        "leak",
-        "leaks",
-        "leaked",
-        "leaker",
-        "reportedly",
-        "allegedly"
-      ],
-      "exclude": [
-        "memory leak",
-        "memory leaks",
-        "years of rumors",
-        "years of rumours",
-        "rumors confirmed",
-        "rumours confirmed",
-        "confirms rumors",
-        "confirms rumours",
-        "debunks rumors",
-        "debunks rumours"
-      ]
-    }
-  },
   "_commonTopics": "Names shared by unrelated stories. Articles are not grouped just because they mention one of these.",
   "commonTopics": [
     "Nintendo Switch",

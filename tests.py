@@ -44,40 +44,32 @@ class Resp:
 
 
 class Tags(unittest.TestCase):
-    RUMOUR = {
-        "Pokemon Winds and Waves leak reveals map and first look at Grass Gym": True,
-        "I'm More Hyped About This LA Noire 2 Rumor Than GTA 6": True,
-        "Xbox handheld reportedly delayed to 2027": True,
-        "GTA 6's weather system finally confirmed after years of rumors": False,
-        "Memory leak fixed in latest patch": False,
-        "Sony Fighting PS5 Pro Scalpers in Japan": False,
-    }
-
-    def test_rumour_from_headlines(self):
-        for title, expected in self.RUMOUR.items():
-            with self.subTest(title=title):
-                self.assertEqual("rumour" in RULES.title_tags(title), expected)
-
-    def test_headlines_never_give_platform_tags(self):
-        for title in ["Sony Fighting PS5 Pro Scalpers in Japan", "New Xbox Game Pass wave", "Zelda on Switch 2",
-                      "Steam Next Fest dates"]:
-            self.assertLessEqual(RULES.title_tags(title), {"rumour"}, title)
-
-    def test_platform_tags_only_on_official_sources(self):
+    def test_platform_and_rumour_tags_only_from_sources(self):
         sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
-        tagged = {s["name"]: s["tags"] for s in sources if set(s.get("tags", [])) - {"rumour"}}
+        tagged = {s["name"]: s["tags"] for s in sources if s.get("tags")}
         self.assertEqual(tagged, {"PlayStation Blog": ["playstation"], "Xbox Wire": ["xbox"],
-                                  "Nintendo News": ["nintendo"], "Steam News": ["steam"]})
+                                  "Nintendo News": ["nintendo"], "Steam News": ["steam"], "Reddit Leaks": ["rumour"]})
 
-    def test_story_tag_needs_official_source_in_group(self):
-        now = fn.now_ms()
-        make = lambda t, src, tags=None: {"title": t, "link": f"https://x.test/{src}", "date": now, "source": src,
-                                          "domain": f"{src}.test", **({"tags": tags} if tags else {})}
+    def make(self, title, src, tags=None, minutes=0):
+        return {"title": title, "link": f"https://x.test/{src}/{abs(hash(title))}", "date": fn.now_ms() - minutes * 60_000,
+                "source": src, "domain": f"{src}.test", **({"tags": tags} if tags else {})}
+
+    def test_rumour_only_from_reddit(self):
+        idx = {"kotaku": 0, "reddit": 1}
+        leak_word = fn.build_story([self.make("Xbox handheld leak reportedly shows new design", "kotaku")], idx, RULES)
+        self.assertNotIn("tags", leak_word)  # rumour words in a headline no longer tag it
+        reddit = fn.build_story([self.make("Switch 2 Lite spotted in filings", "reddit", ["rumour"])], idx, RULES)
+        self.assertEqual(reddit["tags"], ["rumour"])
+        confirmed = fn.build_story([self.make("Switch 2 Lite announced", "kotaku", minutes=10),
+                                    self.make("Switch 2 Lite spotted in filings", "reddit", ["rumour"])], idx, RULES)
+        self.assertNotIn("tags", confirmed)  # confirmed elsewhere first: not a rumour
+
+    def test_platform_tag_needs_official_source(self):
         idx = {"push": 0, "blog": 1}
-        plain = fn.build_story([make("Astro Bot 2 announced for PS5", "push")], idx, RULES)
+        plain = fn.build_story([self.make("Astro Bot 2 announced for PS5", "push")], idx, RULES)
         self.assertNotIn("tags", plain)
-        official = fn.build_story([make("Astro Bot 2 announced for PS5", "push"),
-                                   make("Astro Bot 2 is coming", "blog", ["playstation"])], idx, RULES)
+        official = fn.build_story([self.make("Astro Bot 2 announced for PS5", "push", minutes=5),
+                                   self.make("Astro Bot 2 is coming", "blog", ["playstation"])], idx, RULES)
         self.assertEqual(official["tags"], ["playstation"])
 
     def test_blocked(self):
@@ -89,36 +81,96 @@ class Tags(unittest.TestCase):
 
 
 class Grouping(unittest.TestCase):
-    def arts(self, titles, gap_ms=60_000):
+    """Each case is a real mistake or a real success from the rating on 29 September."""
+
+    def arts(self, pairs, gap_ms=60_000):
         now = fn.now_ms()
-        return [{"title": t, "link": f"https://x.test/{i}", "date": now - i * gap_ms, "source": f"S{i}", "domain": f"s{i}.test"}
-                for i, t in enumerate(titles)]
+        return [{"title": t, "link": f"https://x.test/{i}", "date": now - i * gap_ms, "source": src,
+                 "domain": src.lower().replace(" ", "") + ".test"} for i, (src, t) in enumerate(pairs)]
+
+    def count(self, pairs, **kw):
+        return len(fn.group_articles(self.arts(pairs, **kw), RULES))
 
     def test_same_story_groups(self):
+        self.assertEqual(self.count([("IGN", "Minecraft Dungeons 2 Review"),
+                                     ("Destructoid", "Minecraft Dungeons 2 review: a diamond in the rift"),
+                                     ("Game Informer", "Minecraft Dungeons II Review - Built Better Than Before")]), 1)
+
+    def test_missed_pairs_now_group(self):
+        self.assertEqual(self.count([("VGC", "Sony is officially skipping CES for the first time in decades"),
+                                     ("TheGamer", "For The First Time Ever, Sony Skips CES, Which Was Home To One Of PlayStation's Silliest Announcements")]), 1)
+        self.assertEqual(self.count([("IGN", "GTA 6 Has an 'Advanced' Weather System, but How Will It Work?"),
+                                     ("Kotaku", "GTA 6's 'advanced' weather system finally confirmed after years of rumors")]), 1)
+
+    def test_one_event_is_one_group(self):
         groups = fn.group_articles(self.arts([
-            "Minecraft Dungeons 2 Review",
-            "Minecraft Dungeons 2 review: a diamond in the rift",
-            "Minecraft Dungeons II Review - Built Better Than Before",
+            ("Push Square", "New The Last of Us Projects in 'Very Early Stages' of Development"),
+            ("Gematsu", "Two new The Last of Us projects in very early stages at Naughty Dog"),
+            ("DualShockers", "Naughty Dog Teases Life After Ellie With Two New Last Of Us Projects"),
+            ("GamesBeat", "Neil Druckmann confirms Naughty Dog is working on a couple of projects"),
+            ("Destructoid", "Rare Naughty Dog update confirms 2 new The Last of Us projects, no Intergalactic news"),
         ]), RULES)
         self.assertEqual(len(groups), 1)
 
-    def test_different_stories_stay_apart(self):
-        groups = fn.group_articles(self.arts([
-            "Nintendo Switch 2 price increase announced in Europe",
-            "Nintendo Switch 2 sales pass 20 million",
-            "Nintendo Switch Online adds three GameCube games",
-            "Xbox Game Pass October wave one revealed",
-            "Xbox Game Pass loses five games next week",
-        ]), RULES)
-        self.assertEqual(len(groups), 5)
+    def test_same_site_template_headlines_stay_apart(self):
+        self.assertEqual(self.count([("Destructoid", "Transport Fever 3 release countdown: Exact date and time"),
+                                     ("Destructoid", "Nivalis Nights release countdown: Exact date and time")]), 2)
+        self.assertEqual(self.count([("PC Gamer", "October Prime Day gaming mouse deals"),
+                                     ("PC Gamer", "October Prime Day gaming keyboard deals")]), 2)
+        self.assertEqual(self.count([("VGC", "Fire Emblem Fortune's Weave: Dates location to recruit Halvin"),
+                                     ("Polygon", "Where to find yuna mei in Fire Emblem Fortune's Weave")]), 2)
 
-    def test_topic_merge_needs_close_dates(self):
-        # Similar enough to share a topic, too different for the title-similarity pass.
-        titles = ["Elden Ring Nightreign gets a surprise boss rush mode tomorrow",
-                  "FromSoftware confirms Elden Ring Nightreign physical edition for collectors",
-                  "Elden Ring Nightreign director talks about balancing co-op for three players"]
-        self.assertEqual(len(fn.group_articles(self.arts(titles, gap_ms=60_000), RULES)), 1)
-        self.assertEqual(len(fn.group_articles(self.arts(titles, gap_ms=10 * fn.HOUR_MS), RULES)), 3)
+    def test_different_stories_stay_apart(self):
+        self.assertEqual(self.count([
+            ("VGC", "Nintendo Switch 2 price increase announced in Europe"),
+            ("IGN", "Nintendo Switch 2 sales pass 20 million"),
+            ("Polygon", "Nintendo Switch Online adds three GameCube games"),
+            ("Pure Xbox", "Xbox Game Pass October wave one revealed"),
+            ("Kotaku", "Xbox Game Pass loses five games next week"),
+        ]), 5)
+
+    def test_no_outlet_twice_in_a_group(self):
+        for g in fn.group_articles(self.arts([("VGC", "Hollow Knight Silksong patch adds new boss"),
+                                              ("VGC", "Hollow Knight Silksong patch notes"),
+                                              ("IGN", "Hollow Knight Silksong patch adds a new boss fight")]), RULES):
+            self.assertEqual(len({a["source"] for a in g}), len(g))
+
+    def test_merges_need_close_dates(self):
+        titles = [("Gematsu", "Intergalactic: The Heretic Prophet to be fully revealed in 2027"),
+                  ("VGC", "Naughty Dog will fully reveal Intergalactic in 2027"),
+                  ("Insider Gaming", "No Updates On Intergalactic: The Heretic Prophet Coming This Year"),
+                  ("GamesRadar+", "Intergalactic: The Heretic Prophet is testing the bounds of what Naughty Dog can do")]
+        self.assertEqual(self.count(titles, gap_ms=60_000), 1)
+        self.assertGreater(self.count(titles, gap_ms=10 * fn.HOUR_MS), 1)
+
+
+class Trending(unittest.TestCase):
+    def story(self, sites, newest_min_ago, spread_min=30):
+        now = fn.now_ms()
+        return [{"title": "t", "link": f"https://x.test/{i}", "date": now - (newest_min_ago + i * spread_min / max(1, sites)) * 60_000,
+                 "source": f"S{i}", "domain": f"s{i}.test"} for i in range(sites)]
+
+    def test_needs_three_recent_sites(self):
+        groups = [self.story(2, 5), self.story(3, 5), self.story(6, 5)] + [self.story(1, 30)] * 60
+        stories = [{} for _ in groups]
+        bar = fn.mark_trending(stories, groups, fn.now_ms())
+        hot = [fn.trend_score(s.get("recent", 0), fn.now_ms() - s.get("latest", 0)) >= bar for s in stories]
+        self.assertEqual(hot[:3], [False, True, True])
+        self.assertFalse(any(hot[3:]))
+
+    def test_old_coverage_does_not_count(self):
+        groups = [self.story(5, 7 * 60)]  # five sites, but all over 6 hours ago
+        stories = [{}]
+        fn.mark_trending(stories, groups, fn.now_ms())
+        self.assertNotIn("recent", stories[0])
+
+    def test_at_most_top_five_percent(self):
+        groups = [self.story(3 + (i % 4), 5 + i) for i in range(40)] + [self.story(1, 30)] * 160
+        stories = [{} for _ in groups]
+        now = fn.now_ms()
+        bar = fn.mark_trending(stories, groups, now)
+        hot = sum(fn.trend_score(s.get("recent", 0), now - s.get("latest", 0)) >= bar for s in stories)
+        self.assertTrue(1 <= hot <= round(len(groups) * fn.TREND_MAX_SHARE) + 1, hot)
 
 
 class Pipeline(unittest.TestCase):
@@ -240,7 +292,8 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(astro["tags"], ["playstation"])  # because PlayStation Blog covered it
         self.assertNotIn("rumour", astro.get("tags", []))
         leak = next(s for s in arts if "leak" in s["title"])
-        self.assertIn("rumour", leak["tags"])
+        self.assertEqual(leak["tags"], ["rumour"])  # from the Reddit source
+        self.assertIn("trendingAt", out)
 
         jp = next(a for a in every if a["link"] == "https://famitsu.com/1")
         self.assertTrue(jp["title"].startswith("MS ") and jp.get("translated"))
@@ -322,6 +375,7 @@ class Files(unittest.TestCase):
                 self.assertTrue(s["domain"] and "/" not in s["domain"])
                 self.assertLessEqual(set(s.get("tags", [])), known)
                 self.assertTrue(all(u.startswith("https://") for u in s.get("alt", [])))
+        self.assertNotIn("Knowledge", {s["name"] for s in sources})
         rss = [s["rss"] for s in sources]
         self.assertEqual(len(rss), len(set(rss)), "a feed is listed twice")
 
@@ -331,6 +385,10 @@ class Files(unittest.TestCase):
                      "manifest.webmanifest", "<!--ROWS-->", "<!--JSONLD-->", "<!--NOTICE-->", "__DESCRIPTION__"]:
             self.assertIn(name, html)
         filters = {"all", "new", "trending", "jp", "rumour", "playstation", "xbox", "nintendo", "steam"}
+        self.assertIn('id="more-news"', html)
+        for theme in ("dark", "light", "arcade"):
+            self.assertIn(f'data-t="{theme}"', html)
+        self.assertNotIn('data-t="blossom"', html)
         for f in filters:
             self.assertIn(f'data-f="{f}"', html, f"missing filter chip for {f}")
 
@@ -344,7 +402,7 @@ class BuiltSite(unittest.TestCase):
         from xml.etree import ElementTree
         cls.bs, cls.ET = build_site, ElementTree
         now = fn.now_ms()
-        cls.data = {"generatedAt": now, "trendingThreshold": 2.5, "halfLifeHours": 13, "translation": {"ok": True, "untranslated": 0},
+        cls.data = {"generatedAt": now, "trendingAt": 3, "translation": {"ok": True, "untranslated": 0},
                     "sources": [{"name": "Kotaku", "domain": "kotaku.com", "ok": True, "count": 2, "icon": True},
                                 {"name": "Xbox Wire", "domain": "news.xbox.com", "ok": True, "count": 1, "icon": False}],
                     "articles": [{"title": f"Story {i} <b>&amp; \"quotes\"</b>", "link": f"https://kotaku.com/{i}",

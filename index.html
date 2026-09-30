@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB" data-theme="poden">
+<html lang="en-GB" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -11,11 +11,11 @@
 <meta name="color-scheme" content="dark light">
 <script>
   // Saved theme before first paint, so the page never flashes the wrong colours.
+  // No saved choice: follow the device (Dark or Light). Old names map to the new ones.
   (function () {
-    var bg = { poden: "#000000", arcade: "#0b0a1a", blossom: "#ffedf5" };
-    var t = localStorage.getItem("om-theme");
-    if (t === "mono") t = "arcade";  // Mono was replaced by Arcade
-    if (!bg[t]) t = "poden";
+    var bg = { dark: "#000000", light: "#f7f7f5", arcade: "#07060f" };
+    var t = { poden: "dark", mono: "arcade", blossom: "light" }[localStorage.getItem("om-theme")] || localStorage.getItem("om-theme");
+    if (!bg[t]) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
     document.documentElement.dataset.theme = t;
     document.getElementById("theme-color").content = bg[t];
   })();
@@ -95,6 +95,8 @@
   <h1 class="sr">Latest gaming news, leaks and rumours</h1>
   <!--NOTICE-->
   <ol class="feed" id="feed" data-prebuilt><!--ROWS--></ol>
+  <button type="button" class="more-news" id="more-news" hidden>Explore more news <span class="n" id="more-count"></span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
   <p class="empty" id="empty" hidden>Nothing matches these filters.</p>
   <noscript><p class="empty">Showing the newest stories. Turn on JavaScript for the full feed, filters and bookmarks.</p></noscript>
 </main>
@@ -130,9 +132,9 @@
     <div class="sheet-body">
       <h3>Theme</h3>
       <div class="segmented" id="themes" role="radiogroup" aria-label="Theme">
-        <button type="button" data-t="poden" role="radio">Poden+</button>
+        <button type="button" data-t="dark" role="radio">Dark</button>
+        <button type="button" data-t="light" role="radio">Light</button>
         <button type="button" data-t="arcade" role="radio">Arcade</button>
-        <button type="button" data-t="blossom" role="radio">Blossom</button>
       </div>
 
       <h3>Muted words</h3>

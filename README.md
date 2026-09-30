@@ -5,12 +5,22 @@ Gaming news, leaks and rumours from 45+ sites in one compact feed. Styled after 
 A GitHub Action runs every 10 minutes. It tests the code, fetches the feeds, translates Japanese
 headlines, groups stories that several sites covered, saves each site's icon, then publishes to Pages.
 
+## How tags, grouping and Trending work
+
+- **Tags** only come from sources: PlayStation, Xbox, Nintendo and Steam from their official sites (when one
+  of them covered the story), Rumour only from the Reddit leaks board.
+- **Grouping**: the same story from different sites is shown once, with "N sources". A site never appears
+  twice in one group, guides, deals and countdowns are never grouped, and groups about the same event
+  (for example "Naughty Dog" + "Intergalactic") merge when published within 6 hours.
+- **Trending**: the top 5% of stories by how many different sites covered them in the last 6 hours
+  (at least 3), fading as the newest article gets older.
+
 ## Files you might edit
 
 | File | What it controls |
 |---|---|
 | `sources.json` | The feeds. Add `"tags": ["playstation"]` for platform-only sites, `"lang": "ja"` for Japanese ones, `"alt": ["https://..."]` for backup feed addresses, `"enabled": false` to switch one off. |
-| `config.json` | Tag rules (which words mean PlayStation, Xbox, Nintendo, PC or Rumour), blocked headlines, Trending settings, and names that shouldn't group unrelated stories. |
+| `config.json` | Blocked headlines, names that shouldn't group unrelated stories, and the word list for general-news sources. |
 
 Everything else is the site (`index.html`, `style.css`, `script.js`), the updater (`fetch_news.py`), the page builder (`build_site.py`) and the checks (`tests.py`).
 

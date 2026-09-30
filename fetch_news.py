@@ -46,10 +46,21 @@ TRANSLATION_TTL_MS = 7 * DAY_MS      # forget translations not needed for a week
 ICON_TTL_MS = 14 * DAY_MS            # refresh site icons every two weeks
 ICON_RETRY_MS = 3 * DAY_MS           # retry sites without an icon every three days
 
+# Grouping
 SIMILARITY_THRESHOLD = 69            # rapidfuzz token_set_ratio needed to group two titles
 MIN_SHARED_WORDS = 2                 # ...and they must share this many distinctive words
-MIN_TOPIC_GROUP = 3                  # a shared named topic needs 3+ articles to be merged
+STRONG_SHARED_WORDS = 3              # or this many distinctive words, even if the wording differs
+STRONG_SHARE = 0.5                   # ...making up at least half of the shorter title's words
+MERGE_WINDOW_MS = 6 * HOUR_MS        # groups about the same named subject merge within 6 hours
+MERGE_MAX_SIZE = 12                  # ...unless the result would be bigger than this
+MIN_TOPIC_GROUP = 3                  # a shared named topic alone needs 3+ articles to be merged
 TOPIC_WINDOW_MS = 12 * HOUR_MS       # ...all published within 12 hours
+
+# Trending: how many different sites covered a story recently, with the bar set by the day's news.
+TREND_WINDOW_MS = 6 * HOUR_MS        # coverage counted from the last 6 hours
+TREND_MIN_SOURCES = 3                # never trending with fewer than 3 sites
+TREND_MAX_SHARE = 0.05               # at most the top 5% of stories
+TREND_MAX_AGE_MS = 12 * HOUR_MS      # nothing trends once its newest article is 12 hours old
 
 MAX_WORKERS = 12
 TIMEOUT = 15
@@ -87,6 +98,10 @@ STOPWORDS = set("""
 a an and are as at be but by for from has have how in into is it its new of on or out over the this that
 to up vs was were what when where who why will with your you after before first more now just gets get
 """.split())
+# Headline patterns that one site reuses for many different articles (guides, deals, countdowns).
+TEMPLATE_RE = re.compile(r"\b(?:release countdown|exact date and time|location|locations|where to find|how to get|"
+                         r"tier list|best builds?|deals?|prime day|walkthrough|all answers|right answers|codes?|"
+                         r"should you|guide|explained)\b", re.IGNORECASE)
 # Words too common in games news to show two titles are about the same story.
 GENERIC_WORDS = set("""
 game games gaming nintendo switch xbox playstation ps5 ps4 pc steam series review reviews trailer update
@@ -174,27 +189,13 @@ def parse_date(entry, assume_jst: bool, fallback: int) -> int:
 
 class Rules:
     def __init__(self, cfg: dict):
-        self.trending = float(cfg.get("trendingThreshold", 2.5))
-        self.half_life = float(cfg.get("halfLifeHours", 13))
         self.blocked = phrase_regex(cfg.get("blockedTitles", []))
         self.keywords = phrase_regex(cfg.get("keywordFilter", []), plurals=True)
-        self.tags = {}
-        for tag, rule in cfg.get("tags", {}).items():
-            self.tags[tag] = (phrase_regex(rule.get("match", []), plurals=False),
-                              phrase_regex(rule.get("exclude", [])))
         self.common_topics = {t.lower() for t in cfg.get("commonTopics", [])}
         self.common_words = {w for t in self.common_topics for w in WORD_RE.findall(t)}
 
     def is_blocked(self, title: str) -> bool:
         return bool(self.blocked and self.blocked.search(title))
-
-    def title_tags(self, title: str) -> set[str]:
-        found = set()
-        for tag, (match, exclude) in self.tags.items():
-            text = exclude.sub(" ", title) if exclude else title
-            if match and match.search(text):
-                found.add(tag)
-        return found
 
 
 # --- Fetching ---
@@ -518,49 +519,157 @@ def topic_key(title: str, rules: Rules) -> str | None:
     return max(matches, key=len) if matches else None
 
 
+# Words that end a name in title-case headlines: "Naughty Dog Teases..." -> "naughty dog".
+# Joining words (of, the, a, to...) stay inside names so "The Last of Us" and "God of War" survive.
+NAME_JOINERS = {"of", "the", "a", "an", "to", "and", "&"}
+NAME_BREAKS = (STOPWORDS | GENERIC_WORDS | set("""
+teases teased confirms confirmed reveals revealed says said gets got adds added shows shown drops dropped
+rare two three four five first day announces update updates coming returns returned finally projects project
+very early stages officially best
+""".split())) - NAME_JOINERS - {"last"}
+
+
+def subjects(title: str, rules: Rules) -> set[str]:
+    """Distinctive names in a title, e.g. {"naughty dog", "last of us", "neil druckmann", "god of war laufey"}.
+    Capitalised words are split wherever a common word appears, so a title-case headline doesn't become one
+    long "name"; a name needs two words that aren't joiners. A leading "The" is dropped so
+    "The Last of Us" and "Last of Us" match."""
+    found = set()
+    for run in re.findall(r"[A-Z0-9][\w'’]*(?:[ :\-–]+(?:[A-Z0-9][\w'’]*|of|the|a|an|to|and|&))*", title):
+        part = []
+        for w in re.split(r"[ :\-–]+", run) + ["."]:
+            lw = w.lower().strip("'’")
+            if lw in NAME_BREAKS or w == ".":
+                while part and part[0].lower() in NAME_JOINERS:
+                    part.pop(0)
+                while part and part[-1].lower() in NAME_JOINERS:
+                    part.pop()
+                real = [p for p in part if p.lower() not in NAME_JOINERS]
+                name = " ".join(part).lower()
+                if len(real) >= 2 and name not in rules.common_topics:
+                    found.add(name)
+                part = []
+            else:
+                part.append(w)
+    return found
+
+
 def group_articles(articles: list[dict], rules: Rules) -> list[list[dict]]:
     ignore = STOPWORDS | GENERIC_WORDS | rules.common_words
-    norms, words = [], []
+    norms, words, templated = [], [], []
     for a in articles:
         tokens = WORD_RE.findall(a["title"].lower())
         norms.append(" ".join(tokens))
         words.append({w for w in tokens if len(w) > 2 and w not in ignore})
+        templated.append(bool(TEMPLATE_RE.search(a["title"])))
 
-    # Pass 1: similar titles that also share distinctive words ("Nintendo Switch 2 price" and
-    # "Nintendo Switch 2 sales" score high on similarity but are different stories).
+    def same_story(i: int, j: int) -> bool:
+        a, b = articles[i], articles[j]
+        if a["source"] == b["source"] and a["domain"] == b["domain"]:
+            return False  # a site doesn't cover the same story twice; it reuses headline templates
+        if abs(a["date"] - b["date"]) > TOPIC_WINDOW_MS:
+            return False  # the same story is covered within hours, not a day apart
+        if templated[i] or templated[j]:
+            return False  # guides, deals and countdowns are never the same story as anything else
+        shared = words[i] & words[j]
+        if len(shared) >= STRONG_SHARED_WORDS and len(shared) >= STRONG_SHARE * min(len(words[i]), len(words[j])):
+            return True
+        return len(shared) >= MIN_SHARED_WORDS and bool(
+            fuzz.token_set_ratio(norms[i], norms[j], score_cutoff=SIMILARITY_THRESHOLD))
+
+    # Pass 1: pairs of titles about the same story.
     used = [False] * len(articles)
-    groups: list[list[dict]] = []
-    for i, a in enumerate(articles):
+    groups: list[list[int]] = []
+    for i in range(len(articles)):
         if used[i]:
             continue
         used[i] = True
-        group = [a]
+        group = [i]
         for j in range(i + 1, len(articles)):
-            if (not used[j] and len(words[i] & words[j]) >= MIN_SHARED_WORDS
-                    and fuzz.token_set_ratio(norms[i], norms[j], score_cutoff=SIMILARITY_THRESHOLD)):
+            if not used[j] and same_story(i, j) and all(
+                    articles[k]["source"] != articles[j]["source"] for k in group):
                 used[j] = True
-                group.append(articles[j])
+                group.append(j)
         groups.append(group)
 
-    # Pass 2: leftover single articles about the same named topic, published close together.
-    by_topic: dict[str, list[list[dict]]] = {}
+    # Pass 2: merge groups about the same event. Two groups merge when they share a distinctive name and
+    # another word, were published within 6 hours of each other, and their outlets don't overlap.
+    # A single article can join a group this way, but two single articles can't pair up here, so one
+    # stray headline can't pull unrelated stories together.
+    def info(g):
+        names = {s for k in g for s in subjects(articles[k]["title"], rules)}
+        return (names, min(articles[k]["date"] for k in g), max(articles[k]["date"] for k in g),
+                {articles[k]["source"] for k in g}, set().union(*(words[k] for k in g)))
+    changed = True
+    while changed:
+        changed = False
+        order = sorted(groups, key=len, reverse=True)
+        for x in range(len(order)):
+            for y in range(x + 1, len(order)):
+                a, b = order[x], order[y]
+                if not a or not b or len(a) < 2:
+                    continue
+                sa, fa, la, oa, wa = info(a)
+                sb, fb, lb, ob, wb = info(b)
+                shared_names = sa & sb
+                # Also one shared word outside those names ("Intergalactic" in both Naughty Dog groups),
+                # so two different stories about the same game stay apart.
+                name_words = {w for n in shared_names for w in WORD_RE.findall(n)}
+                gap = max(fa, fb) - min(la, lb)          # time between the two groups (0 if they overlap)
+                span = max(la, lb) - min(fa, fb)         # time covered if merged
+                if (shared_names and (wa & wb) - name_words and not (oa & ob) and len(a) + len(b) <= MERGE_MAX_SIZE
+                        and gap <= MERGE_WINDOW_MS and span <= TOPIC_WINDOW_MS):
+                    a.extend(b)
+                    b.clear()
+                    changed = True
+        groups = [g for g in groups if g]
+
+    # Pass 3: leftover single articles about the same named topic, published close together.
+    by_topic: dict[str, list[list[int]]] = {}
     for g in groups:
-        if len(g) == 1 and (key := topic_key(g[0]["title"], rules)):
+        if len(g) == 1 and not templated[g[0]] and (key := topic_key(articles[g[0]]["title"], rules)):
             by_topic.setdefault(key, []).append(g)
     for members in by_topic.values():
-        members.sort(key=lambda g: g[0]["date"])
+        members.sort(key=lambda g: articles[g[0]]["date"])
         cluster = [members[0]]
         for g in members[1:] + [None]:
-            if g is not None and g[0]["date"] - cluster[0][0]["date"] <= TOPIC_WINDOW_MS:
+            if g is not None and articles[g[0]]["date"] - articles[cluster[0][0]]["date"] <= TOPIC_WINDOW_MS:
                 cluster.append(g)
                 continue
-            if len(cluster) >= MIN_TOPIC_GROUP:
+            outlets = [articles[c[0]]["source"] for c in cluster]
+            if len(cluster) >= MIN_TOPIC_GROUP and len(set(outlets)) == len(outlets):
                 for other in cluster[1:]:
                     cluster[0].extend(other)
                     other.clear()
             if g is not None:
                 cluster = [g]
-    return [g for g in groups if g]
+    return [[articles[k] for k in g] for g in groups if g]
+
+
+def trend_score(recent_sites: int, age_ms: int) -> float:
+    """Different sites in the last 6 hours, fading to half as the newest article reaches 12 hours old.
+    script.js uses the same formula, so Trending stays accurate between updates."""
+    if recent_sites < TREND_MIN_SOURCES or age_ms > TREND_MAX_AGE_MS:
+        return 0.0
+    return recent_sites * (1 - age_ms / TREND_MAX_AGE_MS / 2)
+
+
+def mark_trending(stories: list[dict], groups: list[list[dict]], now: int) -> float:
+    """Adds "recent" (sites in the last 6 hours) and "latest" (newest article) to each story, and returns
+    the score a story needs to be Trending: the top 5% of today's stories, never fewer than 3 recent sites."""
+    scores = []
+    for story, group in zip(stories, groups):
+        latest = max(a["date"] for a in group)
+        recent = len({a["domain"] for a in group if a["date"] >= now - TREND_WINDOW_MS})
+        if recent >= TREND_MIN_SOURCES:
+            story["recent"] = recent
+            story["latest"] = latest
+        scores.append(trend_score(recent, now - latest))
+    live = sorted((x for x in scores if x > 0), reverse=True)
+    if not live:
+        return float(TREND_MIN_SOURCES)
+    cut = max(1, round(len(stories) * TREND_MAX_SHARE))
+    return round(live[min(cut, len(live)) - 1] - 0.005, 2)  # rounded down, so the story at the cut still counts
 
 
 def build_story(group: list[dict], src_index: dict[str, int], rules: Rules) -> dict:
@@ -574,11 +683,11 @@ def build_story(group: list[dict], src_index: dict[str, int], rules: Rules) -> d
             out["translated"] = True
         return out
 
-    # Platform tags only from official sources (PlayStation Blog, Xbox Wire, Nintendo News, Steam News):
-    # a story gets one when that official source is among its articles.
-    # Rumour from the lead's headline or a rumour source: a confirmed story a leak also covered is not a rumour.
+    # Tags only come from sources: platform tags from the official sites (PlayStation Blog, Xbox Wire,
+    # Nintendo News, Steam News) whenever one of them covered the story; Rumour only when the story
+    # comes from the Reddit leaks board, never from headline words.
     tags = {t for a in group for t in a.get("tags", []) if t != "rumour"}
-    if "rumour" in rules.title_tags(lead["title"]) | set(lead.get("tags", [])):
+    if "rumour" in lead.get("tags", []):
         tags.add("rumour")
 
     story = public(lead)
@@ -651,8 +760,11 @@ def main() -> None:
     icons = sync_icons({o["domain"] for o in outlets.values()}, now)
     source_list = sorted(outlets.values(), key=lambda o: o["name"].lower())
     src_index = {o["name"]: i for i, o in enumerate(source_list)}
-    stories = sorted((build_story(g, src_index, rules) for g in group_articles(articles, rules)),
-                     key=lambda s: -s["date"])
+    groups = group_articles(articles, rules)
+    stories = [build_story(g, src_index, rules) for g in groups]
+    trending_at = mark_trending(stories, groups, now)
+    order = sorted(range(len(stories)), key=lambda i: -stories[i]["date"])
+    stories = [stories[i] for i in order]
     for s in stories:
         for a in [s, *s.get("group", [])]:
             source_list[a["src"]]["count"] += 1
@@ -676,8 +788,7 @@ def main() -> None:
 
     write_json(OUTPUT_FILE, {
         "generatedAt": now_ms(),
-        "trendingThreshold": rules.trending,
-        "halfLifeHours": rules.half_life,
+        "trendingAt": trending_at,
         "translation": translation,
         "sources": source_list,
         "articles": stories,

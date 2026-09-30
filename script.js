@@ -8,7 +8,11 @@ const TICK_MS = 30e3;             // update ages, New and Trending
 const DAY_MS = 864e5;
 const READ_TTL_MS = 7 * DAY_MS;   // forget read links after a week
 const FIRST_PAINT = 40;           // rows drawn before the rest, so the top of the page appears at once
-const THEMES = { poden: "#000000", arcade: "#0b0a1a", blossom: "#ffedf5" };
+const PAGE = 100;                 // stories shown before "Explore more news", and how many each press adds
+const TREND_MIN = 3;              // Trending: never with fewer than 3 sites in the last 6 hours
+const TREND_AGE_MS = 12 * 36e5;   // ...and not once the newest article is 12 hours old
+const THEMES = { dark: "#000000", light: "#f7f7f5", arcade: "#07060f" };
+const OLD_THEMES = { poden: "dark", mono: "arcade", blossom: "light" };
 const KEYS = {
   feed: "onimugen_v3_feed",
   bookmarks: "onimugen_v1_bookmarks",
@@ -35,6 +39,7 @@ const state = {
   rows: [],               // { s: story, el, save, time, text, outlets, isNew, isHot }
   rowById: new Map(),
   filter: store.get(KEYS.filter, "all"),
+  limit: PAGE,            // how many matching stories are shown; "Explore more news" raises it
   query: "",
   keywordRe: null,
   bookmarks: store.get(KEYS.bookmarks, {}),
@@ -177,13 +182,14 @@ function openGroup(row, btn) {
 function tick() {
   if (!state.data) return;
   const now = Date.now();
-  const { trendingThreshold: limit, halfLifeHours: half } = state.data;
+  const bar = state.data.trendingAt ?? TREND_MIN;
   for (const r of state.rows) {
     const s = r.s;
     const label = ago(s.date, now);
     if (r.time.textContent !== label) r.time.textContent = label;
     const isNew = now - s.date < NEW_MS;
-    const isHot = s.sources * 0.5 ** ((now - s.date) / 36e5 / half) >= limit;
+    const age = now - (s.latest || s.date);
+    const isHot = (s.recent || 0) >= TREND_MIN && age <= TREND_AGE_MS && s.recent * (1 - age / TREND_AGE_MS / 2) >= bar;
     if (isNew !== r.isNew) { r.isNew = isNew; r.newTag.hidden = !isNew; }
     if (isHot !== r.isHot) { r.isHot = isHot; r.hotTag.hidden = !isHot; r.el.classList.toggle("hot", isHot); }
   }
@@ -210,7 +216,7 @@ function matches(r) {
 function applyFilter() {
   const { query, keywordRe, muted } = state;
   const counts = { all: 0, new: 0, trending: 0, rumour: 0, playstation: 0, xbox: 0, nintendo: 0, steam: 0, jp: 0 };
-  let shown = 0;
+  let shown = 0, matched = 0;
   for (const r of state.rows) {
     // A story stays while any outlet that covered it is shown.
     const allowed = (!query || r.text.includes(query)) && !(keywordRe && keywordRe.test(r.s.title)) &&
@@ -222,10 +228,15 @@ function applyFilter() {
       if (r.s.jp) counts.jp++;
       if (r.s.tags) for (const t of r.s.tags) if (t in counts) counts[t]++;
     }
-    const visible = allowed && matches(r);
+    const match = allowed && matches(r);
+    const visible = match && shown < state.limit;
     if (r.el.hidden === visible) r.el.hidden = !visible;
     shown += visible;
+    if (match) matched++;
   }
+  const rest = matched - shown;
+  $("more-news").hidden = rest <= 0;
+  $("more-count").textContent = rest > 0 ? `(${rest} more)` : "";
   for (const chip of $("filters").children) {
     const n = counts[chip.dataset.f];
     const span = chip.querySelector(".n") || chip.appendChild(Object.assign(document.createElement("span"), { className: "n" }));
@@ -244,6 +255,7 @@ function syncUrl() {
 }
 
 function setFilter(f) {
+  if (f !== state.filter) state.limit = PAGE;  // a new filter starts from the first 100 again
   state.filter = f;
   store.set(KEYS.filter, f);
   syncUrl();
@@ -444,7 +456,14 @@ function wire() {
   let typing;
   $("q").addEventListener("input", e => {
     clearTimeout(typing);
-    typing = setTimeout(() => { state.query = e.target.value.trim().toLowerCase(); applyFilter(); syncUrl(); }, 60);
+    typing = setTimeout(() => { state.query = e.target.value.trim().toLowerCase(); state.limit = PAGE; applyFilter(); syncUrl(); }, 60);
+  });
+
+  $("more-news").addEventListener("click", () => {
+    const next = state.rows.find(r => r.el.hidden && matches(r) && !r.el.previousElementSibling?.hidden);
+    state.limit += PAGE;
+    applyFilter();
+    next?.el.querySelector(".title").focus({ preventScroll: true });  // keyboard and VoiceOver continue from here
   });
 
   $("refresh").addEventListener("click", e => { e.preventDefault(); scrollTo({ top: 0 }); load(true); });
@@ -526,8 +545,9 @@ function wire() {
 
 // --- Start ---
 
-setTheme(THEMES[document.documentElement.dataset.theme] ? document.documentElement.dataset.theme : "poden");
-if (localStorage.getItem(KEYS.theme) === "mono") localStorage.setItem(KEYS.theme, "arcade");
+const savedTheme = localStorage.getItem(KEYS.theme);
+if (OLD_THEMES[savedTheme]) localStorage.setItem(KEYS.theme, OLD_THEMES[savedTheme]);
+setTheme(THEMES[document.documentElement.dataset.theme] ? document.documentElement.dataset.theme : "dark");
 // An address like ?f=nintendo or ?q=zelda (shared links, search results) wins over the saved filter.
 const params = new URLSearchParams(location.search);
 if (params.has("f")) state.filter = params.get("f");

@@ -39,7 +39,6 @@
   {"name": "GameDiscoverCo", "rss": "https://newsletter.gamediscover.co/feed", "domain": "newsletter.gamediscover.co"},
   {"name": "Game File", "rss": "https://www.gamefile.news/feed", "domain": "gamefile.news"},
   {"name": "Hit Points", "rss": "https://newsletter.hitpoints.co/feed", "domain": "newsletter.hitpoints.co"},
-  {"name": "Knowledge", "rss": "https://www.knowledge.me/feed", "domain": "knowledge.me", "alt": ["https://knowledge.me/feed", "https://www.knowledge.me/rss"]},
   {"name": "Automaton Media", "rss": "https://automaton-media.com/en/feed/", "domain": "automaton-media.com", "fallback": false},
   {"name": "Automaton Media JP", "rss": "https://automaton-media.com/feed/", "domain": "automaton-media.com", "lang": "ja", "fallback": false},
   {"name": "4Gamer.net", "rss": "https://www.4gamer.net/rss/index.xml", "domain": "4gamer.net", "lang": "ja"},
