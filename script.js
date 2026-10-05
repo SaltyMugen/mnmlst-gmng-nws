@@ -89,6 +89,8 @@ const sourceName = i => state.data.sources[i]?.name || "";
 
 function rowHtml(s) {
   const tags = [];
+  if (has(s, "review")) tags.push('<span class="tag review">Review</span>');
+  if (has(s, "preview")) tags.push('<span class="tag review">Preview</span>');
   if (has(s, "rumour")) tags.push('<span class="tag rumour">Rumour</span>');
   for (const t in PLATFORMS) if (has(s, t)) tags.push(`<span class="tag ${t}">${PLATFORMS[t]}</span>`);
   if (s.translated) tags.push('<span class="tag">JP → EN</span>');
@@ -209,13 +211,14 @@ function matches(r) {
     case "new": return r.isNew;
     case "trending": return r.isHot;
     case "jp": return !!r.s.jp;
+    case "reviews": return has(r.s, "review") || has(r.s, "preview");
     default: return has(r.s, state.filter);
   }
 }
 
 function applyFilter() {
   const { query, keywordRe, muted } = state;
-  const counts = { all: 0, new: 0, trending: 0, rumour: 0, playstation: 0, xbox: 0, nintendo: 0, steam: 0, jp: 0 };
+  const counts = { all: 0, new: 0, trending: 0, reviews: 0, rumour: 0, playstation: 0, xbox: 0, nintendo: 0, steam: 0, jp: 0 };
   let shown = 0, matched = 0;
   for (const r of state.rows) {
     // A story stays while any outlet that covered it is shown.
@@ -227,6 +230,7 @@ function applyFilter() {
       if (r.isHot) counts.trending++;
       if (r.s.jp) counts.jp++;
       if (r.s.tags) for (const t of r.s.tags) if (t in counts) counts[t]++;
+      if (has(r.s, "review") || has(r.s, "preview")) counts.reviews++;
     }
     const match = allowed && matches(r);
     const visible = match && shown < state.limit;

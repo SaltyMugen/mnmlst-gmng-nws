@@ -30,6 +30,8 @@ import requests
 from dateutil import parser as dateparser
 from rapidfuzz import fuzz
 
+from content_filter import classify
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("fetch")
 
@@ -703,6 +705,9 @@ def build_story(group: list[dict], src_index: dict[str, int], rules: Rules) -> d
     tags = {t for a in group for t in a.get("tags", []) if t != "rumour"}
     if "rumour" in lead.get("tags", []):
         tags.add("rumour")
+    kind = classify(lead["title"], lead["link"])
+    if kind in ("review", "preview"):
+        tags.add(kind)
 
     story = public(lead)
     story["sources"] = len({a["domain"] for a in group})
@@ -748,6 +753,7 @@ def main() -> None:
         kept = [e for e in entries
                 if e["date"] >= now - WINDOW_MS and not rules.is_blocked(e["title"])
                 and (not src.get("keywordFilter") or (rules.keywords and rules.keywords.search(e["title"])))]
+        kept = [e for e in kept if src.get("lang") == "ja" or classify(e["title"], e["link"]) != "drop"]
         log.info("[%s] %d articles%s", src["name"], len(kept), "" if status["ok"] else f" (failing: {status['error']})")
         o = outlets.setdefault(src["name"], {"name": src["name"], "domain": src["domain"], "feeds": 0, "failed": 0, "count": 0})
         o["feeds"] += 1
@@ -769,7 +775,10 @@ def main() -> None:
 
     articles = dedupe_by_url(articles)
     translation = translate_titles(articles, translations, now)
-    articles = sorted((a for a in articles if not rules.is_blocked(a["title"])), key=lambda a: a["date"])
+    before = len(articles)
+    articles = [a for a in articles if not rules.is_blocked(a["title"]) and classify(a["title"], a["link"]) != "drop"]
+    log.info("Content filter: dropped %d guides, lists and deals after translation", before - len(articles))
+    articles.sort(key=lambda a: a["date"])
 
     icons = sync_icons({o["domain"] for o in outlets.values()}, now)
     source_list = sorted(outlets.values(), key=lambda o: o["name"].lower())

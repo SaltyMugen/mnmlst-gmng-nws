@@ -5,10 +5,22 @@ Gaming news, leaks and rumours from 45+ sites in one compact feed. Styled after 
 A GitHub Action runs every 10 minutes. It tests the code, fetches the feeds, translates Japanese
 headlines, groups stories that several sites covered, saves each site's icon, then publishes to Pages.
 
+## What gets in
+
+`content_filter.py` keeps news and updates on games, the industry and nearby areas (films, TV, hardware),
+reviews and previews, and drops guides, walkthroughs, answers and solutions, tier lists, rankings, "best X" and
+top-N lists, deals, codes, quizzes, daily puzzles and release countdowns.
+
+It errs towards keeping: anything that reports an event (layoffs, acquisitions, delays, announcements, leaks,
+patches, sales figures) stays even if it looks like a list, and headlines that don't clearly look like a
+guide stay. Each update's log shows how many were dropped. If something you want is being dropped, or a type
+of guide gets through, the word lists at the top of `content_filter.py` are where to change it, and the real
+examples in `tests.py` (class ContentFilter) check that nothing else breaks.
+
 ## How tags, grouping and Trending work
 
 - **Tags** only come from sources: PlayStation, Xbox, Nintendo and Steam from their official sites (when one
-  of them covered the story), Rumour only from the Reddit leaks board.
+  of them covered the story), Rumour only from the Reddit leaks board. Review and Preview come from the headline.
 - **Grouping**: the same story from different sites is shown once, with "N sources". A site never appears
   twice in one group, guides, deals and countdowns are never grouped, and groups about the same event
   (for example "Naughty Dog" + "Intergalactic") merge when published within 6 hours.

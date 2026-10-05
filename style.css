@@ -210,6 +210,7 @@ main { max-width: var(--max); margin: 0 auto; padding: 8px var(--pad) 40px; }
 }
 .tag.new, .tag.hot { background: var(--accent); color: var(--on-accent); }
 .tag.rumour { background: none; color: var(--rumour); box-shadow: inset 0 0 0 1.5px currentColor; }
+.tag.review { background: none; color: var(--accent-ink); box-shadow: inset 0 0 0 1.5px currentColor; }
 .tag.playstation { background: #0070d1; color: #fff; }   /* PlayStation blue */
 .tag.xbox { background: #107c10; color: #fff; }          /* Xbox green */
 .tag.nintendo { background: #e60012; color: #fff; }      /* Nintendo red */

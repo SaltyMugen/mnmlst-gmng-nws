@@ -16,6 +16,7 @@ from pathlib import Path
 from unittest import mock
 
 import fetch_news as fn
+from content_filter import classify
 
 ROOT = Path(__file__).resolve().parent
 RULES = fn.Rules(json.loads((ROOT / "config.json").read_text(encoding="utf-8")))
@@ -78,6 +79,90 @@ class Tags(unittest.TestCase):
             self.assertTrue(RULES.is_blocked(title), title)
         for title in ["Ranking up fast in Marvel Rivals", "Topaz DLC out now", "Nintendo shows off Switch 2"]:
             self.assertFalse(RULES.is_blocked(title), title)
+
+
+class ContentFilter(unittest.TestCase):
+    """Real headlines from 29-30 September. Guides, lists and deals go; news, updates, reviews and previews stay."""
+
+    DROP = [
+        "Kingdom Rush 6: Genesis TD Spells tier list",
+        "Fire Emblem Fortune's Weave: Dates location to recruit Halvin",
+        "Where to find yuna mei in Fire Emblem Fortune's Weave",
+        "Cold War Class Tier List – Best NATO & PACT Classes",
+        "October Prime Day gaming mouse deals",
+        "Guide: Best Fire Emblem Games Of All Time",
+        "What are the right answers to the FBC Terminals in Control Resonant?",
+        "Should you eat the Mold in Control Resonant?",
+        "20 Brilliantly Inventive Cosplay Fits At Dragon Con Atlanta 2026",
+        "When does the new Gears of War come out?",
+        "Transport Fever 3 release countdown: Exact date and time",
+        "Best players for FC 27 Flank Identity Evolution",
+        "All taxi locations in Control Resonant",
+        "The MSI Codex Z2C RTX 5070 Prebuilt Gaming PC Drops to $1399 and Includes Control: Resonant",
+        "Wordle Hints and Answer for September 29, 2026: Game #1928",
+        "NYT Connections Hints Today (#1206)—Answers for Tuesday, September 29",
+        "Best new video games of 2026 (so far)",
+        "When Does Game Informer's GTA 6 Magazine Come Out? Release Times, Explained",
+        "Most Revolutionary RPGs Every Fan Needs to Experience",
+        "Family Matters Quest Choices and Outcomes in The Witcher 3",
+        "10 Essential NES Games Still Missing From Switch Online",
+        "Should You Play Witcher 3 Remastered On The Switch 2?",
+        "Where to pre-order God of War Laufey, Faye's journey hits the shelves tomorrow",
+        "It's Time for Siliconera's 2026 Site Survey",
+        "New Action Roguelike PC Game is Essentially Minecraft Meets Vampire Survivors",
+        "Enhance Your Ace Combat 8 Experience with Two Rival PS5 Flight Sticks, Out This Week",
+        "Top 10 Soulslikes You Need To Play",
+        "Elden Ring Nightreign: Best builds after the latest patch",
+        "Black Friday 2026: Best PS5 deals",
+        "Genshin Impact redeem codes for October",
+    ]
+    KEEP = {
+        "Microsoft boss Nadella says Xbox has to invent \"sustainable business model\"": "news",
+        "As Wardogs sells 3 million copies, lead admits the devs are \"overwhelmed\"": "news",
+        "AMD is acquiring AI company World Labs in a deal worth more than $8 billion": "news",
+        "Guide: These 21+ PS5 and PS Plus Games Are Coming Out This Week (28th-4th October)": "news",
+        "Five New Xbox Games Are Finishing Off The Month, Including A Free-To-Play Shadow Drop (September 30)": "news",
+        "PSA: The Witcher 3 Remastered File Size And Release Time Confirmed, Separate Purchase Required": "news",
+        "The Witcher 3: Wild Hunt – Remastered Update Patch Notes Include PC-Specific and Console-Specific Changes": "news",
+        "NHL 27 Title Update 2 Tweaks Boarding and Charging Penalties": "news",
+        "Synduality: Echo of Ada Service Ends Worldwide as It Goes Offline": "news",
+        "Report: Sony surveying developers about dropping PlayStation disc support": "news",
+        "Two new The Last of Us projects in very early stages at Naughty Dog": "news",
+        "The Last of Us Season 3 Casts John Goodman": "news",
+        "3 Warhammer 40,000 sickos share their strongest held beliefs": "news",
+        "11-year-old wins esports gold at Asian Games after eating eels to prepare": "news",
+        "Former Elder Scrolls writer is '100% convinced' a bit of series lore was inspired by a typo": "news",
+        "Ace Combat 8 Beats Out Titans to Become the Best Selling Game in the US": "news",
+        "Rockstar takes legal action after modders port GTA 5 to Nintendo Switch": "news",
+        "Top 5 studios hit by layoffs this year": "news",
+        "Minecraft Dungeons 2 Review": "review",
+        "TOEM 2: The Kotaku Review": "review",
+        "Round Up: The First Reviews For The Witcher 3 Remastered Are In": "review",
+        "Review: Train Sim World 7 (PS5) - A Familiar Journey with a Few New Stops": "review",
+        "Hands-on: Resident Evil Requiem is the scariest in years": "preview",
+        "Ghost of Yotei preview: we played the first three hours": "preview",
+        "With Overwhelmingly Positive Steam reviews and surging players, indie dev says \"I may have peaked\"": "news",
+    }
+
+    def test_drops_guides_lists_and_deals(self):
+        for title in self.DROP:
+            with self.subTest(title=title):
+                self.assertEqual(classify(title), "drop")
+
+    def test_keeps_news_reviews_and_previews(self):
+        for title, kind in self.KEEP.items():
+            with self.subTest(title=title):
+                self.assertEqual(classify(title), kind)
+
+    def test_guide_sections_in_the_address(self):
+        self.assertEqual(classify("Control Resonant: Ashtray Maze", "https://www.polygon.com/guides/control-resonant-ashtray"), "drop")
+        self.assertEqual(classify("Control Resonant gets a big update", "https://www.polygon.com/news/control-update"), "news")
+
+    def test_story_tagged_review(self):
+        idx = {"ign": 0}
+        story = fn.build_story([{"title": "Minecraft Dungeons 2 Review", "link": "https://ign.com/r", "date": fn.now_ms(),
+                                 "source": "ign", "domain": "ign.com"}], idx, RULES)
+        self.assertEqual(story["tags"], ["review"])
 
 
 class Grouping(unittest.TestCase):
@@ -403,7 +488,7 @@ class Files(unittest.TestCase):
         for name in ["style.css", "script.js", "favicon.svg", "data.json", "feed.xml", "apple-touch-icon.png",
                      "manifest.webmanifest", "<!--ROWS-->", "<!--JSONLD-->", "<!--NOTICE-->", "__DESCRIPTION__"]:
             self.assertIn(name, html)
-        filters = {"all", "new", "trending", "jp", "rumour", "playstation", "xbox", "nintendo", "steam"}
+        filters = {"all", "new", "trending", "reviews", "jp", "rumour", "playstation", "xbox", "nintendo", "steam"}
         self.assertIn('id="more-news"', html)
         for theme in ("dark", "light", "arcade"):
             self.assertIn(f'data-t="{theme}"', html)

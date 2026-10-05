@@ -57,6 +57,10 @@ def row_html(i: int, s: dict, sources: list[dict], now: int) -> str:
     """Must produce the same markup as rowHtml() in script.js, so the page doesn't shift when it takes over."""
     src = sources[s["src"]]
     tags = []
+    if "review" in s.get("tags", []):
+        tags.append('<span class="tag review">Review</span>')
+    if "preview" in s.get("tags", []):
+        tags.append('<span class="tag review">Preview</span>')
     if "rumour" in s.get("tags", []):
         tags.append('<span class="tag rumour">Rumour</span>')
     for t in ("playstation", "xbox", "nintendo", "steam"):
