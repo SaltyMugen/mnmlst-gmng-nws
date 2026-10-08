@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en-GB" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OniMugen+ · Gaming News, Leaks & Rumours in One Fast Feed</title>
+<meta name="description" content="__DESCRIPTION__">
+<link rel="canonical" href="https://onimugen.com/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#000000" id="theme-color">
+<meta name="color-scheme" content="dark light">
+<script>
+  // Saved theme before first paint, so the page never flashes the wrong colours.
+  // No saved choice: follow the device (Dark or Light). Old names map to the new ones.
+  (function () {
+    var bg = { dark: "#000000", light: "#f7f7f5", arcade: "#07060f" };
+    var t = { poden: "dark", mono: "arcade", blossom: "light" }[localStorage.getItem("om-theme")] || localStorage.getItem("om-theme");
+    if (!bg[t]) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    document.getElementById("theme-color").content = bg[t];
+  })();
+</script>
+<link rel="preload" href="data.json" as="fetch" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+<!-- Link previews (Messages, Slack, Discord, X, Facebook) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OniMugen+">
+<meta property="og:url" content="https://onimugen.com/">
+<meta property="og:title" content="OniMugen+ · Gaming News, Leaks & Rumours">
+<meta property="og:description" content="__DESCRIPTION__">
+<meta property="og:image" content="https://onimugen.com/apple-touch-icon.png">
+<meta property="og:image:width" content="180">
+<meta property="og:image:height" content="180">
+<meta property="og:image:alt" content="OniMugen+ logo: a yellow circle with a plus">
+<meta property="og:locale" content="en_GB">
+<meta property="og:updated_time" content="__MODIFIED__">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OniMugen+ · Gaming News, Leaks & Rumours">
+<meta name="twitter:description" content="__DESCRIPTION__">
+<meta name="twitter:image" content="https://onimugen.com/apple-touch-icon.png">
+
+<!-- Icons: browser tab, iPhone/iPad home screen, Safari pinned tab on the Mac -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffd100">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="OniMugen+">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+
+<!-- RSS for feed readers, and for Safari's and NetNewsWire's subscribe buttons on the Mac -->
+<link rel="alternate" type="application/rss+xml" title="OniMugen+ latest stories" href="feed.xml">
+<script type="application/ld+json"><!--JSONLD--></script>
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <a class="brand" id="refresh" href="/" title="Refresh">
+      <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11"/><path d="M12 7v10M7 12h10"/></svg>
+      <span class="brand-text">OniMugen<i>+</i></span>
+    </a>
+    <span class="status" id="status" aria-live="polite"><!--UPDATED--></span>
+    <div class="tools">
+      <form class="search" role="search" action="/" onsubmit="return false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="q" name="q" placeholder="Search" aria-label="Search headlines" autocomplete="off" spellcheck="false" enterkeyhint="search">
+        <kbd>/</kbd>
+      </form>
+      <button type="button" class="icon" data-open="saved" title="Bookmarks" aria-label="Bookmarks">
+        <svg viewBox="0 0 24 24"><path d="M18 21l-6-4-6 4V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/></svg>
+      </button>
+      <button type="button" class="icon" data-open="settings" id="settings-btn" title="Sources, muted words and theme" aria-label="Settings">
+        <svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="chips" id="filters" aria-label="Filter stories">
+    <button type="button" class="chip on" data-f="all">All</button>
+    <button type="button" class="chip" data-f="trending">Trending</button>
+    <button type="button" class="chip" data-f="new">New</button>
+    <button type="button" class="chip" data-f="reviews">Reviews</button>
+    <button type="button" class="chip" data-f="rumour">Rumours</button>
+    <button type="button" class="chip" data-f="playstation">PlayStation</button>
+    <button type="button" class="chip" data-f="xbox">Xbox</button>
+    <button type="button" class="chip" data-f="nintendo">Nintendo</button>
+    <button type="button" class="chip" data-f="steam">Steam</button>
+    <button type="button" class="chip" data-f="jp">Japan</button>
+  </nav>
+</header>
+
+<main id="main">
+  <h1 class="sr">Latest gaming news, leaks and rumours</h1>
+  <!--NOTICE-->
+  <ol class="feed" id="feed" data-prebuilt><!--ROWS--></ol>
+  <button type="button" class="more-news" id="more-news" hidden>Explore more news <span class="n" id="more-count"></span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+  <p class="empty" id="empty" hidden>Nothing matches these filters.</p>
+  <noscript><p class="empty">Showing the newest stories. Turn on JavaScript for the full feed, filters and bookmarks.</p></noscript>
+</main>
+
+<footer>
+  <p>OniMugen+ collects gaming headlines from __SOURCE_COUNT__ sites, including IGN, GameSpot, Eurogamer, VGC, Kotaku,
+  PlayStation Blog, Xbox Wire, Nintendo, Steam, Reddit leaks and the Japanese press, and updates every 10 minutes.
+  Every story belongs to its publisher.</p>
+  <p><a href="feed.xml">RSS feed</a></p>
+</footer>
+
+<button type="button" class="to-top" id="to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><path d="m6 15 6-6 6 6"/></svg>
+</button>
+
+<div class="sheet-wrap" id="saved" hidden>
+  <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="saved-title">
+    <div class="sheet-head">
+      <h2 id="saved-title">Bookmarks</h2>
+      <button type="button" class="icon" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <ul class="list" id="saved-list"></ul>
+    <p class="empty" id="saved-empty">Bookmark a story and it will stay here.</p>
+  </section>
+</div>
+
+<div class="sheet-wrap" id="settings" hidden>
+  <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+    <div class="sheet-head">
+      <h2 id="settings-title">Settings</h2>
+      <button type="button" class="icon" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="sheet-body">
+      <h3>Theme</h3>
+      <div class="segmented" id="themes" role="radiogroup" aria-label="Theme">
+        <button type="button" data-t="dark" role="radio">Dark</button>
+        <button type="button" data-t="light" role="radio">Light</button>
+        <button type="button" data-t="arcade" role="radio">Arcade</button>
+      </div>
+
+      <h3>Muted words</h3>
+      <form class="field" id="mute-form">
+        <input type="text" id="mute-input" placeholder="Hide headlines containing…" maxlength="60" autocomplete="off" aria-label="Word to mute">
+        <button type="submit" class="pill">Mute</button>
+      </form>
+      <div class="tags-edit" id="mute-list"></div>
+
+      <h3>Sources <span class="count" id="src-count"></span></h3>
+      <div class="src-actions">
+        <button type="button" class="link" data-all="show">Show all</button>
+        <button type="button" class="link" data-all="hide">Hide all</button>
+      </div>
+      <ul class="list sources" id="src-list"></ul>
+    </div>
+  </section>
+</div>
+</body>
+</html>
