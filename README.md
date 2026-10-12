@@ -74,8 +74,12 @@ address was found, put it in `sources.json`.
 
 ## Keeping the schedule alive
 
-GitHub switches off scheduled workflows after 60 days without a commit. On the 1st of each month
-the workflow updates the date in `sitemap.xml` and commits it, which keeps the schedule running.
+GitHub switches off scheduled workflows after 60 days without a commit. Every Monday
+the workflow writes the date into `.keepalive` and commits it, which keeps the schedule
+running well inside the 60-day window even if a few weekly runs are skipped or fail.
+
+If the Actions tab ever shows "This scheduled workflow is disabled...", click **Enable
+workflow** once and the weekly keep-alive takes over from there.
 
 ## Search engines
 
